@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "mp7"
+    },
+    {
+      "name": "mp7_mag"
+    },
+    {
+      "name": "mp7_suppressor"
+    },
+    {
+      "name": "mp7_suppressor_makeshift"
+    },
+    {
+      "name": "makeshift"
+    },
+    {
+      "name": "makeshift_bolt"
+    },
+    {
+      "name": "makeshift_bolt_locked"
+    },
+    {
+      "name": "makeshift_suppressor"
+    },
+    {
+      "name": "makeshift_suppressor_makeshift"
+    },
+    {
+      "name": "m1911"
+    },
+    {
+      "name": "m1911_bolt"
+    },
+    {
+      "name": "m1911_bolt_locked"
+    },
+    {
+      "name": "suppressor_makeshift"
+    },
+    {
+      "name": "pulsesmg"
+    },
+    {
+      "name": "m4a1"
+    },
+    {
+      "name": "m4a1_mag"
+    },
+    {
+      "name": "uspmatch"
+    },
+    {
+      "name": "uspmatch_bolt"
+    },
+    {
+      "name": "uspmatch_bolt_locked"
+    },
+    {
+      "name": "antixenshotgun"
+    },
+    {
+      "name": "ar2"
+    },
+    {
+      "name": "ar2_mag"
+    },
+    {
+      "name": "spas12"
+    },
+    {
+      "name": "colt_python"
+    },
+    {
+      "name": "blued_python"
+    },
+    {
+      "name": "combine_sniper"
+    },
+    {
+      "name": "suppressor"
+    },
+    {
+      "name": "rebarxbow_empty"
+    },
+    {
+      "name": "rebarxbow_bolt"
+    },
+    {
+      "name": "rebarxbow_bolt_locked"
+    },
+    {
+      "name": "rebarxbow"
+    },
+    {
+      "name": "derringer"
+    },
+    {
+      "name": "ak47"
+    },
+    {
+      "name": "ak47_mag"
+    },
+    {
+      "name": "service"
+    },
+    {
+      "name": "service_wood"
+    },
+    {
+      "name": "service_mag"
+    },
+    {
+      "name": "snubnose"
+    },
+    {
+      "name": "service_wood_mag"
+    },
+    {
+      "name": "immolator"
+    },
+    {
+      "name": "rocketlauncher"
+    },
+    {
+      "name": "rocketlauncher_loaded"
+    },
+    {
+      "name": "rocketlauncher_empty"
+    },
+    {
+      "name": "cheapak47"
+    },
+    {
+      "name": "cheapak47_mag"
+    },
+    {
+      "name": "tranq"
+    }
+  ]
+}

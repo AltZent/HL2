@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Made by PatoGrone for Nuclear 14 | Upscaled x3 from _Nuclear14/Objects/Weapons/Melee/shield_heavy.rsi (Nuclear14 / MesaLife storage icons)",
+  "size": {
+    "x": 96,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "icon"
+    }
+  ]
+}

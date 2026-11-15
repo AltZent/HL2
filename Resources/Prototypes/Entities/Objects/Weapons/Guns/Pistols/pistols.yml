@@ -82,6 +82,7 @@
     staminaCost: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViper
@@ -123,6 +124,7 @@
     fireOnDropChance: 0.3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
@@ -134,6 +136,7 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponPistolViperNonLethal
   parent: WeaponPistolViper
   suffix: Non-lethal
@@ -161,6 +164,7 @@
             - CartridgePistol
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponPistolViperSecurityNonLethal
   parent: WeaponPistolViperNonLethal
   suffix: Non-lethal, SecurityLoadouts
@@ -171,6 +175,7 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cobra
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
@@ -220,6 +225,7 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mk 58
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
@@ -243,6 +249,7 @@
     fireOnDropChance: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
@@ -254,6 +261,7 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponPistolMk58Nonlethal
   parent: WeaponPistolMk58
   suffix: Non-lethal
@@ -280,6 +288,7 @@
             - CartridgePistol
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponPistolMk58SecurityNonlethal
   parent: WeaponPistolMk58Nonlethal
   suffix: Non-lethal, Security Loadouts
@@ -290,6 +299,7 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: N1984
   parent: BaseWeaponPistol
   id: WeaponPistolN1984 # the spaces in description are for formatting.
@@ -335,6 +345,7 @@
             - CartridgeMagnum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
@@ -346,6 +357,7 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984NonLethal
@@ -373,6 +385,7 @@
             - CartridgeMagnum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: N1984
   parent: WeaponPistolN1984NonLethal
   id: WeaponPistolN1984SecurityNonLethal

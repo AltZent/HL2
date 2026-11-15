@@ -1,6 +1,7 @@
 # Wastelanders
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SpawnPointJobBase
   id: N14SpawnPointWastelander
   name: wastelander
@@ -15,6 +16,7 @@
 
 # BOS Midwest
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSMidPaladinCommander
   parent: N14SpawnPointWastelander
   name: BOS midwest paladin commander
@@ -28,6 +30,7 @@
       - state: commander
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSMidKnight
   parent: N14SpawnPointBoSMidPaladinCommander
   name: BOS midwest knight
@@ -40,6 +43,7 @@
       - state: knight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSMidPaladin
   parent: N14SpawnPointBoSMidPaladinCommander
   name: BOS midwest paladin
@@ -52,6 +56,7 @@
       - state: paladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSMidInitiate # change this when I care
   parent: N14SpawnPointBoSMidPaladinCommander
   name: BOS midwest squire
@@ -64,6 +69,7 @@
       - state: squire
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSMidScribe
   parent: N14SpawnPointBoSMidPaladinCommander
   name: BOS midwest scribe
@@ -77,6 +83,7 @@
 
 # BOS Washington
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSWashingtonCommander
   parent: N14SpawnPointWastelander
   name: BOS washington commander
@@ -90,6 +97,7 @@
       - state: commander
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSWashingtonInitiate
   parent: N14SpawnPointBoSWashingtonCommander
   name: BOS washington recruit
@@ -102,6 +110,7 @@
       - state: initiate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSWashingtonPaladin
   parent: N14SpawnPointBoSWashingtonCommander
   name: BOS washington captain
@@ -114,6 +123,7 @@
       - state: paladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSWashingtonKnight
   parent: N14SpawnPointBoSWashingtonCommander
   name: BOS washington soldier
@@ -126,6 +136,7 @@
       - state: knight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointBoSWashingtonScribe
   parent: N14SpawnPointBoSWashingtonCommander
   name: BOS washington researcher
@@ -139,6 +150,7 @@
 
 # Caravan Company
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointCaravanLeader
   parent: N14SpawnPointWastelander
   name: caravan leader
@@ -152,6 +164,7 @@
       - state: leader
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointCaravanTrader
   parent: N14SpawnPointCaravanLeader
   name: caravan trader
@@ -164,6 +177,7 @@
       - state: trader
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointCaravanGuard
   parent: N14SpawnPointCaravanLeader
   name: caravan guard
@@ -177,6 +191,7 @@
 
 # NCR
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRCadet
   parent: N14SpawnPointWastelander
   name: NCR cadet
@@ -190,6 +205,7 @@
       - state: cadet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRMedic
   parent: N14SpawnPointNCRCadet
   name: NCR doctor
@@ -202,6 +218,7 @@
       - state: medic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRSGT
   parent: N14SpawnPointNCRCadet
   name: NCR SGT
@@ -214,6 +231,7 @@
       - state: sgt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRLT
   parent: N14SpawnPointNCRCadet
   name: NCR LT
@@ -226,6 +244,7 @@
       - state: lt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRWS
   parent: N14SpawnPointNCRCadet
   name: NCR WS
@@ -238,6 +257,7 @@
       - state: ws
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCREngineer
   parent: N14SpawnPointNCRCadet
   name: NCR Engineer
@@ -250,6 +270,7 @@
       - state: engineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRRanger
   parent: N14SpawnPointNCRCadet
   name: NCR ranger
@@ -262,6 +283,7 @@
       - state: ranger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRRangerVeteran
   parent: N14SpawnPointNCRCadet
   name: NCR ranger veteran
@@ -274,6 +296,7 @@
       - state: rangerveteran
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointNCRSoldier
   parent: N14SpawnPointNCRCadet
   name: NCR Soldier
@@ -287,6 +310,7 @@
 
 # Rangers
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointRangerRecruit
   parent: N14SpawnPointWastelander
   name: ranger recruit
@@ -300,6 +324,7 @@
       - state: recruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointRanger
   parent: N14SpawnPointRangerRecruit
   name: ranger
@@ -312,6 +337,7 @@
       - state: ranger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointRangerVeteran
   parent: N14SpawnPointRangerRecruit
   name: ranger veteran
@@ -325,6 +351,7 @@
 
 # Tribals
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTribal
   parent: N14SpawnPointWastelander
   name: tribal
@@ -338,6 +365,7 @@
       - state: tribal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTribalElder
   parent: N14SpawnPointTribal
   name: tribal elder
@@ -350,6 +378,7 @@
       - state: elder
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTribalFarmer
   parent: N14SpawnPointTribal
   name: tribal farmer
@@ -362,6 +391,7 @@
       - state: farmer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTribalHealer
   parent: N14SpawnPointTribal
   name: tribal healer
@@ -375,6 +405,7 @@
 
 # Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointOverseer
   parent: N14SpawnPointWastelander
   name: overseer
@@ -388,6 +419,7 @@
       - state: overseer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointVaultDoctor
   parent: N14SpawnPointOverseer
   name: vault doctor
@@ -400,6 +432,7 @@
       - state: doctor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointVaultDweller
   parent: N14SpawnPointOverseer
   name: vault dweller
@@ -412,6 +445,7 @@
       - state: dweller
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointVaultEngineer
   parent: N14SpawnPointOverseer
   name: vault engineer
@@ -424,6 +458,7 @@
       - state: engineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointVaultSecurity
   parent: N14SpawnPointOverseer
   name: vault security
@@ -437,6 +472,7 @@
 
 # Wastelanders
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointWastelandBartender
   parent: N14SpawnPointWastelander
   name: wasteland bartender
@@ -449,6 +485,7 @@
       - state: bartender
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointWastelandChaplain
   parent: N14SpawnPointWastelander
   name: wasteland chaplain
@@ -461,6 +498,7 @@
       - state: chaplain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointWastelandFarmer
   parent: N14SpawnPointWastelander
   name: wasteland farmer
@@ -486,6 +524,7 @@
       - state: musician
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointWastelandReporter
   parent: N14SpawnPointWastelander
   name: wasteland reporter
@@ -512,6 +551,7 @@
 
 # Townsfolk
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownsperson
   parent: N14SpawnPointWastelander
   name: townsperson
@@ -525,6 +565,7 @@
       - state: person
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownMechanic
   parent: N14SpawnPointTownsfolkTownsperson
   name: town mechanic
@@ -537,6 +578,7 @@
       - state: mechanic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownDoctor
   parent: N14SpawnPointTownsfolkTownsperson
   name: town doctor
@@ -549,6 +591,7 @@
       - state: doctor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownShopkeeper
   parent: N14SpawnPointTownsfolkTownsperson
   name: town shopkeeper
@@ -561,6 +604,7 @@
       - state: shopkeeper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownDeputy
   parent: N14SpawnPointTownsfolkTownsperson
   name: town deputy
@@ -573,6 +617,7 @@
       - state: deputy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownSheriff
   parent: N14SpawnPointTownsfolkTownsperson
   name: town sheriff
@@ -585,6 +630,7 @@
       - state: sheriff
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointTownsfolkTownMayor
   parent: N14SpawnPointTownsfolkTownsperson
   name: town mayor
@@ -599,6 +645,7 @@
 
 # Fun / Misc
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointFollowers
   parent: N14SpawnPointWastelander
   name: followers of the apocalypse
@@ -611,6 +658,7 @@
       - state: zetan
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SpawnPointZetan
   parent: N14SpawnPointWastelander
   name: Zetan

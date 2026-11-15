@@ -1,0 +1,50 @@
+# ML medical stacks
+- type: stack
+  id: MLMedMedkit
+  name: "medkit"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: medkit }
+  spawn: MLMedMedkit
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedMedicalkit
+  name: "medical kit"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: medicalkit }
+  spawn: MLMedMedicalkit
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedHealthpen
+  name: "healthpen"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: healthpen }
+  spawn: MLMedHealthpen
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedParacetamol
+  name: "paracetamol pills"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: paracetamol }
+  spawn: MLMedParacetamol
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedOxycodone
+  name: "oxycodone pills"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: oxycodone }
+  spawn: MLMedOxycodone
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedInhaler
+  name: "inhaler"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: inhaler }
+  spawn: MLMedInhaler
+  maxCount: 5
+  itemSize: 1
+- type: stack
+  id: MLMedScreechpen
+  name: "screech pen"
+  icon: { sprite: "_MesaLife/Objects/ML/Medical/medkits.rsi", state: screechpen }
+  spawn: MLMedScreechpen
+  maxCount: 5
+  itemSize: 1

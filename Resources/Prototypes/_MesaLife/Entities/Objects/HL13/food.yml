@@ -1,0 +1,598 @@
+# Auto-generated ML food (halflife-episode13 assets).
+- type: entity
+  id: MLFoodOldbox
+  parent: FoodBase
+  name: "old ration box"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldbox
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodOldbar1
+  parent: FoodBase
+  name: "old ration bar"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldbar1
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodOldbar2
+  parent: FoodBase
+  name: "old ration bar (2)"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldbar2
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodOldbar3
+  parent: FoodBase
+  name: "old ration bar (3)"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldbar3
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodOldflavorbar
+  parent: FoodBase
+  name: "old flavor bar"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldflavorbar
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodNutripaste
+  parent: FoodBase
+  name: "nutripaste tube"
+  description: "A tube full of nutripaste. This looks absolutely abhorrent, and makes the standard ration bars taste like a delicacy in comparison. At the least, it is rather nutritious."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: nutripaste
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 20
+- type: entity
+  id: MLFoodRawpierogi
+  parent: FoodBase
+  name: "raw pierogi"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: rawpierogi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodPierogi
+  parent: FoodBase
+  name: "pierogi"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: pierogi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodPierogiration
+  parent: FoodBase
+  name: "nutriment pierogi"
+  description: "Nowadays, the only thing that makes you want to get up in the morning to grab a ration and live another day is the mere chance to get one of these in your rations."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: pierogiration
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodPorknbean
+  parent: FoodOpenableBase
+  name: "tin of pork beans"
+  description: "Old world beans with bits of pork floating inside. Better than rations at least."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: porknbean
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: porknbean_open }
+          False: { state: porknbean }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodSeafood
+  parent: FoodOpenableBase
+  name: "tin of fish"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: seafood
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: seafood_open }
+          False: { state: seafood }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodSeafoodexpired
+  parent: FoodOpenableBase
+  name: "tin of fish"
+  description: "Some sort of chopped up fish crammed into a tin. It smells terrible, and looks just as bad, but hopefully is edible."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: seafoodexpired
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: seafoodexpired_open }
+          False: { state: seafoodexpired }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodCrisps
+  parent: FoodOpenableBase
+  name: "tin of crisps"
+  description: "A tin tube filled with crisps. They're stale, but the salt is good as ever at least, and it is still gourmet in comparison to rations."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: crisps
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: crisps_open }
+          False: { state: crisps }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodPinenutscan
+  parent: FoodOpenableBase
+  name: "tin of pine nuts"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: pinenutscan
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: pinenutscan_open }
+          False: { state: pinenutscan }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodDevilledbar
+  parent: FoodBase
+  name: "devilled bar"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: devilledbar
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodMayobox
+  parent: FoodBase
+  name: "tin of mayo"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: mayobox
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodXenstew
+  parent: FoodBase
+  name: "survivalist stew can"
+  description: "A can filled with warm water, and a combination of diced potatoes, onions, and xenian meat. It smells rather good, actually."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: xenstew
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 20
+- type: entity
+  id: MLFoodPorkstew
+  parent: FoodBase
+  name: "tin of pork stew"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: porkstew
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 20
+- type: entity
+  id: MLFoodBarPackage
+  parent: FoodBase
+  name: "Water flavored nutrient bar"
+  description: "A Water flavored nutrient bar with it's wrapping on."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: bar_package
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodBarPackage2
+  parent: FoodBase
+  name: "Pork flavored nutrient bar"
+  description: "A Pork flavored nutrient bar with it's wrapping on."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: bar_package_2
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodBarPackage3
+  parent: FoodBase
+  name: "beef patty"
+  description: "A beef patty with it's wrapping on."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: bar_package_3
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodBarPackage4
+  parent: FoodBase
+  name: "Desiccated Sustenance Dust"
+  description: "A packet filled with a dry dust that tastes like absolutely nothing. Can be mixed with water to create a soup to draw out more sustenance. It is incredibly depressing to eat and not that nutritious, but at the least there aren't any gross flavors."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: bar_package_4
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodWaterBar
+  parent: FoodBase
+  name: "Water flavored nutrient bar"
+  description: "A combine nutrient bar found in rations, consisting of solidified vitamins and nutriments in a waxy bar. This one tastes like moldy water that has been in a plastic bottle for too long."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: water_bar
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodPorkBar
+  parent: FoodBase
+  name: "Pork flavored nutrient bar"
+  description: "A combine nutrient bar found in rations, consisting of solidified vitamins and nutriments in a waxy bar. This one tastes like pig lard."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: pork_bar
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodFoodPackage
+  parent: FoodOpenableBase
+  name: "Egg paste ration box"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: food_package
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: food_package_open }
+          False: { state: food_package }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodFoodPackage2
+  parent: FoodOpenableBase
+  name: "Chicken paste ration box"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: food_package_2
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: food_package_2_open }
+          False: { state: food_package_2 }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodFoodPackage3
+  parent: FoodOpenableBase
+  name: "Cookie ration box"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: food_package_3
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: food_package_3_open }
+          False: { state: food_package_3 }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodFoodPackage4
+  parent: FoodOpenableBase
+  name: "Flour paste ration box"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    layers:
+    - state: food_package_4
+      map: ["icon"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        icon:
+          True: { state: food_package_4_open }
+          False: { state: food_package_4 }
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodFlourPaste
+  parent: FoodBase
+  name: "flour paste"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: flour_paste
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodEggPaste
+  parent: FoodBase
+  name: "egg paste"
+  description: "A solid mass of paste which jiggles like jello. It is flavored to taste like boiled eggs, but the consistency has it feeling like raw egg whites."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: egg_paste
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodChickenPaste
+  parent: FoodBase
+  name: "chicken paste"
+  description: "A solid mass of paste which jiggles like jello. It is flavored to taste like chicken, but the consistency leaves an unpleasant mouth feel."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: chicken_paste
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodCookie
+  parent: FoodBase
+  name: "cookie"
+  description: "Half-Life: Episode 13 ration food."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: cookie
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+- type: entity
+  id: MLFoodBeefPatty
+  parent: FoodBase
+  name: "Beef patty"
+  description: "A solidifed circular formation of nutriments that is painted brown and given drawn on char marks. Regardless of it's fakeness, the slightly beefy taste is not so bad."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: beef_patty
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodGrilledfish
+  parent: FoodBase
+  name: "grilled leech fillet"
+  description: "A simple grilled fillet of leech."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: grilledfish
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+- type: entity
+  id: MLFoodNutricube
+  parent: FoodBase
+  name: "Nutricube"
+  description: "A dense cube of nutripaste that you might find in poor quality rations and other horrible places. It could be eaten if you hate yourself, or it could be sold on the Cargo train."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: nutricube
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10

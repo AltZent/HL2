@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskHockey
   name: hockey mask
@@ -22,6 +23,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskPlate
   name: plate mask
@@ -45,6 +47,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskGrill
   name: steel grill mask
@@ -68,6 +71,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMaskBrownBalaclava
   name: brown balaclava
@@ -85,6 +89,7 @@
     - Snout
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMaskBlackBalaclava
   name: black balaclava
@@ -103,6 +108,7 @@
   - type: IdentityBlocker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMaskWhiteBalaclava
   name: white balaclava
@@ -121,6 +127,7 @@
   - type: IdentityBlocker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskSkirmisher
   name: skirmisher mask
@@ -144,6 +151,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: N14ClothingMasktribalWar
   name: tribal war mask
@@ -168,6 +176,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMarksmanMask
   name: Red ski mask and goggles.
@@ -189,6 +198,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingHalfWraps
   name: tan half facewrap
@@ -205,6 +215,7 @@
   - type: IdentityBlocker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMaskGoldenFace
   name: golden facial mask

@@ -24,6 +24,7 @@
     - ears
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaulttec #No longer used, all Vault dwellers got the same headset now
   name: Vault-Tec over-ear headset
@@ -38,6 +39,7 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultCommand #No longer used, all Vault dwellers got the same headset now
   name: command over-ear headset
@@ -52,6 +54,7 @@
     sprite: Clothing/Ears/Headsets/command.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultDweller
   name: vault over-ear headset
@@ -66,6 +69,7 @@
     sprite: Clothing/Ears/Headsets/cargo.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultMedical #No longer used, all Vault dwellers got the same headset now
   name: medical over-ear headset
@@ -81,6 +85,7 @@
     sprite: Clothing/Ears/Headsets/medical.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultSecurity #No longer used, all Vault dwellers got the same headset now
   name: security over-ear headset
@@ -96,6 +101,7 @@
     sprite: Clothing/Ears/Headsets/security.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultEngineering #No longer used, all Vault dwellers got the same headset now
   name: engineering over-ear headset
@@ -111,6 +117,7 @@
     sprite: Clothing/Ears/Headsets/engineering.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetVaultScience #No longer used, all Vault dwellers got the same headset now
   name: science over-ear headset
@@ -126,6 +133,7 @@
     sprite: Clothing/Ears/Headsets/science.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetBOSMidwest
   name: midwest radio earpiece
@@ -140,6 +148,7 @@
     sprite: Clothing/Ears/Headsets/command.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetBOSWashington
   name: washington radio earpiece
@@ -171,6 +180,7 @@
     sprite: Clothing/Ears/Headsets/security.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetAlt
   id: N14ClothingHeadsetNCR
   name: NCR radio earpiece

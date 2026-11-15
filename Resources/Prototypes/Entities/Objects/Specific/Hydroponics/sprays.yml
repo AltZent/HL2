@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Plant-B-Gone
   id: PlantBGoneSpray
   parent: SprayBottle
@@ -25,6 +26,7 @@
     heldPrefix: plantbgone
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: weed spray
   id: WeedSpray
   parent: SprayBottle
@@ -54,6 +56,7 @@
     sprite: Objects/Tools/Hydroponics/sprays.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pest spray
   id: PestSpray
   parent: WeedSpray

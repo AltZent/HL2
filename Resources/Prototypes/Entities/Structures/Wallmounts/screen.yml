@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Screen
   name: screen
   description: Displays text or time.
@@ -39,6 +40,7 @@
     receiveFrequencyId: ShuttleTimer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ArrivalsShuttleTimer
   parent: Screen
   name: arrivals screen

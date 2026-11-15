@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MagazineLightRifleBox # It goes in a saw, its funny.
   id: MagazineFoamBox
   name: ammunition box (foam)

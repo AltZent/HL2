@@ -32,6 +32,7 @@
         density: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFence
   id: N14WallFenceChain
   name: chainlink fence

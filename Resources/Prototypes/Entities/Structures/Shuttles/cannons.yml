@@ -55,6 +55,7 @@
 # example: LSE-100e "Clown destroyer" (powered by the wiring, very weak)
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-400c "Svalinn machine gun"
@@ -108,6 +109,7 @@
   - type: MagazineAmmoProvider
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-1200c "Perforator"
@@ -163,6 +165,7 @@
 # example: EXP-100c "Poppy"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
   name: EXP-320g "Friendship"
@@ -216,6 +219,7 @@
     zeroVisible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
   name: EXP-2100g "Duster"
@@ -276,6 +280,7 @@
 # ---- Other weapon ----
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
   name: pirate ship cannon
@@ -313,6 +318,7 @@
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: PTK-800 "Matter Dematerializer"

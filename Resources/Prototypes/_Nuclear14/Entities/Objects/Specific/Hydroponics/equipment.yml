@@ -1,6 +1,5 @@
-# Compost / Soil / Fertiliser
-
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStorageItem
   id: N14Sack
   name: sack
@@ -12,6 +11,9 @@
     netsync: true
     scale: 0.75, 0.75
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/Sacks/daesack.rsi
+      state: icon
     size: Huge
   - type: Storage
     maxItemSize: Huge
@@ -28,6 +30,7 @@
     - ComposterCompatible
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Sack
   id: N14Sack4
   components:
@@ -36,6 +39,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Sack
   id: N14Sack5
   components:
@@ -44,6 +48,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14SackCompost
   name: compost sack
@@ -55,6 +60,9 @@
     netsync: true
     scale: 0.75, 0.75
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/Sacks/daesack3.rsi
+      state: icon
     size: Huge
   - type: PhysicalComposition
     materialComposition:
@@ -79,6 +87,7 @@
     - ComposterCompatible
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SackCompost
   id: N14SackCompostFull
   suffix: full
@@ -92,6 +101,7 @@
           # Quantity: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SackCompost
   id: N14SackFertilizer
   name: fertilizer sack
@@ -107,6 +117,7 @@
     node: sack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SackFertilizer
   id: N14SackFertilizerFull
   suffix: full

@@ -1,0 +1,82 @@
+# Cargo catalog entries for ML crates. Categories are the shared
+# cargoProduct categories used by the N14 catalog.
+
+- type: cargoProduct
+  id: MLAmmo9mmCrate
+  icon:
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    state: icon
+  product: MLCrateFilledAmmo9mm
+  cost: 300
+  category: Armory
+  group: market
+
+- type: cargoProduct
+  id: MLAmmo46mmCrate
+  icon:
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    state: icon
+  product: MLCrateFilledAmmo46mm
+  cost: 350
+  category: Armory
+  group: market
+
+- type: cargoProduct
+  id: MLMedicalCrate
+  icon:
+    sprite: _MesaLife/Objects/ML/Medical/medkits.rsi
+    state: medkit
+  product: MLCrateFilledMedical
+  cost: 250
+  category: Medical / Aid
+  group: market
+
+- type: cargoProduct
+  id: MLFoodCrate
+  icon:
+    sprite: _MesaLife/Objects/ML/Food/food.rsi
+    state: oldbox
+  product: MLCrateFilledFood
+  cost: 150
+  category: Consumables
+  group: market
+
+- type: cargoProduct
+  id: MLBreenWaterCrate
+  icon:
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can
+  product: MLCrateFilledBreenWater
+  cost: 100
+  category: Consumables
+  group: market
+
+- type: cargoProduct
+  id: MLWeaponsCrate
+  icon:
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mp7.rsi
+    state: icon
+  product: MLCrateFilledWeapons
+  cost: 600
+  category: Armory
+  group: market
+
+- type: cargoProduct
+  id: MLGrenadeCrate
+  icon:
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    state: icon
+  product: MLCrateFilledGrenades
+  cost: 350
+  category: Armory
+  group: market
+
+- type: cargoProduct
+  id: MLMaterialsCrate
+  icon:
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-scrapmetal
+  product: MLCrateFilledMaterials
+  cost: 150
+  category: Materials
+  group: market

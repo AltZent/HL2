@@ -20,7 +20,7 @@
   parent: [PartHuman, BaseTorso]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "torso_m"
   - type: Extractable
     juiceSolution:
@@ -40,7 +40,7 @@
   parent: [PartHuman, BaseHead]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "head_m"
   - type: Extractable
     juiceSolution:
@@ -60,7 +60,7 @@
   parent: [PartHuman, BaseLeftArm]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "l_arm"
   - type: StaticPrice
     price: 10
@@ -73,7 +73,7 @@
   parent: [PartHuman, BaseRightArm]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "r_arm"
   - type: StaticPrice
     price: 10
@@ -86,7 +86,7 @@
   parent: [PartHuman, BaseLeftHand]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "l_hand"
   - type: StaticPrice
     price: 5
@@ -99,7 +99,7 @@
   parent: [PartHuman, BaseRightHand]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "r_hand"
   - type: StaticPrice
     price: 5
@@ -112,7 +112,7 @@
   parent: [PartHuman, BaseLeftLeg]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "l_leg"
   - type: StaticPrice
     price: 10
@@ -125,7 +125,7 @@
   parent: [PartHuman, BaseRightLeg]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "r_leg"
   - type: StaticPrice
     price: 10
@@ -138,7 +138,7 @@
   parent: [PartHuman, BaseLeftFoot]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "l_foot"
   - type: StaticPrice
     price: 5
@@ -151,7 +151,7 @@
   parent: [PartHuman, BaseRightFoot]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: "r_foot"
   - type: StaticPrice
     price: 5

@@ -1,5 +1,6 @@
 # Metal Tiles
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor blue
   parent: FloorTileItemBase
   id: FloorTileItemMetalBlue
@@ -16,6 +17,7 @@
     stackType: FloorTileMetalBlue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor blue solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalBlueSolid
@@ -32,6 +34,7 @@
     stackType: FloorTileMetalBlueSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor green
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreen
@@ -48,6 +51,7 @@
     stackType: FloorTileMetalGreen
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor green solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreenSolid
@@ -64,6 +68,7 @@
     stackType: FloorTileMetalGreenSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor grey
   parent: FloorTileItemBase
   id: FloorTileItemMetalGrey
@@ -80,6 +85,7 @@
     stackType: FloorTileMetalGrey
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor grey solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreySolid
@@ -96,6 +102,7 @@
     stackType: FloorTileMetalGreySolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor grey dark
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreyDark
@@ -112,6 +119,7 @@
     stackType: FloorTileMetalGreyDark
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor grey dark solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreyDarkSolid
@@ -128,6 +136,7 @@
     stackType: FloorTileMetalGreyDarkSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor purple
   parent: FloorTileItemBase
   id: FloorTileItemMetalPurple
@@ -144,6 +153,7 @@
     stackType: FloorTileMetalPurple
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor purple solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalPurpleSolid
@@ -160,6 +170,7 @@
     stackType: FloorTileMetalPurpleSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor red
   parent: FloorTileItemBase
   id: FloorTileItemMetalRed
@@ -176,6 +187,7 @@
     stackType: FloorTileMetalRed
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor red solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalRedSolid
@@ -192,6 +204,7 @@
     stackType: FloorTileMetalRedSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor teal
   parent: FloorTileItemBase
   id: FloorTileItemMetalTeal
@@ -208,6 +221,7 @@
     stackType: FloorTileMetalTeal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor teal solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalTealSolid
@@ -224,6 +238,7 @@
     stackType: FloorTileMetalTealSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor white
   parent: FloorTileItemBase
   id: FloorTileItemMetalWhite
@@ -240,6 +255,7 @@
     stackType: FloorTileMetalWhite
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor white solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalWhiteSolid
@@ -256,6 +272,7 @@
     stackType: FloorTileMetalWhiteSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor yellow
   parent: FloorTileItemBase
   id: FloorTileItemMetalYellow
@@ -272,6 +289,7 @@
     stackType: FloorTileMetalYellow
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor yellow solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalYellowSolid
@@ -288,6 +306,7 @@
     stackType: FloorTileMetalYellowSolid
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor freezer
   parent: FloorTileItemBase
   id: FloorTileItemMetalFreezer
@@ -306,6 +325,7 @@
 # Wood Tiles
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: oak wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodOak
@@ -325,6 +345,7 @@
 #    node: woodtileoak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: house wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodHouse
@@ -344,6 +365,7 @@
 #    node: woodtiledark
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: maple floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodMaple
@@ -363,6 +385,7 @@
 #    node: woodtilelight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: industrial floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalIndustrial
@@ -379,6 +402,7 @@
     stackType: FloorTileMetalIndustrial
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalMS13
@@ -395,6 +419,7 @@
     stackType: FloorTileMetalMS13
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal grate floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalGrate
@@ -411,6 +436,7 @@
     stackType: FloorTileMetalGrate
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal solid floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalSolid
@@ -429,6 +455,7 @@
 # Carpets
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: red carpet
   parent: FloorTileItemBase
   id: FloorTileItemCarpetRed

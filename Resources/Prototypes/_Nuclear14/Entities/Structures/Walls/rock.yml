@@ -1,6 +1,7 @@
 
 # Rock
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGrey
   parent: BaseWall
   name: asteroid rock
@@ -46,6 +47,7 @@
 
 # Ore veins
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreyCoal
   parent: N14RockGrey
   description: An ore vein rich with coal.
@@ -68,6 +70,7 @@
         - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreyGold
   parent: N14RockGrey
   description: An ore vein rich with gold.
@@ -90,6 +93,7 @@
         - state: rock_gold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreySilver
   parent: N14RockGrey
   description: An ore vein rich with silver.
@@ -112,6 +116,7 @@
         - state: rock_silver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreySteel
   parent: N14RockGrey
   description: An ore vein rich with Steel.
@@ -134,6 +139,7 @@
         - state: rock_tin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreyUranium
   parent: N14RockGrey
   description: An ore vein rich with uranium.
@@ -156,6 +162,7 @@
         - state: rock_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreyMining
   parent: N14RockGrey
   name: ore vein
@@ -179,6 +186,7 @@
       - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SteelRock
   parent: N14RockGrey
   name: ore vein
@@ -203,6 +211,7 @@
         state: rock_asteroid_west
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockGreySalt
   parent: N14RockGrey
   description: An ore vein rich with salt.
@@ -225,6 +234,7 @@
         - state: rock_salt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14RockMining
   parent: SteelRock
   name: ore evin
@@ -238,6 +248,7 @@
 
 # Rocks and ore veins
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRock
   parent: BaseWall
   name: rock
@@ -283,6 +294,7 @@
 
 # Ore veins
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockCoal
   parent: N14WallRock
   description: An ore vein rich with coal.
@@ -305,6 +317,7 @@
         - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockGold
   parent: N14WallRock
   description: An ore vein rich with gold.
@@ -327,6 +340,7 @@
         - state: rock_gold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSilver
   parent: N14WallRock
   description: An ore vein rich with silver.
@@ -349,6 +363,7 @@
         - state: rock_silver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSteel
   parent: N14WallRock
   description: An ore vein rich with Steel.
@@ -371,6 +386,7 @@
         - state: rock_tin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockUranium
   parent: N14WallRock
   description: An ore vein rich with uranium.
@@ -393,6 +409,7 @@
         - state: rock_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSalt
   parent: N14WallRock
   description: An ore vein rich with salt.
@@ -416,6 +433,7 @@
 
 # Basalt variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasalt
   name: basalt
   parent: N14WallRock
@@ -437,6 +455,7 @@
           state: rock_wall_west
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltCoal
   parent: N14WallRockBasalt
   description: An ore vein rich with coal.
@@ -459,6 +478,7 @@
         - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltGold
   parent: N14WallRockBasalt
   description: An ore vein rich with gold.
@@ -481,6 +501,7 @@
         - state: rock_gold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltSilver
   parent: N14WallRockBasalt
   description: An ore vein rich with silver.
@@ -503,6 +524,7 @@
         - state: rock_silver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltSteel
   parent: N14WallRockBasalt
   description: An ore vein rich with Steel.
@@ -525,6 +547,7 @@
         - state: rock_tin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltUranium
   parent: N14WallRockBasalt
   description: An ore vein rich with uranium.
@@ -547,6 +570,7 @@
         - state: rock_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockBasaltSalt
   parent: N14WallRockBasalt
   description: An ore vein rich with salt.
@@ -570,6 +594,7 @@
 
 # Sand variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSand
   name: sandstone
   parent: N14WallRock
@@ -591,6 +616,7 @@
           state: rock_sand_west
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandCoal
   parent: N14WallRockSand
   description: An ore vein rich with coal.
@@ -613,6 +639,7 @@
         - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandGold
   parent: N14WallRockSand
   description: An ore vein rich with gold.
@@ -635,6 +662,7 @@
         - state: rock_gold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandSilver
   parent: N14WallRockSand
   description: An ore vein rich with silver.
@@ -657,6 +685,7 @@
         - state: rock_silver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandSteel
   parent: N14WallRockSand
   description: An ore vein rich with Steel.
@@ -679,6 +708,7 @@
         - state: rock_tin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandUranium
   parent: N14WallRockSand
   description: An ore vein rich with uranium.
@@ -701,6 +731,7 @@
         - state: rock_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockSandSalt
   parent: N14WallRockSand
   description: An ore vein rich with salt.
@@ -724,6 +755,7 @@
 
 # Andesite variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesite
   name: andesite
   parent: N14WallRock
@@ -745,6 +777,7 @@
           state: rock_andesite_west
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteCoal
   parent: N14WallRockAndesite
   description: An ore vein rich with coal.
@@ -767,6 +800,7 @@
         - state: rock_coal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteGold
   parent: N14WallRockAndesite
   description: An ore vein rich with gold.
@@ -789,6 +823,7 @@
         - state: rock_gold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteSilver
   parent: N14WallRockAndesite
   description: An ore vein rich with silver.
@@ -811,6 +846,7 @@
         - state: rock_silver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteSteel
   parent: N14WallRockAndesite
   description: An ore vein rich with Steel.
@@ -833,6 +869,7 @@
         - state: rock_tin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteUranium
   parent: N14WallRockAndesite
   description: An ore vein rich with uranium.
@@ -855,6 +892,7 @@
         - state: rock_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRockAndesiteSalt
   parent: N14WallRockAndesite
   description: An ore vein rich with salt.
@@ -878,6 +916,7 @@
 
 # Cold Mountain Rock.
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ColdMountainRock
   parent: BaseStructure
   name: cold mountain rock

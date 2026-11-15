@@ -1,7 +1,9 @@
 - type: gameMapPool
   id: DefaultMapPool
-  maps:
+  maps: []
+  # Old N14 (Fallout) maps are retired: Wave1, Sunnyvale, MercerIsland, Snowyvale.
+  # With an empty pool the server falls back to maps with `fallback: true` (saltern, gaxstation).
   # - Wave1
-  - Sunnyvale
-  - MercerIsland
+  # - Sunnyvale
+  # - MercerIsland
   # - Snowyvale

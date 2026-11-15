@@ -77,6 +77,7 @@
           state: mobilevision
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceWirelessCameraAnchoredBase
   suffix: Constructed, Anchored
   id: SurveillanceWirelessCameraAnchoredConstructed
@@ -90,6 +91,7 @@
         - SurveillanceCameraEntertainment
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceWirelessCameraMovableBase
   suffix: Constructed, Movable
   id: SurveillanceWirelessCameraMovableConstructed
@@ -103,6 +105,7 @@
         - SurveillanceCameraEntertainment
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceWirelessCameraAnchoredBase
   suffix: Entertainment, Anchored
   id: SurveillanceWirelessCameraAnchoredEntertainment
@@ -115,6 +118,7 @@
       networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceWirelessCameraMovableBase
   suffix: Entertainment, Movable
   id: SurveillanceWirelessCameraMovableEntertainment

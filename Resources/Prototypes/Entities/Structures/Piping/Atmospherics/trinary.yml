@@ -28,6 +28,7 @@
           pipeDirection: South
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasTrinaryBase
   id: GasFilter
   name: gas filter
@@ -74,6 +75,7 @@
       navMapBlip: GasFlowRegulator
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasFilter
   id: GasFilterFlipped
   name: gas filter
@@ -118,6 +120,7 @@
         pipeDirection: North
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasTrinaryBase
   id: GasMixer
   name: gas mixer
@@ -164,6 +167,7 @@
       navMapBlip: GasFlowRegulator
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasMixer
   id: GasMixerFlipped
   name: gas mixer
@@ -207,6 +211,7 @@
     node: mixerflipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: PressureControlledValve
   name: pneumatic valve

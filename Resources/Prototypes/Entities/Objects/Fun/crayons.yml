@@ -35,6 +35,7 @@
     price: 0 #N14
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonWhite
   name: white crayon
@@ -54,6 +55,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonMime
   name: mime crayon
@@ -73,6 +75,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonRainbow
   name: rainbow crayon
@@ -93,6 +96,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonBlack
   name: black crayon
@@ -112,6 +116,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonRed
   name: red crayon
@@ -131,6 +136,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonOrange
   name: orange crayon
@@ -150,6 +156,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonYellow
   name: yellow crayon
@@ -169,6 +176,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonGreen
   name: green crayon
@@ -188,6 +196,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonBlue
   name: blue crayon
@@ -207,6 +216,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Crayon
   id: CrayonPurple
   name: purple crayon
@@ -226,6 +236,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BoxCardboard
   id: CrayonBox
   name: crayon box

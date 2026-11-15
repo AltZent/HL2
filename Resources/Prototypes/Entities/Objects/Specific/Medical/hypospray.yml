@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hypospray
   parent: BaseItem
   description: A sterile injector for rapid administration of drugs to patients.
@@ -30,6 +31,7 @@
     stealGroup: Hypospray
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: gorlex hypospray
   parent: BaseItem
   description: Using reverse engineered designs from NT, Cybersun produced these in limited quantities for Gorlex Marauder operatives.
@@ -54,6 +56,7 @@
     delay: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: borghypo
   parent: BaseItem
   description: A sterile injector for rapid administration of drugs to patients. A cheaper and more specialised version for medical borgs.
@@ -78,6 +81,7 @@
     delay: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: experimental hypospray
   suffix: Admeme
   parent: SyndiHypo
@@ -92,6 +96,7 @@
       delay: 0.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chemical medipen
   parent: BaseItem
   description: A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
@@ -134,6 +139,7 @@
     solution: pen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: emergency medipen
   parent: ChemicalMedipen
   id: EmergencyMedipen
@@ -161,6 +167,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: poison auto-injector
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
@@ -188,6 +195,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brute auto-injector
   parent: ChemicalMedipen
   id: BruteAutoInjector
@@ -220,6 +228,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: burn auto-injector
   parent: ChemicalMedipen
   id: BurnAutoInjector
@@ -252,6 +261,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rad auto-injector
   parent: ChemicalMedipen
   id: RadAutoInjector
@@ -284,6 +294,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: puncturase auto-injector
   parent: ChemicalMedipen
   id: PunctAutoInjector
@@ -316,6 +327,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pyrazine auto-injector
   parent: ChemicalMedipen
   id: PyraAutoInjector
@@ -348,6 +360,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: airloss auto-injector
   parent: ChemicalMedipen
   id: AirlossAutoInjector
@@ -380,6 +393,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: space medipen
   parent: ChemicalMedipen
   id: SpaceMedipen
@@ -413,6 +427,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stimulant injector
   parent: ChemicalMedipen
   id: Stimpack
@@ -445,6 +460,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stimulant microinjector
   parent: ChemicalMedipen
   id: StimpackMini
@@ -472,6 +488,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: combat medipen
   parent: ChemicalMedipen
   id: CombatMedipen
@@ -506,6 +523,7 @@
     tags: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pen
   suffix: Hypopen
   parent: Pen # It is just like normal pen, isn't it?
@@ -529,6 +547,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: HypopenBox
   name: hypopen box

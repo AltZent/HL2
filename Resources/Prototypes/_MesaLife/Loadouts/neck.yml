@@ -1,0 +1,21 @@
+# ML loadouts -> vanilla category Neck.
+
+- type: loadout
+  id: LoadoutMLNeckBlackCape
+  category: Neck
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLNeckBlackCape
+
+- type: loadout
+  id: LoadoutMLNeckBlackhalf
+  category: Neck
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLNeckBlackhalf

@@ -1,5 +1,6 @@
 # Mop Bucket
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mop bucket
   id: MopBucket
   parent: [BaseStructureDynamic, StructureWheeled]
@@ -95,6 +96,7 @@
         - MachineMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mop bucket
   id: MopBucketFull
   parent: MopBucket
@@ -115,6 +117,7 @@
 
 # Janicart
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: janitorial trolley
   id: JanitorialTrolley
   parent: [BaseStructureDynamic, StructureWheeled]

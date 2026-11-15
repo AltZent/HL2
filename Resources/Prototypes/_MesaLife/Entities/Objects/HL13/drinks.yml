@@ -1,0 +1,376 @@
+# Auto-generated ML drinks & bottles (halflife-episode13 assets).
+- type: entity
+  id: MLDrinkCoffee
+  parent: DrinkBase
+  name: "Combine Coffee"
+  description: "A dark beverage inside an equally dark metal can. It tastes like day-old burnt coffee. It's good at delaying the onset of tiredness, but is often not enough if you're already exhausted."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: coffee
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Coffee
+          Quantity: 30
+- type: entity
+  id: MLDrinkMouthwash
+  parent: DrinkBase
+  name: "Mouthwash Bottle"
+  description: "A bottle of old mouthwash. There's enough sugar in the thing you wonder how it would ever clean your mouth, let alone with how old it is."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: mouthwash
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkBreenCan
+  parent: DrinkBase
+  name: "water can"
+  description: "A can of Breen's private reserve water. Supposedly, it helps improve your memory!"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkBreenCanPurple
+  parent: DrinkBase
+  name: "purple nutriment can"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can_purple
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkBreenCanGreen
+  parent: DrinkBase
+  name: "green water can"
+  description: "A special can of Breen's private reserve water, for the best of the best. Flavored, and topped off to full."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can_green
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkBreenCanRed
+  parent: DrinkBase
+  name: "red water can"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can_red
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkBreenCanYellow
+  parent: DrinkBase
+  name: "yellow water can"
+  description: "A can of Breen's private reserve water. Supposedly, it helps improve your memory! This one is painted yellow, and smells funny."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: breen_can_yellow
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkCanteen
+  parent: DrinkBase
+  name: "canteen"
+  description: "A metal flask that is excellent for efficiently storing water."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/drinks.rsi
+    state: canteen
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkSarsaparilla
+  parent: DrinkBase
+  name: "sarsaparilla bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: sarsaparilla
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkMoonshine
+  parent: DrinkBase
+  name: "moonshine jug"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: moonshine
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkWhiskey
+  parent: DrinkBase
+  name: "whiskey bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: whiskey
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Whiskey
+          Quantity: 30
+- type: entity
+  id: MLDrinkVodka
+  parent: DrinkBase
+  name: "vodka bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: vodka
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Vodka
+          Quantity: 30
+- type: entity
+  id: MLDrinkTequila
+  parent: DrinkBase
+  name: "tequila bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: tequila
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Tequila
+          Quantity: 30
+- type: entity
+  id: MLDrinkKaluha
+  parent: DrinkBase
+  name: "Kahlua liquor bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: kaluha
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Kahlua
+          Quantity: 30
+- type: entity
+  id: MLDrinkWine
+  parent: DrinkBase
+  name: "wine bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: wine
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Wine
+          Quantity: 30
+- type: entity
+  id: MLDrinkChampagne
+  parent: DrinkBase
+  name: "champagne bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: champagne
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Champagne
+          Quantity: 30
+- type: entity
+  id: MLDrinkCognac
+  parent: DrinkBase
+  name: "cognac bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: cognac
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Cognac
+          Quantity: 30
+- type: entity
+  id: MLDrinkGin
+  parent: DrinkBase
+  name: "gin bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: gin
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Gin
+          Quantity: 30
+- type: entity
+  id: MLDrinkSake
+  parent: DrinkBase
+  name: "sake bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: sake
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Sake
+          Quantity: 30
+- type: entity
+  id: MLDrinkVermouth
+  parent: DrinkBase
+  name: "vermouth bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: vermouth
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Vermouth
+          Quantity: 30
+- type: entity
+  id: MLDrinkTripleSec
+  parent: DrinkBase
+  name: "triple sec bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: triple_sec
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Water
+          Quantity: 30
+- type: entity
+  id: MLDrinkAbsinthe
+  parent: DrinkBase
+  name: "absinthe bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: absinthe
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Absinthe
+          Quantity: 30
+- type: entity
+  id: MLDrinkRum
+  parent: DrinkBase
+  name: "rum bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: rum
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Rum
+          Quantity: 30
+- type: entity
+  id: MLDrinkBeer
+  parent: DrinkBase
+  name: "beer bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: beer
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Beer
+          Quantity: 30
+- type: entity
+  id: MLDrinkBeerWhite
+  parent: DrinkBase
+  name: "white beer bottle"
+  description: "None"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Food/bottles.rsi
+    state: beer_white
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Beer
+          Quantity: 30

@@ -60,6 +60,7 @@
     mode: SnapgridCenter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorCabinetOpen
   parent: DefibrillatorCabinet
   suffix: Open
@@ -72,6 +73,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorCabinetFilled
   parent: DefibrillatorCabinet
   suffix: Filled
@@ -89,6 +91,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorCabinetFilledOpen
   parent: DefibrillatorCabinetFilled
   suffix: Filled, Open

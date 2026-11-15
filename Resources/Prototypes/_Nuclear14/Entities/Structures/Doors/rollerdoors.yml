@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMaterialDoor
   id: N14DoorShutterFramedRoller
   name: shutter
@@ -19,6 +20,7 @@
     sprite: _Nuclear14/Structures/Doors/RollerDoors/framedshutter.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMaterialDoor
   id: N14DoorShutterRoller
   name: garage shutter

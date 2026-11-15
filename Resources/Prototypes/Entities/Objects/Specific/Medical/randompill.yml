@@ -48,6 +48,7 @@
     - Amatoxin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: strange pill
   parent: Pill
   id: StrangePill

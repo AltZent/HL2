@@ -1,0 +1,97 @@
+# Auto-generated ML uniform (halflife-episode13 assets).
+- type: entity
+  id: MLUniformCivilprotection
+  parent: ClothingUniformBase
+  name: "uniform (civilprotection)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: civilprotection
+- type: entity
+  id: MLUniformOverwatch
+  parent: ClothingUniformBase
+  name: "uniform (overwatch)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: overwatch
+- type: entity
+  id: MLUniformOverwatchWhite
+  parent: ClothingUniformBase
+  name: "uniform (overwatch-white)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: overwatch_white
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: overwatch_white
+- type: entity
+  id: MLUniformSuppressor
+  parent: ClothingUniformBase
+  name: "uniform (suppressor)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: suppressor
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: suppressor
+- type: entity
+  id: MLUniformAssassin
+  parent: ClothingUniformBase
+  name: "uniform (assassin)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: assassin
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: assassin
+- type: entity
+  id: MLUniformOverwatchRed
+  parent: ClothingUniformBase
+  name: "uniform (overwatch-red)"
+  description: "Half-Life: Episode 13 uniform."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: overwatch_red
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: overwatch_red
+- type: entity
+  id: MLUniformCitizen
+  parent: ClothingUniformBase
+  name: "uniform (citizen)"
+  description: "Standard-issue citizen clothes of City 10."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: citizenblue
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: citizenblue
+- type: entity
+  id: MLUniformBrown
+  parent: ClothingUniformBase
+  name: "uniform (brown)"
+  description: "Worn civilian clothes. Common among survivors."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/uniforms.rsi
+    state: brownsuit
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/uniform.rsi
+    equippedState: brownsuit

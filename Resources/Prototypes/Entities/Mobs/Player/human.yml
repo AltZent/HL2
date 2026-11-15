@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   save: false
   name: Urist McHands
   parent: BaseMobHuman
@@ -11,6 +12,7 @@
 
 #Syndie
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
   name: syndicate agent
@@ -25,6 +27,7 @@
       - Syndicate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
   name: syndicate agent
@@ -35,6 +38,7 @@
     profile: TraitorReinforcement
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
   suffix: Human, NukeOps

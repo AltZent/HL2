@@ -1,5 +1,6 @@
 # Metal
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14FenceChainGate
   name: fence gate

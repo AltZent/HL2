@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BarberScissors
   name: barber scissors
   description: is able to reshape the hairstyle of any crew cut to your liking.

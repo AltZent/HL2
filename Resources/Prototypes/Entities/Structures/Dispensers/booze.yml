@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BoozeDispenser
   name: booze dispenser
   suffix: Filled
@@ -26,6 +27,7 @@
     stealGroup: BoozeDispenser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BoozeDispenserEmpty
   suffix: Empty
   parent: BoozeDispenser

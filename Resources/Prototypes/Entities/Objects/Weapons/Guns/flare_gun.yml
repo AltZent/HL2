@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: flare gun
   parent: BaseItem
   id: WeaponFlareGun
@@ -49,6 +50,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: security shell gun
   parent: WeaponFlareGun
   id: WeaponFlareGunSecurity

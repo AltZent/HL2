@@ -2,6 +2,7 @@
 
 #MARK: Bloatfly
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bloatfly
   parent: N14MobBaseHostileInsect
   id: N14MobBloatfly
@@ -70,6 +71,7 @@
 
 #MARK: Giant Ant
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: giant ant
   parent: N14MobBaseHostileInsect
   id: N14MobGiantAnt
@@ -129,6 +131,7 @@
 
 #MARK: Giant Fire Ant
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: giant fire ant
   parent: N14MobGiantAnt
   id: N14MobGiantFireAnt
@@ -172,6 +175,7 @@
 
 #MARK: Radroach
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radroach
   id: N14MobRadroach
   parent: N14MobBaseHostileInsect
@@ -230,6 +234,7 @@
 
 #MARK: Radscorpion
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radscorpion
   parent: N14MobBaseHostileInsect
   id: N14MobRadscorpion
@@ -313,6 +318,7 @@
 
 #MARK: Barkscorpion
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: barkscorpion
   parent: N14MobRadscorpion
   id: N14MobRadscorpionBark
@@ -341,6 +347,7 @@
 #MARK: Cazador
 #SCARY FUCKERS, RUUUN!!
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cazador
   parent: N14MobBaseHostileInsect
   id: N14MobCazador

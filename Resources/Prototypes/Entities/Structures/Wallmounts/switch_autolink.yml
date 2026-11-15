@@ -1,6 +1,7 @@
 # AutoLink variants of SignalButton (from Outer Rim)
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonExt1
   parent: SignalButton
   name: exterior button 1
@@ -10,6 +11,7 @@
       channel: Ext1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonExt2
   parent: SignalButton
   name: exterior button 2
@@ -19,6 +21,7 @@
       channel: Ext2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonExt3
   parent: SignalButton
   name: exterior button 3
@@ -28,6 +31,7 @@
       channel: Ext3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonBridge
   parent: SignalButton
   name: bridge windows button
@@ -37,6 +41,7 @@
       channel: Bridge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonWindows
   parent: SignalButton
   name: exterior windows button

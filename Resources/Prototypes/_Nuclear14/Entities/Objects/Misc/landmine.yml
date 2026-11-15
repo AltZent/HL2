@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: anti-personnel landmine
   parent: BaseLandMine
   id: N14LandMine

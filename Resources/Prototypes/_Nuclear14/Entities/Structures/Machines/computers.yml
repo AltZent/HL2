@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BaseComputer
   parent: BaseComputer
   name: computer
@@ -17,6 +18,7 @@
       state: keys
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14ComputerCargoOrders
   parent: N14BaseComputer
   name: cargo request computer
@@ -79,6 +81,7 @@
 
 # In Use
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerCameraDisplay
   id: N14ComputerCameraDisplayBrotherhoodWashington
   suffix: BOS Washington

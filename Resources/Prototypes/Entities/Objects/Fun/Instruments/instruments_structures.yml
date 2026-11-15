@@ -11,6 +11,7 @@
   - type: Climbable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: upright piano
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
@@ -23,6 +24,7 @@
   - type: Climbable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: vibraphone
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
@@ -34,6 +36,7 @@
     state: vibraphone
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: marimba
   id: MarimbaInstrument
   parent: BasePlaceableInstrumentRotatable
@@ -44,6 +47,7 @@
     state: marimba
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: church organ
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
@@ -55,6 +59,7 @@
     state: church-organ
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tuba
   parent: BasePlaceableInstrument
   id: TubaInstrument
@@ -66,6 +71,7 @@
     state: tuba
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HarpInstrument
   parent: BasePlaceableInstrument
   name: harp
@@ -77,6 +83,7 @@
     state: harp
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
   name: timpani
@@ -88,6 +95,7 @@
     state: timpani
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
   name: taiko
@@ -99,6 +107,7 @@
     state: taiko
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
   name: contrabass
@@ -126,6 +135,7 @@
         - BulletImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: minimoog
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
@@ -137,6 +147,7 @@
     state: minimoog
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
   name: tom drums
@@ -148,6 +159,7 @@
     state: toms
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BasePlaceableInstrument, ConstructibleMachine]
   id: DawInstrument
   name: digital audio workstation

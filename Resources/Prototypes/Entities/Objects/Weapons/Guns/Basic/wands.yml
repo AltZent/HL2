@@ -16,6 +16,7 @@
     capacity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wand of carp polymorph
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
@@ -27,6 +28,7 @@
     count: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wand of monkey polymorph
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
@@ -38,6 +40,7 @@
     count: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wand of fireball
   parent: WeaponWandBase
   id: WeaponWandFireball
@@ -58,6 +61,7 @@
     count: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: magical wand of instant death
   parent: WeaponWandBase
   id: WeaponWandDeath
@@ -77,6 +81,7 @@
     count: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wand of entrance
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
@@ -96,6 +101,7 @@
     count: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wand of cluwning
   parent: WeaponWandPolymorphBase
   id: WeaponWandCluwne
@@ -107,6 +113,7 @@
     count: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphBread
   name: magic bread wand

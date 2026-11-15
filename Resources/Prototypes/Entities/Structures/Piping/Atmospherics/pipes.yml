@@ -66,6 +66,7 @@
 #Note: The PipeDirection of the PipeNode should be the south-facing version, because the entity starts at an angle of 0 (south)
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: GasPipeHalf
   suffix: Half
@@ -85,6 +86,7 @@
     node: half
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: GasPipeStraight
   suffix: Straight
@@ -118,6 +120,7 @@
       collection: MetalThud # this NEEDS to changed to the metal pipe falling sound effect on april first every year
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: GasPipeBend
   suffix: Bend
@@ -158,6 +161,7 @@
         Blunt: 3 #This should be 6 but throwing damage is doubled at the moment for some reason so for now it's 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: GasPipeTJunction
   suffix: TJunction
@@ -194,6 +198,7 @@
       collection: MetalThud
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeBase
   id: GasPipeFourway
   suffix: Fourway
@@ -229,6 +234,7 @@
       collection: MetalThud
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GasPipeBroken
   parent: GasPipeBase
   name: broken pipe

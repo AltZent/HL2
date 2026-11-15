@@ -115,10 +115,12 @@
 
 ## Smooth Windows
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Window
   parent: N14WindowSmoothBaseAirtight
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowSmoothBase
   id: N14WindowBroken
   components:
@@ -131,6 +133,7 @@
 ## Single Windows
 # Ruins
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowRuins
   components:
@@ -142,6 +145,7 @@
     state: ruinswindow
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowRuinsVertical
   components:
@@ -153,6 +157,7 @@
     state: ruinswindowvertical
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowRuinsBroken
   components:
@@ -164,6 +169,7 @@
     state: ruinswindowbroken
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowRuinsVerticalBroken
   components:
@@ -175,6 +181,7 @@
     state: ruinswindowbrokenvertical
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowRuinsDestroyed
   components:
@@ -187,6 +194,7 @@
     
 # Wood / House
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowHouse
   components:
@@ -198,6 +206,7 @@
     state: housewindow
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowHouseVertical
   components:
@@ -209,6 +218,7 @@
     state: housewindowvertical
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowHouseWood
   components:
@@ -220,6 +230,7 @@
     state: woodwindow
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowHouseBroken
   components:
@@ -231,6 +242,7 @@
     state: housewindowbroken
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowHouseBrokenVertical
   components:
@@ -242,6 +254,7 @@
     state: housewindowbrokenvertical
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBase
   id: N14WindowHouseWoodBroken
   components:
@@ -254,6 +267,7 @@
     
 # Store windows
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowBaseAirtight
   id: N14WindowStoreLeft
   suffix: left
@@ -267,6 +281,7 @@
     state: storewindowleft
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowStoreLeft
   id: N14WindowStoreMiddleHorizontal
   suffix: middle horizontal
@@ -280,6 +295,7 @@
     state: storewindowhorizontal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowStoreLeft
   id: N14WindowStoreRight
   suffix: right
@@ -293,6 +309,7 @@
     state: storewindowright
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowStoreLeft
   id: N14WindowStoreBottom
   suffix: bottom
@@ -306,6 +323,7 @@
     state: storewindowbottom
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowStoreLeft
   id: N14WindowStoreMiddleVertical
   suffix: middle vertical
@@ -319,6 +337,7 @@
     state: storewindowvertical
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowStoreLeft
   id: N14WindowStoreTop
   suffix: top

@@ -52,6 +52,7 @@
     fx: EffectRCDConstruct0  
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CableBase
   id: CableHV
   name: HV power cable
@@ -102,6 +103,7 @@
       path: /Audio/Ambience/Objects/emf_buzz.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CableHVUncuttable
   parent: CableHV
   suffix: uncuttable
@@ -110,6 +112,7 @@
     cuttingQuality: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CableBase
   id: CableMV
   name: MV power cable
@@ -154,6 +157,7 @@
     statePrefix: mvcable_
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CableMVUncuttable
   parent: CableMV
   suffix: uncuttable
@@ -162,6 +166,7 @@
     cuttingQuality: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CableBase
   id: CableApcExtension
   name: LV power cable
@@ -209,6 +214,7 @@
     statePrefix: lvcable_
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CableApcExtensionUncuttable
   parent: CableApcExtension
   suffix: uncuttable

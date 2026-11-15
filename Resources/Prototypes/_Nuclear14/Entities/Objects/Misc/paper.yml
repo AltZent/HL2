@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: reporters pen
   parent: Pen
   id: N14PenReporter
@@ -16,6 +17,7 @@
       Steel: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: magazine
   parent: BaseItem
   id: N14Magazine
@@ -68,6 +70,7 @@
     sound: /Audio/SimpleStation14/Items/Handling/paper_drop.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: astoundingly awesome tales
   parent: N14Magazine
   id: N14MagazineAwesome
@@ -79,6 +82,7 @@
     - state: magazine_awesome
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: astoundingly awesome tales
   parent: N14Magazine
   id: N14MagazineAwesomeDirty
@@ -90,6 +94,7 @@
     - state: magazine_awesome_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: covert operations manual
   parent: N14Magazine
   id: N14MagazineCovert
@@ -101,6 +106,7 @@
     - state: magazine_covert
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: covert operations manual
   parent: N14Magazine
   id: N14MagazineCovertDirty
@@ -112,6 +118,7 @@
     - state: magazine_covert_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grognak the barbarian
   parent: N14Magazine
   id: N14MagazineGrognak
@@ -123,6 +130,7 @@
     - state: magazine_grognak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grognak the barbarian
   parent: N14Magazine
   id: N14MagazineGrognakDirty
@@ -134,6 +142,7 @@
     - state: magazine_grognak_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: guns and bullets
   parent: N14Magazine
   id: N14MagazineGuns
@@ -145,6 +154,7 @@
     - state: magazine_guns
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: guns and bullets
   parent: N14Magazine
   id: N14MagazineGunsDirty
@@ -156,6 +166,7 @@
     - state: magazine_guns_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tales of a junktown jerky vendor
   parent: N14Magazine
   id: N14MagazineJunktown
@@ -167,6 +178,7 @@
     - state: magazine_junktown
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tales of a junktown jerky vendor
   parent: N14Magazine
   id: N14MagazineJunktownDirty
@@ -178,6 +190,7 @@
     - state: magazine_junktown_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: massachusetts surgical journal
   parent: N14Magazine
   id: N14MagazineMass
@@ -189,6 +202,7 @@
     - state: magazine_massachusetts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: massachusetts surgical journal
   parent: N14Magazine
   id: N14MagazineMassDirty
@@ -200,6 +214,7 @@
     - state: magazine_massachusetts_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scav!
   parent: N14Magazine
   id: N14MagazineScav
@@ -211,6 +226,7 @@
     - state: magazine_scav
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scav!
   parent: N14Magazine
   id: N14MagazineScavDirty
@@ -222,6 +238,7 @@
     - state: magazine_scav_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tesla science
   parent: N14Magazine
   id: N14MagazineTesla
@@ -233,6 +250,7 @@
     - state: magazine_tesla
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tesla science
   parent: N14Magazine
   id: N14MagazineTeslaDirty
@@ -244,6 +262,7 @@
     - state: magazine_tesla_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tumblers today
   parent: N14Magazine
   id: N14MagazineTumblers
@@ -255,6 +274,7 @@
     - state: magazine_tumblers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tumblers today
   parent: N14Magazine
   id: N14MagazineTumblersDirty
@@ -266,6 +286,7 @@
     - state: magazine_tumblers_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: unstoppables
   parent: N14Magazine
   id: N14MagazineUnstoppables
@@ -277,6 +298,7 @@
     - state: magazine_unstoppable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: unstoppables
   parent: N14Magazine
   id: N14MagazineUnstoppablesDirty
@@ -288,6 +310,7 @@
     - state: magazine_unstoppable_dirty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wasteland survival guide
   parent: N14Magazine
   id: N14MagazineWasteland
@@ -299,6 +322,7 @@
     - state: magazine_wasteland
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: live and love
   parent: N14Magazine
   id: N14MagazineLive

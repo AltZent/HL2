@@ -1,0 +1,61 @@
+# ML loadouts -> vanilla category Shoes.
+
+- type: loadout
+  id: LoadoutMLShoesOverwatch
+  category: Shoes
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesOverwatch
+
+- type: loadout
+  id: LoadoutMLShoesCivilprotection
+  category: Shoes
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesCivilprotection
+
+- type: loadout
+  id: LoadoutMLShoesWorkboots
+  category: Shoes
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesWorkboots
+
+- type: loadout
+  id: LoadoutMLShoesCleanup
+  category: Shoes
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesCleanup
+
+- type: loadout
+  id: LoadoutMLShoesEngineer
+  category: Shoes
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesEngineer
+
+- type: loadout
+  id: LoadoutMLShoesAssassin
+  category: Shoes
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLShoesAssassin

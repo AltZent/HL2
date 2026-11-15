@@ -65,6 +65,7 @@
 # Custom Soup Example
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pea soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupPea
@@ -93,6 +94,7 @@
 # Salad
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: herb salad
   parent: N14CookedFoodBowlBase #cooked is a stretch but... okay, we tag salads as that for now. We can swap it out later if we want. -Hazel
   id: N14CookedFoodSaladHerb
@@ -121,6 +123,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: coleslaw
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladColeslaw
@@ -148,6 +151,7 @@
           Quantity: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: caesar salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladCaesar
@@ -174,6 +178,7 @@
           Quantity: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: kimchi salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladKimchi
@@ -201,6 +206,7 @@
           Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fruit salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladFruit
@@ -228,6 +234,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: jungle salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladJungle
@@ -256,6 +263,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: citrus salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladCitrus
@@ -286,6 +294,7 @@
 # Rice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: boiled rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceBoiled
@@ -312,6 +321,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: egg-fried rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceEgg
@@ -340,6 +350,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: roadkill rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceRoadkill
@@ -368,6 +379,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rice pudding
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRicePudding
@@ -396,6 +408,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: black-eyed gumbo
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceGumbo
@@ -430,6 +443,7 @@
 # Misc
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: oatmeal
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodOatmeal
@@ -481,6 +495,7 @@
 # Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meatball soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMeatball
@@ -510,6 +525,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mutie soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMutie
@@ -536,6 +552,7 @@
           Quantity: 7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bloodtato soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupBloodtato
@@ -566,6 +583,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: vegetable soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupVegetable
@@ -593,6 +611,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nettle soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupNettle
@@ -622,6 +641,7 @@
           Quantity: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bowl of hot chili
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupChiliHot
@@ -652,6 +672,7 @@
     - ChiliBowl
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tato soup #N14 change
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupTato
@@ -683,6 +704,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: eyeball soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupEyeball
@@ -743,6 +765,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mushroom soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMushroom
@@ -770,6 +793,7 @@
             Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stew
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupStew
@@ -802,6 +826,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: onion soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupOnion
@@ -827,6 +852,7 @@
             Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bisque
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupBisque

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskRedMask
   name: red mask
@@ -16,6 +17,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskDesertMask
   name: desert mask
@@ -33,6 +35,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskBlueMask
   name: blue mask
@@ -50,6 +53,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskGreenMask
   name: green mask
@@ -67,6 +71,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskOrangeMask
   name: orange mask
@@ -84,6 +89,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskBrownMask
   name: brown mask
@@ -101,6 +107,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskPullableBase
   id: N14ClothingMaskPatriotMask
   name: patriot mask

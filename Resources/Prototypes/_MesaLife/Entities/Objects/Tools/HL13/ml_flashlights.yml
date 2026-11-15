@@ -1,0 +1,11 @@
+# Auto-generated ML flashlights (halflife-episode13).
+
+- type: entity
+  id: MLFlashlightMakeshift
+  name: makeshift flashlight
+  description: A makeshift battery consisting of a lightbulb attached to a battery. It is pretty awful, but some light is better than none.
+  parent: FlashlightLantern
+  components:
+  - type: PointLight
+    radius: 3
+    energy: 0.4

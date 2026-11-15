@@ -61,6 +61,7 @@
     mode: SnapgridCenter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ExtinguisherCabinetOpen
   parent: ExtinguisherCabinet
   suffix: Open
@@ -73,6 +74,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ExtinguisherCabinetFilled
   parent: ExtinguisherCabinet
   suffix: Filled
@@ -90,6 +92,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ExtinguisherCabinetFilledOpen
   parent: ExtinguisherCabinetFilled
   suffix: Filled, Open

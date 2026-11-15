@@ -25,6 +25,7 @@
     delay: 3600
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBase
   id: N14ClosetBaseW
   name: closet
@@ -50,6 +51,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetGrey1
   components:
@@ -58,26 +60,31 @@
   - type: Weldable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey1, N14TimedStorageFillDomestic ]
   id: N14ClosetGrey1Refilling
   suffix: Refilling,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey1, N14StorageFillDomestic ]
   id: N14LootClosetGrey1
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey1, N14BaseLockerTimedStorageFill ]
   id: N14ClosetGrey1RefillingGeneric
   suffix: Refilling,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey1, N14BaseLockerStorageFill ]
   id: N14LootGenericClosetGrey1
   suffix: Loot,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14ClosetGrey2
   parent: N14ClosetBaseW
   components:
@@ -85,26 +92,31 @@
     sprite: _Nuclear14/Structures/Storage/Closets/closetgrey2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey2, N14TimedStorageFillDomestic ]
   id: N14ClosetGrey2Refilling
   suffix: Refilling,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey2, N14StorageFillDomestic ]
   id: N14LootClosetGrey2
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey2, N14BaseLockerTimedStorageFill ]
   id: N14ClosetGrey2RefillingGeneric
   suffix: Refilling,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGrey2, N14BaseLockerStorageFill ]
   id: N14LootGenericClosetGrey2
   suffix: Loot,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetRusty
   name: rusty closet
@@ -114,26 +126,31 @@
     sprite: _Nuclear14/Structures/Storage/Closets/closetold.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetRusty, N14TimedStorageFillDomestic ]
   id: N14ClosetRustyRefilling
   suffix: Refilling,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetRusty, N14StorageFillDomestic ]
   id: N14LootClosetRusty
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetRusty, N14BaseLockerTimedStorageFill ]
   id: N14ClosetRustyRefillingGeneric
   suffix: Refilling,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetRusty, N14BaseLockerStorageFill ]
   id: N14LootGenericClosetRusty
   suffix: Loot,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetGunCabinet
   name: gun cabinet
@@ -143,16 +160,19 @@
     sprite: _Nuclear14/Structures/Storage/Closets/guncabinet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGunCabinet, N14BaseMilitaryTimedStorageFill ]
   id: N14ClosetGunCabinetRefilling
   suffix: Refilling,Military,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGunCabinet, N14BaseMilitaryStorageFill ]
   id: N14LootClosetGunCabinet
   suffix: Loot,Military,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetFridgeDirty
   name: fridge
@@ -165,6 +185,7 @@
   - type: AntiRottingContainer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetFridgeDirty
   id: N14ClosetFridgeWideDirty
   name: fridge
@@ -174,11 +195,13 @@
     sprite: _Nuclear14/Structures/Storage/Closets/fridgewidedirty.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetFridgeDirty, N14ClosetFridgeWideDirty, N14ClosetFridgeFill ]
   id: N14LootClosetFridge
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetDouble
   name: double closet
@@ -199,21 +222,25 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetDouble, N14TimedStorageFillDomestic ]
   id: N14ClosetDoubleRefilling
   suffix: Refilling,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetDouble, N14StorageFillDomestic ]
   id: N14LootClosetDouble
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetDouble, N14BaseLockerTimedStorageFill ]
   id: N14ClosetDoubleRefillingGeneric
   suffix: Refilling,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetDouble, N14BaseLockerStorageFill ]
   id: N14LootGenericClosetDouble
   suffix: Loot,Generic,Random
@@ -221,6 +248,7 @@
 # Wooden Closets
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBase
   id: N14ClosetCabinetWood
   name: cabinet
@@ -255,16 +283,19 @@
     - Wooden
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetCabinetWood, N14TimedStorageFillDomestic ]
   id: N14ClosetCabinetWoodRefilling
   suffix: Refilling,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetCabinetWood, N14StorageFillDomestic ]
   id: N14LootClosetCabinetWood
   suffix: Loot,Domestic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetEnclave
   suffix: enclave roller
@@ -273,6 +304,7 @@
     sprite: _Nuclear14/Structures/Storage/Closets/closetenclave.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetGeneric
   suffix: generic roller
@@ -281,22 +313,26 @@
     sprite: _Nuclear14/Structures/Storage/Closets/closetgeneric.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGeneric, N14BaseLockerStorageFill ]
   id: N14LootClosetGeneric
   suffix: Loot,Generic,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGeneric, N14BaseMilitaryStorageFill ]
   id: N14LootMilitaryClosetGeneric
   suffix: Loot,Military,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetGeneric, N14BaseMilitaryTimedStorageFill ]
   id: N14ClosetGenericRefillingMilitary
   suffix: Refilling,Military,Random
 
 # Wallmounted Closets
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14ClosetWallMedicabinet
   placement:
     mode: SnapgridCenter
@@ -355,11 +391,13 @@
             max: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetWallMedicabinet, N14TimedStorageFillMedical ]
   id: N14ClosetWallMedicabinetRefilling
   suffix: Refilling,Medical,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetWallMedicabinet, N14StorageFillMedical ]
   id: N14LootClosetWallMedicabinet
   suffix: Loot,Medical,Random

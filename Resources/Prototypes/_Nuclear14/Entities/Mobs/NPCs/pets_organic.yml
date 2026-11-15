@@ -77,6 +77,7 @@
         Airloss: -3 # Basically immune to it, it's necessary because they lack organs to process smelling salts and such
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Basic Mutt
   id: N14MobPetDog
   parent: N14MobPetBasic
@@ -106,6 +107,7 @@
     - Sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: MBoS Mutt
   id: N14MobPetDogMBoS
   parent: N14MobPetDog
@@ -150,6 +152,7 @@
       storagebase: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: WBoS Mutt
   id: N14MobPetDogWBoS
   parent: N14MobPetDog
@@ -189,6 +192,7 @@
     - Sign
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Mutt
   id: N14MobPetDogNCR
   parent: N14MobPetDog
@@ -233,6 +237,7 @@
         Slash: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Medical K9
   id: N14MobPetDogNCRMedicK9
   parent: N14MobPetDog
@@ -277,6 +282,7 @@
       storagebase: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: CC Mutt
   id: N14MobPetDogCC
   parent: N14MobPetDog
@@ -313,6 +319,7 @@
 
 # Dogs end here.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pet Roach
   id: N14MobPetRoach
   parent: N14MobPetBasic
@@ -392,6 +399,7 @@
     - Sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pet Ant
   id: N14MobPetAnt
   parent: N14MobPetRoach
@@ -465,6 +473,7 @@
         Radiation: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pet Rat
   id: N14MobPetPigrat
   parent: N14MobPetBasic

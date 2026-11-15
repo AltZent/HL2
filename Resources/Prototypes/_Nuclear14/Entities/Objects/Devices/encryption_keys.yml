@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EncryptionKey
   id: EncryptionKeyBrotherhoodMidwest
   name: Midwest BOS encryption key
@@ -14,6 +15,7 @@
     - state: common_label
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EncryptionKey
   id: EncryptionKeyBrotherhoodWashington
   name: Washington BOS encryption key
@@ -45,6 +47,7 @@
     - state: synd_label
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EncryptionKey
   id: EncryptionKeyNCR
   name: NCR encryption key
@@ -60,6 +63,7 @@
     - state: sec_label
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EncryptionKey
   id: EncryptionKeyVault
   name: Vault encryption key
@@ -75,6 +79,7 @@
     - state: com_label
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EncryptionKey
   id: EncryptionKeyPBS
   name: PBS encryption key

@@ -32,6 +32,7 @@
     - DoorBumpOpener
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobGoliath
   parent: BaseMobAsteroid
   name: goliath
@@ -91,6 +92,7 @@
     - id: MaterialGoliathHide1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ActionGoliathTentacle
   name: "[color=red]Tentacle Slam[/color]"
   description: Use your tentacles to grab and stun a target player!
@@ -110,6 +112,7 @@
     range: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GoliathTentacle
   name: tentacle
   components:

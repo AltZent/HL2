@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bible
   description: New Interstellar Version 2340
   parent: BaseStorageItem
@@ -62,6 +63,7 @@
     sound: /Audio/SimpleStation14/Items/Handling/book_drop.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Bible
   name: necronomicon
   description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"

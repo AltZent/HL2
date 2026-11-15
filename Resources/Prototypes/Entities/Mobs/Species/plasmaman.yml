@@ -19,7 +19,7 @@
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - shader: StencilClear
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_leg
     - shader: StencilMask
       map: ["enum.HumanoidVisualLayers.StencilMask"]

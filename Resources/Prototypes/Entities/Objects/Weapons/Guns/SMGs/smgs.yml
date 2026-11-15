@@ -77,6 +77,7 @@
     staminaCost: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Atreides
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
@@ -101,6 +102,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: C-20r sub machine gun
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunC20r
@@ -139,6 +141,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: antique C-20r submachine gun
   parent: WeaponSubMachineGunC20r
   id: WeaponSubMachineGunC20rHoS
@@ -148,6 +151,7 @@
       stealGroup: HoSAntiqueWeapon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Drozd
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
@@ -202,6 +206,7 @@
     - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
@@ -250,6 +255,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: WT550
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
@@ -312,6 +318,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: antique Wt550
   id: WeaponSubMachineGunWt550HoS
   parent: WeaponSubMachineGunWt550
@@ -323,6 +330,7 @@
 
 # Rubber
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Drozd
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
@@ -348,6 +356,7 @@
               - CartridgePistol
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vector
   parent: WeaponSubMachineGunVector
   id: WeaponSubMachineGunVectorRubber

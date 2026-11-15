@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerAlert
   name: atmospheric alerts computer
@@ -50,6 +51,7 @@
         type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerAtmosMonitoring
   name: atmospheric network monitor
@@ -83,6 +85,7 @@
         type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: ComputerEmergencyShuttle
   name: emergency shuttle console
@@ -150,6 +153,7 @@
       disk_slot: !type:ContainerSlot {}
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerShuttle
   id: ComputerShuttle
   name: shuttle console
@@ -171,6 +175,7 @@
     board: ShuttleConsoleCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
   name: syndicate shuttle console
@@ -203,6 +208,7 @@
     board: SyndicateShuttleConsoleCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerShuttle
   id: ComputerShuttleCargo
   name: cargo shuttle console
@@ -235,6 +241,7 @@
     stealGroup: CargoShuttleConsoleCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerShuttle
   id: ComputerShuttleSalvage
   name: salvage shuttle console
@@ -265,6 +272,7 @@
       stealGroup: SalvageShuttleConsoleCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerIFF
   name: IFF computer
@@ -296,6 +304,7 @@
     board: ComputerIFFCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ComputerIFF
   id: ComputerIFFSyndicate
   name: IFF computer
@@ -318,6 +327,7 @@
     board: ComputerIFFSyndicateCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerPowerMonitoring
   name: power monitoring computer
@@ -360,6 +370,7 @@
         type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerMedicalRecords
   name: medical records computer
@@ -385,6 +396,7 @@
     board: MedicalRecordsComputerCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerCriminalRecords
   name: criminal records computer
@@ -424,6 +436,7 @@
     - CriminalRecords
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerPsionicsRecords
   name: psionics registry computer
@@ -464,6 +477,7 @@
     # guides: # TODO: Add a guide for Psionics Registry
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
   name: station records computer
@@ -489,6 +503,7 @@
     - Forensics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerCrewMonitoring
   name: crew monitoring console
@@ -528,6 +543,7 @@
     range: 1200
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerResearchAndDevelopment
   name: R&D computer
@@ -576,6 +592,7 @@
     - Science
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerAnalysisConsole
   name: analysis console
@@ -626,6 +643,7 @@
     - Xenoarchaeology
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerId
   name: ID card computer
@@ -689,6 +707,7 @@
       IdCardConsole-targetId: !type:ContainerSlot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: computerBodyScanner
   name: body scanner computer
@@ -704,6 +723,7 @@
     color: "#1f8c28"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerComms
   name: communications computer
@@ -746,6 +766,7 @@
     damageModifierSet: StrongMetallic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ComputerComms
   id: SyndicateComputerComms
   name: syndicate communications computer
@@ -779,6 +800,7 @@
     color: "#f71713"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerSolarControl
   name: solar control computer
@@ -813,6 +835,7 @@
     color: "#e6e227"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerRadar
   name: mass scanner computer
@@ -847,6 +870,7 @@
     color: "#e6e227"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerCargoShuttle
   parent: BaseComputerAiAccess
   name: cargo shuttle computer
@@ -886,6 +910,7 @@
     - Cargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerCargoOrders
   parent: BaseComputerAiAccess
   name: cargo request computer
@@ -938,6 +963,7 @@
     - Cargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerCargoBounty
   parent: BaseComputerAiAccess
   name: cargo bounty computer
@@ -977,6 +1003,7 @@
     - CargoBounties
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerCloningConsole
   name: cloning console computer
@@ -1030,6 +1057,7 @@
     - Cloning
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerSalvageExpedition
   parent: BaseComputerAiAccess
   name: salvage expeditions computer
@@ -1083,6 +1111,7 @@
       stealGroup: SalvageExpeditionsComputerCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: ComputerSurveillanceCameraMonitor
   name: camera monitor
@@ -1122,6 +1151,7 @@
           type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: ComputerSurveillanceWirelessCameraMonitor
   name: wireless camera monitor
@@ -1163,6 +1193,7 @@
           type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerPalletConsole
   parent: BaseComputerAiAccess
   name: cargo sale computer
@@ -1203,6 +1234,7 @@
     - Cargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerMassMedia
   name: news manager console
@@ -1239,6 +1271,7 @@
           type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: ComputerSensorMonitoring
   name: sensor monitoring computer
@@ -1286,6 +1319,7 @@
     - type: AtmosDevice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputerAiAccess
   id: ComputerRoboticsControl
   name: robotics control console
@@ -1329,6 +1363,7 @@
     unlockOnClick: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationAiUploadComputer
   parent: BaseComputer
   name: AI upload console

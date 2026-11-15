@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineMagnum
   name: pistol magazine (.45 magnum)
   parent: BaseMagazinePistol
@@ -15,6 +16,7 @@
     capacity: 7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineMagnumSubMachineGun
   name: "Vector magazine (.45 magnum)"
   parent: BaseItem
@@ -48,6 +50,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumEmpty
   name: pistol magazine (.45 magnum any)
   suffix: empty
@@ -61,6 +64,7 @@
       map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnum
   name: pistol magazine (.45 magnum)
   parent: BaseMagazineMagnum
@@ -75,6 +79,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumPractice
   name: pistol magazine (.45 magnum practice)
   parent: BaseMagazineMagnum
@@ -89,6 +94,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumRubber
   name: pistol magazine (.45 magnum rubber)
   parent: BaseMagazineMagnum
@@ -103,6 +109,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumIncendiary
   name: pistol magazine (.45 magnum incendiary)
   parent: BaseMagazineMagnum
@@ -117,6 +124,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumUranium
   name: pistol magazine (.45 magnum uranium)
   parent: BaseMagazineMagnum
@@ -131,6 +139,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumAP
   name: pistol magazine (.45 magnum armor-piercing)
   parent: BaseMagazineMagnum
@@ -145,6 +154,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGunEmpty
   name: "Vector magazine (.45 magnum any)"
   suffix: empty
@@ -158,6 +168,7 @@
       map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGun
   name: "Vector magazine (.45 magnum)"
   parent: BaseMagazineMagnumSubMachineGun
@@ -172,6 +183,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGunPractice
   name: "Vector magazine (.45 magnum practice)"
   parent: BaseMagazineMagnumSubMachineGun
@@ -186,6 +198,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGunRubber
   name: "Vector magazine (.45 magnum rubber)"
   parent: BaseMagazineMagnumSubMachineGun
@@ -200,6 +213,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGunUranium
   name: "Vector magazine (.45 magnum uranium)"
   parent: BaseMagazineMagnumSubMachineGun
@@ -214,6 +228,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumSubMachineGunPiercing
   name: "Vector magazine (.45 magnum armor-piercing)"
   parent: BaseMagazineMagnumSubMachineGun

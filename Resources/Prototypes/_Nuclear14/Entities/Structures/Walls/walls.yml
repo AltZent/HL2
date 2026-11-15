@@ -3,6 +3,7 @@
 
 # Concrete Walls
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWall
   id: N14WallStore
   name: store wall
@@ -24,6 +25,7 @@
     base: store
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallStore
   id: N14WallSuperstore
   name: store wall
@@ -34,6 +36,7 @@
     sprite: _Nuclear14/Structures/Walls/nc14/superstore.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallStore
   id: N14WallRuins
   name: ruined wall
@@ -48,6 +51,7 @@
     base: ruin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallStore
   id: N14WallBrick
   name: brick wall
@@ -61,6 +65,7 @@
     base: brick
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallStore
   id: N14WallConcreteLight
   name: concrete wall
@@ -72,6 +77,7 @@
     sprite: _Nuclear14/Structures/Walls/nc14/concrete.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallConcreteLight
   id: N14WallConcreteDark
   suffix: dark
@@ -83,6 +89,7 @@
 
 # Metal walls
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWall
   id: N14WallMetalEnclave
   name: metal wall
@@ -110,6 +117,7 @@
 
 # Wood walls
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallWoodFrame
   parent: Barricade
   name: wooden wall Frame
@@ -139,6 +147,7 @@
           collection: WoodDestroyHeavy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWall
   id: N14WallWoodWhite
   name: wooden wall
@@ -171,6 +180,7 @@
     base: wood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructureDynamic
   id: N14WallWoodWhiteFrame
   name: wall frame
@@ -216,6 +226,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallWoodWhite
   id: N14WallWoodDark
   components:
@@ -225,6 +236,7 @@
     sprite: _Nuclear14/Structures/Walls/nc14/wooddark.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallWoodWhiteFrame
   id: N14WallWoodDarkFrame
   components:
@@ -233,6 +245,7 @@
     state: girder
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallWoodWhite
   id: N14WallWoodLog
   name: log wall
@@ -251,6 +264,7 @@
 
 # Tent Walls
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWall
   id: N14WallTent
   name: tent wall
@@ -279,6 +293,7 @@
     base: tent
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BlastDoorExteriorIndestructible
   parent: BlastDoor
   suffix: Indestructible, Closed
@@ -293,6 +308,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlastDoorExteriorIndestructibleOpen
   parent: BlastDoorOpen
   suffix: Indestructible, Open

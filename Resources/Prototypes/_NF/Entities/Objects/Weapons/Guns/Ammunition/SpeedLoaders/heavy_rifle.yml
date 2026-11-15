@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseSpeedLoaderHeavyRifle
   name: "speed loader (.20 rifle)"
   parent: BaseItem
@@ -20,6 +21,7 @@
         ents: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavy
   name: "speed loader (.20 rifle)"
   parent: BaseSpeedLoaderHeavyRifle
@@ -43,6 +45,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavyEmpty
   name: "speed loader (.20 rifle any)"
   parent: SpeedLoaderRifleHeavy
@@ -61,6 +64,7 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavyIncendiary
   name: "speed loader (.20 rifle incendiary)"
   parent: BaseSpeedLoaderHeavyRifle
@@ -81,6 +85,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavyPractice
   name: "speed loader (.20 rifle practice)"
   parent: BaseSpeedLoaderHeavyRifle
@@ -104,6 +109,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavyUranium
   name: "speed loader (.20 rifle uranium)"
   parent: BaseSpeedLoaderHeavyRifle
@@ -127,6 +133,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderRifleHeavyRubber
   name: "speed loader (.20 rifle rubber)"
   parent: BaseSpeedLoaderHeavyRifle

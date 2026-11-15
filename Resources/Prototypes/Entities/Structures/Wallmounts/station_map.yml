@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationMapBroken
   name: station map
   description: A virtual map of the surrounding station.
@@ -30,6 +31,7 @@
               acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationMap
   name: station map
   parent: BaseComputer
@@ -90,6 +92,7 @@
           type: StationMapBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationMapAssembly
   name: station map assembly
   description: A station map assembly.

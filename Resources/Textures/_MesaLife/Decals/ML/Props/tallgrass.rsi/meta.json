@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tallgrass"
+    },
+    {
+      "name": "tallgrass_corner",
+      "directions": 8
+    },
+    {
+      "name": "tallgrass_overlay"
+    },
+    {
+      "name": "tallgrass_overlay_corner",
+      "directions": 8
+    }
+  ]
+}

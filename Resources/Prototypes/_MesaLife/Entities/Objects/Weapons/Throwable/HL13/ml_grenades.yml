@@ -1,0 +1,308 @@
+# Auto-generated ML grenades (halflife-episode13).
+
+- type: entity
+  id: BaseMLGrenade
+  parent: GrenadeBase
+  abstract: true
+  components:
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Belt
+
+- type: entity
+  id: MLGrenadeBouncer
+  name: "MK3A2 grenade"
+  description: "Called a 'Bouncer' or 'Extractor' by Combine teams, these grenades are designed for flushing out enemy combatants via shrapnel, and a powerful though short ranged explosion."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: bouncer
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/bouncer.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: bouncer_active }
+          Unprimed: { state: bouncer }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 120
+    intensitySlope: 5
+    maxIntensity: 10
+    canCreateVacuum: false
+
+- type: entity
+  id: MLGrenadeBouncerRandom
+  name: "MK3A2 grenade (random timer)"
+  description: "Called a 'Bouncer' by Combine teams, these grenades are designed for flushing out enemy combatants via shrapnel, and a powerful though short ranged explosion. This one has a randomized timer, don't hold onto it!"
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: bouncer
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/bouncer.rsi
+  - type: OnUseTimerTrigger
+    delay: 4.0
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: bouncer_active }
+          Unprimed: { state: bouncer }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 120
+    intensitySlope: 5
+    maxIntensity: 10
+    canCreateVacuum: false
+
+- type: entity
+  id: MLGrenadeIncendiary
+  name: "MK4A1 incendiary grenade"
+  description: "A later modification of the MK3A2 grenade, fitted instead to cause a large amount of fire instead of an explosion."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: incendiary
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/incendiary.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: incendiary_active }
+          Unprimed: { state: incendiary }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: FireBomb
+    totalIntensity: 60
+    intensitySlope: 4
+    maxIntensity: 6
+    canCreateVacuum: false
+  - type: SoundOnTrigger
+    sound:
+      path: /Audio/_MesaLife/ML/halflifeeffects/explosion_fire_grenade.ogg
+  - type: DeleteOnTrigger
+
+- type: entity
+  id: MLGrenadeStinger
+  name: "stinger grenade"
+  description: "A less-lethal grenade filled with rubber pellets. Useful for dispersing crowds."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: stinger
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/stinger.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: stinger_active }
+          Unprimed: { state: stinger }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 30
+    intensitySlope: 6
+    maxIntensity: 4
+    canCreateVacuum: false
+  - type: FlashOnTrigger
+    range: 4
+  - type: SoundOnTrigger
+    sound:
+      path: /Audio/Effects/flash_bang.ogg
+  - type: DeleteOnTrigger
+
+- type: entity
+  id: MLGrenadeCSGas
+  name: "CS gas grenade"
+  description: "A grenade which unleashes a slow spreading cloud of CS gas upon detonation. Works to nonlethally disable targets who aren't wearing a gas mask, but be careful with how long it lingers indoors."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: csgas
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/csgas.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: csgas_active }
+          Unprimed: { state: csgas }
+  - type: SmokeOnTrigger
+    duration: 10
+    spreadAmount: 30
+    solution:
+      reagents:
+      - ReagentId: TearGas
+        Quantity: 50
+  - type: SoundOnTrigger
+    sound:
+      path: /Audio/Items/smoke_grenade_smoke.ogg
+  - type: DeleteOnTrigger
+
+- type: entity
+  id: MLGrenadeDecoy
+  name: "decoy grenade"
+  description: "A dummy grenade that makes noise and light. Great for distractions, terrible for actual explosions."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenade.rsi
+    layers:
+    - state: decoy
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/decoy.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: decoy_active }
+          Unprimed: { state: decoy }
+  - type: DeleteOnTrigger
+  - type: SpawnOnTrigger
+    proto: GrenadeFlashEffect
+  - type: SoundOnTrigger
+    sound:
+      path: /Audio/Effects/Emotes/parp1.ogg
+
+- type: entity
+  id: MLGrenadeTinbomb
+  name: "Tinbomb"
+  description: "A scrap metal tin housing an explosive propellant and a bunch of shrapnel. The explosion isn't too strong, but it does send a decent amount of shrapnel flying."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenades_inventory.rsi
+    layers:
+    - state: tinbomb
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/tinbomb.rsi
+  - type: OnUseTimerTrigger
+    delay: 3.5
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: tinbomb_active }
+          Unprimed: { state: tinbomb }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 40
+    intensitySlope: 6
+    maxIntensity: 5
+    canCreateVacuum: false
+
+- type: entity
+  id: MLGrenadeMolotov
+  name: "molotov cocktail"
+  description: "The firestarters best friend, a very simple grenade consisting of a rag and a bottle of alcohol. Light those suckers up."
+  parent: BaseMLGrenade
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Throwables/grenades_inventory.rsi
+    layers:
+    - state: molotov
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: Item
+    sprite: _MesaLife/Weapons/ML/Throwables/MLGrenInhand/molotov.rsi
+  - type: OnUseTimerTrigger
+    delay: 4.0
+    beepSound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: GenericVisualizer
+    visuals:
+      enum.Trigger.TriggerVisuals.VisualState:
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: molotov_active }
+          Unprimed: { state: molotov }
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: FireBomb
+    totalIntensity: 55
+    intensitySlope: 4
+    maxIntensity: 6
+    canCreateVacuum: false
+  - type: SoundOnTrigger
+    sound:
+      path: /Audio/_MesaLife/ML/halflifeeffects/explosion_fire_grenade.ogg
+  - type: DeleteOnTrigger

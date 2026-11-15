@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: N14ClothingMaskGasZealotGasMask
   name: zealot gas mask
@@ -27,6 +28,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskBase
   id: N14ClothingMaskHazmatHelmet
   name: hazmat suit mask
@@ -48,6 +50,7 @@
     - Snout
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasFire
   name: fire gas mask
@@ -67,6 +70,7 @@
     priceMultiplier: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasMiner
   name: miner gas mask
@@ -86,6 +90,7 @@
     priceMultiplier: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasSecurity
   id: N14ClothingMaskBreather
   name: breather mask
@@ -97,6 +102,7 @@
 # NCRA
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskNcrAdvanceGasmask
   name: Ncr trooper gasmask Mk2
@@ -112,6 +118,7 @@
         Radiation: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskNcr
   name: Ncr trooper gasmask
@@ -137,6 +144,7 @@
 # NCR Rangers, Vets
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasCombat
   name: combat gas mask
@@ -163,6 +171,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRiot
   name: NCR ranger gas mask
@@ -179,6 +188,7 @@
     - WhitelistChameleon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRanger
   name: ranger gas mask
@@ -192,6 +202,7 @@
     sprite: _Nuclear14/Clothing/Mask/Gasmask/rangergasmask.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRangerOld
   name: ranger gas mask
@@ -205,6 +216,7 @@
     sprite: _Nuclear14/Clothing/Mask/Gasmask/rangeroldgasmask.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRangerDesert
   name: desert ranger gas mask
@@ -225,6 +237,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasRangerWeathered
   name: weathered ranger gas mask
@@ -244,6 +257,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRangerPrice
   name: spider ranger gas mask
@@ -264,6 +278,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasRangerBroken
   name: broken riot gas mask
@@ -294,6 +309,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRangerElite
   name: elite riot gas mask
@@ -314,6 +330,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGasCombat
   id: ClothingMaskGasRangerModif
   name: modified ranger gas mask
@@ -334,6 +351,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasCaptainsMask
   name: antique gas mask
@@ -361,6 +379,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasMaskHose
   name: hosed gas mask
@@ -388,6 +407,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingMaskGas
   id: ClothingMaskGasPointer
   name: crude gas mask

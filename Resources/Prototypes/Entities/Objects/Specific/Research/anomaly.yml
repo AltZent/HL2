@@ -104,6 +104,7 @@
   - type: ProximityDetector
     range: 40
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyLocatorWide
   parent: [ AnomalyLocatorWideUnpowered, PowerCellSlotSmallItem ]
   suffix: Powered

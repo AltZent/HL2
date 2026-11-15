@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CarpRift
   name: carp rift
   description: A rift akin to the ones space carp use to travel long distances.

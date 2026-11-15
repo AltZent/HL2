@@ -13,6 +13,7 @@
 
 #MARK: Armor
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14FalloutArmorBase, N14ClothingOuterBase]
   id: N14ClothingOuterZealotDuster
   name: zealot duster
@@ -36,6 +37,7 @@
   #  luckModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingScavengerHeavyArmor
   name: scavenger heavy armor
@@ -60,6 +62,7 @@
     sprintModifier: 0.90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14FalloutArmorBase, N14ClothingOuterBase]
   id: N14ClothingOuterCoatFollowersArmored
   name: Followers Armored Labcoat
@@ -86,6 +89,7 @@
   #  intelligenceModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLeatherArmor
   name: leather armor
@@ -112,6 +116,7 @@
       amount: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestLeather
   name: leather vest
@@ -133,6 +138,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMetalArmor
   name: metal armor
@@ -160,6 +166,7 @@
     sprintModifier: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmor
   name: combat armor
@@ -181,6 +188,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorCargo
   name: combat armor
@@ -196,6 +204,7 @@
     priceMultiplier: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorMK2
   name: combat armor mk2
@@ -217,6 +226,7 @@
     damageCoefficient: 0.75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorMK2Cargo
   name: combat armor mk2
@@ -232,6 +242,7 @@
     priceMultiplier: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMarineArmor
   name: marine armor
@@ -265,6 +276,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutenclavearmor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVaultSecVest
   name: vault security vest
@@ -308,6 +320,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterArmoredKit
   name: armor kit
@@ -326,6 +339,7 @@
         Heat: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterReinforcedArmorKit
   name: reinforced armor kit
@@ -346,6 +360,7 @@
 
 #MARK: Tribal
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTribalArmor
   name: tribal armor
@@ -367,6 +382,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTribalArmorHeavy
   name: heavy tribal armor
@@ -391,6 +407,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatTribal
   name: tribal combat armor
@@ -415,6 +432,7 @@
     # luckModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterBandito
   name: tribal bandito armor
@@ -426,6 +444,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-bandito.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterforager
   name: tribal forager armor
@@ -437,6 +456,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-forager.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterheadtaker
   name: tribal headtaker armor
@@ -448,6 +468,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-headtaker.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterhunter
   name: tribal hunter armor
@@ -459,6 +480,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-hunter.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterponcho
   name: tribal poncho
@@ -470,6 +492,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-poncho.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOutershaman
   name: tribal shamanic robes
@@ -481,6 +504,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-shaman.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterdrylandersimple
   name: tribal robes
@@ -492,6 +516,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/drylander-simple.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmor
   id: N14ClothingOuterWestTribeLight
   name: tribal armor
@@ -503,6 +528,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/WestTribeLight.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTribalArmorHeavy
   id: N14ClothingOuterWestTribeHeavy
   name: heavy tribal armor
@@ -514,6 +540,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/WestTribeHeavy.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatTribal
   id: N14ClothingOuterWestTribeBearArmor
   name: Tribal Bear armor
@@ -529,6 +556,7 @@
 
 #MARK: Raiders
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderBadlands
   name: raider badlands armor
@@ -552,6 +580,7 @@
   #  strengthModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderBlastmaster
   name: raider blastmaster armor
@@ -575,6 +604,7 @@
   #  agilityModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterSuperFly
   name: raider superfly armor
@@ -596,6 +626,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterRaiderCombat1
   name: raider combat armor
@@ -607,6 +638,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider1.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderCombat2
   name: raider combat armor mk2
@@ -628,6 +660,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPoliceCombat
   name: police combat armor
@@ -649,6 +682,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatRusted
   name: rusted combat armor
@@ -670,6 +704,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatRusted
   id: N14ClothingOuterCombatRaider
   name: raider combat armor
@@ -681,6 +716,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatPainspike
   name: painspike combat armor
@@ -692,6 +728,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatpainspike.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPainspike
   name: painspike armor
@@ -713,6 +750,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterSupafly
   name: supafly
@@ -738,6 +776,7 @@
     spread: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterPoliceVest
   name: police vest
@@ -762,6 +801,7 @@
       - PoliceVest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterPoliceVest
   id: N14ClothingOuterPoliceVestCargo
   name: cargo vest
@@ -777,6 +817,7 @@
     priceMultiplier: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterSheriffVest
   name: sheriff vest
@@ -800,6 +841,7 @@
 #MARK: NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestSnow
   name: snow leather NCR vest
@@ -821,6 +863,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestWoods
   name: woods leather NCR vest
@@ -842,6 +885,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestDesert
   name: Ncr flak vest
@@ -863,6 +907,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestCoatBlack
   name: infiltrator NCR coat
@@ -884,6 +929,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRPlateWoods
   name: NCR plate armor
@@ -911,6 +957,7 @@
     sprintModifier: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRPlateDesert
   name: NCR plate armor
@@ -938,6 +985,7 @@
     sprintModifier: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestWoods
   name: pouched leather NCR vest
@@ -959,6 +1007,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestDesert
   name: pouched leather NCR vest
@@ -980,6 +1029,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestSnow
   name: pouched leather NCR vest
@@ -1000,6 +1050,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRLightPouchedVest
   name: light pouched leather NCR vest
@@ -1021,6 +1072,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterNCRCombatArmor
   name: NCR combat armor
@@ -1032,6 +1084,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatNCR.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterNCRCombatArmorMK2
   name: NCR combat armor mk2
@@ -1043,6 +1096,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatNCRmk2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingOuterBase
   id: N14ClothingOuterNCRCFvest
   name: NCR CF ballistic vest
@@ -1065,6 +1119,7 @@
 #MARK: NCR Rangers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerVest
   name: ranger custom leather vest
@@ -1086,6 +1141,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterNCRCombatArmor
   id: N14ClothingOuterRangerArmor
   name: ranger patrol armor
@@ -1097,6 +1153,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangersuit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterNCRCombatArmor
   id: N14ClothingOuterRangerArmorB
   name: customized ranger patrol armor
@@ -1118,6 +1175,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerDuster
   name: ranger recon duster
@@ -1144,6 +1202,7 @@
 #MARK: Veteran
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerCoat
   name: NCR ranger armor
@@ -1165,6 +1224,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerCombat
   name: ranger combat armor
@@ -1186,6 +1246,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerCombatDesert
   name: desert ranger combat armor
@@ -1197,6 +1258,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerdesertcombat.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerFox
   name: fox ranger combat armor
@@ -1208,6 +1270,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerfox.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerWeathered
   name: weathered ranger combat armor
@@ -1219,6 +1282,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerweathered.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerElite # Admin event gear (OP)
   name: elite ranger combat armor
@@ -1240,6 +1304,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerEliteOld
   name: worn elite ranger combat armor
@@ -1261,6 +1326,7 @@
     damageCoefficient: 0.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerPrice
   name: spider ranger combat armor
@@ -1284,6 +1350,7 @@
 #MARK: washington BoS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorBOSMK2
   name: brotherhood combat armor mk2
@@ -1295,6 +1362,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosmk2armor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorBOS
   name: brotherhood combat armor
@@ -1306,6 +1374,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosarmor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorKnightBOS
   name: knight combat armor
@@ -1317,6 +1386,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosknight.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorSeniorBOS
   name: senior knight combat armor
@@ -1328,6 +1398,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbossenior.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorCaptainBOS
   name: captain combat armor
@@ -1349,6 +1420,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterBase
   id: N14ClothingOuterBosScribe
   name: technical leather vest
@@ -1370,6 +1442,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorMK3
   name: brotherhood combat armor mk3
@@ -1393,6 +1466,7 @@
 # New Washington BoS stuff after rework
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWBoSInitiateArmor
   name: initiate armor
@@ -1417,6 +1491,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWBoSSquireArmor
   name: squire armor
@@ -1441,6 +1516,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWBoSKnightArmor
   name: knight armor
@@ -1465,6 +1541,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWBoSSeniorKArmor
   name: senior knight armor
@@ -1489,6 +1566,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWBoSPaladinArmor
   name: paladin armor
@@ -1526,6 +1604,7 @@
 #MARK: midwest BoS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterMidwestArmor
   name: midwest BoS combat armor
@@ -1537,6 +1616,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmidbosarmor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterMidwestArmorMK2
   name: veteran midwest BoS combat armor
@@ -1548,6 +1628,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmidbosarmorV2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterMidwestReconArmor
   name: midwest BoS recon armor
@@ -1571,6 +1652,7 @@
 # New Midwest BoS stuff after rework
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSInitiateArmor
   name: initiate armor
@@ -1595,6 +1677,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSSquireArmor
   name: squire armor
@@ -1619,6 +1702,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSKnightArmor
   name: knight armor
@@ -1643,6 +1727,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSSeniorKArmor
   name: senior knight armor
@@ -1667,6 +1752,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSPaladinArmor
   name: paladin armor
@@ -1704,6 +1790,7 @@
 #MARK: craftable armors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterInsectArmor
   name: insect armor
@@ -1725,6 +1812,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterChitinArmor
   name: chitin armor
@@ -1746,6 +1834,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRadArmor
   name: radscorpion armor
@@ -1767,6 +1856,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLightMetalArmor
   name: light metal armor
@@ -1788,6 +1878,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLightLeatherArmor
   name: light leather armor
@@ -1808,6 +1899,7 @@
     damageCoefficient: 0.80
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterReinforcedLeatherArmor
   name: Reinforced leather armor
@@ -1830,6 +1922,7 @@
 #MARK: RCMP armors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestRCMP
   name: RCMP armored vest
@@ -1851,6 +1944,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorRCMP
   name: RCMP combat armor
@@ -1874,6 +1968,7 @@
 #MARK: Chinese renmants
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorChinese
   name: chinese combat armor
@@ -1895,6 +1990,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestChinese
   name: chinese armored vest
@@ -1917,6 +2013,7 @@
 
 # random other armor
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPressArmor
   name: prewar reporter armor
@@ -1939,6 +2036,7 @@
 
 #Chinese stealth suit
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingOuterHardsuitBase
   id: N14ClothingOuterChineseStealthSuit
   name: chinese stealth suit
@@ -1967,6 +2065,7 @@
     damageCoefficient: 0.8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTireArmor
   name: tire armor
@@ -1988,6 +2087,7 @@
     damageCoefficient: 0.85
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterWinterRaider
   name: winter raider armor
@@ -2009,6 +2109,7 @@
     damageCoefficient: 0.85    
 # Town Guard armour
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTownGuardLight
   name: the Guard's armor
@@ -2031,6 +2132,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingOuterTownGuardLight
   id: N14ClothingOuterTownGuardRiot
   name: the Guard's armor
@@ -2052,6 +2154,7 @@
     sprintModifier: 0.975
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FalloutArmorBase
   id: N14ClothingOuterimprovisedplatearmor
   name: Improvised Plate Armor

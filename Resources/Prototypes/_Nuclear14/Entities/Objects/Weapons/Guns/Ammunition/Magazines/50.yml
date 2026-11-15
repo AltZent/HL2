@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazine50AMR
   name: "magazine (.50 BMG)"
   parent: BaseItem
@@ -35,6 +36,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Magazine50AMR
   name: "magazine (.50 BMG)"
   parent: BaseMagazine50AMR
@@ -43,6 +45,7 @@
     proto: N14Cartridge50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Magazine50AMRHEIAP
   name: "magazine (.50 BMG HEIAP)"
   parent: BaseMagazine50AMR

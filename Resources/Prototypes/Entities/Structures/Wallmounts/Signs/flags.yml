@@ -10,6 +10,7 @@
     sprite: Structures/Wallmounts/flags.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFlag
   id: BlankFlag
   name: blank flag
@@ -19,6 +20,7 @@
     state: blank_flag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFlag
   id: NTFlag
   name: Nanotrasen flag
@@ -28,6 +30,7 @@
     state: NT_flag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFlag
   id: SyndieFlag
   name: syndicate flag
@@ -37,6 +40,7 @@
     state: syndie_flag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFlag
   id: LGBTQFlag
   name: LGBTQ flag
@@ -46,6 +50,7 @@
     state: lgbtq_flag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFlag
   id: PirateFlag
   name: pirate flag

@@ -126,6 +126,7 @@
         enabled: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: P.A.C.M.A.N.-type portable generator
   description: |-
     A flexible backup generator for powering a variety of equipment.
@@ -187,6 +188,7 @@
       state: portgen0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
   description: |-
     An advanced generator for powering departments.
@@ -243,6 +245,7 @@
       state: portgen1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: J.R.P.A.C.M.A.N.-type portable generator
   description: |-
     A small generator capable of powering individual rooms, in case of emergencies.

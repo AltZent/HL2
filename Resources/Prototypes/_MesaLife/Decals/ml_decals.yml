@@ -1,0 +1,1782 @@
+# Auto-generated ML decals (halflife-episode13 assets).
+- type: decal
+  id: MLDecalShouldBeAStructureSubtypeButIsAnObjectClutter
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: Should_be_a_structure_subtype_but_is_an_object_clutter
+
+- type: decal
+  id: MLDecalFlagpole
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: flagpole
+
+- type: decal
+  id: MLDecalFlagpoleLegion
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: flagpole_legion
+
+- type: decal
+  id: MLDecalFlagpoleUsa
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: flagpole_usa
+
+- type: decal
+  id: MLDecalFlagpoleNcr
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: flagpole_ncr
+
+- type: decal
+  id: MLDecalPlaceableClutter
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: Placeable_clutter
+
+- type: decal
+  id: MLDecalRug
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: rug
+
+- type: decal
+  id: MLDecalRugRubber
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: rug_rubber
+
+- type: decal
+  id: MLDecalLightingClutter
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: Lighting_Clutter
+
+- type: decal
+  id: MLDecalLamp
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: lamp
+
+- type: decal
+  id: MLDecalLampOn
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: lamp-on
+
+- type: decal
+  id: MLDecalUnused
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: Unused
+
+- type: decal
+  id: MLDecalMap
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: map
+
+- type: decal
+  id: MLDecalBureaucracyNonsense
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: Bureaucracy_nonsense
+
+- type: decal
+  id: MLDecalTrifold
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: trifold
+
+- type: decal
+  id: MLDecalPaper
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper
+
+- type: decal
+  id: MLDecalPaperWords
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper_words
+
+- type: decal
+  id: MLDecalPaperplaneOnfireOverlay
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paperplane_onfire_overlay
+
+- type: decal
+  id: MLDecalPaperBin0
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper_bin0
+
+- type: decal
+  id: MLDecalPaperBin1
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper_bin1
+
+- type: decal
+  id: MLDecalPaperslip
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paperslip
+
+- type: decal
+  id: MLDecalPaperslipWords
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paperslip_words
+
+- type: decal
+  id: MLDecalPaperStampOk
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper_stamp-ok
+
+- type: decal
+  id: MLDecalPaperStampDeny
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: paper_stamp-deny
+
+- type: decal
+  id: MLDecalPen
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: pen
+
+- type: decal
+  id: MLDecalPencil
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: pencil
+
+- type: decal
+  id: MLDecalPenFountain
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: pen-fountain
+
+- type: decal
+  id: MLDecalStampDeny
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: stamp-deny
+
+- type: decal
+  id: MLDecalStampOk
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: stamp-ok
+
+- type: decal
+  id: MLDecalPapercutter
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Clutter/clutter.rsi
+    state: papercutter
+
+- type: decal
+  id: MLDecalArcturianStopSign
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: arcturian_stop_sign
+
+- type: decal
+  id: MLDecalFire
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: fire
+
+- type: decal
+  id: MLDecalGoldenplaque
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: goldenplaque
+
+- type: decal
+  id: MLDecalKiddieplaque
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: kiddieplaque
+
+- type: decal
+  id: MLDecalMaltesefalconLeft
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: maltesefalcon-left
+
+- type: decal
+  id: MLDecalMaltesefalconRight
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: maltesefalcon-right
+
+- type: decal
+  id: MLDecalNobugs
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: nobugs
+
+- type: decal
+  id: MLDecalNosmoking
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: nosmoking
+
+- type: decal
+  id: MLDecalNosmoking2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: nosmoking2
+
+- type: decal
+  id: MLDecalProp1
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: prop1
+
+- type: decal
+  id: MLDecalProp2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: prop2
+
+- type: decal
+  id: MLDecalProp3
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: prop3
+
+- type: decal
+  id: MLDecalRoplaque
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: roplaque
+
+- type: decal
+  id: MLDecalSecurearea
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: securearea
+
+- type: decal
+  id: MLDecalShock
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/decals.rsi
+    state: shock
+
+- type: decal
+  id: MLDecalCross1
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/crosses.rsi
+    state: cross1
+
+- type: decal
+  id: MLDecalCross2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/crosses.rsi
+    state: cross2
+
+- type: decal
+  id: MLDecalCrossOverlay
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/crosses.rsi
+    state: cross_overlay
+
+- type: decal
+  id: MLDecalRock
+  tags: ["rock"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/rocks.rsi
+    state: rock
+
+- type: decal
+  id: MLDecalBrown
+  tags: ["rock"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/rocks.rsi
+    state: brown
+
+- type: decal
+  id: MLDecalBrownAlt
+  tags: ["rock"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/rocks.rsi
+    state: brown_alt
+
+- type: decal
+  id: MLDecalBlackGround
+  tags: ["rock"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/rocks.rsi
+    state: black_ground
+
+- type: decal
+  id: MLDecalBlackGroundAlt
+  tags: ["rock"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/rocks.rsi
+    state: black_ground_alt
+
+- type: decal
+  id: MLDecalPalebush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: palebush_2
+
+- type: decal
+  id: MLDecalGoldenbush
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: goldenbush
+
+- type: decal
+  id: MLDecalWildRootNo
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root_no
+
+- type: decal
+  id: MLDecalWildRoot1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root1
+
+- type: decal
+  id: MLDecalWildRoot2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root2
+
+- type: decal
+  id: MLDecalWildRoot3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root3
+
+- type: decal
+  id: MLDecalWildRoot4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root4
+
+- type: decal
+  id: MLDecalWildRoot5
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root5
+
+- type: decal
+  id: MLDecalWildRoot6
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root6
+
+- type: decal
+  id: MLDecalWildRoot7
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root7
+
+- type: decal
+  id: MLDecalWildRoot8
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root8
+
+- type: decal
+  id: MLDecalWildRoot9
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root9
+
+- type: decal
+  id: MLDecalWildRoot10
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root10
+
+- type: decal
+  id: MLDecalWildRoot11
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root11
+
+- type: decal
+  id: MLDecalWildRoot12
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_root12
+
+- type: decal
+  id: MLDecalWildFungusNo
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_fungus_no
+
+- type: decal
+  id: MLDecalWildFungus1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_fungus1
+
+- type: decal
+  id: MLDecalWildFungus2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_fungus2
+
+- type: decal
+  id: MLDecalWildFungus3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_fungus3
+
+- type: decal
+  id: MLDecalWildFungus4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_fungus4
+
+- type: decal
+  id: MLDecalWildTatoNo
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_tato_no
+
+- type: decal
+  id: MLDecalWildTato
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_tato
+
+- type: decal
+  id: MLDecalWildBerries1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_berries1
+
+- type: decal
+  id: MLDecalWildBerries2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_berries2
+
+- type: decal
+  id: MLDecalWildBerries3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_berries3
+
+- type: decal
+  id: MLDecalWildBerries4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_berries4
+
+- type: decal
+  id: MLDecalWildBerriesNo
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_berries_no
+
+- type: decal
+  id: MLDecalWildBayleafNo
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_bayleaf_no
+
+- type: decal
+  id: MLDecalWildBayleaf1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_bayleaf1
+
+- type: decal
+  id: MLDecalWildBayleaf2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_bayleaf2
+
+- type: decal
+  id: MLDecalWildBayleaf3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_bayleaf3
+
+- type: decal
+  id: MLDecalWildBayleaf4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/flora.rsi
+    state: wild_bayleaf4
+
+- type: decal
+  id: MLDecalTMushroom1P
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom1p
+
+- type: decal
+  id: MLDecalTMushroom1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom1
+
+- type: decal
+  id: MLDecalTMushroom2P
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom2p
+
+- type: decal
+  id: MLDecalTMushroom2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom2
+
+- type: decal
+  id: MLDecalTMushroom3P
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom3p
+
+- type: decal
+  id: MLDecalTMushroom3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom3
+
+- type: decal
+  id: MLDecalTMushroom4P
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom4p
+
+- type: decal
+  id: MLDecalTMushroom4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: t_mushroom4
+
+- type: decal
+  id: MLDecalMushroomStem
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: mushroom_stem
+
+- type: decal
+  id: MLDecalLeafy
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: leafy
+
+- type: decal
+  id: MLDecalLeafy1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: leafy_1
+
+- type: decal
+  id: MLDecalLeafy2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: leafy_2
+
+- type: decal
+  id: MLDecalTinyshrooms
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: tinyshrooms
+
+- type: decal
+  id: MLDecalTinyshrooms1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: tinyshrooms_1
+
+- type: decal
+  id: MLDecalTinyshrooms2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: tinyshrooms_2
+
+- type: decal
+  id: MLDecalBranch
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: branch
+
+- type: decal
+  id: MLDecalSpore
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: spore
+
+- type: decal
+  id: MLDecalMound
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: mound
+
+- type: decal
+  id: MLDecalSlime
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: slime
+
+- type: decal
+  id: MLDecalCougher
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xenflora.rsi
+    state: cougher
+
+- type: decal
+  id: MLDecalTallgrass
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/tallgrass.rsi
+    state: tallgrass
+
+- type: decal
+  id: MLDecalTallgrassCorner
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/tallgrass.rsi
+    state: tallgrass_corner
+
+- type: decal
+  id: MLDecalTallgrassOverlay
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/tallgrass.rsi
+    state: tallgrass_overlay
+
+- type: decal
+  id: MLDecalTallgrassOverlayCorner
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/tallgrass.rsi
+    state: tallgrass_overlay_corner
+
+- type: decal
+  id: MLDecalEmber
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Flora/xen.rsi
+    state: ember
+
+- type: decal
+  id: MLDecalFirstbush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: firstbush_1
+
+- type: decal
+  id: MLDecalFirstbush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: firstbush_2
+
+- type: decal
+  id: MLDecalFirstbush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: firstbush_3
+
+- type: decal
+  id: MLDecalFirstbush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: firstbush_4
+
+- type: decal
+  id: MLDecalReedbush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: reedbush_1
+
+- type: decal
+  id: MLDecalReedbush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: reedbush_2
+
+- type: decal
+  id: MLDecalReedbush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: reedbush_3
+
+- type: decal
+  id: MLDecalReedbush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: reedbush_4
+
+- type: decal
+  id: MLDecalLeafybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: leafybush_1
+
+- type: decal
+  id: MLDecalLeafybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: leafybush_2
+
+- type: decal
+  id: MLDecalLeafybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: leafybush_3
+
+- type: decal
+  id: MLDecalPalebush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: palebush_1
+
+- type: decal
+  id: MLDecalPalebush22
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: palebush_2
+
+- type: decal
+  id: MLDecalPalebush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: palebush_3
+
+- type: decal
+  id: MLDecalPalebush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: palebush_4
+
+- type: decal
+  id: MLDecalStalkybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: stalkybush_1
+
+- type: decal
+  id: MLDecalStalkybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: stalkybush_2
+
+- type: decal
+  id: MLDecalStalkybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: stalkybush_3
+
+- type: decal
+  id: MLDecalGrassybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: grassybush_1
+
+- type: decal
+  id: MLDecalGrassybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: grassybush_2
+
+- type: decal
+  id: MLDecalGrassybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: grassybush_3
+
+- type: decal
+  id: MLDecalGrassybush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: grassybush_4
+
+- type: decal
+  id: MLDecalFernybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fernybush_1
+
+- type: decal
+  id: MLDecalFernybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fernybush_2
+
+- type: decal
+  id: MLDecalFernybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fernybush_3
+
+- type: decal
+  id: MLDecalSunnybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sunnybush_1
+
+- type: decal
+  id: MLDecalSunnybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sunnybush_2
+
+- type: decal
+  id: MLDecalSunnybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sunnybush_3
+
+- type: decal
+  id: MLDecalGenericbush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: genericbush_1
+
+- type: decal
+  id: MLDecalGenericbush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: genericbush_2
+
+- type: decal
+  id: MLDecalGenericbush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: genericbush_3
+
+- type: decal
+  id: MLDecalGenericbush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: genericbush_4
+
+- type: decal
+  id: MLDecalPointybush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: pointybush_1
+
+- type: decal
+  id: MLDecalPointybush2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: pointybush_2
+
+- type: decal
+  id: MLDecalPointybush3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: pointybush_3
+
+- type: decal
+  id: MLDecalPointybush4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: pointybush_4
+
+- type: decal
+  id: MLDecalLavendergrass1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: lavendergrass_1
+
+- type: decal
+  id: MLDecalLavendergrass2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: lavendergrass_2
+
+- type: decal
+  id: MLDecalLavendergrass3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: lavendergrass_3
+
+- type: decal
+  id: MLDecalLavendergrass4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: lavendergrass_4
+
+- type: decal
+  id: MLDecalYwflowers1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ywflowers_1
+
+- type: decal
+  id: MLDecalYwflowers2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ywflowers_2
+
+- type: decal
+  id: MLDecalYwflowers3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ywflowers_3
+
+- type: decal
+  id: MLDecalYwflowers4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ywflowers_4
+
+- type: decal
+  id: MLDecalBrflowers1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: brflowers_1
+
+- type: decal
+  id: MLDecalBrflowers2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: brflowers_2
+
+- type: decal
+  id: MLDecalBrflowers3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: brflowers_3
+
+- type: decal
+  id: MLDecalPpflowers1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ppflowers_1
+
+- type: decal
+  id: MLDecalPpflowers2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ppflowers_2
+
+- type: decal
+  id: MLDecalPpflowers3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: ppflowers_3
+
+- type: decal
+  id: MLDecalSparsegrass1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sparsegrass_1
+
+- type: decal
+  id: MLDecalSparsegrass2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sparsegrass_2
+
+- type: decal
+  id: MLDecalSparsegrass3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: sparsegrass_3
+
+- type: decal
+  id: MLDecalFullgrass1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fullgrass_1
+
+- type: decal
+  id: MLDecalFullgrass2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fullgrass_2
+
+- type: decal
+  id: MLDecalFullgrass3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/ausflora.rsi
+    state: fullgrass_3
+
+- type: decal
+  id: MLDecalPlant1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_1
+
+- type: decal
+  id: MLDecalPlant2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_2
+
+- type: decal
+  id: MLDecalPlant3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_3
+
+- type: decal
+  id: MLDecalPlant4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_4
+
+- type: decal
+  id: MLDecalPlant5
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_5
+
+- type: decal
+  id: MLDecalPlant6
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_6
+
+- type: decal
+  id: MLDecalPlant7
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: plant_7
+
+- type: decal
+  id: MLDecalBush1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/jungleplants.rsi
+    state: bush_1
+
+- type: decal
+  id: MLDecalHorizontalLine
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_line
+
+- type: decal
+  id: MLDecalHorizontalLine1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_line-1
+
+- type: decal
+  id: MLDecalHorizontalLine2
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_line-2
+
+- type: decal
+  id: MLDecalVerticalLine
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_line
+
+- type: decal
+  id: MLDecalVerticalLine1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_line-1
+
+- type: decal
+  id: MLDecalVerticalLine2
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_line-2
+
+- type: decal
+  id: MLDecalVerticalCrossing
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_crossing
+
+- type: decal
+  id: MLDecalVerticalCrossing1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_crossing-1
+
+- type: decal
+  id: MLDecalVerticalCrossing2
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: vertical_crossing-2
+
+- type: decal
+  id: MLDecalHorizontalCrossing
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_crossing
+
+- type: decal
+  id: MLDecalHorizontalCrossing1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_crossing-1
+
+- type: decal
+  id: MLDecalHorizontalCrossing2
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: horizontal_crossing-2
+
+- type: decal
+  id: MLDecalDrain
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Road/road_decals.rsi
+    state: drain
+
+- type: decal
+  id: MLDecalLandingstripe0
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: landingstripe0
+
+- type: decal
+  id: MLDecalLandingstripe1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: landingstripe1
+
+- type: decal
+  id: MLDecalLandingstripe2
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: landingstripe2
+
+- type: decal
+  id: MLDecalLandingstripe3
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: landingstripe3
+
+- type: decal
+  id: MLDecalLandingstripe
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: landingstripe
+
+- type: decal
+  id: MLDecalLzSpokeLight
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: lz_spoke_light
+
+- type: decal
+  id: MLDecalLzSpokeLight1
+  tags: ["markings"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Props/landinglights.rsi
+    state: lz_spoke_light1
+
+- type: decal
+  id: MLDecalMatWelcome
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_welcome
+
+- type: decal
+  id: MLDecalMatBlank
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_blank
+
+- type: decal
+  id: MLDecalMatVulgar
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_vulgar
+
+- type: decal
+  id: MLDecalMatVulgar2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_vulgar_2
+
+- type: decal
+  id: MLDecalMatTown
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_town
+
+- type: decal
+  id: MLDecalMatNcr
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_ncr
+
+- type: decal
+  id: MLDecalMatBos
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: mat_bos
+
+- type: decal
+  id: MLDecalRubberSingle
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_single
+
+- type: decal
+  id: MLDecalRubber
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber
+
+- type: decal
+  id: MLDecalRubber1
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_1
+
+- type: decal
+  id: MLDecalRubber2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_2
+
+- type: decal
+  id: MLDecalRubber3
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_3
+
+- type: decal
+  id: MLDecalRubber4
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_4
+
+- type: decal
+  id: MLDecalRubber5
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_5
+
+- type: decal
+  id: MLDecalRubber6
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_6
+
+- type: decal
+  id: MLDecalRubber7
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_7
+
+- type: decal
+  id: MLDecalRubber8
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_8
+
+- type: decal
+  id: MLDecalRubber9
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_9
+
+- type: decal
+  id: MLDecalRubber10
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_10
+
+- type: decal
+  id: MLDecalRubber11
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/32x32_rugs.rsi
+    state: rubber_11
+
+- type: decal
+  id: MLDecalRugRubber2
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_rubber
+
+- type: decal
+  id: MLDecalRugFancy
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_fancy
+
+- type: decal
+  id: MLDecalRugRed
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_red
+
+- type: decal
+  id: MLDecalRugYellow
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_yellow
+
+- type: decal
+  id: MLDecalRugBlueShag
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_blue_shag
+
+- type: decal
+  id: MLDecalRugBlue
+  tags: ["station"]
+  sprite:
+    sprite: _MesaLife/Decals/ML/Rugs/64x64_rugs.rsi
+    state: rug_blue

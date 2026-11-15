@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 96,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "gonarch",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gonarch-2",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          0.2,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gonarch_attack",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gonarch_rest"
+    },
+    {
+      "name": "gonarch_dead"
+    },
+    {
+      "name": "gonarch_warning"
+    }
+  ]
+}

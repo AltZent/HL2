@@ -16,6 +16,7 @@
         boardPrototype: GrassBoardTabletop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBattlemap
   id: GrassBattlemap
   name: grass battlemap
@@ -29,6 +30,7 @@
         boardPrototype: GrassBoardTabletop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBattlemap
   id: MoonBattlemap
   name: moon battlemap
@@ -42,6 +44,7 @@
         boardPrototype: MoonBoardTabletop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBattlemap
   id: SandBattlemap
   name: sand battlemap
@@ -55,6 +58,7 @@
         boardPrototype: SandBoardTabletop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBattlemap
   id: SnowBattlemap
   name: snow battlemap
@@ -68,6 +72,7 @@
         boardPrototype: SnowBoardTabletop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBattlemap
   id: ShipBattlemap
   name: ship battlemap

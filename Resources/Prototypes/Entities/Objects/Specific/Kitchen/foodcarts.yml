@@ -67,6 +67,7 @@
     #      startingItem: PowerCellMedium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hot food cart
   id: FoodCartHot
   parent: FoodCartBase
@@ -148,6 +149,7 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cold food cart
   id: FoodCartCold
   parent: FoodCartBase

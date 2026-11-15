@@ -58,6 +58,7 @@
     # - Science
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseResearchAndDevelopmentPointSource
   parent: BaseMachinePowered
   name: "base R&D point source"

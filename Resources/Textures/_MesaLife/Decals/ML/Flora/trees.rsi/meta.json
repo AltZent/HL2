@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 128
+  },
+  "states": [
+    {
+      "name": "pine_1_snow"
+    },
+    {
+      "name": "pine_2_snow"
+    },
+    {
+      "name": "pine_1"
+    },
+    {
+      "name": "pine_2"
+    },
+    {
+      "name": "pine_3"
+    },
+    {
+      "name": "pine_4"
+    },
+    {
+      "name": "pine_5"
+    },
+    {
+      "name": "dead_tree1"
+    },
+    {
+      "name": "dead_tree2"
+    },
+    {
+      "name": "dead_tree3"
+    }
+  ]
+}

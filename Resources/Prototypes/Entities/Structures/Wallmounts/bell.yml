@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BoxingBell
   name: boxing bell
   description: Ding ding!

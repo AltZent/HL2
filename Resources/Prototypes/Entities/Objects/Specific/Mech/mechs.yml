@@ -144,6 +144,7 @@
   # Goobstation Change End
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MechRipley
   parent: [ BaseMech, IndustrialMech ] # Goobstation
   name: Ripley APLU
@@ -178,6 +179,7 @@
     baseSprintSpeed: 3.6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MechRipleyBattery
   parent: MechRipley
   suffix: Battery
@@ -188,6 +190,7 @@
       - PowerCellHigh
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMech, SpecialMech ] # Goobstation
   id: MechHonker
   name: H.O.N.K.
@@ -214,6 +217,7 @@
       - HumanoidAppearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MechHonker
   id: MechHonkerBattery
   suffix: Battery
@@ -224,6 +228,7 @@
       - PowerCellHigh
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMech, SmallMech ] # Goobstation
   id: MechHamtr
   name: HAMTR
@@ -261,6 +266,7 @@
     baseSprintSpeed: 3.7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MechHamtr
   id: MechHamtrBattery
   suffix: Battery
@@ -273,6 +279,7 @@
 # Vim!!!!!!!
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMech
   id: MechVim
   name: Vim
@@ -326,6 +333,7 @@
   # TODO: builtin flashlight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MechVim
   id: MechVimBattery
   suffix: Battery

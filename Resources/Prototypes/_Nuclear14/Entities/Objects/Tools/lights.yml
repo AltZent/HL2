@@ -1,5 +1,6 @@
 # Flashlights
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FlashlightLantern
   id: N14Flashlight
   name: flashlight
@@ -17,6 +18,7 @@
     sprite: Objects/Tools/flashlight.rsi  # N14TODO: SPRITE
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Flashlight
   id: N14FlashlightEmpty
   suffix: Empty
@@ -28,6 +30,7 @@
 
 # Flares
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Flare
   id: N14Flare
   name: flare

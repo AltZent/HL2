@@ -1,5 +1,6 @@
 # Empty mags
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineMagnumLeverRifle
   name: "magazine (.45 rifle)"
   parent: BaseItem
@@ -34,6 +35,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumLeverRifle
   name: "lever rifle magazine (.45)"
   parent: BaseMagazineMagnumLeverRifle
@@ -45,6 +47,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Ammunition/Magazine/lever_rifle_mags.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineMagnumLeverRifleEmpty
   parent: MagazineMagnumLeverRifle
   suffix: Empty

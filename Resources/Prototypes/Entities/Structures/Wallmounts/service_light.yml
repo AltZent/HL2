@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Poweredlight
   id: JanitorServiceLight
   name: janitorial service light

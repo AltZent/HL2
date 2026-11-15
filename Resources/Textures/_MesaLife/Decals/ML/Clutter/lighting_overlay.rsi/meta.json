@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tube",
+      "directions": 4
+    },
+    {
+      "name": "bulb",
+      "directions": 4
+    },
+    {
+      "name": "floor"
+    },
+    {
+      "name": "tube_nightshift",
+      "directions": 4
+    },
+    {
+      "name": "bulb_nightshift",
+      "directions": 4
+    },
+    {
+      "name": "floor_nightshift"
+    },
+    {
+      "name": "tube_emergency",
+      "directions": 4
+    },
+    {
+      "name": "bulb_emergency",
+      "directions": 4
+    },
+    {
+      "name": "floor_emergency"
+    }
+  ]
+}

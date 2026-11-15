@@ -3,6 +3,7 @@
 # Animals
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobMolerat, N14MobWaveAnimal ]
   id: N14MobMoleratWave
   suffix: WaveMode
@@ -11,6 +12,7 @@
     difficulty: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobNightstalkerCub, N14MobWaveAnimal ]
   id: N14MobNightstalkerCubWave
   suffix: WaveMode
@@ -19,6 +21,7 @@
     difficulty: 3.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobGecko, N14MobWaveAnimal ]
   id: N14MobGeckoWave
   suffix: WaveMode
@@ -27,6 +30,7 @@
     difficulty: 4.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobNightstalker, N14MobWaveAnimal ]
   id: N14MobNightstalkerWave
   suffix: WaveMode
@@ -35,6 +39,7 @@
     difficulty: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobYaoguai, N14MobWaveAnimal ]
   id: N14MobYaoguaiWaveBoss
   suffix: WaveMode
@@ -44,6 +49,7 @@
     unique: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobDeathclaw, N14MobWaveAnimal ]
   id: N14MobDeathclawWaveBoss
   suffix: WaveMode
@@ -53,6 +59,7 @@
     unique: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobDeathclawWaveBoss
   id: N14MobDeathclawWave
   suffix: WaveMode
@@ -61,6 +68,7 @@
     difficulty: 16
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobDeathclawAlbino, N14MobWaveAnimal ]
   id: N14MobDeathclawAlbinoWaveBoss
   suffix: WaveMode
@@ -70,6 +78,7 @@
     unique: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobDeathclawAlbinoWaveBoss
   id: N14MobDeathclawAlbinoWave
   suffix: WaveMode
@@ -79,6 +88,7 @@
     unique: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobDeathclawMetal, N14MobWaveAnimal ]
   id: N14MobDeathclawMetalWaveBoss
   suffix: WaveMode
@@ -88,6 +98,7 @@
     unique: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobDeathclawMetalWaveBoss
   id: N14MobDeathclawMetalWave
   suffix: WaveMode
@@ -97,11 +108,13 @@
 
 # Insects
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobRadroach, N14MobWaveAnimal ]
   id: N14MobRadroachWave
   suffix: WaveMode
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobBloatfly, N14MobWaveInsect ]
   id: N14MobBloatflyWave
   suffix: WaveMode
@@ -110,6 +123,7 @@
     difficulty: 1.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobGiantAnt, N14MobWaveInsect ]
   id: N14MobGiantAntWave
   suffix: WaveMode
@@ -118,6 +132,7 @@
     difficulty: 2.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobGiantFireAnt, N14MobWaveInsect ]
   id: N14MobGiantFireAntWave
   suffix: WaveMode
@@ -126,6 +141,7 @@
     difficulty: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobCazador, N14MobWaveInsect ]
   id: N14MobCazadorWave
   suffix: WaveMode
@@ -134,6 +150,7 @@
     difficulty: 7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobRadscorpion, N14MobWaveInsect ]
   id: N14MobRadscorpionWave
   suffix: WaveMode
@@ -142,6 +159,7 @@
     difficulty: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14MobRadscorpionBark, N14MobWaveInsect ]
   id: N14MobRadscorpionBarkWave
   suffix: WaveMode

@@ -14,6 +14,7 @@
       price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildAgaveClippingSeed
   name: wild agave clipping
@@ -24,6 +25,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/agave.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildBananaYuccaClippingSeed
   name: wild banana yucca clipping
@@ -34,6 +36,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/yucca.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildBarrelCactusClippingSeed
   name: wild barrel cactus clipping
@@ -44,6 +47,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/barrelcactus.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildBlackberryClippingSeed
   name: wild blackberry clipping
@@ -54,6 +58,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/blackberry.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildBrocFlowerClippingSeed
   name: broc flower clipping
@@ -64,6 +69,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/broc.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildBuffaloGourdClippingSeed
   name: wild buffalo gourd clipping
@@ -74,6 +80,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/buffalogourd.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildCabbageClippingSeed
   name: wild cabbage clipping
@@ -84,6 +91,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/cabbage.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildCarrotClippingSeed
   name: wild carrot clipping
@@ -94,6 +102,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/carrot.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildCoyoteTobaccoClippingSeed
   name: coyote tobacco clipping
@@ -104,6 +113,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/coyotetobacco.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraDaturaClippingSeed
   name: datura flower clipping
@@ -114,6 +124,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/datura.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildGlowpepperClippingSeed 
   name: wild glowpepper clipping 
@@ -124,6 +135,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/jalapeno.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildMaizeClippingSeed
   name: wild maize clipping
@@ -134,6 +146,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/maize.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildHoneyMesquiteClippingSeed
   name: wild mesquite clipping
@@ -144,6 +157,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/mesquite.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildMutfruitClippingSeed
   name: wild mutfuit clipping
@@ -154,6 +168,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/mutfruit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildNettleClippingSeed
   name: wild nettle clipping
@@ -164,6 +179,7 @@
       sprite: Objects/Specific/Hydroponics/nettle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildOnionClippingSeed
   name: wild onion clipping
@@ -174,6 +190,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/onion.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildPinyonClippingSeed
   name: wild pinyon clipping
@@ -184,6 +201,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/pinyon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildPricklyPearClippingSeed
   name: wild prickly pear clipping
@@ -194,6 +212,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/pricklypear.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildRazorgrainClippingSeed
   name: wild razorgrain clipping
@@ -204,6 +223,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/razorgrain.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildStarlightBerryClippingSeed
   name: wild starlight clipping
@@ -214,6 +234,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/starlight.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildTarberryClippingSeed
   name: wild tarberry clipping
@@ -224,6 +245,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/tarberry.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildTatoClippingSeed
   name: wild tato clipping
@@ -234,6 +256,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/tato.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildWhiteHorsenettleClippingSeed
   name: white horsenettle clipping
@@ -244,6 +267,7 @@
       sprite: _Nuclear14/Objects/Specific/Hydroponics/whitehorsenettle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SeedBase
   id: N14FloraWildXanderRootClippingSeed
   name: wild xander root clipping

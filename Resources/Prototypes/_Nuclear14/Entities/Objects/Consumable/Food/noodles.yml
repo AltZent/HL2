@@ -22,6 +22,7 @@
 # Noodles
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: boiled spaghetti
   parent: N14CookedFoodNoodlesBase
   id: N14CookedFoodNoodlesBoiled
@@ -35,6 +36,7 @@
 # Tastes like pasta.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spaghetti
   parent: N14CookedFoodNoodlesBase
   id: N14CookedFoodNoodles
@@ -53,6 +55,7 @@
 # Tastes like pasta, tomato.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spaghetti and meatballs
   parent: N14CookedFoodNoodlesBase
   id: N14CookedFoodNoodlesMeatball
@@ -80,6 +83,7 @@
 # Tastes like pasta, meat.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chow mein
   parent: N14CookedFoodNoodlesBase
   id: N14CookedFoodNoodlesChowmein
@@ -105,6 +109,7 @@
 # Tastes like pasta, tomato.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: butter noodles
   parent: N14CookedFoodNoodlesBase
   id: N14CookedFoodNoodlesButter

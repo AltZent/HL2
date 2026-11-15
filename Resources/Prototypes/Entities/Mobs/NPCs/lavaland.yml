@@ -71,6 +71,7 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobWatcherLavaland
   parent: MobWatcherBase
   components:
@@ -88,6 +89,7 @@
     color: red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobWatcherIcewing
   parent: MobWatcherBase
   name: icewing watcher
@@ -106,6 +108,7 @@
     color: deepskyblue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobWatcherMagmawing
   parent: MobWatcherBase
   name: magmawing watcher
@@ -127,6 +130,7 @@
     fireCost: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobWatcherPride
   parent: MobWatcherBase
   name: pride watcher

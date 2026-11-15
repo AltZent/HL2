@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: glimmer mite
   parent: MobCockroach
   id: MobGlimmerMite
@@ -35,6 +36,7 @@
   - type: AmbientOnPowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent:
   - BaseMob
   - MobCombat

@@ -95,6 +95,7 @@
 
 #MARK: Nuka Vending
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: N14VendingMachineNukaCola
   name: Nuka-Cola machine
@@ -132,6 +133,7 @@
 
 #MARK: Nuka Vending+
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineNukaCola
   id: N14VendingMachineNukaColaGenerous
   name: Nuka-Cola machine
@@ -152,6 +154,7 @@
 
 #MARK: Nuka Irradiated
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineNukaCola
   id: N14VendingMachineNukaColaIrradiated
   name: Nuka-Cola machine
@@ -164,6 +167,7 @@
 
 #MARK: Nuka Storage
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineNukaColaNew
   suffix: storage, empty
@@ -200,6 +204,7 @@
 
 #MARK: Nuka Filled
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineNukaColaNew
   id: N14VendingMachineNukaColaNewFilled
   suffix: storage, random
@@ -235,6 +240,7 @@
 
 #MARK: Vim Storage
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineVim
   suffix: storage, empty
@@ -262,6 +268,7 @@
 
 #MARK: Vim Filled
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineVim
   id: N14VendingMachineVimFilled
   suffix: storage, random
@@ -294,6 +301,7 @@
 
 #MARK: Cig vendors
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14VendingMachineCigarette
   suffix: storage, empty
@@ -321,6 +329,7 @@
 
 #MARK: Cig Filled
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineCigarette
   id: N14VendingMachineCigaretteFilled
   suffix: storage, random
@@ -346,6 +355,7 @@
 
 #MARK: Cig Republic
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VendingMachineCigarette
   id: N14VendingMachineCigaretteFilledRepublic
   suffix: storage, republics

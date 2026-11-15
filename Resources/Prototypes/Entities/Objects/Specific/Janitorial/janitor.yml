@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   name: mop
   id: MopItem
@@ -57,6 +58,7 @@
     - Janitorial
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   name: advanced mop
   id: AdvMopItem
@@ -121,6 +123,7 @@
         - MopAdv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wet floor sign
   id: WetFloorSign
   parent: ClothingOuterBase
@@ -146,6 +149,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Explosive
   parent: WetFloorSign
   id: WetFloorSignMineExplosive
@@ -199,6 +203,7 @@
       - WetFloorSign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plunger
   id: Plunger
   parent: BaseItem
@@ -268,6 +273,7 @@
     MaintenanceToolSpawner: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   name: damp rag
   id: RagItem

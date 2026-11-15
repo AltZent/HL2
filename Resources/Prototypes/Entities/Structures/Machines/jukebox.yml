@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Jukebox
   name: jukebox
   parent: [ BaseMachinePowered, ConstructibleMachine ]

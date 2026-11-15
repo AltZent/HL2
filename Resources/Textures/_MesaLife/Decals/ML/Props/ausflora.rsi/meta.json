@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "firstbush_1"
+    },
+    {
+      "name": "firstbush_2"
+    },
+    {
+      "name": "firstbush_3"
+    },
+    {
+      "name": "firstbush_4"
+    },
+    {
+      "name": "reedbush_1"
+    },
+    {
+      "name": "reedbush_2"
+    },
+    {
+      "name": "reedbush_3"
+    },
+    {
+      "name": "reedbush_4"
+    },
+    {
+      "name": "leafybush_1"
+    },
+    {
+      "name": "leafybush_2"
+    },
+    {
+      "name": "leafybush_3"
+    },
+    {
+      "name": "palebush_1"
+    },
+    {
+      "name": "palebush_2"
+    },
+    {
+      "name": "palebush_3"
+    },
+    {
+      "name": "palebush_4"
+    },
+    {
+      "name": "stalkybush_1"
+    },
+    {
+      "name": "stalkybush_2"
+    },
+    {
+      "name": "stalkybush_3"
+    },
+    {
+      "name": "grassybush_1"
+    },
+    {
+      "name": "grassybush_2"
+    },
+    {
+      "name": "grassybush_3"
+    },
+    {
+      "name": "grassybush_4"
+    },
+    {
+      "name": "fernybush_1"
+    },
+    {
+      "name": "fernybush_2"
+    },
+    {
+      "name": "fernybush_3"
+    },
+    {
+      "name": "sunnybush_1"
+    },
+    {
+      "name": "sunnybush_2"
+    },
+    {
+      "name": "sunnybush_3"
+    },
+    {
+      "name": "genericbush_1"
+    },
+    {
+      "name": "genericbush_2"
+    },
+    {
+      "name": "genericbush_3"
+    },
+    {
+      "name": "genericbush_4"
+    },
+    {
+      "name": "pointybush_1"
+    },
+    {
+      "name": "pointybush_2"
+    },
+    {
+      "name": "pointybush_3"
+    },
+    {
+      "name": "pointybush_4"
+    },
+    {
+      "name": "lavendergrass_1"
+    },
+    {
+      "name": "lavendergrass_2"
+    },
+    {
+      "name": "lavendergrass_3"
+    },
+    {
+      "name": "lavendergrass_4"
+    },
+    {
+      "name": "ywflowers_1"
+    },
+    {
+      "name": "ywflowers_2"
+    },
+    {
+      "name": "ywflowers_3"
+    },
+    {
+      "name": "ywflowers_4"
+    },
+    {
+      "name": "brflowers_1"
+    },
+    {
+      "name": "brflowers_2"
+    },
+    {
+      "name": "brflowers_3"
+    },
+    {
+      "name": "ppflowers_1"
+    },
+    {
+      "name": "ppflowers_2"
+    },
+    {
+      "name": "ppflowers_3"
+    },
+    {
+      "name": "sparsegrass_1"
+    },
+    {
+      "name": "sparsegrass_2"
+    },
+    {
+      "name": "sparsegrass_3"
+    },
+    {
+      "name": "fullgrass_1"
+    },
+    {
+      "name": "fullgrass_2"
+    },
+    {
+      "name": "fullgrass_3"
+    }
+  ]
+}

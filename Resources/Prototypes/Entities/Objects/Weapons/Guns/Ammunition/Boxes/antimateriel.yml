@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxAntiMateriel
@@ -26,6 +27,7 @@
 
 # Boxes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxAntiMateriel
   id: MagazineBoxAntiMaterielBig
   name: ammunition box (.60 anti-materiel)
@@ -46,6 +48,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxAntiMateriel
   id: MagazineBoxAntiMateriel
   name: ammunition box (.60 anti-materiel)

@@ -95,10 +95,12 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle01
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle02
   components:
@@ -112,6 +114,7 @@
     fillBaseName: bottle-2-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle03
   components:
@@ -125,6 +128,7 @@
     fillBaseName: bottle-3-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle04
   components:
@@ -147,6 +151,7 @@
     - Bottle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: EpinephrineChemistryBottle
   name: epinephrine bottle
   parent: BaseChemistryBottleFilled
@@ -160,6 +165,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RobustHarvestChemistryBottle
   name: robust harvest bottle
   description: This will increase the potency of your plants.
@@ -174,6 +180,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: EZNutrientChemistryBottle
   name: ez nutrient bottle
   description: This will provide some nutrition to your plants.
@@ -188,6 +195,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Left4ZedChemistryBottle
   name: left-4-zed bottle
   description: This will increase the effectiveness of mutagen.
@@ -202,6 +210,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: UnstableMutagenChemistryBottle
   name: unstable mutagen bottle
   description: This will cause rapid mutations in your plants.
@@ -216,6 +225,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: NocturineChemistryBottle
   name: nocturine bottle
   description: This will make someone fall down almost immediately. Hard to overdose on.
@@ -230,6 +240,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: EphedrineChemistryBottle
   name: ephedrine bottle
   parent: BaseChemistryBottleFilled
@@ -243,6 +254,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: OmnizineChemistryBottle
   name: omnizine bottle
   parent: BaseChemistryBottleFilled
@@ -256,6 +268,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseChemistryBottleFilled
   id: CognizineChemistryBottle
   name: cognizine bottle
@@ -269,6 +282,7 @@
           Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PaxChemistryBottle
   name: pax bottle
   parent: BaseChemistryBottleFilled
@@ -282,6 +296,7 @@
               Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MuteToxinChemistryBottle
   name: mute toxin bottle
   parent: BaseChemistryBottleFilled
@@ -295,6 +310,7 @@
               Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LeadChemistryBottle
   name: lead bottle
   parent: BaseChemistryBottleFilled
@@ -308,6 +324,7 @@
               Quantity: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ToxinChemistryBottle
   name: toxin bottle
   parent: BaseChemistryBottleFilled

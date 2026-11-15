@@ -6,10 +6,6 @@
   id: Uncategorized
   root: true
 
-#- type: loadoutCategory
-#  id: Backpacks
-#  root: true
-
 - type: loadoutCategory
   id: Eyes
   root: true

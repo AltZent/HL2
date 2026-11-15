@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "moderngasmask"
+    },
+    {
+      "name": "military_gasmask"
+    },
+    {
+      "name": "russiamask"
+    },
+    {
+      "name": "swatmask"
+    },
+    {
+      "name": "civilprotection"
+    },
+    {
+      "name": "combatchef"
+    },
+    {
+      "name": "medicalofficer"
+    },
+    {
+      "name": "overseer"
+    },
+    {
+      "name": "dv_mask"
+    },
+    {
+      "name": "elitecpo_mask"
+    },
+    {
+      "name": "sectoral_mask"
+    },
+    {
+      "name": "overwatch"
+    },
+    {
+      "name": "wallhammer"
+    },
+    {
+      "name": "overwatch_white"
+    },
+    {
+      "name": "overwatch_red"
+    },
+    {
+      "name": "cwuengi"
+    },
+    {
+      "name": "grunt"
+    },
+    {
+      "name": "crematormask"
+    },
+    {
+      "name": "oldmask"
+    },
+    {
+      "name": "suppressor"
+    },
+    {
+      "name": "cauterizer"
+    }
+  ]
+}

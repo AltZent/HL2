@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: TrumpetInstrument 
   id: N14InstrumentTrumpet
   name: trumpet
@@ -12,6 +13,7 @@
     sprite: Objects/Fun/Instruments/trumpet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: TromboneInstrument 
   id: N14InstrumentTrombone 
   name: trombone
@@ -25,6 +27,7 @@
     sprite: Objects/Fun/Instruments/trombone.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BanjoInstrument 
   id: N14InstrumentBanjo
   name: banjo
@@ -38,6 +41,7 @@
     sprite: Objects/Fun/Instruments/banjo.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ViolinInstrument 
   id: N14InstrumentViolin
   name: violin
@@ -52,6 +56,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: AcousticGuitarInstrument 
   id: N14InstrumentGuitar
   name: acoustic guitar
@@ -71,6 +76,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SaxophoneInstrument 
   id: N14InstrumentSaxaphone
   name: saxophone
@@ -85,6 +91,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: HarmonicaInstrument 
   id: N14InstrumentHarmonica
   name: harmonica
@@ -99,6 +106,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClarinetInstrument 
   id: N14InstrumentClarinet
   name: clarinet
@@ -114,6 +122,7 @@
     sprite: Objects/Fun/Instruments/clarinet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FluteInstrument 
   id: N14InstrumentFlute
   name: flute
@@ -129,6 +138,7 @@
     sprite: Objects/Fun/Instruments/flute.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PanFluteInstrument 
   id: N14InstrumentPanflute
   name: pan flute

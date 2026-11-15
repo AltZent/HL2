@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineAnomalySynchronizer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: anomaly synchronizer

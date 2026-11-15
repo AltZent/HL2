@@ -16,6 +16,7 @@
   - type: Craftable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mm
@@ -73,6 +74,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm suppressed SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mmSuppressed
@@ -130,6 +132,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 12.7mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mm
@@ -188,6 +191,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 12.7mm pipe SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmPipe
@@ -246,6 +250,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WeaponSMG12mmPipe
   id: N14WeaponSMG12mmPipeEmpty
   suffix: Empty
@@ -271,6 +276,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm pipe SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mmPipe
@@ -328,6 +334,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WeaponSMG10mmPipe
   id: N14WeaponSMG10mmPipeEmpty
   suffix: Empty
@@ -352,6 +359,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: advanced 12.7mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmAdvanced
@@ -409,6 +417,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 9mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG9mm
@@ -465,6 +474,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: infiltrator
   parent: N14WeaponSMGBase
   id: N14WeaponSMG9mminfiltrator
@@ -522,6 +532,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: .45 SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG45
@@ -578,6 +589,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sten SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG9mmCanadian
@@ -634,6 +646,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: douglas advanced SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmAdvancedCanadian
@@ -691,6 +704,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese advanced SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmAdvancedChinese
@@ -748,6 +762,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mmChinese

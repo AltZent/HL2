@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeMagnumEnsnaring
   name: cartridge (.45 magnum ensnaring)
   parent: BaseCartridgeMagnum
@@ -29,6 +30,7 @@
 #         color: "#009eff"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeMagnumFlash
   name: cartridge (.45 magnum flash)
   parent: BaseCartridgeMagnum

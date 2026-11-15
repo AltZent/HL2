@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: 40mmGrenadeFrag
   name: 40mm grenade
   parent: BaseGrenade
@@ -19,6 +20,7 @@
     suffix: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: 40mmGrenadeFire
   name: 40mm fire grenade
   parent: BaseGrenade

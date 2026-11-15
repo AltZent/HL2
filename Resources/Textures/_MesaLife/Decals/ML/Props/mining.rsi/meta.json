@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "satchel"
+    },
+    {
+      "name": "orebox"
+    },
+    {
+      "name": "orepile"
+    },
+    {
+      "name": "chute",
+      "directions": 4
+    },
+    {
+      "name": "chute_active",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "bin"
+    },
+    {
+      "name": "bin_partial"
+    },
+    {
+      "name": "bin_full"
+    },
+    {
+      "name": "deploycrate"
+    },
+    {
+      "name": "rail",
+      "directions": 8
+    },
+    {
+      "name": "rail_bumpers",
+      "directions": 8
+    },
+    {
+      "name": "rail_intersection",
+      "directions": 8
+    },
+    {
+      "name": "rail_intersection_NSE",
+      "directions": 8
+    },
+    {
+      "name": "rail_intersection_SEW",
+      "directions": 8
+    },
+    {
+      "name": "rail_intersection_NSW",
+      "directions": 8
+    },
+    {
+      "name": "rail_intersection_NEW",
+      "directions": 8
+    },
+    {
+      "name": "gigadrill_mov",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gigadrill",
+      "directions": 4
+    },
+    {
+      "name": "Platinum_ore"
+    },
+    {
+      "name": "Clown_ore"
+    },
+    {
+      "name": "Diamond_ore"
+    },
+    {
+      "name": "Glass_ore"
+    },
+    {
+      "name": "Gold_ore"
+    },
+    {
+      "name": "Iron_ore"
+    },
+    {
+      "name": "Coal_ore"
+    },
+    {
+      "name": "ore"
+    },
+    {
+      "name": "Phoron_ore"
+    },
+    {
+      "name": "Silver_ore"
+    },
+    {
+      "name": "slag"
+    },
+    {
+      "name": "Uranium_ore"
+    },
+    {
+      "name": "Green_lump"
+    },
+    {
+      "name": "Phazon"
+    },
+    {
+      "name": "sheetsnatcher"
+    },
+    {
+      "name": "crystal"
+    },
+    {
+      "name": "crystal2"
+    },
+    {
+      "name": "orebox0"
+    },
+    {
+      "name": "orebox1"
+    },
+    {
+      "name": "ore2"
+    },
+    {
+      "name": "boulder1"
+    },
+    {
+      "name": "boulder2"
+    },
+    {
+      "name": "boulder3"
+    },
+    {
+      "name": "boulder4"
+    },
+    {
+      "name": "redflag_open",
+      "delays": [
+        [
+          0.3,
+          0.4,
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "yellowflag_open",
+      "delays": [
+        [
+          0.3,
+          0.4,
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "greenflag_open",
+      "delays": [
+        [
+          0.3,
+          0.4,
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "blueflag_open",
+      "delays": [
+        [
+          0.3,
+          0.4,
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "purpleflag_open",
+      "delays": [
+        [
+          0.3,
+          0.4,
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "redflag"
+    },
+    {
+      "name": "yellowflag"
+    },
+    {
+      "name": "greenflag"
+    },
+    {
+      "name": "blueflag"
+    },
+    {
+      "name": "purpleflag"
+    }
+  ]
+}

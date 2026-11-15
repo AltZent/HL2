@@ -1,6 +1,7 @@
 # See basemob.yml for parent entities
 # Molerat #Oh hi Mark.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: molerat
   id: N14MobMolerat
   parent: N14MobBaseHostile
@@ -77,6 +78,7 @@
       # - HumanoidAppearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pigrat
   id: N14MobPigrat
   parent: N14MobBaseHostile
@@ -146,6 +148,7 @@
 
 #MARK: Feral Dog
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: feral dog
   id: N14MobDogFeral
   parent: N14MobBaseHostile
@@ -211,6 +214,7 @@
 
 # Yao Guai
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Yao Guai
   id: N14MobYaoguai
   parent: N14MobBaseHostile
@@ -296,6 +300,7 @@
 #MARK: Passive Animals
 #MARK: Brahmin
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brahmin
   parent: MobCow
   id: N14MobBrahmin
@@ -365,6 +370,7 @@
 
 #MARK: Bighorner
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bighorner
   parent: N14MobBrahmin
   id: N14MobBighorner
@@ -435,6 +441,7 @@
 
 #MARK: Radstag
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radstag
   parent: N14MobBrahmin
   id: N14MobRadstag
@@ -505,6 +512,7 @@
 
 #MARK: Radhog
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radhog
   parent: N14MobBrahmin
   id: N14MobRadhog
@@ -555,6 +563,7 @@
 
 #MARK: Chicken
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobChicken
   id: N14MobChicken
   name: chicken
@@ -606,6 +615,7 @@
 
 #MARK: Iguana
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobIguana
   name: iguana
@@ -655,6 +665,7 @@
 
 #MARK: Beaver
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobNuclearBeaver
   name: nuclear beaver
@@ -683,6 +694,7 @@
 
 #MARK: Opossum
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobNuclearOpossum
   name: nuclear opossum
@@ -710,6 +722,7 @@
     damageModifierSet: WastelandAnimal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobOpossum
   name: opossum
@@ -738,6 +751,7 @@
 
 #MARK: Rabbit
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobNuclearRabbit
   name: nuclear rabbit
@@ -765,6 +779,7 @@
     damageModifierSet: WastelandAnimal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseSimple
   id: N14MobRabbit
   name: rabbit

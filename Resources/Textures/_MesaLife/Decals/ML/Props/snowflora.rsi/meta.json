@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "snowgrassbb_1"
+    },
+    {
+      "name": "snowgrassbb_2"
+    },
+    {
+      "name": "snowgrassbb_3"
+    },
+    {
+      "name": "snowgrassgb_1"
+    },
+    {
+      "name": "snowgrassgb_2"
+    },
+    {
+      "name": "snowgrassgb_3"
+    },
+    {
+      "name": "snowgrassall_1"
+    },
+    {
+      "name": "snowgrassall_2"
+    },
+    {
+      "name": "snowgrassall_3"
+    },
+    {
+      "name": "snowbush_1"
+    },
+    {
+      "name": "snowbush_2"
+    },
+    {
+      "name": "snowbush_3"
+    },
+    {
+      "name": "snowbush_4"
+    },
+    {
+      "name": "snowbush_5"
+    },
+    {
+      "name": "snowbush_6"
+    },
+    {
+      "name": "icegrass1",
+      "directions": 8
+    },
+    {
+      "name": "icegrass2",
+      "directions": 4
+    },
+    {
+      "name": "icegrass3"
+    },
+    {
+      "name": "icegrass4"
+    },
+    {
+      "name": "icegrass5"
+    }
+  ]
+}

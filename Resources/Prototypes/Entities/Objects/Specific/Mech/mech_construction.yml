@@ -47,6 +47,7 @@
     size: Ginormous
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRipleyPart
   id: RipleyHarness
   name: ripley harness
@@ -87,6 +88,7 @@
     noRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRipleyPartItem
   id: RipleyLArm
   name: ripley left arm
@@ -99,6 +101,7 @@
     - RipleyLArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRipleyPartItem
   id: RipleyLLeg
   name: ripley left leg
@@ -111,6 +114,7 @@
     - RipleyLLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRipleyPartItem
   id: RipleyRLeg
   name: ripley right leg
@@ -123,6 +127,7 @@
     - RipleyRLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRipleyPartItem
   id: RipleyRArm
   name: ripley right arm
@@ -135,6 +140,7 @@
     - RipleyRArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RipleyChassis
   parent: BaseRipleyPart
   name: ripley chassis
@@ -175,6 +181,7 @@
     size: Ginormous
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHonkerPart
   id: HonkerHarness
   name: H.O.N.K. harness
@@ -215,6 +222,7 @@
     noRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHonkerPartItem
   id: HonkerLArm
   name: H.O.N.K. left arm
@@ -227,6 +235,7 @@
     - HonkerLArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHonkerPartItem
   id: HonkerLLeg
   name: H.O.N.K. left leg
@@ -239,6 +248,7 @@
     - HonkerLLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHonkerPartItem
   id: HonkerRLeg
   name: H.O.N.K. right leg
@@ -251,6 +261,7 @@
     - HonkerRLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHonkerPartItem
   id: HonkerRArm
   name: H.O.N.K. right arm
@@ -263,6 +274,7 @@
     - HonkerRArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HonkerChassis
   parent: BaseHonkerPart
   name: H.O.N.K. chassis
@@ -303,6 +315,7 @@
     size: Huge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHamtrPart
   id: HamtrHarness
   name: HAMTR harness
@@ -343,6 +356,7 @@
     noRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHamtrPartItem
   id: HamtrLArm
   name: HAMTR left arm
@@ -355,6 +369,7 @@
     - HamtrLArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHamtrPartItem
   id: HamtrLLeg
   name: HAMTR left leg
@@ -367,6 +382,7 @@
     - HamtrLLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHamtrPartItem
   id: HamtrRLeg
   name: HAMTR right leg
@@ -379,6 +395,7 @@
     - HamtrRLeg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHamtrPartItem
   id: HamtrRArm
   name: HAMTR right arm
@@ -391,6 +408,7 @@
     - HamtrRArm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HamtrChassis
   parent: BaseHamtrPart
   name: HAMTR chassis
@@ -431,6 +449,7 @@
     size: Small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVimPartItem
   id: VimHarness
   name: vim harness
@@ -465,6 +484,7 @@
     noRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: VimChassis
   parent: BaseVimPart
   name: vim chassis

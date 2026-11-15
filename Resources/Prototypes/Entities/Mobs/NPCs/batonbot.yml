@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobBatonBot
   name: batonbot

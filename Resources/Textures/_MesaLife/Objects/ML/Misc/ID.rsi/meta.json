@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "id_trim"
+    },
+    {
+      "name": "id_combine4"
+    },
+    {
+      "name": "id_combine3"
+    },
+    {
+      "name": "id_combine2"
+    },
+    {
+      "name": "id_combine"
+    },
+    {
+      "name": "id_orange"
+    },
+    {
+      "name": "id_red"
+    },
+    {
+      "name": "id_purple"
+    },
+    {
+      "name": "id_green"
+    },
+    {
+      "name": "id_grey"
+    },
+    {
+      "name": "id_navy"
+    },
+    {
+      "name": "id_vort"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "dnapod"
+    },
+    {
+      "name": "voucher"
+    },
+    {
+      "name": "shaft"
+    },
+    {
+      "name": "ration_voucher"
+    },
+    {
+      "name": "battery"
+    },
+    {
+      "name": "antifatigue"
+    },
+    {
+      "name": "antitoxtab"
+    },
+    {
+      "name": "dirtyuniform"
+    },
+    {
+      "name": "certificate"
+    },
+    {
+      "name": "datapod"
+    },
+    {
+      "name": "rebelrelay"
+    },
+    {
+      "name": "loadout_picker",
+      "delays": [
+        [
+          0.2,
+          0.4,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "perk_picker",
+      "delays": [
+        [
+          0.2,
+          0.4,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "paracetamol"
+    },
+    {
+      "name": "musk"
+    },
+    {
+      "name": "substance"
+    },
+    {
+      "name": "chope"
+    }
+  ]
+}

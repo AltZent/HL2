@@ -1,11 +1,12 @@
-﻿- type: entity
+- type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: MusicalLungInstrument
   name: musical lung
   description: The spiritual and magical lung of a former opera singer. Though, to be honest, the vocal chords make the performance.
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/organs.rsi
+    sprite: _MesaLife/Mobs/Species/Human/organs.rsi
     state: lung-l
   - type: Instrument
     program: 121
@@ -13,6 +14,7 @@
     size: Small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: SeashellInstrument
   name: seashell
@@ -27,6 +29,7 @@
     size: Normal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: BirdToyInstrument
   name: bird whistle
@@ -45,6 +48,7 @@
 # ID is redefined in Resources/Prototypes/_Harmony/Entities/Objects/Devices/red_phone.yml
 # child entites: PhoneInstrumentSyndicate, BananaPhoneInstrument
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: PhoneInstrumentUpstream # Harmony
   name: red phone
@@ -67,6 +71,7 @@
     verbImage: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PhoneInstrumentUpstream # Harmony, due to hijacked 'PhoneInstrument'
   id: PhoneInstrumentSyndicate
   name: blood-red phone
@@ -80,6 +85,7 @@
     notificationPrefix: prayer-chat-notify-syndicate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: HelicopterInstrument
   name: toy helicopter
@@ -95,6 +101,7 @@
     storedRotation: -90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: CannedApplauseInstrument
   name: canned applause
@@ -109,6 +116,7 @@
     size: Tiny
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: GunpetInstrument
   name: gunpet
@@ -129,6 +137,7 @@
     - BrassInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: BikeHornInstrument
   name: gilded bike horn
@@ -153,6 +162,7 @@
     quickEquip: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PhoneInstrumentUpstream # Harmony, due to hijacked 'PhoneInstrument'
   id: BananaPhoneInstrument
   name: banana phone

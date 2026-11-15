@@ -1,0 +1,883 @@
+# Auto-generated ML workbenches (halflife-episode13 assets).
+# 64x48 sprites -> 2 tiles wide fixtures.
+- type: entity
+  id: MLWorkbench
+  parent: TableBase
+  name: "workbench"
+  description: "A basic workbench. Solid metal surface and a few tools to help you make basic tools and items you require."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: workbench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: workbench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLAmmobench
+  parent: TableBase
+  name: "loading bench"
+  description: "An ammo loading bench, with some tools that assist you in assembling cartridges to send towards your foe."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: ammobench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: ammobench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLArmorbench
+  parent: TableBase
+  name: "armor and tailoring bench"
+  description: "A sturdy bench. It's got an anvil and sewing machine, it'd be a good surface to try and fabricate clothing or armor with."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: armorbench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: armorbench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLWeaponbench
+  parent: TableBase
+  name: "weapon bench"
+  description: "A large bench with a functional drill press and a vice. Would be useful in creating and assembling weapons, to the best of your ability anyways."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: weaponbench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: weaponbench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLTinkerbench
+  parent: TableBase
+  name: "electronics bench"
+  description: "A large bench with a power supply hooked up to it. There's a soldering iron and a few other tools scattered about to assist you in making electronics."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: tinkerbench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: tinkerbench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLChemicalset
+  parent: TableBase
+  name: "crude chemistry set"
+  description: "A crude set of beakers and chemical equipment thrown together, suitable for making some crude drugs."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: chemicalset
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: chemicalset
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+- type: entity
+  id: MLSmallWorkbench
+  parent: TableBase
+  name: "small workbench"
+  description: "A cramped little workbench."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: smallworkbench
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/workbenches.rsi
+    state: smallworkbench
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.45,1.45,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+# Auto-generated ML shelves/furniture (halflife-episode13 assets).
+- type: entity
+  id: MLShelfBase
+  parent: BaseStructure
+  name: shelf
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLShelfWood
+  parent: MLShelfBase
+  name: "wood shelf"
+  description: "An extra large, wood shelf, used for storing just about anything you could think of while upkeeping your rustic tones."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: wood_shelf
+- type: entity
+  id: MLShelfWoodAlt
+  parent: MLShelfBase
+  name: "wooden shelf (alt)"
+  description: "A wooden shelf."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: wood_shelf-alt
+- type: entity
+  id: MLShelfMetal
+  parent: MLShelfBase
+  name: "metal shelf"
+  description: "An extra large, heavy-duty shelf, used for storing just about anything you could think of, this one is in good condition."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: metal_shelf
+- type: entity
+  id: MLShelfStore
+  parent: MLShelfBase
+  name: "store shelf"
+  description: "A large shelf for stores to use."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: store_shelf
+- type: entity
+  id: MLShelfStoreMetal
+  parent: MLShelfBase
+  name: "metal store shelf"
+  description: "A metal shop display shelf."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: store_shelf_metal
+- type: entity
+  id: MLBookshelf
+  parent: MLShelfBase
+  name: "bookshelf"
+  description: "Holder of knowledge, master of all."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: bookshelf
+- type: entity
+  id: MLMirror
+  parent: MLShelfBase
+  name: "mirror"
+  description: "A tall standing mirror."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: mirror
+- type: entity
+  id: MLMirrorBroken
+  parent: MLShelfBase
+  name: "broken mirror"
+  description: "A tall standing mirror. Someone had bad luck."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/32x64_tall_furniture.rsi
+    state: mirror_broke
+- type: entity
+  id: MLClothingRack
+  parent: MLShelfBase
+  name: "clothing rack"
+  description: "And they say fashion is dead."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: clothing_rack
+- type: entity
+  id: MLShelfMetalLarge
+  parent: MLShelfBase
+  name: "metal shelf"
+  description: "An extra large, heavy-duty shelf, used for storing just about anything you could think of, this one is in good condition."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: metal_shelf
+- type: entity
+  id: MLShelfWoodLarge
+  parent: MLShelfBase
+  name: "wood shelf"
+  description: "An extra large, wood shelf, used for storing just about anything you could think of while upkeeping your rustic tones."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: wood_shelf
+- type: entity
+  id: MLShelfWoodLargeAlt
+  parent: MLShelfBase
+  name: "large wooden shelf (alt)"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: wood_shelf-alt
+- type: entity
+  id: MLShelfShop
+  parent: MLShelfBase
+  name: "metal shelf"
+  description: "Layered metal shelfs, exceptionally tall and wide, prime for loose item storage."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: shelf_shop
+- type: entity
+  id: MLMedshelves
+  parent: MLShelfBase
+  name: "metal shelf"
+  description: "A wheeled shelfing unit. It has wheels for easy mass transport of items- Too bad the wheels are all worn out considerably."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: medshelves
+- type: entity
+  id: MLShelfWoodBig
+  parent: MLShelfBase
+  name: "wood shelf"
+  description: "A large wooden shelf set. There are drawers below for additional storage."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: wood_shelf_big
+- type: entity
+  id: MLShowcase
+  parent: MLShelfBase
+  name: "showcase shelf"
+  description: "A pyramid of shelving units, ready to display wares to the eager world."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: showcase
+- type: entity
+  id: MLBigshelfOpenR
+  parent: MLShelfBase
+  name: "large shelf (open right)"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: bigshelf1_openR
+- type: entity
+  id: MLBigshelfOpenL
+  parent: MLShelfBase
+  name: "large shelf (open left)"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: bigshelf1_openL
+- type: entity
+  id: MLBigshelfOpen2
+  parent: MLShelfBase
+  name: "large open shelf"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: bigshelf2_open
+- type: entity
+  id: MLDeskWood
+  parent: TableBase
+  name: "wood desk"
+  description: "A full size wood desk, used by the pre-war soul lackers of the working world that once was. Looks like you could still use its drawers for storage."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_wood
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_wood
+- type: entity
+  id: MLDeskWoodSmall
+  parent: TableBase
+  name: "wood desk"
+  description: "A compact wood desk, used by a wide variety of individuals before the war, once upon a time."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_wood_small
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_wood_small
+- type: entity
+  id: MLStandWood
+  parent: TableBase
+  name: "wood console"
+  description: "A smooth console, designed specifically in mind for your brand new Radiation King! But those days are now over. Mostly just looks good in a room."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: stand_wood
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: stand_wood
+- type: entity
+  id: MLStandWoodSmall
+  parent: TableBase
+  name: "small wooden stand"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: stand_wood_small
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: stand_wood_small
+- type: entity
+  id: MLDeskMetal
+  parent: TableBase
+  name: "metal desk"
+  description: "A solid, wide metal table. Nothing about it stands out in particular. It seems like you could store a few things in its drawers."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_metal
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_metal
+- type: entity
+  id: MLDeskMetalSmall
+  parent: TableBase
+  name: "metal desk"
+  description: "A compact metal desk, used by a wide variety of individuals before the war, once upon a time."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_metal_small
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: desk_metal_small
+- type: entity
+  id: MLTableWideWoodSquare
+  parent: TableBase
+  name: "wide wooden table"
+  description: "A piece of wasteland furniture."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_wood_wide_square
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_wood_wide_square
+- type: entity
+  id: MLTableWideWoodOval
+  parent: TableBase
+  name: "wood table"
+  description: "A large oval shaped wood table. Perfect for displaying the 200 year old family photos you found."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_wood_wide_oval
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_wood_wide_oval
+- type: entity
+  id: MLTableWideMetal
+  parent: TableBase
+  name: "metal table"
+  description: "A solid, wide metal table. Nothing about it stands out in particular."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_metal_wide
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_metal_wide
+- type: entity
+  id: MLTablePool
+  parent: TableBase
+  name: "pool table"
+  description: "A favourite of students and drunkards alike. Watch out for sharks!"
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_pool
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_pool
+- type: entity
+  id: MLTableCards
+  parent: TableBase
+  name: "cards table"
+  description: "Very classy. Reminds you of that time in New Reno..."
+  components:
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_cards
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.45,1.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/64x64_large_furniture.rsi
+    state: table_cards
+- type: entity
+  id: MLBarrierConcrete
+  parent: MLShelfBase
+  name: "concrete barrier"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier
+- type: entity
+  id: MLBarrierConcrete1
+  parent: MLShelfBase
+  name: "concrete barrier (variant 1)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_1
+- type: entity
+  id: MLBarrierConcrete2
+  parent: MLShelfBase
+  name: "concrete barrier (variant 2)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_2
+- type: entity
+  id: MLBarrierConcrete3
+  parent: MLShelfBase
+  name: "concrete barrier (variant 3)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_3
+- type: entity
+  id: MLBarrierConcrete4
+  parent: MLShelfBase
+  name: "concrete barrier (variant 4)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_4
+- type: entity
+  id: MLBarrierConcrete5
+  parent: MLShelfBase
+  name: "concrete barrier (variant 5)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_5
+- type: entity
+  id: MLBarrierConcreteAlt
+  parent: MLShelfBase
+  name: "concrete barrier (alt)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_alt
+- type: entity
+  id: MLBarrierConcreteAlt1
+  parent: MLShelfBase
+  name: "concrete barrier (alt 2)"
+  description: "A wasteland barrier."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: concrete_barrier_alt_1
+- type: entity
+  id: MLBarrierRoad
+  parent: MLShelfBase
+  name: "road barrier"
+  description: "A light and portable road barrier, used to direct traffic and stop people from going to dead ends."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: road_barrier
+- type: entity
+  id: MLBarrierCombine
+  parent: MLShelfBase
+  name: "combine barrier"
+  description: "A combine barricade made of strange metals with a warping, almost liquid-like center. Durable, and good for cover."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: combine
+- type: entity
+  id: MLBarrierCombineEmpl
+  parent: MLShelfBase
+  name: "combine emplacement gun"
+  description: "A gun similar to an AR2 is mounted here, and can be used to fire."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Barriers/barriers.rsi
+    state: combine_emplacement

@@ -1,0 +1,81 @@
+# ML loadouts -> vanilla category Uniform.
+
+- type: loadout
+  id: LoadoutMLUniformCivilprotection
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformCivilprotection
+
+- type: loadout
+  id: LoadoutMLUniformOverwatch
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformOverwatch
+
+- type: loadout
+  id: LoadoutMLUniformOverwatchWhite
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformOverwatchWhite
+
+- type: loadout
+  id: LoadoutMLUniformSuppressor
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformSuppressor
+
+- type: loadout
+  id: LoadoutMLUniformAssassin
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformAssassin
+
+- type: loadout
+  id: LoadoutMLUniformOverwatchRed
+  category: Uniform
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformOverwatchRed
+
+- type: loadout
+  id: LoadoutMLUniformCitizen
+  category: Uniform
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformCitizen
+
+- type: loadout
+  id: LoadoutMLUniformBrown
+  category: Uniform
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLUniformBrown

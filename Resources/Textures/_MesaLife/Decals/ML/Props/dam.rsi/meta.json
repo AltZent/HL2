@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tree_1"
+    },
+    {
+      "name": "tree_2"
+    },
+    {
+      "name": "tree_3"
+    },
+    {
+      "name": "tree_4"
+    },
+    {
+      "name": "lightgrass_1"
+    },
+    {
+      "name": "lightgrass_2"
+    },
+    {
+      "name": "lightgrass_3"
+    },
+    {
+      "name": "lightgrass_4"
+    },
+    {
+      "name": "lightgrass_5"
+    },
+    {
+      "name": "lightgrass_6"
+    },
+    {
+      "name": "lightgrass_7"
+    },
+    {
+      "name": "lightgrass_8"
+    },
+    {
+      "name": "lightgrass_9"
+    },
+    {
+      "name": "lightgrass_10"
+    },
+    {
+      "name": "lightgrass_11"
+    },
+    {
+      "name": "lightgrass_12"
+    },
+    {
+      "name": "heavygrass_1"
+    },
+    {
+      "name": "heavygrass_2"
+    },
+    {
+      "name": "heavygrass_3"
+    },
+    {
+      "name": "heavygrass_4"
+    },
+    {
+      "name": "heavygrass_5"
+    },
+    {
+      "name": "heavygrass_6"
+    },
+    {
+      "name": "heavygrass_7"
+    },
+    {
+      "name": "heavygrass_8"
+    },
+    {
+      "name": "heavygrass_9"
+    },
+    {
+      "name": "heavygrass_10"
+    },
+    {
+      "name": "heavygrass_11"
+    },
+    {
+      "name": "heavygrass_12"
+    },
+    {
+      "name": "heavygrass_13"
+    },
+    {
+      "name": "heavygrass_14"
+    },
+    {
+      "name": "heavygrass_15"
+    },
+    {
+      "name": "heavygrass_16"
+    },
+    {
+      "name": "cactus_3"
+    },
+    {
+      "name": "cactus_4"
+    },
+    {
+      "name": "cactus_7"
+    },
+    {
+      "name": "cactus_8"
+    },
+    {
+      "name": "cacti_1"
+    },
+    {
+      "name": "cacti_2"
+    },
+    {
+      "name": "cacti_7"
+    },
+    {
+      "name": "cacti_8"
+    },
+    {
+      "name": "cacti_9"
+    },
+    {
+      "name": "cacti_10"
+    },
+    {
+      "name": "cacti_11"
+    },
+    {
+      "name": "cacti_12"
+    },
+    {
+      "name": "boulder1"
+    },
+    {
+      "name": "boulder2"
+    },
+    {
+      "name": "boulder3"
+    },
+    {
+      "name": "tallgrass"
+    },
+    {
+      "name": "tallgrass_corner",
+      "directions": 8
+    },
+    {
+      "name": "tallgrass_overlay"
+    },
+    {
+      "name": "tallgrass_overlay_corner",
+      "directions": 8
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 # Frames
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14MachineFrameTall
   name: tall machine frame
   description: A metal frame for housing machinery and electronics
@@ -48,6 +49,7 @@
     node: missingWires
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineFrameTall
   id: N14MachineFrameTallDestroyed
   name: destroyed machine
@@ -81,6 +83,7 @@
       node: destroyedMachineFrame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineFrameTall
   id: N14MachineFrameTallWired
   description: A metal frame for housing machinery and electronics
@@ -180,6 +183,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachinePowered
   id: N14MachineRackElectronics
   name: electronics rack
@@ -198,6 +202,7 @@
     node: ElectronicsRack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachinePowered
   id: N14MachineRackServer
   name: server rack
@@ -208,6 +213,7 @@
     node: ServerRack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachinePowered
   id: N14MachineRackRecorder
   name: electrical recorder
@@ -226,6 +232,7 @@
     node: RecorderRack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachine
   id: N14MachineComputerMainframe # Probably a computer, move it there?
   name: mainframe
@@ -251,6 +258,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachine
   id: N14MachineModularMachinebox
   name: machine box
@@ -290,6 +298,7 @@
     anchored: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineModularMachinebox
   id: N14MachineModularMachineDials
   name: machine dials
@@ -299,6 +308,7 @@
     state: dials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineModularMachineDials
   id: N14MachineModularMachineDialsTall
   suffix: tall
@@ -307,6 +317,7 @@
     sprite: _Nuclear14/Structures/Machines/ms13_modulartall.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineModularMachineDialsTall
   id: N14MachineModularMachineConsoleTall
   name: machine console
@@ -316,6 +327,7 @@
     state: console
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineModularMachineDialsTall
   id: N14MachineModularMachineScreenTall
   name: machine screen
@@ -347,6 +359,7 @@
 ## Cameras
 ### See devicenet_frequencies.yml for definitions
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackCameraRouterBase
   id: N14MachineRackCameraRouterBrotherhoodWashington
   suffix: BOS Washington
@@ -355,6 +368,7 @@
       subnetFrequency: SurveillanceCameraBrotherhoodWashington
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackCameraRouterBase
   id: N14MachineRackCameraRouterBrotherhoodMidwest
   suffix: BOS Midwest
@@ -363,6 +377,7 @@
       subnetFrequency: SurveillanceCameraBrotherhoodMidwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackCameraRouterBase
   id: N14MachineRackCameraRouterNCR
   suffix: NCR
@@ -371,6 +386,7 @@
       subnetFrequency: SurveillanceCameraNCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackCameraRouterBase
   id: N14MachineRackCameraRouterTown
   suffix: Town
@@ -379,6 +395,7 @@
       subnetFrequency: SurveillanceCameraTown
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackCameraRouterBase
   id: N14MachineRackCameraRouterVault
   suffix: Vault
@@ -388,6 +405,7 @@
 
 ## Telecoms
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseMachinePowered
   id: N14MachineRackTelecomsServer
   suffix: empty
@@ -407,6 +425,7 @@
       machine_parts: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerWBOS
   suffix: WBOS
@@ -417,6 +436,7 @@
       - EncryptionKeyBrotherhoodWashington
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerMBOS
   suffix: MBOS
@@ -427,6 +447,7 @@
       - EncryptionKeyBrotherhoodMidwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerEnclave
   suffix: Enclave
@@ -437,6 +458,7 @@
       - EncryptionKeyEnclave
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerNCR
   suffix: NCR
@@ -447,6 +469,7 @@
       - EncryptionKeyNCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerVault
   suffix: Vault
@@ -457,6 +480,7 @@
       - EncryptionKeyVault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MachineRackTelecomsServer
   id: N14MachineRackTelecomsServerPBS
   suffix: Studio

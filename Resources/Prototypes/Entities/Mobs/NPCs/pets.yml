@@ -2,6 +2,7 @@
 #1D2L3U4R
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Ian
   parent: MobCorgi
   id: MobCorgiIan
@@ -44,6 +45,7 @@
     - Dog
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Old Ian
   parent: MobCorgiIan
   id: MobCorgiIanOld
@@ -69,6 +71,7 @@
     - id: MaterialHideCorgi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Lisa
   parent: MobCorgiIan
   id: MobCorgiLisa
@@ -92,6 +95,7 @@
       gender: female
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Puppy Ian
   parent: MobCorgiPuppy
   id: MobCorgiIanPup
@@ -108,6 +112,7 @@
     - id: MaterialHideCorgi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Runtime
   parent: MobCat
   id: MobCatRuntime
@@ -135,6 +140,7 @@
     - Cat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Exception
   id: MobCatException
   parent: MobCatCalico
@@ -159,6 +165,7 @@
     - Cat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Floppa
   id: MobCatFloppa
   parent: MobCatCaracal
@@ -184,6 +191,7 @@
     - VimPilot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bandito
   parent: MobFerret
   id: MobBandito
@@ -199,6 +207,7 @@
     - VimPilot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bingus
   parent: SimpleMobBase
   id: MobBingus
@@ -262,6 +271,7 @@
     stealGroup: AnimalBingus
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: McGriff
   parent: SimpleMobBase
   id: MobMcGriff
@@ -334,6 +344,7 @@
     barkMultiplier: 1.3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Paperwork
   parent: MobSloth
   id: MobPaperwork
@@ -368,6 +379,7 @@
       gender: male
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Walter
   parent: SimpleMobBase
   id: MobWalter
@@ -440,6 +452,7 @@
     barkMultiplier: 1.1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Morty
   parent: MobPossum
   id: MobPossumMorty
@@ -464,6 +477,7 @@
     stealGroup: AnimalMorty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Morty
   parent: MobPossumMorty
   id: MobPossumMortyOld
@@ -483,6 +497,7 @@
         Base: possum_dead_old
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Poppy # the Safety Possum
   parent: MobPossumMorty
   id: MobPossumPoppy
@@ -506,6 +521,7 @@
         Base: poppy_dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Morticia
   parent: MobRaccoon
   id: MobRaccoonMorticia
@@ -528,6 +544,7 @@
     - VimPilot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Alexander
   parent: MobPig
   id: MobAlexander
@@ -550,6 +567,7 @@
     - VimPilot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Renault
   parent: MobFox
   id: MobFoxRenault
@@ -586,6 +604,7 @@
     - Fox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hamlet
   parent: MobHamster
   id: MobHamsterHamlet
@@ -639,6 +658,7 @@
     - Mouse
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Shiva
   parent: MobGiantSpider
   id: MobSpiderShiva
@@ -711,6 +731,7 @@
     stealGroup: AnimalShiva
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Willow
   parent: MobKangaroo
   id: MobKangarooWillow
@@ -741,6 +762,7 @@
     prototypes: [ BoxingKangarooGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Smile
   id: MobSlimesPet
   parent: MobAdultSlimes
@@ -819,6 +841,7 @@
     - Bubblish
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pun Pun
   parent: MobMonkey
   id: MobMonkeyPunpun
@@ -854,6 +877,7 @@
   - type: Punpun
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tropico
   parent: MobCrab
   id: MobCrabAtmos

@@ -10,60 +10,10 @@
 
 - type: loadout
   id: N14ClothingEyesSunGlasses
-  category: Accessories
+  category: Eyes
   cost: 2
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutEyes
   items:
     - N14ClothingEyesSunGlasses
-
-- type: loadout
-  id: N14ClothingEyesGlasses
-  category: Accessories
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutEyes
-  items:
-    - N14ClothingEyesGlasses
-
-- type: loadout
-  id: N14LoadoutEyesEyepatch
-  category: Accessories
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutEyes
-  items:
-    - ClothingEyesEyepatch
-
-- type: loadout
-  id: N14ClothingSnowGoggles
-  category: Accessories
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutEyes
-  items:
-    - N14ClothingSnowGoggles
-
-- type: loadout
-  id: N14ClothingEyesGlassesPilot
-  category: Accessories
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutEyes
-  items:
-    - N14ClothingEyesGlassesPilot
-
-- type: loadout
-  id: N14ClothingEyesGlassesGoggles
-  category: Accessories
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutEyes
-  items:
-    - N14ClothingEyesGlassesGoggles

@@ -3,6 +3,7 @@
 # In order to make them, use the half wall entity as the frame then place the glass atop it.
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WindowSmoothBaseAirtight
   id: N14WindowSlanted
   description: A window for seeing into places. 

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseItem
   id: BaseMagazineBox762Rifle
@@ -23,6 +24,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBox762Rifle
   id: MagazineBox762
   name: ammunition box (7.62mm)

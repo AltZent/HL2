@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ReagentDispenserBase
   id: SodaDispenser
   name: soda dispenser
@@ -24,6 +25,7 @@
     - Bartender
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SodaDispenser
   id: SodaDispenserEmpty
   suffix: Empty

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BaseMagazine10mmPistol
   name: pistol magazine (10mm)
   parent: BaseItem
@@ -31,6 +32,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14MagazinePistol10mm
   name: pistol magazine (10mm)
   parent: N14BaseMagazine10mmPistol
@@ -39,6 +41,7 @@
     proto: N14CartridgePistol10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BaseMagazine10mmSubMachineGun
   name: SMG magazine (10mm)
   parent: BaseItem
@@ -71,6 +74,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14MagazineSMG10mm
   name: SMG magazine (10mm)
   parent: N14BaseMagazine10mmSubMachineGun

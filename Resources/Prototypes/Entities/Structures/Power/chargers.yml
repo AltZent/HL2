@@ -69,6 +69,7 @@
   - type: RequireProjectileTarget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItemRecharger
   id: PowerCellRecharger
   name: cell recharger
@@ -107,6 +108,7 @@
           - PowerCellSmall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
   name: cage recharger
@@ -147,6 +149,7 @@
     price: 500
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
   name: recharger
@@ -167,6 +170,7 @@
           - Stunbaton
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItemRecharger
   id: TurboItemRecharger
   name: turbo recharger
@@ -193,6 +197,7 @@
           - PotatoBattery
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItemRecharger
   id: WallWeaponCapacitorRecharger
   name: wall recharger
@@ -219,6 +224,7 @@
           - Stunbaton
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseRecharger
   id: BorgCharger
   name: cyborg recharging station

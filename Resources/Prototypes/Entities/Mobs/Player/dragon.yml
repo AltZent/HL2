@@ -147,6 +147,7 @@
     deactivateSound: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobDragon
   id: MobDragon
   components:
@@ -177,6 +178,7 @@
     projectileSpeed: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobDragon
   id: MobDragonDungeon
   suffix: Dungeon

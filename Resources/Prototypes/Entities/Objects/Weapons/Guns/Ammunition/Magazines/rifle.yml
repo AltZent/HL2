@@ -1,5 +1,6 @@
 # Empty mags
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineRifle
   name: "magazine (.20 rifle)"
   parent: BaseItem
@@ -34,6 +35,7 @@
 
 # Magazines
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRifle
   name: "magazine (.20 rifle)"
   parent: BaseMagazineRifle
@@ -48,6 +50,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRifleEmpty
   name: "magazine (.20 rifle any)"
   suffix: empty
@@ -61,6 +64,7 @@
       map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRifleIncendiary
   name: "magazine (.20 rifle incendiary)"
   parent: MagazineRifle
@@ -69,6 +73,7 @@
     proto: CartridgeRifleIncendiary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRiflePractice
   name: "magazine (.20 rifle practice)"
   parent: BaseMagazineRifle
@@ -83,6 +88,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRifleRubber
   name: "magazine (.20 rifle rubber)"
   parent: BaseMagazineRifle
@@ -97,6 +103,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineRifleUranium
   name: "magazine (.20 rifle uranium)"
   parent: BaseMagazineRifle

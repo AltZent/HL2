@@ -108,6 +108,7 @@
 
 # From the uplink injector
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Holoparasite
   id: MobHoloparasiteGuardian
   parent: MobGuardianBase
@@ -140,6 +141,7 @@
 
 # From Wizard deck of cards
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Ifrit
   parent: MobGuardianBase
   id: MobIfritGuardian
@@ -175,6 +177,7 @@
     - type: Dispellable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: HoloClown
   id: MobHoloClownGuardian
   parent: MobGuardianBase

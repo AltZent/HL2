@@ -113,6 +113,7 @@
       - TelepathyPower
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobOreCrab
   id: MobQuartzCrab
   description: An ore crab made from Quartz.
@@ -137,6 +138,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobOreCrab
   id: MobIronCrab
   description: An ore crab made from iron.
@@ -168,6 +170,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobOreCrab
   id: MobUraniumCrab
   description: An ore crab made from uranium.
@@ -203,6 +206,7 @@
     color: "#06DF24"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobOreCrab
   id: MobSilverCrab
   name: ore crab
@@ -232,6 +236,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Reagent slime
   id: ReagentSlime
   suffix: Water
@@ -315,6 +320,7 @@
       - TelepathyPower
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Reagent Slime Spawner
   id: ReagentSlimeSpawner
   parent: MarkerBase
@@ -356,6 +362,7 @@
       chance: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeBeer
   parent: ReagentSlime
   suffix: Beer
@@ -373,6 +380,7 @@
         color: "#cfa85f"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimePax
   parent: ReagentSlime
   suffix: Pax
@@ -393,6 +401,7 @@
     transferAmount: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeNocturine
   parent: ReagentSlime
   suffix: Nocturine
@@ -413,6 +422,7 @@
     transferAmount: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeTHC
   parent: ReagentSlime
   suffix: THC
@@ -430,6 +440,7 @@
         color: "#808080"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeBicaridine
   parent: ReagentSlime
   suffix: Bicaridine
@@ -447,6 +458,7 @@
         color: "#ffaa00"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeToxin
   parent: ReagentSlime
   suffix: Toxin
@@ -464,6 +476,7 @@
         color: "#cf3600"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeNapalm
   parent: ReagentSlime
   suffix: Napalm
@@ -481,6 +494,7 @@
         color: "#FA00AF"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeOmnizine
   parent: ReagentSlime
   suffix: Omnizine
@@ -498,6 +512,7 @@
         color: "#fcf7f9"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeMuteToxin
   parent: ReagentSlime
   suffix: Mute Toxin
@@ -515,6 +530,7 @@
         color: "#0f0f0f"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeNorepinephricAcid
   parent: ReagentSlime
   suffix: Norepinephric Acid
@@ -532,6 +548,7 @@
         color: "#96a8b5"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeEphedrine
   parent: ReagentSlime
   suffix: Ephedrine
@@ -549,6 +566,7 @@
         color: "#D2FFFA"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeRobustHarvest
   parent: ReagentSlime
   suffix: Robust Harvest
@@ -566,6 +584,7 @@
         color: "#3e901c"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeLotophagoiOil
   parent: ReagentSlime
   suffix: Lotophagoi Oil

@@ -1,0 +1,2047 @@
+# Auto-generated ML floor tiles (halflife-episode13 assets).
+- type: tile
+  id: MLTileCombineTilesTileCombineRough
+  name: tiles-ml-combinetiles-tile-combine-rough
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/combine_tiles.rsi/tile_combine_rough.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileCombineTilesTileCombineSmooth
+  name: tiles-ml-combinetiles-tile-combine-smooth
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/combine_tiles.rsi/tile_combine_smooth.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileCombineTilesTileCombinePurple
+  name: tiles-ml-combinetiles-tile-combine-purple
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/combine_tiles.rsi/tile_combine_purple.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsLino
+  name: tiles-ml-floors-lino
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/lino.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSterilesquares
+  name: tiles-ml-floors-sterilesquares
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/sterilesquares.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrooved
+  name: tiles-ml-floors-grooved
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grooved.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrooved2
+  name: tiles-ml-floors-grooved2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grooved2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTiled9
+  name: tiles-ml-floors-tiled9
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/tiled9.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTiled10
+  name: tiles-ml-floors-tiled10
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/tiled10.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsIndustrialTiles
+  name: tiles-ml-floors-industrial-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/industrial_tiles.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelIndustrial
+  name: tiles-ml-floors-steel-industrial
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_industrial.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelIndustrialB
+  name: tiles-ml-floors-steel-industrial-b
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_industrial_b.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelStayclear
+  name: tiles-ml-floors-steel-stayclear
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_stayclear.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelSolid
+  name: tiles-ml-floors-steel-solid
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_solid.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelTiles
+  name: tiles-ml-floors-steel-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_tiles.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetalAlt22
+  name: tiles-ml-floors-combine-metal-alt2-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal_alt2_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetalAlt21
+  name: tiles-ml-floors-combine-metal-alt2-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal_alt2_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetalAlt2
+  name: tiles-ml-floors-combine-metal-alt2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal_alt2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetalAlt
+  name: tiles-ml-floors-combine-metal-alt
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal_alt.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetalSmooth
+  name: tiles-ml-floors-combine-metal-smooth
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal_smooth.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCombineMetal
+  name: tiles-ml-floors-combine-metal
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/combine_metal.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrate
+  name: tiles-ml-floors-steel-grate
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateAlt
+  name: tiles-ml-floors-steel-grate-alt
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_alt.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateBorder
+  name: tiles-ml-floors-steel-grate-border
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_border.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateBorder1
+  name: tiles-ml-floors-steel-grate-border-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_border_1.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateBorder2
+  name: tiles-ml-floors-steel-grate-border-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_border_2.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateBorder3
+  name: tiles-ml-floors-steel-grate-border-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_border_3.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelGrateWarning
+  name: tiles-ml-floors-steel-grate-warning
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_grate_warning.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteIndustrial
+  name: tiles-ml-floors-concrete-industrial
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_industrial.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteIndustrialSplit
+  name: tiles-ml-floors-concrete-industrial-split
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_industrial_split.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteIndustrialAlt
+  name: tiles-ml-floors-concrete-industrial-alt
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_industrial_alt.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteWalkway
+  name: tiles-ml-floors-concrete-walkway
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_walkway.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsSteelWalkway
+  name: tiles-ml-floors-steel-walkway
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/steel_walkway.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableStraight
+  name: tiles-ml-floors-concrete-cable-straight
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_straight.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableCurve
+  name: tiles-ml-floors-concrete-cable-curve
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_curve.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableMerge
+  name: tiles-ml-floors-concrete-cable-merge
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_merge.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableIntersection
+  name: tiles-ml-floors-concrete-cable-intersection
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_intersection.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableBox
+  name: tiles-ml-floors-concrete-cable-box
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_box.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteCableNode
+  name: tiles-ml-floors-concrete-cable-node
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_cable_node.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteTiles
+  name: tiles-ml-floors-concrete-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_tiles.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteSmall
+  name: tiles-ml-floors-concrete-small
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_small.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteSmall1
+  name: tiles-ml-floors-concrete-small-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_small_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteSmall2
+  name: tiles-ml-floors-concrete-small-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_small_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBig
+  name: tiles-ml-floors-concrete-big
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_big.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks
+  name: tiles-ml-floors-concrete-bricks
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks1
+  name: tiles-ml-floors-concrete-bricks-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks2
+  name: tiles-ml-floors-concrete-bricks-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks3
+  name: tiles-ml-floors-concrete-bricks-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks4
+  name: tiles-ml-floors-concrete-bricks-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks5
+  name: tiles-ml-floors-concrete-bricks-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks6
+  name: tiles-ml-floors-concrete-bricks-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks7
+  name: tiles-ml-floors-concrete-bricks-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsConcreteBricks8
+  name: tiles-ml-floors-concrete-bricks-8
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/concrete_bricks_8.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsPipeFloors
+  name: tiles-ml-floors-pipe-floors
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/Pipe_Floors.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsPipeStraight
+  name: tiles-ml-floors-pipe-straight
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/pipe_straight.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsPipeIntersection
+  name: tiles-ml-floors-pipe-intersection
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/pipe_intersection.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrickTiles
+  name: tiles-ml-floors-brick-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_tiles.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick
+  name: tiles-ml-floors-brick
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick1
+  name: tiles-ml-floors-brick-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_1.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick2
+  name: tiles-ml-floors-brick-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_2.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick3
+  name: tiles-ml-floors-brick-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_3.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick4
+  name: tiles-ml-floors-brick-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_4.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick5
+  name: tiles-ml-floors-brick-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_5.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick6
+  name: tiles-ml-floors-brick-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_6.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick7
+  name: tiles-ml-floors-brick-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_7.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrick8
+  name: tiles-ml-floors-brick-8
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brick_8.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCeramic
+  name: tiles-ml-floors-ceramic
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/ceramic.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCeramic1
+  name: tiles-ml-floors-ceramic-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/ceramic_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCeramic2
+  name: tiles-ml-floors-ceramic-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/ceramic_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTiledTiles
+  name: tiles-ml-floors-tiled-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/tiled_tiles.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsKitchentile
+  name: tiles-ml-floors-kitchentile
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/kitchentile.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLong
+  name: tiles-ml-floors-grey-long
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_long.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLong1
+  name: tiles-ml-floors-grey-long-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_long_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLong2
+  name: tiles-ml-floors-grey-long-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_long_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLong3
+  name: tiles-ml-floors-grey-long-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_long_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlueLong
+  name: tiles-ml-floors-blue-long
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/blue_long.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlueLong1
+  name: tiles-ml-floors-blue-long-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/blue_long_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlueLong2
+  name: tiles-ml-floors-blue-long-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/blue_long_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlueLong3
+  name: tiles-ml-floors-blue-long-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/blue_long_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrown
+  name: tiles-ml-floors-brown
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brown.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrown1
+  name: tiles-ml-floors-brown-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brown_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrown2
+  name: tiles-ml-floors-brown-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brown_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBrown3
+  name: tiles-ml-floors-brown-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/brown_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavy
+  name: tiles-ml-floors-navy
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavy1
+  name: tiles-ml-floors-navy-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavy2
+  name: tiles-ml-floors-navy-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavy3
+  name: tiles-ml-floors-navy-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrey
+  name: tiles-ml-floors-grey
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrey1
+  name: tiles-ml-floors-grey-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrey2
+  name: tiles-ml-floors-grey-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGrey3
+  name: tiles-ml-floors-grey-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlack
+  name: tiles-ml-floors-black
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlack1
+  name: tiles-ml-floors-black-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlack2
+  name: tiles-ml-floors-black-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlack3
+  name: tiles-ml-floors-black-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsFancy
+  name: tiles-ml-floors-fancy
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/fancy.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLarge
+  name: tiles-ml-floors-grey-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLarge1
+  name: tiles-ml-floors-grey-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLarge2
+  name: tiles-ml-floors-grey-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreyLarge3
+  name: tiles-ml-floors-grey-large-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/grey_large_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavyLarge
+  name: tiles-ml-floors-navy-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavyLarge1
+  name: tiles-ml-floors-navy-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavyLarge2
+  name: tiles-ml-floors-navy-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNavyFull
+  name: tiles-ml-floors-navy-full
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/navy_full.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlackLarge
+  name: tiles-ml-floors-black-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlackLarge1
+  name: tiles-ml-floors-black-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlackLarge2
+  name: tiles-ml-floors-black-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsBlackFull
+  name: tiles-ml-floors-black-full
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/black_full.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreenLarge
+  name: tiles-ml-floors-green-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/green_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreenLarge1
+  name: tiles-ml-floors-green-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/green_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreenLarge2
+  name: tiles-ml-floors-green-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/green_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGreenFull
+  name: tiles-ml-floors-green-full
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/green_full.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWhiteLarge
+  name: tiles-ml-floors-white-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/white_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWhiteLarge1
+  name: tiles-ml-floors-white-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/white_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWhiteLarge2
+  name: tiles-ml-floors-white-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/white_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWhiteFull
+  name: tiles-ml-floors-white-full
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/white_full.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCheckerLarge
+  name: tiles-ml-floors-checker-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/checker_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCheckerLarge1
+  name: tiles-ml-floors-checker-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/checker_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCheckerLarge2
+  name: tiles-ml-floors-checker-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/checker_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCheckerLarge3
+  name: tiles-ml-floors-checker-large-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/checker_large_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCafeLarge
+  name: tiles-ml-floors-cafe-large
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cafe_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCafeLarge1
+  name: tiles-ml-floors-cafe-large-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cafe_large_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCafeLarge2
+  name: tiles-ml-floors-cafe-large-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cafe_large_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCafeLarge3
+  name: tiles-ml-floors-cafe-large-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cafe_large_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodTiles
+  name: tiles-ml-floors-wood-tiles
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_tiles.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon
+  name: tiles-ml-floors-wood-common
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon1
+  name: tiles-ml-floors-wood-common-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon2
+  name: tiles-ml-floors-wood-common-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon3
+  name: tiles-ml-floors-wood-common-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon4
+  name: tiles-ml-floors-wood-common-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon5
+  name: tiles-ml-floors-wood-common-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon6
+  name: tiles-ml-floors-wood-common-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodCommon7
+  name: tiles-ml-floors-wood-common-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_common_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy
+  name: tiles-ml-floors-wood-fancy
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy1
+  name: tiles-ml-floors-wood-fancy-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy2
+  name: tiles-ml-floors-wood-fancy-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy3
+  name: tiles-ml-floors-wood-fancy-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy4
+  name: tiles-ml-floors-wood-fancy-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy5
+  name: tiles-ml-floors-wood-fancy-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy6
+  name: tiles-ml-floors-wood-fancy-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodFancy7
+  name: tiles-ml-floors-wood-fancy-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_fancy_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide
+  name: tiles-ml-floors-wood-wide
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide1
+  name: tiles-ml-floors-wood-wide-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide2
+  name: tiles-ml-floors-wood-wide-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide3
+  name: tiles-ml-floors-wood-wide-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide4
+  name: tiles-ml-floors-wood-wide-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide5
+  name: tiles-ml-floors-wood-wide-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide6
+  name: tiles-ml-floors-wood-wide-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodWide7
+  name: tiles-ml-floors-wood-wide-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_wide_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic
+  name: tiles-ml-floors-wood-mosaic
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic1
+  name: tiles-ml-floors-wood-mosaic-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic2
+  name: tiles-ml-floors-wood-mosaic-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic3
+  name: tiles-ml-floors-wood-mosaic-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic4
+  name: tiles-ml-floors-wood-mosaic-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic5
+  name: tiles-ml-floors-wood-mosaic-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic6
+  name: tiles-ml-floors-wood-mosaic-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsWoodMosaic7
+  name: tiles-ml-floors-wood-mosaic-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/wood_mosaic_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpet
+  name: tiles-ml-floors-carpet
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetRed
+  name: tiles-ml-floors-carpet-red
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_red.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetViolet
+  name: tiles-ml-floors-carpet-violet
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_violet.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetGreen
+  name: tiles-ml-floors-carpet-green
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_green.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetBlue
+  name: tiles-ml-floors-carpet-blue
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_blue.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsNew
+  name: tiles-ml-floors-new
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/new.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetFancyRed
+  name: tiles-ml-floors-carpet-fancy-red
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_fancy_red.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetFancyViolet
+  name: tiles-ml-floors-carpet-fancy-violet
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_fancy_violet.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetFancyBlue
+  name: tiles-ml-floors-carpet-fancy-blue
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_fancy_blue.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCarpetFancyGreen
+  name: tiles-ml-floors-carpet-fancy-green
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/carpet_fancy_green.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTravel
+  name: tiles-ml-floors-travel
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/travel.png
+  variants: 4
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTrain
+  name: tiles-ml-floors-train
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/train.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave
+  name: tiles-ml-floors-cave
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave1
+  name: tiles-ml-floors-cave-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave2
+  name: tiles-ml-floors-cave-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave3
+  name: tiles-ml-floors-cave-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave4
+  name: tiles-ml-floors-cave-4
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_4.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave5
+  name: tiles-ml-floors-cave-5
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_5.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave6
+  name: tiles-ml-floors-cave-6
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_6.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsCave7
+  name: tiles-ml-floors-cave-7
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/cave_7.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDeadgrass1
+  name: tiles-ml-floors-deadgrass-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/deadgrass_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDeadgrass2
+  name: tiles-ml-floors-deadgrass-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/deadgrass_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDeadgrass3
+  name: tiles-ml-floors-deadgrass-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/deadgrass_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDirt1
+  name: tiles-ml-floors-dirt-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/dirt_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDirt2
+  name: tiles-ml-floors-dirt-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/dirt_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDirt3
+  name: tiles-ml-floors-dirt-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/dirt_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDrydirt1
+  name: tiles-ml-floors-drydirt-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/drydirt_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDrydirt2
+  name: tiles-ml-floors-drydirt-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/drydirt_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsDrydirt3
+  name: tiles-ml-floors-drydirt-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/drydirt_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsMud1
+  name: tiles-ml-floors-mud-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/mud_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsMud2
+  name: tiles-ml-floors-mud-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/mud_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsMud3
+  name: tiles-ml-floors-mud-3
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/mud_3.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGravel1
+  name: tiles-ml-floors-gravel-1
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/gravel_1.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsGravel2
+  name: tiles-ml-floors-gravel-2
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/gravel_2.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsHlGrass
+  name: tiles-ml-floors-hl-grass
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/hl_grass.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTrainCarpet
+  name: tiles-ml-floors-train-carpet
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/train_carpet.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsTrainFloor
+  name: tiles-ml-floors-train-floor
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/train_floor.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsHlSnow
+  name: tiles-ml-floors-hl-snow
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/hl_snow.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileFloorsMudMoving
+  name: tiles-ml-floors-mud-moving
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/mud_moving.png
+  variants: 16
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileRoadRoad
+  name: tiles-ml-road-road
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/road.rsi/road.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileSidewalkSidewalk
+  name: tiles-ml-sidewalk-sidewalk
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/sidewalk.rsi/sidewalk.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileSidewalkSidewalkinside
+  name: tiles-ml-sidewalk-sidewalkinside
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/sidewalk.rsi/sidewalkinside.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileSidewalkSidewalkinsideslums
+  name: tiles-ml-sidewalk-sidewalkinsideslums
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/sidewalk.rsi/sidewalkinsideslums.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileSidewalkCobblestone
+  name: tiles-ml-sidewalk-cobblestone
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/sidewalk.rsi/cobblestone.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileStonebrickBrick
+  name: tiles-ml-stonebrick-brick
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/stonebrick.rsi/brick.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterDeep
+  name: tiles-ml-water-water-deep
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_deep.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterMedium
+  name: tiles-ml-water-water-medium
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_medium.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterShallow
+  name: tiles-ml-water-water-shallow
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_shallow.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterShallowTop
+  name: tiles-ml-water-water-shallow-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_shallow_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterShallowBottom
+  name: tiles-ml-water-water-shallow-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_shallow_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterMediumTop
+  name: tiles-ml-water-water-medium-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_medium_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterMediumBottom
+  name: tiles-ml-water-water-medium-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_medium_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterDeepTop
+  name: tiles-ml-water-water-deep-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_deep_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterWaterDeepBottom
+  name: tiles-ml-water-water-deep-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/water_deep_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerDeep
+  name: tiles-ml-water-sewer-deep
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_deep.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerMedium
+  name: tiles-ml-water-sewer-medium
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_medium.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerShallow
+  name: tiles-ml-water-sewer-shallow
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_shallow.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerShallowTop
+  name: tiles-ml-water-sewer-shallow-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_shallow_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerShallowBottom
+  name: tiles-ml-water-sewer-shallow-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_shallow_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerMediumTop
+  name: tiles-ml-water-sewer-medium-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_medium_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerMediumBottom
+  name: tiles-ml-water-sewer-medium-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_medium_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerDeepTop
+  name: tiles-ml-water-sewer-deep-top
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_deep_top.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSewerDeepBottom
+  name: tiles-ml-water-sewer-deep-bottom
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sewer_deep_bottom.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSludgeDeep
+  name: tiles-ml-water-sludge-deep
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sludge_deep.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSludgeMedium
+  name: tiles-ml-water-sludge-medium
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sludge_medium.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileWaterSludgeShallow
+  name: tiles-ml-water-sludge-shallow
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/water.rsi/sludge_shallow.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000
+- type: tile
+  id: MLTileHlGrassHlGrass
+  name: tiles-ml-hlgrass-hl-grass
+  sprite: /Textures/_MesaLife/Tiles/ML/Floors/floors.rsi/hl_grass.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  heatCapacity: 10000

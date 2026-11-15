@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobGladiaBot
   name: gladiabot

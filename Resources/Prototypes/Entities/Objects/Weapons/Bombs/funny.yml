@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hot potato
   description: Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
   parent: BaseItem
@@ -69,6 +70,7 @@
   - type: AnimationPlayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: banana peel
   suffix: Explosive
   parent: TrashBananaPeel
@@ -103,6 +105,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: TrashBananaPeelExplosiveUnarmed
   name: banana

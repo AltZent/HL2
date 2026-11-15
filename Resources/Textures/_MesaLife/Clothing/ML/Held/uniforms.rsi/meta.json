@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "civilprotection"
+    },
+    {
+      "name": "civilprotection_exptaser"
+    },
+    {
+      "name": "elitecivilprotection"
+    },
+    {
+      "name": "divisionallead"
+    },
+    {
+      "name": "overwatch"
+    },
+    {
+      "name": "overwatch_white"
+    },
+    {
+      "name": "suppressor"
+    },
+    {
+      "name": "assassin"
+    },
+    {
+      "name": "overwatch_red"
+    },
+    {
+      "name": "rebelblue"
+    },
+    {
+      "name": "heeledsuit"
+    },
+    {
+      "name": "formal"
+    },
+    {
+      "name": "grunt"
+    },
+    {
+      "name": "classysuit"
+    },
+    {
+      "name": "citizenblue"
+    },
+    {
+      "name": "prisoner"
+    },
+    {
+      "name": "rebelprisoner"
+    },
+    {
+      "name": "refugee"
+    },
+    {
+      "name": "green_refugee"
+    },
+    {
+      "name": "brownsuit"
+    },
+    {
+      "name": "blacksuit"
+    },
+    {
+      "name": "gsuit"
+    },
+    {
+      "name": "warden"
+    },
+    {
+      "name": "police"
+    },
+    {
+      "name": "raiden"
+    },
+    {
+      "name": "olivedrab"
+    }
+  ]
+}

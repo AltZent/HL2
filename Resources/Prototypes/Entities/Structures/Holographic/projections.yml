@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HolosignWetFloor
   name: wet floor sign
   description: The words flicker as if they mean nothing.
@@ -30,6 +31,7 @@
       - NoPaint
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HoloFan
   parent: HolosignWetFloor
   name: holofan
@@ -50,6 +52,7 @@
     noAirWhenFullyAirBlocked: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HolosignSecurity
   parent: HolosignWetFloor
   name: holographic barrier
@@ -81,6 +84,7 @@
     - type: Clickable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HolosignForcefield
   parent: HolosignWetFloor
   name: holographic force field

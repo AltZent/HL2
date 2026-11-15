@@ -64,6 +64,7 @@
     staminaCost: 9.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable]
@@ -142,6 +143,7 @@
     staminaCost: 9.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: antique Bulldog
   parent: WeaponShotgunBulldog
   id: WeaponShotgunBulldogHoS
@@ -151,6 +153,7 @@
       stealGroup: HoSAntiqueWeapon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunDoubleBarreled
@@ -182,6 +185,7 @@
     staminaCost: 7.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
@@ -192,6 +196,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunEnforcer
@@ -215,6 +220,7 @@
     staminaCost: 8.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WeaponShotgunEnforcer
   id: WeaponShotgunEnforcerRubber
   suffix: Non-Lethal
@@ -223,6 +229,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunKammerer
@@ -246,6 +253,7 @@
   - type: Wieldable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sawn-off shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunSawn
@@ -276,6 +284,7 @@
     staminaCost: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sawn-off shogun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
@@ -290,6 +299,7 @@
     deconstructionTarget: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: handmade pistol
   parent: BaseWeaponShotgun
   id: WeaponShotgunHandmade
@@ -323,6 +333,7 @@
     staminaCost: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBlunderbuss
@@ -346,6 +357,7 @@
   - type: Wieldable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunImprovised
@@ -374,6 +386,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: improvised shotgun
   parent: WeaponShotgunImprovised
   suffix: Loaded

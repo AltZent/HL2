@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: XenoWardingTower
   name: Xeno warding tower
   placement:
@@ -51,6 +52,7 @@
             acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: XenoWardingTower
   id: CarpStatue
   name: carp statue

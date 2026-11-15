@@ -48,11 +48,13 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationAnchorIndestructible
   parent: StationAnchorBase
   suffix: Indestructible, Unpowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationAnchor
   parent: [StationAnchorBase, BaseMachinePowered, ConstructibleMachine]
   name: station anchor
@@ -114,6 +116,7 @@
           type: PowerChargeBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StationAnchor
   id: StationAnchorOff
   suffix: Off

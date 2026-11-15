@@ -1,0 +1,33 @@
+# Damage modifier sets used by ML trait augmentations.
+
+# Subdermal implant: generic civilian-grade body armor under the skin.
+- type: damageModifierSet
+  id: MLAugDermalArmor
+  coefficients:
+    Blunt: 0.9
+    Slash: 0.9
+    Piercing: 0.9
+
+# Alliance military implant: supress-grade plating wired into the body.
+- type: damageModifierSet
+  id: MLAugCombineArmor
+  coefficients:
+    Blunt: 0.85
+    Slash: 0.85
+    Piercing: 0.85
+    Heat: 0.9
+    Shock: 0.9
+    Radiation: 0.9
+
+# Xen bio-shield implant: stolen/crafted biology graft resists exotic damage.
+- type: damageModifierSet
+  id: MLAugBioShield
+  coefficients:
+    Heat: 0.95
+    Cold: 0.95
+    Shock: 0.95
+    Poison: 0.8
+    Cellular: 0.2
+    Radiation: 0.2
+    Asphyxiation: 0.1
+    Bloodloss: 0.8

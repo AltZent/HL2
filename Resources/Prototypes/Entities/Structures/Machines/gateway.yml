@@ -45,6 +45,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGateway
   id: Gateway
   components:

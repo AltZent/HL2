@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-4.0",
+  "copyright": "halflife-episode13, https://github.com/Marmio64/halflife-episode13",
+  "states": [
+    {
+      "name": "mag-0"
+    },
+    {
+      "name": "mag-1"
+    }
+  ]
+}

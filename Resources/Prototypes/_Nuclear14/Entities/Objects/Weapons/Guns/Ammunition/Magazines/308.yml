@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazine308Rifle
   name: "magazine (308.)"
   parent: BaseItem
@@ -32,6 +33,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine308Rifle
   name: "magazine (.308)"
   parent: BaseMagazine308Rifle
@@ -40,6 +42,7 @@
     proto: N14Cartridge308Rifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine308RifleLong
   name: "long magazine (.308)"
   parent: BaseMagazine308Rifle
@@ -60,6 +63,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ClipMagazine308Rifle
   name: "clip (.308)"
   parent: BaseMagazine308Rifle
@@ -75,6 +79,7 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/308/mag2.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine308M60Box
   name: "M60 Box (.308)"
   parent: BaseMagazine308Rifle

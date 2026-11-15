@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "manhack"
+    },
+    {
+      "name": "manhack_active"
+    },
+    {
+      "name": "plastic-explosive0"
+    },
+    {
+      "name": "plastic-explosive1",
+      "delays": [
+        [
+          0.9,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "plastic-explosive2",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "plastic-explosive0_active",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pipebomb"
+    },
+    {
+      "name": "bouncer"
+    },
+    {
+      "name": "bouncer_active",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "stinger"
+    },
+    {
+      "name": "stinger_active"
+    },
+    {
+      "name": "csgas"
+    },
+    {
+      "name": "csgas_active"
+    },
+    {
+      "name": "incendiary"
+    },
+    {
+      "name": "incendiary_active",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "flashbang"
+    },
+    {
+      "name": "flashbang_active"
+    },
+    {
+      "name": "decoy"
+    },
+    {
+      "name": "decoy_active"
+    },
+    {
+      "name": "emp"
+    },
+    {
+      "name": "emp_active"
+    }
+  ]
+}

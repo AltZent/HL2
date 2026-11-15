@@ -21,6 +21,7 @@
     - type: CollideOnAnchor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentPump
   name: air vent
@@ -72,6 +73,7 @@
       navMapBlip: GasVentOpening
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasUnaryBase
   id: GasPassiveVent
   name: passive vent
@@ -100,6 +102,7 @@
       navMapBlip: GasVentOpening
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentScrubber
   name: air scrubber
@@ -152,6 +155,7 @@
       navMapBlip: GasVentScrubber
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasUnaryBase
   id: GasOutletInjector
   name: air injector
@@ -238,6 +242,7 @@
       navMapBlip: Thermoregulator
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGasThermoMachine
   id: GasThermoMachineFreezer
   name: freezer
@@ -275,6 +280,7 @@
       stealGroup: FreezerHeater
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasThermoMachineFreezer
   id: GasThermoMachineFreezerEnabled
   suffix: Enabled
@@ -284,6 +290,7 @@
     powerDisabled: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGasThermoMachine
   id: GasThermoMachineHeater
   name: heater
@@ -321,6 +328,7 @@
       stealGroup: FreezerHeater
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasThermoMachineHeater
   id: GasThermoMachineHeaterEnabled
   suffix: Enabled
@@ -330,6 +338,7 @@
     powerDisabled: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasThermoMachineFreezer
   id: GasThermoMachineHellfireFreezer
   name: hellfire freezer
@@ -345,6 +354,7 @@
     board: HellfireFreezerMachineCircuitBoard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasThermoMachineHeater
   id: GasThermoMachineHellfireHeater
   name: hellfire heater
@@ -360,6 +370,7 @@
     board: HellfireHeaterMachineCircuitBoard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   id: BaseGasCondenser
   name: condenser

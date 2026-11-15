@@ -1,6 +1,7 @@
 # TODO: Sprites exist, just need entities and reagents etc: berserkpowder, hydra, traumapack. Plus anything else not sprited.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14ChemicalSyringe
   name: chemical syringe
@@ -78,6 +79,7 @@
     - Syringe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseSyringe
   id: N14DoctorSyringe
   components:
@@ -90,6 +92,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14Stimpak
   name: stimpak
@@ -125,6 +128,7 @@
     node: stimpak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Stimpak
   id: N14StimpakDirty
   name: dirty stimpak
@@ -141,6 +145,7 @@
           Quantity: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14SuperStimpak
   name: super stimpak
@@ -173,6 +178,7 @@
           Quantity: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14ChemicalSyringeAntidoteEmpty
   suffix: empty
@@ -196,6 +202,7 @@
     emptySpriteName: used
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringeAntidoteEmpty
   id: N14ChemicalSyringeAntidote
   suffix: filled
@@ -211,6 +218,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14JetInhaler
   suffix: empty
@@ -238,6 +246,7 @@
     - Jet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JetInhaler
   id: N14Jet
   suffix: filled
@@ -253,6 +262,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14TurboInhaler
   suffix: empty
@@ -278,6 +288,7 @@
         maxVol: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TurboInhaler
   id: N14Turbo
   suffix: filled
@@ -293,6 +304,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14Med-X
   name: med-x
@@ -320,6 +332,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14HydraInhaler
   suffix: empty
@@ -342,6 +355,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HydraInhaler
   id: N14Hydra
   suffix: filled
@@ -357,6 +371,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14PsychoSyringe
   suffix: empty
@@ -382,6 +397,7 @@
         maxVol: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PsychoSyringe
   id: N14Psycho
   suffix: full
@@ -397,6 +413,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14RadAwayBloodbag
   name: RadAway
@@ -456,6 +473,7 @@
         maxVol: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RadAwayInhalerBase
   id: N14RadAwayInhalerTrash
   suffix: Trash
@@ -466,6 +484,7 @@
     defaultTarget: refill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RadAwayInhalerBase
   id: N14RadAwayInhaler
   name: RadAway inhaler
@@ -525,6 +544,7 @@
 #     defaultTarget: fill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RadAwayPhialBase
   id: N14RadAwayPhialEmpty
   suffix: empty
@@ -535,6 +555,7 @@
     defaultTarget: fill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseBreak
   id: N14RadAwayPhial
   name: RadAway phial
@@ -574,6 +595,7 @@
 
 #MARK: Healing Powder
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: healing powder
   parent: BaseItem
   id: N14HealingPowder
@@ -620,6 +642,7 @@
     node: healingpowder
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleGlassBaseFull
   id: N14Antidote
   name: antidote
@@ -636,6 +659,7 @@
     state: antidote
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChemicalSyringe
   id: N14SmellingSalts
   name: smelling salts
@@ -662,6 +686,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HealingPowder
   id: N14HealingPoultice
   name: healing poultice
@@ -681,6 +706,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleGlassBaseFull
   id: N14Bitterdrink
   name: Bitterdrink
@@ -697,6 +723,7 @@
     state: bitterdrink
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HealingPowder
   id: N14MourningPoultice
   name: mourning poultice
@@ -716,6 +743,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SuperStimpak
   id: N14UltraStimpak
   name: ultra stimpak
@@ -733,6 +761,7 @@
           Quantity: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HealingPowder
   id: N14Traumapack #TODO: N14Traumapack needs new sound
   name: traumapack
@@ -762,6 +791,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Gauze
   id: N14Bandage
   name: bandage
@@ -772,6 +802,7 @@
     state: bandage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleGlassBaseFull
   id: N14Ethanol
   name: ethanol bottle
@@ -789,6 +820,7 @@
     state: ethanol
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: aloe salve
   description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: Ointment
@@ -810,6 +842,7 @@
       map: ["base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14AloeSalve1
   parent: N14AloeSalve
   suffix: Single

@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "reactor",
+      "delays": [
+        [
+          2.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "reactor_off"
+    },
+    {
+      "name": "reactor_t"
+    },
+    {
+      "name": "suitcharger"
+    },
+    {
+      "name": "suitcharger_01"
+    },
+    {
+      "name": "suitcharger_02"
+    },
+    {
+      "name": "suitcharger_03"
+    },
+    {
+      "name": "suitcharger_t"
+    },
+    {
+      "name": "destabilizer",
+      "delays": [
+        [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "superdestabilizer",
+      "delays": [
+        [
+          1.2,
+          0.2,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "superdestabilizer_off"
+    },
+    {
+      "name": "ration_dispenser"
+    },
+    {
+      "name": "ration_dispenser-vend",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ration_dispenser-deny",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ration_dispenser-broken"
+    },
+    {
+      "name": "ration_dispenser-off"
+    },
+    {
+      "name": "sealer"
+    },
+    {
+      "name": "sealer_bloody"
+    },
+    {
+      "name": "box_dispenser"
+    },
+    {
+      "name": "harvester",
+      "delays": [
+        [
+          1.0,
+          0.3,
+          0.3,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "harvester_full"
+    },
+    {
+      "name": "harvester_off"
+    },
+    {
+      "name": "recycler"
+    },
+    {
+      "name": "quotaterminal"
+    },
+    {
+      "name": "press"
+    },
+    {
+      "name": "mill"
+    },
+    {
+      "name": "healthcharger"
+    },
+    {
+      "name": "healthcharger_01"
+    },
+    {
+      "name": "healthcharger_02"
+    },
+    {
+      "name": "healthcharger_03"
+    },
+    {
+      "name": "validationterminal"
+    },
+    {
+      "name": "analyzingserver"
+    },
+    {
+      "name": "datapodterminal"
+    },
+    {
+      "name": "datapodterminal_hacked",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "masher"
+    },
+    {
+      "name": "datapodterminal_l"
+    },
+    {
+      "name": "datapodterminal_hacked_l",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ]
+}

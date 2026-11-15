@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: deployable barrier
   id: DeployableBarrier
   description: A deployable barrier. Swipe your ID card to lock/unlock it.

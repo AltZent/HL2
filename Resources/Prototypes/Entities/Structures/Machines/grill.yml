@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHeaterMachine
   id: KitchenElectricGrill
   name: electric grill

@@ -1,0 +1,73 @@
+# Auto-generated ML shoes (halflife-episode13 assets).
+- type: entity
+  id: MLShoesOverwatch
+  parent: ClothingShoesBase
+  name: "shoes (overwatch)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: overwatch
+- type: entity
+  id: MLShoesCivilprotection
+  parent: ClothingShoesBase
+  name: "shoes (civilprotection)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: civilprotection
+- type: entity
+  id: MLShoesWorkboots
+  parent: ClothingShoesBase
+  name: "shoes (workboots)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: workboots
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: workboots
+- type: entity
+  id: MLShoesCleanup
+  parent: ClothingShoesBase
+  name: "shoes (cleanup)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: cleanup
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: cleanup
+- type: entity
+  id: MLShoesEngineer
+  parent: ClothingShoesBase
+  name: "shoes (engineer)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: engineer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: engineer
+- type: entity
+  id: MLShoesAssassin
+  parent: ClothingShoesBase
+  name: "shoes (assassin)"
+  description: "Half-Life: Episode 13 shoes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/shoes.rsi
+    state: assassin
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/feet.rsi
+    equippedState: assassin

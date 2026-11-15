@@ -45,6 +45,7 @@
 # TODO: Replace all the individual piles with a single randomised sprite entity.
 # Decorative Piles
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPileBase
   id: N14JunkPile1
   name: junk pile
@@ -54,6 +55,7 @@
     state: Junk_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile2
   components:
@@ -61,6 +63,7 @@
     state: Junk_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile3
   components:
@@ -68,6 +71,7 @@
     state: Junk_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile4
   components:
@@ -75,6 +79,7 @@
     state: Junk_4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile5
   components:
@@ -82,6 +87,7 @@
     state: Junk_5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile6
   components:
@@ -89,6 +95,7 @@
     state: Junk_6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile7
   components:
@@ -96,6 +103,7 @@
     state: Junk_7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile8
   components:
@@ -103,6 +111,7 @@
     state: Junk_8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile9
   components:
@@ -110,6 +119,7 @@
     state: Junk_9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile10
   components:
@@ -117,6 +127,7 @@
     state: Junk_10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile11
   components:
@@ -124,6 +135,7 @@
     state: Junk_11
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkPile1
   id: N14JunkPile12
   components:
@@ -134,61 +146,73 @@
 # Currently the refilling mechanic does NOT work
 #TODO: Fix the refilling until the doAfter gets made | change names from Refilling to Loot
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile1, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling1
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile2, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling2
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile3, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling3
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile4, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling4
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile5, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling5
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile6, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling6
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile7, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling7
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile8, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling8
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile9, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling9
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile10, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling10
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile11, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling11
   suffix: Loot,Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkPile12, N14BaseSmallLockerStorageFill ]
   id: N14JunkPile1Refilling12
   suffix: Loot,Random

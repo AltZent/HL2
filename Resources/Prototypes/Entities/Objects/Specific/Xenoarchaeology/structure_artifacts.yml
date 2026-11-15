@@ -62,6 +62,7 @@
       stealGroup: XenoArtifact
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifact
   id: SimpleXenoArtifact
   suffix: Simple
@@ -71,6 +72,7 @@
     nodesMax: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifact
   id: MediumXenoArtifact
   suffix: Medium
@@ -80,6 +82,7 @@
     nodesMax: 9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifact
   id: ComplexXenoArtifact
   suffix: Complex

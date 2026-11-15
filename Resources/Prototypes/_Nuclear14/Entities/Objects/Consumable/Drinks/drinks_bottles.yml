@@ -35,6 +35,7 @@
 # Milk
 # Empty Bottle
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkBottleMilkEmpty
   name: milk bottle
@@ -45,6 +46,7 @@
 
 # Basic Milk Bottle
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [DrinkGlassVisualsOpenable, DrinkBottleBaseFull50]
   id: N14DrinkMilkBrahmin
   name: brahmin milk
@@ -70,6 +72,7 @@
     fillBaseName: fill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkBighorner
   name: bighorner milk
@@ -84,6 +87,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkRadstag
   name: radstag milk
@@ -100,6 +104,7 @@
 # Cream
 # Empty Cream Bottle
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkCreamGlassEmpty
   name: cream glass
@@ -110,6 +115,7 @@
 
 # Filled Cream Bottle
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [DrinkGlassVisualsOpenable, DrinkBottleBaseFull50]
   id: N14DrinkCreamGlass
   name: cream
@@ -136,6 +142,7 @@
     
 # Soda
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkNukaColaBottleFull
   name: Nuka-Cola bottle
@@ -152,6 +159,7 @@
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkIrradiatedNukaColaBottleFull
   name: irradiated Nuka-Cola bottle
@@ -169,6 +177,7 @@
 
 # New Soda
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkNukaColaEmpty
   name: Nuka-Cola bottle
@@ -198,6 +207,7 @@
     size: Small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BrokenBottle
   id: N14DrinkNukaColaBroken
   name: broken Nuka-Cola bottle
@@ -208,6 +218,7 @@
     state: broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaCola
   name: Nuka-Cola
@@ -226,6 +237,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaCherry
   name: Nuka-Cola Cherry
@@ -243,6 +255,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaGrape
   name: Nuka-Cola Grape
@@ -260,6 +273,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaOrange
   name: Nuka-Cola Orange
@@ -278,6 +292,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaYellow
   name: Nuka-Cola Yellow
@@ -296,6 +311,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaQuantum
   name: Nuka-Cola Quantum
@@ -318,6 +334,7 @@
     energy: 0.2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaQuartz
   name: Nuka-Cola Quartz
@@ -340,6 +357,7 @@
     energy: 0.2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaVictory
   name: Nuka-Cola Victory
@@ -357,6 +375,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaWild
   name: Nuka-Cola Wild
@@ -375,6 +394,7 @@
 
 # Vim
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkNukaCola
   id: N14DrinkVim
   name: Vim!
@@ -392,6 +412,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkVim
   id: N14DrinkVimCaptainsBlend
   name: Vim! Captain's Blend
@@ -409,6 +430,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkVim
   id: N14DrinkVimRefresh
   name: Vim! Refresh
@@ -426,6 +448,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DrinkVim
   id: N14DrinkVimQuartz
   name: Vim! Quartz
@@ -450,6 +473,7 @@
 #N14Bourbon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkGammagulpBeer
   name: Gamma Gulp Beer
@@ -472,6 +496,7 @@
 #N14Pilsner
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkRoentgenRum
   name: Roentgen Rum
@@ -494,6 +519,7 @@
 #N14Vodka
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkWhisky
   name: whiskey
@@ -513,6 +539,7 @@
 #N14WhiskeyRare
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBottleBaseFull50
   id: N14DrinkWine
   name: wine

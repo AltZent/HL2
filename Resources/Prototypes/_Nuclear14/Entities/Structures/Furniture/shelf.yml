@@ -3,6 +3,7 @@
 
 # Bookshelf bookshelves
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BookshelfDirty
   parent: BaseStructure
   name: "bookshelf"
@@ -60,6 +61,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Bookshelf
   parent: N14BookshelfDirty
   name: "bookshelf"
@@ -87,6 +89,7 @@
           book-5: ""
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BookshelfDestroyed
   parent: N14BookshelfDirty
   name: "bookshelf"
@@ -99,6 +102,7 @@
       
 # Normal Shelves
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14ShelfWood1
   parent: BaseStructure
   name: wooden shelf
@@ -160,6 +164,7 @@
   - type: InteractionOutline
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ShelfWood1, N14StorageFillDomestic ]
   id: N14LootShelfWood1
   suffix: Loot, RandomDomestic
@@ -167,6 +172,7 @@
 # Tall
 # Wood shelf
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood1
   id: N14ShelfWood
   components:
@@ -196,6 +202,7 @@
     
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodAlt
   suffix: alt
@@ -204,6 +211,7 @@
     state: wood_shelf-alt
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodBig
   name: big wooden shelf
@@ -212,6 +220,7 @@
     state: wood_shelf_big
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodShowcase
   name: showcase
@@ -223,6 +232,7 @@
     state: showcase
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodStand
   name: wooden stand
@@ -244,6 +254,7 @@
         - LowImpassable
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodStandSmall
   name: small wooden stand
@@ -265,6 +276,7 @@
         - LowImpassable
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfWoodClothesRack
   name: clothes rack
@@ -275,6 +287,7 @@
     
 # Metal Shelves
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfWood
   id: N14ShelfMetal
   name: metal shelf
@@ -313,6 +326,7 @@
         
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfMetal
   id: N14ShelfMetalShop
   name: shop shelf
@@ -335,6 +349,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ShelfMetal
   id: N14ShelfMetalMeds
   name: medical shelf

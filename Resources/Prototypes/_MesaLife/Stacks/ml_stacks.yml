@@ -1,0 +1,134 @@
+# Auto-generated ML stack prototypes.
+- type: stack
+  id: MLScrapMetal
+  name: "scrap metal"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-scrapmetal }
+  spawn: MLScrapMetal
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLScrapGlass
+  name: "scrap glass"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-scrapglass }
+  spawn: MLScrapGlass
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLScrapParts
+  name: "scrap parts"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-scrapparts }
+  spawn: MLScrapParts
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLScrapWood
+  name: "scrap wood"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-scrapwood }
+  spawn: MLScrapWood
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLWood
+  name: "wood planks"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-wood }
+  spawn: MLWood
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLCloth
+  name: "cloth"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-cloth }
+  spawn: MLCloth
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLPlastic
+  name: "plastic pieces"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: plastic }
+  spawn: MLPlastic
+  maxCount: 30
+  itemSize: 1
+- type: stack
+  id: MLBrick
+  name: "bricks"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: brick }
+  spawn: MLBrick
+  maxCount: 30
+  itemSize: 1
+- type: stack
+  id: MLResin
+  name: "combine resin"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: sheet-resin }
+  spawn: MLResin
+  maxCount: 30
+  itemSize: 2
+- type: stack
+  id: MLKevlar
+  name: "kevlar"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: kevlar }
+  spawn: MLKevlar
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLIronIngot
+  name: "iron ingots"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: ironingot }
+  spawn: MLIronIngot
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLIronPowder
+  name: "iron powder"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: ironpowder }
+  spawn: MLIronPowder
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLScrapCopper
+  name: "scrap copper"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: scrap_copper }
+  spawn: MLScrapCopper
+  maxCount: 30
+  itemSize: 1
+- type: stack
+  id: MLGunpowder
+  name: "gunpowder"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: gunpowder }
+  spawn: MLGunpowder
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLBullets
+  name: "plain bullets"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: bullets }
+  spawn: MLBullets
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLGoldIngot
+  name: "gold ingots"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: goldingot }
+  spawn: MLGoldIngot
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLSilverIngot
+  name: "silver ingots"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: silveringot }
+  spawn: MLSilverIngot
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLCopper
+  name: "copper ingots"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: copper }
+  spawn: MLCopper
+  maxCount: 20
+  itemSize: 1
+- type: stack
+  id: MLBarbedwire
+  name: "barbed wire"
+  icon: { sprite: "_MesaLife/Objects/ML/Materials/stack_objects.rsi", state: barbedwire }
+  spawn: MLBarbedwire
+  maxCount: 10
+  itemSize: 1

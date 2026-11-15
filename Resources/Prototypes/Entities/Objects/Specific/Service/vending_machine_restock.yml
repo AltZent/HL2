@@ -50,6 +50,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockBooze
   name: Booze-O-Mat restock box
@@ -66,6 +67,7 @@
     - state: refill_booze
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChang
   name: Mr. Chang's restock box
@@ -82,6 +84,7 @@
     - state: refill_chinese
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChefvend
   name: ChefVend restock box
@@ -98,6 +101,7 @@
     - state: refill_chef
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockCondimentStation
   name: condiment station restock box
@@ -114,6 +118,7 @@
     - state: refill_condiment
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockClothes
   name: wardrobe restock box
@@ -148,6 +153,7 @@
     - state: refill_clothes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockCostumes
   name: AutoDrobe restock box
@@ -164,6 +170,7 @@
     - state: refill_costume
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDinnerware
   name: Plasteel Chef's restock box
@@ -180,6 +187,7 @@
     - state: refill_dinner
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDiscountDans
   name: Discount Dan's restock box
@@ -196,6 +204,7 @@
     - state: refill_discount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDonut
   name: Robust Donuts restock box
@@ -212,6 +221,7 @@
     - state: refill_donuts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockEngineering
   name: EngiVend restock box
@@ -229,6 +239,7 @@
     - state: refill_engi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockGames
   name: Good Clean Fun restock box
@@ -245,6 +256,7 @@
     - state: refill_games
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockGetmoreChocolateCorp
   name: GetMore Chocolate restock box
@@ -261,6 +273,7 @@
     - state: refill_snack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockHotDrinks
   name: Solar's Best restock box
@@ -277,6 +290,7 @@
     - state: refill_joe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockMedical
   name: NanoMed restock box
@@ -294,6 +308,7 @@
     - state: refill_medical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockNutriMax
   name: NutriMax restock box
@@ -310,6 +325,7 @@
     - state: refill_plant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockPTech
   name: PTech restock box
@@ -326,6 +342,7 @@
     - state: refill_ptech
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockRobustSoftdrinks
   name: beverage restock box
@@ -349,6 +366,7 @@
     - state: refill_cola
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSecTech
   name: SecTech restock box
@@ -382,6 +400,7 @@
     - state: refill_salvage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSeeds
   name: MegaSeed restock box
@@ -398,6 +417,7 @@
     - state: refill_plant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSmokes
   name: ShadyCigs restock box
@@ -414,6 +434,7 @@
     - state: refill_smoke
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockTankDispenser
   name: tank dispenser restock box
@@ -431,6 +452,7 @@
     - state: refill_tanks
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockVendomat
   name: Vendomat restock box
@@ -447,6 +469,7 @@
     - state: refill_parts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockRobotics
   name: Robotech Deluxe restock box
@@ -463,6 +486,7 @@
     - state: refill_robotics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockHappyHonk
   name: Happy Honk restock box
@@ -479,6 +503,7 @@
     - state: refill_honk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChemVend
   name: ChemVend restock box

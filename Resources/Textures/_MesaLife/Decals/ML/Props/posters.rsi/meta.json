@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "rolled_poster"
+    },
+    {
+      "name": "poster_being_set",
+      "delays": [
+        [
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025,
+          0.025
+        ]
+      ]
+    },
+    {
+      "name": "poster_ripped"
+    },
+    {
+      "name": "poster1"
+    },
+    {
+      "name": "poster2"
+    },
+    {
+      "name": "poster3"
+    },
+    {
+      "name": "poster4"
+    },
+    {
+      "name": "poster5"
+    },
+    {
+      "name": "poster6"
+    },
+    {
+      "name": "poster7"
+    },
+    {
+      "name": "poster8"
+    },
+    {
+      "name": "poster9"
+    },
+    {
+      "name": "poster10"
+    },
+    {
+      "name": "poster11",
+      "delays": [
+        [
+          4.0,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "poster12"
+    },
+    {
+      "name": "poster13"
+    },
+    {
+      "name": "poster14"
+    },
+    {
+      "name": "poster15"
+    },
+    {
+      "name": "poster16"
+    },
+    {
+      "name": "poster17"
+    },
+    {
+      "name": "poster18"
+    },
+    {
+      "name": "poster19"
+    },
+    {
+      "name": "poster20"
+    },
+    {
+      "name": "poster21"
+    },
+    {
+      "name": "poster22"
+    },
+    {
+      "name": "poster23"
+    },
+    {
+      "name": "poster24"
+    },
+    {
+      "name": "poster25"
+    },
+    {
+      "name": "poster26"
+    },
+    {
+      "name": "poster27"
+    },
+    {
+      "name": "poster28"
+    },
+    {
+      "name": "poster29"
+    },
+    {
+      "name": "poster30"
+    },
+    {
+      "name": "poster31"
+    },
+    {
+      "name": "poster32"
+    },
+    {
+      "name": "poster33"
+    },
+    {
+      "name": "poster34"
+    },
+    {
+      "name": "poster35"
+    },
+    {
+      "name": "poster36"
+    },
+    {
+      "name": "poster37"
+    },
+    {
+      "name": "poster38"
+    },
+    {
+      "name": "poster39"
+    },
+    {
+      "name": "poster40"
+    },
+    {
+      "name": "poster41"
+    }
+  ]
+}

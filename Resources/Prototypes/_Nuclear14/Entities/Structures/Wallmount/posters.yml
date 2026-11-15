@@ -34,6 +34,7 @@
 
 # NCR Propaganda+
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14PosterWanted
   name: wanted poster
@@ -44,6 +45,7 @@
 
 # NCR Propaganda+
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14PosterWantedGoose
   name: goose wanted poster
@@ -53,6 +55,7 @@
     state: wanted_poster_goose
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14PosterFallout
   name: fallout poster
@@ -62,6 +65,7 @@
     state: poster_fallout
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14PosterWecan
   name: we can poster
@@ -71,6 +75,7 @@
     state: poster_wecan
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14PosterNCR1
   name: NCR poster
@@ -81,6 +86,7 @@
     state: ncr_sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterNCR1
   id: N14PosterNCR2
   suffix: enlist
@@ -89,6 +95,7 @@
     state: ncr_enlist
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterNCR1
   id: N14PosterNCR3
   suffix: looselip
@@ -97,6 +104,7 @@
     state: ncr_looselip
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterNCR1
   id: N14PosterNCR4
   suffix: you
@@ -105,6 +113,7 @@
     state: ncr_you
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterNCR1
   id: N14PosterNCR5
   suffix: espionage
@@ -113,6 +122,7 @@
     state: ncr_espionage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterNCR1
   id: N14PosterNCR6
   suffix: bombs
@@ -122,6 +132,7 @@
 
 # Pristine Posters
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec01
   name: Vault-Tec poster
@@ -131,6 +142,7 @@
     state: vault-tec01
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec02
   name: Vault-Tec poster
@@ -140,6 +152,7 @@
     state: vault-tec02
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec05
   name: Vault-Tec poster
@@ -149,6 +162,7 @@
     state: vault-tec05
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec06
   name: Vault-Tec poster
@@ -158,6 +172,7 @@
     state: vault-tec06
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec07
   name: Vault-Tec poster
@@ -167,6 +182,7 @@
     state: vault-tec07
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec10
   name: Vault-Tec poster
@@ -176,6 +192,7 @@
     state: vault-tec10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterSafety1
   name: safety poster
@@ -187,6 +204,7 @@
     scale: 0.45, 0.45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety2
   name: safety poster
@@ -196,6 +214,7 @@
     state: safety2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety3
   name: safety poster
@@ -205,6 +224,7 @@
     state: safety3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety4
   name: safety poster
@@ -214,6 +234,7 @@
     state: safety4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety5
   name: safety poster
@@ -223,6 +244,7 @@
     state: safety5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety6
   name: safety poster
@@ -232,6 +254,7 @@
     state: safety6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety7
   name: safety poster
@@ -241,6 +264,7 @@
     state: safety7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety8
   name: safety poster
@@ -250,6 +274,7 @@
     state: safety8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety9
   name: safety poster
@@ -259,6 +284,7 @@
     state: safety9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety10
   name: safety poster
@@ -268,6 +294,7 @@
     state: safety10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety11
   name: safety poster
@@ -277,6 +304,7 @@
     state: safety11
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterSafety12
   name: safety poster
@@ -286,6 +314,7 @@
     state: safety12
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterCautionSign1
   name: caution sign
@@ -295,6 +324,7 @@
     state: caution1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterCautionSign2
   name: caution sign
@@ -304,6 +334,7 @@
     state: caution2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterCautionSign3
   name: caution sign
@@ -313,6 +344,7 @@
     state: caution3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterDangerSign1
   name: danger sign
@@ -322,6 +354,7 @@
     state: danger1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterDangerSign2
   name: danger sign
@@ -331,6 +364,7 @@
     state: danger2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterDangerSign3
   name: danger sign
@@ -340,6 +374,7 @@
     state: danger3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterDangerSign4
   name: danger sign
@@ -349,6 +384,7 @@
     state: danger4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterAdvertJet
   name: advert poster
@@ -358,6 +394,7 @@
     state: jet1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterAdvertGrognak1
   name: advert poster
@@ -367,6 +404,7 @@
     state: grognak1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterAdvertNukaCola1
   name: advert poster
@@ -376,6 +414,7 @@
     state: nukacola1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterSafety1
   id: N14PosterAdvertNukaCola2
   name: advert poster
@@ -386,6 +425,7 @@
 
 # Worn posters
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec03
   name: Vault-Tec poster
@@ -395,6 +435,7 @@
     state: vault-tec03
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec04
   name: Vault-Tec poster
@@ -404,6 +445,7 @@
     state: vault-tec04
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec08
   name: Vault-Tec poster
@@ -413,6 +455,7 @@
     state: vault-tec08
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterVaultTec09
   name: Vault-Tec poster
@@ -422,6 +465,7 @@
     state: vault-tec09
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterAbraxo
   name: abraxo poster
@@ -432,6 +476,7 @@
     state: abraxo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterAbraxo
   id: N14PosterBoscom
   name: boscom poster
@@ -441,6 +486,7 @@
     state: boscom
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterAbraxo
   id: N14PosterGNN
   name: GNN poster
@@ -451,6 +497,7 @@
 
 # Wide Posters (128x64)
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterBase
   id: N14PosterWideNukacola1
   description: "A wide advert promoting Nuka-Cola."
@@ -461,6 +508,7 @@
     scale: 0.5, 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideNukacola1
   id: N14PosterWideMassfusion1
   description: "A wide advert promoting the Mass Fusion company. Power. People. Perfect. Mass Fusion."
@@ -469,6 +517,7 @@
     state: massfusion1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideNukacola1
   id: N14PosterWideRedrocket1
   description: "A wide advert promoting the Red Rocket fuel company. Gasoline. Diesel. Fusion."
@@ -477,6 +526,7 @@
     state: redrocket1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideNukacola1
   id: N14PosterWideNukaDark
   description: "A wide advert promoting Nuka-Cola Dark"
@@ -485,6 +535,7 @@
     state: nukadark
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideNukacola1
   id: N14PosterWideVim
   description: "A wide advert promoting Vim"
@@ -494,6 +545,7 @@
     scale: 0.4, 0.4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideVim
   id: N14PosterWideVimCaptainsblend
   description: "A wide advert promoting Vim Captains Blend"
@@ -502,6 +554,7 @@
     state: vim_captainsblend
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideVim
   id: N14PosterWideVimQuartz
   description: "A wide advert promoting Vim Quartz"
@@ -510,6 +563,7 @@
     state: vim_quartz
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PosterWideVim
   id: N14PosterWideVimRefresh
   description: "A wide advert promoting Vim Refresh"

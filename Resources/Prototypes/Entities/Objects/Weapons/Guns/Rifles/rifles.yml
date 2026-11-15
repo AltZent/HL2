@@ -72,6 +72,7 @@
     staminaCost: 7.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: AKMS
   parent: BaseWeaponRifle
   id: WeaponRifleAk
@@ -121,6 +122,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: M-90gl
   parent: BaseWeaponRifle
   id: WeaponRifleM90GrenadeLauncher
@@ -164,6 +166,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Lecter
   parent: BaseWeaponRifle
   id: WeaponRifleLecter
@@ -211,6 +214,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Lecter
   parent: WeaponRifleLecter
   id: WeaponRifleLecterRubber
@@ -236,6 +240,7 @@
             - CartridgeRifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Foam Force Astro Ace
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam

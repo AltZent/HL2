@@ -8,6 +8,7 @@
     sprite: Objects/Fun/Tabletop/generic_pieces.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RedTabletopPiece
   name: red piece
   parent: BaseGenericTabletopPiece
@@ -16,6 +17,7 @@
     state: red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GreenTabletopPiece
   name: green piece
   parent: BaseGenericTabletopPiece
@@ -24,6 +26,7 @@
     state: green
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: YellowTabletopPiece
   name: yellow piece
   parent: BaseGenericTabletopPiece
@@ -32,6 +35,7 @@
     state: yellow
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlueTabletopPiece
   name: blue piece
   parent: BaseGenericTabletopPiece
@@ -40,6 +44,7 @@
     state: blue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteTabletopPiece
   name: white piece
   parent: BaseGenericTabletopPiece
@@ -48,6 +53,7 @@
     state: white
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackTabletopPiece
   name: black piece
   parent: BaseGenericTabletopPiece

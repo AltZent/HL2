@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14CryoBunkerLadder
   name: bunker hatch
@@ -32,6 +33,7 @@
           False: { state: dasbunker_open }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CryoBunkerLadder
   id: N14N14CryoBunkerLadderE
   name: bunker hatch

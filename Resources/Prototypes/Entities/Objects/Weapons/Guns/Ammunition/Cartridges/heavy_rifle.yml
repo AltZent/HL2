@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCartridgeHeavyRifle
   name: cartridge (.20 rifle)
   parent: BaseCartridge
@@ -21,6 +22,7 @@
     price: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeMinigun
   name: cartridge (.10 rifle)
   parent: BaseCartridgeHeavyRifle

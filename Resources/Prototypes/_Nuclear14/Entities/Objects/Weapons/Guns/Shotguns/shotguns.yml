@@ -40,6 +40,7 @@
   - type: Craftable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgun
@@ -77,6 +78,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: double-barrel shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunDoubleBarrel
@@ -114,6 +116,7 @@
     price: 45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sawed-off shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunSawedOff
@@ -151,6 +154,7 @@
     price: 45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sawed-off shotgun
   parent: N14WeaponShotgunSawedOff
   id: N14WeaponShotgunSawedOffEmpty
@@ -164,6 +168,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: combat shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunAuto
@@ -226,6 +231,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: caravan shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunCaravan
@@ -259,6 +265,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lever action shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunLever
@@ -297,6 +304,7 @@
     price: 45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: riot shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunRiot
@@ -360,6 +368,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stockless shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunShort
@@ -397,6 +406,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blowback shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponBlowback
@@ -430,6 +440,7 @@
     price: 125
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunChinese
@@ -463,6 +474,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: frenchi shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunCanadian
@@ -496,6 +508,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: boom stick
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunBoomstick
@@ -534,6 +547,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bloody stick
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunBloodyStick
@@ -573,6 +587,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pipe shotgun
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunPipe

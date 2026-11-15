@@ -99,6 +99,7 @@
               collection: GlassBreak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobLuminousPerson
   parent: MobLivingLight
   components:
@@ -111,6 +112,7 @@
     damage: 16
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobLuminousObject
   parent: MobLivingLight
   name: luminous object
@@ -138,6 +140,7 @@
         Heat: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobLuminousEntity
   parent: MobLivingLight
   name: luminous entity

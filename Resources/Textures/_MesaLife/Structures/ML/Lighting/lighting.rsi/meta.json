@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tube",
+      "directions": 4
+    },
+    {
+      "name": "tube_emergency",
+      "directions": 4
+    },
+    {
+      "name": "tube-empty",
+      "directions": 4
+    },
+    {
+      "name": "tube-burned",
+      "directions": 4
+    },
+    {
+      "name": "tube-broken",
+      "directions": 4
+    },
+    {
+      "name": "tube-construct-stage1",
+      "directions": 4
+    },
+    {
+      "name": "tube-construct-stage2",
+      "directions": 4
+    },
+    {
+      "name": "tube-construct-item"
+    },
+    {
+      "name": "combinelight",
+      "directions": 4
+    }
+  ]
+}

@@ -14,6 +14,7 @@
 # Cautery
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cautery
   id: N14Cautery
   suffix: N14, New
@@ -45,6 +46,7 @@
     price: 40
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cautery
   id: N14CauteryRust
   suffix: N14, Old
@@ -65,6 +67,7 @@
 # Drill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: drill
   id: N14Drill
   suffix: N14, New
@@ -108,6 +111,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: drill
   id: N14DrillRusted
   suffix: N14, Old
@@ -130,6 +134,7 @@
 # Scalpel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scalpel
   id: N14Scalpel
   suffix: N14, New
@@ -181,6 +186,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scalpel
   id: N14ScalpelRusted
   suffix: N14, Old
@@ -201,6 +207,7 @@
 # Retractor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: retractor
   id: N14Retractor
   suffix: N14, New
@@ -244,6 +251,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: retractor
   id: N14RetractorRusted
   suffix: N14, Old
@@ -264,6 +272,7 @@
 # Hemostat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hemostat
   id: N14Hemostat
   suffix: N14, New
@@ -309,6 +318,7 @@
     price: 40
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hemostat
   id: N14HemostatRusted
   suffix: N14, Old
@@ -334,6 +344,7 @@
 # Bone setter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseToolSurgery
   id: N14Bonesetter
   suffix: N14, New
@@ -350,6 +361,7 @@
     price: 35
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Bonesetter
   id: N14BonesetterRusted
   suffix: N14, Old
@@ -369,6 +381,7 @@
 # Bone Gel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseToolSurgery
   id: N14BoneGel
   suffix: N14
@@ -385,6 +398,7 @@
 # Circular Saws
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: circular saw
   id: N14SawElectric
   suffix: N14, New
@@ -429,6 +443,7 @@
   - type: BoneSaw
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: circular saw
   id: N14SawElectricRusted
   suffix: N14, Old
@@ -446,6 +461,7 @@
     
 # BoneGel
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14BioMedGel
   name: bio med gel

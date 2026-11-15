@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapMetaRight
   name: "Meta Station Map"

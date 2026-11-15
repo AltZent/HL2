@@ -164,7 +164,8 @@ namespace Content.Client.Entry
             _clientPreferencesManager.Initialize();
             _euiManager.Initialize();
             _voteManager.Initialize();
-            _userInterfaceManager.SetDefaultTheme("SS14DefaultTheme");
+            // MesaLife: default HUD theme is the ML (Half-Life) theme.
+            _userInterfaceManager.SetDefaultTheme("SS14MLTheme");
             _userInterfaceManager.SetActiveTheme(_configManager.GetCVar(CVars.InterfaceTheme));
             _documentParsingManager.Initialize();
             _joinQueue.Initialize();

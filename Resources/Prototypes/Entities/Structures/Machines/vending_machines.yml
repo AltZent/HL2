@@ -115,6 +115,7 @@
     - RobotTalk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCondiments
   name: condiment station
@@ -149,6 +150,7 @@
     noRot: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineAmmo
   name: liberation station
@@ -176,6 +178,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineBooze
   name: Booze-O-Mat
@@ -210,6 +213,7 @@
     - Bartender
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCart
   name: PTech
@@ -248,6 +252,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChefvend
   name: ChefVend
@@ -283,6 +288,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCigs
   name: ShadyCigs Deluxe
@@ -320,6 +326,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineClothing
   name: ClothesMate
@@ -354,6 +361,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineWinter
   name: WinterDrobe
@@ -388,6 +396,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCoffee
   name: Solar's Best Hot Drinks
@@ -438,6 +447,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCola
   name: Robust Softdrinks
@@ -483,6 +493,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineCola
   id: VendingMachineColaBlack
   suffix: Black
@@ -505,6 +516,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineCola
   id: VendingMachineColaRed
   name: Space Cola Vendor
@@ -528,6 +540,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSpaceUp
   name: Space-Up! Vendor
@@ -555,6 +568,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineCola
   id: VendingMachineSoda
   suffix: Soda
@@ -589,6 +603,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineStarkist
   name: Star-kist Vendor
@@ -618,6 +633,7 @@
     noRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineShamblersJuice
   name: Shambler's Juice Vendor
@@ -655,6 +671,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachinePwrGame
   name: Pwr Game Vendor
@@ -694,6 +711,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineDrGibb
   name: Dr. Gibb Vendor
@@ -733,6 +751,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineDinnerware
   name: Plasteel Chef's Dinnerware Vendor
@@ -775,6 +794,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineMagivend
   name: MagiVend
@@ -815,6 +835,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineDiscount
   name: Discount Dan's
@@ -851,6 +872,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineEngivend
   name: Engi-Vend
@@ -889,6 +911,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineMedical
   name: NanoMed Plus
@@ -935,6 +958,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineNutri
   name: NutriMax
@@ -971,6 +995,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSec
   name: SecTech
@@ -1016,6 +1041,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSeedsUnlocked
   name: MegaSeed Servitor
@@ -1051,6 +1077,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSeedsUnlocked
   id: VendingMachineSeeds
   suffix: Hydroponics
@@ -1059,6 +1086,7 @@
     access: [["Hydroponics"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSnack
   name: Getmore Chocolate Corp
@@ -1103,6 +1131,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSnack
   id: VendingMachineSustenance
   name: Sustenance Vendor
@@ -1135,6 +1164,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSnack
   id: VendingMachineSnackBlue
   suffix: Blue
@@ -1157,6 +1187,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSnack
   id: VendingMachineSnackOrange
   suffix: Orange
@@ -1179,6 +1210,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSnack
   id: VendingMachineSnackGreen
   suffix: Green
@@ -1201,6 +1233,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineSnack
   id: VendingMachineSnackTeal
   suffix: Teal
@@ -1223,6 +1256,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSovietSoda
   name: BODA
@@ -1267,6 +1301,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineTheater
   name: AutoDrobe
@@ -1312,6 +1347,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineVendomat
   name: Vendomat
@@ -1353,6 +1389,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineRobotics
   name: Robotech Deluxe
@@ -1399,6 +1436,7 @@
     - Robotics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineYouTool
   name: YouTool
@@ -1435,6 +1473,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineGames
   name: Good Clean Fun
@@ -1475,6 +1514,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChang
   name: Mr. Chang
@@ -1519,6 +1559,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSalvage
   name: Salvage Vendor
@@ -1568,6 +1609,7 @@
     - Salvage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineDonut
   name: Monkin' Donuts
@@ -1627,6 +1669,7 @@
     rotateWhilePulling: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineWallmount
   id: VendingMachineWallMedical
   name: NanoMed
@@ -1670,6 +1713,7 @@
 # job clothing
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineHydrobe
   name: HyDrobe
@@ -1698,6 +1742,7 @@
     access: [["Hydroponics"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineLawDrobe
   name: LawDrobe
@@ -1726,6 +1771,7 @@
     access: [["Lawyer"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSecDrobe
   name: SecDrobe
@@ -1754,6 +1800,7 @@
     access: [["Security"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingBarDrobe
   name: BarDrobe
@@ -1782,6 +1829,7 @@
     access: [["Bar"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChapel
   name: PietyVend
@@ -1812,6 +1860,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCargoDrobe
   name: LogiDrobe # DeltaV - Logistics Department replacing Cargo
@@ -1840,6 +1889,7 @@
     access: [["Cargo"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineMediDrobe
   name: MediDrobe
@@ -1868,6 +1918,7 @@
     access: [["Medical"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChemDrobe
   name: ChemDrobe
@@ -1896,6 +1947,7 @@
     access: [["Chemistry"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCuraDrobe
   name: CuraDrobe
@@ -1924,6 +1976,7 @@
     access: [["Library"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineAtmosDrobe
   name: AtmosDrobe
@@ -1952,6 +2005,7 @@
     access: [["Engineering"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineEngiDrobe
   name: EngiDrobe
@@ -1980,6 +2034,7 @@
     access: [["Engineering"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChefDrobe
   name: ChefDrobe
@@ -2008,6 +2063,7 @@
     access: [["Kitchen"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineDetDrobe
   name: DetDrobe
@@ -2036,6 +2092,7 @@
     access: [["Detective"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineJaniDrobe
   name: JaniDrobe
@@ -2072,6 +2129,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSciDrobe
   name: SciDrobe
@@ -2100,6 +2158,7 @@
     access: [["Research"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
@@ -2128,6 +2187,7 @@
     access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineRoboDrobe
   name: RoboDrobe
@@ -2156,6 +2216,7 @@
     access: [["Research"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineGeneDrobe
   name: GeneDrobe
@@ -2184,6 +2245,7 @@
     access: [["Medical"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineViroDrobe
   name: ViroDrobe
@@ -2212,6 +2274,7 @@
     access: [["Medical"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineCentDrobe
   name: CentDrobe
@@ -2242,6 +2305,7 @@
     access: [["CentralCommand"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineHappyHonk
   name: Happy Honk Dispenser
@@ -2284,6 +2348,7 @@
 # Gas Tank Dispenser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
@@ -2297,6 +2362,7 @@
     state: dispenser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
@@ -2312,6 +2378,7 @@
     - state: dispensereng
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachine
   id: VendingMachineChemicals
   name: ChemVend
@@ -2340,6 +2407,7 @@
     - Chemicals
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: VendingMachineChemicals
   id: VendingMachineChemicalsSyndicate
   name: SyndieJuice
@@ -2356,6 +2424,7 @@
     access: [["SyndicateAgent"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: VendingMachineFitness
   parent: VendingMachine
   name: SweatMAX
@@ -2400,6 +2469,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: VendingMachineHotfood
   parent: VendingMachine
   name: hot foods
@@ -2439,6 +2509,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: VendingMachineSolsnack
   parent: VendingMachine
   name: Mars Mart
@@ -2479,6 +2550,7 @@
     autoRot: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: VendingMachineWeeb
   parent: VendingMachine
   name: Nippon-tan

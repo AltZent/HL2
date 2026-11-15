@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "coffee"
+    },
+    {
+      "name": "mouthwash"
+    },
+    {
+      "name": "breen_can"
+    },
+    {
+      "name": "breen_can_purple"
+    },
+    {
+      "name": "breen_can_green"
+    },
+    {
+      "name": "breen_can_red"
+    },
+    {
+      "name": "breen_can_yellow"
+    },
+    {
+      "name": "breen_can_open"
+    },
+    {
+      "name": "breen_can_purple_open"
+    },
+    {
+      "name": "breen_can_green_open"
+    },
+    {
+      "name": "breen_can_red_open"
+    },
+    {
+      "name": "breen_can_yellow_open"
+    },
+    {
+      "name": "canteen"
+    }
+  ]
+}

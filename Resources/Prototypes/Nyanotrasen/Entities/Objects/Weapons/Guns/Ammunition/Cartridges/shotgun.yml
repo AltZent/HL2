@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShellSoulbreaker
   name: shell (.50 soulbreaker)
   parent: BaseShellShotgun

@@ -20,5 +20,11 @@
     N14DrinkNukaColaQuartz: 1
     N14DrinkNukaColaVictory: 1
     N14DrinkNukaColaWild: 1
+    # MesaLife: Combine-era drinks alongside pre-war soda
+    MLDrinkBreenCan: 4
+    MLDrinkBreenCanPurple: 1
+    MLDrinkBreenCanGreen: 1
+    MLDrinkBreenCanRed: 1
+    MLDrinkBreenCanYellow: 1
 
 # higher number higher chances (also maximum amount)

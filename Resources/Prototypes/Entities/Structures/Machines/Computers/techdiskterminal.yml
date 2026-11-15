@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: ComputerTechnologyDiskTerminal
   name: tech disk terminal

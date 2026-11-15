@@ -4,6 +4,7 @@
 
 # Vents
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: N14WallmountVent
   name: vent
@@ -21,6 +22,7 @@
       stash: !type:ContainerSlot {}
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallmountVent
   id: N14WallmountVentDamaged
   suffix: damaged
@@ -30,6 +32,7 @@
     state: vent-damaged
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallmountVent
   id: N14WallmountVentOpen
   suffix: open

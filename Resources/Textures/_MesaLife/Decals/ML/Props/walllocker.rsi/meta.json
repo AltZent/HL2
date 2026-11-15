@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "wall-locker"
+    },
+    {
+      "name": "wall-locker1"
+    },
+    {
+      "name": "wall-lockeropen"
+    },
+    {
+      "name": "wall-lockeroff"
+    },
+    {
+      "name": "wall-lockerbroken",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "emerg1"
+    },
+    {
+      "name": "emergold",
+      "directions": 4
+    },
+    {
+      "name": "emerg",
+      "directions": 4
+    }
+  ]
+}

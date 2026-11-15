@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCartridgeRifle
   name: cartridge (.20 rifle)
   parent: BaseCartridge
@@ -19,6 +20,7 @@
   - type: SpentAmmoVisuals
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRifle
   name: cartridge (.20 rifle)
   parent: BaseCartridgeRifle
@@ -27,6 +29,7 @@
     proto: BulletRifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRiflePractice
   name: cartridge (.20 rifle practice)
   parent: BaseCartridgeRifle
@@ -43,6 +46,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRifleRubber
   name: cartridge (.20 rifle rubber)
   parent: BaseCartridgeRifle
@@ -58,6 +62,7 @@
         color: "#43c4f7"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRifleIncendiary
   name: cartridge (.20 rifle incendiary)
   parent: BaseCartridgeRifle
@@ -73,6 +78,7 @@
         color: "#ff6e52"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRifleUranium
   name: cartridge (.20 rifle uranium)
   parent: BaseCartridgeRifle

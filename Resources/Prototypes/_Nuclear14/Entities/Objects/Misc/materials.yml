@@ -1,6 +1,7 @@
 # There may be some overlap with the Junk.yml so look there for other crafting components.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14Dung
   name: dung pile
@@ -34,6 +35,7 @@
       - ComposterCompatible
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Dung
   id: N14BrahminDung
   name: brahmin dung
@@ -53,6 +55,7 @@
       - ComposterCompatible
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14CompostRotted
   name: compost

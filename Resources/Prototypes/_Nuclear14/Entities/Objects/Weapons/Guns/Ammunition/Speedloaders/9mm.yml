@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BaseSpeedLoader9
   name: "speed loader (9mm)"
   parent: BaseItem
@@ -22,6 +23,7 @@
         ents: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoader9
   name: "speed loader (9mm)"
   parent: N14BaseSpeedLoader9

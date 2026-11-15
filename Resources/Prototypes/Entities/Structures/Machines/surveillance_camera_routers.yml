@@ -24,6 +24,7 @@
         - state: server
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterConstructed
   suffix: Constructed
@@ -40,6 +41,7 @@
         - SurveillanceCameraCommand
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterEngineering
   suffix: Engineering
@@ -48,6 +50,7 @@
       subnetFrequency: SurveillanceCameraEngineering
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterSecurity
   suffix: Security
@@ -56,6 +59,7 @@
       subnetFrequency: SurveillanceCameraSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterScience
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -64,6 +68,7 @@
       subnetFrequency: SurveillanceCameraScience
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterSupply
   suffix: Supply
@@ -72,6 +77,7 @@
       subnetFrequency: SurveillanceCameraSupply
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterCommand
   suffix: Command
@@ -80,6 +86,7 @@
       subnetFrequency: SurveillanceCameraCommand
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterService
   suffix: Service
@@ -88,6 +95,7 @@
       subnetFrequency: SurveillanceCameraService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterMedical
   suffix: Medical
@@ -96,6 +104,7 @@
       subnetFrequency: SurveillanceCameraMedical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterGeneral
   suffix: General
@@ -104,6 +113,7 @@
       subnetFrequency: SurveillanceCameraGeneral
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraWirelessRouterBase
   name: wireless camera router
@@ -128,6 +138,7 @@
         - state: server
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraWirelessRouterBase
   id: SurveillanceCameraWirelessRouterConstructed
   suffix: Constructed
@@ -137,6 +148,7 @@
         - SurveillanceCameraEntertainment
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraWirelessRouterBase
   id: SurveillanceCameraWirelessRouterEntertainment
   suffix: Entertainment

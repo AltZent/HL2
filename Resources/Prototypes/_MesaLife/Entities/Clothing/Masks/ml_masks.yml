@@ -1,0 +1,399 @@
+- type: entity
+  id: MLMaskModerngasmask
+  parent: ClothingMaskBase
+  name: "mask (moderngasmask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: moderngasmask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: moderngasmask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskMilitaryGasmask
+  parent: ClothingMaskBase
+  name: "mask (military-gasmask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: military_gasmask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: military_gasmask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskRussiamask
+  parent: ClothingMaskBase
+  name: "mask (russiamask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: russiamask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: russiamask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskSwatmask
+  parent: ClothingMaskBase
+  name: "mask (swatmask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: swatmask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: swatmask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskCivilprotection
+  parent: ClothingMaskBase
+  name: "mask (civilprotection)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: civilprotection
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskCombatchef
+  parent: ClothingMaskBase
+  name: "mask (combatchef)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: combatchef
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: combatchef
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskMedicalofficer
+  parent: ClothingMaskBase
+  name: "mask (medicalofficer)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: medicalofficer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: medicalofficer
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskOverseer
+  parent: ClothingMaskBase
+  name: "mask (overseer)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: overseer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: overseer
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskDvMask
+  parent: ClothingMaskBase
+  name: "mask (dv-mask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: dv_mask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: dv_mask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskElitecpoMask
+  parent: ClothingMaskBase
+  name: "mask (elitecpo-mask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: elitecpo_mask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: elitecpo_mask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskSectoralMask
+  parent: ClothingMaskBase
+  name: "mask (sectoral-mask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: sectoral_mask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: sectoral_mask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskOverwatch
+  parent: ClothingMaskBase
+  name: "mask (overwatch)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: overwatch
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskWallhammer
+  parent: ClothingMaskBase
+  name: "mask (wallhammer)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: wallhammer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: wallhammer
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskOverwatchWhite
+  parent: ClothingMaskBase
+  name: "mask (overwatch-white)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: overwatch_white
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: overwatch_white
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskOverwatchRed
+  parent: ClothingMaskBase
+  name: "mask (overwatch-red)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: overwatch_red
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: overwatch_red
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskCwuengi
+  parent: ClothingMaskBase
+  name: "mask (cwuengi)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: cwuengi
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: cwuengi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskGrunt
+  parent: ClothingMaskBase
+  name: "mask (grunt)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: grunt
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: grunt
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskCrematormask
+  parent: ClothingMaskBase
+  name: "mask (crematormask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: crematormask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: crematormask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskOldmask
+  parent: ClothingMaskBase
+  name: "mask (oldmask)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: oldmask
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: oldmask
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskSuppressor
+  parent: ClothingMaskBase
+  name: "mask (suppressor)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: suppressor
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: suppressor
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+- type: entity
+  id: MLMaskCauterizer
+  parent: ClothingMaskBase
+  name: "mask (cauterizer)"
+  description: "Half-Life: Episode 13 mask."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/masks.rsi
+    state: cauterizer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/masks.rsi
+    equippedState: cauterizer
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true

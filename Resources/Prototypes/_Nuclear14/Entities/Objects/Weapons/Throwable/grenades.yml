@@ -38,6 +38,7 @@
     normalState: primed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: dynamite
   description: A stick of dynamite.
   parent: IgnitableGrenadeBase
@@ -91,6 +92,7 @@
 
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Baseball grenade
   description: Hollowed out baseball filled with explosives that explodes on impact.
   parent: BaseItem
@@ -136,6 +138,7 @@
     node: baseballnade
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tin-nade
   description: Grenade made out of Tincan and bunch of scrap.
   parent: GrenadeBase
@@ -167,6 +170,7 @@
     node: TinNade
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nuka-nade
   description: Highly radioactive grenade made with Nuka-Cola and love.
   parent: GrenadeBase
@@ -285,6 +289,7 @@
     solution: drink
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: N14PlasmaGrenade
   name: plasma grenade
@@ -314,6 +319,7 @@
       cluster-payload: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: N14KettleBomb
   name: kettle bomb
@@ -343,6 +349,7 @@
       cluster-payload: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: N14FirecrackerFull
   name: firecrackers
@@ -370,6 +377,7 @@
     delay: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: N14FirecrackerHalf
   name: firecrackers
@@ -395,6 +403,7 @@
       cluster-payload: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: N14Firecracker
   name: firecracker
@@ -434,6 +443,7 @@
     damageContainer: Inorganic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cryo grenade
   description: B-brrr.
   parent: GrenadeBase

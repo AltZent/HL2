@@ -1,0 +1,563 @@
+# Auto-generated ML cartridges (halflife-episode13).
+
+- type: entity
+  id: BaseCartridgeML
+  parent: BaseCartridge
+  abstract: true
+
+- type: entity
+  id: BaseCartridgeMLCased
+  parent: BaseCartridgeML
+  abstract: true
+  components:
+  - type: CartridgeAmmo
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: BaseCartridgeMLCaseless
+  parent: BaseCartridgeML
+  abstract: true
+  components:
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+    state: base
+    suffix: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML9mmUSP
+  name: "cartridge (9mm)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPistol9mm
+  - type: CartridgeAmmo
+    proto: BulletML9mm
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML9mmMakeshift
+  name: "cartridge (9mm makeshift)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPistol9mm
+  - type: CartridgeAmmo
+    proto: BulletML9mmMakeshift
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML9mmAP
+  name: "cartridge (9mm armor-piercing)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPistol9mm
+  - type: CartridgeAmmo
+    proto: BulletML9mmAP
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML9mmRubber
+  name: "cartridge (9mm rubber)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPistol9mm
+  - type: CartridgeAmmo
+    proto: BulletML9mmRubber
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML9mmTranq
+  name: "cartridge (9mm tranq)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPistol9mm
+  - type: CartridgeAmmo
+    proto: BulletML9mmTranq
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML46mm
+  name: "cartridge (4.6x30mm)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML46mm
+  - type: CartridgeAmmo
+    proto: BulletML46mm
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML46mmRubber
+  name: "cartridge (4.6x30mm rubber)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML46mm
+  - type: CartridgeAmmo
+    proto: BulletML46mmRubber
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML556
+  name: "cartridge (5.56mm)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: 556-casing
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: 556-casing
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML556
+  - type: CartridgeAmmo
+    proto: BulletML556
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML762
+  name: "cartridge (7.62mm)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML762
+  - type: CartridgeAmmo
+    proto: BulletML762
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML762RPD
+  name: "cartridge (7.62mm machinegun)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML762
+  - type: CartridgeAmmo
+    proto: BulletML762RPD
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML762HighVeloc
+  name: "cartridge (7.62mm high-velocity)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML762
+  - type: CartridgeAmmo
+    proto: BulletML762HighVeloc
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML357
+  name: "cartridge (.357)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML357
+  - type: CartridgeAmmo
+    proto: BulletML357
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML357AP
+  name: "cartridge (.357 armor-piercing)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML357
+  - type: CartridgeAmmo
+    proto: BulletML357AP
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML38
+  name: "cartridge (.38)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML38
+  - type: CartridgeAmmo
+    proto: BulletML38
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: ShellMLBuckshot
+  name: "shell (12g buckshot)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: gshell
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: gshell
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellML
+  - type: CartridgeAmmo
+    proto: PelletMLBuckshotSpread
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: ShellMLBeanbag
+  name: "shell (12g beanbag)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: bshell
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: bshell
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellML
+  - type: CartridgeAmmo
+    proto: PelletMLBeanbag
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: ShellMLAntixen
+  name: "shell (16g anti-xen)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: xshell
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: xshell
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellMLAntixen
+  - type: CartridgeAmmo
+    proto: PelletMLAntixenSpread
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: ShellMLPulse
+  name: "shell (12g pulse)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: xshell
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: xshell
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellMLAntixen
+  - type: CartridgeAmmo
+    proto: PelletMLPulseSpread
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: ShellMLMining
+  name: "shell (16g mining slug)"
+  parent: BaseCartridgeMLCased
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: mshell
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: mshell
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellMLAntixen
+  - type: CartridgeAmmo
+    proto: BulletMLMiningSlug
+    deleteOnSpawn: false
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLPulseAR2
+  name: "OSIPR pulse round"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: darkenergy
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: darkenergy
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPulse
+  - type: CartridgeAmmo
+    proto: BulletMLPulse
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLPulseSMG
+  name: "smg pulse round"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: darkenergy
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: darkenergy
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPulse
+  - type: CartridgeAmmo
+    proto: BulletMLPulseSMG
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLPulseLMG
+  name: "lmg pulse round"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: darkenergy
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: darkenergy
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPulse
+  - type: CartridgeAmmo
+    proto: BulletMLPulseLMG
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLPulseSniper
+  name: "sniper pulse round"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: darkenergy
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: darkenergy
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLPulse
+  - type: CartridgeAmmo
+    proto: BulletMLPulseSniper
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeML20mm
+  name: "20mm grenade"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: 20mm
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: 20mm
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeML20mm
+  - type: CartridgeAmmo
+    proto: BulletML20mm
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLDarkEnergy
+  name: "dark energy ball"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: darkenergy
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: darkenergy
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLDarkEnergy
+  - type: CartridgeAmmo
+    proto: BulletMLEnergyBall
+    deleteOnSpawn: true
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: CartridgeMLRocket
+  name: "HE rocket"
+  parent: BaseCartridgeMLCaseless
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: rocket
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: rocket
+    suffix: true
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeMLRocket
+  - type: CartridgeAmmo
+    proto: BulletMLRocket
+    deleteOnSpawn: true

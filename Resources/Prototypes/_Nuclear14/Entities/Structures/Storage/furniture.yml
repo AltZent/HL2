@@ -1,5 +1,6 @@
 # Washing Machines
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClosetBase
   id: N14FurnitureWashingmachine
   name: washing machine
@@ -21,6 +22,7 @@
     noRot: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FurnitureWashingmachine
   id: N14FurnitureWashingmachineIndustrial
   suffix: Industrial
@@ -30,6 +32,7 @@
 
 # Safes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetBaseW
   id: N14ClosetSafe
   name: safe
@@ -39,21 +42,25 @@
     sprite: _Nuclear14/Structures/Storage/Furniture/safe.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetSafe, N14BaseMilitaryStorageFill ]
   id: N14LootClosetSafe
   suffix: Loot, Random Military
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetSafe, N14StorageFillCurrencyFill ]
   id: N14LootClosetSafeCurrency
   suffix: Loot, Currency one stack random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ClosetSafe, N14StorageFillSafePrewarFill ]
   id: N14LootClosetSafePrewar
   suffix: Loot, safe pre-war
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClosetSafe
   id: N14ClosetSafeSpinner
   suffix: spinner

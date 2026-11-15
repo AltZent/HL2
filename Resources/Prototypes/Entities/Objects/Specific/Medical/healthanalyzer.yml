@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HandheldHealthAnalyzerUnpowered
   parent: BaseItem
   name: health analyzer
@@ -45,6 +46,7 @@
         Blunt: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HandheldHealthAnalyzer
   parent: [ HandheldHealthAnalyzerUnpowered, PowerCellSlotSmallItem]
   suffix: Powered
@@ -55,6 +57,7 @@
   - type: ActivatableUIRequiresPowerCell
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: HandheldHealthAnalyzerEmpty
   parent: HandheldHealthAnalyzer
   suffix: Empty

@@ -79,6 +79,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetLightScribe
   id: N14ClothingHeadsetBOSMidwestLightScribe
   name: headset
@@ -89,6 +90,7 @@
       - EncryptionKeyBrotherhoodMidwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadsetLightScribe
   id: N14ClothingHeadsetBOSWashingtonLightScribe
   name: headset

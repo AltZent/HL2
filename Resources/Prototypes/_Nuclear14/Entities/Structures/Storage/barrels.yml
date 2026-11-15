@@ -71,6 +71,7 @@
 
 # Closed
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrel
   id: N14BlackBarrel
   name: black barrel
@@ -81,6 +82,7 @@
     state: black-closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrel
   id: N14BlueBarrel
   name: blue barrel
@@ -91,6 +93,7 @@
     state: blue-closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrel
   id: N14RedBarrel
   name: red barrel
@@ -115,6 +118,7 @@
     totalIntensity: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrel
   id: N14YellowBarrel
   name: yellow barrel
@@ -129,6 +133,7 @@
 
 # Open
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrelOpen
   id: N14BlackBarrelOpen
   suffix: open
@@ -140,6 +145,7 @@
     state: black-open
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrelOpen
   id: N14BlueBarrelOpen
   suffix: open
@@ -151,6 +157,7 @@
     state: blue-open
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrelOpen
   id: N14RedBarrelOpen
   suffix: open
@@ -162,6 +169,7 @@
     state: red-open
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseBarrelOpen
   id: N14YellowBarrelOpen
   suffix: open
@@ -177,6 +185,7 @@
 
 # Full barrels
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BlackBarrelOpen
   id: N14BlackBarrelFull
   suffix: full
@@ -188,6 +197,7 @@
     # TODO - fill with some sort of waste product? Maybe just dirty water.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RedBarrelOpen
   id: N14RedBarrelFull
   suffix: full
@@ -212,6 +222,7 @@
     totalIntensity: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14YellowBarrelOpen
   id: N14YellowBarrelFull
   suffix: full
@@ -246,6 +257,7 @@
 
 # Burning Barrels
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructureDynamic
   id: N14BurningBarrel
   name: burnt barrel
@@ -270,6 +282,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BurningBarrel
   id: N14BurningBarrelLit
   name: burning barrel

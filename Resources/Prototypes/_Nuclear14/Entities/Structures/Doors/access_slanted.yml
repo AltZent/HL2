@@ -1,5 +1,6 @@
 #MARK: NCR
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCR
   suffix: NCR, Locked
@@ -10,6 +11,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCRNCO
   suffix: NCR, Locked, SGT
@@ -20,6 +22,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCRMedic
   suffix: NCR, Locked, Medic
@@ -30,6 +33,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCRMP
   suffix: NCR, Locked, SGT
@@ -40,6 +44,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedNCRMP
   suffix: NCR, Locked, SGT
@@ -50,6 +55,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCRO
   suffix: NCR, Locked, LT
@@ -60,6 +66,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodRedSlanted
   id: N14DoorWoodSlantedLockedNCRRanger
   suffix: NCR, Locked, Ranger
@@ -71,6 +78,7 @@
 
 #MARK: BoS Midwest
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSMidwest
   suffix: BoSMidwest, Locked
@@ -82,6 +90,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSPaladin
   suffix: BoSMidwest, Locked, Paladin
@@ -93,6 +102,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSCommander
   suffix: BOSMidwest, Locked, Commander
@@ -105,6 +115,7 @@
 
 #MARK: BoS Washington
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSWashington
   suffix: BoSWashington, Locked
@@ -116,6 +127,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSWashingtonScribe
   suffix: BoSWashington, Locked, Scribe
@@ -127,6 +139,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSWashingtonKnight
   suffix: BoSWashington, Locked, Knight
@@ -138,6 +151,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSWashingtonPaladin
   suffix: BoSWashington, Locked, PaladinTall
@@ -149,6 +163,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedBoSWashingtonCommander
   suffix: BOSWashington, Locked, Elder
@@ -162,6 +177,7 @@
 #MARK: Townie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodWhiteSlanted
   id: N14DoorWoodSlantedLockedSheriff
   suffix: Townie, Locked, Law
@@ -172,6 +188,7 @@
     layoutId: AirlockService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedSheriff
   suffix: Townie, Locked, Law
@@ -182,6 +199,7 @@
     layoutId: AirlockService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodWhiteSlanted
   id: N14DoorWoodSlantedLockedMayor
   suffix: Townie, Locked, Mayor
@@ -192,6 +210,7 @@
     layoutId: AirlockService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedShopkeeper
   suffix: Townie, Locked, Shopkeeper
@@ -202,6 +221,7 @@
     layoutId: AirlockService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedDoctor
   suffix: Townie, Locked, Doctor
@@ -213,6 +233,7 @@
 
 #MARK: Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedLockedVaultDweller
   suffix: Vault Dweller, Locked
@@ -224,6 +245,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedVaultEngineer
   suffix: Vault Engineer, Locked
@@ -235,6 +257,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedVaultMedical
   suffix: Vault Medical, Locked
@@ -246,6 +269,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedVaultSecurity
   suffix: Vault Security, Locked
@@ -257,6 +281,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedVaultGatekeeper
   suffix: Vault Gatekeeper, Locked
@@ -268,6 +293,7 @@
     layoutId: HighSec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorAirlockSlanted
   id: N14DoorAirlockSlantedVaultOverseer
   suffix: Vault Overseer, Locked
@@ -282,6 +308,7 @@
 
 #IronKey
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedIron
   suffix: Locked, IronKey
@@ -292,6 +319,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalSlantedLockedIron
   suffix: Locked, IronKey
@@ -302,6 +330,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedIron
   suffix: Locked, IronKey
@@ -313,6 +342,7 @@
 
 #BronzeKey
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedBronze
   suffix: Locked, IronKey
@@ -323,6 +353,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalSlantedLockedBronze
   suffix: Locked, IronKey
@@ -333,6 +364,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedBronze
   suffix: Locked, IronKey
@@ -344,6 +376,7 @@
 
 #BrassKey
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedBrass
   suffix: Locked, IronKey
@@ -354,6 +387,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalSlantedLockedBrass
   suffix: Locked, IronKey
@@ -364,6 +398,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedBrass
   suffix: Locked, IronKey
@@ -375,6 +410,7 @@
 
 #SilverKey
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSlanted
   id: N14DoorWoodSlantedLockedSilver
   suffix: Locked, IronKey
@@ -385,6 +421,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalSlantedLockedSilver
   suffix: Locked, IronKey
@@ -395,6 +432,7 @@
     layoutId: AirlockCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBarSlanted
   id: N14DoorCellSlantedLockedSilver
   suffix: Locked, IronKey

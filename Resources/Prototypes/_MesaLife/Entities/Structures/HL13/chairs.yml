@@ -1,0 +1,191 @@
+# Auto-generated ML chairs (halflife-episode13 assets).
+- type: entity
+  id: MLChairMetal
+  parent: ChairBase
+  name: "metal chair"
+  description: "An uncomfortable chair."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: metal_chair
+    noRot: false
+- type: entity
+  id: MLChairWood
+  parent: ChairBase
+  name: "wooden chair"
+  description: "An antique wooden chair with a small green cushion."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: wood_chair
+    noRot: false
+- type: entity
+  id: MLChairWoodPadded
+  parent: ChairBase
+  name: "padded wooden chair"
+  description: "An antique wooden chair with a large, plush red cushion"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: wood_chair_padded
+    noRot: false
+- type: entity
+  id: MLChairBarstool
+  parent: StoolBase
+  name: "bar stool"
+  description: "A bar stool. It's help up against time rather well. Perfect to prop yourself up on after a long day."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: barstool
+    noRot: false
+- type: entity
+  id: MLChairRetro
+  parent: ChairBase
+  name: "retro chair"
+  description: "With a fiberglass body, this chair harkens to a future that never came."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: retro_chair
+    noRot: false
+- type: entity
+  id: MLChairRetroArmrest
+  parent: ChairBase
+  name: "retro chair with armrests"
+  description: "You sit in this. Either by will or force."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: retro_chair_armrest
+    noRot: false
+- type: entity
+  id: MLChairOffice
+  parent: OfficeChairBase
+  name: "office chair"
+  description: "Still spins."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: office_chair
+    noRot: false
+- type: entity
+  id: MLChairOfficeBlue
+  parent: OfficeChairBase
+  name: "office chair"
+  description: "Still spins."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: office_chair_blue
+    noRot: false
+- type: entity
+  id: MLChairOfficeGreen
+  parent: OfficeChairBase
+  name: "office chair"
+  description: "Still spins."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: office_chair_green
+    noRot: false
+- type: entity
+  id: MLChairArmchair
+  parent: ChairBase
+  name: "armchair"
+  description: "A once plush velour accent piece, this chair's upholstery has faded."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: armchair
+    noRot: false
+- type: entity
+  id: MLChairArmchairArmrest
+  parent: ChairBase
+  name: "armchair with armrests"
+  description: "You sit in this. Either by will or force."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: armchair_armrest
+    noRot: false
+- type: entity
+  id: MLChairCaptain
+  parent: OfficeChairBase
+  name: "padded chair"
+  description: "A comfortable and secure looking chair."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: captain_chair
+    noRot: false
+- type: entity
+  id: MLChairCaptainArmrest
+  parent: OfficeChairBase
+  name: "captain's chair with armrests"
+  description: "You sit in this. Either by will or force."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: captain_chair_armrest
+    noRot: false
+- type: entity
+  id: MLChairErgo
+  parent: OfficeChairBase
+  name: "ergonomic chair"
+  description: "Even when faced with an incomprehensible, oppressive empire, one should never neglect their back."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: ergo_chair
+    noRot: false
+- type: entity
+  id: MLChairErgoArmrest
+  parent: OfficeChairBase
+  name: "ergonomic chair with armrests"
+  description: "You sit in this. Either by will or force."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: ergo_chair_armrest
+    noRot: false
+- type: entity
+  id: MLChairFolding
+  parent: ChairBase
+  name: "metal folding chair"
+  description: "Before the war, These were viewed as the lowest form of seat. Now? What's not to love. It's a chair that's easily moveable. Genius!"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: metal_chair_folding
+    noRot: false
+- type: entity
+  id: MLChairPlastic
+  parent: ChairBase
+  name: "plastic chair"
+  description: "The most generic chair known to pre-war man."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: plastic_chair
+    noRot: false
+- type: entity
+  id: MLChairPlasticArmrest
+  parent: ChairBase
+  name: "plastic chair with armrests"
+  description: "You sit in this. Either by will or force."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: plastic_chair_armrest
+    noRot: false
+- type: entity
+  id: MLChairDiner
+  parent: ChairBase
+  name: "padded seat"
+  description: "A nice padded seat. A fantastic place to rest your feet."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/chairs.rsi
+    state: diner_chair
+    noRot: false

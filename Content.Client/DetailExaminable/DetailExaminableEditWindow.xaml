@@ -1,0 +1,13 @@
+<DefaultWindow
+    xmlns="https://spacestation14.io">
+    <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True">
+        <BoxContainer Name="ExistingBox" Orientation="Vertical" Visible="False">
+            <Label Name="ExistingLabel" Text="Already on the body:" StyleClasses="LabelSecondary" Margin="10 6 10 0" />
+            <PanelContainer StyleClasses="AngleRect" Margin="10 0 10 6" VerticalExpand="False">
+                <RichTextLabel Name="ExistingMarkings" MinSize="250 50" MaxHeight="140" />
+            </PanelContainer>
+        </BoxContainer>
+        <TextEdit Name="DescriptionEdit" MinSize="250 120" Margin="10" HorizontalExpand="True" VerticalExpand="True" />
+        <Button Name="SaveButton" HorizontalExpand="True" />
+    </BoxContainer>
+</DefaultWindow>

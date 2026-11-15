@@ -1,5 +1,6 @@
 # Gecko variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: gecko
   id: N14MobGecko
   parent: N14MobBaseHostileScaley
@@ -73,6 +74,7 @@
     #- Gecko
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobGecko
   id: N14MobGeckoFire
   name: fire gecko
@@ -155,6 +157,7 @@
     damageModifierSet: N14ScaleFireresist
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: golden gecko
   id: N14MobGeckoGolden
   parent: N14MobGecko
@@ -205,6 +208,7 @@
 
 # Nightstalker Cub
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nightstalker cub
   id: N14MobNightstalkerCub
   parent: N14MobBaseHostile
@@ -289,6 +293,7 @@
 
 # Adult Nightstalker
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nightstalker
   id: N14MobNightstalker
   parent: N14MobBaseHostile
@@ -397,6 +402,7 @@
 
 # Deathclaw
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: deathclaw
   id: N14MobDeathclaw
   parent: N14MobBaseHostileScaley
@@ -518,6 +524,7 @@
 
 #MARK: Albino Deathclaw
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: albino deathclaw
   id: N14MobDeathclawAlbino
   parent: N14MobDeathclaw
@@ -562,6 +569,7 @@
         Base: dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: deathclaw maid
   id: N14MobDeathclawMaid
   parent: N14MobDeathclaw
@@ -584,6 +592,7 @@
 
 #MARK: Metal Deathclaw
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal deathclaw
   id: N14MobDeathclawMetal
   parent: N14MobDeathclawAlbino
@@ -606,6 +615,7 @@
 
 # Fatass, aka the Lurker
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Lurker
   id: N14MobRadLurker
   parent: N14MobDeathclaw

@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "underwear"
+    },
+    {
+      "name": "rag_u_m",
+      "directions": 4
+    },
+    {
+      "name": "rag_u_f",
+      "directions": 4
+    },
+    {
+      "name": "bikini",
+      "directions": 4
+    },
+    {
+      "name": "bralette",
+      "directions": 4
+    },
+    {
+      "name": "briefs",
+      "directions": 4
+    },
+    {
+      "name": "boxers",
+      "directions": 4
+    },
+    {
+      "name": "undershirts"
+    },
+    {
+      "name": "rag_s",
+      "directions": 4
+    },
+    {
+      "name": "shirt",
+      "directions": 4
+    },
+    {
+      "name": "vest",
+      "directions": 4
+    },
+    {
+      "name": "socks"
+    },
+    {
+      "name": "rag_so",
+      "directions": 4
+    },
+    {
+      "name": "short",
+      "directions": 4
+    },
+    {
+      "name": "long",
+      "directions": 4
+    }
+  ]
+}

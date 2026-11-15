@@ -66,6 +66,7 @@
 # Storage in use:
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PowerStorageBase
   id: N14PowerStorageBasic
   suffix: Basic, 8MW
@@ -75,6 +76,7 @@
     startingCharge: 8000000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PowerStorageBasic
   id: N14PowerStorageBasicEmpty
   suffix: Empty
@@ -84,6 +86,7 @@
 
 # Enclave
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14PowerStorageBase
   id: N14PowerStorageEnclaveBasic
   suffix: Basic, 8MW

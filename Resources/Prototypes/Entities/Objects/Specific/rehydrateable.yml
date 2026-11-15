@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: MonkeyCube
   name: monkey cube
@@ -50,6 +51,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: KoboldCube
   name: kobold cube
@@ -59,6 +61,7 @@
     - MobKobold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: CowCube
   name: cow cube
@@ -68,6 +71,7 @@
     - MobCow
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: GoatCube
   name: goat cube
@@ -77,6 +81,7 @@
     - MobGoat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: MothroachCube
   name: mothroach cube
@@ -86,6 +91,7 @@
     - MobMothroach
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: MouseCube
   name: mouse cube
@@ -95,6 +101,7 @@
     - MobMouse
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: CockroachCube
   name: cockroach cube
@@ -105,6 +112,7 @@
     - MobCockroach
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: SpaceCarpCube
   name: carp cube
@@ -115,6 +123,7 @@
     - MobCarp
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: SpaceTickCube
   name: tick cube
@@ -125,6 +134,7 @@
     - MobTick
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MonkeyCube
   id: AbominationCube
   name: abomination cube
@@ -151,6 +161,7 @@
     - MobAbomination
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieCarp
   id: DehydratedSpaceCarp
   name: dehydrated space carp
@@ -208,6 +219,7 @@
     tags: [] # DeltaV - remove PlushieCarp tag to prevent wasting
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: SyndicateSponge
   name: monkey cube

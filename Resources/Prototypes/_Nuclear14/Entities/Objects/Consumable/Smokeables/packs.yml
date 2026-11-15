@@ -93,6 +93,7 @@
   # description: A generic pack of cigarettes.
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackSalem
   name: Salem cigs pack
@@ -108,6 +109,7 @@
       amount: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackKool
   name: Kools cigs pack
@@ -123,6 +125,7 @@
       amount: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackMarlboro
   name: Marlboro cigs pack
@@ -138,6 +141,7 @@
       amount: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackWinston
   name: Winston cigs pack
@@ -153,6 +157,7 @@
       amount: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackCustom
   suffix: custom
@@ -169,6 +174,7 @@
       amount: 8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CigPackBase
   id: N14CigarettePackRepublics
   name: Republics cig pack

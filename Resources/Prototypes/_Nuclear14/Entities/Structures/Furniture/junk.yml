@@ -80,6 +80,7 @@
 
 # Wood Junk
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkWoodBase
   id: N14JunkDresser
   name: broken dresser
@@ -101,6 +102,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkDresser
   id: N14JunkCabinet
   name: broken cabinet
@@ -110,6 +112,7 @@
     state: junk_cabinet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkDresser
   id: N14JunkTable
   name: broken table
@@ -119,6 +122,7 @@
     state: junk_table
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkWoodBase
   id: N14JunkBench
   name: broken bench
@@ -131,6 +135,7 @@
 
 # Metal Junk
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkMachine
   name: broken machine
@@ -174,6 +179,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMachine
   id: N14JunkMicrowave
   name: broken microwave
@@ -183,6 +189,7 @@
     state: junk_micro
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMachine
   id: N14JunkJukebox
   name: broken jukebox
@@ -192,6 +199,7 @@
     state: junk_jukebox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkBed1
   name: broken bed
@@ -201,6 +209,7 @@
     state: junk_bed1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkBed2
   name: broken bed
@@ -210,6 +219,7 @@
     state: junk_bed2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMachine
   id: N14JunkTV
   name: broken TV
@@ -219,6 +229,7 @@
     state: junk_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMachine
   id: N14JunkArcade
   name: broken arcade game
@@ -228,6 +239,7 @@
     state: junk_arcade
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkUrinal
   name: broken urinal
@@ -237,6 +249,7 @@
     state: junk_urinal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeatBase
   id: N14JunkToilet
   name: broken toilet
@@ -253,6 +266,7 @@
     secretPartName: secret-stash-part-toilet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkShower
   name: broken shower
@@ -265,6 +279,7 @@
     drawdepth: Overdoors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkSink
   name: broken sink
@@ -277,6 +292,7 @@
     drawdepth: Overdoors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Mirror
   id: N14JunkMirror
   name: broken mirror
@@ -288,6 +304,7 @@
     drawdepth: Overdoors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase
   id: N14JunkClock
   name: broken clock
@@ -300,6 +317,7 @@
 
 #Tires
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase #for the moment
   id: N14JunkTire1
   name: stack of tires
@@ -311,6 +329,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase #for the moment
   id: N14JunkTire2
   name: a pile of tires
@@ -322,6 +341,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase #for the moment
   id: N14JunkTire3
   name: a pile of tires
@@ -333,6 +353,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase #for the moment
   id: N14JunkTire4
   name: a pile of tires
@@ -344,6 +365,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkMetalBase #for the moment
   id: N14JunkTire5
   name: a pile of tires

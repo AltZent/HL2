@@ -1,6 +1,7 @@
 # When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: taco shell
   parent: N14CookedFoodMealBase
   id: N14CookedFoodTacoShell
@@ -52,6 +53,7 @@
       - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat taco
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoMeat
@@ -62,6 +64,7 @@
     state: beeftaco
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chicken taco
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoChicken
@@ -72,6 +75,7 @@
     state: chickentaco
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fish taco
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoFish
@@ -95,6 +99,7 @@
           Quantity: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rat taco
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoRat
@@ -114,6 +119,7 @@
           Quantity: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat taco supreme
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoMeatSupreme
@@ -133,6 +139,7 @@
           Quantity: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chicken taco supreme
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoChickenSupreme
@@ -152,6 +159,7 @@
           Quantity: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soft taco
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealSoftTaco

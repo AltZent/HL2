@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Rat King
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
@@ -140,6 +141,7 @@
     deactivateSound: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobRatKingBuff
   parent: MobRatKing
   suffix: Buff

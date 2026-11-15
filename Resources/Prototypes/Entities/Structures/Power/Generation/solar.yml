@@ -52,6 +52,7 @@
   - type: RequireProjectileTarget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanelPlasma
   parent: SolarPanelBasePhysSprite
   name: solar panel plasma
@@ -86,6 +87,7 @@
     node: solarpanelplasma
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanelUranium
   parent: SolarPanelBasePhysSprite
   name: solar panel uranium
@@ -120,6 +122,7 @@
     node: solarpaneluranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
   name: solar panel
@@ -150,6 +153,7 @@
     node: solarpanel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
   name: solar panel
@@ -182,6 +186,7 @@
     node: solarpanel_broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanelPlasmaBroken
   parent: SolarPanelBasePhysSprite
   name: plasma solar panel
@@ -214,6 +219,7 @@
     node: solarpanelplasma_broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarPanelUraniumBroken
   parent: SolarPanelBasePhysSprite
   name: uranium solar panel
@@ -246,6 +252,7 @@
     node: solarpaneluranium_broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarAssembly
   name: solar assembly
   description: A solar assembly. Anchor to a wire to start building a solar panel.
@@ -293,6 +300,7 @@
   - type: RequireProjectileTarget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SolarTracker
   name: solar tracker
   description: A solar tracker. Tracks the nearest star.

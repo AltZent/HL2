@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: white ferret
   parent: MobFerret
   id: MobFerretWhite

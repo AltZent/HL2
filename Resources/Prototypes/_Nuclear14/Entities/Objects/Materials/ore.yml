@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase # From Entities\Objects\Materials\ore.yml
   id: N14LeadOre
   name: lead ore
@@ -24,6 +25,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14LeadOre1
   parent: N14LeadOre
   suffix: Single
@@ -32,6 +34,7 @@
       # count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: N14CopperOre
   name: copper ore
@@ -57,6 +60,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14CopperOre1
   parent: N14CopperOre
   suffix: Single
@@ -65,6 +69,7 @@
       count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: N14IronOre
   name: iron ore
@@ -90,6 +95,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IronOre
   id: N14IronOre1
   suffix: Single
@@ -98,6 +104,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: N14GoldOre
   name: gold ore
@@ -123,6 +130,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GoldOre
   id: N14GoldOre1
   suffix: Single
@@ -131,6 +139,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: N14SilverOre
   name: silver ore
@@ -156,6 +165,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SilverOre
   id: N14SilverOre1
   suffix: Single
@@ -164,6 +174,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: SulfurOre
   name: sulfur ore
@@ -189,6 +200,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SulfurOre1
   parent: SulfurOre
   suffix: Single
@@ -197,6 +209,7 @@
       # count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreBase
   id: FertilizerOre
   name: fertilizer
@@ -222,6 +235,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FertilizerOre1
   parent: FertilizerOre
   suffix: Single

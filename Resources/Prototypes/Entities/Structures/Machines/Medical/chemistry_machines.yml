@@ -38,6 +38,7 @@
       machine_parts: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineElectrolysisUnit
   parent: BaseTabletopChemicalMachine
   name: electrolysis unit
@@ -77,6 +78,7 @@
     board: ElectrolysisUnitMachineCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineCentrifuge
   parent: BaseTabletopChemicalMachine
   name: tabletop centrifuge

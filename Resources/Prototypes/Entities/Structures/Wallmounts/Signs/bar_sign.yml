@@ -27,6 +27,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSign
   name: bar sign
@@ -49,6 +50,7 @@
 #  - type: BarSign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignComboCafe
   name: Combo Cafe
@@ -58,6 +60,7 @@
     current: ComboCafe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignEmergencyRumParty
   name: Emergency Rum Party
@@ -67,6 +70,7 @@
     current: EmergencyRumParty
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignLV426
   name: LV426
@@ -76,6 +80,7 @@
     current: LV426
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignMaidCafe
   name: Maid Cafe
@@ -85,6 +90,7 @@
     current: MaidCafe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignMalteseFalcon
   name: Maltese Falcon
@@ -94,6 +100,7 @@
     current: MalteseFalcon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignOfficerBeersky
   name: Officer Beersky
@@ -103,6 +110,7 @@
     current: OfficerBeersky
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignRobustaCafe
   name: Robusta Cafe
@@ -112,6 +120,7 @@
     current: RobustaCafe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheAleNath
   name: The Ale Nath
@@ -121,6 +130,7 @@
     current: TheAleNath
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheBirdCage
   name: The Bird Cage
@@ -130,6 +140,7 @@
     current: TheBirdCage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheCoderbus
   name: The Coderbus
@@ -139,6 +150,7 @@
     current: TheCoderbus
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheDrunkCarp
   name: The Drunk Carp
@@ -148,6 +160,7 @@
     current: TheDrunkCarp
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignEngineChange
   name: The Engine Change
@@ -157,6 +170,7 @@
     current: EngineChange
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheHarmbaton
   name: The Harmbaton
@@ -166,6 +180,7 @@
     current: Harmbaton
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheLightbulb
   name: The Lightbulb
@@ -175,6 +190,7 @@
     current: TheLightbulb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheLooseGoose
   name: The Loose Goose
@@ -184,6 +200,7 @@
     current: Goose
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheNet
   name: The Net
@@ -193,6 +210,7 @@
     current: TheNet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheOuterSpess
   name: The Outer Spess
@@ -202,6 +220,7 @@
     current: TheOuterSpess
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheSingulo
   name: The Singulo
@@ -211,6 +230,7 @@
     current: TheSingulo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignTheSun
   name: The Sun
@@ -220,6 +240,7 @@
     current: TheSun
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignWiggleRoom
   name: Wiggle Room
@@ -229,6 +250,7 @@
     current: WiggleRoom
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignZocalo
   name: Zocalo
@@ -238,6 +260,7 @@
     current: Zocalo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignEmprah
   name: 4 The Emprah
@@ -247,6 +270,7 @@
     current: Emprah
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBarSign
   id: BarSignSpacebucks
   name: Spacebucks

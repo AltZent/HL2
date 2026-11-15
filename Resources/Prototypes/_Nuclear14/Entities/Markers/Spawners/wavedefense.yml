@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpawnPointWave
   parent: MarkerBase
   name: Wave Defense Attacker Mob Spawner
@@ -8,6 +9,7 @@
     state: green
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpawnPointWaveSurvivor
   parent: MarkerBase
   name: Wave Defense Survivor Spawner

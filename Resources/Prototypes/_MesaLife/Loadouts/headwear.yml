@@ -1,0 +1,261 @@
+# ML loadouts -> vanilla category Head.
+
+- type: loadout
+  id: LoadoutMLHeadMilitary
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilitary
+
+- type: loadout
+  id: LoadoutMLHeadMilitaryPantera
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilitaryPantera
+
+- type: loadout
+  id: LoadoutMLHeadCleanup
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadCleanup
+
+- type: loadout
+  id: LoadoutMLHeadCleanupforeman
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadCleanupforeman
+
+- type: loadout
+  id: LoadoutMLHeadHardhat
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadHardhat
+
+- type: loadout
+  id: LoadoutMLHeadHardhat0Mining
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadHardhat0Mining
+
+- type: loadout
+  id: LoadoutMLHeadHardhat1Mining
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadHardhat1Mining
+
+- type: loadout
+  id: LoadoutMLHeadBeanieBase
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadBeanieBase
+
+- type: loadout
+  id: LoadoutMLHeadBioBoiler
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadBioBoiler
+
+- type: loadout
+  id: LoadoutMLHeadMilhelm
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilhelm
+
+- type: loadout
+  id: LoadoutMLHeadHeadcrab
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadHeadcrab
+
+- type: loadout
+  id: LoadoutMLHeadSteelHelmet
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadSteelHelmet
+
+- type: loadout
+  id: LoadoutMLHeadCombineHelmet
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadCombineHelmet
+
+- type: loadout
+  id: LoadoutMLHeadSteelHelmetPoland
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadSteelHelmetPoland
+
+- type: loadout
+  id: LoadoutMLHeadMilhelmPoland
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilhelmPoland
+
+- type: loadout
+  id: LoadoutMLHeadMilitaryPoland
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilitaryPoland
+
+- type: loadout
+  id: LoadoutMLHeadMilitaryPanteraPoland
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadMilitaryPanteraPoland
+
+- type: loadout
+  id: LoadoutMLHeadPolandHeavy
+  category: Head
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadPolandHeavy
+
+- type: loadout
+  id: LoadoutMLHeadHev
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadHev
+
+- type: loadout
+  id: LoadoutMLHeadScientist
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadScientist
+
+- type: loadout
+  id: LoadoutMLHeadGonomecrab
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadGonomecrab
+
+- type: loadout
+  id: LoadoutMLHeadScouthat
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadScouthat
+
+- type: loadout
+  id: LoadoutMLHeadFirehood
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadFirehood
+
+- type: loadout
+  id: LoadoutMLHeadBeret
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadBeret
+
+- type: loadout
+  id: LoadoutMLHeadChef
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadChef
+
+- type: loadout
+  id: LoadoutMLHeadBdu
+  category: Head
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLHeadBdu

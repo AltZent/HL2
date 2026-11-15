@@ -104,3 +104,8 @@ humanoid-profile-editor-loadouts-remove-unusable-button = Удалить {$count
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
     Если вы нажмете на эту кнопку, все предметы, которые не могут быть использованы в текущей настройке персонажа, будут удалены.
     Перед удалением предметов вам будет предложено подтвердить их удаление.
+unique-features-tab = Особые приметы
+humanoid-profile-editor-unique-features-help-tooltip = Что подсвечивается цветом при осмотре
+humanoid-profile-editor-unique-features-help-title = Особые приметы: подсветка слов
+humanoid-profile-editor-unique-features-help-intro = Слова в поле «Особые приметы» подсвечиваются цветом, когда другой игрок осматривает вашего персонажа. Работает по корню слова: напишите корень, и любая его форма (например, «шрам», «шрамы», «вырезано») будет окрашена. Надписи, оставленные на теле другими игроками (ручкой, ножом, сваркой и так далее), добавляются автоматически и тоже подсвечены.
+humanoid-profile-editor-unique-features-help-note = Если вы обернёте слово в собственный тег цвета — [color=#ffffff]вот так[/color] — ваш цвет сохранится: автоматическая подсветка его не перекроет.

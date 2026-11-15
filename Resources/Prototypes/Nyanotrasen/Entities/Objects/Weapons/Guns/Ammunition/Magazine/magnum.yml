@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineUniversalMagnum
   name: "Universal magazine (.45 magnum)"
   parent: BaseMagazinePistol
@@ -31,6 +32,7 @@
 # Magazines for the Universal Pistol
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineUniversalMagnum
   name: "Universal magazine (.45 magnum)"
   parent: BaseMagazineUniversalMagnum
@@ -50,6 +52,7 @@
     zeroVisible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineUniversalMagnumPractice
   name: "Universal magazine (.45 magnum practice)"
   parent: BaseMagazineUniversalMagnum
@@ -69,6 +72,7 @@
     zeroVisible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineUniversalMagnumRubber
   name: "Universal magazine (.45 magnum rubber)"
   parent: BaseMagazineUniversalMagnum

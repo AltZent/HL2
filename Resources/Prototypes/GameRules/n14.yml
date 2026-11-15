@@ -5,6 +5,8 @@
   description: N14
   rules:
   - N14Rule
+  # MesaLife: random events (ML headcrabs, antlions, Combine sweeps)
+  - RampingStationEventScheduler
 
 - type: entity
   id: N14Rule

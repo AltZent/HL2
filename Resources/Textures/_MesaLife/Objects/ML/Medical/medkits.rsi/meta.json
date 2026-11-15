@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "medkit"
+    },
+    {
+      "name": "medvial"
+    },
+    {
+      "name": "healthpen"
+    },
+    {
+      "name": "healthpen0",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "medkit_empty"
+    },
+    {
+      "name": "medicalkit"
+    },
+    {
+      "name": "paracetamol"
+    },
+    {
+      "name": "paracetamol0"
+    },
+    {
+      "name": "oxycodone"
+    },
+    {
+      "name": "oxycodone0"
+    },
+    {
+      "name": "blood"
+    },
+    {
+      "name": "blood0"
+    },
+    {
+      "name": "inhaler"
+    },
+    {
+      "name": "inhaler0"
+    },
+    {
+      "name": "screechpen"
+    },
+    {
+      "name": "screechpen0",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

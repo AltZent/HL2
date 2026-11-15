@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateFootlocker
   name: footlocker
@@ -15,11 +16,13 @@
     spread: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateFootlocker, N14BaseSmallLockerStorageFill ]
   id: N14LootCrateFootlocker
   suffix: Loot, RandomSmall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateAluminium
   name: aluminium crate
@@ -31,11 +34,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/aluminiumcrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateFootlocker, N14BaseLockerStorageFill ]
   id: N14LootCrateAluminium
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateArmy
   name: army crate
@@ -47,11 +52,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateFootlocker, N14BaseMilitaryStorageFill ]
   id: N14LootCrateArmy
   suffix: Loot, RandomMilitary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateFootlocker
   id: N14CrateEnclave
   name: metal crate
@@ -64,11 +71,13 @@
     # TODO: Will need an access locked variant.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateEnclave, N14BaseMilitaryStorageFill ]
   id: N14LootCrateEnclave
   suffix: Loot, RandomMilitary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateFootlocker
   id: N14CrateEnclaveDirectional
   suffix: directional
@@ -81,11 +90,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/enclavecrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateEnclaveDirectional, N14BaseMilitaryStorageFill ]
   id: N14LootCrateEnclaveDirectional
   suffix: Loot, RandomMilitary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateMedical
   name: medical crate
@@ -97,16 +108,19 @@
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateMedical, N14StorageFillMedical ]
   id: N14LootCrateMedical
   suffix: Loot, Medical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateMedical, N14TimedStorageFillMedical ]
   id: N14CrateMedicalRefilling
   suffix: Refilling, Medical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateRed
   name: red crate
@@ -118,6 +132,7 @@
     sprite: _Nuclear14/Structures/Storage/Crates/redcrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultBig
   name: Vault-Tec crate
@@ -129,6 +144,7 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultbig.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultBigRusted
   name: Vault-Tec crate
@@ -141,11 +157,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultbigrusted.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVaultBigRusted, N14BaseLockerStorageFill ]
   id: N14LootCrateVaultBigRusted
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultCompactRusted
   name: Vault-Tec crate
@@ -158,11 +176,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultcompactrusted.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVaultCompactRusted, N14BaseLockerStorageFill ]
   id: N14LootCrateVaultCompactRusted
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVault
   name: Vault-Tec crate
@@ -174,11 +194,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultcrate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVault, N14BaseLockerStorageFill ]
   id: N14LootCrateVault
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultLong
   name: Vault-Tec crate
@@ -190,11 +212,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultlong.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVaultLong, N14BaseLockerStorageFill ]
   id: N14LootCrateVaultLong
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultLongRusted
   name: Vault-Tec crate
@@ -207,11 +231,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultlongrusted.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVaultLongRusted, N14BaseLockerStorageFill ]
   id: N14LootCrateVaultLongRusted
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: N14CrateVaultStandard
   name: Vault-Tec crate
@@ -223,11 +249,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/vaultstandard.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateVaultStandard, N14BaseLockerStorageFill ]
   id: N14LootCrateVaultStandard
   suffix: Loot, Random
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: N14Trashbin
   name: trash bin
@@ -244,6 +272,7 @@
       map: ["enum.StorageVisualLayers.Door"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateFootlocker
   id: N14CrateTrashcart
   name: trash cart
@@ -257,6 +286,7 @@
     modifier: 0.4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: N14CrateFreezer
   name: freezer
@@ -274,12 +304,14 @@
   - type: AntiRottingContainer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateFreezer, N14StorageFillDomestic ]
   id: N14LootCrateFreezer
   suffix: Loot, Random
 
 # Wooden
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: N14CrateWooden
   name: wooden crate
@@ -307,16 +339,19 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateWooden, N14WastelandBotanyStorageTimedFill ]
   id: N14CrateWastelandBotanyRefilling
   suffix: Refilling, Random Botany
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateWooden, N14WastelandBotanyStorageFill ]
   id: N14LootCrateWastelandBotany
   suffix: Loot, Random Botany
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateWooden
   id: N14CrateMilitary
   name: military crate
@@ -328,11 +363,13 @@
     sprite: _Nuclear14/Structures/Storage/Crates/cratemilitary.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateMilitary, N14BaseMilitaryTimedStorageFill ]
   id: N14CrateMilitaryRefilling
   suffix: Refilling, Random Military
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14CrateMilitary, N14BaseMilitaryStorageFill ]
   id: N14LootCrateMilitary
   suffix: Loot,Random Military
@@ -384,6 +421,7 @@
   - type: InteractionOutline
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakBase
   id: N14CrateBreakWood
   suffix: wood
@@ -392,6 +430,7 @@
     state: wood_crate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakBase
   id: N14CrateBreakPlain
   suffix: plain
@@ -400,6 +439,7 @@
     state: plain_crate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakBase
   id: N14CrateBreakPlainDamaged
   suffix: plain damaged
@@ -408,6 +448,7 @@
     state: plain_crate-1 # TODO: Make this random between states -1, -2 and -3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakBase
   id: N14CrateBreakSarsaparilla
   name: sunset sarsaparilla crate
@@ -416,6 +457,7 @@
     state: sarsaparilla_crate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakSarsaparilla
   id: N14CrateBreakSarsaparillaDamaged
   suffix: damaged
@@ -424,6 +466,7 @@
     state: sarsaparilla_crate-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakBase
   id: N14CrateBreakArmy
   name: army crate
@@ -432,6 +475,7 @@
     state: army_crate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CrateBreakArmy
   id: N14CrateBreakArmyDamaged
   suffix: damaged

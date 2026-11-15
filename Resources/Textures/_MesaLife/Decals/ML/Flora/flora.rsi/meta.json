@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "palebush_2"
+    },
+    {
+      "name": "goldenbush"
+    },
+    {
+      "name": "wild_root_no"
+    },
+    {
+      "name": "wild_root1"
+    },
+    {
+      "name": "wild_root2"
+    },
+    {
+      "name": "wild_root3"
+    },
+    {
+      "name": "wild_root4"
+    },
+    {
+      "name": "wild_root5"
+    },
+    {
+      "name": "wild_root6"
+    },
+    {
+      "name": "wild_root7"
+    },
+    {
+      "name": "wild_root8"
+    },
+    {
+      "name": "wild_root9"
+    },
+    {
+      "name": "wild_root10"
+    },
+    {
+      "name": "wild_root11"
+    },
+    {
+      "name": "wild_root12"
+    },
+    {
+      "name": "wild_fungus_no"
+    },
+    {
+      "name": "wild_fungus1"
+    },
+    {
+      "name": "wild_fungus2"
+    },
+    {
+      "name": "wild_fungus3"
+    },
+    {
+      "name": "wild_fungus4"
+    },
+    {
+      "name": "wild_tato_no"
+    },
+    {
+      "name": "wild_tato"
+    },
+    {
+      "name": "wild_berries1"
+    },
+    {
+      "name": "wild_berries2"
+    },
+    {
+      "name": "wild_berries3"
+    },
+    {
+      "name": "wild_berries4"
+    },
+    {
+      "name": "wild_berries_no"
+    },
+    {
+      "name": "wild_bayleaf_no"
+    },
+    {
+      "name": "wild_bayleaf1"
+    },
+    {
+      "name": "wild_bayleaf2"
+    },
+    {
+      "name": "wild_bayleaf3"
+    },
+    {
+      "name": "wild_bayleaf4"
+    }
+  ]
+}

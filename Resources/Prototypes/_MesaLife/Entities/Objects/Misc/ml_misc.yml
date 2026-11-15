@@ -1,0 +1,366 @@
+# Auto-generated ML misc items (halflife-episode13 assets).
+- type: entity
+  id: MLCashPrewar
+  parent: SpaceCash
+  name: "pre-war money"
+  description: "Old-world banknotes, still shiny. Worth a decent sum to collectors."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/currency.rsi
+    state: prewar
+    layers:
+    - state: prewar
+      map: ["base"]
+  - type: Stack
+    layerStates:
+    - prewar
+    - prewar_2
+    - prewar_3
+    - prewar_4
+
+- type: entity
+  id: MLKeyBrass
+  parent: BaseItem
+  name: "base halflife lock"
+  description: "Lock this guy up."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/keys.rsi
+    state: brass
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLKeyLockpick
+  parent: BaseItem
+  name: "lockpick"
+  description: "A small, sharp piece of metal to aid opening locks in the absence of a key."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/keys.rsi
+    state: lockpick
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLKeyKeyring
+  parent: BaseItem
+  name: "keyring"
+  description: "A simple ring, so you may carry more keys."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/keys.rsi
+    state: keyring
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLIDCombine
+  parent: IDCardStandard
+  name: "Combine ID card"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_combine
+- type: entity
+  id: MLIDCombine2
+  parent: IDCardStandard
+  name: "Combine ID card (rank II)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_combine2
+- type: entity
+  id: MLIDCombine3
+  parent: IDCardStandard
+  name: "Combine ID card (rank III)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_combine3
+- type: entity
+  id: MLIDCombine4
+  parent: IDCardStandard
+  name: "Combine ID card (rank IV)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_combine4
+- type: entity
+  id: MLIDOrange
+  parent: IDCardStandard
+  name: "ID card (orange)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_orange
+- type: entity
+  id: MLIDRed
+  parent: IDCardStandard
+  name: "ID card (red)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_red
+- type: entity
+  id: MLIDPurple
+  parent: IDCardStandard
+  name: "ID card (purple)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_purple
+- type: entity
+  id: MLIDGreen
+  parent: IDCardStandard
+  name: "ID card (green)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_green
+- type: entity
+  id: MLIDGrey
+  parent: IDCardStandard
+  name: "ID card (grey)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_grey
+- type: entity
+  id: MLIDNavy
+  parent: IDCardStandard
+  name: "ID card (navy)"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_navy
+- type: entity
+  id: MLIDVort
+  parent: IDCardStandard
+  name: "vortigaunt slave collar tag"
+  description: "Half-Life: Episode 13 identification card."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/ID.rsi
+    state: id_vort
+- type: entity
+  id: MLItemVoucher
+  parent: BaseItem
+  name: "Reward Voucher"
+  description: "A voucher that citizens can feed into their identification cards for a reward of 5 credits per voucher. Civil Protection Officers often give these out in exchange for a service done for them, or it may be included in rations."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: voucher
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemShaft
+  parent: BaseItem
+  name: "Wooden Shaft"
+  description: "A sturdy wooden shaft, generally used for making a spear."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: shaft
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemRationVoucher
+  parent: BaseItem
+  name: "Ration Voucher"
+  description: "A voucher that can be inserted into an identification card to add on a ration point, which can then be used to retrieve a ration during a distribution cycle."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: ration_voucher
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemBattery
+  parent: BaseItem
+  name: "Combine Battery"
+  description: "A combine battery that can charge their technologies, such as powered suits, stunsticks, or be used as a power cell for certain recipes."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: battery
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemAntifatigue
+  parent: BaseItem
+  name: "anti-fatigue pill"
+  description: "A strong stimulant which shakes you awake. It may be wise to not take these in quick succession..."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: antifatigue
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemAntitoxtab
+  parent: BaseItem
+  name: "homebrewed anti-sickness tablets"
+  description: "A couple of makeshift tablets which help purge toxins while making you crazy at the same time!"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: antitoxtab
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemDirtyuniform
+  parent: BaseItem
+  name: "Filthy Citizen Uniform"
+  description: "A disgustingly filthy citizen uniform. You refuse to wear it within its current state, but putting it in a washing machine should fix it up for the most part."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: dirtyuniform
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemCertificate
+  parent: BaseItem
+  name: "Construction Token Voucher"
+  description: "A voucher that is redeemable in an engineering radio for additional construction tokens. Good for 120 points."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: certificate
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemRebelrelay
+  parent: BaseItem
+  name: "rebel uplink relay"
+  description: "A clunky and huge signal dish hooked up to a remote teleportation relay that is capable of sending over small items. It seems to have an intake port capable of taking combine datapods and red xenian telecrystals."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: rebelrelay
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemMusk
+  parent: BaseItem
+  name: "headcrab musk bottle"
+  description: "An earthenware container which is meant to hold the foul pheromones of headcrabs. Drinking some may let you disguise as the beasts for a while, but the terrible taste may lead you to quickly vomit."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: musk
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemSubstance
+  parent: BaseItem
+  name: "Sporetamine"
+  description: "A new kind of opioid drug invented post-war that is made using xenian spores. The finely ground powder is inhaled for an extreme high, though it is addictive and has harmful side effects."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: substance
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLItemChope
+  parent: BaseItem
+  name: "Chope"
+  description: "A new kind of opioid drug invented post-war that is highly sought after. The finely ground powder is made from concentrated chumtoad extract alongside other ingredients, and when is inhaled is said to make you feel superhuman."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/misc_items.rsi
+    state: chope
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLDeviceRemoteCivilianOpen
+  parent: BaseItem
+  name: "civil protection remote"
+  description: "A Civil Protection remote control."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Devices/cp_remote.rsi
+    state: remote_civilian_open
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 10
+- type: entity
+  id: MLDeviceChargerLambda
+  parent: BaseItem
+  name: "lambda charger"
+  description: "A Lambda-branded device charger."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Devices/lambda_charger.rsi
+    state: charger_lambda
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 10
+- type: entity
+  id: MLDeviceWalkietalkie
+  parent: BaseItem
+  name: "walkie talkie"
+  description: "A handheld radio."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/radio.rsi
+    state: walkietalkie
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 10
+- type: entity
+  id: MLDeviceRadio
+  parent: BaseItem
+  name: "radio"
+  description: "An old radio receiver."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Misc/radio.rsi
+    state: radio
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 10

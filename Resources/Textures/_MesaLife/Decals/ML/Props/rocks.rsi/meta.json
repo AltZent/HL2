@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "CM_unique_sprites"
+    },
+    {
+      "name": "rock"
+    },
+    {
+      "name": "brown",
+      "directions": 8
+    },
+    {
+      "name": "brown_alt",
+      "directions": 8
+    },
+    {
+      "name": "educated_rock"
+    },
+    {
+      "name": "serviceable_legacy_sprites"
+    },
+    {
+      "name": "black_ground",
+      "directions": 8
+    },
+    {
+      "name": "black_ground_alt",
+      "directions": 4
+    },
+    {
+      "name": "probably_from_a_byond_forums_sprite_sampler"
+    },
+    {
+      "name": "edge_sw"
+    },
+    {
+      "name": "edge_se"
+    },
+    {
+      "name": "edge_s_1"
+    },
+    {
+      "name": "edge_s_2"
+    },
+    {
+      "name": "edge_s_3"
+    },
+    {
+      "name": "tip_ne"
+    },
+    {
+      "name": "tip_nw"
+    },
+    {
+      "name": "edge_w_1"
+    },
+    {
+      "name": "edge_e_1"
+    },
+    {
+      "name": "edge_w_2"
+    },
+    {
+      "name": "edge_e_2"
+    },
+    {
+      "name": "edge_w_3"
+    },
+    {
+      "name": "edge_e_3"
+    },
+    {
+      "name": "wall_s_1"
+    },
+    {
+      "name": "wall_n_1"
+    },
+    {
+      "name": "wall_s_2"
+    },
+    {
+      "name": "wall_n_2"
+    },
+    {
+      "name": "wall_s_3"
+    },
+    {
+      "name": "wall_n_3"
+    },
+    {
+      "name": "wall_se"
+    },
+    {
+      "name": "wall_sw"
+    },
+    {
+      "name": "wall_ne"
+    },
+    {
+      "name": "wall_nw"
+    },
+    {
+      "name": "rocks_w_1"
+    },
+    {
+      "name": "rocks_e_1"
+    },
+    {
+      "name": "rocks_w_2"
+    },
+    {
+      "name": "rocks_e_2"
+    },
+    {
+      "name": "rocks_w_3"
+    },
+    {
+      "name": "rocks_e_3"
+    },
+    {
+      "name": "tip_w_1"
+    },
+    {
+      "name": "tip_e_1"
+    },
+    {
+      "name": "tip_w_2"
+    },
+    {
+      "name": "tip_e_2"
+    },
+    {
+      "name": "tip_e_3"
+    },
+    {
+      "name": "tip_w_3"
+    },
+    {
+      "name": "tip_e_4"
+    },
+    {
+      "name": "tip_w_4"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 #MARK: Haggis
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Haggis
   id: N14MobCatHaggis
   parent: MobCat

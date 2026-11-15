@@ -1,0 +1,411 @@
+- type: entity
+  id: MLHeadMilitary
+  parent: ClothingHeadBase
+  name: hat (military)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: military
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: military
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+- type: entity
+  id: MLHeadMilitaryPantera
+  parent: ClothingHeadBase
+  name: hat (military-pantera)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: military_pantera
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: military_pantera
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+- type: entity
+  id: MLHeadCleanup
+  parent: ClothingHeadBase
+  name: hat (cleanup)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: cleanup
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: cleanup
+- type: entity
+  id: MLHeadCleanupforeman
+  parent: ClothingHeadBase
+  name: hat (cleanupforeman)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: cleanupforeman
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: cleanupforeman
+- type: entity
+  id: MLHeadHardhat
+  parent: ClothingHeadBase
+  name: hat (hardhat)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: hardhat
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: hardhat
+- type: entity
+  id: MLHeadHardhat0Mining
+  parent: ClothingHeadBase
+  name: hat (hardhat0-mining)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: hardhat0_mining
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: hardhat0_mining
+- type: entity
+  id: MLHeadHardhat1Mining
+  parent: ClothingHeadBase
+  name: hat (hardhat1-mining)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: hardhat1_mining
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: hardhat1_mining
+- type: entity
+  id: MLHeadBeanieBase
+  parent: ClothingHeadBase
+  name: hat (beanie-base)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: beanie_base
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: beanie_base
+- type: entity
+  id: MLHeadBioBoiler
+  parent: ClothingHeadBase
+  name: hat (bio-boiler)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: bio_boiler
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: bio_boiler
+- type: entity
+  id: MLHeadMilhelm
+  parent: ClothingHeadBase
+  name: hat (milhelm)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: milhelm
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: milhelm
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Heat: 0.80
+- type: entity
+  id: MLHeadHeadcrab
+  parent: ClothingHeadBase
+  name: hat (headcrab)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: headcrab
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: headcrab
+- type: entity
+  id: MLHeadSteelHelmet
+  parent: ClothingHeadBase
+  name: hat (steel-helmet)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: steel_helmet
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: steel_helmet
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+- type: entity
+  id: MLHeadCombineHelmet
+  parent: ClothingHeadBase
+  name: hat (combine-helmet)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: combine_helmet
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: combine_helmet
+  - type: MLArmor
+    rating: 0.65
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.51
+        Slash: 0.51
+        Heat: 0.68
+- type: entity
+  id: MLHeadSteelHelmetPoland
+  parent: ClothingHeadBase
+  name: hat (steel-helmet-poland)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: steel_helmet_poland
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: steel_helmet_poland
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+- type: entity
+  id: MLHeadMilhelmPoland
+  parent: ClothingHeadBase
+  name: hat (milhelm-poland)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: milhelm_poland
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: milhelm_poland
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Heat: 0.80
+- type: entity
+  id: MLHeadMilitaryPoland
+  parent: ClothingHeadBase
+  name: hat (military-poland)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: military_poland
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: military_poland
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+- type: entity
+  id: MLHeadMilitaryPanteraPoland
+  parent: ClothingHeadBase
+  name: hat (military-pantera-poland)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: military_pantera_poland
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: military_pantera_poland
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+- type: entity
+  id: MLHeadPolandHeavy
+  parent: ClothingHeadBase
+  name: hat (poland-heavy)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: poland_heavy
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: poland_heavy
+  - type: MLArmor
+    rating: 0.55
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.59
+        Slash: 0.59
+        Heat: 0.73
+- type: entity
+  id: MLHeadHev
+  parent: ClothingHeadBase
+  name: hat (hev)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: hev
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: hev
+  - type: MLArmor
+    rating: 0.65
+    coverage:
+    - Head
+    resists:
+      coefficients:
+        Blunt: 0.51
+        Slash: 0.51
+        Heat: 0.68
+- type: entity
+  id: MLHeadScientist
+  parent: ClothingHeadBase
+  name: hat (scientist)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: scientist
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: scientist
+- type: entity
+  id: MLHeadGonomecrab
+  parent: ClothingHeadBase
+  name: hat (gonomecrab)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: gonomecrab
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: gonomecrab
+- type: entity
+  id: MLHeadScouthat
+  parent: ClothingHeadBase
+  name: hat (scouthat)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: scouthat
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: scouthat
+- type: entity
+  id: MLHeadFirehood
+  parent: ClothingHeadBase
+  name: hat (firehood)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: firehood
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: firehood
+- type: entity
+  id: MLHeadBeret
+  parent: ClothingHeadBase
+  name: hat (beret)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: beret
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: beret
+- type: entity
+  id: MLHeadChef
+  parent: ClothingHeadBase
+  name: hat (chef)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: chef
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: chef
+- type: entity
+  id: MLHeadBdu
+  parent: ClothingHeadBase
+  name: hat (bdu)
+  description: 'Half-Life: Episode 13 hat.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/hats.rsi
+    state: bdu
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/head.rsi
+    equippedState: bdu

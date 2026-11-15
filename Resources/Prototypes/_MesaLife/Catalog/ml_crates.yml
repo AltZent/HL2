@@ -1,0 +1,129 @@
+# ML filled crates, MesaLife. Plain vanilla crate base — keep MesaLife
+# self-contained (no N14 parents). Ordered via cargo (see ml_cargo.yml),
+# also usable directly in map storage fills.
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledAmmo9mm
+  name: 9mm ammo crate
+  description: A battered steel crate of surplus 9mm rounds.
+  components:
+  - type: StorageFill
+    contents:
+      - id: AmmoBoxML9mm
+        amount: 2
+      - id: MagazineMLUSP9mm
+        amount: 4
+      - id: MagazineMLMP7
+        amount: 2
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledAmmo46mm
+  name: 4.6mm ammo crate
+  description: Combine-caliber SMG rounds in a sealed surplus crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: AmmoBoxML46mm
+        amount: 2
+      - id: MagazineMLMP7
+        amount: 4
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledMedical
+  name: medical crate
+  description: A crate of scavenged medical supplies from a Lambda outpost.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLMedMedkit
+        amount: 3
+      - id: MLMedHealthpen
+        amount: 2
+      - id: MLMedParacetamol
+        amount: 3
+      - id: MLMedInhaler
+        amount: 2
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledFood
+  name: ration crate
+  description: Old-world packaged food, still mostly edible.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLFoodOldbox
+        amount: 3
+      - id: MLFoodPierogi
+        amount: 2
+      - id: MLFoodPorknbean
+        amount: 2
+      - id: MLFoodNutripaste
+        amount: 2
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledBreenWater
+  name: Breen's Water crate
+  description: A case of Combine-approved water. Refreshing. Mandatory.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLDrinkBreenCan
+        amount: 6
+      - id: MLDrinkBreenCanPurple
+        amount: 2
+      - id: MLDrinkBreenCanGreen
+        amount: 2
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledWeapons
+  name: weapons crate
+  description: A mix of small arms smuggled through the canals.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLGunUsp
+        amount: 2
+      - id: MLGunMp7
+        amount: 1
+      - id: MagazineMLUSP9mm
+        amount: 4
+      - id: MagazineMLMP7
+        amount: 3
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledGrenades
+  name: grenade crate
+  description: Handles away from your face.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLGrenadeBouncer
+        amount: 4
+      - id: MLGrenadeIncendiary
+        amount: 2
+      - id: MLGrenadeStinger
+        amount: 2
+
+- type: entity
+  parent: CrateGeneric
+  id: MLCrateFilledMaterials
+  name: scrap crate
+  description: Scrap metal, wood and cloth for the workshops.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MLScrapMetal
+        amount: 2
+      - id: MLWood
+        amount: 2
+      - id: MLCloth
+        amount: 2
+      - id: MLResin
+        amount: 1

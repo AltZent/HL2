@@ -63,6 +63,7 @@
 #Security Shields
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: riot shield
   parent: BaseShield
   id: RiotShield
@@ -72,6 +73,7 @@
       price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: riot laser shield
   parent: BaseShield
   id: RiotLaserShield
@@ -92,6 +94,7 @@
           Heat: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: riot bullet shield
   parent: BaseShield
   id: RiotBulletShield
@@ -117,6 +120,7 @@
 #Craftable shields
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wooden buckler
   parent: BaseShield
   id: WoodenBuckler
@@ -172,6 +176,7 @@
       price: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: makeshift shield
   parent: BaseShield
   id: MakeshiftShield
@@ -226,6 +231,7 @@
                   max: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: web shield
   parent: BaseShield
   id: WebShield
@@ -281,6 +287,7 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: clockwork shield
   parent: BaseShield
   id: ClockworkShield
@@ -310,6 +317,7 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: energy shield
   parent: BaseItem
   id: EnergyShield
@@ -410,6 +418,7 @@
       price: 350
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: broken energy shield
   parent: BaseItem
   id: BrokenEnergyShield
@@ -424,6 +433,7 @@
       heldPrefix: eshield
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: telescopic shield
   parent: BaseShield
   id: TelescopicShield

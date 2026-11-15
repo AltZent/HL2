@@ -1,5 +1,6 @@
 # Uses the chessboard and generic pieces
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBoardEntity
   id: CheckerBoard
   name: checkerboard
@@ -32,6 +33,7 @@
 
 # The pieces
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: *pieceWhite
   name: white checker piece
   parent: BaseTabletopPiece
@@ -41,6 +43,7 @@
       state: w_checker_piece
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: *crownWhite
   name: white checker crown
   parent: BaseTabletopPiece
@@ -50,6 +53,7 @@
       state: w_checker_crown
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: *pieceBlack
   name: black checker piece
   parent: BaseTabletopPiece
@@ -59,6 +63,7 @@
       state: b_checker_piece
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: *crownBlack
   name: black checker crown
   parent: BaseTabletopPiece

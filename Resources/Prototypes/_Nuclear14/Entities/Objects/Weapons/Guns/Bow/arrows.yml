@@ -62,6 +62,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseArrow
   id: ArrowRegular
   name: arrow
@@ -83,6 +84,7 @@
         Piercing: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseArrow
   id: ArrowImprovised
   name: glass shard arrow

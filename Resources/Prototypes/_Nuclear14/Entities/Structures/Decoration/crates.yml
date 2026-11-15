@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseWeldable
   id: CrateGenericSteel
   name: crate
@@ -19,6 +20,7 @@
     staminaCost: 45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseWeldable
   id: CratePlastic
   name: plastic crate
@@ -41,6 +43,7 @@
     staminaCost: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CratePlastic
   id: CrateFreezer
   name: freezer
@@ -54,6 +57,7 @@
     damageCoefficient: 0.50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CratePlastic
   id: CrateHydroponics
   name: hydroponics crate
@@ -64,6 +68,7 @@
     sprite: Structures/Storage/Crates/hydroponics.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CratePlastic
   id: CrateMedical
   name: medical crate
@@ -74,6 +79,7 @@
     sprite: Structures/Storage/Crates/medical.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateRadiation
   name: radiation gear crate
@@ -85,6 +91,7 @@
     sprite: Structures/Storage/Crates/radiation.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CratePlastic
   id: CrateInternals
   name: oxygen crate
@@ -95,6 +102,7 @@
     sprite: Structures/Storage/Crates/o2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateElectrical
   name: electrical crate
@@ -105,6 +113,7 @@
     sprite: Structures/Storage/Crates/electrical.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateEngineering
   name: engineering crate
@@ -115,6 +124,7 @@
     sprite: Structures/Storage/Crates/engineering.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateScience
   name: epistemics crate # DeltaV - Epistemics Department replacing Science
@@ -125,6 +135,7 @@
     sprite: Structures/Storage/Crates/science.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateSurgery
   name: surgery crate
@@ -135,6 +146,7 @@
     sprite: Structures/Storage/Crates/surgery.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CrateWeb
   name: web crate
@@ -181,6 +193,7 @@
 # Secure Crates
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateSecgear
   name: secgear crate
@@ -193,6 +206,7 @@
     access: [["Security"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateEngineeringSecure
   name: secure engineering crate
@@ -205,6 +219,7 @@
     access: [["Engineering"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateMedicalSecure
   name: secure medical crate
@@ -217,6 +232,7 @@
     access: [["Medical"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateChemistrySecure
   name: secure chemistry crate
@@ -229,6 +245,7 @@
       access: [["Chemistry"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CratePrivateSecure
   name: private crate
@@ -239,6 +256,7 @@
     sprite: Structures/Storage/Crates/privatecrate_secure.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateScienceSecure
   name: secure epistemics crate # DeltaV - Epistemics Department replacing Science
@@ -251,6 +269,7 @@
     access: [["Research"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CratePlasma
   name: plasma crate
@@ -263,6 +282,7 @@
     access: [["Engineering"], ["Research"], ["Chemistry"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateUranium
   name: uranium crate
@@ -275,6 +295,7 @@
     access: [["Engineering"], ["Research"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateSecure
   name: secure crate
@@ -285,6 +306,7 @@
       sprite: Structures/Storage/Crates/secure.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateHydroSecure
   name: secure hydroponics crate
@@ -297,6 +319,7 @@
     access: [["Hydroponics"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecureReinforced
   id: CrateWeaponSecure
   name: secure weapon crate
@@ -309,6 +332,7 @@
     access: [["Armory"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecureReinforced
   suffix: Armory, Secure, Reinforced
   id: CrateContrabandStorageSecure
@@ -321,6 +345,7 @@
     access: [["Armory"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateCommandSecure
   name: command crate
@@ -333,6 +358,7 @@
     access: [["Command"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CrateLivestock
   name: livestock crate
@@ -390,6 +416,7 @@
     price: 125
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CrateRodentCage
   name: hamster cage
@@ -442,6 +469,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CratePirate
   name: pirate chest
@@ -470,6 +498,7 @@
     stateDoorClosed: crate_door
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CratePirate
   id: CrateToyBox
   name: toy box
@@ -493,6 +522,7 @@
     state: crate_icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CrateCoffin
   name: coffin
@@ -532,6 +562,7 @@
     - entity_storage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGeneric
   id: CrateWoodenGrave
   name: grave
@@ -583,6 +614,7 @@
       path: /Audio/Items/shovel_dig.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateWoodenGrave
   id: CrateStoneGrave
   name: grave
@@ -608,6 +640,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateGenericSteel
   id: CrateSyndicate
   name: Syndicate crate
@@ -619,6 +652,7 @@
     sprite: Structures/Storage/Crates/syndicate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [StructureWheeled, CrateBaseWeldable]
   id: CrateTrashCart
   name: trash cart
@@ -640,6 +674,7 @@
       map: ["enum.PaperLabelVisuals.Layer"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseSecure
   id: CrateTrashCartJani
   name: janitorial trash cart
@@ -666,6 +701,7 @@
     access: [["Janitor"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: CrateBaseWeldable
   id: InvisibleCrate
   suffix: Stealth

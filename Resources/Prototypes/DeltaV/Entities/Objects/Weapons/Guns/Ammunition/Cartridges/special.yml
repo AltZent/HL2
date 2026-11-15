@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCartridgeSpecial
   name: cartridge (.38 special)
   parent: BaseCartridge
@@ -21,6 +22,7 @@
     price: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecial
   name: cartridge (.38 special)
   parent: BaseCartridgeSpecial
@@ -29,6 +31,7 @@
     proto: BulletSpecial
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialPractice
   name: cartridge (.38 special practice)
   parent: BaseCartridgeSpecial
@@ -44,6 +47,7 @@
         color: "#dbdbdb"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialRubber
   name: cartridge (.38 special rubber)
   parent: BaseCartridgeSpecial
@@ -59,6 +63,7 @@
         color: "#43c4f7"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialIncendiary
   name: cartridge (.38 special incendiary)
   parent: BaseCartridgeSpecial
@@ -74,6 +79,7 @@
         color: "#ff6e52"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialUranium
   name: cartridge (.38 special uranium)
   parent: BaseCartridgeSpecial
@@ -89,6 +95,7 @@
         color: "#65fe08"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialHoly
   name: cartridge (.38 special holy)
   parent: BaseCartridgeSpecial
@@ -104,6 +111,7 @@
         color: "#fff600"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeSpecialMindbreaker
   name: cartridge (.38 special mindbreaker)
   parent: BaseCartridgeSpecial

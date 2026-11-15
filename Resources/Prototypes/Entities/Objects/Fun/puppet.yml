@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseItem, MobCombat ]
   id: MrChips
   name: mr chips
@@ -32,6 +33,7 @@
         Blunt: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MrChips
   id: MrDips
   name: mr dips
@@ -44,6 +46,7 @@
 ## PET ROCK!
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PetRockCarrier
   parent: HappyHonk
   name: pet rock carrier
@@ -102,6 +105,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePetRock
   id: PetRock
   components:
@@ -111,6 +115,7 @@
     - state: rock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePetRock
   id: PetRockFred
   name: fred
@@ -121,6 +126,7 @@
     - state: fred
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePetRock
   id: PetRockRoxie
   name: roxie

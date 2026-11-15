@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBoardEntity
   id: BackgammonBoard
   name: backgammon board

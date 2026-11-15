@@ -59,6 +59,14 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     [DataField]
     public string FlavorText { get; set; } = string.Empty;
 
+    /// Text shown through the detail examine verb of the character. Falls back to <see cref="FlavorText"/> when empty.
+    [DataField]
+    public string DetailExaminable { get; set; } = string.Empty;
+
+    /// Unique features of the character (scars, burns, tattoos, implants) shown separately in the detail examine verb.
+    [DataField]
+    public string UniqueFeatures { get; set; } = string.Empty;
+
     /// Associated <see cref="SpeciesPrototype"/> for this profile
     [DataField]
     public string Species { get; set; } = SharedHumanoidAppearanceSystem.DefaultSpecies;
@@ -141,10 +149,14 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         PreferenceUnavailableMode preferenceUnavailable,
         HashSet<string> antagPreferences,
         HashSet<string> traitPreferences,
-        HashSet<LoadoutPreference> loadoutPreferences)
+        HashSet<LoadoutPreference> loadoutPreferences,
+        string detailExaminable = "",
+        string uniqueFeatures = "")
     {
         Name = name;
         FlavorText = flavortext;
+        DetailExaminable = detailExaminable;
+        UniqueFeatures = uniqueFeatures;
         Species = species;
         Customspeciename = customspeciename;
         Height = height;
@@ -189,7 +201,9 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             other.PreferenceUnavailable,
             new HashSet<string>(other.AntagPreferences),
             new HashSet<string>(other.TraitPreferences),
-            new HashSet<LoadoutPreference>(other.LoadoutPreferences))
+            new HashSet<LoadoutPreference>(other.LoadoutPreferences),
+            other.DetailExaminable,
+            other.UniqueFeatures)
     {
     }
 
@@ -280,6 +294,10 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 
     public HumanoidCharacterProfile WithName(string name) => new(this) { Name = name };
     public HumanoidCharacterProfile WithFlavorText(string flavorText) => new(this) { FlavorText = flavorText };
+
+    public HumanoidCharacterProfile WithDetailExaminable(string detailExaminable) => new(this) { DetailExaminable = detailExaminable };
+
+    public HumanoidCharacterProfile WithUniqueFeatures(string uniqueFeatures) => new(this) { UniqueFeatures = uniqueFeatures };
     public HumanoidCharacterProfile WithAge(int age) => new(this) { Age = age };
     public HumanoidCharacterProfile WithSex(Sex sex) => new(this) { Sex = sex };
     public HumanoidCharacterProfile WithGender(Gender gender) => new(this) { Gender = gender };
@@ -381,7 +399,9 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             && _traitPreferences.SequenceEqual(other._traitPreferences)
             && LoadoutPreferences.SequenceEqual(other.LoadoutPreferences)
             && Appearance.MemberwiseEquals(other.Appearance)
-            && FlavorText == other.FlavorText;
+            && FlavorText == other.FlavorText
+            && DetailExaminable == other.DetailExaminable
+            && UniqueFeatures == other.UniqueFeatures;
     }
 
     public void EnsureValid(ICommonSession session, IDependencyCollection collection)
@@ -471,6 +491,14 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             flavortext = FormattedMessage.RemoveMarkupPermissive(FlavorText);
         }
 
+        var detailExaminable = FormattedMessage.RemoveMarkupPermissive(DetailExaminable);
+        if (detailExaminable.Length > MaxDescLength)
+            detailExaminable = detailExaminable[..MaxDescLength];
+
+        var uniqueFeatures = FormattedMessage.RemoveMarkupPermissive(UniqueFeatures);
+        if (uniqueFeatures.Length > MaxDescLength)
+            uniqueFeatures = uniqueFeatures[..MaxDescLength];
+
         var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex);
 
         var prefsUnavailableMode = PreferenceUnavailable switch
@@ -516,6 +544,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         Name = name;
         Customspeciename = customspeciename;
         FlavorText = flavortext;
+        DetailExaminable = detailExaminable;
+        UniqueFeatures = uniqueFeatures;
         Age = age;
         Sex = sex;
         Gender = gender;
@@ -570,6 +600,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         hashCode.Add(_loadoutPreferences);
         hashCode.Add(Name);
         hashCode.Add(FlavorText);
+        hashCode.Add(DetailExaminable);
+        hashCode.Add(UniqueFeatures);
         hashCode.Add(Species);
         hashCode.Add(Age);
         hashCode.Add((int) Sex);

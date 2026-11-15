@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseTree
   id: N14FloraDesertCactus
   name: Cactus
@@ -19,6 +20,7 @@
         - WallLayer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraDesertCactus
   id: N14FloraDesertTree1
   name: "tree yucca"
@@ -37,6 +39,7 @@
         - WallLayer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraDesertTree1
   id: N14FloraDesertTree2
   components:
@@ -44,6 +47,7 @@
     state: joshua_2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraDesertTree1
   id: N14FloraDesertTree3
   components:
@@ -51,6 +55,7 @@
     state: joshua_3
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraDesertTree1
   id: N14FloraDesertTree4
   components:
@@ -58,6 +63,7 @@
     state: joshua_4
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraDesertCactus
   id: N14FloraTreeBald
   name: bald tree
@@ -77,6 +83,7 @@
         - WallLayer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraTreeBald
   id: N14FloraTreePine
   name: pine tree
@@ -93,6 +100,7 @@
           pine_1_alt: ""
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraTreeBald
   id: N14FloraTreeDead1
   name: dead tree
@@ -110,6 +118,7 @@
           dead_tree3: ""
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraTreeDead1
   id: N14FloraTreeDead2
   components:

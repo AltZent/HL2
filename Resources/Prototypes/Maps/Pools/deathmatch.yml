@@ -1,4 +1,5 @@
 - type: gameMapPool
   id: DeathMatchMapPool
-  maps:
-  - Sunnyvale
+  maps: []
+  # Old N14 (Fallout) maps are retired.
+  # - Sunnyvale

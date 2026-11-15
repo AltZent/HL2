@@ -14,6 +14,7 @@
 #Note: The PipeDirection of the PipeNode should be the south-facing version, because the entity starts at an angle of 0 (south)
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GasPipeBase
   id: N14GasPipeEnd
   suffix: End
@@ -30,6 +31,7 @@
         map: [ "enum.PipeVisualLayers.Pipe" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GasPipeBase
   id: N14GasPipeStraight
   suffix: Straight
@@ -46,6 +48,7 @@
         map: [ "enum.PipeVisualLayers.Pipe" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GasPipeBase
   id: N14GasPipeBend
   suffix: Bend
@@ -62,6 +65,7 @@
         map: [ "enum.PipeVisualLayers.Pipe" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GasPipeBase
   id: N14GasPipeTJunction
   suffix: TJunction
@@ -78,6 +82,7 @@
         map: [ "enum.PipeVisualLayers.Pipe" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GasPipeBase
   id: N14GasPipeFourway
   suffix: Fourway

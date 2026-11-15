@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Emitter
   name: emitter
   parent: SmallConstructibleMachine

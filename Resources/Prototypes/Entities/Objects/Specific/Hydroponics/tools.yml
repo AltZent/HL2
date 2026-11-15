@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mini hoe
   parent: BaseItem
   id: HydroponicsToolMiniHoe
@@ -31,6 +32,7 @@
     sprite: Objects/Tools/Hydroponics/hoe.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plant clippers
   parent: BaseItem
   id: HydroponicsToolClippers
@@ -70,6 +72,7 @@
       path: /Audio/_Shitmed/Medical/Surgery/retractor2.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scythe
   parent: BaseItem
   id: HydroponicsToolScythe
@@ -108,6 +111,7 @@
     price: 40
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hatchet
   parent: BaseItem
   id: HydroponicsToolHatchet
@@ -146,6 +150,7 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spade
   parent: BaseItem
   id: HydroponicsToolSpade
@@ -180,6 +185,7 @@
     speedModifier: 0.85 # slower at digging than a full-sized shovel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plant bag
   id: PlantBag
   parent: BaseStorageItem

@@ -1,0 +1,8 @@
+# ML: единственный видимый в редакторе персонажа департамент.
+# Ванильные департаменты скрыты через editorHidden: true в Roles/Jobs/departments.yml.
+- type: department
+  id: Citizens
+  description: department-Citizens-description
+  color: "#5A7CA8"
+  roles:
+  - Citizen

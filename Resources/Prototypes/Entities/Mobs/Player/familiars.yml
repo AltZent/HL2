@@ -69,6 +69,7 @@
         Heat: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Remilia
   parent: BaseMobPsionicFamiliar
   id: MobBatRemilia
@@ -136,6 +137,7 @@
       30: Dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Cerberus
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
@@ -204,6 +206,7 @@
       Unsexed: Cerberus
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: imp familiar
   parent: BaseMobPsionicFamiliar
   id: MobPsionicFamiliarImp

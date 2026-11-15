@@ -122,6 +122,7 @@
     backStrength: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 9mm Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol9mm
@@ -162,6 +163,7 @@
     price: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol10mm
@@ -202,6 +204,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: .45 colt handgun
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol45Colt
@@ -246,6 +249,7 @@
     price: 45
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 12.7mm handgun
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol12mm
@@ -293,6 +297,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm pipe pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol10mmPipe
@@ -338,6 +343,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WeaponPistol10mmPipe
   id: N14WeaponPistol10mmPipeEmpty
   suffix: Empty
@@ -360,6 +366,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese pistol
   parent: N14BaseWeaponInternalMagPistol
   id: N14WeaponPistol9mmChinese
@@ -397,6 +404,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the spy
   parent: N14BaseWeaponInternalMagPistol
   id: N14WeaponPistol9mmSpy
@@ -431,6 +439,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 22lr Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol22lr
@@ -468,6 +477,7 @@
     price: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: webley pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistolWebley
@@ -508,6 +518,7 @@
     price: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: desert eagle 44
   parent: N14BaseWeaponPistol
   id: N14WeaponDesertEagle44
@@ -545,6 +556,7 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lasered desert eagle 44
   parent: N14BaseWeaponPistol
   id: N14WeaponLaserdotDesertEagle44

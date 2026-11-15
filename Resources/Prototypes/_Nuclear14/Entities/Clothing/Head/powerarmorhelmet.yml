@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT45
   name: t-45 power armor helmet
@@ -56,6 +57,7 @@
     - HidesBeard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT51
   name: t-51 power armor helmet
@@ -113,6 +115,7 @@
     - HidesBeard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT60
   name: t-60 power armor helmet
@@ -170,6 +173,7 @@
     - HidesBeard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorX01
   name: X-01 power armor helmet
@@ -285,6 +289,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT51BC
   name: t-51bc power armor helmet
@@ -338,6 +343,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT45NCR
   name: t-45 NCR power armor helmet
@@ -391,6 +397,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorMidwest
   name: midwest power armor helmet
@@ -419,6 +426,7 @@
     damageCoefficient: 0.85
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorMidwestCommander
   name: midwest commander power armor helmet
@@ -451,6 +459,7 @@
     toggleAction: PulseThermalVision
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHelmetPowerArmorT51
   id: N14ClothingHeadHelmetPowerArmorT51Wash
   name: t-51 power armor helmet
@@ -468,6 +477,7 @@
       map: [ "light" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHelmetPowerArmorT51
   id: N14ClothingHeadHelmetPowerArmorT51WashElite
   name: t-51 power armor helmet

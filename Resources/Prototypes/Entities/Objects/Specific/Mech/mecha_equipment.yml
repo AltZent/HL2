@@ -14,6 +14,7 @@
     # - Robotics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MechEquipmentGrabber
   parent: [ BaseMechEquipment, IndustrialMechEquipment ] # Goobstation
   name: hydraulic clamp
@@ -29,6 +30,7 @@
       item-container: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MechEquipmentGrabberSmall
   parent: BaseMechEquipment
   name: small hydraulic clamp
@@ -51,6 +53,7 @@
     - SmallMech
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MechEquipmentHorn
   parent: [ BaseMechEquipment, SpecialMechEquipment ] # Goobstation
   name: mech horn

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "civilian-control-sealed",
+      "directions": 4
+    },
+    {
+      "name": "civilian-control",
+      "directions": 4
+    },
+    {
+      "name": "civilian-helmet-sealed",
+      "directions": 4
+    },
+    {
+      "name": "civilian-helmet",
+      "directions": 4
+    },
+    {
+      "name": "civilian-chestplate-sealed",
+      "directions": 4
+    },
+    {
+      "name": "civilian-chestplate",
+      "directions": 4
+    },
+    {
+      "name": "civilian-gauntlets-sealed",
+      "directions": 4
+    },
+    {
+      "name": "civilian-gauntlets",
+      "directions": 4
+    },
+    {
+      "name": "civilian-boots-sealed",
+      "directions": 4
+    },
+    {
+      "name": "civilian-boots",
+      "directions": 4
+    }
+  ]
+}

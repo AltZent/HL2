@@ -34,6 +34,7 @@
 # Plain Donuts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plain donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutPlain
@@ -45,6 +46,7 @@
     state: plain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plain jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyPlain
@@ -67,6 +69,7 @@
 # Donuts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutHomer
@@ -80,6 +83,7 @@
     heldPrefix: pink
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutMeat
@@ -96,6 +100,7 @@
 # Tastes like meat.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pink donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutPink
@@ -110,6 +115,7 @@
     heldPrefix: pink
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: apple donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutApple
@@ -124,6 +130,7 @@
 # Tastes like donut, green apples.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: caramel donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutCaramel
@@ -134,6 +141,7 @@
 # Tastes like donut, buttery sweetness.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chocolate donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutChocolate
@@ -158,6 +166,7 @@
 # Jelly Donuts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyHomer
@@ -178,6 +187,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pink jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyPink
@@ -198,6 +208,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: apple jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyApple
@@ -220,6 +231,7 @@
 # Tastes like jelly-donut, green apples.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: caramel jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyCaramel
@@ -239,6 +251,7 @@
 # Tastes like jelly-donut, buttery sweetness.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chocolate jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyChocolate

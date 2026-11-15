@@ -155,6 +155,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: beaker
   parent: BaseBeaker
   description: Used to contain a moderate amount of chemicals and solutions.
@@ -174,6 +175,7 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cryoxadone beaker
   description: Filled with a reagent used in cryogenic tubes.
   parent: Beaker
@@ -188,6 +190,7 @@
           Quantity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: large beaker
   parent: BaseBeaker
   description: Used to contain a large amount of chemicals or solutions.
@@ -222,6 +225,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cryostasis beaker
   parent: BaseBeakerMetallic
   description: Used to contain chemicals or solutions without reactions.
@@ -244,6 +248,7 @@
       - CryostasisBeaker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bluespace beaker
   parent: BaseBeakerMetallic
   description: Powered by experimental bluespace technology.
@@ -265,6 +270,7 @@
       - BluespaceBeaker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: dropper
   parent: BaseItem
   description: Used to transfer small amounts of chemical solution between containers.
@@ -308,6 +314,7 @@
     price: 40
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: borgdropper
   parent: Dropper
   description: Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
@@ -371,6 +378,7 @@
     - Syringe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSyringe
   id: Syringe
   components:
@@ -383,6 +391,7 @@
     - Trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSyringe
   id: PrefilledSyringe
   components:
@@ -390,6 +399,7 @@
     toggleState: Inject
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SyringeBluespace
   parent: BaseSyringe
   name: bluespace syringe
@@ -425,6 +435,7 @@
       - SyringeBluespace
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SyringeCryostasis
   parent: BaseSyringe
   name: cryostasis syringe
@@ -460,6 +471,7 @@
       - SyringeCryostasis
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pill
   parent: BaseItem
   id: Pill
@@ -507,6 +519,7 @@
     - Pill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pill canister
   id: PillCanister
   parent: BaseStorageItem

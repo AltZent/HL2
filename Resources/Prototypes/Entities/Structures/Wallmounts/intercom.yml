@@ -126,6 +126,7 @@
     - Wallmount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomAssembly
   name: intercom assembly
   description: An intercom. It doesn't seem very helpful right now.
@@ -160,6 +161,7 @@
 
 # this weird inheritance BS exists for construction shitcode
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomConstructed
   parent: BaseIntercom
   suffix: Empty, Panel Open
@@ -185,6 +187,7 @@
     open: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Intercom
   parent: IntercomConstructed
   suffix: ""
@@ -209,6 +212,7 @@
     open: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomCommon
   parent: Intercom
   suffix: Common
@@ -221,6 +225,7 @@
       - EncryptionKeyCommon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomCommand
   parent: Intercom
   suffix: Command
@@ -234,6 +239,7 @@
       - EncryptionKeyCommand
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomEngineering
   parent: Intercom
   suffix: Engineering
@@ -247,6 +253,7 @@
       - EncryptionKeyEngineering
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomMedical
   parent: Intercom
   suffix: Medical
@@ -260,6 +267,7 @@
       - EncryptionKeyMedical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomScience
   parent: Intercom
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -273,6 +281,7 @@
       - EncryptionKeyScience
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomSecurity
   parent: Intercom
   suffix: Security
@@ -294,6 +303,7 @@
       - EncryptionKeySecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomService
   parent: Intercom
   suffix: Service
@@ -307,6 +317,7 @@
       - EncryptionKeyService
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomSupply
   parent: Intercom
   suffix: Supply
@@ -320,6 +331,7 @@
       - EncryptionKeyCargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: IntercomAll
   parent: Intercom
   suffix: All

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CargoPallet
   name: cargo pallet
   description: Common fixture of logistics and cargo. Subtle reminder where crates go during transport to avoid bruised shins.
@@ -56,6 +57,7 @@
     - Cargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CargoPalletSell
   name: cargo selling pallet
   description: Designates valid items to sell.
@@ -74,6 +76,7 @@
     base: cargo_pallet_sell_
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CargoPalletBuy
   name: cargo buying pallet
   description: Designates where orders will appear when purchased.

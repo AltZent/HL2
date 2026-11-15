@@ -1,6 +1,7 @@
 # BOS Washington
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakBrotherhoodWashington
   name: Washington Brotherhood cloak
@@ -12,6 +13,7 @@
 # NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCR
   name: NCR cloak
@@ -21,6 +23,7 @@
     sprite: _Nuclear14/Clothing/Neck/NCRcloak.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRSnow
   name: NCR winter cloak
@@ -30,6 +33,7 @@
     sprite: _Nuclear14/Clothing/Neck/NCRcloak2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRWoods
   name: NCR woods cloak
@@ -39,6 +43,7 @@
     sprite: _Nuclear14/Clothing/Neck/NCRcloak3.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRanger
   name: NCR ranger cape
@@ -55,6 +60,7 @@
       toggleable-clothing: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRangerPoncho
   name: ranger poncho
@@ -71,6 +77,7 @@
       toggleable-clothing: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakTribal
   name: tribal cloak
@@ -81,6 +88,7 @@
 
 # Neutral
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakLeather
   name: leather cloak
@@ -105,6 +113,7 @@
       amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakYaoguai
   name: Yao Guai cloak
@@ -122,6 +131,7 @@
       amount: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakDarkCloak
   name: dark cloak
@@ -131,6 +141,7 @@
     sprite: _Nuclear14/Clothing/Neck/darkcloak.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakGhillie
   name: ghillie cloak
@@ -147,6 +158,7 @@
       toggleable-clothing: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckShawl
   name: shawl
@@ -158,6 +170,7 @@
 
 #tribe
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckTribalCloak
   name: tribal cloak
@@ -181,6 +194,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckTribalCloakBr
   name: tribal cloak
@@ -204,6 +218,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingNeckTownGuardCloak
   name: old cloak
@@ -223,6 +238,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckBase
   id: N14ClothingTribalCloakGreen
   name: tribal cloak

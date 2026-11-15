@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: N14SurveillanceCameraBrotherhoodWashington
   name: camera

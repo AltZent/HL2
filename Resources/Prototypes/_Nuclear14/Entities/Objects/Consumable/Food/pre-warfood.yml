@@ -27,6 +27,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: BlamCo Mac & Cheese
   parent: N14FoodSnackBase
   id: N14FoodBlamcomaccheese
@@ -39,6 +40,7 @@
     - N14FoodBlamcomaccheeseTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Large BlamCo Mac & Cheese
   parent: N14FoodSnackBase
   id: N14FoodBlamcomaccheeseLarge
@@ -51,6 +53,7 @@
     - N14FoodBlamcomaccheeseLargeTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bubblegum
   parent: N14FoodSnackBase
   id: N14FoodBubblegum
@@ -72,6 +75,7 @@
           Quantity: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Cram
   parent: N14FoodSnackBase
   id: N14FoodCram
@@ -84,6 +88,7 @@
     - N14FoodCramTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: crisps
   parent: N14FoodSnackBase
   id: N14FoodCrisps
@@ -96,6 +101,7 @@
     - N14FoodCrispsTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Dandy Boy Apples
   parent: N14FoodSnackBase
   id: N14FoodDandyboyapples
@@ -108,6 +114,7 @@
     - N14FoodDandyboyapplesTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodDogfood
   name: canned dog food
@@ -127,6 +134,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodDogFoodTrash
   name: canned dog food
@@ -135,6 +143,7 @@
     sprite: _Nuclear14/Objects/Consumable/Food/dogfood.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodDinki-Di
   name: Dinki Di Dog Food
@@ -154,6 +163,7 @@
     - Soup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodDinki-DiTrash
   name: Dinki-Di Dog Food
@@ -162,6 +172,7 @@
     sprite: _Nuclear14/Objects/Consumable/Food/dinkidi.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Fancy Lads Snack Cakes
   parent: N14FoodSnackBase
   id: N14FoodFancyladssnackcakes
@@ -174,6 +185,7 @@
     - N14FoodFancyladssnackcakesTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: InstaMash
   parent: N14FoodSnackBase
   id: N14FoodInstamash
@@ -186,6 +198,7 @@
     - N14FoodInstamashTrash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pork n' Beans
   parent: N14FoodSnackBase
   id: N14FoodPorkBeans
@@ -201,6 +214,7 @@
       Steel: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mouldy food
   parent: N14FoodSnackBase
   id: N14FoodMouldy
@@ -223,6 +237,7 @@
           Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Salisbury Steak
   parent: N14FoodSnackBase
   id: N14FoodSalisburysteak
@@ -244,6 +259,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Sugar Bombs
   parent: N14FoodSnackBase
   id: N14FoodSugarbombs
@@ -267,6 +283,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: YumYum Deviled Eggs
   parent: N14FoodSnackBase
   id: N14FoodYumyumdeviledeggs
@@ -299,6 +316,7 @@
       Cardboard: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodTinCanTrash
   name: empty tin can
@@ -314,6 +332,7 @@
       Steel: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodBlamcomaccheeseTrash
   name: empty Blamco box
@@ -322,6 +341,7 @@
     state: blamco_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodBlamcomaccheeseLargeTrash
   name: empty Blamco box
@@ -330,6 +350,7 @@
     state: blamco_large_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodBubblegumTrash
   name: empty bubblegum pack
@@ -338,6 +359,7 @@
     state: bubblegum_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodCramTrash
   name: empty cram box
@@ -346,6 +368,7 @@
     state: cram_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodCrispsTrash
   name: empty crisps pack
@@ -354,6 +377,7 @@
     state: crisps_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodDandyboyapplesTrash
   name: empty Dandyboy Apples box
@@ -362,6 +386,7 @@
     state: dandyapples_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodFancyladssnackcakesTrash
   name: empty Fancy Lads Snack Cakes box
@@ -370,6 +395,7 @@
     state: fancylads_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodInstamashTrash
   name: empty Instamash box
@@ -378,6 +404,7 @@
     state: instamash_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodSalisburysteakTrash
   name: empty Salisbury Steak box
@@ -386,6 +413,7 @@
     state: steak_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodSugarbombsTrash
   name: empty Sugar bombs box
@@ -394,6 +422,7 @@
     state: sugarbombs_trash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodPacketTrash
   id: N14FoodYumyumdeviledeggsTrash
   name: empty Yumyum Deviled Eggs box

@@ -21,6 +21,7 @@
     - BrassInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: TromboneInstrument
   name: trombone
@@ -39,6 +40,7 @@
     - BrassInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: FrenchHornInstrument
   name: french horn
@@ -57,6 +59,7 @@
     - BrassInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: EuphoniumInstrument
   name: euphonium

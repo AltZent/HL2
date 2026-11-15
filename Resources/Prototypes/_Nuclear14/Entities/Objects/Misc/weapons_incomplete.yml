@@ -2,6 +2,7 @@
 
 #MARK: Pistols
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: incomplete 10mm pipe pistol
   parent: BaseItem
   id: IncompleteN14WeaponPipe10mm
@@ -17,6 +18,7 @@
 
 #MARK: Revolvers
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: incomplete 10mm revolver
   parent: BaseItem
   id: IncompleteN14WeaponRevolver10mm
@@ -32,6 +34,7 @@
 
 #MARK: SMGs
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: incomplete 10mm autopipe
   parent: BaseItem
   id: IncompleteN14Weapon10mmPipe
@@ -46,6 +49,7 @@
     node: Incomplete14WeaponPipe10mm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: incomplete 12.7mm autopipe
   parent: BaseItem
   id: IncompleteN14weapon12mmpipeEmpty

@@ -1,6 +1,7 @@
 # Placeholder PAIs, aka semi-automatic ghost roles
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PersonalAI
   name: personal ai device
@@ -94,6 +95,7 @@
         Blunt: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PersonalAI
   id: SyndicatePersonalAI
   name: syndicate personal ai device
@@ -125,6 +127,7 @@
           On: { state: syndicate-pai-on-overlay }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PersonalAI
   id: PotatoAI
   name: potato artificial intelligence

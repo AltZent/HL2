@@ -104,6 +104,7 @@
 
 # generic modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: cable cyborg module
@@ -121,6 +122,7 @@
     - trayScanner
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: fire extinguisher cyborg module
@@ -134,6 +136,7 @@
     - FireExtinguisher
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleGPS
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: GPS cyborg module
@@ -149,6 +152,7 @@
     - HandheldStationMapUnpowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleRadiationDetection
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: radiation detection cyborg module
@@ -162,6 +166,7 @@
     - GeigerCounter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: tool cyborg module
@@ -181,6 +186,7 @@
 
 # cargo modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
   name: appraisal cyborg module
@@ -194,6 +200,7 @@
     - AppraisalTool
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
   name: mining cyborg module
@@ -211,6 +218,7 @@
     - RadioHandheld
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleJetpack
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
   name: jetpack cyborg module
@@ -226,6 +234,7 @@
     - JetpackMicroFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModulePka
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
   name: proto kinetic accelerator cyborg module
@@ -239,6 +248,7 @@
     - WeaponProtoKineticAccelerator
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleGrapplingGun
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
   name: grappling gun cyborg module
@@ -254,6 +264,7 @@
 
 # engineering modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
   name: advanced tool cyborg module
@@ -272,6 +283,7 @@
     - GeigerCounter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
   name: construction cyborg module
@@ -288,6 +300,7 @@
     - FloorTileItemSteelLingering0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
   name: RCD cyborg module
@@ -302,6 +315,7 @@
 
 # janitorial modules (this gets its own unique things because janis are epic)
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleLightReplacer
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
   name: light replacer cyborg module
@@ -317,6 +331,7 @@
     - Screwdriver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
   name: cleaning cyborg module
@@ -332,6 +347,7 @@
     - TrashBag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleAdvancedCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
   name: advanced cleaning cyborg module
@@ -350,6 +366,7 @@
 
 # medical modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleDiagnosis # todo: reuse when med refractor is finished
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
   name: diagnosis cyborg module
@@ -364,6 +381,7 @@
     - ClothingNeckStethoscope
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
   name: treatment cyborg module
@@ -382,6 +400,7 @@
     - Dropper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleDefibrillator
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
   name: defibrillator cyborg module
@@ -395,6 +414,7 @@
     - DefibrillatorOneHandedUnpowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
   name: advanced treatment cyborg module
@@ -414,6 +434,7 @@
 # science modules
 # todo: if science ever gets their own custom robot, add more "sci" modules.
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleArtifact
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: artifact cyborg module
@@ -427,6 +448,7 @@
     - NodeScanner
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleAnomaly
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: anomaly cyborg module
@@ -444,6 +466,7 @@
 
 # service modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleService
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: service cyborg module
@@ -462,6 +485,7 @@
     - BorgDropper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleMusique
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: musique cyborg module
@@ -477,6 +501,7 @@
     - SaxophoneInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: gardening cyborg module
@@ -493,6 +518,7 @@
     - Bucket
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleHarvesting
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: harvesting cyborg module
@@ -508,6 +534,7 @@
     - PlantBag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: clowning cyborg module
@@ -524,6 +551,7 @@
 
 #syndicate modules
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleSyndicateWeapon
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: weapon cyborg module
@@ -538,6 +566,7 @@
     - Machete
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleOperative
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
   name: operative cyborg module
@@ -554,6 +583,7 @@
       - PinpointerSyndicateNuclear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
   name: energy sword cyborg module
@@ -569,6 +599,7 @@
       - PinpointerSyndicateNuclear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleL6C
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
   name: L6C ROW cyborg module
@@ -584,6 +615,7 @@
         - PinpointerSyndicateNuclear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgModuleMartyr
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: martyr cyborg module

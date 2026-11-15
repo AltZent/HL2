@@ -4,14 +4,16 @@
 
 # Sockeye Salmon
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw sockeye salmon
   parent: FoodMeatRawBase
   id: N14FoodFishSockeyeSalmon
   description: A fresh sockeye salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sockeye-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sockeye-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -31,7 +33,7 @@
   # description: A cooked sockeye salmon.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -42,14 +44,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw sockeye salmon fillet
   parent: FoodMeatRawBase
   id: N14FoodFishSockeyeSalmonFillet
   description: A raw fillet of sockeye salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sockeye_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sockeye_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -59,14 +63,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked sockeye salmon fillet
   parent: FoodMeatCooked
   id: N14FoodFishSockeyeSalmonFilletCooked
   description: A cooked fillet of sockeye salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sockeye__cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sockeye_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -77,14 +83,16 @@
 
 # Smallmouth Bass
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw smallmouth bass
   parent: FoodMeatRawBase
   id: N14FoodFishSmallmouthBass
   description: A raw smallmouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: smallmouth-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: smallmouth-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -104,7 +112,7 @@
   # description: A cooked smallmouth bass.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -115,14 +123,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw smallmouth bass fillet
   parent: FoodMeatRawBase
   id: N14FoodFishSmallmouthBassFillet
   description: A raw fillet of smallmouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: smallmouth_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: smallmouth_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -132,14 +142,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked smallmouth bass fillet
   parent: FoodMeatCooked
   id: N14FoodFishSmallmouthBassFilletCooked
   description: A cooked fillet of smallmouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: smallmouth__cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: smallmouth_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -150,14 +162,16 @@
 
 # Largemouth Bass
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw largemouth bass
   parent: FoodMeatRawBase
   id: N14FoodFishLargemouthBass
   description: A raw largemouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: largemouth-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: largemouth-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -177,7 +191,7 @@
   # description: A cooked largemouth bass.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -188,14 +202,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw largemouth bass fillet
   parent: FoodMeatRawBase
   id: N14FoodFishLargemouthBassFillet
   description: A raw fillet of largemouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: largemouth_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: largemouth_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -205,14 +221,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked largemouth bass fillet
   parent: FoodMeatCooked
   id: N14FoodFishLargemouthBassFilletCooked
   description: A cooked fillet of largemouth bass.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: largemouth__cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: largemouth_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -223,14 +241,16 @@
 
 # Lamprey
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw lamprey
   parent: FoodMeatRawBase
   id: N14FoodFishLamprey
   description: A raw lamprey.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: lamprey-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: lamprey-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -250,7 +270,7 @@
   # description: A cooked lamprey.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -261,14 +281,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw lamprey fillet
   parent: FoodMeatRawBase
   id: N14FoodFishLampreyFillet
   description: A raw fillet of lamprey.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: lamprey_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: lamprey_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -278,14 +300,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked lamprey fillet
   parent: FoodMeatCooked
   id: N14FoodFishLampreyFilletCooked
   description: A cooked fillet of lamprey.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: lamprey__cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: lamprey_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -296,14 +320,16 @@
 
 # Pink Salmon
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw pink salmon
   parent: FoodMeatRawBase
   id: N14FoodFishPinkSalmon
   description: A raw pink salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: pink-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: pink-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -323,7 +349,7 @@
   # description: A cooked pink salmon.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -334,14 +360,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw pink salmon fillet
   parent: FoodMeatRawBase
   id: N14FoodFishPinkSalmonFillet
   description: A raw fillet of pink salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: pink_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: pink_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -351,14 +379,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked pink salmon fillet
   parent: FoodMeatCooked
   id: N14FoodFishPinkSalmonFilletCooked
   description: A cooked fillet of pink salmon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: pink_cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: pink_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -369,14 +399,16 @@
 
 # White Sturgeon
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw white sturgeon
   parent: FoodMeatRawBase
   id: N14FoodFishWhiteSturgeon
   description: A raw white sturgeon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sturgeon-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sturgeon-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -396,7 +428,7 @@
   # description: A cooked white sturgeon.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -407,14 +439,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw white sturgeon fillet
   parent: FoodMeatRawBase
   id: N14FoodFishWhiteSturgeonFillet
   description: A raw fillet of white sturgeon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sturgeon_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sturgeon_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -424,14 +458,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked white sturgeon fillet
   parent: FoodMeatCooked
   id: N14FoodFishWhiteSturgeonFilletCooked
   description: A cooked fillet of white sturgeon.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: sturgeon_cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: sturgeon_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -442,14 +478,16 @@
 
 # Asian Carp
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw Asian carp
   parent: FoodMeatRawBase
   id: N14FoodFishAsianCarp
   description: A raw Asian carp.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: asian-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: asian-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -469,7 +507,7 @@
   # description: A cooked Asian carp.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: fishfry
   # - type: FlavorProfile
     # flavors:
@@ -480,14 +518,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw Asian carp fillet
   parent: FoodMeatRawBase
   id: N14FoodFishAsianCarpFillet
   description: A raw fillet of Asian carp.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: asian_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: asian_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -497,14 +537,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked Asian carp fillet
   parent: FoodMeatCooked
   id: N14FoodFishAsianCarpFilletCooked
   description: A cooked fillet of Asian carp.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: asian_cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: asian_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy
@@ -515,14 +557,16 @@
 
 # Blinky (Radioactive Three Eye Fish)
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw blinky
   parent: N14FoodMeatRadRaw
   id: N14FoodFishBlinky
   description: A disturbingly glowing fish with three eyes.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: blinky-2
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: blinky-2
   - type: FlavorProfile
     flavors:
     - fishy
@@ -542,7 +586,7 @@
   # description: A cooked radioactive fish.
   # components:
   # - type: Sprite
-    # sprite: _Nuclear14/_Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
+    # sprite: _Nuclear14/_Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
     # state: glowroachmeat_roasted
   # - type: FlavorProfile
     # flavors:
@@ -553,14 +597,16 @@
     # defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw blinky fillet
   parent: N14FoodMeatRadRaw
   id: N14FoodFishBlinkyFillet
   description: A fillet cut from blinky.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: blinky_cutlet
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: blinky_cutlet
   - type: FlavorProfile
     flavors:
     - fishy
@@ -570,14 +616,16 @@
     defaultTarget: Cooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked blinky fillet
   parent: N14FoodMeatCooked
   id: N14FoodFishBlinkyFilletCooked
   description: A cooked fillet from blinky.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Consumable/Food/Fish/food_inv.rsi
-    state: blinky_cutlet_cooked
+    sprite: _Nuclear14/Objects/Consumable/Food/Fish/fish_inv.rsi
+    layers:
+    - state: blinky_cutlet_cooked
   - type: FlavorProfile
     flavors:
     - fishy

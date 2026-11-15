@@ -71,6 +71,7 @@
       - Packet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketAspertame
   name: Aspertame
@@ -99,6 +100,7 @@
     fillBaseName: packet-trans-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketBbq
   name: BBQ sauce
@@ -119,6 +121,7 @@
     fillBaseName: packet-trans-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketCornoil
   name: corn oil
@@ -139,6 +142,7 @@
     fillBaseName: packet-trans-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketHotsauce
   name: hotsauce
@@ -159,6 +163,7 @@
     fillBaseName: packet-trans-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketKetchup
   name: ketchup
@@ -179,6 +184,7 @@
     fillBaseName: packet-solid-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketMustard
   name: mustard
@@ -198,6 +204,7 @@
     fillBaseName: packet-solid-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketPepper
   name: black pepper
@@ -217,6 +224,7 @@
     fillBaseName: packet-solid-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketSalt
   name: salt
@@ -245,6 +253,7 @@
     fillBaseName: packet-solid-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketSoy
   name: soy sauce
@@ -264,6 +273,7 @@
     fillBaseName: packet-solid-
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentPacket
   id: N14FoodCondimentPacketSugar
   name: sugar
@@ -326,6 +336,7 @@
       Glass: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentBottle
   id: N14FoodCondimentBottleEnzyme
   name: universal enzyme
@@ -352,6 +363,7 @@
       - Enzyme
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentBottle
   id: N14FoodCondimentBottleVinegar
   name: vinegar bottle
@@ -375,6 +387,7 @@
     state: bottle-vinegar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentBottle
   id: N14FoodCondimentBottleHotsauce
   name: hotsauce bottle
@@ -401,6 +414,7 @@
       - Hotsauce
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentBottle
   id: N14FoodCondimentBottleKetchup
   name: ketchup bottle
@@ -427,6 +441,7 @@
       - Ketchup
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodCondimentBottle
   id: N14FoodCondimentBottleBBQ
   name: BBQ sauce bottle
@@ -498,6 +513,7 @@
     solution: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFoodShaker
   id: N14FoodShakerSalt
   name: salt shaker
@@ -518,6 +534,7 @@
       - SaltShaker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFoodShaker
   id: N14FoodShakerPepper
   name: pepper shaker

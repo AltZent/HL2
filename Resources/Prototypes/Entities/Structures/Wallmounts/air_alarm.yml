@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AirAlarm
   name: air alarm
   description: An air alarm. Alarms... air?
@@ -114,6 +115,7 @@
                 volume: -4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AirAlarmAssembly
   name: air alarm assembly
   description: An air alarm. Doesn't look like it'll be alarming air any time soon.

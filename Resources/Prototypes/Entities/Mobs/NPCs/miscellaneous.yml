@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: laser raptor
   id: MobLaserRaptor
   parent: SimpleMobBase

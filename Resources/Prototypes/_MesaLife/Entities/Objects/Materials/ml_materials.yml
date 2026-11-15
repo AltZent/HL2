@@ -1,0 +1,487 @@
+# Auto-generated ML materials (halflife-episode13 assets).
+- type: entity
+  id: MLScrapMetal
+  parent: BaseItem
+  name: "scrap metal"
+  description: "Pieces of scrap metal. Not very useful on it's own, but maybe with the right tools you can make it more usable."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-scrapmetal_3
+    layers:
+    - state: sheet-scrapmetal_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLScrapMetal
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-scrapmetal
+    - sheet-scrapmetal_2
+    - sheet-scrapmetal_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLScrapGlass
+  parent: BaseItem
+  name: "scrap glass"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-scrapglass_3
+    layers:
+    - state: sheet-scrapglass_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLScrapGlass
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-scrapglass
+    - sheet-scrapglass_2
+    - sheet-scrapglass_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLScrapParts
+  parent: BaseItem
+  name: "scrap parts"
+  description: "Random spare metal parts."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-scrapparts_3
+    layers:
+    - state: sheet-scrapparts_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLScrapParts
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-scrapparts
+    - sheet-scrapparts_2
+    - sheet-scrapparts_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLScrapWood
+  parent: BaseItem
+  name: "scrap wood"
+  description: "Destroyed scraps of wood. Not very useful by itself, but maybe with enough you can sift through for a usable plank of wood."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-scrapwood
+    layers:
+    - state: sheet-scrapwood
+      map: ["base"]
+  - type: Stack
+    stackType: MLScrapWood
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-scrapwood
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLWood
+  parent: BaseItem
+  name: "wood planks"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-wood_3
+    layers:
+    - state: sheet-wood_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLWood
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-wood
+    - sheet-wood_2
+    - sheet-wood_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLCloth
+  parent: BaseItem
+  name: "cloth"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-cloth_3
+    layers:
+    - state: sheet-cloth_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLCloth
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-cloth
+    - sheet-cloth_2
+    - sheet-cloth_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLPlastic
+  parent: BaseItem
+  name: "plastic pieces"
+  description: "Pieces of plastic. Might be useful for some kind of construction."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: plastic_3
+    layers:
+    - state: plastic_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLPlastic
+    count: 30
+    baseLayer: base
+    layerStates:
+    - plastic
+    - plastic_2
+    - plastic_3
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLBrick
+  parent: BaseItem
+  name: "brick"
+  description: "A simple brick. Surpisingly deadly."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: brick_3
+    layers:
+    - state: brick_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLBrick
+    count: 30
+    baseLayer: base
+    layerStates:
+    - brick
+    - brick_2
+    - brick_3
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLResin
+  parent: BaseItem
+  name: "combine resin"
+  description: "Cylindrical disks of resin, a material used by the combine for creating various items."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: sheet-resin_3
+    layers:
+    - state: sheet-resin_3
+      map: ["base"]
+  - type: Stack
+    stackType: MLResin
+    count: 30
+    baseLayer: base
+    layerStates:
+    - sheet-resin
+    - sheet-resin_2
+    - sheet-resin_3
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLKevlar
+  parent: BaseItem
+  name: "kevlar"
+  description: "Old world kevlar, fit for some serious armor despite its age."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: kevlar
+    layers:
+    - state: kevlar
+      map: ["base"]
+  - type: Stack
+    stackType: MLKevlar
+    count: 20
+    baseLayer: base
+    layerStates:
+    - kevlar
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLIronIngot
+  parent: BaseItem
+  name: "iron ingots"
+  description: "Solid chunks of iron. Unusable in this state, it'll have to be pressed out into sheets."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: ironingot
+    layers:
+    - state: ironingot
+      map: ["base"]
+  - type: Stack
+    stackType: MLIronIngot
+    count: 20
+    baseLayer: base
+    layerStates:
+    - ironingot
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLIronPowder
+  parent: BaseItem
+  name: "iron powder"
+  description: "Finely pulverized iron. Might be useful for certain factory goods, but you're not sure what else."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: ironpowder
+    layers:
+    - state: ironpowder
+      map: ["base"]
+  - type: Stack
+    stackType: MLIronPowder
+    count: 20
+    baseLayer: base
+    layerStates:
+    - ironpowder
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLScrapCopper
+  parent: BaseItem
+  name: "scrap copper"
+  description: "Pieces of copper wiring and other things. Might be useful for electronic applications, but is too soft for serious weapons and armor."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: scrap_copper
+    layers:
+    - state: scrap_copper
+      map: ["base"]
+  - type: Stack
+    stackType: MLScrapCopper
+    count: 30
+    baseLayer: base
+    layerStates:
+    - scrap_copper
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLGunpowder
+  parent: BaseItem
+  name: "gunpowder"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: gunpowder
+    layers:
+    - state: gunpowder
+      map: ["base"]
+  - type: Stack
+    stackType: MLGunpowder
+    count: 20
+    baseLayer: base
+    layerStates:
+    - gunpowder
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLBullets
+  parent: BaseItem
+  name: "plain bullets"
+  description: "Handfuls of individual bullets. Useless without casings and propellants."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: bullets
+    layers:
+    - state: bullets
+      map: ["base"]
+  - type: Stack
+    stackType: MLBullets
+    count: 20
+    baseLayer: base
+    layerStates:
+    - bullets
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLGoldIngot
+  parent: BaseItem
+  name: "gold ingots"
+  description: "Solid chunks of gold. Not much good in this state for anything but heavy industrial goods."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: goldingot
+    layers:
+    - state: goldingot
+      map: ["base"]
+  - type: Stack
+    stackType: MLGoldIngot
+    count: 20
+    baseLayer: base
+    layerStates:
+    - goldingot
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLSilverIngot
+  parent: BaseItem
+  name: "silver ingots"
+  description: "Solid chunks of ingot. Not much good in this state for anything but heavy industrial goods."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: silveringot
+    layers:
+    - state: silveringot
+      map: ["base"]
+  - type: Stack
+    stackType: MLSilverIngot
+    count: 20
+    baseLayer: base
+    layerStates:
+    - silveringot
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLCopper
+  parent: BaseItem
+  name: "copper ore"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: copper
+    layers:
+    - state: copper
+      map: ["base"]
+  - type: Stack
+    stackType: MLCopper
+    count: 20
+    baseLayer: base
+    layerStates:
+    - copper
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLBarbedwire
+  parent: BaseItem
+  name: "barbed wire"
+  description: "Half-Life: Episode 13 crafting material."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/stack_objects.rsi
+    state: barbedwire
+    layers:
+    - state: barbedwire
+      map: ["base"]
+  - type: Stack
+    stackType: MLBarbedwire
+    count: 10
+    baseLayer: base
+    layerStates:
+    - barbedwire
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 0
+- type: entity
+  id: MLMatScrapElectronic
+  parent: BaseItem
+  name: "Circuit Pieces"
+  description: "A few miscellaneous capacitors, wires and chips for building basic electronics with."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/materials.rsi
+    state: scrap_electronic
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLMatChips
+  parent: BaseItem
+  name: "Advanced Circuit Chips"
+  description: "Complete, precisely made circuitry boards suitable for building advanced electronics."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/materials.rsi
+    state: chips
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLMatCasings
+  parent: BaseItem
+  name: "empty ammo casings"
+  description: "A pile of empty ammo casings in good condition, for making ammunition from."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/materials.rsi
+    state: casings
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5
+- type: entity
+  id: MLMatAntenna
+  parent: BaseItem
+  name: "Destabilizer Antenna"
+  description: "A smashed antenna from a destabilizer. Can be sold on the cargo shuttle, and is a useful proof for a loyalist to have for a deed well done. It can also be a useful component for a rebel..."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Objects/ML/Materials/materials.rsi
+    state: antenna
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 5

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "filtration_machine_A_0"
+    },
+    {
+      "name": "filtration_machine_A_1"
+    },
+    {
+      "name": "filtration_machine_B_0"
+    },
+    {
+      "name": "filtration_machine_B_1"
+    },
+    {
+      "name": "sedementation_0"
+    },
+    {
+      "name": "sedementation_1"
+    }
+  ]
+}

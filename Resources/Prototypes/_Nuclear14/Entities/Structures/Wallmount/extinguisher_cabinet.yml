@@ -26,6 +26,7 @@
       closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14FireExtinguisherCabinetOpen
   parent: N14FireExtinguisherCabinet
   suffix: Open
@@ -38,6 +39,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14FireExtinguisherCabinetFilled
   parent: N14FireExtinguisherCabinet
   suffix: Filled
@@ -55,6 +57,7 @@
     closedState: closed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14FireExtinguisherCabinetFilledOpen
   parent: N14FireExtinguisherCabinetFilled
   suffix: Filled, Open

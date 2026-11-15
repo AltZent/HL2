@@ -2,6 +2,7 @@
 
 # Snakes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobPurpleSnake
   id: MobPurpleSnakeGhost
   components:
@@ -16,6 +17,7 @@
   - type: SalvageMobRestrictions
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSmallPurpleSnake
   id: MobSmallPurpleSnakeGhost
   components:
@@ -32,6 +34,7 @@
 # Delta V variants of Xenos to allow ghost takeover again
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Burrower
   id: MobXenoPlayer
   parent: MobXeno
@@ -47,6 +50,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Praetorian
   parent: MobXenoPraetorianNPC
   id: MobXenoPraetorian
@@ -62,6 +66,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Drone
   parent: MobXenoDroneNPC
   id: MobXenoDrone
@@ -77,6 +82,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Queen
   parent: MobXenoQueenNPC
   id: MobXenoQueen
@@ -92,6 +98,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Ravager
   parent: MobXenoRavagerNPC
   id: MobXenoRavager
@@ -107,6 +114,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Runner
   parent: MobXenoRunnerNPC
   id: MobXenoRunner
@@ -122,6 +130,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Rouny
   parent: MobXenoRounyNPC
   id: MobXenoRouny
@@ -136,6 +145,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Spitter
   parent: MobXenoSpitterNPC
   id: MobXenoSpitter

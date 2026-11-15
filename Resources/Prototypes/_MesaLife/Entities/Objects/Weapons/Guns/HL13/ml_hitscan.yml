@@ -1,0 +1,17 @@
+# Auto-generated ML hitscan (halflife-episode13).
+
+- type: hitscan
+  id: MLImmolatorBeam
+  damage:
+    types:
+      Heat: 24
+  maxLength: 5
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_xray
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: xray
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_xray

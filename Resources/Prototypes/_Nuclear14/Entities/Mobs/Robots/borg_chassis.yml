@@ -15,6 +15,7 @@
 
 # Protectrons
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseRobotChassis
   id: N14RobotProtectron
   name: protectron
@@ -53,6 +54,7 @@
       Do as your masters say with a literal but reasonable level of logic.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotProtectron
   id: N14RobotProtectronBuilder
   name: protectron builder
@@ -99,6 +101,7 @@
     
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotProtectron
   id: N14RobotProtectronFire
   name: protectron firefighter
@@ -131,6 +134,7 @@
       Do as your masters say with a literal but reasonable level of logic.
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotProtectron
   id: N14RobotProtectronPolice
   name: protectron police officer
@@ -164,6 +168,7 @@
         
 # Handy Gutsy
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseRobotChassis
   id: N14RobotMrHandy
   name: mr handy
@@ -203,6 +208,7 @@
   - type: StepTriggerImmune
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotMrHandy
   id: N14RobotMrHandySaw
   name: mr handy
@@ -212,6 +218,7 @@
     sprite: _Nuclear14/Mobs/Robots/mrhandysaw.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotMrHandy
   id: N14RobotMrHandyGun
   name: mr handy
@@ -221,6 +228,7 @@
     sprite: _Nuclear14/Mobs/Robots/mrhandygun.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotMrHandy
   id: N14RobotMrGutsy
   name: mr gutsy
@@ -238,6 +246,7 @@
 # Faction Specific Robots
 ## Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotMrHandy
   id: N14RobotMrHandyVault
   suffix: player, vault
@@ -269,6 +278,7 @@
     - VaultOverseer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RobotMrHandySaw
   id: N14RobotMrHandySawVault
   suffix: player, vault, saw
@@ -334,16 +344,19 @@
     - BOSMidwest
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrHandy, N14RobotBOSMidwestBase]
   id: N14RobotMrHandyBOSMidwest
   suffix: player, BOS Midwest
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrHandySaw, N14RobotBOSMidwestBase]
   id: N14RobotMrHandySawBOSMidwest
   suffix: player, BOS Midwest, saw
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrGutsy, N14RobotBOSMidwestBase]
   id: N14RobotMrGutsyBOSMidwest
   suffix: player, BOS Midwest, gutsy
@@ -383,16 +396,19 @@
     - BOSWashington
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrHandy, N14RobotBOSWashingtonBase]
   id: N14RobotMrHandyBOSWashington
   suffix: player, BOS Washington
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrHandySaw, N14RobotBOSWashingtonBase]
   id: N14RobotMrHandySawBOSWashington
   suffix: player, BOS Washington, saw
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14RobotMrGutsy, N14RobotBOSWashingtonBase]
   id: N14RobotMrGutsyBOSWashington
   suffix: player, BOS Washington, gutsy

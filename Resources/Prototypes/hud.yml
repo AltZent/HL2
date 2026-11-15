@@ -41,7 +41,7 @@
   order: 5
 
 - type: hudTheme
-  id: SS14Fallout2Theme
-  name: ui-options-hud-theme-fallout2
-  path: Fallout2
+  id: SS14MLTheme
+  name: ui-options-hud-theme-ml
+  path: ML
   order: 7

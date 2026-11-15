@@ -1,5 +1,6 @@
 # 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14TentLeatherWall
   name: tent
@@ -47,6 +48,7 @@
   - type: BlockWeather
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TentLeatherWall
   id: N14TentLeatherCorner
   suffix: corner
@@ -58,6 +60,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TentLeatherWall
   id: N14TentClothWall
   name: tent
@@ -79,6 +82,7 @@
         acts: [ "Destruction" ]
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TentClothWall
   id: N14TentClothCorner
   suffix: corner

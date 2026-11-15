@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinBase
   id: ClothingNeckPinNCRRecruit
   name: recruit pin
@@ -15,6 +16,7 @@
       - state: empty-equipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRRecruit
   id: ClothingNeckPinNCRPrivate
   name: private pin
@@ -30,6 +32,7 @@
       - state: gold-equipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRPrivate1st
   name: private 1st pin
@@ -40,6 +43,7 @@
     - state: private1st
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRCorporal
   name: corporal pin
@@ -50,6 +54,7 @@
     - state: corporal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSpecialist
   name: specialist pin
@@ -60,6 +65,7 @@
     - state: specialist
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeant
   name: sergeant pin
@@ -70,6 +76,7 @@
     - state: sergeant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeant1st
   name: sergeant 1st pin
@@ -80,6 +87,7 @@
     - state: sergeant1st
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRMasterSergeant
   name: master sergeant pin
@@ -90,6 +98,7 @@
     - state: mastersergeant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeantMajor
   name: sergeant major pin
@@ -100,6 +109,7 @@
     - state: sergeantmajor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSecondLieutenant
   name: second lieutenant pin
@@ -110,6 +120,7 @@
     - state: secondlieutenant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRFirstlLieutenant
   name: first lieutenant pin
@@ -125,6 +136,7 @@
       - state: silver-equipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRCaptain
   name: captain pin
@@ -140,6 +152,7 @@
       - state: silver-equipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRMajor
   name: major pin
@@ -150,6 +163,7 @@
     - state: major
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRDoctor
   name: doctor pin
@@ -165,6 +179,7 @@
       - state: red-equipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRChiefPhysician
   name: chiefphysician pin

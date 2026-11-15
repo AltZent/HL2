@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerTelevision
   name: wooden television
@@ -31,6 +32,7 @@
           - TabletopMachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: WallmountTelescreenFrame
   name: telescreen frame
@@ -85,6 +87,7 @@
     anchored: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WallmountTelescreenFrame
   id: WallmountTelescreen
   suffix: camera monitor
@@ -116,6 +119,7 @@
 # Wall Televisions
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WallmountTelescreenFrame
   id: WallmountTelevisionFrame
   name: television frame
@@ -145,6 +149,7 @@
         state: television_wallscreen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WallmountTelevisionFrame
   id: WallmountTelevision
   suffix: entertainment

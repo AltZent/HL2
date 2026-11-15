@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "implant"
+    },
+    {
+      "name": "vest_stealth"
+    },
+    {
+      "name": "vest_combat"
+    },
+    {
+      "name": "silencer"
+    },
+    {
+      "name": "gizmo_mark"
+    },
+    {
+      "name": "gizmo_scan"
+    },
+    {
+      "name": "health"
+    },
+    {
+      "name": "spider"
+    },
+    {
+      "name": "slime"
+    },
+    {
+      "name": "emp"
+    },
+    {
+      "name": "species"
+    },
+    {
+      "name": "egg"
+    },
+    {
+      "name": "vent"
+    },
+    {
+      "name": "mindshock"
+    },
+    {
+      "name": "viral"
+    },
+    {
+      "name": "gland"
+    },
+    {
+      "name": "wonderprod"
+    },
+    {
+      "name": "wonderprodStun"
+    },
+    {
+      "name": "wonderprodCuff"
+    },
+    {
+      "name": "wonderprodSleep"
+    },
+    {
+      "name": "wonderprodProbe"
+    },
+    {
+      "name": "teleport",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "console",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "console-c",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "alienpaper"
+    },
+    {
+      "name": "alienpaper_words"
+    },
+    {
+      "name": "camera",
+      "delays": [
+        [
+          0.2,
+          0.1,
+          0.05,
+          0.05,
+          0.1,
+          0.2,
+          0.2,
+          0.1,
+          0.05,
+          0.05,
+          0.1,
+          0.2,
+          0.2,
+          0.1,
+          0.05,
+          0.05,
+          0.1,
+          0.2,
+          0.2,
+          0.1,
+          0.05,
+          0.05,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "experiment-open"
+    },
+    {
+      "name": "experiment"
+    },
+    {
+      "name": "alien-pad-idle"
+    },
+    {
+      "name": "alien-pad-c"
+    },
+    {
+      "name": "alien-pad",
+      "delays": [
+        [
+          0.3,
+          0.1,
+          0.1,
+          0.2,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "dispenser"
+    },
+    {
+      "name": "bed"
+    },
+    {
+      "name": "sheet-abductor"
+    },
+    {
+      "name": "sheet-abductor_2"
+    },
+    {
+      "name": "sheet-abductor_3"
+    },
+    {
+      "name": "tile_abductor"
+    },
+    {
+      "name": "tile-abductor_2"
+    },
+    {
+      "name": "core",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "core-open",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "cell",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "welder"
+    },
+    {
+      "name": "welder-on",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "screwdriver_a",
+      "delays": [
+        [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "wrench",
+      "delays": [
+        [
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "crowbar",
+      "delays": [
+        [
+          1.5,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "cutters"
+    },
+    {
+      "name": "multitool"
+    },
+    {
+      "name": "belt"
+    },
+    {
+      "name": "abductor_headset"
+    },
+    {
+      "name": "multitool_red"
+    },
+    {
+      "name": "mind_device_control",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "mind_device_message",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "chem_dispenser",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "beacon",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "saw"
+    },
+    {
+      "name": "retractor"
+    },
+    {
+      "name": "hemostat"
+    },
+    {
+      "name": "drill",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "cautery",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "scalpel",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "omnitool",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

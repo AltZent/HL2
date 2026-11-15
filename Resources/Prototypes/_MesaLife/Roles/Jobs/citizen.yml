@@ -1,0 +1,22 @@
+# ML: единственная выбираемая роль — Гражданин (City 10).
+# Должности и доступ по очкам лояльности (Civic Status) добавляются следующей партией.
+- type: job
+  id: Citizen
+  name: job-name-citizen
+  description: job-description-citizen
+  playTimeTracker: JobCitizen
+  setPreference: true
+  canBeAntag: true
+  icon: JobIconPassenger
+  supervisors: job-supervisors-nobody
+  startingGear: MLCitizenGear
+
+- type: playTimeTracker
+  id: JobCitizen
+
+- type: startingGear
+  id: MLCitizenGear
+  equipment:
+    jumpsuit: MLUniformCitizen
+    back: MLBackSack
+    shoes: MLShoesWorkboots

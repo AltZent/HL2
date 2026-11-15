@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bedroll"
+    },
+    {
+      "name": "bedroll_o",
+      "directions": 8
+    },
+    {
+      "name": "bandages_prop",
+      "directions": 8
+    },
+    {
+      "name": "chestdrawer"
+    },
+    {
+      "name": "chestdrawer-open"
+    },
+    {
+      "name": "tallcabinet"
+    },
+    {
+      "name": "tallcabinet-open"
+    },
+    {
+      "name": "chestdrawerwood"
+    },
+    {
+      "name": "chestdrawerwood-open"
+    },
+    {
+      "name": "tallcabinetwood"
+    },
+    {
+      "name": "tallcabinetwood-open"
+    },
+    {
+      "name": "coatrack0"
+    },
+    {
+      "name": "coatrack1"
+    },
+    {
+      "name": "coat_det"
+    },
+    {
+      "name": "coat_lab"
+    },
+    {
+      "name": "coat_cmo"
+    },
+    {
+      "name": "door"
+    },
+    {
+      "name": "door_open"
+    },
+    {
+      "name": "base"
+    },
+    {
+      "name": "filingcabinet"
+    },
+    {
+      "name": "filingcabinet-open"
+    },
+    {
+      "name": "hoop",
+      "directions": 4
+    },
+    {
+      "name": "jukebox"
+    },
+    {
+      "name": "laser"
+    },
+    {
+      "name": "projectile"
+    },
+    {
+      "name": "open"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "off"
+    }
+  ]
+}

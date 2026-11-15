@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingBootsBlack
   name: black boots
@@ -18,6 +19,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesMilitaryBase
   id: N14ClothingBootsCombat
   name: combat boots
@@ -30,6 +32,7 @@
   - type: NoSlip
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesMilitaryBase
   id: N14ClothingBootsCombatMK2
   name: combat boots MK2
@@ -42,6 +45,7 @@
   - type: NoSlip
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingBootsCowboy
   name: cowboy boots
@@ -58,6 +62,7 @@
       amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingBootsFire
   name: firefighter boots
@@ -69,6 +74,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/firefighter.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingBootsLeather
   name: leather boots
@@ -94,6 +100,7 @@
           - Sidearm
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingBootsMountie
   name: mountie leather boots

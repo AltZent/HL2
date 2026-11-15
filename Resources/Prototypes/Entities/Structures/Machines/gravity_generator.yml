@@ -81,6 +81,7 @@
     price: 5000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GravityGeneratorMini
   parent: [ GravityGenerator, ConstructibleMachine ]
   name: mini gravity generator

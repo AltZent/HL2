@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisGeneric
   parent: BaseBorgChassisNT
   components:
@@ -31,6 +32,7 @@
     speechVerb: Robotic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisMining
   parent: BaseBorgChassisNT
   name: salvage cyborg
@@ -87,6 +89,7 @@
     templateId: borgTall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisEngineer
   parent: BaseBorgChassisNT
   name: engineer cyborg
@@ -137,6 +140,7 @@
     laws: Engineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisJanitor
   parent: BaseBorgChassisNT
   name: janitor cyborg
@@ -195,6 +199,7 @@
     laws: Janitor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisMedical
   parent: BaseBorgChassisNT
   name: medical cyborg
@@ -268,6 +273,7 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisService
   parent: BaseBorgChassisNT
   name: service cyborg
@@ -316,6 +322,7 @@
     templateId: borgTall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
   name: syndicate assault cyborg
@@ -347,6 +354,7 @@
       node: syndicateassault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisSyndicateMedical
   parent: BaseBorgChassisSyndicate
   name: syndicate medical cyborg
@@ -376,6 +384,7 @@
       node: syndicatemedical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
   name: syndicate saboteur cyborg

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: DiseaseSwab
   name: sterile swab
@@ -20,6 +21,7 @@
     # - Botany
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAmmoProvider # this is for cycling swabs out and not spawning 30 entities, trust
   id: BoxMouthSwab
   name: sterile swab dispenser
@@ -41,6 +43,7 @@
     # - Botany
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: Vaccine
   name: vaccine

@@ -75,6 +75,7 @@
 # Pipes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalPipeBroken
   parent: DisposalPipeBase
   name: broken disposal pipe
@@ -91,6 +92,7 @@
     node: broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalPipe
   parent: DisposalPipeBase
   name: disposal pipe segment
@@ -119,6 +121,7 @@
     node: pipe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalTagger
   parent: DisposalPipeBase
   name: disposal pipe tagger
@@ -153,6 +156,7 @@
     node: tagger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalTrunk
   parent: DisposalPipeBase
   name: disposal trunk
@@ -189,6 +193,7 @@
     node: trunk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalRouter
   parent: DisposalPipeBase
   name: disposal router
@@ -237,6 +242,7 @@
     node: router
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalRouterFlipped
   description: A three-way router. Entities with matching tags get routed to the side.
   parent: DisposalRouter
@@ -278,6 +284,7 @@
     node: routerflipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalJunction
   parent: DisposalPipeBase
   name: disposal junction
@@ -321,6 +328,7 @@
     node: junction
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalJunctionFlipped
   description: A three-way junction. The arrow indicates where items exit.
   parent: DisposalJunction
@@ -362,6 +370,7 @@
     node: junctionflipped
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalYJunction
   parent: DisposalPipeBase
   name: disposal y-junction
@@ -402,6 +411,7 @@
     node: yJunction
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalBend
   parent: DisposalPipeBase
   name: disposal bend
@@ -438,6 +448,7 @@
     node: bend
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DisposalJunction
   id: DisposalSignalRouter
   name: disposal signal router
@@ -477,6 +488,7 @@
     node: signal_router
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DisposalSignalRouter
   id: DisposalSignalRouterFlipped
   suffix: flipped

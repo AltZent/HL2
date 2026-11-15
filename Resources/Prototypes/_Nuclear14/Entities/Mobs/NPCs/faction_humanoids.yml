@@ -1,5 +1,6 @@
 # Town of [insert map here] should have its own NPCs for protection.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Civil Militia
   parent: N14BaseMobRaider
   id: N14MobNPCTown
@@ -14,6 +15,7 @@
         - TownMilitiaNPC
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town Enforcer
   parent: N14BaseMobRaider
   id: N14MobNPCTownGuard
@@ -59,7 +61,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -101,6 +103,7 @@
 
 # Midwestern chapter's humanoid NPCs for event making and such.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chapter Serf
   parent: N14BaseMobRaider
   id: N14MobNPCMBoSSerf
@@ -116,6 +119,7 @@
         - MBoSSerfNPC
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight
   parent: N14BaseMobRaider
   id: N14MobNPCMBoSKnight
@@ -161,7 +165,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -203,6 +207,7 @@
 
 # Washington chapter's humanoid NPCs for event making and such.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Initiate
   parent: N14BaseMobRaider
   id: N14MobNPCWBoSInitiate
@@ -218,6 +223,7 @@
         - WBoSInitiateNPC
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight
   parent: N14BaseMobRaider
   id: N14MobNPCWBoSKnight
@@ -263,7 +269,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -305,6 +311,7 @@
 
 # The NCR Army's humanoid NPCs for event making and such.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Army Guard
   parent: N14BaseMobRaider
   id: N14MobNPCNCRGuard
@@ -320,6 +327,7 @@
         - NCRAGuardNPC
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Army Trooper
   parent: N14BaseMobRaider
   id: N14MobNPCNCRTrooper
@@ -365,7 +373,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -407,6 +415,7 @@
 
 # The Blue Line caravan's humanoid NPCs for event making and such.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Caravan Mercenary
   parent: N14BaseMobRaider
   id: N14MobNPCCaravanMerc
@@ -452,7 +461,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -494,6 +503,7 @@
 
 # The Tribe faction's humanoid NPCs for event making and such.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Skirmisher
   parent: N14BaseMobRaider
   id: N14MobNPCTribeSkir
@@ -539,7 +549,7 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       - shader: StencilMask
         map: ["enum.HumanoidVisualLayers.StencilMask"]
         sprite: Mobs/Customization/masking_helpers.rsi
@@ -580,6 +590,7 @@
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Warrior
   parent: N14BaseMobRaider
   id: N14MobNPCTribeWarr

@@ -17,6 +17,7 @@
         map: [ "enum.PowerDeviceVisualLayers.Powered" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14HandheldHealthAnalyzer
   parent: [ N14HandheldHealthAnalyzerUnpowered, PowerCellSlotSmallItem]
   suffix: Powered
@@ -27,6 +28,7 @@
   - type: ActivatableUIRequiresPowerCell
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14HandheldHealthAnalyzerAdmin
   parent: [ N14HandheldHealthAnalyzerUnpowered, PowerCellSlotSmallItem]
   suffix: Admin

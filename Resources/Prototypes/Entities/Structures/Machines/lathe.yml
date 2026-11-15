@@ -86,6 +86,7 @@
       SpaceGlue: 5 # no change from normal lathe, overheat!!!
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Autolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: autolathe
@@ -247,6 +248,7 @@
     - MagazineMagnumLeverRifle # Goobstation
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
   name: hyper convection autolathe
@@ -258,6 +260,7 @@
     board: AutolatheHyperConvectionMachineCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Protolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: protolathe
@@ -433,6 +436,7 @@
     - WeaponGunLaserCarbineAutomatic # DeltaV - IK-60 Laser Carbine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
   name: hyper convection protolathe
@@ -444,6 +448,7 @@
     board: ProtolatheHyperConvectionMachineCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CircuitImprinter
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: circuit imprinter
@@ -605,6 +610,7 @@
   - type: RequireProjectileTarget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
   name: hyper convection circuit imprinter
@@ -616,6 +622,7 @@
     board: CircuitImprinterHyperConvectionMachineCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ExosuitFabricator
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: exosuit fabricator
@@ -797,6 +804,7 @@
     - Robotics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Biofabricator
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   name: biofabricator
@@ -845,6 +853,7 @@
     - SpaceTickCube
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SecurityTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: security techfab
@@ -1067,6 +1076,7 @@
       - Metal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AmmoTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: ammo techfab
@@ -1128,6 +1138,7 @@
           - Metal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MedicalTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: medical techfab
@@ -1210,6 +1221,7 @@
     stealGroup: MedicalTechFabCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: UniformPrinter
   name: uniform printer
@@ -1439,6 +1451,7 @@
       - Metal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: OreProcessor
   name: ore processor
@@ -1489,6 +1502,7 @@
   - type: MiningPointsLathe # DeltaV
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OreProcessor
   id: OreProcessorIndustrial
   name: industrial ore processor
@@ -1520,6 +1534,7 @@
     - MaterialDiamond
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: Sheetifier
   name: sheet-meister 2000
@@ -1551,6 +1566,7 @@
     - SheetPaper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: PrizeCounter
   name: prize counter

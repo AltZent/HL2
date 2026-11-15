@@ -45,6 +45,16 @@ public sealed partial class ProjectileComponent : Component
     public DamageSpecifier Damage = new();
 
     /// <summary>
+    ///     ML: armor penetration value from 0 to 1.
+    ///     Compared against the target's <see cref="MLArmorComponent.Rating"/>:
+    ///     penetration >= rating means full damage, otherwise damage is scaled down.
+    ///     0 disables the check (projectile is considered unpenetrating-agnostic).
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite)]
+    public float Penetration;
+
+    /// <summary>
     ///     If the projectile should be deleted on collision.
     /// </summary>
     [DataField]

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sofa"
+    },
+    {
+      "name": "couch_hori1"
+    },
+    {
+      "name": "couch_hori2"
+    },
+    {
+      "name": "couch_hori3"
+    },
+    {
+      "name": "bench_hor1"
+    },
+    {
+      "name": "bench_hor2"
+    },
+    {
+      "name": "bench_hor3"
+    },
+    {
+      "name": "couch_vet1"
+    },
+    {
+      "name": "couch_vet2"
+    },
+    {
+      "name": "couch_vet3"
+    },
+    {
+      "name": "bench_vet1"
+    },
+    {
+      "name": "bench_vet2"
+    },
+    {
+      "name": "bench_vet3"
+    },
+    {
+      "name": "pews",
+      "directions": 4
+    },
+    {
+      "name": "pews_f",
+      "directions": 4
+    },
+    {
+      "name": "pews_alt",
+      "directions": 8
+    }
+  ]
+}

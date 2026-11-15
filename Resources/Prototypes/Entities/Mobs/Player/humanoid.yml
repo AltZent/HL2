@@ -17,6 +17,7 @@
 ## Death Squad
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerDeathSquad
   name: Death Squad Agent
   suffix: ERTRole, Death Squad
@@ -56,6 +57,7 @@
 ## ERT Leader
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTLeader
   name: ERT leader
   suffix: ERTRole, Basic
@@ -92,6 +94,7 @@
       - NamesLastMilitary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTLeaderEVA
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT leader
@@ -118,6 +121,7 @@
       prototypes: [ ERTLeaderGearEVA ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTLeaderEVALecter
   parent: RandomHumanoidSpawnerERTLeaderEVA
   suffix: ERTRole, Lecter, EVA
@@ -142,6 +146,7 @@
 ## ERT Chaplain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTChaplain
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT chaplain
@@ -176,6 +181,7 @@
       prototypes: [ ERTChaplainGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTChaplainEVA
   parent: RandomHumanoidSpawnerERTChaplain
   name: ERT chaplain
@@ -204,6 +210,7 @@
 ## ERT Janitor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTJanitor
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT janitor
@@ -238,6 +245,7 @@
       prototypes: [ ERTJanitorGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTJanitorEVA
   parent: RandomHumanoidSpawnerERTJanitor
   name: ERT janitor
@@ -266,6 +274,7 @@
 ## ERT Engineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTEngineer
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT engineer
@@ -300,6 +309,7 @@
       prototypes: [ ERTEngineerGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTEngineerEVA
   parent: RandomHumanoidSpawnerERTEngineer
   name: ERT engineer
@@ -328,6 +338,7 @@
 ## ERT Security
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTSecurity
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT security
@@ -362,6 +373,7 @@
       prototypes: [ ERTSecurityGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTSecurityEVA
   parent: RandomHumanoidSpawnerERTSecurity
   name: ERT security
@@ -388,6 +400,7 @@
       prototypes: [ ERTSecurityGearEVA ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTSecurityEVALecter
   parent: RandomHumanoidSpawnerERTSecurityEVA
   suffix: ERTRole, Lecter, EVA
@@ -412,6 +425,7 @@
 ## ERT Medic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTMedical
   parent: RandomHumanoidSpawnerERTLeader
   name: ERT medic
@@ -446,6 +460,7 @@
       prototypes: [ ERTMedicalGear ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerERTMedicalEVA
   parent: RandomHumanoidSpawnerERTMedical
   name: ERT medic
@@ -474,6 +489,7 @@
 ## CBURN
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerCBURNUnit
   name: CBURN Agent
   suffix: ERTRole
@@ -507,6 +523,7 @@
 ## Central Command
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: CentCom official
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
@@ -536,11 +553,12 @@
 ## Syndicate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerSyndicateAgent
   name: syndicate agent
   components:
     - type: Sprite
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomMetadata
       nameSegments: [ names_death_commando ]
@@ -558,11 +576,12 @@
       prototypes: [SyndicateOperativeGearExtremelyBasic]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerNukeOp
   name: Nuclear Operative
   components:
     - type: Sprite
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: NukeOp
@@ -579,6 +598,7 @@
       powerRollMultiplier: 7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSpawnerCluwne
   name: Cluwne
   suffix: spawns a cluwne
@@ -612,6 +632,7 @@
 ## Lost Cargo technician
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lost cargo technician spawner
   id: LostCargoTechnicianSpawner
   parent: MarkerBase
@@ -627,6 +648,7 @@
       chance: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidLostCargoTechnician
   name: lost cargo technician ghost role
   components:
@@ -657,6 +679,7 @@
 # Clown troupe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: clown troupe spawner
   id: ClownTroupeSpawner
   parent: MarkerBase
@@ -674,6 +697,7 @@
       rareChance: 0.3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidClownTroupe
   name: clown troupe ghost role
   components:
@@ -684,6 +708,7 @@
       settings: ClownTroupe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidClownTroupeBanana
   name: banana clown troupe
   parent: RandomHumanoidClownTroupe
@@ -726,6 +751,7 @@
 # Traveling exotic chef
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: traveling chef spawner
   id: TravelingChefSpawner
   parent: MarkerBase
@@ -740,6 +766,7 @@
       - RandomHumanoidTravelingChef
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidTravelingChef
   name: traveling chef ghost role
   components:
@@ -770,6 +797,7 @@
 # Disaster victim
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: disaster victim spawner
   id: DisasterVictimSpawner
   parent: MarkerBase
@@ -787,6 +815,7 @@
     - MobSkeletonCloset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidDisasterVictimRD
   name: disaster victim RD ghost role
   components:
@@ -797,6 +826,7 @@
       settings: DisasterVictimResearchDirector
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidDisasterVictimCMO
   parent: RandomHumanoidDisasterVictimRD
   name: disaster victim CMO ghost role
@@ -805,6 +835,7 @@
       settings: DisasterVictimCMO
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidDisasterVictimCaptain
   parent: RandomHumanoidDisasterVictimRD
   name: disaster victim Captain ghost role
@@ -869,6 +900,7 @@
 # Syndie Disaster Victim
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: syndie disaster victim spawner
   id: SyndieDisasterVictimSpawner
   parent: MarkerBase
@@ -883,6 +915,7 @@
     - RandomHumanoidSyndieDisasterVictim
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RandomHumanoidSyndieDisasterVictim
   name: syndie disaster victim ghost role
   components:

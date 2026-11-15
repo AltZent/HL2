@@ -85,6 +85,7 @@
 
 # Normal
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfWood
   parent: ShelfBase
   name: wooden shelf
@@ -115,6 +116,7 @@
     node: ShelfWood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfMetal
   parent: ShelfBase
   name: metal shelf
@@ -150,6 +152,7 @@
     node: ShelfMetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfGlass
   parent: ShelfBase
   name: glass shelf
@@ -186,6 +189,7 @@
 
 # Reinforced
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfRWood
   parent: ShelfBaseReinforced
   name: sturdy wood shelf
@@ -223,6 +227,7 @@
     node: ShelfRWood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfRMetal
   parent: ShelfBaseReinforced
   name: sturdy metal shelf
@@ -257,6 +262,7 @@
     node: ShelfRMetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfRGlass
   parent: ShelfBaseReinforced
   name: sturdy glass shelf
@@ -292,6 +298,7 @@
 
 # Departmental
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfBar
   parent: ShelfBase
   name: bar shelf
@@ -340,6 +347,7 @@
     node: ShelfBar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfKitchen
   parent: ShelfBase
   name: cooking shelf
@@ -402,6 +410,7 @@
     node: ShelfKitchen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShelfChemistry
   parent: ShelfBaseReinforced
   name: chemical shelf
@@ -466,6 +475,7 @@
 # Try to keep alphabetical sorting if adding more
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ShelfChemistry
   id: ShelfChemistryChemistrySecure
   suffix: Chemistry, Secure

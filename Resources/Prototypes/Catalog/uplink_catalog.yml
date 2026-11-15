@@ -1229,7 +1229,7 @@
   id: UplinkDnaScramblerImplant
   name: uplink-dna-scrambler-implanter-name
   description: uplink-dna-scrambler-implanter-desc
-  icon: { sprite: /Textures/Mobs/Species/Human/parts.rsi, state: full }
+  icon: { sprite: /Textures/_MesaLife/Mobs/Species/Human/parts.rsi, state: full }
   productEntity: DnaScramblerImplanter
   discountCategory: usualDiscounts
   discountDownTo:

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: "candy bucket"
   parent: BaseItem
   id: CandyBucket

@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "oldbox"
+    },
+    {
+      "name": "oldbar1"
+    },
+    {
+      "name": "oldbar2"
+    },
+    {
+      "name": "oldbar3"
+    },
+    {
+      "name": "oldflavorbar"
+    },
+    {
+      "name": "nutripaste"
+    },
+    {
+      "name": "rawpierogi"
+    },
+    {
+      "name": "pierogi"
+    },
+    {
+      "name": "pierogiration"
+    },
+    {
+      "name": "porknbean"
+    },
+    {
+      "name": "porknbean_open"
+    },
+    {
+      "name": "porknbean_empty"
+    },
+    {
+      "name": "seafood"
+    },
+    {
+      "name": "seafood_open"
+    },
+    {
+      "name": "seafood_empty"
+    },
+    {
+      "name": "seafoodexpired"
+    },
+    {
+      "name": "seafoodexpired_open"
+    },
+    {
+      "name": "seafoodexpired_empty"
+    },
+    {
+      "name": "crisps"
+    },
+    {
+      "name": "crisps_open"
+    },
+    {
+      "name": "crisps_empty"
+    },
+    {
+      "name": "pinenutscan"
+    },
+    {
+      "name": "pinenutscan_open"
+    },
+    {
+      "name": "pinenutscan_empty"
+    },
+    {
+      "name": "devilledbar"
+    },
+    {
+      "name": "mayobox"
+    },
+    {
+      "name": "xenstew"
+    },
+    {
+      "name": "porkstew"
+    },
+    {
+      "name": "bar_package"
+    },
+    {
+      "name": "bar_package_2"
+    },
+    {
+      "name": "bar_package_3"
+    },
+    {
+      "name": "bar_package_4"
+    },
+    {
+      "name": "bar_package_crumpled"
+    },
+    {
+      "name": "bar_package_2_crumpled"
+    },
+    {
+      "name": "bar_package_3_crumpled"
+    },
+    {
+      "name": "bar_package_crumpled_4"
+    },
+    {
+      "name": "water_bar"
+    },
+    {
+      "name": "pork_bar"
+    },
+    {
+      "name": "food_package"
+    },
+    {
+      "name": "food_package_2"
+    },
+    {
+      "name": "food_package_3"
+    },
+    {
+      "name": "food_package_4"
+    },
+    {
+      "name": "food_package_open"
+    },
+    {
+      "name": "food_package_2_open"
+    },
+    {
+      "name": "food_package_3_open"
+    },
+    {
+      "name": "food_package_4_open"
+    },
+    {
+      "name": "flour_paste"
+    },
+    {
+      "name": "egg_paste"
+    },
+    {
+      "name": "chicken_paste"
+    },
+    {
+      "name": "cookie"
+    },
+    {
+      "name": "pill_bottle"
+    },
+    {
+      "name": "cardboardbox"
+    },
+    {
+      "name": "cardboardbox_open"
+    },
+    {
+      "name": "bar_package_4_open"
+    },
+    {
+      "name": "beef_patty"
+    },
+    {
+      "name": "grilledfish"
+    },
+    {
+      "name": "nutricube"
+    }
+  ]
+}

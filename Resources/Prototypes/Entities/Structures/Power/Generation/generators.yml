@@ -171,6 +171,7 @@
 # Generators in use
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGenerator
   id: GeneratorBasic
   suffix: Basic, 3kW
@@ -179,6 +180,7 @@
     supplyRate: 3000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGenerator
   id: GeneratorBasic15kW
   suffix: Basic, 15kW
@@ -187,6 +189,7 @@
       supplyRate: 15000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountBasic
   suffix: Basic, 3kW
@@ -206,6 +209,7 @@
       board: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
   name: shuttle APU
@@ -229,6 +233,7 @@
 # RTG - no fuel requirement
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseGenerator
   id: GeneratorRTG
   name: RTG
@@ -277,6 +282,7 @@
 # TODO: need radioactive fallout when destroyed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
   name: damaged RTG

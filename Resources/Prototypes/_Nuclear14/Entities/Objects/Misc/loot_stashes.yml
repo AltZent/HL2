@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: little stash
   parent: BaseItem
   id: N14RaiderStash

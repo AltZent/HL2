@@ -443,7 +443,7 @@
   id: Brain
   name: food-sequence-content-brain
   sprites:
-  - sprite: Mobs/Species/Human/organs.rsi
+  - sprite: _MesaLife/Mobs/Species/Human/organs.rsi
     state: brain
   tags:
   - Brain

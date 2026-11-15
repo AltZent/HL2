@@ -156,6 +156,7 @@
 # TODO: Give all items in orGroup: "JunkItem" material composition they can be "welded", "wrenched" or "pried" into
 #MARK: Products 'n" Bits
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseContainer
   id: N14JunkAbraxoCleaner
   name: Abraxo Cleaner
@@ -180,6 +181,7 @@
       - Abraxo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14Junk8Ball
   name: 8 Ball
@@ -190,6 +192,7 @@
     scale: 0.5, 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Junk8Ball
   id: N14JunkBaseball
   name: baseball
@@ -201,6 +204,7 @@
     tags:
       - Baseball
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkCoffeepot
   name: coffee pot
@@ -214,6 +218,7 @@
         maxVol: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkCookpot
   name: cook pot
@@ -232,6 +237,7 @@
         maxVol: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseWood
   id: N14JunkCrutch
   name: crutch
@@ -241,6 +247,7 @@
     state: crutch
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkDuctTape
   name: duct tape
@@ -255,6 +262,7 @@
     - DuctTape
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkIron
   name: iron
@@ -271,6 +279,7 @@
       orGroup: Metal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14JunkItemBaseAluminum , BoxCardboard ]
   id: N14JunkLunchbox
   name: lunchbox
@@ -359,6 +368,7 @@
         prob: 0.06
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkTeapot
   name: teapot
@@ -374,6 +384,7 @@
     tags:
     - JunkKettle
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkTimer
   name: timer
@@ -385,6 +396,7 @@
     tags: 
     - JunkTimer
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkTincan
   name: tin can
@@ -397,6 +409,7 @@
     - Tincan
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseAluminum
   id: N14JunkToaster
   name: toaster
@@ -406,6 +419,7 @@
     state: toaster
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseLead
   id: N14JunkToyNukaTruck
   name: toy Nuka-Cola truck
@@ -415,6 +429,7 @@
     state: toy_Nuka_truck
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseLead
   id: N14JunkToyRacecar
   name: toy race car
@@ -424,6 +439,7 @@
     state: toy_race_car
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseContainer
   id: N14JunkTurpentine
   name: turpentine
@@ -442,6 +458,7 @@
       - Turpentine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkVaultCanteen
   name: vault canteen
@@ -470,6 +487,7 @@
         type: TransferAmountBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkVaultCanteen
   id: N14JunkCeramicFlask
   name: ceramic flask
@@ -479,6 +497,7 @@
     state: ceramic-flask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseContainer
   id: N14JunkWonderglue
   name: Wonderglue
@@ -501,6 +520,7 @@
 
 #MARK: Gun Parts
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsAction
   name: gun action (part)
@@ -513,6 +533,7 @@
     - Action
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseAluminum
   id: N14JunkGunpartsAdvancedFrame
   name: gun frame (part)
@@ -525,6 +546,7 @@
     - N14AdvancedFrame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsBarrel
   name: gun barrel (part)
@@ -537,6 +559,7 @@
     - Barrel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsBolt
   name: gun bolt(part)
@@ -549,6 +572,7 @@
     - Bolt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsFrame
   name: gun frame(part)
@@ -561,6 +585,7 @@
     - GunFrame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsFramePistol
   name: pistol frame(part)
@@ -573,6 +598,7 @@
     - PistolFrame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsReceiver
   name: receiver(part)
@@ -585,6 +611,7 @@
     - Receiver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRecoilComp
   name: recoil compensator(part)
@@ -597,6 +624,7 @@
     - RecoilComp
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleFrame
   name: rifle frame(part)
@@ -609,6 +637,7 @@
     - RifleFrame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleStock
   name: rifle stock(part)
@@ -621,6 +650,7 @@
     - RifleStock1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleScope
   name: rifle scope(part)
@@ -633,6 +663,7 @@
     - RifleScope
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsStock
   name: stock(part)
@@ -645,6 +676,7 @@
     - Stock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBase
   id: N14JunkGunpartsStockWood
   name: stock(part)
@@ -657,6 +689,7 @@
     - StockWood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsTrigger
   name: trigger(part)
@@ -669,6 +702,7 @@
     - Trigger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsWeaponParts1
   name: energy weapon parts
@@ -681,6 +715,7 @@
     - WeaponParts1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsWeaponParts2
   name: energy weapon parts
@@ -693,6 +728,7 @@
     - WeaponParts2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseAluminum
   id: N14JunkGunpartsWeaponParts3
   name: energy weapon parts
@@ -707,6 +743,7 @@
 
 #MARK: Components
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkComponentBoard1
   name: circuit board
@@ -716,6 +753,7 @@
     state: board_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkComponentBoard2
   name: circuit board
@@ -725,6 +763,7 @@
     state: board_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkComponentBoard3
   name: circuit board
@@ -734,6 +773,7 @@
     state: board_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseGlass
   id: N14JunkComponentBulb1
   name: bulb
@@ -743,6 +783,7 @@
     state: bulb_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseGlass
   id: N14JunkComponentBulb2
   name: bulb
@@ -752,6 +793,7 @@
     state: bulb_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseGlass
   id: N14JunkComponentBulb3
   name: bulb
@@ -761,6 +803,7 @@
     state: bulb_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentBuzzer
   name: buzzer
@@ -770,6 +813,7 @@
     state: buzzer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentCapacitor1
   name: capacitor
@@ -779,6 +823,7 @@
     state: capacitor_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentCapacitor2
   name: capacitor
@@ -791,6 +836,7 @@
     - Capacitor2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentCapacitor3
   name: capacitor
@@ -800,6 +846,7 @@
     state: capacitor_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentDiode1
   name: diode
@@ -809,6 +856,7 @@
     state: diode_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentDiode2
   name: diode
@@ -821,6 +869,7 @@
     - Diode2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentDiode3
   name: diode
@@ -830,6 +879,7 @@
     state: diode_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentMainboard
   name: mainframe board
@@ -842,6 +892,7 @@
     - Mainboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentFuse1
   name: fuse
@@ -851,6 +902,7 @@
     state: fuse_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentFuse2
   name: fuse
@@ -860,6 +912,7 @@
     state: fuse_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentGearLarge
   name: large gear
@@ -874,6 +927,7 @@
     - Gear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentGearSmall
   name: small gear
@@ -888,6 +942,7 @@
     - GearSmall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseGlass
   id: N14JunkComponentIgniter
   name: igniter
@@ -912,6 +967,7 @@
       Circuitry: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentResistor1
   name: resistor
@@ -921,6 +977,7 @@
     state: resistor_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentResistor2
   name: resistor
@@ -933,6 +990,7 @@
     - Resistor2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentResistor3
   name: resistor
@@ -942,6 +1000,7 @@
     state: resistor_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentScrew
   name: screw
@@ -956,6 +1015,7 @@
     - Screw
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentSensor
   name: sensor board
@@ -968,6 +1028,7 @@
     - Sensor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentSensorModule
   name: sensor module
@@ -980,6 +1041,7 @@
     - SensorModule
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkItemBasePlastic
   id: N14JunkComponentSwitch
   name: sensor module
@@ -992,6 +1054,7 @@
     - Switch
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentTransistor1
   name: transistor
@@ -1001,6 +1064,7 @@
     state: transistor_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentTransistor2
   name: transistor
@@ -1013,6 +1077,7 @@
     - Transistor2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkComponentElectronic
   id: N14JunkComponentTransistor3
   name: transistor

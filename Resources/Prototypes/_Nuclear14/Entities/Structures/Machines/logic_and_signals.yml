@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SignalButton # because indestructible, use the SS14 one for destructible
   name: signal button
   description: It's a button for activating something.
@@ -34,6 +35,7 @@
       - Pressed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14SignalButton, N14ComputerTerminalWallControls ] # See Terminals.yml
   id: N14ControlTerminalButton
   suffix: button
@@ -46,6 +48,7 @@
     range: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ControlTerminalButton
   id: N14ControlTerminalVault
   suffix: vault door
@@ -55,6 +58,7 @@
     
 # Vault Door Controller
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignalButton
   id: N14DoorVaultControls
   name: Vault Door Controls
@@ -72,6 +76,7 @@
     offset: 0, 0
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorVaultControls
   id: N14DoorVaultControlsLocked
   suffix: overseer locked

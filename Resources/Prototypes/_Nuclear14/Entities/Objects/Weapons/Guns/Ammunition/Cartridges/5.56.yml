@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Cartridge556Rifle
   name: cartridge (5.56mm)
   parent: BaseCartridgeLightRifle

@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "military",
+      "directions": 4
+    },
+    {
+      "name": "military_pantera",
+      "directions": 4
+    },
+    {
+      "name": "military_pantera_poland",
+      "directions": 4
+    },
+    {
+      "name": "hardhat",
+      "directions": 4
+    },
+    {
+      "name": "hardhat0_mining",
+      "directions": 4
+    },
+    {
+      "name": "hardhat1_mining",
+      "directions": 4
+    },
+    {
+      "name": "bio_boiler",
+      "directions": 4
+    },
+    {
+      "name": "hev",
+      "directions": 4
+    },
+    {
+      "name": "beanie_base",
+      "directions": 4
+    },
+    {
+      "name": "milhelm",
+      "directions": 4
+    },
+    {
+      "name": "milhelm_poland",
+      "directions": 4
+    },
+    {
+      "name": "headcrab",
+      "directions": 4
+    },
+    {
+      "name": "steel_helmet",
+      "directions": 4
+    },
+    {
+      "name": "combine_helmet",
+      "directions": 4
+    },
+    {
+      "name": "steel_helmet_poland",
+      "directions": 4
+    },
+    {
+      "name": "military_poland",
+      "directions": 4
+    },
+    {
+      "name": "poland_heavy",
+      "directions": 4
+    },
+    {
+      "name": "cleanup",
+      "directions": 4
+    },
+    {
+      "name": "cleanupforeman",
+      "directions": 4
+    },
+    {
+      "name": "scientist",
+      "directions": 4
+    },
+    {
+      "name": "gonomecrab",
+      "directions": 4
+    },
+    {
+      "name": "scouthat",
+      "directions": 4
+    },
+    {
+      "name": "firehood",
+      "directions": 4
+    },
+    {
+      "name": "beret",
+      "directions": 4
+    },
+    {
+      "name": "chef",
+      "directions": 4
+    },
+    {
+      "name": "bdu",
+      "directions": 4
+    }
+  ]
+}

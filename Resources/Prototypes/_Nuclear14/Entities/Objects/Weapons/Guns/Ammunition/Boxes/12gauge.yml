@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseItem
   id: BaseMagazineBox12gauge
@@ -23,6 +24,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBox12gauge
   id: MagazineBox12gauge
   name: ammunition box (12 gauge)

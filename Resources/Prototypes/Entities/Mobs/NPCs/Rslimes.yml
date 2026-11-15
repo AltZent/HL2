@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeIchor
   parent: ReagentSlime
   suffix: Ichor
@@ -16,6 +17,7 @@
         color: "#f4692e"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeBleach
   parent: ReagentSlime
   suffix: Bleach
@@ -33,6 +35,7 @@
         color: "#a1000b"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeSoap
   parent: ReagentSlime
   suffix: Soap
@@ -50,6 +53,7 @@
         color: "#c8dfc9"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeSpacelube
   parent: ReagentSlime
   suffix: Spacelube
@@ -67,6 +71,7 @@
         color: "#77b58e"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeBuzzachloricbees
   parent: ReagentSlime
   suffix: Buzzachloricbees
@@ -84,6 +89,7 @@
         color: "#FFD35D"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeWehjuice
   parent: ReagentSlime
   suffix: Wehjuice
@@ -101,6 +107,7 @@
         color: "#59b23a"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentCognizine
   parent: ReagentSlime
   suffix: Cognizine
@@ -118,6 +125,7 @@
         color: "#b50ee8"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeNecrosol
   parent: ReagentSlime
   suffix: Necrosol
@@ -135,6 +143,7 @@
         color: "#86a5bd"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeSpaceDrugs
   parent: ReagentSlime
   suffix: SpaceDrugs
@@ -152,6 +161,7 @@
         color: "#63806e"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeUnstableMutagen
   parent: ReagentSlime
   suffix: UnstableMutagen
@@ -169,6 +179,7 @@
         color: "#00ff5f"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimeLead
   parent: ReagentSlime
   suffix: Lead
@@ -186,6 +197,7 @@
         color: "#5C6274"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimechlorinetriflouride
   parent: ReagentSlime
   suffix: chlorinetriflouride
@@ -203,6 +215,7 @@
         color: "#FFC8C8"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ReagentSlimePotassium
   parent: ReagentSlime
   suffix: Potassium

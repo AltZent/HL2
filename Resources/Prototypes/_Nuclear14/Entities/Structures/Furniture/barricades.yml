@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BarricadeSandbagSingle
   parent: BaseStructure
   name: sandbags
@@ -39,6 +40,7 @@
   - type: Climbable
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BarricadeTanktrap
   parent: N14BarricadeSandbagSingle
   name: tank trap
@@ -76,6 +78,7 @@
         - TableLayer
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BarricadeTanktrapRusty
   parent: N14BarricadeTanktrap
   name: tank trap
@@ -87,6 +90,7 @@
     state: iron_barricadeA
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14BarricadeRazorwire
   name: razorwire barricade
@@ -154,6 +158,7 @@
     paralyzeTime: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BarricadeSandbagSingle
   id: N14BarricadeMetal
   name: metal barricade
@@ -171,6 +176,7 @@
     damageContainer: Inorganic
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BarricadeMetal
   id: N14BarricadeMetalGreen
   suffix: green
@@ -179,6 +185,7 @@
     state: green
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorConcreteBarrier
   name: concrete barrier
@@ -198,6 +205,7 @@
         - WallLayer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorConcreteBarrier
   id: N14DecorConcreteBarrierDamaged
   components:
@@ -215,6 +223,7 @@
           concrete_barrier_5: ""
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorConcreteBarrier
   id: N14DecorConcreteBarrierStriped
   name: concrete barrier
@@ -231,6 +240,7 @@
           concrete_barrier_alt_1: ""
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorConcreteBarrier
   id: N14DecorRoadBarrier
   name: road barrier

@@ -1,0 +1,308 @@
+- type: entity
+  id: MLWallBrick
+  parent: BaseWall
+  name: "brick wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/brick.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/brick.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallBrickgrey
+  parent: BaseWall
+  name: "brickgrey wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/brickgrey.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/brickgrey.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallBunker
+  parent: BaseWall
+  name: "bunker wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/bunker.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/bunker.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallCombine
+  parent: BaseWall
+  name: "combine wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/combine.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/combine.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallConcrete
+  parent: BaseWall
+  name: "concrete wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/concrete.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/concrete.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallConcretealt
+  parent: BaseWall
+  name: "concretealt wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/concretealt.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/concretealt.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallMetal
+  parent: BaseWall
+  name: "metal wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/metal.rsi
+    state: urban_wall_regular-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/metal.rsi
+    state: urban_wall_regular-0
+  - type: IconSmooth
+    key: mlwall
+    base: urban_wall_regular-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallSewer
+  parent: BaseWall
+  name: "sewer wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/sewer.rsi
+    state: wall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/sewer.rsi
+    state: wall-0
+  - type: IconSmooth
+    key: mlwall
+    base: wall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallStone
+  parent: BaseWall
+  name: "stone wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/stone.rsi
+    state: black_stone_walls-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/stone.rsi
+    state: black_stone_walls-0
+  - type: IconSmooth
+    key: mlwall
+    base: black_stone_walls-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallTrain
+  parent: BaseWall
+  name: "train wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/train.rsi
+    state: train1-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/train.rsi
+    state: train1-0
+  - type: IconSmooth
+    key: mlwall
+    base: train1-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+- type: entity
+  id: MLWallWoodwall
+  parent: BaseWall
+  name: "woodwall wall (ML)"
+  description: "A wall from Half-Life: Episode 13."
+  components:
+  - type: Transform
+    noRot: true
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Walls/woodwall.rsi
+    state: woodwall-0
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Walls/woodwall.rsi
+    state: woodwall-0
+  - type: IconSmooth
+    key: mlwall
+    base: woodwall-
+    mode: CardinalFlags
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

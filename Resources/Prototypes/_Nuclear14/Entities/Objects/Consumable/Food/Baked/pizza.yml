@@ -63,6 +63,7 @@
 # Pizza
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: margherita pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMargherita
@@ -81,6 +82,7 @@
     slice: N14CookedFoodPizzaMargheritaSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of margherita pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMargheritaSlice
@@ -97,6 +99,7 @@
     - state: margherita-slice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMeat
@@ -120,6 +123,7 @@
     - Pizza
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of meat pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMeatSlice
@@ -142,6 +146,7 @@
 # Tastes like crust, tomato, cheese, meat.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mushroom pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMushroom
@@ -159,6 +164,7 @@
     slice: N14CookedFoodPizzaMushroomSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of mushroom pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMushroomSlice
@@ -175,6 +181,7 @@
 # Tastes like crust, tomato, cheese, mushroom.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: vegetable pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaVegetable
@@ -206,6 +213,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of vegetable pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaVegetableSlice
@@ -238,6 +246,7 @@
 # Tastes like crust, tomato, cheese, carrot.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hawaiian pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaPineapple
@@ -257,6 +266,7 @@
     slice: N14CookedFoodPizzaPineappleSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of pineapple pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaPineappleSlice
@@ -281,6 +291,7 @@
 
 #TODO: Make this do poison damage and make cut pizza slices eventually rot into this.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of moldy pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMoldySlice

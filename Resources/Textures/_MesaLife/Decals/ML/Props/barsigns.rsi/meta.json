@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "armokbar",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "brokendrum",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "limbo",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "magmasea",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "pinkflamingo",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "rustyaxe",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "empty"
+    },
+    {
+      "name": "meadbay",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "cindikate",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "thecavern",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "theclownshead",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "theorchard",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "thesaucyclown",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "thedamnwall",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "whiskeyimplant",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "carpecarp",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "robustroadhouse",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "greytide",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "theredshirt",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "off"
+    }
+  ]
+}

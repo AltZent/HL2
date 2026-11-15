@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "vault_standard"
+    },
+    {
+      "name": "vault_standardopen"
+    },
+    {
+      "name": "vault_standard_clean"
+    },
+    {
+      "name": "vault_standard_cleanopen"
+    },
+    {
+      "name": "vault_compact"
+    },
+    {
+      "name": "vault_compactopen"
+    },
+    {
+      "name": "vault_compact_clean"
+    },
+    {
+      "name": "vault_compact_cleanopen"
+    },
+    {
+      "name": "vault_long"
+    },
+    {
+      "name": "vault_longopen"
+    },
+    {
+      "name": "vault_long_clean"
+    },
+    {
+      "name": "vault_long_cleanopen"
+    },
+    {
+      "name": "vault_big"
+    },
+    {
+      "name": "vault_bigopen"
+    },
+    {
+      "name": "vault_big_clean"
+    },
+    {
+      "name": "vault_big_cleanopen"
+    },
+    {
+      "name": "footlocker_wood",
+      "directions": 4
+    },
+    {
+      "name": "footlocker_woodopen",
+      "directions": 4
+    },
+    {
+      "name": "enclave",
+      "directions": 4
+    },
+    {
+      "name": "enclaveopen",
+      "directions": 4
+    },
+    {
+      "name": "register_cleanopen",
+      "directions": 4
+    },
+    {
+      "name": "register_clean",
+      "directions": 4
+    },
+    {
+      "name": "register",
+      "directions": 4
+    },
+    {
+      "name": "registeropen",
+      "directions": 4
+    },
+    {
+      "name": "army"
+    },
+    {
+      "name": "armyopen"
+    },
+    {
+      "name": "aluminum"
+    },
+    {
+      "name": "aluminumopen"
+    },
+    {
+      "name": "red"
+    },
+    {
+      "name": "redopen"
+    },
+    {
+      "name": "vault"
+    },
+    {
+      "name": "vaultopen"
+    },
+    {
+      "name": "medical"
+    },
+    {
+      "name": "medicalopen"
+    },
+    {
+      "name": "break-opens"
+    },
+    {
+      "name": "wood_crate"
+    },
+    {
+      "name": "plain_crate"
+    },
+    {
+      "name": "plain_crateopen"
+    },
+    {
+      "name": "misc"
+    },
+    {
+      "name": "lock"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseFire
   name: BaseFire
   description: This is fine.

@@ -33,6 +33,7 @@
 
 # Raw
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw irradiated meat
   parent: N14FoodMeatBase
   id: N14FoodMeatRadRaw
@@ -54,6 +55,7 @@
     slice: N14FoodMeatRadCutlet
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw brahmin steak
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatBrahmin
@@ -76,6 +78,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw bighorner steak
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatBighorner
@@ -92,6 +95,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radstag steak
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatRadstag
@@ -108,6 +112,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatRadhog
   name: raw radhog meat
@@ -124,6 +129,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatPigrat
   name: raw pigrat meat
@@ -137,6 +143,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw Yao Guai meat
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatYaoguai
@@ -159,6 +166,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw mutant plant meat # for spore plants etc
   parent: N14FoodMeatBase
   id: N14FoodMeatMutantPlant
@@ -172,6 +180,7 @@
     state: plant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radscorpion meat
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadscorpion
@@ -194,6 +203,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radscorpion leg
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadscorpionLeg
@@ -209,6 +219,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radchicken meat
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadchicken
@@ -223,6 +234,7 @@
     - state: bird
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw gecko meat
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGecko
@@ -236,6 +248,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw fire gecko meat
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGeckoFire
@@ -249,6 +262,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw golden gecko meat
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGeckoGolden
@@ -262,6 +276,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw iguana
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatIguana
@@ -276,6 +291,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw squirrel bits
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatSquirrel
@@ -290,6 +306,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radroach fillet
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadroachFillet
@@ -303,6 +320,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw mirelurk claw
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatMirelurkClaw
@@ -322,6 +340,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radlurk claw
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadlurkClaw
@@ -342,6 +361,7 @@
 
 # Cooked
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked irradiated meat
   parent: N14FoodMeatBase
   id: N14FoodMeatCooked
@@ -366,6 +386,7 @@
           # Quantity: 0 #currently, we are experimenting with cooked food not giving rads. Former value is 5.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked brahmin steak
   parent: N14FoodMeatCooked
   id: N14FoodMeatBrahminCooked
@@ -394,6 +415,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked bighorner steak
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatBighornerCooked
@@ -422,6 +444,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radstag steak
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatRadstagCooked
@@ -450,6 +473,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radhog meat
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatRadhogCooked
@@ -477,6 +501,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatPigratCooked
   name: cooked pigrat meat
@@ -501,6 +526,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked yao-guai steak
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatYaoguaiCooked
@@ -529,6 +555,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radscorpion steak
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadscorpionCooked
@@ -557,6 +584,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radchicken meat
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadchickenCooked
@@ -582,6 +610,7 @@
     slice: N14FoodMeatRadchickenCutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked gecko steak
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoCooked
@@ -607,6 +636,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked fire gecko steak
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoFireCooked
@@ -632,6 +662,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked golden gecko steak
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoGoldenCooked
@@ -657,6 +688,7 @@
     defaultTarget: SteakCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked iguana
   parent: N14FoodMeatCooked
   id: N14FoodMeatIguanaCooked
@@ -681,6 +713,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked squirrel bits
   parent: N14FoodMeatCooked
   id: N14FoodMeatSquirrelCooked
@@ -704,6 +737,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radroach fillet
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadroachFilletCooked
@@ -728,6 +762,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked mirelurk claw
   parent: N14FoodMeatCooked
   id: N14FoodMeatMirelurkClawCooked
@@ -752,6 +787,7 @@
     defaultTarget: MeatCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radlurk claw
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadlurkClawCooked
@@ -778,6 +814,7 @@
 
 # Cooked Boiled
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: boiled radscorpion leg
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadscorpionLegBoiled
@@ -804,6 +841,7 @@
 # Cutlets
 # Raw
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw rad cutlet
   parent: N14FoodMeatBase
   id: N14FoodMeatRadCutlet
@@ -839,6 +877,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw brahmin cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatBrahminCutlet
@@ -855,6 +894,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw bighorner cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatBighornerCutlet
@@ -871,6 +911,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radstag cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadstagCutlet
@@ -887,6 +928,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radhog cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadhogCutlet
@@ -903,6 +945,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw yao-guai cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatYaoguaiCutlet
@@ -919,6 +962,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radchicken cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadchickenCutlet
@@ -933,6 +977,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raw radscorpion cutlet
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadscorpionCutlet
@@ -951,6 +996,7 @@
 
 # Cooked
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked cutlet
   parent: FoodMeatBase
   id: N14FoodMeatRadCutletCooked
@@ -979,6 +1025,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked brahmin cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatBrahminCutletCooked
@@ -995,6 +1042,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked bighorner cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatBighornerCutletCooked
@@ -1011,6 +1059,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radstag cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadstagCutletCooked
@@ -1027,6 +1076,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radhog cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadhogCutletCooked
@@ -1043,6 +1093,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked yao-guai cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatYaoguaiCutletCooked
@@ -1059,6 +1110,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radchicken cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadchickenCutletCooked
@@ -1073,6 +1125,7 @@
     defaultTarget: CutletCooked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cooked radscorpion cutlet
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadscorpionCutletCooked

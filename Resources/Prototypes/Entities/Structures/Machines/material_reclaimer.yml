@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: MaterialReclaimer
   name: material reclaimer

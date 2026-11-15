@@ -59,6 +59,7 @@
 
 # In use
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14StorageTankWide
   parent: N14StorageTankBase
   name: fuel tank
@@ -104,6 +105,7 @@
         - WallLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StorageTankWide
   id: N14StorageTankWideFullFuel
   suffix: Full
@@ -117,6 +119,7 @@
           
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StorageTankWide
   id: N14StorageTank
   suffix: Empty
@@ -138,6 +141,7 @@
         - WallLayer
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14StorageTankFullFuel
   parent: N14StorageTank
   suffix: Full
@@ -150,6 +154,7 @@
           Quantity: 1500
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14StorageTankHuge
   parent: N14StorageTankWide
   suffix: Empty
@@ -171,6 +176,7 @@
         - WallLayer
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14StorageTankHugeFullFuel
   parent: N14StorageTankHuge
   suffix: Full
@@ -183,6 +189,7 @@
           Quantity: 2000
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StorageTankBase
   id: N14StorageTankVat
   suffix: Empty
@@ -208,6 +215,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StorageTankVat
   id: N14StorageTankVatFullFuel
   suffix: Full, fuel
@@ -220,6 +228,7 @@
           Quantity: 1500
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StorageTankVat
   id: N14StorageTankVatFullWater
   suffix: Full, water

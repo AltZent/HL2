@@ -50,6 +50,7 @@
     damageModifierSet: Wood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallAdobeTall
   name: adobe wall
@@ -64,6 +65,7 @@
     base: talladobe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallBrickTall
   name: brick wall
@@ -78,6 +80,7 @@
     base: tallbrick
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallBrickAltTall
   name: brick wall
@@ -92,6 +95,7 @@
     base: tallbrickalt
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallBrickGrayTall
   name: brick wall
@@ -106,6 +110,7 @@
     base: tallbrickgray
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalStrong
   id: N14WallBunkerTall
   name: bunker wall
@@ -120,6 +125,7 @@
     base: tallbunker
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallCombTall
   name: comb wall
@@ -134,6 +140,7 @@
     base: tallcomb
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallConcreteTall
   name: concrete wall
@@ -153,6 +160,7 @@
     base: tallconcrete
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallConcreteAltTall
   name: concrete wall
@@ -167,6 +175,7 @@
     base: tallconcretealt
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallDungeonTall
   name: dungeon wall
@@ -181,6 +190,7 @@
     base: talldungeon
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallDungeonAltTall
   name: dungeon wall
@@ -195,6 +205,7 @@
     base: talldungeonalt
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallMetalTall
   name: metal wall
@@ -209,6 +220,7 @@
     base: tallmetal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallPrisonTall
   name: prison wall
@@ -223,6 +235,7 @@
     base: tallprison
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallReinfMetalTall
   name: reinforced metal wall
@@ -237,6 +250,7 @@
     base: tallreinfmetal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTall
   id: N14WallRockTall
   name: rock wall
@@ -267,6 +281,7 @@
             acts: ["Destruction"]
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallRockTall
   id: N14WallRockDroughtTall
   name: drought rock wall
@@ -281,6 +296,7 @@
     base: tallrockdrought
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallRockTall
   id: N14WallRockMammothTall
   name: mammoth rock wall
@@ -295,6 +311,7 @@
     base: tallrockmammoth
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalWeak
   id: N14WallRoughScrapTall
   name: rough scrap wall
@@ -309,6 +326,7 @@
     base: tallroughscrap
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallIndustrialRustTall
   name: industrial rust wall
@@ -323,6 +341,7 @@
     base: tallrustindustrial
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallMetalRustTall
   name: metal rust wall
@@ -337,6 +356,7 @@
     base: tallrustmetal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallReinfMetalRustTall
   name: reinforced metal rust wall
@@ -351,6 +371,7 @@
     base: tallrustreinfmetal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalStrong
   id: N14WallVaultRustTall
   name: vault rust wall
@@ -365,6 +386,7 @@
     base: tallrustvault
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallVaultVentsRustTall
   name: vault vents rust wall
@@ -379,6 +401,7 @@
     base: tallrustvaultvent
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapTall
   name: scrap wall
@@ -393,6 +416,7 @@
     base: tallscrap
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapBlueTall
   name: blue scrap wall
@@ -407,6 +431,7 @@
     base: tallscrapblue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapRedTall
   name: red scrap wall
@@ -421,6 +446,7 @@
     base: tallscrapred
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapWhiteTall
   name: white scrap wall
@@ -435,6 +461,7 @@
     base: tallscrapwhite
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallSewerTall
   name: sewer wall
@@ -449,6 +476,7 @@
     base: tallsewer
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallSidingTall
   name: siding wall
@@ -463,6 +491,7 @@
     base: tallsiding
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallSidingBlueTall
   name: blue siding wall
@@ -477,6 +506,7 @@
     base: tallsidingblue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallSidingRedTall
   name: red siding wall
@@ -491,6 +521,7 @@
     base: tallsidingred
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallSidingGreenTall
   name: green siding wall
@@ -505,6 +536,7 @@
     base: tallsidinggreen
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetalStrong
   id: N14WallVaultTall
   name: vault wall
@@ -519,6 +551,7 @@
     base: tallvault
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallMetal
   id: N14WallVaultVentTall
   name: vault vent wall
@@ -533,6 +566,7 @@
     base: tallvaultvent
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallWoodTall
   name: wood wall
@@ -547,6 +581,7 @@
     base: tallwood
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWallTallWood
   id: N14WallWoodAltTall
   name: wood wall

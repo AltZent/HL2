@@ -1,0 +1,9 @@
+Audio copied from https://github.com/Marmio64/halflife-episode13 (hl13/sound).
+
+Game sound effects and creature/weapon/machine sounds: sprites & assets of the
+halflife-episode13 fork (GPL-3.0-or-later codebase).
+
+NOTE: subfolders "music" and "ambience\bgm" contain third-party music tracks
+and "voice" contains Half-Life 2 (Valve) voice lines - see the original
+credits.txt files inside those folders for track attribution. They are not
+covered by the fork's GPL license and are credited to their authors there.

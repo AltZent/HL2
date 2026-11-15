@@ -56,6 +56,7 @@
     group: GenericNumber
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteSlurva
   name: slurva
@@ -87,6 +88,7 @@
         Blunt: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteBarrier
   name: barrier
@@ -125,6 +127,7 @@
         Blunt: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteSkitter
   name: skitter
@@ -161,6 +164,7 @@
         Slash: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteSwiper
   name: swiper
@@ -184,6 +188,7 @@
     baseSprintSpeed : 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteMolder
   name: molder
@@ -207,6 +212,7 @@
     baseWalkSpeed : 3.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocytePouncer
   name: pouncer
@@ -232,6 +238,7 @@
         Slash: 7.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteGlider
   name: glider
@@ -260,6 +267,7 @@
     baseWalkSpeed: 4.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteHarvester
   name: harvester
@@ -286,6 +294,7 @@
         Structural: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteCrawler
   name: crawler
@@ -316,6 +325,7 @@
     baseWalkSpeed: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteEnforcer
   name: enforcer
@@ -345,6 +355,7 @@
     baseWalkSpeed: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteFounder
   name: founder
@@ -386,6 +397,7 @@
     baseWalkSpeed: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobArgocyte
   id: MobArgocyteLeviathing
   name: leviathing

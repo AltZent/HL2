@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DiseaseDiagnoser
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   name: Disease Diagnoser Delta Extreme
@@ -19,6 +20,7 @@
     board: DiagnoserMachineCircuitboard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: disease diagnoser report
   parent: Paper
   id: DiagnosisReportPaper

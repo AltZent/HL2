@@ -461,9 +461,6 @@
         - id: N14WeaponPistol10mm
           prob: 0.2
           orGroup: Weapon
-        - id: N14WeaponLaserPistol
-          prob: 0.05
-          orGroup: Weapon
         - id: N14WeaponPistol9mm
           prob: 0.6
           orGroup: Weapon
@@ -1451,6 +1448,12 @@
   components:
     - type: TimedStorageFill
       contents:
+        - id: MLDrinkBreenCan
+          prob: 0.04
+        - id: MLFoodOldbox
+          prob: 0.04
+        - id: MLFoodCrisps
+          prob: 0.04
         - id: N14Ethanol
           prob: 0.05
         - id: N14FoodBlamcomaccheese
@@ -1679,8 +1682,6 @@
           prob: 0.01
         - id: N14WeaponPistol22lr
           prob: 0.04
-        - id: N14WeaponLaserPistol
-          prob: 0.01
         - id: N14MagazinePistol9mm
           prob: 0.01
         - id: MagazineBox9mm
@@ -1741,6 +1742,12 @@
   components:
     - type: TimedStorageFill
       contents:
+        - id: MagazineMLUSP9mm
+          prob: 0.05
+        - id: MagazineMLMP7
+          prob: 0.05
+        - id: MLGunUsp
+          prob: 0.03
         - id: GeigerCounter
           prob: 0.02
         - id: N14DirtyGauze10
@@ -1790,13 +1797,7 @@
         - id: N14WeaponPistol10mmPipe
           prob: 0.4
           orGroup: Weapon
-        - id: N14WeaponLaserRifle
-          prob: 0.2
-          orGroup: Weapon
         - id: N14WeaponPistol10mm
-          prob: 0.4
-          orGroup: Weapon
-        - id: N14WeaponLaserPistol
           prob: 0.4
           orGroup: Weapon
         - id: N14WeaponPistol9mm
@@ -1886,15 +1887,6 @@
         - id: N14WeaponMinigun # THE GOAL IS REAL, YOU AINT GETTIN' IT
           prob: 0.005
           orGroup: Weapon
-        - id: N14WeaponPlasmaPistol
-          prob: 0.06
-          orGroup: Weapon
-        - id: N14WeaponPlasmaRifle
-          prob: 0.04
-          orGroup: Weapon
-        - id: N14WeaponPlasmaRifleUrban
-          prob: 0.04
-          orGroup: Weapon
         - id: LongMagazine556Rifle
           prob: 0.4
           orGroup: Weapon
@@ -1931,27 +1923,6 @@
         - id: N14MagazinePistol45
           prob: 0.4
           orGroup: Ammunition
-        - id: N14PowerCellHigh
-          prob: 0.2
-          orGroup: Ammunition
-          amount: 1
-          maxAmount: 2
-        - id: N14PowerCellSmall
-          prob: 0.3
-          orGroup: Ammunition
-          amount: 1
-          maxAmount: 2
-        - id: N14PowerCellAdvanced
-          prob: 0.1
-          orGroup: Ammunition
-        - id: N14PowerCellFocused
-          prob: 0.05
-          orGroup: Ammunition
-        - id: N14PlasmaCartridge
-          prob: 0.1
-          orGroup: Ammunition
-          amount: 1
-          maxAmount: 2
         - id: N14MagazineMinigun5mm # You aint gettin this one either
           prob: 0.005
           orGroup: Ammunition
@@ -2082,6 +2053,10 @@
   components:
     - type: TimedStorageFill
       contents:
+        - id: MLMedHealthpen
+          prob: 0.05
+        - id: MLMedParacetamol
+          prob: 0.04
         - id: GeigerCounter
           prob: 0.02
         - id: N14DirtyGauze10
@@ -2173,6 +2148,10 @@
   components:
     - type: TimedStorageFill
       contents:
+        - id: MLDrinkBreenCan
+          prob: 0.06
+        - id: MLDrinkSarsaparilla
+          prob: 0.05
         - id: N14DrinkNukaColaCherry
           prob: 0.2
           orGroup: Drinks

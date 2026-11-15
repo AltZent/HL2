@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: civilian
   parent: BaseMobHuman
   id: MobCivilian
@@ -13,6 +14,7 @@
     - NanoTrasen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: salvager
   parent: BaseMobHuman
   id: MobSalvager
@@ -30,6 +32,7 @@
         task: SimpleHumanoidHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spirate
   parent: BaseMobHuman
   id: MobSpirate
@@ -48,6 +51,7 @@
       task: SimpleHumanoidHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: syndicate footsoldier
   parent: BaseMobHuman
   id: MobSyndicateFootsoldier
@@ -65,11 +69,13 @@
         task: SimpleHumanoidHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: syndicate shuttle pilot
   parent: MobSyndicateFootsoldier
   id: MobSyndicateFootsoldierPilot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobHuman
   suffix: Dead
   save: false # mobs are currently not saveable.
@@ -91,6 +97,7 @@
     templateId: corpse
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobCluwne
   name: person

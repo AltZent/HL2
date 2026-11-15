@@ -57,6 +57,7 @@
     - type: ToggleCellDraw
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Defibrillator
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   components:
@@ -65,6 +66,7 @@
     useRate: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorEmpty
   parent: Defibrillator
   suffix: Empty
@@ -75,11 +77,13 @@
         name: power-cell-slot-component-slot-name-default
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorOneHandedUnpowered
   parent: BaseDefibrillator
   suffix: One-Handed, Unpowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorCompact # This should be a research item at some point
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   name: compact defibrillator
@@ -110,6 +114,7 @@
   - type: UseDelay
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DefibrillatorSyndicate
   parent: DefibrillatorCompact
   name: interdyne defibrillator

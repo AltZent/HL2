@@ -1,5 +1,6 @@
 # General
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackTrekker
   name: trekker backpack
@@ -9,6 +10,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/trekkerpack.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackHiking
   name: hiking backpack
@@ -18,6 +20,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/hikingbackpack.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackExplorer
   name: explorer backpack
@@ -28,6 +31,7 @@
  
 # Military 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackMilitary
   name: military backpack
@@ -37,6 +41,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/military.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackNCR
   name: NCR backpack
@@ -46,6 +51,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/backpackncr.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackRadioNCR
   name: NCR radio backpack
@@ -70,6 +76,7 @@
   - type: HeldSpeedModifier
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackNCRHeavy
   name: NCR heavy backpack
@@ -87,6 +94,7 @@
     
 # Tribals
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackTribal
   name: trekker backpack
@@ -97,6 +105,7 @@
     
 # Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultBlue
   name: vault 14 backpack
@@ -106,6 +115,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packgenetics.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultOrange
   name: vault 14 backpack
@@ -115,6 +125,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packchem.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultGreen
   name: vault 14 backpack
@@ -124,6 +135,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packbotany.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultGreenDark
   name: vault 14 backpack
@@ -133,6 +145,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packviro.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultPurple
   name: vault 14 backpack
@@ -142,6 +155,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packtoxins.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultRed
   name: vault 14 backpack
@@ -151,6 +165,7 @@
     sprite: _Nuclear14/Clothing/Back/Backpacks/packsecurity.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultBlueDark
   name: vault 14 backpack

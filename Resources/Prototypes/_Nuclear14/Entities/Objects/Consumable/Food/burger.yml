@@ -2,6 +2,7 @@
 # Bun
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bun
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadBun
@@ -50,6 +51,7 @@
 # Custom Burger Example
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: jelly burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerJelly
@@ -69,6 +71,7 @@
 # Burger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: appendix burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerAppendix
@@ -97,6 +100,7 @@
 # Tastes like bun, grass.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bacon burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBacon
@@ -123,6 +127,7 @@
 # Tastes like bun, bacon.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bearger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBear
@@ -150,6 +155,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: big bite burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBig
@@ -178,6 +184,7 @@
 # Tastes like bun, silver, magic.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brain burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBrain
@@ -206,6 +213,7 @@
 # Tastes like bun, brains.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cheese burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCheese
@@ -243,6 +251,7 @@
 # Tastes like bun, beef patty, cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chicken sandwich
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerChicken
@@ -273,6 +282,7 @@
 # Tastes like bun, chicken.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: crab burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCrab
@@ -300,6 +310,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: duck sandwich
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerDuck
@@ -328,6 +339,7 @@
 # Tastes like bun, duck.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fillet-o-carp burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCarp
@@ -345,6 +357,7 @@
 # Tastes like bun, fish.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: five alarm burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerFive
@@ -373,6 +386,7 @@
 # Tastes like bun, HEAT.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: McGuffin
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerMcguffin
@@ -400,6 +414,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: BBQ Rib Sandwich
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerMcrib
@@ -433,6 +448,7 @@
 # Tastes like bun, pork patty.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: plain burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerPlain
@@ -460,6 +476,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rat burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerRat
@@ -488,6 +505,7 @@
 # Tastes like bun, HEAT.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: super bite burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerSuper
@@ -519,6 +537,7 @@
 # Tastes like bun, diabetes.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tofu burger
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerTofu

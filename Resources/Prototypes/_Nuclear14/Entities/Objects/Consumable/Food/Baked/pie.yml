@@ -57,6 +57,7 @@
 # Pie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mutfruit pie #N14 change
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieMutfruit
@@ -78,6 +79,7 @@
     - Pie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of mutfruit pie #N14 change
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieMutfruitSlice
@@ -99,6 +101,7 @@
 # Tastes like pie, apple.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: baklava
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieBaklava
@@ -116,6 +119,7 @@
     slice: N14CookedFoodPieBaklavaSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of baklava
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieBaklavaSlice
@@ -130,6 +134,7 @@
 # Tastes like pie, nuts.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blackberry pie #N14 change
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieBlackberry
@@ -152,6 +157,7 @@
     - Pie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of blackberry pie #N14 change
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieBlackberrySlice
@@ -173,6 +179,7 @@
 # Tastes like pie, blackberries.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat pie
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieMeat
@@ -193,6 +200,7 @@
     - Pie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of meat pie
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieMeatSlice
@@ -215,6 +223,7 @@
 # Tart
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chocolate lava tart
   parent: N14CookedFoodPieBase
   id: N14CookedFoodTartCoco

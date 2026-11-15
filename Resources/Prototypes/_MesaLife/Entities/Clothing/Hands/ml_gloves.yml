@@ -1,0 +1,104 @@
+- type: entity
+  id: MLGlovesCivilprotection
+  parent: ClothingHandsBase
+  name: pair of gloves (civilprotection)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: civilprotection
+  - type: MLArmor
+    rating: 0.3
+    coverage:
+    - LeftHand
+    - RightHand
+    resists:
+      coefficients:
+        Blunt: 0.78
+        Slash: 0.78
+        Heat: 0.85
+- type: entity
+  id: MLGlovesOverwatch
+  parent: ClothingHandsBase
+  name: pair of gloves (overwatch)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: overwatch
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - LeftHand
+    - RightHand
+    resists:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Heat: 0.80
+- type: entity
+  id: MLGlovesGrunt
+  parent: ClothingHandsBase
+  name: pair of gloves (grunt)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: grunt
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: grunt
+- type: entity
+  id: MLGlovesCleanup
+  parent: ClothingHandsBase
+  name: pair of gloves (cleanup)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: cleanup
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: cleanup
+- type: entity
+  id: MLGlovesEngineer
+  parent: ClothingHandsBase
+  name: pair of gloves (engineer)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: engineer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: engineer
+- type: entity
+  id: MLGlovesForeman
+  parent: ClothingHandsBase
+  name: pair of gloves (foreman)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: foreman
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: foreman
+- type: entity
+  id: MLGlovesLeather
+  parent: ClothingHandsBase
+  name: pair of gloves (leather)
+  description: 'Half-Life: Episode 13 pair of gloves.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/gloves.rsi
+    state: leather
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/hands.rsi
+    equippedState: leather

@@ -5,6 +5,7 @@
 
 # Weapons
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Random Weapon Spawner
   suffix: Melee
   id: N14SpawnerRandomWeaponMelee
@@ -31,91 +32,7 @@
       rareChance: 0.15
       
 - type: entity
-  name: Random Weapon Spawner
-  suffix: Small Guns
-  id: N14SpawnerRandomWeaponGunSmall
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/magnum.rsi
-          state: icon
-    - type: RandomSpawner
-      prototypes:
-        - N14WeaponPistol9mm
-        - N14WeaponPistol10mm
-        - N14WeaponPistol12mm
-        - MagazinePistol
-        - MagazinePistol
-        - MagazinePistol
-        - MagazinePistol
-        - N14WeaponPistol45Colt
-        - N14WeaponRevolver9mm
-        - SpeedLoaderMagnum
-        - SpeedLoaderMagnum
-        - SpeedLoaderMagnum
-        - SpeedLoaderMagnum
-      chance: 0.70
-      offset: 0.0
-      rarePrototypes:
-        - N14WeaponRevolver44Magnun
-        - N14WeaponSMG12mm
-        - MagazineMagnumSubMachineGun
-        - N14WeaponSMG10mm
-        - N14WeaponSMG10mmPipe
-        - MagazinePistolSubMachineGun
-        - MagazinePistolSubMachineGun
-        - N14WeaponLaserPistol
-        - BoxMagazinePistol
-      rareChance: 0.15
-      
-- type: entity
-  name: Random Weapon Spawner
-  suffix: Shotguns & Rifles
-  id: N14SpawnerRandomWeaponGunShotgunsRifles
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
-          state: icon
-    - type: RandomSpawner
-      prototypes:
-        - N14WeaponShotgunDoubleBarrel
-        - N14WeaponShotgun
-        - N14WeaponLaserRifle
-      chance: 0.65
-      offset: 0.0
-      rarePrototypes:
-        - N14WeaponShotgunAuto
-        - N14WeaponRifle556R91
-        - N14WeaponSniperHunting
-      rareChance: 0.20
-      
-- type: entity
-  name: Random Weapon Spawner
-  suffix: Laser
-  id: N14SpawnerRandomWeaponGunLaser
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
-          state: base
-    - type: RandomSpawner
-      prototypes:
-        - N14WeaponLaserPistol
-      chance: 0.5
-      offset: 0.0
-      rarePrototypes:
-        - N14WeaponLaserRifle
-      rareChance: 0.15
-
-# Drugs & Consumables
-- type: entity
+  categories: [ HideSpawnMenu ]
   name: Random Medical Spawner
   suffix: drugs / chems
   id: N14SpawnerRandomMedical
@@ -144,6 +61,7 @@
       rareChance: 0.1
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Random Food Spawner
   suffix: pre-war
   id: N14SpawnerRandomFoodPreWar
@@ -176,6 +94,7 @@
       rareChance: 0.1
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Random Food Trash Spawner
   suffix: pre-war
   id: N14SpawnerRandomFoodPreWarTrash
@@ -208,6 +127,7 @@
       
 # Tools & Supplies
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Random Tool Spawner
   id: N14SpawnerRandomTools
   parent: MarkerBase

@@ -26,6 +26,7 @@
 # Meals
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: loaded baked potato
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealPotatoLoaded
@@ -40,6 +41,7 @@
 # Tastes like potato.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fries #N14 change. I don't think I need to change anything else, the ID is the same...
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFries
@@ -54,6 +56,7 @@
 # Tastes like fries, salt.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cheesy fries
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriesCheesy
@@ -69,6 +72,7 @@
 # Tastes like fries, cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: carrot fries
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriesCarrot
@@ -93,6 +97,7 @@
 # Tastes like carrots, salt.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nachos
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachos
@@ -106,6 +111,7 @@
 # Tastes like nachos.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cheesy nachos
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachosCheesy
@@ -131,6 +137,7 @@
 # Tastes like nachos, cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Cuban nachos
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachosCuban
@@ -157,6 +164,7 @@
 # Tastes like nachos, hot pepper.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mint
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealMint
@@ -178,6 +186,7 @@
 # Tastes like parsnips, salt.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Cuban carp
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealCubancarp
@@ -207,6 +216,7 @@
 # Tastes like fish, batter, hot peppers.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bbq ribs
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealRibs
@@ -238,6 +248,7 @@
 # Tastes like meat, smokey sauce.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: eggs benedict
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealEggsbenedict
@@ -265,6 +276,7 @@
 # Tastes like eggs, bacon, bun.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cheese omelette
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealOmelette
@@ -289,6 +301,7 @@
 # Tastes like egg, cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fried egg
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriedegg
@@ -318,6 +331,7 @@
 # Tastes like egg, salt, pepper.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: queso
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealQueso
@@ -331,6 +345,7 @@
 # Its queso! Everyone loves queso... Right?.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sashimi
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealSashimi
@@ -357,6 +372,7 @@
 # tastes exotic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: enchiladas
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealEnchiladas
@@ -382,6 +398,7 @@
 # What do Europeans eat instead of enchiladas? 25.4 millimeter-iladas.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: melon fruit bowl
   parent: N14CookedFoodMealBase
   id: N14CookedFoodSaladWatermelonFruitBowl
@@ -413,6 +430,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: corn in butter
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealCornInButter

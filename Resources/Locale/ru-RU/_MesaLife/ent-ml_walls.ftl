@@ -1,0 +1,23 @@
+
+ent-MLWallBrick = Кирпичная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallBrickgrey = Серая кирпичная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallBunker = Бункерная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallCombine = Комбайновская стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallConcrete = Бетонная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallConcretealt = Бетонная стена (альт) (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallMetal = Металлическая стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallSewer = Канализационная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallStone = Каменная стена (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallTrain = Стена поезда (ML)
+.desc = Стена Half-Life: Episode 13.
+ent-MLWallWoodwall = Деревянная стена (ML)
+.desc = Стена Half-Life: Episode 13.

@@ -49,6 +49,7 @@
 
 # 32x32 tables
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FreeTableBase
   id: N14TableMetalRound
   suffix: clean
@@ -61,6 +62,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableMetalRound
   id: N14TableMetalRoundDirty
   name: round table
@@ -72,6 +74,7 @@
     state: table_metal_round # N14TODO: There's a second sprite of this, need it to spawn a random one.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14TableDeskSchool # Base off this for wooden tables
   parent: N14FreeTableBase
   name: school desk
@@ -101,6 +104,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableDeskSchoolDamaged
   name: school desk
@@ -112,6 +116,7 @@
     state: desk_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableWoodEnd
   name: end table
@@ -137,6 +142,7 @@
       
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableWoodSquare
   id: N14TableWoodRound
   name: wooden table
@@ -150,6 +156,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableWoodSquare
   name: wooden table
@@ -171,6 +178,7 @@
         - TableLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableWoodSquare
   id: N14TableWoodLow
   name: wooden table
@@ -181,6 +189,7 @@
     state: table_wood_low
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableWoodSquare
   id: N14TableWoodStand
   components:
@@ -189,6 +198,7 @@
     state: table_wood_stand
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableWoodSquare
   id: N14TableWoodCabledrum
   name: cable drum
@@ -199,6 +209,7 @@
     state: cable_reel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableWoodSquare
   id: N14TableCasinoDice
   name: dice table
@@ -209,6 +220,7 @@
     state: dice_clean
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCasinoDice
   id: N14TableCasinoDiceDirty
   suffix: dirty
@@ -219,6 +231,7 @@
 
 #64x64 tables
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FreeTableBase
   id: N14TableDeskMetal
   name: metal desk
@@ -241,6 +254,7 @@
         - TableLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskMetal
   id: N14TableDeskMetalDirty
   suffix: dirty
@@ -250,6 +264,7 @@
     state: desk_metal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FreeTableBase
   id: N14TableDeskMetalSmall
   components:
@@ -258,6 +273,7 @@
     state: desk_metal_small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableDeskWood
   name: wooden desk
@@ -280,6 +296,7 @@
         - TableLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskWood
   id: N14TableDeskWood2
   suffix: alt
@@ -289,6 +306,7 @@
     state: desk_wood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableDeskWoodSmall
   suffix: small
@@ -298,6 +316,7 @@
     state: desk_wood_small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskWood
   id: N14TableCasinoCards
   name: cards table
@@ -311,6 +330,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCasinoCards
   id: N14TableCasinoPool
   name: pool table
@@ -321,6 +341,7 @@
     state: table_pool
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCasinoCards
   id: N14TableWoodenOvalWide
   name: wooden table
@@ -331,6 +352,7 @@
     state: table_wood_wide_oval
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCasinoCards
   id: N14TableWoodenSquareWide
   name: wooden table
@@ -341,6 +363,7 @@
     state: table_wood_wide_square
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCasinoCards
   id: N14TableMetalWide
   name: metal table
@@ -352,6 +375,7 @@
 
 # Counters / Benches / Smoothed Tables
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableDeskSchool
   id: N14TableCounter
   name: wooden counter
@@ -365,6 +389,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterBend
   suffix: corner
@@ -377,6 +402,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterIntersect
   suffix: intersect
@@ -386,6 +412,7 @@
     state: wood_counter_intersect
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterCross
   suffix: cross
@@ -395,6 +422,7 @@
     state: wood_counter_cross
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterCraft
   description: This counter looks like scrap.
@@ -405,6 +433,7 @@
     state: craft_counter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterCraftBend
   suffix: craft corner
@@ -414,6 +443,7 @@
     state: craft_counter_bend
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterCraftIntersect
   suffix: craft intersect
@@ -423,6 +453,7 @@
     state: craft_counter_intersect
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounter
   id: N14TableCounterCraftCross
   suffix: craft cross
@@ -432,6 +463,7 @@
     state: craft_counter_cross
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FreeTableBase
   id: N14TableCounterMetal
   name: metal counter
@@ -445,6 +477,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounterMetal
   id: N14TableCounterMetalBend
   suffix: corner
@@ -457,6 +490,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounterMetal
   id: N14TableCounterMetalIntersect
   suffix: intersect
@@ -466,6 +500,7 @@
     state: metal_counter_intersect
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TableCounterMetal
   id: N14TableCounterMetalCross
   suffix: cross
@@ -487,6 +522,7 @@
 #    sprite: _Nuclear14/Structures/Furniture/Tables/metaltablebuilt.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14TableMetalGrate
   parent: Table
   name: metal table
@@ -501,6 +537,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14TableWoodSettler
   parent: Table
   name: wooden table
@@ -526,6 +563,7 @@
 #    sprite: _Nuclear14/Structures/Furniture/Tables/woodentablecraft.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: TableWood
   id: N14TableCounterBar
   name: bar counter

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "blank"
+    },
+    {
+      "name": "usp"
+    },
+    {
+      "name": "mp7"
+    },
+    {
+      "name": "m4a1"
+    },
+    {
+      "name": "spas12"
+    },
+    {
+      "name": "coltpython"
+    },
+    {
+      "name": "service"
+    }
+  ]
+}

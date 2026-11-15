@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: NoticeBoard2
   name: notice board
   description: Something important to post?

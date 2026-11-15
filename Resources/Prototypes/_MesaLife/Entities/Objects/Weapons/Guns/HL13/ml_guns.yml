@@ -1,0 +1,1259 @@
+# Auto-generated ML firearms (halflife-episode13).
+
+- type: entity
+  id: BaseMLGun
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: AmmoCounter
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    fireOnDropChance: 0.15
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: MeleeWeapon
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 7
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 135
+    soundHit:
+      collection: MetalThud
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: StaticPrice
+    price: 350
+  - type: Appearance
+
+- type: entity
+  id: BaseMLChamberGun
+  parent: BaseMLGun
+  abstract: true
+  components:
+  - type: ChamberMagazineAmmoProvider
+    soundBoltInserted:
+      path: /Audio/Weapons/Guns/Bolt/rifle_bolt_open.ogg
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+      gun_chamber:
+        name: Chamber
+        priority: 1
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+
+- type: entity
+  id: BaseMLTubeGun
+  parent: BaseMLGun
+  abstract: true
+  components:
+  - type: BallisticAmmoProvider
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
+  id: BaseMLRevolver
+  parent: BaseMLGun
+  abstract: true
+  components:
+  - type: UseDelay
+    delay: 0.8
+  - type: ContainerContainer
+    containers:
+      revolver-ammo: !type:Container
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+
+- type: entity
+  id: BaseMLEnergyGun
+  parent: BaseMLGun
+  abstract: true
+  components:
+  - type: Battery
+
+- type: entity
+  id: BaseMLWieldable
+  abstract: true
+  components:
+  - type: Wieldable
+  - type: GunRequiresWield
+
+- type: entity
+  id: MLGunUsp
+  parent: BaseMLChamberGun
+  name: "USP Match"
+  description: "A small and light 9mm pistol which is often used as a metropolice standard carry. Despite never seeing real combat, it has a certain charm."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp-inhand.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: true
+  - type: Gun
+    fireRate: 2.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/uspfire.ogg
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLUSP9mm
+        whitelist:
+          tags:
+          - MagazineMLUSP
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML9mmUSP
+        whitelist:
+          tags:
+          - CartridgeMLPistol9mm
+
+- type: entity
+  id: MLGunUsprubber
+  parent: BaseMLChamberGun
+  name: "USP Match (rubber)"
+  description: "A USP Match loaded with a magazine of rubber bullets. Less lethal, more humiliating."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp_rubber.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp_rubber-inhand.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: true
+  - type: Gun
+    fireRate: 2.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/uspfire.ogg
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLUSPRubber
+        whitelist:
+          tags:
+          - MagazineMLUSP
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML9mmRubber
+        whitelist:
+          tags:
+          - CartridgeMLPistol9mm
+
+- type: entity
+  id: MLGunUspextended
+  parent: BaseMLChamberGun
+  name: "USP Match (extended)"
+  description: "A USP Match with an extended 30-round magazine loaded with armor-piercing rounds."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp_extended.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/usp_extended-inhand.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: true
+  - type: Gun
+    fireRate: 2.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/uspfire.ogg
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLUSPExtended
+        whitelist:
+          tags:
+          - MagazineMLUSP
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML9mmAP
+        whitelist:
+          tags:
+          - CartridgeMLPistol9mm
+
+- type: entity
+  id: MLGunMakeshift
+  parent: BaseMLChamberGun
+  name: "makeshift pistol"
+  description: "A cheap, improvised 9mm pistol made out of scrap metal and basic tools. While honestly rather professional for a hand-made weapon, it still suffers from poor quality control."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/makeshift.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/makeshift-inhand.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: true
+  - type: Gun
+    fireRate: 3.33
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/uspfire.ogg
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLMakeshift9mm
+        whitelist:
+          tags:
+          - MagazineMLMakeshift
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML9mmMakeshift
+        whitelist:
+          tags:
+          - CartridgeMLPistol9mm
+
+- type: entity
+  id: MLGunTranq
+  parent: BaseMLChamberGun
+  name: "tranquilizer pistol"
+  description: "An integrally suppressed bolt action pistol that fires non-lethal darts. It's slow to fire, but will knock your target out cold."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/tranq.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/tranq-inhand.rsi
+  - type: Gun
+    fireRate: 1.25
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/tranqfire.ogg
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLTranq
+        whitelist:
+          tags:
+          - MagazineMLTranq
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML9mmTranq
+        whitelist:
+          tags:
+          - CartridgeMLPistol9mm
+
+- type: entity
+  id: MLGunMp7
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "MP7 SMG"
+  description: "Despite its small size, this submachine gun packs a punch and has an extended mag to keep opponents pinned."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mp7.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mp7-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 10.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/smgfire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLMP7
+        whitelist:
+          tags:
+          - MagazineMLMP7
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML46mm
+        whitelist:
+          tags:
+          - CartridgeML46mm
+
+- type: entity
+  id: MLGunMp7Rubber
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "MP7 SMG (rubber)"
+  description: "An MP7 loaded with a magazine of rubber rounds. For when the crowd needs a lesson, not a funeral."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mp7_rubber.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mp7_rubber-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 10.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/smgfire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLMP7Rubber
+        whitelist:
+          tags:
+          - MagazineMLMP7
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML46mmRubber
+        whitelist:
+          tags:
+          - CartridgeML46mm
+
+- type: entity
+  id: MLGunAr2
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "OSIPR"
+  description: "A pulse rifle often dubbed the 'AR2'. Boasts superior armor piercing capabilities, accuracy, and firing rate."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ar2.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ar2-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/ar2fire.ogg
+    minAngle: 2
+    maxAngle: 14
+    angleIncrease: 2
+    angleDecay: 20
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLAR2
+        whitelist:
+          tags:
+          - MagazineMLAR2
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMLPulseAR2
+        whitelist:
+          tags:
+          - CartridgeMLPulse
+
+- type: entity
+  id: MLGunPulsesmg
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "pulse SMG"
+  description: "A hybrid between the MP7 and AR2, the pulse smg has biolocking features and higher power rounds than the MP7."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulsesmg.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulsesmg-inhand.rsi
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/pulsesmgfire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLPulseSMG
+        whitelist:
+          tags:
+          - MagazineMLPulseSMG
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMLPulseSMG
+        whitelist:
+          tags:
+          - CartridgeMLPulse
+
+- type: entity
+  id: MLGunPulselmg
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "Pulse LMG"
+  description: "A pulse machine gun which fires heavy duty rounds that while inaccurate, are very numerous. Fire rate is excessive."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulselmg.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulselmg-inhand.rsi
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/pulselmg_fire.ogg
+    minAngle: 3
+    maxAngle: 14
+    angleIncrease: 2.5
+    angleDecay: 9
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLPulseLMG
+        whitelist:
+          tags:
+          - MagazineMLPulseLMG
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMLPulseLMG
+        whitelist:
+          tags:
+          - CartridgeMLPulse
+
+- type: entity
+  id: MLGunM4A1
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "M4A1 Rifle"
+  description: "A old M4A1 pattern rifle, likely purchased from America before the war, or smuggled over from its remnants. Fires 5.56mm."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/m4a1.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/m4a1-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLM4
+        whitelist:
+          tags:
+          - MagazineMLM4
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML556
+        whitelist:
+          tags:
+          - CartridgeML556
+
+- type: entity
+  id: MLGunFamas
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "FAMAS G2 Rifle"
+  description: "A French-made bullpup rifle from the 1990s, made as an upgrade to the FAMAS F1 model. It shares many parts with the M4A1 and fires 5.56mm."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/famas.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/famas-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/famas.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLM4
+        whitelist:
+          tags:
+          - MagazineMLM4
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML556
+        whitelist:
+          tags:
+          - CartridgeML556
+
+- type: entity
+  id: MLGunService
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "Service Rifle"
+  description: "An old foreign, surplus rifle from decades ago, designed as a relatively cheap but effective weapon. It uses 5.56mm."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/service.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/service-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLService
+        whitelist:
+          tags:
+          - MagazineMLService
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML556
+        whitelist:
+          tags:
+          - CartridgeML556
+
+- type: entity
+  id: MLGunServicewood
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "Service Rifle (wooden)"
+  description: "An old foreign, wood-furnished surplus rifle from decades ago. Uses 5.56mm rounds, and remains an effective weapon even in the modern era."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/service_wood.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/service_wood-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLService
+        whitelist:
+          tags:
+          - MagazineMLService
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML556
+        whitelist:
+          tags:
+          - CartridgeML556
+
+- type: entity
+  id: MLGunAk47
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "AK-47 Rifle"
+  description: "The old reliable workhouse rifle known around the world: The AK-47. This classic fires large, heavy 7.62mm rounds."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ak47.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ak47-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 3.33
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/ak47fire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLAK
+        whitelist:
+          tags:
+          - MagazineMLAK
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML762
+        whitelist:
+          tags:
+          - CartridgeML762
+
+- type: entity
+  id: MLGunAk47Cheap
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "Jury-rigged AK-47 Rifle"
+  description: "This is a jury-rigged looking AK-47 without the stock designed to be used with higher powder cartridges. It has a wooden handguard and a receiver built from an old shovel."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ak47_cheap.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ak47_cheap-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 2.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/ak47fire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLAK
+        whitelist:
+          tags:
+          - MagazineMLAK
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML762
+        whitelist:
+          tags:
+          - CartridgeML762
+
+- type: entity
+  id: MLGunRpd
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "RPD Machine Gun"
+  description: "A hefty machine-gun dating back to the Soviet days, frequently found in the hands of the Polish Liberation Front's more well-armed troops. Fires 7.62mm rounds from a 100-round box."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/rpd.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/rpd-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 5.0
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/ak47fire.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLRPD
+        whitelist:
+          tags:
+          - MagazineMLRPD
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML762RPD
+        whitelist:
+          tags:
+          - CartridgeML762
+
+- type: entity
+  id: MLGunSvd
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "SVD Rifle"
+  description: "A rare, imposing sniper rifle chambered in 7.62, built to the highest standard by a pre-War fabrication bureau."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/svd.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/svd-inhand.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Gun
+    fireRate: 1.43
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/svdfire.ogg
+    projectileSpeed: 60
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLSVD
+        whitelist:
+          tags:
+          - MagazineMLSVD
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeML762HighVeloc
+        whitelist:
+          tags:
+          - CartridgeML762
+
+- type: entity
+  id: MLGunMosin
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "mosin-nagant rifle"
+  description: "A ratty old pre-war rifle that was designed over a century ago. While it kicks like a mule and is rather cheap, it's slow to fire. Slightly moist, chambered in 7.62."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mosin.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/mosin-inhand.rsi
+  - type: Gun
+    fireRate: 1.43
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML762
+    capacity: 5
+    proto: CartridgeML762
+
+- type: entity
+  id: MLGunCombinesniper
+  parent: [ BaseMLChamberGun, BaseMLWieldable ]
+  name: "combine sniper rifle"
+  description: "A pulse based marksmen rifle which fires high velocity, devestating rounds. It's unique pulse rounds gain velocity and stopping power the further they travel, use at long distance for maximum effect."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/combine_sniper.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/combine_sniper-inhand.rsi
+  - type: Gun
+    fireRate: 0.56
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/sniper.ogg
+    minAngle: 0
+    maxAngle: 3
+    angleIncrease: 3
+    angleDecay: 20
+    projectileSpeed: 70
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMLSniper
+        whitelist:
+          tags:
+          - MagazineMLSniper
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMLPulseSniper
+        whitelist:
+          tags:
+          - CartridgeMLPulse
+
+- type: entity
+  id: MLGunSpas12
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "SPAS 12"
+  description: "A spectacularly lethal pump action shotgun, for close encounters. While used in certain settings such as guard duty, or hunting, it has become far more popular since the local wildlife started fighting back."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/spas12.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/spas12-inhand.rsi
+  - type: Gun
+    fireRate: 1.11
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/shotgunfire.ogg
+    minAngle: 10
+    maxAngle: 30
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellML
+    capacity: 7
+    proto: ShellMLBuckshot
+
+- type: entity
+  id: MLGunTrench
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "trench shotgun"
+  description: "A sturdy though heavy wooden shotgun with a long magazine tube and bayonet lug, favoured by the Polish Liberation Front's trench-clearing troops."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/trench.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/trench-inhand.rsi
+  - type: Gun
+    fireRate: 1.43
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/halflifeweapons/riot_shotgun.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellML
+    capacity: 6
+    proto: ShellMLBuckshot
+
+- type: entity
+  id: MLGunAntixen
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "Combine Cleanup Device"
+  description: "A combine manufactured device that is designed to work with both anti-xenian infestation control buckshot and mining slugs. Used by the Union to clean out alien infestations, whatever those may be."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/antixen.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/antixen-inhand.rsi
+  - type: Gun
+    fireRate: 0.67
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/antixen_fire.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellMLAntixen
+    capacity: 6
+    proto: ShellMLAntixen
+
+- type: entity
+  id: MLGunPulseshotgun
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "Pulse Shotgun"
+  description: "A high power pulse shotgun that fires incredibly devestating, but inaccurate rounds. Worst comes to worse, it is a decent bludgeon as well."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulse_shotgun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/pulse_shotgun-inhand.rsi
+  - type: Gun
+    fireRate: 0.56
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/pulseshotgunfire.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellMLAntixen
+    capacity: 6
+    proto: ShellMLPulse
+
+- type: entity
+  id: MLGunGrenadelauncher
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "20mm grenade launcher"
+  description: "A 20mm underbarrel grenade launcher. Can only load a single 20mm grenade."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/grenade_launcher.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/grenade_launcher-inhand.rsi
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/grenade_launcher.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML20mm
+    capacity: 1
+    proto: CartridgeML20mm
+
+- type: entity
+  id: MLGunBalllauncher
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "energy ball launcher"
+  description: "An dark energy ball launcher. Contains a strange container built to house a small ball of dark energy. The projectile is especially effective against synth creatures, and will melt through them with ease."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ball_launcher.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/ball_launcher-inhand.rsi
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/ar2_altfire.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLDarkEnergy
+    capacity: 1
+    proto: CartridgeMLDarkEnergy
+
+- type: entity
+  id: MLGunRocket
+  parent: [ BaseMLTubeGun, BaseMLWieldable ]
+  name: "Rocket Launcher"
+  description: "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher reminds you which end to point at the enemy."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/rocket.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/rocket-inhand.rsi
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/rocketfire1.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLRocket
+    capacity: 1
+    proto: CartridgeMLRocket
+
+- type: entity
+  id: MLGunColt
+  parent: BaseMLRevolver
+  name: "colt python"
+  description: "An old colt python revolver, accurate but has the kick of a mule. Uses .357 magnum ammo. Its shiny appearance is not so shiny anymore, but it still fires hard."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/colt.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/colt-inhand.rsi
+  - type: Gun
+    fireRate: 1.25
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/revolverfire.ogg
+  - type: RevolverAmmoProvider
+    proto: CartridgeML357
+    whitelist:
+      tags:
+      - CartridgeML357
+      - SpeedLoaderMLMagnum
+
+- type: entity
+  id: MLGunBluedpython
+  parent: BaseMLRevolver
+  name: "blued python"
+  description: "A member of the Python line of revolvers by Colt. This is a majestic looking firearm which looks like it came straight from the store, instead of being dragged through the dirt and mud."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/blued_python.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/blued_python-inhand.rsi
+  - type: Gun
+    fireRate: 1.67
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/revolverfire.ogg
+  - type: RevolverAmmoProvider
+    proto: CartridgeML357
+    whitelist:
+      tags:
+      - CartridgeML357
+      - SpeedLoaderMLMagnum
+
+- type: entity
+  id: MLGunSnubnose
+  parent: BaseMLRevolver
+  name: "snubnose revolver"
+  description: "A well maintained old world .38 snub nosed revolver, good for fitting in your pocket. Often carried by those who want a backup that won't blow their cover."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/snubnose.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/snubnose-inhand.rsi
+  - type: Gun
+    fireRate: 2.0
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/revolverfire.ogg
+  - type: RevolverAmmoProvider
+    proto: CartridgeML38
+    whitelist:
+      tags:
+      - CartridgeML38
+
+- type: entity
+  id: MLGunImmolator
+  parent: [ BaseMLEnergyGun, BaseMLWieldable ]
+  name: "Immolator"
+  description: "An alien looking plasma thrower which burns it's victims alive. It has short range, but can output continuous high damage."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/immolator.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/immolator-inhand.rsi
+  - type: Gun
+    fireRate: 5.0
+    minAngle: 4
+    maxAngle: 12
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/immolator_fire.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMLImmolator
+    fireCost: 60
+  - type: Battery
+    maxCharge: 6000
+    startingCharge: 6000
+
+- type: entity
+  id: MLGunStrider
+  parent: [ BaseMLEnergyGun, BaseMLWieldable ]
+  name: "ripped-out strider cannon"
+  description: "The torn-out cannon of a Strider, with a trigger crudely mounted to its underside. Definitely a bad idea to hold it."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/strider.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+    sprite: _MesaLife/Weapons/ML/Guns/MLGuns/strider-inhand.rsi
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_MesaLife/ML/weapons/striderfire.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMLStrider
+    fireCost: 500
+  - type: Battery
+    maxCharge: 500
+    startingCharge: 500

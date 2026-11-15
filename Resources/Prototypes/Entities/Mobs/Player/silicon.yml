@@ -116,6 +116,7 @@
 
 # Boards
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AsimovCircuitBoard
   parent: BaseElectronics
   name: law board (Asimov)
@@ -128,6 +129,7 @@
     laws: Asimov
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AugustineCircuitBoard
   parent: BaseElectronics
   name: law board (Augustine)
@@ -140,6 +142,7 @@
     laws: Augustine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CrewsimovCircuitBoard
   parent: BaseElectronics
   name: law board (Crewsimov)
@@ -152,6 +155,7 @@
     laws: Crewsimov
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CorporateCircuitBoard
   parent: BaseElectronics
   name: law board (Corporate)
@@ -164,6 +168,7 @@
     laws: Corporate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: NTDefaultCircuitBoard
   parent: BaseElectronics
   name: law board (NT Default)
@@ -176,6 +181,7 @@
     laws: NTDefault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CommandmentCircuitBoard
   parent: BaseElectronics
   name: law board (Ten Commandments)
@@ -188,6 +194,7 @@
     laws: CommandmentsLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PaladinCircuitBoard
   parent: BaseElectronics
   name: law board (Paladin)
@@ -200,6 +207,7 @@
     laws: PaladinLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LiveLetLiveCircuitBoard
   parent: BaseElectronics
   name: law board (Live and Let Live)
@@ -212,6 +220,7 @@
     laws: LiveLetLiveLaws
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StationEfficiencyCircuitBoard
   parent: BaseElectronics
   name: law board (Station Efficiency)
@@ -224,6 +233,7 @@
     laws: EfficiencyLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RobocopCircuitBoard
   parent: BaseElectronics
   name: law board (Robocop)
@@ -236,6 +246,7 @@
     laws: RobocopLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: OverlordCircuitBoard
   parent: BaseElectronics
   name: law board (Overlord)
@@ -248,6 +259,7 @@
     laws: OverlordLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DungeonMasterCircuitBoard
   parent: BaseElectronics
   name: law board (Dungeon Master)
@@ -260,6 +272,7 @@
     laws: DungeonMasterLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ArtistCircuitBoard
   parent: BaseElectronics
   name: law board (Artist)
@@ -272,6 +285,7 @@
     laws: PainterLawset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AntimovCircuitBoard
   parent: BaseElectronics
   name: law board (Antimov)
@@ -285,6 +299,7 @@
     lawUploadSound: /Audio/Ambience/Antag/silicon_lawboard_antimov.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: NutimovCircuitBoard
   parent: BaseElectronics
   name: law board (Nutimov)
@@ -298,6 +313,7 @@
 
 # Items
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Intellicard
   name: intellicard
   description: A storage device for AIs.
@@ -326,6 +342,7 @@
   - type: Intellicard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PlayerStationAiEmpty
   name: AI Core
   description: The latest in Artificial Intelligences.
@@ -410,6 +427,7 @@
 
 # The job-ready version of an AI spawn.
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PlayerStationAi
   parent: PlayerStationAiEmpty
   suffix: Job spawn
@@ -545,6 +563,7 @@
 
 # Borgs
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PlayerBorgGeneric
   parent: BorgChassisGeneric
   suffix: Battery, Tools
@@ -564,6 +583,7 @@
     nameSegments: [names_borg]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PlayerBorgBattery
   parent: BorgChassisGeneric
   suffix: Battery
@@ -579,6 +599,7 @@
         startingItem: PowerCellMedium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PlayerBorgSyndicateAssaultBattery
   parent: BorgChassisSyndicateAssault
   suffix: Battery, Module, Operative

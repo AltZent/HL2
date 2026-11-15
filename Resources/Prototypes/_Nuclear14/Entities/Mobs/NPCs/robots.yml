@@ -90,6 +90,7 @@
         Brute: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostileMelee
   id: N14MobRobotAssaultronHostile
   name: Assaultron
@@ -144,6 +145,7 @@
         Base: dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostileMelee
   id: N14MobRobotProtectronHostile
   name: Protectron
@@ -183,6 +185,7 @@
       task: N14HostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronBuilderHostile
   name: Protectron
@@ -203,6 +206,7 @@
       visible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronFireHostile
   name: Protectron
@@ -223,6 +227,7 @@
       visible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronPoliceHostile
   name: Protectron
@@ -266,6 +271,7 @@
       task: N14RangedHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostileMelee
   id: N14MobRobotMrHandyClaw
   name: Mr Handy
@@ -317,6 +323,7 @@
   # - type: AmbientOnPowered
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotMrHandyClaw
   id: N14MobRobotMrHandySaw
   description: A domestic Mr Handy model with a saw attachment.
@@ -347,6 +354,7 @@
       visible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostile
   id: N14MobRobotMrHandyGun
   name: Mr Handy
@@ -403,6 +411,7 @@
       task: N14RangedHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostile
   id: N14MobRobotMrHandyGutsy
   name: Mr Gutsy
@@ -456,6 +465,7 @@
       task: N14RangedHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostile
   id: N14MobRobotRobobrain
   name: Robobrain
@@ -509,6 +519,7 @@
       task: N14RangedHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobRobotHostile
   id: N14MobRobotEyebot
   name: Eyebot

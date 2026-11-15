@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hatchet
   parent: BaseItem
   id: N14Hatchet
@@ -38,6 +39,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal hatchet
   parent: BaseItem
   id: N14TribalHatchet
@@ -77,6 +79,7 @@
     price: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fireaxe
   parent: N14BaseAxe
   id: N14FireAxe
@@ -104,6 +107,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: axe
   parent: BaseItem
   id: N14BaseAxe

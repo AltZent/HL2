@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Feral Ghoul
   id: N14MobGhoulFeral
   parent: N14MobBaseHostileFeral
@@ -26,6 +27,7 @@
       sprite: _Nuclear14/Mobs/Ghouls/ghoul-feral.rsi
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulFeralReaver
   name: Feral Ghoul Reaver
@@ -53,6 +55,7 @@
       100: Dead
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulFeralRotter
   name: Feral Ghoul Rotter
@@ -76,6 +79,7 @@
       sprite: _Nuclear14/Mobs/Ghouls/ghoul-rotter.rsi
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulMaypole
   name: Maypole

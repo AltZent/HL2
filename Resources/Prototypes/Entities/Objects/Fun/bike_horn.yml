@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BikeHorn
   name: bike horn
@@ -47,6 +48,7 @@
       collection: BikeHorn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: CluwneHorn
   name: broken bike horn
@@ -89,6 +91,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BikeHorn
   id: GoldenBikeHorn
   name: golden honker
@@ -114,6 +117,7 @@
     color: "#eef066"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BikeHorn
   id: BananiumHorn
   name: bananium horn

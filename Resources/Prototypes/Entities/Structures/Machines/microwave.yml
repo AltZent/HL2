@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   name: microwave
@@ -107,6 +108,7 @@
     - Chef
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SyndicateMicrowave
   parent: KitchenMicrowave
   name: donk co. microwave

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   save: false
   name: Urist McGhoul
   parent: N14BaseMobGhoul
@@ -9,6 +10,7 @@
       - Wastelander
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   save: false
   name: Urist McGlow
   parent: N14BaseMobGhoulGlowing

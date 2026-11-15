@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesBlackBiker
   name: black biker gloves
@@ -16,6 +17,7 @@
     # strengthModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesBrownBiker
   name: brown biker gloves
@@ -33,6 +35,7 @@
     # strengthModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesBlackLeather
   name: black leather gloves
@@ -48,6 +51,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesLeather
   name: leather gloves
@@ -63,6 +67,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesMountie
   name: mountie leather gloves
@@ -78,6 +83,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesDriver
   name: driver gloves
@@ -95,6 +101,7 @@
     # perceptionModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesFur
   name: fur gloves
@@ -110,6 +117,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesCombat
   name: combat gloves
@@ -130,6 +138,7 @@
     # enduranceModifier: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesNitrile
   name: nitrile gloves
@@ -144,6 +153,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesNitrilePurple
   name: nitrile gloves
@@ -158,6 +168,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesTribal
   name: tribal gloves
@@ -173,6 +184,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesCloth
   name: cloth gloves
@@ -191,6 +203,7 @@
     node: gloves
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesNCR
   name: fingerless leather gloves
@@ -206,6 +219,7 @@
   - type: FingerprintMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHandsButcherableLeather
   id: N14ClothingHandsGlovesPatrol
   name: leather patrol gloves

@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "black_vest",
+      "directions": 4
+    },
+    {
+      "name": "labcoat_t",
+      "directions": 4
+    },
+    {
+      "name": "labcoat",
+      "directions": 4
+    },
+    {
+      "name": "brownover",
+      "directions": 4
+    },
+    {
+      "name": "elitecpo_vest",
+      "directions": 4
+    },
+    {
+      "name": "cp_trenchcoat",
+      "directions": 4
+    },
+    {
+      "name": "cp_trenchcoatoverseer",
+      "directions": 4
+    },
+    {
+      "name": "sectorial",
+      "directions": 4
+    },
+    {
+      "name": "metropolice",
+      "directions": 4
+    },
+    {
+      "name": "pd_taser",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "metropolice_vest",
+      "directions": 4
+    },
+    {
+      "name": "medicalofficer",
+      "directions": 4
+    },
+    {
+      "name": "overwatch",
+      "directions": 4
+    },
+    {
+      "name": "wallhammer",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_white",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_red",
+      "directions": 4
+    },
+    {
+      "name": "hev",
+      "directions": 4
+    },
+    {
+      "name": "firesuit",
+      "directions": 4
+    },
+    {
+      "name": "rebelarmor_heavy",
+      "directions": 4
+    },
+    {
+      "name": "rebelarmor_light",
+      "directions": 4
+    },
+    {
+      "name": "bio_boiler",
+      "directions": 4
+    },
+    {
+      "name": "whitejacket",
+      "directions": 4
+    },
+    {
+      "name": "metropolice_uk",
+      "directions": 4
+    },
+    {
+      "name": "bluejacket",
+      "directions": 4
+    },
+    {
+      "name": "prisonerjacket",
+      "directions": 4
+    },
+    {
+      "name": "milvest",
+      "directions": 4
+    },
+    {
+      "name": "platearmor",
+      "directions": 4
+    },
+    {
+      "name": "kevlar_heavy",
+      "directions": 4
+    },
+    {
+      "name": "bulletproof",
+      "directions": 4
+    },
+    {
+      "name": "crematorjacket",
+      "directions": 4
+    },
+    {
+      "name": "poland_heavy",
+      "directions": 4
+    },
+    {
+      "name": "solidus_heavy",
+      "directions": 4
+    },
+    {
+      "name": "cleanup",
+      "directions": 4
+    },
+    {
+      "name": "cleanupforeman",
+      "directions": 4
+    },
+    {
+      "name": "scientist",
+      "directions": 4
+    },
+    {
+      "name": "foreman",
+      "directions": 4
+    },
+    {
+      "name": "cwuengi",
+      "directions": 4
+    },
+    {
+      "name": "heavyplatearmor",
+      "directions": 4
+    },
+    {
+      "name": "assassin",
+      "directions": 4
+    },
+    {
+      "name": "suppressor",
+      "directions": 4
+    },
+    {
+      "name": "reinforcedwinterbrown",
+      "directions": 4
+    },
+    {
+      "name": "greenjacket",
+      "directions": 4
+    },
+    {
+      "name": "hazsuit",
+      "directions": 4
+    },
+    {
+      "name": "dv_vest",
+      "directions": 4
+    },
+    {
+      "name": "combatchef",
+      "directions": 4
+    },
+    {
+      "name": "armoredjacket",
+      "directions": 4
+    },
+    {
+      "name": "insulatedjacket",
+      "directions": 4
+    },
+    {
+      "name": "oldriotsuit",
+      "directions": 4
+    },
+    {
+      "name": "bduwebbing",
+      "directions": 4
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineBoxMagnumExtended
   parent: BaseMagazineBoxMagnum
   abstract: true
@@ -12,6 +13,7 @@
     capacity: 16
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineBoxMagnumEnsnaring
   parent: BaseMagazineBoxMagnumExtended
   name: ammunition box (.45 magnum ensnaring)
@@ -44,6 +46,7 @@
 #       color: "#009eff"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineBoxMagnumFlash
   parent: BaseMagazineBoxMagnumExtended
   name: ammunition box (.45 magnum flash)

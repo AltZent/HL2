@@ -66,6 +66,7 @@
   - type: PowerSwitch
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DisposalUnit
   parent: DisposalUnitBase
   name: disposal unit
@@ -90,6 +91,7 @@
   - type: RequireProjectileTarget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MailingUnit
   parent: DisposalUnitBase
   name: mailing unit

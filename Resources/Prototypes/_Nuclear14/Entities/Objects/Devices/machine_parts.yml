@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14PortableGeneratorWeldingFuelMachineParts
   parent: BaseMachineCircuitboard
   name: gas powered generator machine parts

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "flammable_pipe_1",
+      "directions": 8
+    },
+    {
+      "name": "flammable_pipe_2"
+    },
+    {
+      "name": "flammable_pipe_3",
+      "directions": 8
+    }
+  ]
+}

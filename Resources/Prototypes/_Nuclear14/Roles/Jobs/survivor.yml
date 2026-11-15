@@ -1,0 +1,21 @@
+# Overflow (late join) job — referenced by SharedGameTicker.FallbackOverflowJob.
+# setPreference: false — не выбирается в лобби, выдаётся при переполнении.
+- type: job
+  id: Survivor
+  name: job-name-survivor
+  description: job-description-survivor
+  playTimeTracker: JobSurvivor
+  setPreference: false
+  canBeAntag: false
+  supervisors: job-supervisors-nobody
+  startingGear: SurvivorGear
+
+- type: playTimeTracker
+  id: JobSurvivor
+
+- type: startingGear
+  id: SurvivorGear
+  equipment:
+    jumpsuit: MLUniformBrown
+    back: MLBackSack
+    shoes: MLShoesWorkboots

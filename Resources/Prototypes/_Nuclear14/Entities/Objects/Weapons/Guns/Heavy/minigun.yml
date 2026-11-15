@@ -89,6 +89,7 @@
     staminaCost: 7.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: minigun
   parent: BaseWeaponMinigun
   id: N14WeaponMinigun
@@ -102,6 +103,7 @@
     price: 800
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: avenger minigun
   parent: BaseWeaponMinigun
   id: N14WeaponMinigunAvenger

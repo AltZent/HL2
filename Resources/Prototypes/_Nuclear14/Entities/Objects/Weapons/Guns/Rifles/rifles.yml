@@ -30,6 +30,7 @@
   - type: Craftable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: R-91 Rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556R91
@@ -80,6 +81,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese assault rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Chinese
@@ -131,6 +133,7 @@
     price: 125
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: assault carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Carbine
@@ -185,6 +188,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: marksman carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Marksman
@@ -236,6 +240,7 @@
     price: 125
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: service rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Service
@@ -290,6 +295,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scoped service rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556ServiceScoped
@@ -342,6 +348,7 @@
             - N14Cartridge556Rifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scout rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Scout
@@ -395,6 +402,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: battle rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle308Battle
@@ -453,6 +461,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: old carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556CarbineOld
@@ -504,6 +513,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: C70 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Canadian
@@ -558,6 +568,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: EM2 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556EM2
@@ -613,6 +624,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: FAL rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Fal
@@ -664,6 +676,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: M14 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762M14
@@ -715,6 +728,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: F2 marksman rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762MarksmanCanadian
@@ -769,6 +783,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese marksman rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762MarksmanChinese
@@ -823,6 +838,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: SKS chinese carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762SKS
@@ -874,6 +890,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pipe assault rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Pipe
@@ -925,6 +942,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556Tribal
@@ -958,6 +976,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal assault rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556TribalUpgraded
@@ -991,6 +1010,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: butchered service rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Butchered

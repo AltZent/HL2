@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "gshell"
+    },
+    {
+      "name": "gshell-live"
+    },
+    {
+      "name": "xshell"
+    },
+    {
+      "name": "xshell-live"
+    },
+    {
+      "name": "mshell"
+    },
+    {
+      "name": "mshell-live"
+    },
+    {
+      "name": "bshell"
+    },
+    {
+      "name": "bshell-live"
+    },
+    {
+      "name": "556-casing"
+    },
+    {
+      "name": "556-casing-live"
+    },
+    {
+      "name": "45"
+    },
+    {
+      "name": "45-full"
+    },
+    {
+      "name": "45-empty"
+    },
+    {
+      "name": "usp-empty"
+    },
+    {
+      "name": "usp"
+    },
+    {
+      "name": "usp-full"
+    },
+    {
+      "name": "uspru-empty"
+    },
+    {
+      "name": "uspru"
+    },
+    {
+      "name": "uspru-full"
+    },
+    {
+      "name": "smg9mm"
+    },
+    {
+      "name": "smg9mm-full"
+    },
+    {
+      "name": "smg9mm-empty"
+    },
+    {
+      "name": "smg9mmru"
+    },
+    {
+      "name": "smg9mmru-full"
+    },
+    {
+      "name": "smg9mmru-empty"
+    },
+    {
+      "name": "rod_sharp"
+    },
+    {
+      "name": "rod_jagged"
+    },
+    {
+      "name": "m308small-empty"
+    },
+    {
+      "name": "m308small"
+    },
+    {
+      "name": "m308small-full"
+    },
+    {
+      "name": "m308"
+    },
+    {
+      "name": "m308-full"
+    },
+    {
+      "name": "m308-empty"
+    },
+    {
+      "name": "ar2"
+    },
+    {
+      "name": "ar762-empty"
+    },
+    {
+      "name": "ar762-full"
+    },
+    {
+      "name": "ar762"
+    },
+    {
+      "name": "357"
+    },
+    {
+      "name": "357-0"
+    },
+    {
+      "name": "357-1"
+    },
+    {
+      "name": "357-2"
+    },
+    {
+      "name": "357-3"
+    },
+    {
+      "name": "357-4"
+    },
+    {
+      "name": "357-5"
+    },
+    {
+      "name": "357-6"
+    },
+    {
+      "name": "pulsesmg"
+    },
+    {
+      "name": "pulsesmg-full"
+    },
+    {
+      "name": "pulsesmg-empty"
+    },
+    {
+      "name": "ammobox"
+    },
+    {
+      "name": "immolator"
+    },
+    {
+      "name": "darkenergy"
+    },
+    {
+      "name": "darkenergy-live"
+    },
+    {
+      "name": "20mm"
+    },
+    {
+      "name": "20mm-live"
+    },
+    {
+      "name": "rocket-live"
+    },
+    {
+      "name": "rocket"
+    },
+    {
+      "name": "rpd-empty"
+    },
+    {
+      "name": "rpd"
+    },
+    {
+      "name": "rpd-full"
+    },
+    {
+      "name": "556-casing-spent"
+    },
+    {
+      "name": "gshell-spent"
+    },
+    {
+      "name": "bshell-spent"
+    },
+    {
+      "name": "xshell-spent"
+    },
+    {
+      "name": "mshell-spent"
+    },
+    {
+      "name": "darkenergy-spent"
+    },
+    {
+      "name": "20mm-spent"
+    },
+    {
+      "name": "rocket-spent"
+    }
+  ]
+}

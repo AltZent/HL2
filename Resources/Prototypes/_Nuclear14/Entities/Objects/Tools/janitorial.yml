@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MopItem
   name: mop
   id: N14Mop
@@ -9,6 +10,7 @@
     state: mop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MopBucket
   id: N14MopBucket
   name: mop bucket
@@ -25,6 +27,7 @@
     drawdepth: Objects
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14MopBucket
   id: N14MopBucketFull
   suffix: full

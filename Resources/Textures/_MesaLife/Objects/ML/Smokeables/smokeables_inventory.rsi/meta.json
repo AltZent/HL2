@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 40,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Packs"
+    },
+    {
+      "name": "Generic"
+    },
+    {
+      "name": "generic_pack"
+    },
+    {
+      "name": "generic_pack_open"
+    },
+    {
+      "name": "Marlboro"
+    },
+    {
+      "name": "marl_pack"
+    },
+    {
+      "name": "marl_pack_open"
+    },
+    {
+      "name": "Winstons"
+    },
+    {
+      "name": "wins_pack"
+    },
+    {
+      "name": "wins_pack_open"
+    },
+    {
+      "name": "Salem"
+    },
+    {
+      "name": "salem_pack"
+    },
+    {
+      "name": "salem_pack_open"
+    },
+    {
+      "name": "Kools"
+    },
+    {
+      "name": "kool_pack"
+    },
+    {
+      "name": "kool_pack_open"
+    },
+    {
+      "name": "Lucky_Strikes"
+    },
+    {
+      "name": "lucky_pack"
+    },
+    {
+      "name": "Republics"
+    },
+    {
+      "name": "repub_pack"
+    },
+    {
+      "name": "repub_pack_open"
+    },
+    {
+      "name": "cigarette_6"
+    },
+    {
+      "name": "cigarette_5"
+    },
+    {
+      "name": "cigarette_4"
+    },
+    {
+      "name": "cigarette_3"
+    },
+    {
+      "name": "cigarette_2"
+    },
+    {
+      "name": "cigarette_1"
+    },
+    {
+      "name": "overlay_cig_0"
+    },
+    {
+      "name": "Cigarettes"
+    },
+    {
+      "name": "Generic-2"
+    },
+    {
+      "name": "cigoff"
+    },
+    {
+      "name": "cigon",
+      "delays": [
+        [
+          0.8,
+          0.1,
+          0.15,
+          0.4,
+          0.1,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "cigbutt"
+    },
+    {
+      "name": "rollie_paper"
+    }
+  ]
+}

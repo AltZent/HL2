@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "lattice-simple",
+      "directions": 4
+    },
+    {
+      "name": "lattice0"
+    },
+    {
+      "name": "lattice1"
+    },
+    {
+      "name": "lattice2"
+    },
+    {
+      "name": "lattice3"
+    },
+    {
+      "name": "lattice4"
+    },
+    {
+      "name": "lattice5"
+    },
+    {
+      "name": "lattice6"
+    },
+    {
+      "name": "lattice7"
+    },
+    {
+      "name": "lattice8"
+    },
+    {
+      "name": "lattice9"
+    },
+    {
+      "name": "lattice10"
+    },
+    {
+      "name": "lattice11"
+    },
+    {
+      "name": "lattice12"
+    },
+    {
+      "name": "lattice13"
+    },
+    {
+      "name": "lattice14"
+    },
+    {
+      "name": "lattice15"
+    }
+  ]
+}

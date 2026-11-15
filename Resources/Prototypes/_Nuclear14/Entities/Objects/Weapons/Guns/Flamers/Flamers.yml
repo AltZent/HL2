@@ -49,6 +49,7 @@
     backStrength: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: WeaponFireGunBase
   id: N14WeaponFlamer
   name: Flamer

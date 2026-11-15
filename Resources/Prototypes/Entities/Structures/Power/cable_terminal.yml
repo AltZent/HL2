@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CableTerminal
   name: cable terminal
   description: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
@@ -47,6 +48,7 @@
           nodeGroupID: MVPower
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CableTerminalUncuttable
   parent: CableTerminal
   suffix: uncuttable

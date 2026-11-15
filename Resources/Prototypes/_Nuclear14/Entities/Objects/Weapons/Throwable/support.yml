@@ -11,6 +11,7 @@
     tileBreakScale: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Flare
   id: N14AttackPlaneFlare
   name: air support flare

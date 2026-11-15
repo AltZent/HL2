@@ -36,6 +36,7 @@
   - type: Execution
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: china lake
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherChinaLake
@@ -69,6 +70,7 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: RPG-7
   parent: BaseWeaponLauncher
   id: WeaponLauncherRocket
@@ -102,6 +104,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: multiple rocket launcher
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
@@ -137,6 +140,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pirate cannon
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
@@ -169,6 +173,7 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tether gun
   parent:
   - BaseItem
@@ -211,6 +216,7 @@
             False: { visible: false }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: force gun
   parent:
     - BaseItem
@@ -259,6 +265,7 @@
                 False: { visible: false }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grappling gun
   parent: BaseItem
   id: WeaponGrapplingGun
@@ -291,6 +298,7 @@
 
 # Admeme
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tether gun
   parent: BaseItem
   id: WeaponTetherGunAdmin
@@ -330,6 +338,7 @@
             False: { visible: false }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: force gun
   parent: BaseItem
   id: WeaponForceGunAdmin
@@ -372,6 +381,7 @@
             False: { visible: false }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meteor launcher
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
@@ -385,6 +395,7 @@
     proto: MeteorLarge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: immovable rod launcher
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
@@ -399,6 +410,7 @@
 
 # Frontier mail RPDS
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mail RPDS
   parent: WeaponLauncherChinaLake
   id: WeaponMailLake

@@ -1,5 +1,6 @@
 #MARK: Passive Animals
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brahmin Spawner
   id: N14SpawnMobBrahmin
   parent: MarkerBase
@@ -15,6 +16,7 @@
       - N14MobBrahmin
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chicken Spawner
   id: N14SpawnMobChicken
   parent: MarkerBase
@@ -30,6 +32,7 @@
       - N14MobChicken
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bighorner Spawner
   id: N14SpawnMobBighorner
   parent: MarkerBase
@@ -45,6 +48,7 @@
       - N14MobBighorner
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Radstag Spawner
   id: N14SpawnMobRadstag
   parent: MarkerBase
@@ -60,6 +64,7 @@
       - N14MobRadstag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nuclear Beaver Spawner
   id: N14SpawnMobNuclearBeaver
   parent: MarkerBase
@@ -75,6 +80,7 @@
       - N14MobNuclearBeaver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nuclear Opossum Spawner
   id: N14SpawnMobNuclearOpossum
   parent: MarkerBase
@@ -90,6 +96,7 @@
       - N14MobNuclearOpossum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nuclear Rabbit Spawner
   id: N14SpawnMobNuclearRabbit
   parent: MarkerBase
@@ -105,6 +112,7 @@
       - N14MobNuclearRabbit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Opossum Spawner
   id: N14SpawnMobOpossum
   parent: MarkerBase
@@ -120,6 +128,7 @@
       - N14MobOpossum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Normal Rabbit Spawner
   id: N14SpawnMobNormRabbit
   parent: MarkerBase
@@ -136,6 +145,7 @@
       
 #MARK: Hostile Animals
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Molerat Spawner
   id: N14SpawnMobMolerat
   parent: MarkerBase
@@ -151,6 +161,7 @@
       - N14MobMolerat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pigrat Spawner
   id: N14SpawnMobPigrat
   parent: MarkerBase
@@ -166,6 +177,7 @@
       - N14MobPigrat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Radhog Spawner
   id: N14SpawnMobRadhog
   parent: MarkerBase
@@ -181,6 +193,7 @@
       - N14MobRadhog
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Feral Dog Spawner
   id: N14SpawnMobFeralDog
   parent: MarkerBase
@@ -196,6 +209,7 @@
       - N14MobDogFeral
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Gecko Spawner
   id: N14SpawnMobGecko
   parent: MarkerBase
@@ -211,6 +225,7 @@
       - N14MobGecko
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Fire Gecko Spawner
   id: N14SpawnMobGeckoFire
   parent: MarkerBase
@@ -226,6 +241,7 @@
       - N14MobGeckoFire
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Golden Gecko Spawner
   id: N14SpawnMobGeckoGolden
   parent: MarkerBase
@@ -241,6 +257,7 @@
       - N14MobGeckoGolden
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nightstalker Cub Spawner
   id: N14SpawnMobNightstalkerCub
   parent: MarkerBase
@@ -256,6 +273,7 @@
       - N14MobNightstalkerCub
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nightstalker Spawner
   id: N14SpawnMobNightstalker
   parent: MarkerBase
@@ -271,6 +289,7 @@
       - N14MobNightstalker
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Yao Guai Spawner
   id: N14SpawnMobYaoguai
   parent: MarkerBase
@@ -287,6 +306,7 @@
 
 #MARK: Scaley Animals
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Deathclaw Spawner
   id: N14SpawnMobDeathclaw
   parent: MarkerBase
@@ -302,6 +322,7 @@
       - N14MobDeathclaw
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Deathclaw Albino Spawner
   id: N14SpawnMobDeathclawAlbino
   parent: MarkerBase
@@ -317,6 +338,7 @@
       - N14MobDeathclawAlbino
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Deathclaw Metal Spawner
   id: N14SpawnMobDeathclawMetal
   parent: MarkerBase
@@ -332,6 +354,7 @@
       - N14MobDeathclawMetal
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Lurker Spawner
   id: N14SpawnMobLurker
   parent: MarkerBase
@@ -348,6 +371,7 @@
 
 #MARK: Insects
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bloatfly Spawner
   id: N14SpawnMobBloatfly
   parent: MarkerBase
@@ -363,6 +387,7 @@
       - N14MobBloatfly
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Giant Ant Spawner
   id: N14SpawnMobGiantAnt
   parent: MarkerBase
@@ -378,6 +403,7 @@
       - N14MobGiantAnt
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Giant Fire Ant Spawner
   id: N14SpawnMobGiantFireAnt
   parent: MarkerBase
@@ -393,6 +419,7 @@
       - N14MobGiantFireAnt
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Radroach Spawner
   id: N14SpawnMobRadroach
   parent: MarkerBase
@@ -408,6 +435,7 @@
       - N14MobRadroach
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Radscorpion Spawner
   id: N14SpawnMobRadscorpion
   parent: MarkerBase
@@ -423,6 +451,7 @@
       - N14MobRadscorpion
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Barkscorpion Spawner
   id: N14SpawnMobRadscorpionBark
   parent: MarkerBase
@@ -438,6 +467,7 @@
       - N14MobRadscorpionBark
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Cazador Spawner
   id: N14SpawnMobCazador
   parent: MarkerBase
@@ -454,6 +484,7 @@
 
 # Ranged Raider Variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Raider Spawner - Pistol
   id: N14SpawnMobRaiderPsychoRanged
   parent: MarkerBase
@@ -469,6 +500,7 @@
       - N14MobRaiderPsychoRanged
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Raider Spawner - Rifle
   id: N14SpawnMobRaiderPsychoHunter
   parent: MarkerBase
@@ -484,6 +516,7 @@
       - N14MobRaiderHunter
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Raider Spawner - Shotgun
   id: N14SpawnMobRaiderPsychoSkrimisher
   parent: MarkerBase
@@ -499,6 +532,7 @@
       - N14MobRaiderSkrimisher
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Raider Spawner - Boss
   id: N14SpawnMobRaiderBoss
   parent: MarkerBase
@@ -514,6 +548,7 @@
       - N14MobRaiderBoss
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mercenary Spawner - Private
   id: N14SpawnMobRaiderFernPrivate
   parent: MarkerBase
@@ -529,6 +564,7 @@
       - N14MobFernMercPrivate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mercenary Spawner - Sergeant
   id: N14SpawnMobRaiderFernSergeant
   parent: MarkerBase
@@ -544,6 +580,7 @@
       - N14MobFernMercSergeant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mercenary Spawner - Lieutenant
   id: N14SpawnMobRaiderFern
   parent: MarkerBase
@@ -559,6 +596,7 @@
       - N14MobFernMercLieutenant
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Enforcer Spawner - Trooper
   id: N14SpawnMobRaiderEnforcerTrooper
   parent: MarkerBase
@@ -574,6 +612,7 @@
       - N14MobEnforcerTrooper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Enforcer Spawner - Warden
   id: N14SpawnMobRaiderEnforcerWarden
   parent: MarkerBase
@@ -589,6 +628,7 @@
       - N14MobEnforcerWarden
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Enforcer Spawner - Chief
   id: N14SpawnMobRaiderEnforcerChief
   parent: MarkerBase
@@ -605,6 +645,7 @@
 
 # Melee Raider Variants
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Raider Spawner - Melee
   id: N14SpawnMobRaiderPsycho
   parent: MarkerBase
@@ -620,6 +661,7 @@
       - N14MobRaiderPsycho
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Fern Spawner - Melee
   id: N14SpawnMobRaiderFernMelee
   parent: MarkerBase
@@ -635,6 +677,7 @@
       - N14MobRaiderFernMelee
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Enforcer Spawner - Melee
   id: N14SpawnMobRaiderEnforcerMelee
   parent: MarkerBase
@@ -651,6 +694,7 @@
 
 #MARK: Ghoul
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Feral Ghoul Spawner
   id: N14SpawnMobFeralGhoul
   parent: MarkerBase
@@ -666,6 +710,7 @@
       - N14MobGhoulFeral
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Feral Ghoul Reaver Spawner
   id: N14SpawnMobFeralGhoulReaver
   parent: MarkerBase
@@ -681,6 +726,7 @@
       - N14MobGhoulFeralReaver
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Feral Ghoul Rotter Spawner
   id: N14SpawnMobFeralGhoulRotter
   parent: MarkerBase
@@ -696,6 +742,7 @@
       - N14MobGhoulFeralRotter
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Maypole Spawner
   id: N14SpawnMobGhoulMaypole
   parent: MarkerBase
@@ -712,6 +759,7 @@
 
 #MARK: Robots
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Assaultron Spawner
   id: N14SpawnMobAssaultron
   parent: MarkerBase
@@ -727,6 +775,7 @@
       - N14MobRobotAssaultronHostile
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Protectron Spawner
   id: N14SpawnMobProtectron
   parent: MarkerBase
@@ -742,6 +791,7 @@
       - N14MobRobotProtectronHostile
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Protectron Builder Spawner
   id: N14SpawnMobProtectronBuilder
   parent: MarkerBase
@@ -757,6 +807,7 @@
       - N14MobRobotProtectronBuilderHostile
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Protectron Fire Spawner
   id: N14SpawnMobProtectronFire
   parent: MarkerBase
@@ -772,6 +823,7 @@
       - N14MobRobotProtectronFireHostile
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Protectron Police Spawner
   id: N14SpawnMobProtectronPoliceHostile
   parent: MarkerBase
@@ -787,6 +839,7 @@
       - N14MobRobotProtectronPoliceHostile
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mr Handy Spawner
   id: N14SpawnMobMrHandyClaw
   parent: MarkerBase
@@ -802,6 +855,7 @@
       - N14MobRobotMrHandyClaw
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mr Handy Gun Spawner
   id: N14SpawnMobMrHandyGun
   parent: MarkerBase
@@ -817,6 +871,7 @@
       - N14MobRobotMrHandyGun
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mr Handy Saw Spawner
   id: N14SpawnMobMrHandySaw
   parent: MarkerBase
@@ -832,6 +887,7 @@
       - N14MobRobotMrHandySaw
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mr Gutsy Spawner
   id: N14SpawnMobMrHandyGutsy
   parent: MarkerBase
@@ -847,6 +903,7 @@
       - N14MobRobotMrHandyGutsy
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Robobrain Spawner
   id: N14SpawnMobRobobrain
   parent: MarkerBase
@@ -862,6 +919,7 @@
       - N14MobRobotRobobrain
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Eyebot Spawner
   id: N14SpawnMobEyebot
   parent: MarkerBase
@@ -877,6 +935,7 @@
       - N14MobRobotEyebot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Spore Plant Spawner
   id: N14SpawnMobSporePlant
   parent: MarkerBase
@@ -893,6 +952,7 @@
 
 #Pets
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Haggis the Cat Spawner
   id: N14SpawnMobHaggis
   parent: MarkerBase
@@ -909,6 +969,7 @@
 
 # NPC faction guards
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town Militia Spawner
   id: N14SpawnMobNPCTown
   parent: MarkerBase
@@ -924,6 +985,7 @@
       - N14MobNPCTown
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town Enforcer Spawner
   id: N14SpawnMobNPCTownGuard
   parent: MarkerBase
@@ -939,6 +1001,7 @@
       - N14MobNPCTownGuard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Midwest Serf Spawner
   id: N14SpawnMobNPCMBoSSerf
   parent: MarkerBase
@@ -954,6 +1017,7 @@
       - N14MobNPCMBoSSerf
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Midwest Knight Spawner
   id: N14SpawnMobNPCMBoSKnight
   parent: MarkerBase
@@ -969,6 +1033,7 @@
       - N14MobNPCMBoSKnight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Washington Initiate Spawner
   id: N14SpawnMobNPCWBoSInitiate
   parent: MarkerBase
@@ -984,6 +1049,7 @@
       - N14MobNPCWBoSInitiate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Washington Knight Spawner
   id: N14SpawnMobNPCWBoSKnight
   parent: MarkerBase
@@ -999,6 +1065,7 @@
       - N14MobNPCWBoSKnight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Army Guard Spawner
   id: N14SpawnMobNPCNCRGuard
   parent: MarkerBase
@@ -1014,6 +1081,7 @@
       - N14MobNPCNCRGuard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: NCR Army Trooper Spawner
   id: N14SpawnMobNPCNCRTrooper
   parent: MarkerBase
@@ -1029,6 +1097,7 @@
       - N14MobNPCNCRTrooper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Caravan Merc Spawner
   id: N14SpawnMobNPCCaravanMerc
   parent: MarkerBase
@@ -1044,6 +1113,7 @@
       - N14MobNPCCaravanMerc
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Skirmisher Spawner
   id: N14SpawnMobNPCTribeSkir
   parent: MarkerBase
@@ -1059,6 +1129,7 @@
       - N14MobNPCTribeSkir
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Warrior Spawner
   id: N14SpawnMobNPCTribeWarr
   parent: MarkerBase

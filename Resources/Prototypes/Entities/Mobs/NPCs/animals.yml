@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bat
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobBat
@@ -78,6 +79,7 @@
     deactivateSound: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bee
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobBee
@@ -149,6 +151,7 @@
     barkMultiplier: 1.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bee
   suffix: Angry
   parent: [ MobBee, MobCombat ]
@@ -177,6 +180,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chicken
   parent: SimpleMobBase
   id: MobChicken
@@ -263,6 +267,7 @@
     # barkType: chicken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobChicken
   id: MobChicken1
   components:
@@ -288,6 +293,7 @@
         Base: dead-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobChicken
   id: MobChicken2
   components:
@@ -313,6 +319,7 @@
         Base: dead-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FoodEggChickenFertilized
   parent: FoodEgg
   suffix: Fertilized, Chicken
@@ -411,6 +418,7 @@
     understands: [Hissing]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobCockroach
   id: MobCockroachPet
   components:
@@ -428,6 +436,7 @@
     flavorKind: station-event-random-sentience-flavor-organic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: glockroach
   parent: MobCockroach
   suffix: Admeme
@@ -460,6 +469,7 @@
     - id: FoodMeatSlime
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mothroach
   parent: MobCockroach
   id: MobMothroach
@@ -599,6 +609,7 @@
         type: SurgeryBui
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMothroach
   id: MobMothroachPet
   components:
@@ -617,6 +628,7 @@
 # The white duck is more akin to a pekin or call duck.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mallard duck #Quack
   parent: SimpleMobBase
   id: MobDuckMallard
@@ -700,6 +712,7 @@
         type: SurgeryBui
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: white duck #Quack
   parent: MobDuckMallard
   id: MobDuckWhite
@@ -717,6 +730,7 @@
         Base: dead-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brown duck #Quack
   parent: MobDuckMallard
   id: MobDuckBrown
@@ -734,6 +748,7 @@
         Base: dead-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FoodEggDuckFertilized
   parent: FoodEgg
   suffix: Fertilized, Duck
@@ -751,6 +766,7 @@
       lifetime: 21
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: butterfly
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobButterfly
@@ -797,6 +813,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cow
   parent: SimpleMobBase
   id: MobCow
@@ -882,6 +899,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: crab
   parent: SimpleMobBase
   id: MobCrab
@@ -960,6 +978,7 @@
         type: SurgeryBui
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: goat
   parent: SimpleMobBase
   id: MobGoat
@@ -1057,6 +1076,7 @@
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: goose
   parent: SimpleMobBase
   id: MobGoose
@@ -1104,6 +1124,7 @@
     - Passive
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: gorilla
   parent: [ SimpleMobBase, MobCombat ]
   id: MobGorilla
@@ -1159,6 +1180,7 @@
       task: SimpleHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: kangaroo
   parent: [ SimpleMobBase, MobCombat ]
   id: MobKangaroo
@@ -1251,6 +1273,7 @@
       task: SimpleHostileCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: boxing kangaroo
   parent: MobKangaroo
   id: MobBoxingKangaroo
@@ -1405,6 +1428,7 @@
     - DoorBumpOpener
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: monkey
   id: MobMonkey
   parent: MobBaseAncestor
@@ -1441,6 +1465,7 @@
       path: /Audio/Animals/monkey_scream.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: monkey
   id: MobBaseSyndicateMonkey
   parent: MobBaseAncestor
@@ -1476,6 +1501,7 @@
     prototypes: [SyndicateOperativeGearMonkey]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobMonkeySyndicateAgent
   parent: MobBaseSyndicateMonkey
   suffix: syndicate agent
@@ -1485,6 +1511,7 @@
     profile: TraitorReinforcement
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobMonkeySyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
   parent: MobBaseSyndicateMonkey
   suffix: NukeOps
@@ -1574,6 +1601,7 @@
   # Shitmed Change End
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: kobold
   id: MobKobold
   parent: MobBaseKobold
@@ -1590,6 +1618,7 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobBaseSyndicateKobold
   parent: MobBaseKobold
   suffix: syndicate base
@@ -1606,6 +1635,7 @@
     prototypes: [SyndicateOperativeGearMonkey]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobKoboldSyndicateAgent
   parent: MobBaseSyndicateKobold
   suffix: syndicate agent
@@ -1615,6 +1645,7 @@
     profile: TraitorReinforcement
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobKoboldSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
   parent: MobBaseSyndicateKobold
   suffix: NukeOps
@@ -1631,6 +1662,7 @@
     - type: GuidebookControlsTest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mouse
   parent: SimpleMobBase
   id: MobMouse
@@ -1810,6 +1842,7 @@
     deactivateSound: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMouse
   id: MobMousePet
   components:
@@ -1825,6 +1858,7 @@
         2.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMouse
   suffix: Dead
   save: false
@@ -1841,6 +1875,7 @@
         Blunt: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMouse
   id: MobMouseAdmeme
   suffix: Admeme
@@ -1852,6 +1887,7 @@
     lifetime: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMouse
   id: MobMouse1
   components:
@@ -1881,6 +1917,7 @@
     heldPrefix: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobMouse
   id: MobMouse2
   components:
@@ -1910,6 +1947,7 @@
     heldPrefix: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cancer mouse
   description: Toxic. Squeak!
   parent: MobMouse
@@ -1945,6 +1983,7 @@
     damageModifierSet: Zombie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lizard #Weh
   parent: SimpleMobBase
   id: MobLizard
@@ -2000,6 +2039,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slug
   parent: SimpleMobBase
   id: MobSlug
@@ -2047,6 +2087,7 @@
     bloodMaxVolume: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: frog
   parent: SimpleMobBase
   id: MobFrog
@@ -2108,6 +2149,7 @@
 
 # Would be cool to have some functionality for the parrot to be able to sit on stuff
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: parrot
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobParrot
@@ -2168,6 +2210,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: penguin
   parent: SimpleMobBase
   id: MobPenguin
@@ -2235,6 +2278,7 @@
     understands: [Penguin]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grenade penguin
   parent: [ MobPenguin, MobCombat ]
   id: MobGrenadePenguin
@@ -2305,6 +2349,7 @@
 
   # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: snake
   parent: SimpleMobBase
   id: MobSnake
@@ -2492,6 +2537,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tarantula
   parent: MobSpiderBase
   id: MobGiantSpider
@@ -2529,12 +2575,14 @@
         Piercing: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent:
   - MobGiantSpider
   - MobSpiderAngryBase
   id: MobGiantSpiderAngry
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: clown spider
   parent: MobSpiderAngryBase
   id: MobClownSpider
@@ -2581,6 +2629,7 @@
       bloodReagent: Laughter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wizard spider
   parent: MobGiantSpider
   id: MobGiantSpiderWizard
@@ -2593,6 +2642,7 @@
       accent: xeno  #let this wizard speak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: possum
   parent: SimpleMobBase
   id: MobPossum
@@ -2657,6 +2707,7 @@
     barkType: possum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: possum
   parent: MobPossum
   suffix: Old sprite
@@ -2676,6 +2727,7 @@
         Base: possum_dead_old
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raccoon
   parent: SimpleMobBase
   id: MobRaccoon
@@ -2741,6 +2793,7 @@
     barkType: raccoon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fox
   parent: SimpleMobBase
   id: MobFox
@@ -2832,6 +2885,7 @@
     barkMultiplier: 0.5 # Talkative <3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: corgi
   parent: SimpleMobBase
   id: MobCorgi
@@ -2902,6 +2956,7 @@
     barkType: dog
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: corrupted corgi
   parent: [ MobCorgi, MobCombat ]
   id: MobCorgiNarsi
@@ -2962,6 +3017,7 @@
         Heat : 1 #per second, scales with temperature & other constants
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: corgi puppy
   parent: MobCorgi
   id: MobCorgiPuppy
@@ -2990,6 +3046,7 @@
       gender: epicene
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cat
   parent: SimpleMobBase
   id: MobCat
@@ -3069,6 +3126,7 @@
     barkType: cat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: calico cat
   id: MobCatCalico
   parent: MobCat
@@ -3086,6 +3144,7 @@
         Base: cat2_dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: syndicat
   id: MobCatSyndy
   parent: MobCatSpace
@@ -3137,6 +3196,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: space cat
   id: MobCatSpace
   parent: MobCat
@@ -3173,6 +3233,7 @@
     minSaturation: 5.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: caracal cat
   id: MobCatCaracal
   parent: MobCat
@@ -3202,6 +3263,7 @@
         - MobLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: kitten
   parent: MobCat
   id: MobCatKitten
@@ -3248,6 +3310,7 @@
         - MobLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sloth
   parent: SimpleMobBase
   id: MobSloth
@@ -3314,6 +3377,7 @@
     - Hissing
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ferret
   parent: SimpleMobBase
   id: MobFerret
@@ -3378,6 +3442,7 @@
     - Hissing
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hamster
   parent: [ SimpleMobBase, MobCombat ]
   id: MobHamster
@@ -3529,6 +3594,7 @@
     normalState: Mouse_burning
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHamster
   id: MobHamsterPet
   components:
@@ -3544,6 +3610,7 @@
         2.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pig
   parent: SimpleMobBase
   id: MobPig
@@ -3620,6 +3687,7 @@
     - Passive
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: diona nymph
   parent: SimpleMobBase
   id: MobDionaNymph
@@ -3707,6 +3775,7 @@
     - RootSpeak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobDionaNymph
   id: MobDionaNymphAccent # No talky. For non-brain & wild nymphs
   suffix: Accent

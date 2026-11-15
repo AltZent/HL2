@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "griddle1_off",
+      "directions": 4
+    },
+    {
+      "name": "griddle1_on",
+      "directions": 4
+    },
+    {
+      "name": "griddle2_off"
+    },
+    {
+      "name": "griddle2_on"
+    },
+    {
+      "name": "griddle3_off"
+    },
+    {
+      "name": "griddle3_on"
+    },
+    {
+      "name": "griddlestand_off"
+    },
+    {
+      "name": "griddlestand_on"
+    },
+    {
+      "name": "front_bar"
+    },
+    {
+      "name": "oven_lid_open"
+    },
+    {
+      "name": "oven_lid_closed"
+    },
+    {
+      "name": "oven_on"
+    },
+    {
+      "name": "oven_off"
+    },
+    {
+      "name": "oven_light_mask"
+    },
+    {
+      "name": "range_lid_open"
+    },
+    {
+      "name": "range_lid_closed"
+    },
+    {
+      "name": "range_on"
+    },
+    {
+      "name": "range_off"
+    },
+    {
+      "name": "range_light_mask"
+    },
+    {
+      "name": "range_on_overlay"
+    },
+    {
+      "name": "range_on_flame",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "range_alt_on"
+    },
+    {
+      "name": "range_alt_off"
+    },
+    {
+      "name": "fridge"
+    },
+    {
+      "name": "fridgeopen"
+    },
+    {
+      "name": "fridgeg"
+    },
+    {
+      "name": "fridger"
+    },
+    {
+      "name": "blender_d"
+    },
+    {
+      "name": "blender_e"
+    },
+    {
+      "name": "blender_jug_e"
+    },
+    {
+      "name": "blender_h"
+    },
+    {
+      "name": "blender_f"
+    },
+    {
+      "name": "blender_jug_h"
+    },
+    {
+      "name": "blender_jug_f"
+    },
+    {
+      "name": "blender_h_tan"
+    },
+    {
+      "name": "blender_f_tan"
+    },
+    {
+      "name": "blender_jug_h_tan"
+    },
+    {
+      "name": "blender_jug_f_tan"
+    },
+    {
+      "name": "blender_jug_f_red"
+    },
+    {
+      "name": "blender_h_red"
+    },
+    {
+      "name": "blender_f_red"
+    },
+    {
+      "name": "blender_jug_h_red"
+    },
+    {
+      "name": "juicer"
+    },
+    {
+      "name": "juicer-on"
+    },
+    {
+      "name": "juicer-beaker"
+    },
+    {
+      "name": "grillmarks"
+    },
+    {
+      "name": "grill"
+    },
+    {
+      "name": "grill_open"
+    },
+    {
+      "name": "grill_on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "synthesizer",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "synthesizer-o"
+    },
+    {
+      "name": "synthesizer_beam",
+      "delays": [
+        [
+          0.14,
+          0.14
+        ]
+      ]
+    },
+    {
+      "name": "grinder"
+    },
+    {
+      "name": "grinder_open"
+    },
+    {
+      "name": "grinder_jaws_active",
+      "delays": [
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      ]
+    },
+    {
+      "name": "grinder_loaded"
+    },
+    {
+      "name": "grinder_active"
+    },
+    {
+      "name": "grinder_empty"
+    },
+    {
+      "name": "grinder_bloody",
+      "delays": [
+        [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "processor"
+    },
+    {
+      "name": "processor_open"
+    },
+    {
+      "name": "processor_slime"
+    },
+    {
+      "name": "processor_slime_open"
+    },
+    {
+      "name": "fryer_off"
+    },
+    {
+      "name": "fryer_on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "fryer_start",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "fryer_stop",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "fryer_greasy"
+    }
+  ]
+}

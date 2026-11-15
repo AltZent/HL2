@@ -119,6 +119,7 @@
       bloodReagent: Laughter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
@@ -134,6 +135,7 @@
       spawnRadius: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerPyro
@@ -143,6 +145,7 @@
   - type: Electrified
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerGrav
@@ -151,6 +154,7 @@
   - type: GravityAnomaly
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerIce

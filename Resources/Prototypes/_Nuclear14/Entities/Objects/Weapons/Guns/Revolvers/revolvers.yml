@@ -10,6 +10,7 @@
   - type: Craftable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 9mm revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver9mm
@@ -45,6 +46,7 @@
     price: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: 10mm revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver10mm
@@ -68,6 +70,7 @@
     price: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: webley revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolverWebley
@@ -95,6 +98,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WeaponRevolver10mm
   id: N14WeaponRevolver10mmEmpty
   suffix: Empty
@@ -111,6 +115,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: magnum revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44Magnun
@@ -133,6 +138,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: captain revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44MagnumCaptain
@@ -157,6 +163,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hunting revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70Hunter
@@ -179,6 +186,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wild whisper
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70WildWhisper
@@ -203,6 +211,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger sequoia
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70RangerSequoia
@@ -227,6 +236,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal handgun
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44Tribal
@@ -253,6 +263,7 @@
     price: 40
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44TribalUpgraded
@@ -277,6 +288,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal revolver
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44TribalUpgradedExtra
@@ -303,6 +315,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: handcannon
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70Handcannon
@@ -330,6 +343,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: decorated handcannon
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70HandcannonUpgraded

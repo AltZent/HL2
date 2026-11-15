@@ -34,6 +34,7 @@
 
 # Cave Decor
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard1
   name: floor board
@@ -43,6 +44,7 @@
     state: boards_drought_ns-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard2
   name: floor board
@@ -52,6 +54,7 @@
     state: boards_drought_ns-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard3
   name: floor board
@@ -61,6 +64,7 @@
     state: boards_drought_ns-3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard4
   name: floor board
@@ -70,6 +74,7 @@
     state: boards_drought_ns-4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard5
   name: floor board
@@ -79,6 +84,7 @@
     state: boards_drought_ns-5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard6
   name: floor board
@@ -88,6 +94,7 @@
     state: boards_drought_ns-6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard7
   name: floor board
@@ -97,6 +104,7 @@
     state: boards_drought_we-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard8
   name: floor board
@@ -106,6 +114,7 @@
     state: boards_drought_we-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard9
   name: floor board
@@ -115,6 +124,7 @@
     state: boards_drought_we-3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard10
   name: floor board
@@ -124,6 +134,7 @@
     state: boards_drought_we-4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard11
   name: floor board
@@ -133,6 +144,7 @@
     state: boards_drought_we-5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard12
   name: floor board
@@ -142,6 +154,7 @@
     state: boards_drought_we-6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard13
   name: floor board
@@ -151,6 +164,7 @@
     state: boards_mammoth_ns-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard14
   name: floor board
@@ -160,6 +174,7 @@
     state: boards_mammoth_ns-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard15
   name: floor board
@@ -169,6 +184,7 @@
     state: boards_mammoth_ns-3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard16
   name: floor board
@@ -178,6 +194,7 @@
     state: boards_mammoth_ns-4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard17
   name: floor board
@@ -187,6 +204,7 @@
     state: boards_mammoth_ns-5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard18
   name: floor board
@@ -196,6 +214,7 @@
     state: boards_mammoth_ns-6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard19
   name: floor board
@@ -205,6 +224,7 @@
     state: boards_mammoth_we-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard20
   name: floor board
@@ -214,6 +234,7 @@
     state: boards_mammoth_we-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard21
   name: floor board
@@ -223,6 +244,7 @@
     state: boards_mammoth_we-3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard22
   name: floor board
@@ -232,6 +254,7 @@
     state: boards_mammoth_we-4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard23
   name: floor board
@@ -241,6 +264,7 @@
     state: boards_mammoth_we-5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorFloorBoard24
   name: floor board
@@ -250,6 +274,7 @@
     state: boards_mammoth_we-6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorStalagmite1
   name: stalagmite
@@ -270,6 +295,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorStalagmite2
   components:
@@ -277,6 +303,7 @@
     state: stalagmite1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorStalagmite3
   components:
@@ -284,6 +311,7 @@
     state: stalagmite2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorStalagmite4
   components:
@@ -291,6 +319,7 @@
     state: stalagmite3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorStalagmite5
   components:
@@ -298,6 +327,7 @@
     state: stalagmite4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorStalagmite6
   components:
@@ -305,6 +335,7 @@
     state: stalagmite5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStalagmite1
   id: N14DecorMinecart
   name: minecrart
@@ -314,6 +345,7 @@
     state: minecart_fallen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorSignLeftMine
   name: sign
@@ -323,6 +355,7 @@
     state: sign_left
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14DecorSignRightMine
   name: sign
@@ -342,6 +375,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorPaper
   name: scattered paper
@@ -354,6 +388,7 @@
     # add destruction drop for materials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorPaper1
   suffix: 4 states
@@ -364,6 +399,7 @@
     state: papers_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorPaper1
   id: N14DecorFloorPaper2
   components:
@@ -371,6 +407,7 @@
     state: papers_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorPaper1
   id: N14DecorFloorPaper3
   components:
@@ -378,6 +415,7 @@
     state: papers_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorScrapwood
   name: wood scraps
@@ -389,6 +427,7 @@
     state: woodscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorBrickrubble
   name: brick rubble
@@ -399,6 +438,7 @@
     state: brickrubble
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorCardboard
   name: cardboard boxes
@@ -410,6 +450,7 @@
     # add destruction drop for materials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorPallet
   name: pallet
@@ -421,6 +462,7 @@
         # add destruction drop for materials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorPalletStack
   name: pallet stack
@@ -443,6 +485,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorPalletStack
   id: N14DecorFloorBrickStack
   name: brick stack
@@ -452,6 +495,7 @@
     state: brickpile
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorBookstack1
   name: book stack
@@ -462,6 +506,7 @@
         # add destruction drop for materials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookstack1
   id: N14DecorFloorBookstack2
   components:
@@ -469,6 +514,7 @@
     state: bookstack_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookstack1
   id: N14DecorFloorBookstack3
   components:
@@ -476,6 +522,7 @@
     state: bookstack_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorBookPile1
   name: book pile
@@ -486,6 +533,7 @@
         # add destruction drop for materials
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookPile1
   id: N14DecorFloorBookPile2
   components:
@@ -493,6 +541,7 @@
     state: bookpile_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookPile1
   id: N14DecorFloorBookPile3
   components:
@@ -500,6 +549,7 @@
     state: bookpile_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookPile1
   id: N14DecorFloorBookPile4
   components:
@@ -507,6 +557,7 @@
     state: bookpile_4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookPile1
   id: N14DecorFloorBookPile5
   components:
@@ -514,6 +565,7 @@
     state: bookpile_5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBookPile1
   id: N14DecorFloorBookPile6
   components:
@@ -521,6 +573,7 @@
     state: bookpile_6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorFood1
   name: food stuff
@@ -530,6 +583,7 @@
     state: foodstuff_1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorFood1
   id: N14DecorFloorFood2
   components:
@@ -537,6 +591,7 @@
     state: foodstuff_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorFood1
   id: N14DecorFloorFood3
   components:
@@ -544,6 +599,7 @@
     state: foodstuff_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorFood1
   id: N14DecorFloorFood4
   components:
@@ -551,6 +607,7 @@
     state: foodstuff_4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorFood1
   id: N14DecorFloorFood5
   components:
@@ -558,6 +615,7 @@
     state: foodstuff_5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorFood1
   id: N14DecorFloorFood6
   components:
@@ -565,6 +623,7 @@
     state: foodstuff_6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorTrashbags1
   name: trash bags
@@ -585,6 +644,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorTrashbags1
   id: N14DecorFloorTrashbags2
   components:
@@ -592,6 +652,7 @@
     state: trashbags_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorTrashbags1
   id: N14DecorFloorTrashbags3
   components:
@@ -599,6 +660,7 @@
     state: trashbags_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorTrashbags1
   id: N14DecorFloorTrashbags4
   components:
@@ -606,6 +668,7 @@
     state: trashbags_4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorTrashbags1
   id: N14DecorFloorTrashbags5
   components:
@@ -613,6 +676,7 @@
     state: trashbags_5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorTrashbags1
   id: N14DecorFloorTrashbags6
   components:
@@ -620,6 +684,7 @@
     state: trashbags_6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorGlass1
   name: glass bottles
@@ -630,6 +695,7 @@
     # add glass shard destruction
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorGlass1
   id: N14DecorFloorGlass2
   components:
@@ -637,6 +703,7 @@
     state: glass_2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorGlass1
   id: N14DecorFloorGlass3
   components:
@@ -644,6 +711,7 @@
     state: glass_3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorGlass1
   id: N14DecorFloorGlass4
   components:
@@ -651,6 +719,7 @@
     state: glass_4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorGlass1
   id: N14DecorFloorGlass5
   components:
@@ -658,6 +727,7 @@
     state: glass_5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorGlass1
   id: N14DecorFloorGlass6
   components:
@@ -665,6 +735,7 @@
     state: glass_6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorSignMines
   name: mines
@@ -674,6 +745,7 @@
     state: mine_sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorSkeleton
   name: skeleton
@@ -683,6 +755,7 @@
     state: skeleton
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorWorldBase
   id: N14DecorBarrels
   name: barrels
@@ -714,6 +787,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorSkeleton
   id: N14DecorFloorSkeletonOver
   suffix: draws over objects

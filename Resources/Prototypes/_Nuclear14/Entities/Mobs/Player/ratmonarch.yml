@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   save: false
   name: Urist McRatLord
   parent: [N14BaseMobRatMonarch, BaseMob]

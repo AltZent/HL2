@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WellBoarded
   name: Boarded well
   description: It's a well that's been boarded up. Maybe a crowbar will reveal it's secrets.
@@ -37,6 +38,7 @@
 # N14:TODO Add a way to open this and turn it into a ladder to dungeons.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WellBoarded
   id: N14WellWaterClean 
   name: water well
@@ -75,6 +77,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WellWaterClean
   id: N14WellWaterDirty
   suffix: Dirty
@@ -93,6 +96,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WellWaterClean
   id: N14WellWaterIrradiated # N14TODO: As above
   suffix: Irradiated

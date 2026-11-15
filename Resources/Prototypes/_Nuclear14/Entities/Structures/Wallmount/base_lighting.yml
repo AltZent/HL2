@@ -1,5 +1,6 @@
 #Small lights
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SmallLight
   id: N14LightSmallAlwayson
   name: small light
@@ -19,6 +20,7 @@
   - type: WallMount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PoweredSmallLightEmpty
   id: N14LightSmallEmpty
   name: small light
@@ -35,6 +37,7 @@
   - type: WallMount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PoweredSmallLight
   id: N14LightSmall
   suffix: ""
@@ -46,6 +49,7 @@
   - type: WallMount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SmallLight
   id: N14LightSmallAlwaysonNormie
   name: small light
@@ -65,6 +69,7 @@
   - type: WallMount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PoweredSmallLightEmpty
   id: N14LightSmallEmptyNormie
   name: small light
@@ -81,6 +86,7 @@
   - type: WallMount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PoweredSmallLight
   id: N14LightSmallNormie
   suffix: Mappers Use Me

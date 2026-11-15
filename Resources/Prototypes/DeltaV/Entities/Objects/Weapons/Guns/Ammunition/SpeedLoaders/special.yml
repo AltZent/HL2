@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseSpeedLoaderSpecial
   name: "speed loader (.38 special)"
   parent: BaseItem
@@ -20,6 +21,7 @@
         ents: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecial
   name: "speed loader (.38 special)"
   parent: BaseSpeedLoaderSpecial
@@ -40,6 +42,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecialPractice
   name: "speed loader (.38 special practice)"
   parent: BaseSpeedLoaderSpecial
@@ -60,6 +63,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecialRubber
   name: "speed loader (.38 special rubber)"
   parent: BaseSpeedLoaderSpecial
@@ -80,6 +84,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecialUranium
   name: "speed loader (.38 special uranium)"
   parent: BaseSpeedLoaderSpecial
@@ -100,6 +105,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecialMindbreaker
   name: "speed loader (.38 special mindbreaker)"
   parent: BaseSpeedLoaderSpecial
@@ -120,6 +126,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderSpecialHoly
   name: "speed loader (.38 special holy)"
   parent: BaseSpeedLoaderSpecial

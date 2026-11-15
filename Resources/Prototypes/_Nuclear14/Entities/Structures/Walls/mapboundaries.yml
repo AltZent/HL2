@@ -1,5 +1,6 @@
 # Full tile boundaries
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14WallRockIndestructible
   suffix: Indestructible
@@ -66,6 +67,7 @@
         density: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseFenceIndestructible
   id: N14WallFenceChainMapBoundary
   suffix: Indestructible

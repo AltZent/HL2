@@ -45,6 +45,7 @@
     - KnockOn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ComputerFrame
   parent: BaseStructureComputer
   name: computer frame
@@ -67,6 +68,7 @@
           monitorUnsecured: { state: 4 }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructureComputer
   id: ComputerBroken
   name: broken computer

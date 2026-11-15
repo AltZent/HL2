@@ -3,6 +3,7 @@
 
 # 32x32
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignBar
   name: bar sign
@@ -13,6 +14,7 @@
     state: bar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBar
   id: N14SignClinic
   name: clinic sign
@@ -26,6 +28,7 @@
     color: '#00ff00'
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBar
   id: N14SignOpen1
   name: open sign
@@ -39,6 +42,7 @@
     color: '#ff0000'
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignOpen1
   id: N14SignOpen2
   components:
@@ -46,6 +50,7 @@
     state: open_bar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignOpen1
   id: N14SignOpenOn1
   components:
@@ -53,6 +58,7 @@
     state: open_on
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignOpen1
   id: N14SignOpenOn2
   components:
@@ -60,6 +66,7 @@
     state: open_bar_on
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignForRent
   name: for rent sign
@@ -70,6 +77,7 @@
     state: rent
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignNotice
   name: notice sign
@@ -80,6 +88,7 @@
     state: notice_sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14SignDanger
   name: danger sign
@@ -89,6 +98,7 @@
     state: danger_sign
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignNotice
   id: N14WallDecorExitsign
   name: exit sign
@@ -101,6 +111,7 @@
 
 # 64x32
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBar
   id: N14SignBazaarOn
   name: bazaar sign
@@ -115,6 +126,7 @@
     color: '#ff8000'
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBazaarOn
   id: N14SignHotel
   name: hotel sign
@@ -124,6 +136,7 @@
     state: hotel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBazaarOn
   id: N14SignPrivateProperty
   name: private property sign
@@ -133,6 +146,7 @@
     state: private
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBazaarOn
   id: N14SignOpenBig
   name: open sign
@@ -146,6 +160,7 @@
     color: '#ff0000'
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBazaarOn
   id: N14SignWorkersOnly
   name: workers only sign
@@ -157,6 +172,7 @@
 # 64x64
 # Scale these by 0.5, 0.5
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignBarstowStrongExpress
   name: Barstow Strong Express sign
@@ -168,6 +184,7 @@
     state: barstow_strong_express
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBarstowStrongExpress
   id: N14SignMassFusion
   name: Mass Fusion sign
@@ -177,6 +194,7 @@
     state: massfusion
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBarstowStrongExpress
   id: N14SignRedRocket
   name: Red Rocket sign
@@ -188,6 +206,7 @@
 # 96x96
 # Scale these by 0.75, 0.75
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignGroceries
   name: Groceries sign
@@ -201,6 +220,7 @@
 # 128x64
 # Scale these by 0.5, 0.5
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14SignAmeliaEspresso
   name: Amelia Espresso sign
@@ -212,6 +232,7 @@
     state: amelia_espresso
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignBeantownBrewery
   name: Beantown Brewery sign
@@ -221,6 +242,7 @@
     state: beantown_brewery
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignFizzys
   name: Fizzy's sign
@@ -230,6 +252,7 @@
     state: fizzys
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignFlyHorizon
   name: Fly Horizon Skyways sign
@@ -239,6 +262,7 @@
     state: flyhorizonskyways
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignHubrisComics
   name: Hubris Comics sign
@@ -248,6 +272,7 @@
     state: hubris_comics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignMamaDolces
   name: Mama Dolce's sign
@@ -257,6 +282,7 @@
     state: mamadolces
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignSchoelt
   name: Schoelt sign
@@ -266,6 +292,7 @@
     state: schoelt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignSullivans
   name: Sullivan's sign
@@ -275,6 +302,7 @@
     state: sullivans
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignTheJerkShakes
   name: The Jerk sign
@@ -284,6 +312,7 @@
     state: thejerk_shakes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignAmeliaEspresso
   id: N14SignWickedShipping
   name: Whicked Shipping sign

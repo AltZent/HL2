@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxMagnum
@@ -25,6 +26,7 @@
 
 # Boxes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnum
   name: ammunition box (.45 magnum)
@@ -39,6 +41,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumPractice
   name: ammunition box (.45 magnum practice)
@@ -54,6 +57,7 @@
     - state: practice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumRubber
   name: ammunition box (.45 magnum rubber)
@@ -69,6 +73,7 @@
     - state: rubber
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineBoxMagnumIncendiary
   parent: BaseMagazineBoxMagnum
   name: ammunition box (.45 magnum incendiary)
@@ -84,6 +89,7 @@
     - state: incendiary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineBoxMagnumUranium
   parent: BaseMagazineBoxMagnum
   name: ammunition box (.45 magnum uranium)
@@ -99,6 +105,7 @@
     - state: uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineBoxMagnumAP
   parent: BaseMagazineBoxMagnum
   name: ammunition box (.45 magnum armor-piercing)

@@ -51,6 +51,7 @@
       Plastic: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponWaterPistol
   parent: WeaponWaterGunBase
   name: water pistol
@@ -68,6 +69,7 @@
           icon: Rainbow
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponWaterBlaster
   parent: WeaponWaterGunBase
   name: water blaster
@@ -105,6 +107,7 @@
           detail2: Sixteen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WeaponWaterBlasterSuper
   parent: WeaponWaterGunBase
   name: super water blaster

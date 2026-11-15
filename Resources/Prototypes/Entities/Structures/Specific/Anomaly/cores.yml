@@ -35,6 +35,7 @@
     endPrice: 200
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCorePyroclastic
   suffix: Pyroclastic
@@ -51,6 +52,7 @@
     ignited: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreGravity
   suffix: Gravity
@@ -64,6 +66,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreIce
   suffix: Ice
@@ -77,6 +80,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
   suffix: Flesh
@@ -90,6 +94,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreRock
   suffix: Rock
@@ -103,6 +108,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreLiquid
   suffix: Liquid
@@ -116,6 +122,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreBluespace
   suffix: Bluespace
@@ -129,6 +136,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreElectricity
   suffix: Electricity
@@ -143,6 +151,7 @@
   - type: Electrified
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyCore
   id: AnomalyCoreFlora
   suffix: Flora
@@ -156,6 +165,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseAnomalyCore, BaseShadow ]
   id: AnomalyCoreShadow
   suffix: Shadow
@@ -186,6 +196,7 @@
     isDecayed: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCorePyroclasticInert
   suffix: Pyroclastic, Inert
@@ -199,6 +210,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreGravityInert
   suffix: Gravity, Inert
@@ -212,6 +224,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreIceInert
   suffix: Ice, Inert
@@ -225,6 +238,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreFleshInert
   suffix: Flesh, Inert
@@ -238,6 +252,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreRockInert
   suffix: Rock, Inert
@@ -251,6 +266,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreLiquidInert
   suffix: Liquid, Inert
@@ -264,6 +280,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreBluespaceInert
   suffix: Bluespace, Inert
@@ -277,6 +294,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreElectricityInert
   suffix: Electricity, Inert
@@ -290,6 +308,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAnomalyInertCore
   id: AnomalyCoreFloraInert
   suffix: Flora, Inert
@@ -303,6 +322,7 @@
     castShadows: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseAnomalyInertCore, BaseShadow ]
   id: AnomalyCoreShadowInert
   suffix: Shadow, Inert

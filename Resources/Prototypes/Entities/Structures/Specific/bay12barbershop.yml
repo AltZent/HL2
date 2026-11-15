@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeatBase
   id: ChairBarber
   name: barbers chair
@@ -14,6 +15,7 @@
     state: barberchair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: BarberSignPole
   name: barber pole
@@ -25,6 +27,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BarberSignPole
   id: BarberSignThesnip
   name: the snip

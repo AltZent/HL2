@@ -1,5 +1,6 @@
 # General
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelTrekker
   name: trekker satchel
@@ -9,6 +10,7 @@
     sprite: _Nuclear14/Clothing/Back/Satchels/trekker.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelExplorer
   name: explorer satchel
@@ -19,6 +21,7 @@
     
 # Tribal
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelTribal
   name: explorer satchel
@@ -29,6 +32,7 @@
     
 # Military
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelMilitary
   name: military satchel
@@ -38,6 +42,7 @@
     sprite: _Nuclear14/Clothing/Back/Satchels/military.rsi
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelNCR
   name: NCR satchel
@@ -47,6 +52,7 @@
     sprite: _Nuclear14/Clothing/Back/Satchels/satchelncr.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelNCRMedic
   name: NCR medic satchel

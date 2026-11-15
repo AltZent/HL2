@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "brownover"
+    },
+    {
+      "name": "armor"
+    },
+    {
+      "name": "overwatch"
+    },
+    {
+      "name": "wallhammer"
+    },
+    {
+      "name": "overwatch_white"
+    },
+    {
+      "name": "overwatch_red"
+    },
+    {
+      "name": "cp_trenchcoat"
+    },
+    {
+      "name": "cp_trenchcoatoverseer"
+    },
+    {
+      "name": "dv_vest"
+    },
+    {
+      "name": "sectorial"
+    },
+    {
+      "name": "metropolice"
+    },
+    {
+      "name": "pd_taser"
+    },
+    {
+      "name": "civilprotection"
+    },
+    {
+      "name": "metropolice_vest"
+    },
+    {
+      "name": "combatchef"
+    },
+    {
+      "name": "medicalofficer"
+    },
+    {
+      "name": "overseer"
+    },
+    {
+      "name": "elitecpo_vest"
+    },
+    {
+      "name": "bulletproof"
+    },
+    {
+      "name": "hev"
+    },
+    {
+      "name": "black_vest"
+    },
+    {
+      "name": "labcoat_t"
+    },
+    {
+      "name": "labcoat"
+    },
+    {
+      "name": "cleanup"
+    },
+    {
+      "name": "cleanupforeman"
+    },
+    {
+      "name": "cwuengi"
+    },
+    {
+      "name": "foreman"
+    },
+    {
+      "name": "rebelarmor_heavy"
+    },
+    {
+      "name": "rebelarmor_light"
+    },
+    {
+      "name": "bio_boiler"
+    },
+    {
+      "name": "bluejacket"
+    },
+    {
+      "name": "prisonerjacket"
+    },
+    {
+      "name": "whitejacket"
+    },
+    {
+      "name": "metropolice_uk"
+    },
+    {
+      "name": "greenjacket"
+    },
+    {
+      "name": "milvest"
+    },
+    {
+      "name": "platearmor"
+    },
+    {
+      "name": "kevlar_heavy"
+    },
+    {
+      "name": "crematorjacket"
+    },
+    {
+      "name": "poland_heavy"
+    },
+    {
+      "name": "scientist"
+    },
+    {
+      "name": "heavyplatearmor"
+    },
+    {
+      "name": "assassin"
+    },
+    {
+      "name": "suppressor"
+    },
+    {
+      "name": "reinforcedwinterbrown"
+    },
+    {
+      "name": "hazsuit"
+    },
+    {
+      "name": "firesuit"
+    },
+    {
+      "name": "invis_grunt_harness"
+    },
+    {
+      "name": "armoredjacket"
+    },
+    {
+      "name": "insulatedjacket"
+    },
+    {
+      "name": "oldriotsuit"
+    }
+  ]
+}

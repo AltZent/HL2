@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: KitchenReagentGrinder
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   name: reagent grinder
@@ -58,6 +59,7 @@
       machine_parts: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Recycler #too different so different parent
   id: ReagentGrinderIndustrial
   name: industrial reagent grinder

@@ -59,6 +59,7 @@
     mode: SnapgridCenter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Thruster
   name: thruster
   parent: [ BaseThruster, ConstructibleMachine ]
@@ -100,6 +101,7 @@
       offset: 0, 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ThrusterUnanchored
   parent: Thruster
   suffix: Unanchored
@@ -110,6 +112,7 @@
       bodyType: Dynamic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DebugThruster
   parent: BaseThruster
   suffix: DEBUG
@@ -135,6 +138,7 @@
       offset: 0, 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
   name: gyroscope
@@ -203,6 +207,7 @@
     price: 2000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GyroscopeUnanchored
   parent: Gyroscope
   suffix: Unanchored
@@ -213,6 +218,7 @@
       bodyType: Dynamic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: DebugGyroscope
   parent: BaseThruster
   suffix: DEBUG

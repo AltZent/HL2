@@ -47,6 +47,7 @@
 # Custom Bread Example
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: volcanic loaf
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadVolcanic
@@ -63,6 +64,7 @@
     slice: N14CookedFoodBreadVolcanicSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: volcanic slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadVolcanicSlice
@@ -79,6 +81,7 @@
 # Bread
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: banana bread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadBanana
@@ -101,6 +104,7 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: banana bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadBananaSlice
@@ -119,6 +123,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cornbread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadCorn
@@ -144,6 +149,7 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cornbread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadCornSlice
@@ -166,6 +172,7 @@
           Quantity: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cream cheese bread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadCreamcheese
@@ -194,6 +201,7 @@
 # Tastes like bread, cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cream cheese bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadCreamcheeseSlice
@@ -219,6 +227,7 @@
           Quantity: 1.2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat bread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadMeat
@@ -250,6 +259,7 @@
 # Tastes like bread, meat.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMeatSlice
@@ -277,6 +287,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadPlain
@@ -290,6 +301,7 @@
     slice: N14CookedFoodBreadPlainSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadPlainSlice
@@ -301,6 +313,7 @@
     - state: plain-slice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radroll
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadRadroll
@@ -333,6 +346,7 @@
     - Bread
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: radroll slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadRadrollSlice
@@ -362,6 +376,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scorpion roll #N14 change
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadMeatRadscorp
@@ -393,6 +408,7 @@
 # Tastes like bread, cobwebs.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scorpion roll slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMeatRadscorpSlice
@@ -420,6 +436,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tofu bread
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadTofu
@@ -447,6 +464,7 @@
 # Tastes like bread, tofu.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tofu bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadTofuSlice
@@ -473,6 +491,7 @@
 # Other than bread/slices
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: buttered toast
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadButteredToast
@@ -496,6 +515,7 @@
 # Tastes like bread, butter.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: french toast
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadFrenchToast
@@ -519,6 +539,7 @@
 # Tastes like bread, butter.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: garlic bread
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadGarlicSlice
@@ -543,6 +564,7 @@
 # Tastes like garlic, Italy.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: moldy bread slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMoldySlice
@@ -563,6 +585,7 @@
 # Tastes like decaying fungus.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: two slice
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadTwoSlice

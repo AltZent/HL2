@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineAnomalyVessel
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: anomaly vessel
@@ -89,6 +90,7 @@
     - ScannersAndVessels
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineAnomalyVesselExperimental
   parent: MachineAnomalyVessel
   name: experimental anomaly vessel
@@ -115,6 +117,7 @@
     canCreateVacuum: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineAPE
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: A.P.E.
@@ -219,6 +222,7 @@
       - SetParticleSigma
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineAnomalyGenerator
   parent: BaseMachinePowered
   name: anomaly generator

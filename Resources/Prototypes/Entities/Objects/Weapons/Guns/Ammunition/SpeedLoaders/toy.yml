@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseSpeedLoaderCap
   name: "cap gun loader"
   parent: BaseItem
@@ -30,6 +31,7 @@
         ents: []
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderCap
   name: "cap gun loader"
   parent: BaseSpeedLoaderCap

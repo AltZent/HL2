@@ -117,6 +117,7 @@
   - type: PsionicInsulation
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobHonkBot
   name: honkbot
@@ -175,6 +176,7 @@
       path: /Audio/Items/bikehorn.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobHonkBot
   id: MobJonkBot
   name: jonkbot
@@ -209,6 +211,7 @@
     canCreateVacuum: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobCleanBot
   name: cleanbot
@@ -257,6 +260,7 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobMedibot
   name: medibot
@@ -308,6 +312,7 @@
     - Biological
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobMimeBot
   name: mimebot
@@ -342,6 +347,7 @@
     templateId: head
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSiliconBase
   id: MobSupplyBot
   name: supplybot

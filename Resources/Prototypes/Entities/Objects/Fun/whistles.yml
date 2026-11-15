@@ -23,6 +23,7 @@
     distance: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWhistle
   id: Whistle
   components:
@@ -30,6 +31,7 @@
     state: whistle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWhistle
   id: SecurityWhistle
   description: Sound of it make you feel fear.
@@ -42,6 +44,7 @@
     distance: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWhistle
   id: SyndicateWhistle
   name: trench whistle

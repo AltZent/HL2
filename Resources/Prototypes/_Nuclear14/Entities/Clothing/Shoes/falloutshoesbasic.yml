@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesJamrock
   name: jamrock skins
@@ -10,6 +11,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/jamrock.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesBlack
   name: black shoes
@@ -21,6 +23,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/blackshoes.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesBrown
   name: brown shoes
@@ -32,6 +35,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/brownshoes.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesTribal
   name: tribal shoes
@@ -43,6 +47,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/tribalshoes.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesRags
   name: foot rags
@@ -54,6 +59,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/wastelanderrags.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesRaider
   name: raider treads
@@ -65,6 +71,7 @@
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/raider.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingShoesBase
   id: N14ClothingShoesdrylander
   name: tribal shoes

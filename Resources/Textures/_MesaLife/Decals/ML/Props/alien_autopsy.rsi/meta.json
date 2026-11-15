@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tank_empty"
+    },
+    {
+      "name": "tank_broken"
+    },
+    {
+      "name": "tank_alien",
+      "delays": [
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "tank_hugger",
+      "delays": [
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "tank_larva",
+      "delays": [
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "jar_sample"
+    },
+    {
+      "name": "sample_egg"
+    },
+    {
+      "name": "sample_larva"
+    },
+    {
+      "name": "sample_hugger"
+    },
+    {
+      "name": "sample_runner_tail"
+    },
+    {
+      "name": "sample_runner"
+    },
+    {
+      "name": "sample_runner_head"
+    },
+    {
+      "name": "sample_drone_tail"
+    },
+    {
+      "name": "sample_drone"
+    },
+    {
+      "name": "sample_drone_head"
+    },
+    {
+      "name": "sample_sentinel_tail"
+    },
+    {
+      "name": "sample_sentinel"
+    },
+    {
+      "name": "sample_sentinel_head"
+    },
+    {
+      "name": "jarshelf_0"
+    },
+    {
+      "name": "jarshelf_1"
+    },
+    {
+      "name": "jarshelf_2"
+    },
+    {
+      "name": "jarshelf_3"
+    },
+    {
+      "name": "jarshelf_4"
+    },
+    {
+      "name": "jarshelf_5"
+    },
+    {
+      "name": "jarshelf_6"
+    },
+    {
+      "name": "jarshelf_7"
+    },
+    {
+      "name": "jarshelf_8"
+    },
+    {
+      "name": "jarshelf_9"
+    }
+  ]
+}

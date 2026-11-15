@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: automatic rifle
   parent: BaseWeaponRifle
   id: N14WeaponLMGAutoRifle
@@ -65,6 +66,7 @@
     price: 300
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: canadian HMG
   parent: BaseWeaponRifle
   id: N14WeaponHMGcanadian
@@ -131,6 +133,7 @@
     price: 600
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chinese LMG
   parent: BaseWeaponRifle
   id: N14WeaponLMGchinese
@@ -194,6 +197,7 @@
     price: 500
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: light machine gun
   parent: BaseWeaponRifle
   id: N14WeaponLMG
@@ -260,6 +264,7 @@
     price: 475
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bren machine gun
   parent: BaseWeaponRifle
   id: N14WeaponLMGBren
@@ -322,6 +327,7 @@
     price: 600
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: M60 GPMG
   parent: N14WeaponHMGcanadian
   id: N14WeaponM60GPMG

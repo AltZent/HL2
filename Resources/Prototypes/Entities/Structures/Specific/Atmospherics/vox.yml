@@ -17,14 +17,17 @@
       Frezon: danger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [AirSensorVoxBase, AirSensor]
   id: AirSensorVox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [AirSensorVoxBase, GasVentPump]
   id: GasVentPumpVox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [AirSensorVoxBase, GasVentScrubber]
   id: GasVentScrubberVox
   components:
@@ -42,6 +45,7 @@
 
 # use this to prevent overriding filters with hardcoded defaults
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: AirAlarm
   id: AirAlarmVox
   suffix: Vox Atmosphere, auto mode disabled

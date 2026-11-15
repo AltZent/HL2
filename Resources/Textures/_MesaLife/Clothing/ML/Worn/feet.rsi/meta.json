@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "overwatch",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "workboots",
+      "directions": 4
+    },
+    {
+      "name": "cleanup",
+      "directions": 4
+    },
+    {
+      "name": "engineer",
+      "directions": 4
+    },
+    {
+      "name": "assassin",
+      "directions": 4
+    }
+  ]
+}

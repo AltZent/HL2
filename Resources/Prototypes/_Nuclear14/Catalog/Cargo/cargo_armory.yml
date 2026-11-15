@@ -120,24 +120,7 @@
   group: market
 
 - type: cargoProduct
-  id: EnergyCellCrate
-  icon:
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/EC.rsi
-    state: o2
-  product: N14CrateBreakPlainFilledEnergyCell
-  cost: 230
-  category: Armory
-  group: market
-
-- type: cargoProduct
   id: MFCellCrate
-  icon:
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusion.rsi
-    state: empty
-  product: N14CrateBreakPlainFilledMFCell
-  cost: 260
-  category: Armory
-  group: market
 
 - type: cargoProduct
   id: CombatArmorMK1Crate

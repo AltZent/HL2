@@ -50,6 +50,7 @@
         # - Defusal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHardBomb
   id: TrainingBomb
   name: training bomb
@@ -92,6 +93,7 @@
       disposable: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHardBomb
   id: SyndicateBomb
   name: syndicate bomb
@@ -128,6 +130,7 @@
       maxIntensity: 400
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SyndicateBomb
   id: SyndicateBombFake
   suffix: fake
@@ -140,6 +143,7 @@
       canCreateVacuum: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SyndicateBomb
   id: DebugHardBomb
   name: debug bomb

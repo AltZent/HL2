@@ -109,3 +109,8 @@ humanoid-profile-editor-loadouts-heirloom-tooltip = Whichever loadouts you choos
 
 humanoid-profile-editor-markings-tab = Markings
 humanoid-profile-editor-flavortext-tab = Description
+unique-features-tab = Distinctive features
+humanoid-profile-editor-unique-features-help-tooltip = What gets highlighted in color on examine
+humanoid-profile-editor-unique-features-help-title = Distinctive features: word highlighting
+humanoid-profile-editor-unique-features-help-intro = Words in the "Distinctive features" field are highlighted in color when another player examines your character. It works by word root: type a root and any of its forms (e.g. "scar", "scars", "carved") will be colored. Marks left on the body by other players (pen, knife, welder and so on) are added automatically and are also highlighted.
+humanoid-profile-editor-unique-features-help-note = If you wrap a word in your own color tag — [color=#ffffff]like this[/color] — your color is kept: the automatic highlight will not override it.

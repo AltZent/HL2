@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCartridgeCaselessRifle
   name: cartridge (.25 rifle)
   parent: BaseCartridge
@@ -22,6 +23,7 @@
     price: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeCaselessRifle
   name: cartridge (.25 caseless)
   parent: BaseCartridgeCaselessRifle
@@ -30,6 +32,7 @@
     proto: BulletCaselessRifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeCaselessRiflePractice
   name: cartridge (.25 caseless practice)
   parent: BaseCartridgeCaselessRifle
@@ -45,6 +48,7 @@
         color: "#dbdbdb"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeCaselessRifleRubber
   name: cartridge (.25 caseless rubber)
   parent: BaseCartridgeCaselessRifle

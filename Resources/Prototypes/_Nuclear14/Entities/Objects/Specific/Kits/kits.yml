@@ -18,6 +18,7 @@
 #M NCRA Cadet Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cadet's rifleman kit
   parent: KitBase
   id: KitNCR_CadetRifleman
@@ -26,6 +27,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -44,6 +48,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cadet's stormtrooper kit
   parent: KitBase
   id: KitNCR_CadetStorm
@@ -52,6 +57,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -70,6 +78,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cadet's scout kit
   parent: KitBase
   id: KitNCR_CadetScout
@@ -78,6 +87,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -97,6 +109,7 @@
 # NCRA Soldier Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soldier's rifleman kit
   parent: KitBase
   id: KitNCR_Rifleman
@@ -105,6 +118,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -123,6 +139,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soldier's stormtrooper kit
   parent: KitBase
   id: KitNCR_Storm
@@ -131,6 +148,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -149,6 +169,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soldier's scout kit
   parent: KitBase
   id: KitNCR_Scout
@@ -157,6 +178,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -174,6 +198,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soldier's pointman kit
   parent: KitBase
   id: KitNCR_Point
@@ -182,6 +207,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -199,6 +227,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soldier's charger kit
   parent: KitBase
   id: KitNCR_Morale
@@ -207,6 +236,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -228,6 +260,7 @@
 # NCRA Engineer Kit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: engineer's construction kit
   parent: KitBase
   id: KitNCR_EngiMechanic
@@ -236,6 +269,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -259,6 +295,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: engineer's sapper kit
   parent: KitBase
   id: KitNCR_EngiDemo
@@ -267,6 +304,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -286,6 +326,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: engineer's breacher kit
   parent: KitBase
   id: KitNCR_EngiBreach
@@ -294,6 +335,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -315,6 +359,7 @@
 # NCRA Medic Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: medic's surgeon kit
   parent: KitBase
   id: KitNCR_MedSurgeon
@@ -323,6 +368,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -347,6 +395,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: medic's field kit
   parent: KitBase
   id: KitNCR_MedDoctor
@@ -355,6 +404,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -378,6 +430,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: medic's combat kit
   parent: KitBase
   id: KitNCR_MedCombat
@@ -386,6 +439,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -409,6 +465,7 @@
 # NCRA Weapon Specialist Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: specialist's gunner kit
   parent: KitBase
   id: KitNCR_WSGunner
@@ -417,6 +474,9 @@
   - type: Sprite
     state: gunner
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: gunner
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -435,6 +495,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: specialist's grenadier kit
   parent: KitBase
   id: KitNCR_WSGrenadier
@@ -443,6 +504,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -462,6 +526,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: specialist's sniper kit
   parent: KitBase
   id: KitNCR_WSSniper
@@ -470,6 +535,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -487,6 +555,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: specialist's infiltrator kit
   parent: KitBase
   id: KitNCR_WSStealth
@@ -495,6 +564,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -518,6 +590,7 @@
 # NCRA Sergeant Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sergeant's assault kit
   parent: KitBase
   id: KitNCR_SGTRifleman
@@ -526,6 +599,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -544,6 +620,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sergeant's gunner kit
   parent: KitBase
   id: KitNCR_SGTGunner
@@ -552,6 +629,9 @@
   - type: Sprite
     state: gunner
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: gunner
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -570,6 +650,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sergeant's scout kit
   parent: KitBase
   id: KitNCR_SGTScout
@@ -578,6 +659,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -596,6 +680,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sergeant's pointman kit
   parent: KitBase
   id: KitNCR_SGTPoint
@@ -604,6 +689,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -624,6 +712,7 @@
 # NCRA Lieutenant Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lieutenant's basic kit
   parent: KitBase
   id: KitNCR_LTPencil
@@ -632,6 +721,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -650,6 +742,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lieutenant's scout kit
   parent: KitBase
   id: KitNCR_LTScout
@@ -658,6 +751,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -676,6 +772,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lieutenant's tactical kit
   parent: KitBase
   id: KitNCR_LTTactical
@@ -684,6 +781,9 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -704,6 +804,7 @@
 #MARK: NCR Ranger Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger service kit
   parent: KitBase
   id: KitServiceRanger
@@ -712,6 +813,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -727,6 +831,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger rifleman kit
   parent: KitBase
   id: KitRiflemanRanger
@@ -735,6 +840,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -750,6 +858,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger marksman kit
   parent: KitBase
   id: KitMarksmanRanger
@@ -758,6 +867,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -773,6 +885,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger CQB specialist kit
   parent: KitBase
   id: KitCQBRanger
@@ -781,6 +894,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -798,6 +914,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ranger trailman kit
   parent: KitBase
   id: KitTrailmanRanger
@@ -806,6 +923,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -823,6 +943,7 @@
 #MARK: Veteran Kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: modified ranger service kit
   parent: KitBase
   id: KitServiceRangerVeteran
@@ -831,6 +952,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -847,6 +971,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: veteran ranger precision rifle kit
   parent: KitBase
   id: KitRiflemanRangerVeteran
@@ -855,6 +980,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -871,6 +999,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: veteran ranger heavy sniper kit
   parent: KitBase
   id: KitHeavySniperRangerVeteran
@@ -879,6 +1008,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -895,6 +1027,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: veteran ranger assault kit
   parent: KitBase
   id: KitAssaultRangerVeteran
@@ -903,6 +1036,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -919,6 +1055,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: veteran ranger marksman kit
   parent: KitBase
   id: KitMarksmanRangerVeteran
@@ -927,6 +1064,9 @@
   - type: Sprite
     state: marksman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: marksman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -945,6 +1085,7 @@
 # Brotherhood Midwestern Chapter Kits
 # MBoS Initiate & Squire Kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Initiate laser kit
   parent: KitBase
   id: KitMBoS_IniLas
@@ -953,12 +1094,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserRifleCrude
-      - id: N14PowerCellHigh
-        amount: 3
       - id: N14WeaponPistol12mm
       - id: N14MagazinePistol12mm
         amount: 2
@@ -966,6 +1107,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Initiate ballistic kit
   parent: KitBase
   id: KitMBoS_IniBal
@@ -974,20 +1116,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556CarbineOld
       - id: Magazine556Rifle
         amount: 3
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14BoxCardboardMREBoxKFilled
 
 # MBoS Knight & Senior Knight kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight laser kit
   parent: KitBase
   id: KitMBoS_KniLas
@@ -996,12 +1139,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserRifle
-      - id: N14PowerCellHigh
-        amount: 3
       - id: N14WeaponPistol12mm
       - id: N14MagazinePistol12mm
         amount: 2
@@ -1009,6 +1152,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight ballistic kit
   parent: KitBase
   id: KitMBoS_KniBal
@@ -1017,20 +1161,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556Carbine
       - id: LongMagazine556Rifle
         amount: 3
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14BoxCardboardMREBoxKFilled
 
 # MBoS Scribe Medic Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Scribe medical kit
   parent: KitBase
   id: KitMBoS_ScrMed
@@ -1039,12 +1184,12 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14SuperStimpak
@@ -1056,6 +1201,7 @@
 
 # MBoS Scribe Field Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Scribe field kit
   parent: KitBase
   id: KitMBoS_ScrFld
@@ -1064,12 +1210,12 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14ClothingHandsGlovesCombat
@@ -1079,6 +1225,7 @@
 
 # MBoS Scribe Engineer Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Scribe engineer kit
   parent: KitBase
   id: KitMBoS_ScrEng
@@ -1087,12 +1234,12 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14ClothingOuterMidwestBoSCoat
@@ -1103,6 +1250,7 @@
 
 # MBoS Paladin Kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin laser kit
   parent: KitBase
   id: KitMBoS_PalLas
@@ -1111,12 +1259,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserRifleAuto
-      - id: N14PowerCellHigh
-        amount: 3
       - id: N14WeaponPistol12mm
       - id: N14MagazinePistol12mm
         amount: 2
@@ -1125,6 +1273,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin ballistic kit
   parent: KitBase
   id: KitMBoS_PalBal
@@ -1133,20 +1282,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556Carbine
       - id: LongMagazine556Rifle
         amount: 3
-      - id: N14WeaponLaserPistol
-      - id: N14PowerCellSmall
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Stimpak
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin sniper kit
   parent: KitBase
   id: KitMBoS_PalSni
@@ -1155,12 +1305,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserRifleWattz2000
-      - id: N14PowerCellFocused
-        amount: 3
       - id: N14WeaponPistol12mm
       - id: N14MagazinePistol12mm
         amount: 2
@@ -1169,6 +1319,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin plasma kit
   parent: KitBase
   id: KitMBoS_PalPla
@@ -1177,12 +1328,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaRifleUrban
-      - id: N14PlasmaCartridge
-        amount: 3
       - id: N14WeaponPistol12mm
       - id: N14MagazinePistol12mm
         amount: 2
@@ -1194,6 +1345,7 @@
 # Brotherhood Washington Chapter Kits
 # WBoS Initiate & Squire Kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Initiate plasma kit
   parent: KitBase
   id: KitWBoS_IniPla
@@ -1202,12 +1354,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaRifleCrude
-      - id: N14PlasmaCartridge
-        amount: 3
       - id: N14WeaponPistolWebley
       - id: N14MagazinePistol9mm
         amount: 2
@@ -1215,6 +1367,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Initiate ballistic kit
   parent: KitBase
   id: KitWBoS_IniBal
@@ -1223,20 +1376,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556CarbineOld
       - id: Magazine556Rifle
         amount: 3
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14BoxCardboardMREBoxKFilled
 
 # WBoS Knight & Senior Knight kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight laser kit
   parent: KitBase
   id: KitWBoS_KniPla
@@ -1245,12 +1399,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaRifle
-      - id: N14PlasmaCartridge
-        amount: 3
       - id: N14WeaponPistolWebley
       - id: N14MagazinePistol9mm
         amount: 2
@@ -1258,6 +1412,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Knight ballistic kit
   parent: KitBase
   id: KitWBoS_KniBal
@@ -1266,20 +1421,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556Carbine
       - id: LongMagazine556Rifle
         amount: 3
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14BoxCardboardMREBoxKFilled
 
 # WBoS Cleric Medic Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Cleric medical kit
   parent: KitBase
   id: KitWBoS_ScrMed
@@ -1288,12 +1444,12 @@
   - type: Sprite
     state: medic
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: medic
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14SuperStimpak
@@ -1305,6 +1461,7 @@
 
 # WBoS Cleric Field Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Cleric field kit
   parent: KitBase
   id: KitWBoS_ScrFld
@@ -1313,12 +1470,12 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14ClothingHandsGlovesCombat
@@ -1328,6 +1485,7 @@
 
 # WBoS Cleric Engineer Kit
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Cleric engineer kit
   parent: KitBase
   id: KitWBoS_ScrEng
@@ -1336,12 +1494,12 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Ointment10
       - id: N14ClothingOuterBosScribe
@@ -1352,6 +1510,7 @@
 
 # WBoS Paladin Kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin plasma kit
   parent: KitBase
   id: KitWBoS_PalPla
@@ -1360,12 +1519,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaRifleAuto
-      - id: N14PlasmaCartridge
-        amount: 3
       - id: N14WeaponPistolWebley
       - id: N14MagazinePistol9mm
         amount: 2
@@ -1374,6 +1533,7 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin sniper kit
   parent: KitBase
   id: KitWBoS_PalSni
@@ -1382,20 +1542,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle762MarksmanCanadian
       - id: Magazine762AmmoShort
         amount: 3
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Stimpak
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin ballistic kit
   parent: KitBase
   id: KitWBoS_PalBal
@@ -1404,20 +1565,21 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
       - id: N14WeaponRifle556Carbine
       - id: LongMagazine556Rifle
         amount: 3
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
-        amount: 2
       - id: N14CleanGauze10
       - id: N14Stimpak
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Brotherhood Paladin laser kit
   parent: KitBase
   id: KitWBoS_PalLas
@@ -1426,12 +1588,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponLaserRifle
-      - id: N14PowerCellHigh
-        amount: 3
       - id: N14WeaponPistolWebley
       - id: N14MagazinePistol9mm
         amount: 2
@@ -1443,6 +1605,7 @@
 
 #bow
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Stalker
   parent: KitBase
   id: Kittribalstalker
@@ -1451,6 +1614,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1462,6 +1628,7 @@
 
 #tribal two handed club
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Champion
   parent: KitBase
   id: Kittribalchampion
@@ -1470,6 +1637,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1481,6 +1651,7 @@
 
 #tribal gunslinger
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Fire Hand
   parent: KitBase
   id: Kittribalfirehand
@@ -1489,6 +1660,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1501,6 +1675,7 @@
       
 #hunt stick
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Hunter
   parent: KitBase
   id: Kittribalhunter
@@ -1509,6 +1684,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1518,6 +1696,7 @@
 
 #tribal rifle
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Bone-Breaker
   parent: KitBase
   id: Kittribalbonebreaker
@@ -1526,6 +1705,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1535,6 +1717,7 @@
 
 #boomstick
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Pain Bringer
   parent: KitBase
   id: Kittribalpainbringer
@@ -1543,6 +1726,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1553,6 +1739,7 @@
 
 #healer
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Healer
   parent: KitBase
   id: KittribalHealer
@@ -1561,6 +1748,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1576,6 +1766,7 @@
 
 #shaman
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Shaman
   parent: KitBase
   id: KittribalShaman
@@ -1584,6 +1775,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1603,6 +1797,7 @@
 
 #outlander
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Tribal Outlander Healer
   parent: KitBase
   id: KittribalOutlander
@@ -1611,6 +1806,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1628,6 +1826,7 @@
 
 #club
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Elder of the old ways
   parent: KitBase
   id: KittribalElderOldWay
@@ -1636,6 +1835,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1652,6 +1854,7 @@
 
 #bloody stick
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Elder bone smasher
   parent: KitBase
   id: KittribalElderBoneBreaker
@@ -1660,6 +1863,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1673,6 +1879,7 @@
 
 #assult rifle
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Elder fighter
   parent: KitBase
   id: KittribalElderFighter
@@ -1681,6 +1888,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1693,6 +1903,7 @@
       
 #hunt stick
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Long eyed elder
   parent: KitBase
   id: KittribalLongEyed
@@ -1701,6 +1912,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1717,6 +1931,7 @@
 
 # All of the Town Guard kits
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the Guard's ceremonial kit
   parent: KitBase
   id: KitTownGuard_Cere
@@ -1725,6 +1940,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1742,6 +1960,7 @@
       - id: N14FoodTinC2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the Guard's patrol kit
   parent: KitBase
   id: KitTownGuard_Patr
@@ -1750,6 +1969,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1768,6 +1990,7 @@
       - id: N14FoodTinC2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the Guard's lawbringer kit
   parent: KitBase
   id: KitTownGuard_Lawb
@@ -1776,6 +1999,9 @@
   - type: Sprite
     state: gunner
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: gunner
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1789,6 +2015,7 @@
       - id: N14FoodTinC2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the Guard's breacher kit
   parent: KitBase
   id: KitTownGuard_Brea
@@ -1797,6 +2024,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1813,6 +2043,7 @@
       - id: N14FoodTinC2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: the Guard's riot kit
   parent: KitBase
   id: KitTownGuard_Riot
@@ -1821,6 +2052,9 @@
   - type: Sprite
     state: pointman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: pointman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1840,6 +2074,7 @@
 #Mayor kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Mayors kit
   parent: KitBase
   id: KitTownMayor
@@ -1848,6 +2083,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1862,6 +2100,7 @@
         amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Nobles kit
   parent: KitBase
   id: KitTownNoble
@@ -1870,6 +2109,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1881,6 +2123,7 @@
       - id: ClothingEyesGlassesMonocle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Warlords kit
   parent: KitBase
   id: KitTownWarlord
@@ -1889,6 +2132,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1906,6 +2152,7 @@
 #reporters kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: News crew kit
   parent: KitBase
   id: KitNewsCrew
@@ -1914,6 +2161,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1924,6 +2174,7 @@
       - id: N14ClothingOuterPressArmor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Radio host kit
   parent: KitBase
   id: KitRadioHost
@@ -1932,6 +2183,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1944,6 +2198,7 @@
 #doctor 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town doctors kit
   parent: KitBase
   id: KitTownDoctor
@@ -1952,6 +2207,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1963,6 +2221,7 @@
       - id: BoxBodyBag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town chemist kit
   parent: KitBase
   id: KitTownChemist
@@ -1971,6 +2230,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -1989,6 +2251,7 @@
       - id: N14Med-X
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Town surgeon kit
   parent: KitBase
   id: KitTownSurgeon
@@ -1997,6 +2260,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2012,6 +2278,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Electricians kit
   parent: KitBase
   id: KitTownElectrician
@@ -2020,6 +2287,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2029,10 +2299,8 @@
         amount: 3
       - id: SheetSteel10
       - id: ToolboxElectricalFilled
-      - id: N14WeaponLaserRevolver
-      - id: N14PowerCellHigh
-
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Builders kit
   parent: KitBase
   id: KitTownBuilder
@@ -2041,6 +2309,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2059,6 +2330,7 @@
 #merchant kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Gun nuts kit
   parent: KitBase
   id: KitTownGunNut
@@ -2067,6 +2339,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2126,6 +2401,7 @@
         amount: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Energy enthusiast kit
   parent: KitBase
   id: KitTownEnergyEnthusiast
@@ -2134,28 +2410,12 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaRifle
-      - id: N14WeaponLaserRifle
-        amount: 3
-      - id: N14WeaponLaserRifleWattz2000
-      - id: N14WeaponLaserRifleRecharger
-        amount: 2
-      - id: N14WeaponPlasmaPistol
-      - id: N14WeaponLaserPistolRecharger
-      - id: N14WeaponLaserPistol
-        amount: 2
-      - id: N14PlasmaCartridge
-        amount: 2
-      - id: N14PlasmaCell
-        amount: 2
-      - id: N14PowerCellFocused
-      - id: N14PowerCellHigh
-        amount: 6
-      - id: N14PowerCellSmall
-        amount: 4
       - id: N14Paper10
       - id: MaterialCardboard10
         amount: 2
@@ -2183,6 +2443,7 @@
 #townies job
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Carpenters kit
   parent: KitBase
   id: KitTownCarpenter
@@ -2191,6 +2452,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2201,6 +2465,7 @@
       - id: N14ClothingUniformJumpsuitPreWarLumberjack
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: junkies kit
   parent: KitBase
   id: KitTownjunkie
@@ -2209,6 +2474,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2218,6 +2486,7 @@
       - id: N14JunkAbraxoCleaner     
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Miners kit
   parent: KitBase
   id: KitTownMiner
@@ -2226,6 +2495,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2234,6 +2506,7 @@
       - id: OreBag     
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Goons kit
   parent: KitBase
   id: KitTownGoon
@@ -2242,6 +2515,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2250,6 +2526,7 @@
       - id: N14WeaponPistol10mm     
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hunters kit
   parent: KitBase
   id: KitTownHunter
@@ -2258,6 +2535,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2267,6 +2547,7 @@
         amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: musicians kit
   parent: KitBase
   id: KitTownMusician
@@ -2275,6 +2556,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2286,6 +2570,7 @@
       - id: BagpipeInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Locals kit
   parent: KitBase
   id: KitTownLocal
@@ -2294,6 +2579,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2302,6 +2590,7 @@
       - id: N14CurrencyCap50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brahmin herders kit
   parent: KitBase
   id: KitTownBrahminHerder
@@ -2310,6 +2599,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2318,6 +2610,7 @@
         amount: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: HairDressers kit
   parent: KitBase
   id: KitTownHairDresser
@@ -2326,6 +2619,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2334,6 +2630,7 @@
       - id: N14FoodBubblegum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: militias kit
   parent: KitBase
   id: KitTownMilitias
@@ -2342,6 +2639,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2350,6 +2650,7 @@
       - id: N14ClothingHeadTownGuardBrodieCover
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lawyers kit
   parent: KitBase
   id: KitTownLawers
@@ -2358,6 +2659,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2371,6 +2675,7 @@
 #Bartenders kits
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chefs kit
   parent: KitBase
   id: KitTownChef
@@ -2379,6 +2684,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2402,6 +2710,7 @@
         amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Bartenders kit
   parent: KitBase
   id: KitTownBartender
@@ -2410,6 +2719,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2439,6 +2751,7 @@
 #overseer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Overseers kit
   parent: KitBase
   id: KitVaultOverseer
@@ -2447,6 +2760,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2459,6 +2775,7 @@
         amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vault boss kit
   parent: KitBase
   id: KitVaultBoss
@@ -2467,6 +2784,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2477,6 +2797,7 @@
       - id: FlippoEngravedLighter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Questionable origins kit
   parent: KitBase
   id: KitVaultQuestionable
@@ -2485,16 +2806,18 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
-      - id: N14WeaponPlasmaPistol
-      - id: N14PlasmaCell
       - id: CombatKnife
 
 #Vault dweller
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Barbers kit
   parent: KitBase
   id: KitVaultBarber
@@ -2503,6 +2826,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2511,6 +2837,7 @@
       - id: N14FoodBubblegum
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Boxers kit
   parent: KitBase
   id: KitVaultBoxer
@@ -2519,6 +2846,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2528,6 +2858,7 @@
       - id: ClothingHandsGlovesBoxingRed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Garbage burner kit
   parent: KitBase
   id: KitVaultGarbageBurner
@@ -2536,6 +2867,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2548,6 +2882,7 @@
       - id: FlashlightLantern
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Teachers kit
   parent: KitBase
   id: KitVaultTeachers
@@ -2556,6 +2891,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2566,6 +2904,7 @@
       - id: N14ClothingEyesGlasses
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chaplains kit
   parent: KitBase
   id: KitVaultChaplains
@@ -2574,6 +2913,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2585,6 +2927,7 @@
         amount: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hydroponics expert kit
   parent: KitBase
   id: KitVaultHydroponicsExpert
@@ -2593,6 +2936,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2622,6 +2968,7 @@
         amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chefs kit
   parent: KitBase
   id: KitVaultChef
@@ -2630,6 +2977,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2644,6 +2994,7 @@
         amount: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Baseball Player kit
   parent: KitBase
   id: KitVaultBaseBall
@@ -2652,6 +3003,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2662,6 +3016,7 @@
 #Engineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: electrician kit
   parent: KitBase
   id: KitVaultElectrician
@@ -2670,6 +3025,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2677,6 +3035,7 @@
       - id: SheetSteel10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Pip Boy programmer kit
   parent: KitBase
   id: KitVaultPipBoyProgrammer
@@ -2685,6 +3044,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2694,6 +3056,7 @@
         amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Furniture specialist kit
   parent: KitBase
   id: KitVaultFurnitureSpecialist
@@ -2702,6 +3065,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2712,6 +3078,7 @@
         amount: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Contamination specialist kit
   parent: KitBase
   id: KitVaultContaminationSpecialist
@@ -2720,6 +3087,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2729,6 +3099,7 @@
 #vault doctor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Health inspector kit
   parent: KitBase
   id: KitVaultHealthInspector
@@ -2737,6 +3108,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2747,6 +3121,7 @@
       - id: N14Med-X
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Chemist kit
   parent: KitBase
   id: KitVaultChemist
@@ -2755,6 +3130,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2771,6 +3149,7 @@
       - id: BoxBeaker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Surgeon kit
   parent: KitBase
   id: KitVaultSurgeon
@@ -2779,6 +3158,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2790,6 +3172,7 @@
 #vault security
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vault security kit
   parent: KitBase
   id: KitVaultSecurity
@@ -2798,6 +3181,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2812,6 +3198,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vault loyalty inspector
   parent: KitBase
   id: KitVaultLoyaltyInspector
@@ -2820,6 +3207,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:
@@ -2834,6 +3224,7 @@
       - id: ClothingEyesBlindfold
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Vault Detective
   parent: KitBase
   id: KitVaultDetective
@@ -2842,6 +3233,9 @@
   - type: Sprite
     state: rifleman
   - type: Item
+    storedSprite:
+      sprite: _MesaLife/BigIcons/_Nuclear14/Objects/Misc/kits.rsi
+      state: rifleman
     size: Huge
   - type: SpawnItemsOnUse
     items:

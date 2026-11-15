@@ -111,6 +111,7 @@
   - type: Pullable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseGeneratorPortable
   id: N14GeneratorFusioncore
   description: A generator that uses expendable fusion cores.
@@ -163,6 +164,7 @@
     slotId: fusion_core
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseGeneratorPortable
   id: N14GeneratorFusionMini
   description: A generator that uses heavy water for fusion power.
@@ -216,6 +218,7 @@
           temperature: 373.15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GeneratorFusionMini
   id: N14GeneratorFusionEnclave
   description: A generator that uses heavy water for fusion power.
@@ -246,6 +249,7 @@
     supplyRampTolerance: 250
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GeneratorFusionMini
   id: N14GeneratorFusionMiniRusted
   description: A generator that uses heavy water for fusion power. This ones rusted.
@@ -257,6 +261,7 @@
     - state: generator_rust
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GeneratorFusioncore
   id: N14GeneratorPrewar
   description: A dirty old generator that uses fuel to run.
@@ -281,6 +286,7 @@
         - MachineLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GeneratorPrewar
   id: N14GeneratorPrewarUranium
   description: A dirty old generator that uses raw uranium to run.
@@ -293,6 +299,7 @@
     - state: generator_uranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseGenerator
   id: N14GeneratorVaultTecReactor
   description: A fusion reactor built by Vault-Tec.
@@ -328,6 +335,7 @@
     color: "#B4FCF0"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14GeneratorVaultTecReactor
   id: N14GeneratorReactorFloor
   description: An old reactor built into the floor.
@@ -350,6 +358,7 @@
     maxIntensity: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14GeneratorReactorFloorDestroyed
   description: An old reactor built into the floor. This ones suffered a meltdown.
@@ -381,6 +390,7 @@
     color: "#f05e1b"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: gas powered generator
   description: |-
     A small generator capable of powering individual rooms.

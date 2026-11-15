@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sarsaparilla"
+    },
+    {
+      "name": "moonshine"
+    },
+    {
+      "name": "whiskey"
+    },
+    {
+      "name": "vodka"
+    },
+    {
+      "name": "tequila"
+    },
+    {
+      "name": "kaluha"
+    },
+    {
+      "name": "wine"
+    },
+    {
+      "name": "champagne"
+    },
+    {
+      "name": "cognac"
+    },
+    {
+      "name": "gin"
+    },
+    {
+      "name": "sake"
+    },
+    {
+      "name": "vermouth"
+    },
+    {
+      "name": "triple_sec"
+    },
+    {
+      "name": "absinthe"
+    },
+    {
+      "name": "rum"
+    },
+    {
+      "name": "beer"
+    },
+    {
+      "name": "beer_white"
+    },
+    {
+      "name": "bottle"
+    }
+  ]
+}

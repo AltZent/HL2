@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Supermatter
   name: supermatter crystal
   description: A strangely translucent and iridescent crystal.

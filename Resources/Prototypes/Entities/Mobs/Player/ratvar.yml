@@ -13,6 +13,7 @@
       shader: unshaded
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobRatvarBase
   id: MobRatvarSpawn
   suffix: Spawn
@@ -27,6 +28,7 @@
     prototype: MobRatvar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [MobRatvarBase, BaseMob]
   id: MobRatvar
   components:

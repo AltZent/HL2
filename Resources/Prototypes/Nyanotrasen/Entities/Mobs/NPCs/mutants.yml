@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: killer tomato
   id: MobTomatoKiller
   parent: SimpleSpaceMobBase

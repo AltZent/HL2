@@ -18,6 +18,7 @@
       path: /Audio/Machines/airlock_deny.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Airlock
   id: N14DoorBunkerVault
   suffix: Vault
@@ -31,6 +32,7 @@
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/vaultdoor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Airlock
   id: N14DoorBunker
   components:
@@ -41,6 +43,7 @@
     node: Door
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Airlock
   id: N14DoorBunkerGlass
   components:
@@ -52,6 +55,7 @@
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/glassbunkerdoor.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BunkerAssembly
   name: bunker assembly
   suffix: Crafting
@@ -67,6 +71,7 @@
     mode: SnapgridCenter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BunkerAssemblyWired
   name: bunker assembly
   suffix: Crafting

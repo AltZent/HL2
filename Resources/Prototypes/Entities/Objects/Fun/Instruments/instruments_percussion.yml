@@ -16,6 +16,7 @@
     - PercussionInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: MusicBoxInstrument
   name: music box
@@ -28,6 +29,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: XylophoneInstrument
   name: xylophone
@@ -43,6 +45,7 @@
     - PercussionInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: MicrophoneInstrument
   name: microphone
@@ -62,6 +65,7 @@
     sprite: Objects/Fun/Instruments/microphone.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: SynthesizerInstrument
   name: synthesizer
@@ -85,6 +89,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: KalimbaInstrument
   name: kalimba
@@ -102,6 +107,7 @@
     size: Small
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: WoodblockInstrument
   name: woodblock
@@ -117,6 +123,7 @@
     - PercussionInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: ReverseCymbalsInstrument
   name: reverse cymbals
@@ -129,6 +136,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: SuperSynthesizerInstrument
   name: super synthesizer

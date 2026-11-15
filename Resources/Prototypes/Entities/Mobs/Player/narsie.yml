@@ -14,6 +14,7 @@
 
 # spawn animation, spawns actual narsie when it ends
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobNarsieBase
   id: MobNarsieSpawn
   suffix: Spawn
@@ -29,6 +30,7 @@
     prototype: MobNarsie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [MobNarsieBase, BaseMob]
   id: MobNarsie
   components:

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "hopper-inactive"
+    },
+    {
+      "name": "hopper"
+    },
+    {
+      "name": "hopper_rebel-inactive"
+    },
+    {
+      "name": "hopper_rebel"
+    },
+    {
+      "name": "hopper_light_blue"
+    },
+    {
+      "name": "hopper_light_green"
+    },
+    {
+      "name": "hopper_light_red"
+    },
+    {
+      "name": "hopper-jump",
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.1,
+          0.08,
+          0.04,
+          0.04,
+          0.1,
+          0.08,
+          0.08,
+          0.04,
+          0.04,
+          0.04
+        ]
+      ]
+    },
+    {
+      "name": "hopper_rebel-jump",
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.1,
+          0.08,
+          0.04,
+          0.04,
+          0.1,
+          0.08,
+          0.08,
+          0.04,
+          0.04,
+          0.04
+        ]
+      ]
+    }
+  ]
+}

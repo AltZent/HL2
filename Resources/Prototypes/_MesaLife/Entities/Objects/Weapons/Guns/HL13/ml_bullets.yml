@@ -1,0 +1,656 @@
+# Auto-generated ML projectiles (halflife-episode13).
+- type: entity
+  id: BaseBulletML
+  parent: BaseBullet
+  abstract: true
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML9mm
+  name: 9mm bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+    penetration: 0.3
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML9mmMakeshift
+  name: 9mm makeshift bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+    penetration: 0.25
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML9mmAP
+  name: 9mm armor-piercing bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+    penetration: 0.35
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML9mmRubber
+  name: 9mm rubber bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: rubber
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+    penetration: 0.1
+  - type: StaminaDamageOnCollide
+    damage: 25
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML9mmTranq
+  name: 9mm tranq dart
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: rubber
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+    penetration: 0.1
+  - type: StaminaDamageOnCollide
+    damage: 60
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML46mm
+  name: 4.6x30mm bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 9
+    penetration: 0.35
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML46mmRubber
+  name: 4.6x30mm rubber bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: rubber
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+    penetration: 0.1
+  - type: StaminaDamageOnCollide
+    damage: 15
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML556
+  name: 5.56mm bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+    penetration: 0.6
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML762
+  name: 7.62mm bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 28
+    penetration: 0.8
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML762RPD
+  name: 7.62mm machinegun bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 28
+    penetration: 0.8
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML762HighVeloc
+  name: 7.62mm high-velocity bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 32
+    penetration: 0.85
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML357
+  name: .357 bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+    penetration: 0.7
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML357AP
+  name: .357 armor-piercing bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: piercing
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+    penetration: 0.75
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML38
+  name: .38 bullet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 27
+    penetration: 0.4
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLBuckshot
+  name: buckshot pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 11
+    penetration: 0.2
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLBuckshotSpread
+  name: buckshot pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 11
+    penetration: 0.2
+  - type: ProjectileSpread
+    proto: PelletMLBuckshot
+    count: 6
+    spread: 15
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLBeanbag
+  name: beanbag slug
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: slug
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 28
+    penetration: 0.1
+  - type: StaminaDamageOnCollide
+    damage: 50
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLAntixen
+  name: anti-xen pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 5
+    penetration: 0.15
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLAntixenSpread
+  name: anti-xen pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 5
+    penetration: 0.15
+  - type: ProjectileSpread
+    proto: PelletMLAntixen
+    count: 5
+    spread: 15
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLPulse
+  name: pulse pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+    penetration: 0.3
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: PelletMLPulseSpread
+  name: pulse pellet
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: buckshot
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+    penetration: 0.3
+  - type: ProjectileSpread
+    proto: PelletMLPulse
+    count: 5
+    spread: 15
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLMiningSlug
+  name: mining slug
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: slug
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+    penetration: 0.5
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPulse
+  name: pulse round
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: spark
+      color: "#66c2ff"
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+    penetration: 0.4
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPulseSMG
+  name: smg pulse round
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: spark
+      color: "#66c2ff"
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 12
+    penetration: 0.35
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPulseLMG
+  name: lmg pulse round
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: spark
+      color: "#66c2ff"
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+    penetration: 0.5
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPulseSniper
+  name: heavy pulse round
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ml_projectiles.rsi
+    layers:
+    - state: pulse_bolt_blue
+      shader: unshaded
+  - type: Projectile
+    angle: -90
+    damage:
+      types:
+        Piercing: 32
+    penetration: 0.65
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPulseTurret
+  name: turret pulse round
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: spark
+      color: "#66c2ff"
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 10
+    penetration: 0.35
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLEnergyBall
+  name: dark energy ball
+  parent: BaseBulletTrigger
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: ball
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Heat: 70
+    penetration: 1.0
+  - type: ExplodeOnTrigger
+  - type: MLRicochet
+    maxBounces: 4
+    despawnInOpenSky: true
+  - type: TimedDespawn
+    lifetime: 4
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 40
+    intensitySlope: 3
+    maxIntensity: 8
+    maxTileBreak: 0
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLFlechette
+  name: flechette
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: shard
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+    penetration: 0.4
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletML20mm
+  name: 20mm grenade
+  parent: BaseBulletTrigger
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grenade
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+    penetration: 0.9
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 80
+    intensitySlope: 8
+    maxIntensity: 10
+    maxTileBreak: 1
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLRocket
+  name: HE rocket
+  parent: BaseBulletTrigger
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30
+    penetration: 1.0
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 220
+    intensitySlope: 5
+    maxIntensity: 12
+    maxTileBreak: 2
+  - type: PointLight
+    radius: 2.5
+    color: orange
+    energy: 0.5
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLPlasma
+  name: plasma arc
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    layers:
+    - state: u_laser
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Heat: 24
+    penetration: 0.5
+- type: entity
+  categories:
+  - HideSpawnMenu
+  id: BulletMLStrider
+  name: strider pulse
+  parent: BaseBulletML
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    layers:
+    - state: xray
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Heat: 40
+    angle: 90
+    penetration: 0.5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 160
+    intensitySlope: 4
+    maxIntensity: 14
+    maxTileBreak: 2
+- type: entity
+  id: BulletMLImmolator
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/projectile.rsi
+    layers:
+    - state: immolator
+      shader: unshaded
+  - type: Projectile
+    angle: 90
+    damage:
+      types:
+        Heat: 10
+        Caustic: 8
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/energy_meat1.ogg
+  - type: IgniteOnCollide
+    fireStacks: 0.5
+  - type: PointLight
+    enabled: true
+    color: "#ff9a3c"
+    radius: 1.5
+    energy: 5.0
+  - type: TimedDespawn
+    lifetime: 0.30

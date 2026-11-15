@@ -1,0 +1,68 @@
+# ML visual traits.
+
+- type: trait
+  id: MLBlindness
+  category: Visual
+  points: 10
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLPhotophobia
+        - MLNearsighted
+        - MLOcularImplant
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: PermanentBlindness
+
+- type: trait
+  id: MLNearsighted
+  category: Visual
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLBlindness
+        - MLOcularImplant
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: PermanentBlindness
+          blindness: 4
+
+# Ocular implant: black-market optics stolen from Combine visors.
+- type: trait
+  id: MLOcularImplant
+  category: Visual
+  points: -5
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLBlindness
+        - MLPhotophobia
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: FlashImmunity
+        - type: EyeProtection
+
+- type: trait
+  id: MLPhotophobia
+  category: Visual
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLOcularImplant
+        - MLBlindness
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: Flashable
+          eyeDamageChance: 0.3
+          eyeDamage: 1
+          durationMultiplier: 1.5

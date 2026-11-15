@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RadiationCollector
   name: radiation collector
   suffix: Empty tank
@@ -83,6 +84,7 @@
     delay: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RadiationCollectorNoTank
   suffix: No tank
   parent: RadiationCollector
@@ -95,6 +97,7 @@
           - GasTank
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: RadiationCollectorFullTank
   suffix: Filled tank
   parent: RadiationCollector

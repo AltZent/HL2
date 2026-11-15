@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseComputer
   id: N14ComputerVDU
   name: VDU

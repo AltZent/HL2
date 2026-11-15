@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 40,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tinbomb"
+    },
+    {
+      "name": "tinbomb_active"
+    },
+    {
+      "name": "molotov"
+    },
+    {
+      "name": "molotov_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "molotov_nuka"
+    },
+    {
+      "name": "molotov_nuka_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "passive_overlay"
+    },
+    {
+      "name": "active_overlay",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 48,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "mosin_nagant"
+    },
+    {
+      "name": "mosin_nagant_sawn_bolt_locked"
+    },
+    {
+      "name": "mosin_nagant_sawn_bolt"
+    },
+    {
+      "name": "mosin_nagant_sawn"
+    },
+    {
+      "name": "mosin_nagant_bolt_locked"
+    },
+    {
+      "name": "mosin_nagant_bolt"
+    },
+    {
+      "name": "svd"
+    },
+    {
+      "name": "svd_mag"
+    },
+    {
+      "name": "rpd"
+    },
+    {
+      "name": "rpd_mag"
+    },
+    {
+      "name": "famas"
+    },
+    {
+      "name": "famas_mag"
+    },
+    {
+      "name": "trenchgun"
+    }
+  ]
+}

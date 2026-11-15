@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseMagazineBox
   id: BoxDonkSoftBase
@@ -15,6 +16,7 @@
 
 # Boxes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BoxDonkSoftBase
   id: BoxDonkSoftBox
   name: box of foam darts
@@ -32,6 +34,7 @@
       - state: shelltoy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBoxMagnum
   id: BoxCartridgeCap
   name: cap gun cartridge box

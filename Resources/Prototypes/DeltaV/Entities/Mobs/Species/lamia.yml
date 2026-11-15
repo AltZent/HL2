@@ -47,7 +47,7 @@
     interactFailureSound:
       path: /Audio/Animals/snake_hiss.ogg #placeholder sound
   - type: Icon
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _MesaLife/Mobs/Species/Human/parts.rsi
     state: full
   - type: Physics
     bodyType: KinematicController
@@ -68,7 +68,7 @@
         state: torso_m
       - map: [ "enum.HumanoidVisualLayers.Head" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: head_m
       - map: [ "enum.HumanoidVisualLayers.Eyes" ]
         color: "#008800"
@@ -77,21 +77,21 @@
       - map: [ "enum.HumanoidVisualLayers.Face" ]
       - map: [ "enum.HumanoidVisualLayers.RArm" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: r_arm
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: l_arm
       - map: [ "enum.HumanoidVisualLayers.Tail" ]
       - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: l_hand
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: r_hand
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
@@ -247,7 +247,7 @@
         state: torso_m
       - map: [ "enum.HumanoidVisualLayers.Head" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: head_m
       - map: [ "enum.HumanoidVisualLayers.Eyes" ]
         color: "#008800"
@@ -256,21 +256,21 @@
       - map: [ "enum.HumanoidVisualLayers.Face" ]
       - map: [ "enum.HumanoidVisualLayers.RArm" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: r_arm
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: l_arm
       - map: [ "jumpsuit" ]
         shader: StencilDraw
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: l_hand
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
         color: "#e8b59b"
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: _MesaLife/Mobs/Species/Human/parts.rsi
         state: r_hand
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"

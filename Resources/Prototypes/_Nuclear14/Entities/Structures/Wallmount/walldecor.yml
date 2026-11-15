@@ -20,6 +20,7 @@
 
 # Flags
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14FlagWallUS
   name: flag
@@ -31,6 +32,7 @@
     state: flag_us
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallChina
   suffix: China
@@ -40,6 +42,7 @@
     state: flag_china
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallCalifornia
   suffix: California
@@ -49,6 +52,7 @@
     state: flag_cali
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallArizona
   suffix: Arizona
@@ -58,6 +62,7 @@
     state: flag_arizona
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallEnclave
   suffix: Enclave
@@ -67,6 +72,7 @@
     state: flag_enclave
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallNCR
   suffix: NCR
@@ -76,6 +82,7 @@
     state: flag_ncr
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallLegion
   suffix: Legion
@@ -85,6 +92,7 @@
     state: flag_legion
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallRangers
   suffix: Rangers
@@ -94,6 +102,7 @@
     state: flag_rangers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallWesternBrotherhood
   suffix: Midwestern BOS
@@ -104,6 +113,7 @@
     state: flag_midwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallWashingtonBrotherhood
   suffix: Washington BOS
@@ -114,6 +124,7 @@
     state: flag_washing
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallColorado
   suffix: colorado
@@ -123,6 +134,7 @@
     state: flag_colorado
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallDenver
   suffix: denver
@@ -132,6 +144,7 @@
     state: flag_denver
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallUS
   id: N14FlagWallWideUSA
   suffix: Wide USA
@@ -142,6 +155,7 @@
     state: usa
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallWideUSA
   id: N14FlagWallWideCommonwealth
   suffix: Wide Commonwealth
@@ -151,6 +165,7 @@
     state: commonwealth
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FlagWallWideUSA
   id: N14FlagWallWideEnclave
   suffix: Wide Enclave
@@ -161,6 +176,7 @@
 
 # Decor
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignBase
   id: N14WallDecorClock
   name: clock
@@ -172,6 +188,7 @@
     state: clock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallDecorClock
   id: N14WallDecorCalendar
   name: calendar
@@ -182,6 +199,7 @@
     state: calendar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallDecorClock
   id: N14WallDecorCalendar1
   name: calendar
@@ -192,6 +210,7 @@
     state: calendar_blank
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallDecorClock
   id: N14WallDecorCross
   name: cross
@@ -202,6 +221,7 @@
     state: cross
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallDecorClock
   id: N14WallDecorWallscreen
   name: wall screen

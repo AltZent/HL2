@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorControlBox
   name: PA control computer
@@ -29,6 +30,7 @@
 # Unfinished
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorControlBoxUnfinished
   name: PA control computer

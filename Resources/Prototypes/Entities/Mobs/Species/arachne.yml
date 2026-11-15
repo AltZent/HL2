@@ -13,14 +13,14 @@
       state: spider_body
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: torso_m
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       sprite: Mobs/Species/arachne.rsi
       state: spider_body_front
     - map: [ "enum.HumanoidVisualLayers.Head" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: head_m
     - map: [ "enum.HumanoidVisualLayers.Snout" ]
     - map: [ "enum.HumanoidVisualLayers.Eyes" ]
@@ -30,14 +30,14 @@
     - map: [ "enum.HumanoidVisualLayers.Face" ]
     - map: [ "enum.HumanoidVisualLayers.RArm" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: r_arm
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_arm
     - shader: StencilClear
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_leg
     - shader: StencilMask
       map: [ "enum.HumanoidVisualLayers.StencilMask" ]
@@ -47,11 +47,11 @@
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_hand
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: r_hand
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
@@ -161,14 +161,14 @@
       state: spider_body
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: torso_m
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       sprite: Mobs/Species/arachne.rsi
       state: spider_body_front
     - map: [ "enum.HumanoidVisualLayers.Head" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: head_m
     - map: [ "enum.HumanoidVisualLayers.Snout" ]
     - map: [ "enum.HumanoidVisualLayers.Eyes" ]
@@ -178,14 +178,14 @@
     - map: [ "enum.HumanoidVisualLayers.Face" ]
     - map: [ "enum.HumanoidVisualLayers.RArm" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: r_arm
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_arm
     - shader: StencilClear
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_leg
     - shader: StencilMask
       map: [ "enum.HumanoidVisualLayers.StencilMask" ]
@@ -195,11 +195,11 @@
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: l_hand
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
       color: "#e8b59b"
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: r_hand
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"

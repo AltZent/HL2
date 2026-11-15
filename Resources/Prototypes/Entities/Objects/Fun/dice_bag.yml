@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStorageItem
   id: DiceBag
   name: bag of dice
@@ -26,6 +27,7 @@
       - Dice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DiceBag
   id: MagicDiceBag
   name: bag of dice

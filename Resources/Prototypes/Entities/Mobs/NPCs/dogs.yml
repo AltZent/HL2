@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SimpleMobBase
   id: MobPibble
   name: pitbull
@@ -91,6 +92,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobPibble
   id: MobPibbleVent
   name: ventbull

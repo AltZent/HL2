@@ -28,6 +28,7 @@
       machine_parts: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHeaterMachine
   id: ChemistryHotplate
   name: hotplate

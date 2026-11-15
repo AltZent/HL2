@@ -84,6 +84,7 @@
     staminaCost: 12
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: L6 SAW
   id: WeaponLightMachineGunL6
   parent: BaseWeaponLightMachineGun
@@ -103,6 +104,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: L6C ROW
   id: WeaponLightMachineGunL6C
   parent: BaseItem

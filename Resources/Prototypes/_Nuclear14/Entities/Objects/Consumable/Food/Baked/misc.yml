@@ -22,6 +22,7 @@
 # Muffins/Buns
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: muffin
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffin
@@ -31,6 +32,7 @@
     state: muffin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: berry muffin
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffinBerry
@@ -43,6 +45,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cherry muffin
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffinCherry
@@ -55,6 +58,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: honey bun #TODO honey
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBunHoney
@@ -64,6 +68,7 @@
     state: bun-honey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hotcross bun
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBunHotX
@@ -73,6 +78,7 @@
     state: bun-hotcross
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: meat bun
   parent: N14CookedFoodBakedBase
   id: N14FoodBakedBunMeat
@@ -93,6 +99,7 @@
 # Cookies
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cookie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookie
@@ -102,6 +109,7 @@
     state: COOKIE!!!
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: oatmeal cookie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieOatmeal
@@ -120,6 +128,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: raisin cookie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieRaisin
@@ -141,6 +150,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sugar cookie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieSugar
@@ -155,6 +165,7 @@
   id: N14Nugget
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chicken nugget
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedNugget
@@ -192,6 +203,7 @@
 # Once StackVisuals is updated you should be able to mix/match stacks of pancakes.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pancake
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancake
@@ -247,6 +259,7 @@
     - Pancake
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tarberry pancake #N14 change
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancakeBb
@@ -279,6 +292,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chocolate chip pancake
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancakeCc
@@ -319,6 +333,7 @@
     - Pancake
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: waffles
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedWaffle
@@ -339,6 +354,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soy waffles
   parent: N14CookedFoodBakedWaffle
   id: N14CookedFoodBakedWaffleSoy
@@ -361,6 +377,7 @@
 # Misc
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: poppy pretzel
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPretzel
@@ -370,6 +387,7 @@
     state: pretzel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cannoli
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannoli
@@ -388,6 +406,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: dumplings
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedDumplings
@@ -406,6 +425,7 @@
           Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chèvre chaud
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedChevreChaud
@@ -430,6 +450,7 @@
           Quantity: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brownies
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBrownieBatch
@@ -456,6 +477,7 @@
     slice: FoodBakedBrownie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brownie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBrownie
@@ -480,6 +502,7 @@
           Quantity: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: special brownies
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannabisBrownieBatch
@@ -509,6 +532,7 @@
     slice: N14CookedFoodBakedCannabisBrownie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: special brownie
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannabisBrownie
@@ -535,6 +559,7 @@
           Quantity: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: onion rings
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodOnionRings

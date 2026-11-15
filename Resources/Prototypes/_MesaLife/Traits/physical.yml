@@ -1,0 +1,406 @@
+# ML physical traits: body conditioning and augmentation implants.
+# Effects are carried over from the old N14 perk set, re-flavored for Half-Life 2.
+
+# --- Unarmed ---
+
+- type: trait
+  id: MLSoftFists
+  category: Physical
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLBrawlerFists
+        - MLHeavySwing
+  functions:
+    - !type:TraitModifyUnarmed
+      flatDamageIncrease:
+        types:
+          Blunt: -1
+
+- type: trait
+  id: MLBrawlerFists
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLSoftFists
+        - MLHeavySwing
+  functions:
+    - !type:TraitModifyUnarmed
+      flatDamageIncrease:
+        types:
+          Blunt: 2
+
+# --- Melee reach & speed ---
+
+- type: trait
+  id: MLShortReach
+  category: Physical
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLLongReach
+  functions:
+    - !type:TraitModifyUnarmed
+      rangeModifier: 0.9
+
+- type: trait
+  id: MLLongReach
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLShortReach
+  functions:
+    - !type:TraitModifyUnarmed
+      rangeModifier: 1.15
+
+- type: trait
+  id: MLSlowHands
+  category: Physical
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLQuickHands
+  functions:
+    - !type:TraitModifyUnarmed
+      attackRateModifier: 1.1
+
+- type: trait
+  id: MLQuickHands
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLSlowHands
+  functions:
+    - !type:TraitModifyUnarmed
+      attackRateModifier: 0.9
+
+# --- Health ---
+
+- type: trait
+  id: MLFrailBody
+  category: Physical
+  points: 2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLToughBody
+        - MLHollowShell
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: CritModifier
+          critThresholdModifier: -10
+    - !type:TraitReplaceComponent
+      components:
+        - type: DeadModifier
+          deadThresholdModifier: -20
+
+- type: trait
+  id: MLToughBody
+  category: Physical
+  points: -3
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLFrailBody
+        - MLHollowShell
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: CritModifier
+          critThresholdModifier: 5
+    - !type:TraitReplaceComponent
+      components:
+        - type: DeadModifier
+          deadThresholdModifier: 10
+
+- type: trait
+  id: MLHollowShell
+  category: Physical
+  points: 6
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLFrailBody
+        - MLToughBody
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: DeadModifier
+          deadThresholdModifier: -100
+
+- type: trait
+  id: MLWeakImmunity
+  category: Physical
+  points: 3
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLRapidHealing
+        - MLAugBioShield
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: PassiveDamage
+          allowedStates:
+          - Alive
+          - Critical
+          damageCap: 200
+          damage:
+            types:
+              Poison: 0.07
+
+- type: trait
+  id: MLRapidHealing
+  category: Physical
+  points: -7
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLWeakImmunity
+        - MLHollowShell
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: PassiveDamage
+          allowedStates:
+          - Alive
+          - Critical
+          damageCap: 200
+          damage:
+            groups:
+              Brute: -0.035
+              Burn: -0.035
+              Airloss: -0.035
+              Toxin: -0.035
+
+# --- Movement ---
+
+- type: trait
+  id: MLHeavySwing
+  category: Physical
+  points: -6
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLSoftFists
+        - MLBrawlerFists
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: MeleeThrowOnHit
+          speed: 10
+          lifetime: 0.025
+          minlifetime: 0.0125
+
+- type: trait
+  id: MLHousebound
+  category: Physical
+  points: 2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLRunner
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: TraitSpeedModifier
+          sprintModifier: 0.9
+          walkModifier: 0.9
+          requiredTriggeredSpeedModifier: 0.9
+
+- type: trait
+  id: MLRunner
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLHousebound
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: TraitSpeedModifier
+          sprintModifier: 1.05
+          walkModifier: 1.05
+          requiredTriggeredSpeedModifier: 1.05
+
+- type: trait
+  id: MLStiffJoints
+  category: Physical
+  points: 2
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLAcrobat
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: ClimbDelayModifier
+          climbDelayMultiplier: 1.25
+        - type: SlippableModifier
+          paralyzeTimeMultiplier: 1.25
+
+- type: trait
+  id: MLAcrobat
+  category: Physical
+  points: -4
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLStiffJoints
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: ClimbDelayModifier
+          climbDelayMultiplier: 0.5
+        - type: SlippableModifier
+          paralyzeTimeMultiplier: 0.5
+
+# --- Combat tricks ---
+
+- type: trait
+  id: MLSneakStriker
+  category: Physical
+  points: -3
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: StaminaDamageOnHit
+          damage: 8
+
+# --- Drinks ---
+
+- type: trait
+  id: MLCheapDrunk
+  category: Physical
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLSturdyLiver
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: LightweightDrunk
+          boozeStrengthMultiplier: 2
+
+- type: trait
+  id: MLSturdyLiver
+  category: Physical
+  points: -1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLCheapDrunk
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: LightweightDrunk
+          boozeStrengthMultiplier: 0.5
+
+# --- Augmentation implants ---
+# Generic body implants, lore-friendly for the HL2 setting: back-alley surgeons
+# sell Combine tech and xen grafts. Future Alliance/Resistance roles can lock
+# specific implants with CharacterJobRequirement entries.
+
+- type: trait
+  id: MLMechanicHands
+  category: Physical
+  points: -5
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLAugDermalArmor
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: Prying
+          speedModifier: 0.75
+
+- type: trait
+  id: MLAugDermalArmor
+  category: Physical
+  points: -6
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLAugCombineArmor
+        - MLAugBioShield
+        - MLMechanicHands
+  functions:
+    - !type:TraitAddArmor
+      damageModifierSets:
+        - MLAugDermalArmor
+
+# Military-grade implant: in lore issued to Combine soldiers, in practice
+# available to anyone with enough points (future roles may restrict it).
+- type: trait
+  id: MLAugCombineArmor
+  category: Physical
+  points: -8
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLAugDermalArmor
+        - MLAugBioShield
+  functions:
+    - !type:TraitAddArmor
+      damageModifierSets:
+        - MLAugCombineArmor
+
+# Xen-biology graft: dangerous black-market surgery, resists exotic damage.
+- type: trait
+  id: MLAugBioShield
+  category: Physical
+  points: -8
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLAugDermalArmor
+        - MLAugCombineArmor
+        - MLWeakImmunity
+  functions:
+    - !type:TraitAddArmor
+      damageModifierSets:
+        - MLAugBioShield

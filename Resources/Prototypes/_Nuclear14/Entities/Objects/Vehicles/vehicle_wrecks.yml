@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14VehicleBikeRust1
   name: rusted bike
@@ -48,6 +49,7 @@
             min: 1
             max: 4  
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14VehicleBikeRust1
   id: N14VehicleCarWreck
   name: wrecked car

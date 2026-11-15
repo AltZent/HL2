@@ -14,6 +14,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ointment
   description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
@@ -47,6 +48,7 @@
     price: 10 #Was 5, Buffed due to surgery changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Ointment1
   parent: Ointment
   suffix: Single
@@ -56,6 +58,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Ointment10Lingering
   parent: Ointment
   suffix: 10, Lingering
@@ -65,6 +68,7 @@
     count: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: regenerative mesh
   description: Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
@@ -98,6 +102,7 @@
     price: 40 #Was 20, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: OintmentAdvanced1
   parent: RegenerativeMesh
   suffix: Single
@@ -107,6 +112,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bruise pack
   description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
@@ -135,6 +141,7 @@
     price: 10 #Was 5, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Brutepack1
   parent: Brutepack
   suffix: Single
@@ -144,6 +151,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Brutepack10Lingering
   parent: Brutepack
   suffix: 10, Lingering
@@ -153,6 +161,7 @@
     count: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: medicated suture
   description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
@@ -185,6 +194,7 @@
     price: 40 #Was 20, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BrutepackAdvanced1
   parent: MedicatedSuture
   suffix: Single
@@ -194,6 +204,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blood pack
   description: Contains a universal blood replacement created by Med-Tek Laboratories.
   parent: BaseHealingItem
@@ -223,6 +234,7 @@
     price: 20 #Was 10, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Bloodpack
   id: Bloodpack10Lingering
   suffix: 10, Lingering
@@ -231,6 +243,7 @@
     lingering: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHealingItem
   id: Tourniquet
   name: tourniquet
@@ -257,6 +270,7 @@
         path: "/Audio/Items/Medical/brutepack_end.ogg"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: roll of gauze
   description: Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
@@ -290,6 +304,7 @@
     price: 20 #Was 10, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Gauze1
   parent: Gauze
   suffix: Single
@@ -298,6 +313,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Gauze10Lingering
   parent: Gauze
   suffix: 10, Lingering
@@ -307,6 +323,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: aloe cream
   description: A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
@@ -320,6 +337,7 @@
     count: 15 #Was 10, Buffed due to limb damage changes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHealingItem
   id: HealingToolbox
   name: healing toolbox
@@ -347,6 +365,7 @@
 
 # Pills
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
@@ -367,6 +386,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin, 7
@@ -379,6 +399,7 @@
       amount: 7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
@@ -398,6 +419,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene, 5
@@ -410,6 +432,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
@@ -429,6 +452,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin, 5
@@ -441,6 +465,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
@@ -460,6 +485,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide, 5
@@ -472,6 +498,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Iron 10u
   parent: Pill
   id: PillIron
@@ -491,6 +518,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Copper 10u
   parent: Pill
   id: PillCopper
@@ -510,6 +538,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron, 5
@@ -522,6 +551,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper, 5
@@ -534,6 +564,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
@@ -553,6 +584,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane, 5
@@ -565,6 +597,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
@@ -584,6 +617,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline, 5
@@ -596,6 +630,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Space drugs 15u
   parent: Pill
   id: PillSpaceDrugs
@@ -613,6 +648,7 @@
     guides: [ Psionics ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterSpaceDrugs
   suffix: Space Drugs, 5
@@ -627,6 +663,7 @@
     guides: [ Psionics ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Pax 10u
   parent: Pill
   id: PillPax
@@ -642,6 +679,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterPax
   suffix: Pax, 5
@@ -655,6 +693,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
@@ -674,6 +713,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine, 5
@@ -686,6 +726,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
@@ -705,6 +746,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine, 5
@@ -717,6 +759,7 @@
       amount: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
@@ -736,6 +779,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal, 3
@@ -748,6 +792,7 @@
       amount: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Romerol 10u
   parent: Pill
   id: PillRomerol
@@ -763,6 +808,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Ambuzol 10u
   parent: Pill
   id: PillAmbuzol
@@ -778,6 +824,7 @@
               Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   suffix: Ambuzol plus 5u
   parent: Pill
   id: PillAmbuzolPlus
@@ -797,6 +844,7 @@
               Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PillCanister
   id: PillCanisterRandom
   suffix: Random
@@ -866,6 +914,7 @@
 
 # Syringes
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ephedrine syringe
   parent: PrefilledSyringe
   id: SyringeEphedrine
@@ -879,6 +928,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: inaprovaline syringe
   parent: PrefilledSyringe
   id: SyringeInaprovaline
@@ -892,6 +942,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tranexamic acid syringe
   parent: PrefilledSyringe
   id: SyringeTranexamicAcid
@@ -905,6 +956,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bicaridine syringe
   parent: PrefilledSyringe
   id: SyringeBicaridine
@@ -918,6 +970,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: dermaline syringe
   parent: PrefilledSyringe
   id: SyringeDermaline
@@ -931,6 +984,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hyronalin syringe
   parent: PrefilledSyringe
   id: SyringeHyronalin
@@ -944,6 +998,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ipecac syringe
   parent: PrefilledSyringe
   id: SyringeIpecac
@@ -957,6 +1012,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ambuzol syringe
   parent: PrefilledSyringe
   id: SyringeAmbuzol
@@ -970,6 +1026,7 @@
               Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sigynate syringe
   parent: PrefilledSyringe
   id: SyringeSigynate
@@ -983,6 +1040,7 @@
               Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ethylredoxrazine syringe
   parent: PrefilledSyringe
   id: SyringeEthylredoxrazine
@@ -996,6 +1054,7 @@
               Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: phalanximine syringe
   parent: PrefilledSyringe
   id: SyringePhalanximine
@@ -1009,6 +1068,7 @@
               Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: saline syringe
   parent: PrefilledSyringe
   id: SyringeSaline
@@ -1023,6 +1083,7 @@
 
 #this is where all the syringes are so i didn't know where to put it
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: romerol syringe
   parent: PrefilledSyringe
   id: SyringeRomerol
@@ -1036,6 +1097,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stimulants syringe
   parent: PrefilledSyringe
   id: SyringeStimulants

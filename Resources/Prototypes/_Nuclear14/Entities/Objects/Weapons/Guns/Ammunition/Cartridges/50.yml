@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseCartridge
   id: N14Cartridge50
   name: cartridge (.50 anti-materiel)
@@ -32,6 +33,7 @@
         volume: -1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseCartridge
   id: N14Cartridge50HEIAP
   name: cartridge (.50 anti-materiel)

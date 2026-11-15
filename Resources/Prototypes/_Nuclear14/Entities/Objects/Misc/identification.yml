@@ -24,6 +24,7 @@
 
 #MARK: Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDCardVault
   name: vault ID card
@@ -43,6 +44,7 @@
     faction: Vault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCardVault
   id: N14IDCardVaultEngineer
   name: vault engineer ID card
@@ -51,6 +53,7 @@
     job: VaultEngineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCardVault
   id: N14IDCardVaultSecurity
   name: vault security ID card
@@ -59,6 +62,7 @@
     job: VaultSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCardVault
   id: N14IDCardVaultDoctor
   name: vault doctor ID card
@@ -67,6 +71,7 @@
     job: VaultDoctor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCardVault
   id: N14IDCardVaultOverseer
   name: vault overseer ID card
@@ -76,6 +81,7 @@
 
 #MARK: Passports
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDPassportBlank
   name: blank passport
@@ -89,6 +95,7 @@
     sprite: _Nuclear14/Objects/Misc/identification.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDPassport
   name: passport
@@ -99,35 +106,36 @@
     state: passport
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassport
   id: N14IDPassportCaravan
   name: caravan guard ID
   description: A stamped passport used by caravan guards as ID.
   components:
   - type: PresetIdCard
-    job: CaravanGuard
   - type: ClothingAddFaction
     faction: CaravanCompany
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportCaravan
   id: N14IDPassportCaravanTrader
   name: caravan trader ID
   description: A stamped passport used by caravaneers as ID.
   components:
   - type: PresetIdCard
-    job: CaravanTrader
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportCaravan
   id: N14IDPassportCaravanLeader
   name: caravan leader ID
   description: A stamped passport used by caravaneers as ID.
   components:
   - type: PresetIdCard
-    job: CaravanLeader
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDPassportPhoto
   name: passport
@@ -138,6 +146,7 @@
     state: passport_photo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDPassportVIP
   name: passport
@@ -148,6 +157,7 @@
     state: passport_presidential
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDDoctor
   name: doctors ID
@@ -159,6 +169,7 @@
 
 #MARK: Brotherhood Midwest
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotag
   name: holotags
@@ -174,6 +185,7 @@
     faction: BrotherhoodMidwest
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodHolotag
   id: N14IDBrotherhoodHolotagSquire
   suffix: Midwest Squire
@@ -182,6 +194,7 @@
     job: BoSMidSquire
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodHolotag
   id: N14IDBrotherhoodHolotagKnight
   suffix: Midwest Knight
@@ -190,6 +203,7 @@
     job: BoSMidKnight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodHolotag
   id: N14IDBrotherhoodHolotagPaladin
   suffix: Midwest Paladin
@@ -198,6 +212,7 @@
     job: BoSMidPaladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodHolotag
   id: N14IDBrotherhoodHolotagCommander
   suffix: Midwest Commander
@@ -207,6 +222,7 @@
 
 #MARK: Brotherhood Washington
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagInitiate
   name: holotags
@@ -222,6 +238,7 @@
     faction: BrotherhoodWashington
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodWashingtonHolotagInitiate
   id: N14IDBrotherhoodWashingtonHolotagScribe
   suffix: Washington Cleric
@@ -230,6 +247,7 @@
     job: BoSWashingtonScribe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodWashingtonHolotagInitiate
   id: N14IDBrotherhoodWashingtonHolotagKnight
   suffix: Washington Knight
@@ -238,6 +256,7 @@
     job: BoSWashingtonKnight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodWashingtonHolotagInitiate
   id: N14IDBrotherhoodWashingtonHolotagPaladin
   suffix: Washington Paladin
@@ -246,6 +265,7 @@
     job: BoSWashingtonPaladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBrotherhoodWashingtonHolotagInitiate
   id: N14IDBrotherhoodWashingtonHolotagCommander
   suffix: Washington Commander
@@ -298,6 +318,7 @@
 
 # MARK: NCR
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDNCRDogtag
   name: dogtag
@@ -313,6 +334,7 @@
     faction: NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagDoctor
   name: dogtag
@@ -326,6 +348,7 @@
     job: NCRMedic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagWS
   name: dogtag
@@ -339,6 +362,7 @@
     job: NCRWS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagEngineer
   name: dogtag
@@ -352,6 +376,7 @@
     job: NCREngineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagNCO
   name: dogtag
@@ -365,6 +390,7 @@
     job: NCRSGT
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDNCRDogtagOfficer
   name: dogtag
@@ -379,6 +405,7 @@
 
 #MARK: Desert Rangers
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDNCRDogtag
   id: N14IDBadgeNCRDesertRangerRecruit
   name: ranger recruit badge
@@ -391,6 +418,7 @@
     job: RangerRecruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBadgeNCRDesertRangerRecruit
   id: N14IDBadgeNCRDesertRanger
   name: ranger badge
@@ -403,6 +431,7 @@
     job: NCRRanger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBadgeNCRDesertRangerRecruit
   id: N14IDBadgeNCRDesertRangerElite
   name: ranger elite badge
@@ -415,6 +444,7 @@
     job: NCRRangerVeteran
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBadgeNCRDesertRangerRecruit
   id: N14IDBadgeNCRDesertRangerChief
   name: ranger chief badge
@@ -428,12 +458,14 @@
 
 #MARK: NCR Rangers
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBadgeNCRDesertRanger
   id: N14IDBadgeNCRRanger
   description: An ID badge worn by Republic Rangers. Inscribed on it reads; "Quieter than a shadow and more ferocious than a deathclaw."
   suffix: NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDBadgeNCRDesertRangerElite
   id: N14IDBadgeNCRRangerElite
   description: An ID badge worn by Elite Republic Rangers. Inscribed on it reads; "Quieter than a shadow and more ferocious than a deathclaw."
@@ -441,6 +473,7 @@
 
 #MARK: Townsfolk
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportPhoto
   id: N14IDPassportTownsfolk
   name: passport
@@ -450,6 +483,7 @@
     faction: Townsfolk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDShopkeeperTown
   name: Shopkeepers ID
@@ -462,6 +496,7 @@
     job: TownShopkeeper
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDPassportTownMechanic
   name: mechanics ID
@@ -474,6 +509,7 @@
     job: TownMechanic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDDoctor
   id: N14IDDoctorTown
   name: doctors ID
@@ -488,6 +524,7 @@
     faction: Townsfolk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDReporterTown
   name: reporter ID
@@ -502,6 +539,7 @@
     faction: Townsfolk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDBartenderTown
   name: innkeeper ID
@@ -516,6 +554,7 @@
     faction: Townsfolk
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDBadgeTownDeputy
   name: town guard badge
@@ -528,6 +567,7 @@
     job: TownDeputy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDBadgeTownSheriff
   name: town marshal badge
@@ -540,6 +580,7 @@
     job: TownSheriff
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportTownsfolk
   id: N14IDBadgeTownMayor
   name: town mayor badge
@@ -553,6 +594,7 @@
 
 # Wastelanders
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportPhoto
   id: N14IDPassportWasteChaplain
   name: chaplain ID
@@ -565,6 +607,7 @@
     job: WastelandChaplain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportPhoto
   id: N14IDPassportWasteFarmer
   name: farmer ID
@@ -578,6 +621,7 @@
 
 #MARK: Raiders / Tribes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDTribeSawbonePendant
   name: healer pendant
@@ -592,6 +636,7 @@
     faction: Tribal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDTribeBulletsPendant
   name: member pendant
@@ -606,6 +651,7 @@
     faction: Tribal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDTribeEnforcerPendant
   name: farmer pendant
@@ -620,6 +666,7 @@
     faction: Tribal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDPassportBlank
   id: N14IDTribeBossPendant
   name: elder pendant
@@ -635,6 +682,7 @@
 
 # Fun / Misc
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDDoctor
   id: N14IDDoctorFollower
   name: followers ID
@@ -643,6 +691,7 @@
 #MARK: Keys
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDKeyIron
   name: iron key
@@ -656,6 +705,7 @@
     - IronKey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDKeyBrass
   name: brass key
@@ -669,6 +719,7 @@
     - BrassKey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDKeyBronze
   name: bronze key
@@ -682,6 +733,7 @@
     - BronzeKey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDKeySilver
   name: silver key
@@ -695,6 +747,7 @@
     - SilverKey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14IDKeyGold
   name: gold key
@@ -710,6 +763,7 @@
 
 #MARK: Access Cards
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IDCard
   id: N14CardAccessBunkerA1
   name: access card
@@ -725,6 +779,7 @@
     - DungeonBunkerA1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerA2
   description: A special keycard stamped A2.
@@ -737,6 +792,7 @@
     - DungeonBunkerA2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerA3
   description: A special keycard stamped A3.
@@ -749,6 +805,7 @@
     - DungeonBunkerA3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerAA
   description: A special keycard stamped AA.
@@ -774,6 +831,7 @@
     - Enclave
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessEnclaveVault
   description: A special Vault-Tec keycard stamped with an E.
@@ -786,6 +844,7 @@
     - EnclaveVault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessVault
   description: A special Vault-Tec keycard.
@@ -795,6 +854,7 @@
     state: keycard_vault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBlue
   description: A blue keycard for opening something.
@@ -807,6 +867,7 @@
     - DungeonBlue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessYellow
   description: A yellow keycard for opening something.
@@ -819,6 +880,7 @@
     - DungeonYellow
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessRed
   description: A red keycard for opening something.
@@ -831,6 +893,7 @@
     - DungeonRed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CardAccessBunkerA1
   id: N14CardAccessCommon
   description: A grey keycard stamped "common" for opening things.

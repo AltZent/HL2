@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "clothing_rack",
+      "directions": 4
+    },
+    {
+      "name": "metal_shelf",
+      "directions": 4
+    },
+    {
+      "name": "wood_shelf",
+      "directions": 4
+    },
+    {
+      "name": "wood_shelf-alt",
+      "directions": 4
+    },
+    {
+      "name": "shelf_shop",
+      "directions": 4
+    },
+    {
+      "name": "medshelves",
+      "directions": 4
+    },
+    {
+      "name": "wood_shelf_big",
+      "directions": 4
+    },
+    {
+      "name": "showcase"
+    },
+    {
+      "name": "Tables"
+    },
+    {
+      "name": "desk_wood",
+      "directions": 4
+    },
+    {
+      "name": "desk_wood_small",
+      "directions": 4
+    },
+    {
+      "name": "stand_wood",
+      "directions": 4
+    },
+    {
+      "name": "stand_wood_small",
+      "directions": 4
+    },
+    {
+      "name": "table_wood_wide_square",
+      "directions": 4
+    },
+    {
+      "name": "table_wood_wide_oval",
+      "directions": 4
+    },
+    {
+      "name": "desk_metal",
+      "directions": 4
+    },
+    {
+      "name": "desk_metal_small",
+      "directions": 4
+    },
+    {
+      "name": "table_metal_wide",
+      "directions": 4
+    },
+    {
+      "name": "table_pool",
+      "directions": 4
+    },
+    {
+      "name": "table_cards",
+      "directions": 4
+    },
+    {
+      "name": "Unused"
+    },
+    {
+      "name": "bigshelf1_openR"
+    },
+    {
+      "name": "bigshelf1_openL"
+    },
+    {
+      "name": "bigshelf2_open"
+    }
+  ]
+}

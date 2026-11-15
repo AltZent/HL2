@@ -61,6 +61,7 @@
       - flesh-golem-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFlesh
   id: MobFleshJared
   components:
@@ -86,6 +87,7 @@
         Slash: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFlesh
   id: MobFleshGolem
   components:
@@ -115,6 +117,7 @@
         Slash: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFlesh
   id: MobFleshClamp
   components:
@@ -139,6 +142,7 @@
     baseSprintSpeed: 2.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFlesh
   id: MobFleshLover
   components:
@@ -163,6 +167,7 @@
     baseSprintSpeed: 2.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFlesh
   id: MobAbomination
   name: abomination
@@ -260,6 +265,7 @@
   - type: SalvageMobRestrictions
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFleshSalvage
   id: MobFleshJaredSalvage
   components:
@@ -285,6 +291,7 @@
         Slash: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFleshSalvage
   id: MobFleshGolemSalvage
   components:
@@ -314,6 +321,7 @@
         Slash: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFleshSalvage
   id: MobFleshClampSalvage
   components:
@@ -338,6 +346,7 @@
     baseSprintSpeed: 2.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobFleshSalvage
   id: MobFleshLoverSalvage
   components:

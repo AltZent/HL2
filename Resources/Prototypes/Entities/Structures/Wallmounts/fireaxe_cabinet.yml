@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FireAxeCabinet
   name: fire axe cabinet
   description: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
@@ -62,6 +63,7 @@
     mode: SnapgridCenter
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FireAxeCabinetOpen
   parent: FireAxeCabinet
   suffix: Open
@@ -74,6 +76,7 @@
     closedState: glass
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FireAxeCabinetFilled
   parent: FireAxeCabinet
   suffix: Filled
@@ -91,6 +94,7 @@
     closedState: glass
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FireAxeCabinetFilledOpen
   parent: FireAxeCabinetFilled
   suffix: Filled, Open

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazinePistolSpecial
   name: pistol magazine (.38 special)
   parent: BaseItem
@@ -32,6 +33,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazinePistolSpecial
   name: pistol magazine (.38 special)
   parent: BaseMagazinePistolSpecial
@@ -46,6 +48,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazinePistolSpecialPractice
   name: pistol magazine (.38 special practice)
   parent: BaseMagazinePistolSpecial
@@ -60,6 +63,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazinePistolSpecialRubber
   name: pistol magazine (.38 special rubber)
   parent: BaseMagazinePistolSpecial
@@ -74,6 +78,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazinePistolSpecialMindbreaker
   name: pistol magazine (.38 special mindbreaker)
   parent: BaseMagazinePistolSpecial

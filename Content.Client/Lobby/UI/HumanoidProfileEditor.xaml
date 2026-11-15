@@ -133,6 +133,8 @@
                             <BoxContainer HorizontalExpand="True">
                                 <Label Name="WeightLabel" />
                             </BoxContainer>
+                            <!-- Physique effects preview -->
+                            <RichTextLabel Name="PhysiqueEffectsLabel" Margin="2 4 0 0" />
                         </BoxContainer>
                         <!-- Skin -->
                         <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">

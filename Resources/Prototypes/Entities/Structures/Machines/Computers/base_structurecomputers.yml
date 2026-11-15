@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructureComputer
   id: BaseComputer
   name: computer
@@ -97,6 +98,7 @@
 #        type: WiresBoundUserInterface
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseComputer
   id: BaseComputerAiAccess
   components:

@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 40,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Packs"
+    },
+    {
+      "name": "Generic"
+    },
+    {
+      "name": "generic_pack"
+    },
+    {
+      "name": "generic_pack_open"
+    },
+    {
+      "name": "Marlboro"
+    },
+    {
+      "name": "marl_pack"
+    },
+    {
+      "name": "marl_pack_open"
+    },
+    {
+      "name": "Winstons"
+    },
+    {
+      "name": "wins_pack"
+    },
+    {
+      "name": "wins_pack_open"
+    },
+    {
+      "name": "Salem"
+    },
+    {
+      "name": "salem_pack"
+    },
+    {
+      "name": "salem_pack_open"
+    },
+    {
+      "name": "salem_pack_empty"
+    },
+    {
+      "name": "Kools"
+    },
+    {
+      "name": "kool_pack"
+    },
+    {
+      "name": "kool_pack_open"
+    },
+    {
+      "name": "Lucky_Strikes"
+    },
+    {
+      "name": "lucky_pack"
+    },
+    {
+      "name": "Republics"
+    },
+    {
+      "name": "repub_pack"
+    },
+    {
+      "name": "repub_pack_open"
+    },
+    {
+      "name": "Crafted"
+    },
+    {
+      "name": "custom_pack"
+    },
+    {
+      "name": "custom_pack_open"
+    },
+    {
+      "name": "Pre-War_Overlay"
+    },
+    {
+      "name": "overlay_blank"
+    },
+    {
+      "name": "overlay_lucky"
+    },
+    {
+      "name": "cigarette_8"
+    },
+    {
+      "name": "cigarette_7"
+    },
+    {
+      "name": "cigarette_6"
+    },
+    {
+      "name": "cigarette_5"
+    },
+    {
+      "name": "cigarette_4"
+    },
+    {
+      "name": "cigarette_3"
+    },
+    {
+      "name": "cigarette_2"
+    },
+    {
+      "name": "cigarette_1"
+    },
+    {
+      "name": "overlay_cig_0"
+    },
+    {
+      "name": "Post-War_Overlay"
+    },
+    {
+      "name": "overlay_rolled_8"
+    },
+    {
+      "name": "overlay_rolled_7"
+    },
+    {
+      "name": "overlay_rolled_6"
+    },
+    {
+      "name": "overlay_rolled_5"
+    },
+    {
+      "name": "overlay_rolled_4"
+    },
+    {
+      "name": "overlay_rolled_3"
+    },
+    {
+      "name": "overlay_rolled_2"
+    },
+    {
+      "name": "overlay_rolled_1"
+    },
+    {
+      "name": "overlay_rolled_0"
+    },
+    {
+      "name": "cigoff"
+    },
+    {
+      "name": "cigon",
+      "delays": [
+        [
+          0.8,
+          0.1,
+          0.15,
+          0.4,
+          0.1,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "cigbutt"
+    }
+  ]
+}

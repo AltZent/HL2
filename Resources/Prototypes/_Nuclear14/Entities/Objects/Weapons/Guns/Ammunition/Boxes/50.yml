@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseItem
   id: BaseMagazineBox50
@@ -24,6 +25,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBox50
   id: MagazineBox50
   name: ammunition box (.50 anti materiel)
@@ -36,6 +38,7 @@
       map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineBox50
   id: MagazineBox50HEIAP
   name: ammunition box (.50 anti materiel)

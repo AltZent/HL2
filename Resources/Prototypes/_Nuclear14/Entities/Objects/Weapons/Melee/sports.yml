@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: baseball bat
   parent: BaseItem
   id: N14BaseBallBat
@@ -43,6 +44,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pool cue
   parent: BaseItem
   id: N14PoolCue
@@ -93,6 +95,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: golf club
   parent: BaseItem
   id: N14GolfClub

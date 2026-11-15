@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: proto-kinetic accelerator
   id: WeaponProtoKineticAccelerator
   parent: WeaponProtoKineticAcceleratorBase

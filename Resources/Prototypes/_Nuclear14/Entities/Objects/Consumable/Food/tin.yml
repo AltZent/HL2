@@ -3,6 +3,7 @@
 # C ration 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodTinC1
   name: c ration type 1
@@ -23,6 +24,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinC1
   id: N14FoodTinC1Open
   suffix: Open
@@ -35,6 +37,7 @@
     opened: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodTinC1Trash
   name: c ration type 1
@@ -45,6 +48,7 @@
 # C ration 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodTinC2
   name: c ration crackers
@@ -67,6 +71,7 @@
     - Bread
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinC2
   id: N14FoodTinC2Open
   suffix: Open
@@ -79,6 +84,7 @@
     opened: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodTinC2Trash
   name: c ration type 2
@@ -89,6 +95,7 @@
 # C ration 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodTinC3
   name: c ration type 3
@@ -109,6 +116,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinC3
   id: N14FoodTinC3Open
   suffix: Open
@@ -121,6 +129,7 @@
     opened: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodTinC3Trash
   name: c ration type 3
@@ -131,6 +140,7 @@
 # K Ration
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodTinK
   name: k ration
@@ -151,6 +161,7 @@
     - Meat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinK
   id: N14FoodTinKOpen
   suffix: Open
@@ -163,6 +174,7 @@
     opened: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBaseTrash
   id: N14FoodTinKTrash
   name: K ration
@@ -173,6 +185,7 @@
 # K Crackers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoodTinBase
   id: N14FoodTinKCracker
   name: k ration crackers
@@ -194,6 +207,7 @@
     - Bread
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinKCracker
   id: N14FoodTinKCrackerOpen
   suffix: Open
@@ -206,6 +220,7 @@
     opened: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodTinC2Trash
   id: N14FoodTinKCrackerTrash
   name: k ration crackers

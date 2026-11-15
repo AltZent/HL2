@@ -37,6 +37,7 @@
     staminaCost: 16
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: minigun
   id: WeaponMinigun
   parent: BaseWeaponHeavyMachineGun

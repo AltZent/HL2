@@ -116,6 +116,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatCombatHelmet
   name: combat helmet
@@ -135,6 +136,7 @@
     priceMultiplier: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14ClothingHeadHatCombatHelmetCargo
   name: combat helmet
@@ -150,6 +152,7 @@
     priceMultiplier: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatCombatHelmetMK2
   name: combat helmet MK2
@@ -161,6 +164,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/combathelmetmk2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmetMK2
   id: N14ClothingHeadHatCombatHelmetMK2Cargo
   name: combat helmet MK2
@@ -176,6 +180,7 @@
     priceMultiplier: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBaseHelmetmarine
   name: marine helmet
@@ -198,6 +203,7 @@
 
 # Brotherhood of Steel
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmet
   name: Brotherhood of Steel helmet
@@ -209,6 +215,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetKnight
   name: Brotherhood of Steel knight helmet
@@ -220,6 +227,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetknight.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetCaptain
   name: Brotherhood of Steel captain helmet
@@ -231,6 +239,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetcaptain.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetPaladin
   name: Brotherhood of Steel paladin helmet
@@ -242,6 +251,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetsenior.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetOutcast
   name: Brotherhood of Steel outcast helmet
@@ -253,6 +263,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetoutcast.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetMK2
   name: Brotherhood of Steel helmet MK2
@@ -302,12 +313,14 @@
 
 #MARK: NCR
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalSnow
   name: NCR winter metal helmet
   description: A rounded NCR helmet offering some protection. This one is covered on snow-white camo.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalWoods
   name: NCR woods metal helmet
@@ -319,6 +332,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmet2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalDesert
   name: NCR metal helmet
@@ -365,6 +379,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrsergeanthelmet2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalGhillie
   name: NCR ghillie helmet
@@ -376,6 +391,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmetghillie.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalMilitaryPolice
   name: NCR metal helmet
@@ -387,6 +403,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmetmp.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalMedic
   name: NCR medic helmet
@@ -398,6 +415,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmetmedic.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalHoodedMedic
   name: NCR medic helmet
@@ -410,6 +428,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalHooded
   name: NCR hooded helmet
@@ -421,6 +440,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/NcrHoodedHelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalHoodedGreen
   name: NCR hooded helmet
@@ -432,6 +452,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/NcrHoodedGreenHelm.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetBrodie
   name: NCR brodie helmet
@@ -443,6 +464,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/NcrBrodieHelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmet
   name: ranger combat helmet
@@ -461,6 +483,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetOld
   name: old ranger combat helmet
@@ -479,6 +502,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetDesert
   name: desert ranger combat helmet
@@ -497,6 +521,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetPrice
   name: spider ranger combat helmet
@@ -515,6 +540,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetElite
   name: elite ranger combat helmet
@@ -533,6 +559,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetEliteOld
   name: worn elite ranger combat helmet
@@ -551,6 +578,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetFox
   name: fox ranger combat helmet
@@ -569,6 +597,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmetModif
   name: modified ranger combat helmet
@@ -588,6 +617,7 @@
 
 # midwest BoS
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodMidwestHelmet
   name: midwest BoS helmet
@@ -599,6 +629,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/boshelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodMidwestHelmetVeteran
   name: veteran midwest BoS helmet
@@ -610,6 +641,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/boshelmetV2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodMidwestHelmetRecon
   name: midwest BoS recon helmet
@@ -628,6 +660,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadHatLightBase
   id: ClothingHeadBrotherhoodScribeHeadset
   name: scribe headset
@@ -643,6 +676,7 @@
 # Washington BoS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetMK3
   name: BoS helmet MK3
@@ -662,6 +696,7 @@
 
 # Canadian mounties
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatHelmetRCMP
   name: RCMP combat helmet
@@ -680,6 +715,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatSpecHelmetRCMP
   name: RCMP specialist helmet
@@ -700,6 +736,7 @@
 # Chinese renmants
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatChineseHelmet
   name: chinese helmet
@@ -711,6 +748,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/chinesehelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatChineseHelmetMk2
   name: special ops chinese helmet
@@ -722,6 +760,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/chinesespecialhelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatPressHelmet
   name: prewar reporter helmet
@@ -733,6 +772,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/reporterhelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatPrewarMilitaryHelmet
   name: prewar military helmet
@@ -744,6 +784,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/prewarmilitaryhelmet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadSuitbase
   id: N14ClothingHeadHatHelmetRadHelmet
   name: radiation suit helmet
@@ -767,6 +808,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadSuitbase
   id: N14ClothingHeadHatHelmetFirefighterHelmet
   name: fire resistant helmet
@@ -790,6 +832,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadSuitbase
   id: N14ClothingHeadHatHelmetSpaceHelmet
   name: space helmet
@@ -814,6 +857,7 @@
 
 #Chinese Stealth Suit
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [N14ClothingHeadSuitbase, BaseToggleClothing]
   id: N14ClothingHeadHatHelmetChineseStealthSuitHelmet
   name: chinese stealth helmet
@@ -841,6 +885,7 @@
       lastVisibility: 0.1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14Clothingkingoftherats
   name: Crown of the Rat King
@@ -854,6 +899,7 @@
 #tribe 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatTribalPowerhelm
   name: elders heavy helmet
@@ -874,6 +920,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14ClothingHeadHatEdlerSkullhelm
   name: elders skull helmet
@@ -894,6 +941,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14ClothingHeadHatEldersDamagedSkullHelm
   name: elders skull helmet
@@ -914,6 +962,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14ClothingHeadHatTribalHelmetHorned
   name: horned tribal helmet
@@ -933,6 +982,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatCombatHelmet
   id: N14ClothingHeadHatTribalHelmetHorned2
   name: horned tribal helmet
@@ -954,6 +1004,7 @@
 #raider
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadBaron
   name: raider baron
@@ -972,6 +1023,7 @@
         Heat: 0.95
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadJunkHelmet
   name: Raider junk helmet
@@ -998,6 +1050,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadBladedHelmet
   name: raider bladed helmet
@@ -1024,6 +1077,7 @@
     - 0,0,1,0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadSackMetal
   name: raider sackmetal
@@ -1052,6 +1106,7 @@
 
 # Town Guard helmets
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadTownGuardBrodie
   name: brodie helmet
@@ -1075,6 +1130,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadTownGuardBrodie
   id: N14ClothingHeadTownGuardBrodieCover
   name: brodie helmet
@@ -1088,6 +1144,7 @@
     damageCoefficient: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadTownGuardBrodie
   id: N14ClothingHeadTownGuardBrodieVisor
   name: brodie helmet
@@ -1106,6 +1163,7 @@
         Heat: 0.9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadimprovisedplatehelmet
   name: improvised plate helmet

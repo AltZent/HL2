@@ -65,6 +65,7 @@
 
 # Wooden Doors
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseDoor
   id: N14DoorMakeshift # Base Door Wood
   name: makeshift door
@@ -102,6 +103,7 @@
     node: woodDoorMakeshift
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodHouseWhite
   name: wooden door
@@ -115,6 +117,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodHousePainted
   name: wooden door
@@ -135,6 +138,7 @@
           paint: Rainbow
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodHouseWhiteClean
   name: wooden door
@@ -148,6 +152,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodRoom
   name: wooden door
@@ -161,6 +166,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodInterior
   name: wooden door
@@ -174,6 +180,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodRoomDamaged
   suffix: damaged
@@ -188,6 +195,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMaterialDoor
   id: N14DoorRoomRepaired
   name: door
@@ -202,6 +210,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorWoodSecure
   name: secure door
@@ -226,6 +235,7 @@
     node: woodDoorlocked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodSecure
   id: N14DoorWoodSecureNCR
   name: secure door
@@ -245,6 +255,7 @@
 
 # Metal Doors
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseDoor
   id: N14DoorMetalReinforced
   name: metal reinforced door
@@ -257,6 +268,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecureBrotherhood
   name: secure brotherhood door
@@ -269,6 +281,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseDoor
   id: N14DoorCellMetal
   name: cell door
@@ -292,6 +305,7 @@
     damageModifierSet: Metallic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorCellMetal
   id: N14DoorMetalBar
   name: barred door
@@ -304,6 +318,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalReinforced
   id: N14DoorMetalIron
   name: iron door
@@ -316,6 +331,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecure
   name: secure door
@@ -328,6 +344,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorCellMetal
   id: N14DoorSpikedGate
   name: spiked gate
@@ -341,6 +358,7 @@
 
 # Glass Doors
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMakeshift
   id: N14DoorGlass
   name: glass door
@@ -383,6 +401,7 @@
             max: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorGlass
   id: N14DoorGlassDirty
   name: dirty glass door
@@ -395,6 +414,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorGlass
   id: N14DoorGlassBroken
   name: broken glass door
@@ -418,6 +438,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorGlass
   id: N14DoorGlassStore
   name: store door
@@ -455,6 +476,7 @@
             max: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorGlassStore
   id: N14DoorGlassStoreDirty
   name: dirty store door
@@ -467,6 +489,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorGlassBroken
   id: N14DoorGlassStoreBroken
   name: broken glass door
@@ -480,6 +503,7 @@
 
 # Other
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMaterialDoor
   id: N14DoorTentflap
   name: tent flap
@@ -524,6 +548,7 @@
             max: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorTentflap
   id: N14DoorTentLeatherflap
   name: tent flap
@@ -541,6 +566,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorTentflap
   id: N14DoorTentClothflap
   name: tent flap

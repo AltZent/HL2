@@ -1,5 +1,6 @@
 # Metal
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14StoreDeliCounter
   name: deli counter
@@ -63,6 +64,7 @@
 
 # Wood
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14StoreFruitstand
   suffix: empty
@@ -114,6 +116,7 @@
 
 # N14TODO: Probably change these to a storage visualiser with a whitelist of some sort?
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StoreFruitstand
   id: N14StoreFruitstand1
   suffix: brown
@@ -124,6 +127,7 @@
     state: fruitstand-1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StoreFruitstand1
   id: N14StoreFruitstand2
   suffix: green
@@ -132,6 +136,7 @@
     state: fruitstand-2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StoreFruitstand1
   id: N14StoreFruitstand3
   suffix: yellow

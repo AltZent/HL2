@@ -191,6 +191,7 @@
 
 # Constructed APC
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAPC
   id: APCConstructed
   suffix: Open
@@ -200,6 +201,7 @@
 
 # APCs in use
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAPC
   id: APCBasic
   suffix: Basic, 50kW
@@ -211,6 +213,7 @@
     maxAmount: 5000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAPC
   id: APCHighCapacity
   suffix: High Capacity, 100kW
@@ -222,6 +225,7 @@
     maxAmount: 12000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAPC
   id: APCSuperCapacity
   suffix: Super Capacity, 150kW
@@ -233,6 +237,7 @@
     maxAmount: 18000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAPC
   id: APCHyperCapacity
   suffix: Hyper Capacity, 200kW

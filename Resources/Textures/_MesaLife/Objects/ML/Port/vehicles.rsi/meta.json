@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "engineering_pod",
+      "directions": 4,
+      "delays": [
+        [
+          2.5,
+          0.2
+        ],
+        [
+          2.5,
+          0.2
+        ],
+        [
+          2.5,
+          0.2
+        ],
+        [
+          2.5,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "pussywagon",
+      "directions": 4
+    },
+    {
+      "name": "keys"
+    },
+    {
+      "name": "train_keys"
+    },
+    {
+      "name": "cargo_engine",
+      "directions": 4
+    },
+    {
+      "name": "cargo_engine_open",
+      "directions": 4
+    },
+    {
+      "name": "cargo_engine_overlay",
+      "directions": 4
+    },
+    {
+      "name": "cargo_trailer"
+    },
+    {
+      "name": "cargo_trailer_open"
+    },
+    {
+      "name": "soutomobile_overlay",
+      "directions": 4
+    },
+    {
+      "name": "soutomobile",
+      "directions": 4
+    }
+  ]
+}

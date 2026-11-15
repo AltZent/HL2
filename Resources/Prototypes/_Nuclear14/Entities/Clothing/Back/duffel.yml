@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingBackpackDuffel
   id: N14ClothingBackpackDuffel
   name: duffel bag
@@ -9,6 +10,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingBackpackDuffel
   id: N14ClothingBackpackDuffelSalvage
   name: salvage duffel bag
@@ -18,6 +20,7 @@
       sprite: Clothing/Back/Duffels/salvage.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingBackpackDuffel
   id: N14ClothingBackpackDuffelMilitary
   name: military duffel bag
@@ -27,6 +30,7 @@
     sprite: Clothing/Back/Duffels/syndicate.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingBackpackDuffelMilitary
   id: N14ClothingBackpackDuffelMilitaryMedical
   name: military medical duffel bag

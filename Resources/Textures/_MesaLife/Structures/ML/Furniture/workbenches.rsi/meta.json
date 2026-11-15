@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "workbench"
+    },
+    {
+      "name": "ammobench"
+    },
+    {
+      "name": "armorbench"
+    },
+    {
+      "name": "weaponbench"
+    },
+    {
+      "name": "tinkerbench"
+    },
+    {
+      "name": "chemicalset"
+    },
+    {
+      "name": "smallworkbench"
+    }
+  ]
+}

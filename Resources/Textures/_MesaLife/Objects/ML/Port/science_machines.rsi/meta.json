@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "dispenser"
+    },
+    {
+      "name": "onlight"
+    },
+    {
+      "name": "beaker1"
+    },
+    {
+      "name": "beaker2"
+    },
+    {
+      "name": "beaker3"
+    },
+    {
+      "name": "beaker4"
+    },
+    {
+      "name": "beaker5"
+    },
+    {
+      "name": "mixer0b"
+    },
+    {
+      "name": "mixer1b"
+    },
+    {
+      "name": "mixer0"
+    },
+    {
+      "name": "mixer1",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "mixer0_nopower"
+    },
+    {
+      "name": "mixer1_nopower"
+    },
+    {
+      "name": "mixer0_b"
+    },
+    {
+      "name": "mixer1_b"
+    },
+    {
+      "name": "industry_mixer0"
+    },
+    {
+      "name": "industry_mixer1",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "industry_mixer0_nopower"
+    },
+    {
+      "name": "industry_mixer1_nopower"
+    },
+    {
+      "name": "mixer0_old"
+    },
+    {
+      "name": "mixer1_old",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "mixer0_nopower_old"
+    },
+    {
+      "name": "mixer1_nopower_old"
+    },
+    {
+      "name": "mixer1_b_old"
+    },
+    {
+      "name": "mixer0_b_old"
+    },
+    {
+      "name": "genesploicer0"
+    },
+    {
+      "name": "genesploicer1",
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "soda_dispenser"
+    },
+    {
+      "name": "booze_dispenser"
+    },
+    {
+      "name": "reagent_analyzer"
+    },
+    {
+      "name": "reagent_analyzer_sample"
+    },
+    {
+      "name": "reagent_analyzer_error",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "reagent_analyzer_failed"
+    },
+    {
+      "name": "reagent_analyzer_finished"
+    },
+    {
+      "name": "reagent_analyzer_processing",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "centrifuge_empty_open"
+    },
+    {
+      "name": "centrifuge_empty_closed"
+    },
+    {
+      "name": "centrifuge_on_open"
+    },
+    {
+      "name": "centrifuge_on_closed"
+    },
+    {
+      "name": "centrifuge_spinning",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "centrifuge_finish"
+    },
+    {
+      "name": "autodispenser"
+    },
+    {
+      "name": "autodispenser_nopower"
+    },
+    {
+      "name": "autodispenser_broken"
+    },
+    {
+      "name": "autodispenser_beaker"
+    },
+    {
+      "name": "open"
+    },
+    {
+      "name": "running",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "stuck"
+    },
+    {
+      "name": "full"
+    }
+  ]
+}

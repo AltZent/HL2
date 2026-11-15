@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: ElectricGuitarInstrument
   name: electric guitar
@@ -42,6 +43,7 @@
     - StringInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: BassGuitarInstrument
   name: bass guitar
@@ -86,6 +88,7 @@
     - StringInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: RockGuitarInstrument
   name: rock guitar
@@ -137,6 +140,7 @@
     - StringInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: AcousticGuitarInstrument
   name: acoustic guitar
@@ -208,6 +212,7 @@
         Blunt: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: GuitarlessFretsInstrument
   name: guitarless frets
@@ -221,6 +226,7 @@
     state: icon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: BanjoInstrument
   name: banjo
@@ -252,6 +258,7 @@
     staminaCost: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: ViolinInstrument
   name: violin
@@ -274,6 +281,7 @@
     - StringInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: ViolaInstrument
   name: viola
@@ -292,6 +300,7 @@
     - StringInstrument
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseHandheldInstrument
   id: CelloInstrument
   name: cello

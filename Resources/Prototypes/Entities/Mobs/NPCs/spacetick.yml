@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: space tick
   id: MobTick
   parent: SimpleSpaceMobBase
@@ -81,6 +82,7 @@
   - type: NonSpreaderZombie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobTickSalvage
   parent: MobTick
   suffix: "Salvage Ruleset"

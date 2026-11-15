@@ -36,6 +36,7 @@
           Unprimed: { state: complete }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: composition C-4
   description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
   parent: BasePlasticExplosive
@@ -74,6 +75,7 @@
       festive: Objects/Weapons/Bombs/c4gift.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: seismic charge
   description: Concussion based explosive designed to destroy large amounts of rock.
   parent: BasePlasticExplosive
@@ -108,6 +110,7 @@
   - type: ExplodeOnTrigger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: breaching charge
   description: A breaching explosive for security officers to break through walls.
   parent: SeismicCharge

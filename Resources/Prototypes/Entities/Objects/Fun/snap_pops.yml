@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: SnapPop
   name: snap pop
@@ -35,6 +36,7 @@
     totalIntensity: 0.01
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStorageItem
   id: SnapPopBox
   name: snap pop box

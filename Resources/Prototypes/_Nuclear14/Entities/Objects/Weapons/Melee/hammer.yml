@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sledge hammer
   parent: BaseItem
   id: N14SledgeHammer
@@ -36,6 +37,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: super sledge hammer
   parent: N14SledgeHammer
   id: N14SuperSledgeHammer
@@ -69,6 +71,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal heavy club
   parent: N14SledgeHammer
   id: N14TribalBigClub
@@ -98,6 +101,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal decorated heavy club
   parent: N14SledgeHammer
   id: N14TribalBigClubDecorated
@@ -129,6 +133,7 @@
     price: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nail board
   parent: BaseItem
   id: N14NailBoard

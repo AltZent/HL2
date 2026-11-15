@@ -24,6 +24,7 @@
         pipeDirection: South
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: GasPressurePump
   name: gas pump
@@ -66,6 +67,7 @@
     navMapBlip: GasFlowRegulator
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: GasVolumePump
   name: volumetric gas pump
@@ -117,6 +119,7 @@
       navMapBlip: GasFlowRegulator
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: GasPassiveGate
   name: passive gate
@@ -148,6 +151,7 @@
       navMapBlip: GasValve
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: GasValve
   name: manual valve
@@ -198,6 +202,7 @@
       navMapBlip: GasValve
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: SignalControlledValve
   name: signal valve
@@ -259,6 +264,7 @@
     navMapBlip: GasValve
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: GasPort
   name: connector port
@@ -290,6 +296,7 @@
       navMapBlip: GasVentOpening
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasVentPump
   id: GasDualPortVentPump
   name: dual-port air vent
@@ -347,6 +354,7 @@
       navMapBlip: GasVentOpening
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseMachine, ConstructibleMachine ]
   id: GasRecycler
   name: gas recycler
@@ -410,6 +418,7 @@
     navMapBlip: GasValve
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasBinaryBase
   id: HeatExchanger
   name: radiator

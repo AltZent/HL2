@@ -125,12 +125,6 @@ public partial class SharedBodySystem
             else if (args.Origin.HasValue && _queryTargeting.TryComp(args.Origin.Value, out var targeter))
             {
                 targetPart = targeter.Target;
-                // If the target is Torso then have a 33% chance to hit another part
-                if (targetPart.Value == TargetBodyPart.Torso)
-                {
-                    var additionalPart = GetRandomPartSpread(10);
-                    targetPart = targetPart.Value | additionalPart;
-                }
             }
             else
             {
@@ -450,7 +444,7 @@ public partial class SharedBodySystem
     {
         return partType switch
         {
-            BodyPartType.Head => 0.5f, // 50% damage, necks are hard to cut
+            BodyPartType.Head => 1.5f, // ML: headshots are lethal - small target, big payoff
             BodyPartType.Torso => 1.0f, // 100% damage
             BodyPartType.Arm => 0.7f, // 70% damage
             BodyPartType.Hand => 0.7f, // 70% damage

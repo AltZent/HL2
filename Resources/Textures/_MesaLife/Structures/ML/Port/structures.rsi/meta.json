@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "melted"
+    },
+    {
+      "name": "grille"
+    },
+    {
+      "name": "brokengrille"
+    },
+    {
+      "name": "latticefull"
+    },
+    {
+      "name": "unwall",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "woodenbarricade"
+    },
+    {
+      "name": "ladder00"
+    },
+    {
+      "name": "ladder10"
+    },
+    {
+      "name": "ladder01"
+    },
+    {
+      "name": "ladder11"
+    },
+    {
+      "name": "ladderdown"
+    },
+    {
+      "name": "ladderup"
+    },
+    {
+      "name": "safe"
+    },
+    {
+      "name": "safe-open"
+    },
+    {
+      "name": "floorsafe"
+    },
+    {
+      "name": "floorsafe-open"
+    },
+    {
+      "name": "linenbin-full"
+    },
+    {
+      "name": "linenbin-half"
+    },
+    {
+      "name": "linenbin-empty"
+    },
+    {
+      "name": "hatchdown"
+    },
+    {
+      "name": "hatchdown-open",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "hatchdown-close",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "red-ladderlight"
+    },
+    {
+      "name": "green-ladderlight"
+    },
+    {
+      "name": "ramptop",
+      "directions": 4
+    },
+    {
+      "name": "rampbottom",
+      "directions": 4
+    },
+    {
+      "name": "ramptopold",
+      "directions": 4
+    },
+    {
+      "name": "rampbottomold",
+      "directions": 4
+    },
+    {
+      "name": "open"
+    },
+    {
+      "name": "down",
+      "directions": 4
+    },
+    {
+      "name": "down-f",
+      "directions": 4
+    },
+    {
+      "name": "up",
+      "directions": 4
+    },
+    {
+      "name": "up-f",
+      "directions": 4
+    },
+    {
+      "name": "down-supply",
+      "directions": 4
+    },
+    {
+      "name": "down-f-supply",
+      "directions": 4
+    },
+    {
+      "name": "up-supply",
+      "directions": 4
+    },
+    {
+      "name": "up-f-supply",
+      "directions": 4
+    },
+    {
+      "name": "down-scrubbers",
+      "directions": 4
+    },
+    {
+      "name": "down-f-scrubbers",
+      "directions": 4
+    },
+    {
+      "name": "up-scrubbers",
+      "directions": 4
+    },
+    {
+      "name": "up-f-scrubbers",
+      "directions": 4
+    },
+    {
+      "name": "hatchclosed"
+    },
+    {
+      "name": "hatchopen"
+    },
+    {
+      "name": "girder"
+    },
+    {
+      "name": "girder_damaged"
+    },
+    {
+      "name": "displaced"
+    },
+    {
+      "name": "reinforced"
+    },
+    {
+      "name": "monorail",
+      "directions": 8
+    },
+    {
+      "name": "book-0"
+    },
+    {
+      "name": "book-1"
+    },
+    {
+      "name": "book-2"
+    },
+    {
+      "name": "book-3"
+    },
+    {
+      "name": "book-4"
+    },
+    {
+      "name": "book-5"
+    },
+    {
+      "name": "girder0"
+    },
+    {
+      "name": "girder0_damaged"
+    },
+    {
+      "name": "girder1"
+    },
+    {
+      "name": "girder1_damaged"
+    },
+    {
+      "name": "girder2"
+    },
+    {
+      "name": "girder2_damaged"
+    },
+    {
+      "name": "girder3"
+    },
+    {
+      "name": "girder3_damaged"
+    },
+    {
+      "name": "girder4"
+    },
+    {
+      "name": "girder4_damaged"
+    },
+    {
+      "name": "girder5"
+    },
+    {
+      "name": "girder5_damaged"
+    },
+    {
+      "name": "girder6"
+    },
+    {
+      "name": "girder6_damaged"
+    },
+    {
+      "name": "girder7"
+    },
+    {
+      "name": "girder7_damaged"
+    },
+    {
+      "name": "girder8"
+    },
+    {
+      "name": "girder8_damaged"
+    },
+    {
+      "name": "girder9"
+    },
+    {
+      "name": "girder9_damaged"
+    },
+    {
+      "name": "girder10"
+    },
+    {
+      "name": "girder10_damaged"
+    },
+    {
+      "name": "girder11"
+    },
+    {
+      "name": "girder11_damaged"
+    },
+    {
+      "name": "girder12"
+    },
+    {
+      "name": "girder12_damaged"
+    },
+    {
+      "name": "girder13"
+    },
+    {
+      "name": "girder13_damaged"
+    },
+    {
+      "name": "girder14"
+    },
+    {
+      "name": "girder14_damaged"
+    },
+    {
+      "name": "girder15"
+    },
+    {
+      "name": "girder15_damaged"
+    },
+    {
+      "name": "structure_lattice",
+      "directions": 8
+    },
+    {
+      "name": "wall_phone",
+      "directions": 4
+    },
+    {
+      "name": "wall_phone_ring",
+      "directions": 4,
+      "delays": [
+        [
+          0.3,
+          0.3
+        ],
+        [
+          0.3,
+          0.3
+        ],
+        [
+          0.3,
+          0.3
+        ],
+        [
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "wall_phone_ear",
+      "directions": 4
+    },
+    {
+      "name": "brazier",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "brazier_frame_filled"
+    },
+    {
+      "name": "brazier_frame"
+    },
+    {
+      "name": "torch",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "torch_frame"
+    },
+    {
+      "name": "rotary_phone"
+    },
+    {
+      "name": "rotary_phone_ring",
+      "delays": [
+        [
+          0.4,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "rotary_phone_ear"
+    },
+    {
+      "name": "campfire"
+    },
+    {
+      "name": "campfire_on",
+      "delays": [
+        [
+          0.125,
+          0.125,
+          0.125,
+          0.125,
+          0.125
+        ]
+      ]
+    }
+  ]
+}

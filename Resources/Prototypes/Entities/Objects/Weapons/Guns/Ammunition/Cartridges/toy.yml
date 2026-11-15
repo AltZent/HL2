@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCartridgeCap
   name: cartridge (cap)
   parent: BaseCartridge
@@ -20,6 +21,7 @@
     price: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeCap
   name: cap gun cartridge
   parent: BaseCartridgeCap

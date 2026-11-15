@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazineGrenade
   name: grenade cartridge
   parent: BaseItem
@@ -40,6 +41,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeEmpty
   name: grenade cartridge
   parent: BaseMagazineGrenade
@@ -47,6 +49,7 @@
   - type: BallisticAmmoProvider
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeFrag
   name: frag grenade cartridge
   parent: BaseMagazineGrenade
@@ -55,6 +58,7 @@
     proto: GrenadeFrag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeEMP
   name: EMP grenade cartridge
   parent: BaseMagazineGrenade
@@ -63,6 +67,7 @@
     proto: GrenadeEMP
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeFlash
   name: flash grenade cartridge
   parent: BaseMagazineGrenade
@@ -71,6 +76,7 @@
     proto: GrenadeFlash
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeBlast
   name: blast grenade cartridge
   parent: BaseMagazineGrenade
@@ -79,6 +85,7 @@
     proto: GrenadeBlast
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineGrenadeBaton
   name: baton grenade cartridge
   parent: BaseMagazineGrenade

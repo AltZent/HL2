@@ -1,0 +1,885 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "coolanttank"
+    },
+    {
+      "name": "rack"
+    },
+    {
+      "name": "sheater0"
+    },
+    {
+      "name": "psiphon_0"
+    },
+    {
+      "name": "pscrubber_0"
+    },
+    {
+      "name": "barrel_blue"
+    },
+    {
+      "name": "barrel_green"
+    },
+    {
+      "name": "barrel_red"
+    },
+    {
+      "name": "barrel_yellow"
+    },
+    {
+      "name": "barrel_white"
+    },
+    {
+      "name": "secure_crate"
+    },
+    {
+      "name": "secure_crate2"
+    },
+    {
+      "name": "secure_crate_strapped"
+    },
+    {
+      "name": "case"
+    },
+    {
+      "name": "case_double"
+    },
+    {
+      "name": "chest"
+    },
+    {
+      "name": "chest2"
+    },
+    {
+      "name": "chest_white"
+    },
+    {
+      "name": "chest_white2"
+    },
+    {
+      "name": "crate_ds_blue1"
+    },
+    {
+      "name": "crate_ds_blue1_open"
+    },
+    {
+      "name": "crate_ds_blue2"
+    },
+    {
+      "name": "crate_ds_blue3"
+    },
+    {
+      "name": "crate_ds_blue4"
+    },
+    {
+      "name": "crate_ds_green1"
+    },
+    {
+      "name": "crate_ds_green2"
+    },
+    {
+      "name": "crate_ds_green3"
+    },
+    {
+      "name": "crate_ds_green4"
+    },
+    {
+      "name": "turnstile",
+      "directions": 4
+    },
+    {
+      "name": "turnstile_med",
+      "directions": 4
+    },
+    {
+      "name": "metal_0",
+      "directions": 4
+    },
+    {
+      "name": "metal_1",
+      "directions": 4
+    },
+    {
+      "name": "metal_2",
+      "directions": 4
+    },
+    {
+      "name": "metal_3",
+      "directions": 4
+    },
+    {
+      "name": "metal_wire",
+      "directions": 4
+    },
+    {
+      "name": "sandbag_0",
+      "directions": 4
+    },
+    {
+      "name": "sandbag_1",
+      "directions": 4
+    },
+    {
+      "name": "sandbag_2",
+      "directions": 4
+    },
+    {
+      "name": "sandbag_3",
+      "directions": 4
+    },
+    {
+      "name": "sandbag_wire",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_0",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_1",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_2",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_3",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_0",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_1",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_2",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_3",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_connection_1",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_connection_2",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_connection_4",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_connection_8",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_connection_1",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_connection_2",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_connection_4",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_connection_8",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_wire",
+      "directions": 4
+    },
+    {
+      "name": "plasteel_closed_wire",
+      "directions": 4
+    },
+    {
+      "name": "wooden",
+      "directions": 4
+    },
+    {
+      "name": "snow_0",
+      "directions": 4
+    },
+    {
+      "name": "snow_1",
+      "directions": 4
+    },
+    {
+      "name": "snow_2",
+      "directions": 4
+    },
+    {
+      "name": "snow_3",
+      "directions": 4
+    },
+    {
+      "name": "folding_0",
+      "directions": 4
+    },
+    {
+      "name": "folding_1",
+      "directions": 4
+    },
+    {
+      "name": "folding_2",
+      "directions": 4
+    },
+    {
+      "name": "folding_3",
+      "directions": 4
+    },
+    {
+      "name": "sandbag1",
+      "directions": 4
+    },
+    {
+      "name": "sandbag2",
+      "directions": 4
+    },
+    {
+      "name": "sandbag3",
+      "directions": 4
+    },
+    {
+      "name": "sandbag4",
+      "directions": 4
+    },
+    {
+      "name": "sandbag5",
+      "directions": 4
+    },
+    {
+      "name": "burn_obj"
+    },
+    {
+      "name": "brute_obj"
+    },
+    {
+      "name": "explosive_obj"
+    },
+    {
+      "name": "burn_upgrade_0",
+      "directions": 4
+    },
+    {
+      "name": "burn_upgrade_1",
+      "directions": 4
+    },
+    {
+      "name": "burn_upgrade_2",
+      "directions": 4
+    },
+    {
+      "name": "burn_upgrade_3",
+      "directions": 4
+    },
+    {
+      "name": "brute_upgrade_0",
+      "directions": 4
+    },
+    {
+      "name": "brute_upgrade_1",
+      "directions": 4
+    },
+    {
+      "name": "brute_upgrade_2",
+      "directions": 4
+    },
+    {
+      "name": "brute_upgrade_3",
+      "directions": 4
+    },
+    {
+      "name": "explosive_upgrade_0",
+      "directions": 4
+    },
+    {
+      "name": "explosive_upgrade_1",
+      "directions": 4
+    },
+    {
+      "name": "explosive_upgrade_2",
+      "directions": 4
+    },
+    {
+      "name": "explosive_upgrade_3",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_0",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_1",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_2",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_3",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_closed_0",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_closed_1",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_closed_2",
+      "directions": 4
+    },
+    {
+      "name": "fencegate_closed_3",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_0",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_1",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_2",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_3",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_closed_0",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_closed_1",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_closed_2",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_closed_3",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_closed_wire",
+      "directions": 4
+    },
+    {
+      "name": "folding_metal_wire",
+      "directions": 4
+    },
+    {
+      "name": "crystal_crate"
+    },
+    {
+      "name": "crystal_crate_full"
+    },
+    {
+      "name": "crystal0_0"
+    },
+    {
+      "name": "crystalsmol"
+    },
+    {
+      "name": "crystal0_1"
+    },
+    {
+      "name": "crystal1_0"
+    },
+    {
+      "name": "crystal1_1"
+    },
+    {
+      "name": "crystal2_0"
+    },
+    {
+      "name": "crystal2_1"
+    },
+    {
+      "name": "mound0_0"
+    },
+    {
+      "name": "mound_puff",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          3.0
+        ]
+      ]
+    },
+    {
+      "name": "mound0_1"
+    },
+    {
+      "name": "mound1_0"
+    },
+    {
+      "name": "mound1_1"
+    },
+    {
+      "name": "mound2_0"
+    },
+    {
+      "name": "mound2_1"
+    },
+    {
+      "name": "globe",
+      "delays": [
+        [
+          1.3,
+          1.3
+        ]
+      ]
+    },
+    {
+      "name": "autolathe_r",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "autolathe_o",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "autolathe",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "autolathe_t"
+    },
+    {
+      "name": "autolathe_n",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "vat",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "vat_boiling",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "processor_off"
+    },
+    {
+      "name": "substrate_off"
+    },
+    {
+      "name": "CPU",
+      "delays": [
+        [
+          0.5,
+          0.2,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "int_processor_off"
+    },
+    {
+      "name": "frame_med"
+    },
+    {
+      "name": "generator"
+    },
+    {
+      "name": "generator_on",
+      "delays": [
+        [
+          0.1,
+          0.01,
+          0.1,
+          0.01,
+          0.1,
+          0.01,
+          0.1,
+          0.01
+        ]
+      ]
+    },
+    {
+      "name": "tesla_coil"
+    },
+    {
+      "name": "tesla_coil_on",
+      "delays": [
+        [
+          0.6,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "uac_sentry2",
+      "directions": 4
+    },
+    {
+      "name": "uac_flamer_on",
+      "directions": 4
+    },
+    {
+      "name": "teslatower"
+    },
+    {
+      "name": "console"
+    },
+    {
+      "name": "time"
+    },
+    {
+      "name": "toggle"
+    },
+    {
+      "name": "flood01"
+    },
+    {
+      "name": "offcenter",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "oncenter",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "on",
+      "directions": 8,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "toffcenter"
+    },
+    {
+      "name": "cracker"
+    },
+    {
+      "name": "slug"
+    },
+    {
+      "name": "ap",
+      "directions": 4
+    },
+    {
+      "name": "station",
+      "directions": 4
+    },
+    {
+      "name": "station_active",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pad"
+    },
+    {
+      "name": "pad_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "production_console",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "dorm_taken",
+      "delays": [
+        [
+          1.5,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "clownbeacon",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "reverse_bear_trap"
+    },
+    {
+      "name": "hilbertsanalyzer",
+      "delays": [
+        [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "swapper"
+    },
+    {
+      "name": "swapper-linked",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "trapdoor_remote"
+    },
+    {
+      "name": "manual_mining"
+    },
+    {
+      "name": "advmining0"
+    },
+    {
+      "name": "advmining1"
+    },
+    {
+      "name": "goliath_hide"
+    },
+    {
+      "name": "goliath_hide_2"
+    },
+    {
+      "name": "goliath_hide_3"
+    }
+  ]
+}

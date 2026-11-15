@@ -22,6 +22,7 @@
             
             
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CarpetSingleBase
   id: N14RugMat
   name: mat
@@ -31,6 +32,7 @@
     state: mat_blank
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMat
   id: N14RugMatWelcome
   suffix: welcome
@@ -39,6 +41,7 @@
     state: mat_welcome
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMat
   id: N14RugMatVulgar1
   suffix: get f
@@ -48,6 +51,7 @@
     state: mat_vulgar
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatVulgar1
   id: N14RugMatVulgar2
   suffix: f off
@@ -56,6 +60,7 @@
     state: mat_vulgar_2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatVulgar1
   id: N14RugMatTown
   suffix: s town
@@ -64,6 +69,7 @@
     state: mat_town
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatVulgar1
   id: N14RugMatNCR
   suffix: ncr sucks
@@ -72,6 +78,7 @@
     state: mat_ncr
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatVulgar1
   id: N14RugMatBOS
   suffix: bos sucks
@@ -82,6 +89,7 @@
 # Rubber mats
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMat
   id: N14RugMatRubberSingle
   name: rubber mat
@@ -91,6 +99,7 @@
     state: rubber_single
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatRubberSingle
   id: N14RugMatRubber1
   components:
@@ -98,6 +107,7 @@
     state: rubber_1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatRubberSingle
   id: N14RugMatRubber2
   components:
@@ -105,6 +115,7 @@
     state: rubber_2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugMatRubberSingle
   id: N14RugMatRubber3
   components:
@@ -113,6 +124,7 @@
     
 # 64x64 rugs
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CarpetSingleBase
   id: N14RugBlue
   name: rug
@@ -123,6 +135,7 @@
     state: rug_blue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugBlue
   id: N14RugBlueShag
   suffix: shag
@@ -132,6 +145,7 @@
     state: rug_blue_shag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugBlue
   id: N14RugBrownFancy
   description: A fancy looking rug.
@@ -141,6 +155,7 @@
     state: rug_fancy
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugBlue
   id: N14RugRed
   description: A patterned red rug.
@@ -150,6 +165,7 @@
     state: rug_red
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugBlue
   id: N14RugYellow
   description: A patterned yellow rug.
@@ -159,6 +175,7 @@
     state: rug_yellow
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14RugBlue
   id: N14RugMatRubberLarge
   name: rubber mat

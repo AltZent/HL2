@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: MMI
   name: man-machine interface
@@ -54,6 +55,7 @@
     understands: [TauCetiBasic, RobotTalk]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MMI
   id: MMIFilled
   suffix: Filled
@@ -68,6 +70,7 @@
             - Brain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PositronicBrain
   name: positronic brain

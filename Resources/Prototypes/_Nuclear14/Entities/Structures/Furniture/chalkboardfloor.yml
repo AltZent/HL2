@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14ChalkboardFloor
   name: Chalkboard
@@ -40,6 +41,7 @@
   - type: Pullable
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor1
   suffix: suck
@@ -48,6 +50,7 @@
     state: board_mess1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor2
   suffix: vault-tec
@@ -56,6 +59,7 @@
     state: board_mess2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor3
   components:
@@ -63,6 +67,7 @@
     state: board_mess3
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor4
   components:
@@ -70,6 +75,7 @@
     state: board_mess4
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor5
   components:
@@ -77,6 +83,7 @@
     state: board_mess5
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor6
   suffix: welcome hell
@@ -85,6 +92,7 @@
     state: board_mess6
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor7
   suffix: dorf
@@ -93,6 +101,7 @@
     state: board_mess7
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor8
   suffix: love
@@ -101,6 +110,7 @@
     state: board_mess8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor9
   suffix: peace
@@ -109,6 +119,7 @@
     state: board_mess9
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor10
   components:
@@ -116,6 +127,7 @@
     state: board_text1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor11
   components:
@@ -123,6 +135,7 @@
     state: board_text2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor12
   components:
@@ -130,6 +143,7 @@
     state: board_text3
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor13
   components:
@@ -137,6 +151,7 @@
     state: board_text4
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor14
   components:
@@ -144,6 +159,7 @@
     state: board_text5
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor15
   suffix: radiation
@@ -152,6 +168,7 @@
     state: board_text6
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor16
   suffix: fallout
@@ -160,6 +177,7 @@
     state: board_text7
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor17
   suffix: vault
@@ -168,6 +186,7 @@
     state: board_text8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor18
   suffix: lambda
@@ -176,6 +195,7 @@
     state: board_text9
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardFloor
   id: N14ChalkboardFloor19
   suffix: wet

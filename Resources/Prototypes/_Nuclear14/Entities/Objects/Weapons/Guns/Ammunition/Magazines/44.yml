@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BaseMagazine44Pistol
   name: pistol magazine (44)
   parent: BaseItem
@@ -31,6 +32,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14MagazinePistol44
   name: pistol magazine (44)
   parent: N14BaseMagazine44Pistol

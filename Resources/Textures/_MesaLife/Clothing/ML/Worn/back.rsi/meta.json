@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "radiopack",
+      "directions": 4
+    },
+    {
+      "name": "sack",
+      "directions": 4
+    },
+    {
+      "name": "military",
+      "directions": 4
+    },
+    {
+      "name": "military_duffel",
+      "directions": 4
+    },
+    {
+      "name": "leather_backpack",
+      "directions": 4
+    },
+    {
+      "name": "satchel",
+      "directions": 4
+    },
+    {
+      "name": "pack",
+      "directions": 4
+    },
+    {
+      "name": "large_pack",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "cauterizerbag",
+      "directions": 4
+    }
+  ]
+}

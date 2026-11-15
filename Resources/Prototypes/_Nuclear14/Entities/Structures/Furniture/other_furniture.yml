@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Dresser
   id: N14Dresser
   components:
@@ -10,6 +11,7 @@
     node: start
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14GrandfatherClock
   name: grandfather clock
@@ -21,6 +23,7 @@
 
 # Televisions
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14Television
   name: television
@@ -31,6 +34,7 @@
     state: wood_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Television
   id: N14TelevisionCabinetOpen
   components:
@@ -38,6 +42,7 @@
     state: cabinet_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Television
   id: N14TelevisionRadking
   description: A Radking brand television.
@@ -46,6 +51,7 @@
     state: radking_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Television
   id: N14TelevisionRedwood
   description: A television in a redwood cabinet.
@@ -54,6 +60,7 @@
     state: redwood_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Television
   id: N14TelevisionTube
   description: An old pre-war tube television.
@@ -62,6 +69,7 @@
     state: tube_tv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Television
   id: N14TelevisionSmall
   description: A television in a small case.
@@ -83,6 +91,7 @@
           - TabletopMachineMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14TelevisionSmall
   id: N14TelevisionTiny
   description: A tiny television.
@@ -95,6 +104,7 @@
 
 # Washroom
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorFloorBase
   id: N14Shower
   name: shower
@@ -142,6 +152,7 @@
       path: /Audio/Ambience/Objects/drain.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeatBase
   id: N14Toilet
   name: toilet
@@ -198,6 +209,7 @@
     solution: drainBuffer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Toilet
   id: N14ToiletWater
   suffix: filled water
@@ -216,6 +228,7 @@
         Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Toilet
   id: N14ToiletDirty
   suffix: filled dirty water
@@ -238,6 +251,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Toilet
   id: N14ToiletIrradiated
   suffix: filled rad water
@@ -260,6 +274,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Shower
   id: N14Sink
   name: sink
@@ -280,6 +295,7 @@
     solution: drainBuffer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Sink
   id: N14SinkFilledWater
   suffix: filled water
@@ -300,6 +316,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Sink
   id: N14SinkFilledWaterDirty
   suffix: filled water dirty
@@ -320,6 +337,7 @@
         Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Sink
   id: N14SinkFilledWaterIrradiated
   suffix: filled water irradiated

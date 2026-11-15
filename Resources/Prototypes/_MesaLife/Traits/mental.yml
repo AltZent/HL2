@@ -1,0 +1,96 @@
+# ML mental traits.
+
+- type: trait
+  id: MLCarefulSteps
+  category: Mental
+  points: -4
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: StepTriggerImmune
+          whitelist:
+            types:
+              - Shard
+              - Landmine
+              - Mousetrap
+              - SlipEntity
+
+- type: trait
+  id: MLPickpocket
+  category: Mental
+  points: -6
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: Thieving
+          ignoreStripHidden: true
+          stealth: Subtle
+          stripTimeReduction: 0
+          stripTimeMultiplier: 0.667
+
+- type: trait
+  id: MLPacifist
+  category: Mental
+  points: 8
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: Pacified
+
+- type: trait
+  id: MLNarcolepsy
+  category: Mental
+  points: 2
+  functions:
+    - !type:TraitAddComponent
+      components:
+      - type: Narcolepsy
+        timeBetweenIncidents: 300, 600
+        durationOfIncident: 10, 30
+
+- type: trait
+  id: MLFieldMedic
+  category: Mental
+  points: -4
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: CPRTraining
+
+- type: trait
+  id: MLSelfAware
+  category: Mental
+  points: -4
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: SelfAware
+          analyzableTypes:
+            - Blunt
+            - Slash
+            - Piercing
+            - Heat
+            - Shock
+            - Cold
+            - Caustic
+          detectableGroups:
+            - Airloss
+            - Toxin
+
+- type: trait
+  id: MLStoryteller
+  category: Mental
+  points: 1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLStutter
+        - MLLisp
+        - MLAccent
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: ReplacementAccent
+          replacementChance: 0.2
+          accent: liar

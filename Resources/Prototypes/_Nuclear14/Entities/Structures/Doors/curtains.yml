@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: HospitalCurtains
   id: N14JunkCurtain
   name: curtains
@@ -12,6 +13,7 @@
       map: ["enum.DoorVisualLayers.Base"]
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14JunkCurtain
   id: N14JunkCurtainOpen
   name: curtains

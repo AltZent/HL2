@@ -18,6 +18,7 @@
     key: CP14BiomeSpawner
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BiomeSpawnerWasteland
   parent: N14BaseBiomeSpawner
   suffix: Wasteland
@@ -30,6 +31,7 @@
     biome: Wastes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BiomeSpawnerCaves
   parent: N14BaseBiomeSpawner
   suffix: Caves

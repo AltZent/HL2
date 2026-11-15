@@ -56,6 +56,7 @@
 # Custom Cake Example
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tarberry cake #N14 change
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeTarberry
@@ -73,6 +74,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tarberry slice #N14 change
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeTarberrySlice
@@ -91,6 +93,7 @@
 # Cake
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakePlain
@@ -104,6 +107,7 @@
 # Added in type lines above
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakePlainSlice
@@ -114,6 +118,7 @@
 # Tastes like sweetness, cake.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: carrot cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeCarrot
@@ -136,6 +141,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of carrot cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeCarrotSlice
@@ -158,6 +164,7 @@
 # Tastes like sweetness, cake, carrot.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brain cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeBrain
@@ -170,6 +177,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of brain cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeBrainSlice
@@ -180,6 +188,7 @@
 # Tastes like sweetness, cake, brains.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cheese cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeCheese
@@ -191,6 +200,7 @@
     slice: N14CookedFoodCakeCheeseSlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of cheese cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeCheeseSlice
@@ -201,6 +211,7 @@
 # Tastes like sweetness, cream cheese.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: orange cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeOrange
@@ -216,6 +227,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of orange cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeOrangeSlice
@@ -230,6 +242,7 @@
 # Tastes like sweetness, cake, oranges.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lime cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeLime
@@ -245,6 +258,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of lime cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeLimeSlice
@@ -259,6 +273,7 @@
 # Tastes like sweetness, cake, limes.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lemon cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeLemon
@@ -274,6 +289,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of lemon cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeLemonSlice
@@ -288,6 +304,7 @@
 # Tastes like sweetness, cake, lemons.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chocolate cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeChocolate
@@ -310,6 +327,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of chocolate cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeChocolateSlice
@@ -331,6 +349,7 @@
 # Tastes like sweetness, cake, chocolate.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mutfruit cake #N14 change
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeMutfruit
@@ -346,6 +365,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of apple cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeMutfruitSlice
@@ -361,6 +381,7 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pumpkin-spice cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakePumpkin
@@ -385,6 +406,7 @@
     - Cake
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of pumpkin-spice cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakePumpkinSlice
@@ -409,6 +431,7 @@
 # Tastes like sweetness, cake, pumpkin.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: birthday cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeBirthday
@@ -420,6 +443,7 @@
     slice: N14CookedFoodCakeBirthdaySlice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of birthday cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeBirthdaySlice
@@ -430,6 +454,7 @@
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: vanilla cake
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeVanilla
@@ -452,6 +477,7 @@
           Quantity: 15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: slice of vanilla cake
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeVanillaSlice

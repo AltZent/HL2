@@ -28,6 +28,7 @@
         offset: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: PosterBroken
   name: broken poster
@@ -51,6 +52,7 @@
 
 # Contraband
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandFreeTonto
   name: "Free Tonto"
@@ -60,6 +62,7 @@
     state: poster1_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandAtmosiaDeclarationIndependence
   name: "Atmosia Declaration of Independence"
@@ -69,6 +72,7 @@
     state: poster2_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandFunPolice
   name: "Fun Police"
@@ -78,6 +82,7 @@
     state: poster3_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandLustyExomorph
   name: "Lusty Exomorph"
@@ -87,6 +92,7 @@
     state: poster4_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSyndicateRecruitment
   name: "Syndicate Recruitment"
@@ -96,6 +102,7 @@
     state: poster5_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandClown
   name: "Clown"
@@ -105,6 +112,7 @@
     state: poster6_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSmoke
   name: "Smoke"
@@ -114,6 +122,7 @@
     state: poster7_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandGreyTide
   name: "Grey Tide"
@@ -123,6 +132,7 @@
     state: poster8_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandMissingGloves
   name: "Missing Gloves"
@@ -132,6 +142,7 @@
     state: poster9_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandHackingGuide
   name: "Hacking Guide"
@@ -141,6 +152,7 @@
     state: poster10_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRIPBadger
   name: "RIP Badger"
@@ -150,6 +162,7 @@
     state: poster11_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandAmbrosiaVulgaris
   name: "Ambrosia Vulgaris"
@@ -159,6 +172,7 @@
     state: poster12_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandDonutCorp
   name: "Donut Corp."
@@ -168,6 +182,7 @@
     state: poster13_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandEAT
   name: "EAT."
@@ -177,6 +192,7 @@
     state: poster14_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandTools
   name: "Tools"
@@ -186,6 +202,7 @@
     state: poster15_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandPower
   name: "Power"
@@ -195,6 +212,7 @@
     state: poster16_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSpaceCube
   name: "Space Cube"
@@ -204,6 +222,7 @@
     state: poster17_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandCommunistState
   name: "Communist State"
@@ -213,6 +232,7 @@
     state: poster18_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandLamarr
   name: "Lamarr"
@@ -222,6 +242,7 @@
     state: poster19_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandBorgFancy
   name: "Borg Fancy"
@@ -231,6 +252,7 @@
     state: poster20_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandBorgFancyv2
   name: "Borg Fancy v2"
@@ -240,6 +262,7 @@
     state: poster21_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandKosmicheskayaStantsiya
   name: "Kosmicheskaya Stantsiya 13 Does Not Exist"
@@ -249,6 +272,7 @@
     state: poster22_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRebelsUnite
   name: "Rebels Unite"
@@ -258,6 +282,7 @@
     state: poster23_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandC20r
   name: "C-20r"
@@ -267,6 +292,7 @@
     state: poster24_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandHaveaPuff
   name: "Have a Puff"
@@ -276,6 +302,7 @@
     state: poster25_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRevolver
   name: "Revolver"
@@ -285,6 +312,7 @@
     state: poster26_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandDDayPromo
   name: "D-Day Promo"
@@ -294,6 +322,7 @@
     state: poster27_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSyndicatePistol
   name: "Syndicate Pistol"
@@ -303,6 +332,7 @@
     state: poster28_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandEnergySwords
   name: "Energy Swords"
@@ -312,6 +342,7 @@
     state: poster29_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRedRum
   name: "Red Rum"
@@ -321,6 +352,7 @@
     state: poster30_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandCC64KAd
   name: "CC 64K Ad"
@@ -330,6 +362,7 @@
     state: poster31_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandPunchShit
   name: "Punch Shit"
@@ -339,6 +372,7 @@
     state: poster32_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandTheGriffin
   name: "The Griffin"
@@ -348,6 +382,7 @@
     state: poster33_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandFreeDrone
   name: "Free Drone"
@@ -357,6 +392,7 @@
     state: poster35_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandBustyBackdoorExoBabes6
   name: "Busty Backdoor Exo Babes 6"
@@ -366,6 +402,7 @@
     state: poster36_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRobustSoftdrinks
   name: "Robust Softdrinks"
@@ -375,6 +412,7 @@
     state: poster37_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandShamblersJuice
   name: "Shambler's Juice"
@@ -384,6 +422,7 @@
     state: poster38_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandPwrGame
   name: "Pwr Game"
@@ -393,6 +432,7 @@
     state: poster39_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSunkist
   name: "Sun-kist"
@@ -402,6 +442,7 @@
     state: poster40_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSpaceCola
   name: "Space Cola"
@@ -411,6 +452,7 @@
     state: poster41_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandSpaceUp
   name: "Space-Up!"
@@ -420,6 +462,7 @@
     state: poster42_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandKudzu
   name: "Kudzu"
@@ -429,6 +472,7 @@
     state: poster43_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandMaskedMen
   name: "Masked Men"
@@ -438,6 +482,7 @@
     state: poster44_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandUnreadableAnnouncement
   name: "Unreadable Announcement"
@@ -447,6 +492,7 @@
     state: poster45_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandFreeSyndicateEncryptionKey
   name: "Free Syndicate Encryption Key"
@@ -456,6 +502,7 @@
     state: poster46_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandBountyHunters
   name: "Bounty Hunters"
@@ -465,6 +512,7 @@
     state: poster47_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandTheBigGasTruth
   name: "The Big Gas Giant Truth"
@@ -474,6 +522,7 @@
     state: poster48_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandWehWatches
   name: "Weh Watches"
@@ -483,6 +532,7 @@
     state: poster50_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandVoteWeh
   name: "Vote Weh"
@@ -493,6 +543,7 @@
 
 # These 3 originally from VEEGEE
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandBeachStarYamamoto
   name: "Beach Star Yamamoto!"
@@ -502,6 +553,7 @@
     state: poster52_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandHighEffectEngineering
   name: "High Effect Engineering"
@@ -511,6 +563,7 @@
     state: poster53_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandNuclearDeviceInformational
   name: "Nuclear Device Informational"
@@ -520,6 +573,7 @@
     state: poster54_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRise
   name: "Rise Up"
@@ -529,6 +583,7 @@
     state: poster55_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandRevolt
   name: "Revolt"
@@ -538,6 +593,7 @@
     state: poster56_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandMoth
   name: "Syndie Moth - Nuclear Operation"
@@ -547,6 +603,7 @@
       state: poster57_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandCybersun600
   name: "Cybersun: 600 Years Commemorative Poster"
@@ -556,6 +613,7 @@
       state: poster58_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandDonk
   name: "DONK CO. BRAND MICROWAVEABLE FOOD"
@@ -565,6 +623,7 @@
       state: poster59_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandEnlistGorlex
   name: "Enlist"
@@ -574,6 +633,7 @@
       state: poster60_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandInterdyne
   name: "Interdyne Pharmaceutics: For the Health of Humankind"
@@ -583,6 +643,7 @@
       state: poster61_contraband
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandWaffleCorp
   name: "Make Mine a Waffle Corp: Fine Rifles, Economic Prices"
@@ -592,6 +653,7 @@
       state: poster62_contraband
       
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterContrabandMissingSpacepen
   name: "Missing Spacepen"
@@ -602,6 +664,7 @@
 
 # Legit
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitHereForYourSafety
   name: "Here For Your Safety"
@@ -611,6 +674,7 @@
     state: poster1_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitNanotrasenLogo
   name: "Nanotrasen Logo"
@@ -620,6 +684,7 @@
     state: poster2_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitCleanliness
   name: "Cleanliness"
@@ -629,6 +694,7 @@
     state: poster3_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitHelpOthers
   name: "Help Others"
@@ -638,6 +704,7 @@
     state: poster4_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitBuild
   name: "Build"
@@ -647,6 +714,7 @@
     state: poster5_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitBlessThisSpess
   name: "Bless This Spess"
@@ -656,6 +724,7 @@
     state: poster6_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitScience
   name: "Science"
@@ -665,6 +734,7 @@
     state: poster7_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitIan
   name: "Ian"
@@ -674,6 +744,7 @@
     state: poster8_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitObey
   name: "Obey"
@@ -683,6 +754,7 @@
     state: poster9_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitWalk
   name: "Walk"
@@ -692,6 +764,7 @@
     state: poster10_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitStateLaws
   name: "State Laws"
@@ -701,6 +774,7 @@
     state: poster11_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitLoveIan
   name: "Love Ian"
@@ -710,6 +784,7 @@
     state: poster12_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSpaceCops
   name: "Space Cops."
@@ -719,6 +794,7 @@
     state: poster13_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitUeNo
   name: "Ue No."
@@ -728,6 +804,7 @@
     state: poster14_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitGetYourLEGS
   name: "Get Your LEGS"
@@ -737,6 +814,7 @@
     state: poster15_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitDoNotQuestion
   name: "Do Not Question"
@@ -746,6 +824,7 @@
     state: poster16_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitWorkForAFuture
   name: "Work For A Future"
@@ -755,6 +834,7 @@
     state: poster17_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSoftCapPopArt
   name: "Soft Cap Pop Art"
@@ -764,6 +844,7 @@
     state: poster18_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyInternals
   name: "Safety: Internals"
@@ -773,6 +854,7 @@
     state: poster19_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyEyeProtection
   name: "Safety: Eye Protection"
@@ -782,6 +864,7 @@
     state: poster20_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyReport
   name: "Safety: Report"
@@ -791,6 +874,7 @@
     state: poster21_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitReportCrimes
   name: "Report Crimes"
@@ -800,6 +884,7 @@
     state: poster22_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitIonRifle
   name: "Ion Rifle"
@@ -809,6 +894,7 @@
     state: poster23_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitFoamForceAd
   name: "Foam Force Ad"
@@ -818,6 +904,7 @@
     state: poster24_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitCohibaRobustoAd
   name: "Cohiba Robusto Ad"
@@ -827,6 +914,7 @@
     state: poster25_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegit50thAnniversaryVintageReprint
   name: "50th Anniversary Vintage Reprint"
@@ -836,6 +924,7 @@
     state: poster26_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitFruitBowl
   name: "Fruit Bowl"
@@ -845,6 +934,7 @@
     state: poster27_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitPDAAd
   name: "PDA Ad"
@@ -854,6 +944,7 @@
     state: poster28_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitEnlist
   name: "Enlist"
@@ -863,6 +954,7 @@
     state: poster29_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitNanomichiAd
   name: "Nanomichi Ad"
@@ -872,6 +964,7 @@
     state: poster30_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegit12Gauge
   name: "12 gauge"
@@ -881,6 +974,7 @@
     state: poster31_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitHighClassMartini
   name: "High-Class Martini"
@@ -890,6 +984,7 @@
     state: poster32_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitTheOwl
   name: "The Owl"
@@ -899,6 +994,7 @@
     state: poster33_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitNoERP
   name: "No ERP"
@@ -908,6 +1004,7 @@
     state: poster34_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitCarbonDioxide
   name: "Carbon Dioxide"
@@ -917,6 +1014,7 @@
     state: poster35_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitDickGumshue
   name: "Dick Gumshue"
@@ -926,6 +1024,7 @@
     state: poster36_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitThereIsNoGasGiant
   name: "There Is No Gas Giant"
@@ -935,6 +1034,7 @@
     state: poster37_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitJustAWeekAway
   name: "Just a Week Away..."
@@ -944,6 +1044,7 @@
     state: poster38_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSecWatch
   name: "Sec is Watching You"
@@ -953,6 +1054,7 @@
     state: poster39_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitAnatomyPoster
   name: "Anatomy of a spessman"
@@ -962,6 +1064,7 @@
     state: poster40_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitMime
   name: "Mime Postmodern"
@@ -971,6 +1074,7 @@
     state: poster41_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitCarpMount
   name: "Wall-mounted Carp"
@@ -980,6 +1084,7 @@
     state: poster42_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothDelam
   name: "Safety Moth - Delamination Safety Precautions"
@@ -989,6 +1094,7 @@
       state: poster43_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothEpi
   name: "Safety Moth - Epinephrine"
@@ -998,6 +1104,7 @@
       state: poster44_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothHardhat
   name: "Safety Moth - Hardhats"
@@ -1007,6 +1114,7 @@
       state: poster45_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothMeth
   name: "Safety Moth - Methamphetamine"
@@ -1016,6 +1124,7 @@
       state: poster46_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothPiping
   name: "Safety Moth - Piping"
@@ -1025,6 +1134,7 @@
       state: poster47_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitVacation
   name: "Nanotrasen Corporate Perks: Vacation"
@@ -1034,6 +1144,7 @@
       state: poster48_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitPeriodicTable
   name: "Periodic Table of the Elements"
@@ -1043,6 +1154,7 @@
       state: poster49_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitRenault
   name: "Renault Poster"
@@ -1052,6 +1164,7 @@
       state: poster50_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitNTTGC
   name: "Nanotrasen Tactical Game Cards"
@@ -1061,6 +1174,7 @@
       state: poster51_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitSafetyMothSSD
   name: "Safety Moth - Space Sleep Disorder"
@@ -1070,6 +1184,7 @@
     state: poster52_legit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterLegitOppenhopper
   name: "Oppenhopper"
@@ -1082,6 +1197,7 @@
 #maps
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapBagel
   name: "Bagel Map"
@@ -1091,6 +1207,7 @@
     state: bagelmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapDelta
   name: "Delta Map"
@@ -1100,6 +1217,7 @@
     state: deltamap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapMarathon
   name: "Marathon Map"
@@ -1109,6 +1227,7 @@
     state: marathonmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapMoose
   name: "Moose Map"
@@ -1118,6 +1237,7 @@
     state: moosemap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapPacked
   name: "Packed Map"
@@ -1127,6 +1247,7 @@
     state: packedmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapPillar
   name: "Pillar Map"
@@ -1136,6 +1257,7 @@
     state: pillarmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapSaltern
   name: "Saltern Map"
@@ -1145,6 +1267,7 @@
     state: salternmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapSplit
   name: "Split Station Map"
@@ -1154,6 +1277,7 @@
     state: splitmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapLighthouse
   name: "Lighthouse Map"
@@ -1163,6 +1287,7 @@
     state: lighthousemap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapWaystation
   name: "Waystation Map"
@@ -1172,6 +1297,7 @@
     state: waystationmap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PosterBase
   id: PosterMapOrigin
   name: "origin map"

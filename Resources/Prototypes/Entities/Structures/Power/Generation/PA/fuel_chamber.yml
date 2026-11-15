@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorFuelChamber
   name: PA fuel chamber
@@ -13,6 +14,7 @@
 # Unfinished
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorFuelChamberUnfinished
   name: PA fuel chamber

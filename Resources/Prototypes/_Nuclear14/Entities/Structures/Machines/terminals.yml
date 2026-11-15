@@ -1,5 +1,6 @@
 # Base - scroll down for other bases
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14ComputerTerminalBase
   parent: BaseStructure
   name: terminal frame
@@ -122,6 +123,7 @@
 # Terminals in Use
 # New
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBasePoweredCartridge
   id: N14ComputerTerminalNew
   suffix: new
@@ -139,6 +141,7 @@
     node: Terminal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalNewBroken
   suffix: new
@@ -174,6 +177,7 @@
     node: Broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalNewWired
   components:
@@ -186,6 +190,7 @@
 
 # Normal
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBasePoweredCartridge
   id: N14ComputerTerminal
   name: terminal
@@ -225,6 +230,7 @@
     node: Terminal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalBroken
   name: broken terminal
@@ -260,6 +266,7 @@
     node: Broken
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalFrame
   components:
@@ -271,6 +278,7 @@
     state: frame
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalFrame
   id: N14ComputerTerminalWired
   components:
@@ -283,6 +291,7 @@
 
 # Rusted
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBasePoweredCartridge
   id: N14ComputerTerminalRusted
   suffix: rusted
@@ -298,6 +307,7 @@
       state: screens
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalRustedBroken
   suffix: rusted
@@ -310,6 +320,7 @@
 
 # Handmade
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBasePoweredCartridge
   id: N14ComputerTerminalHandmade
   suffix: handmade
@@ -326,6 +337,7 @@
 
 # Rigged Terminals
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminalRigged
   suffix: rigged
@@ -369,6 +381,7 @@
     node: Rigged
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalRigged
   id: N14ComputerTerminalRustedRigged
   suffix: rigged, rusted
@@ -422,6 +435,7 @@
 # Wall Terminal
 # N14TODO: Needs a way to use it to use the off state.
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePoweredCartridge ]
   id: N14ComputerTerminalWall
   name: wall terminal
@@ -436,6 +450,7 @@
       state: screens
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallBroken
   name: broken wall terminal
@@ -447,6 +462,7 @@
 
 # New
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePoweredCartridge ]
   id: N14ComputerTerminalWallNew
   suffix: new
@@ -462,6 +478,7 @@
       state: screens
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallNewBroken
   suffix: new
@@ -474,6 +491,7 @@
 
 # Rusted
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePoweredCartridge ]
   id: N14ComputerTerminalWallRusted
   suffix: rusted
@@ -489,6 +507,7 @@
       state: screens
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallRustedBroken
   suffix: rusted
@@ -501,6 +520,7 @@
 
 # Security
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePoweredCartridge ]
   id: N14ComputerTerminalWallDisplays
   name: display terminal
@@ -516,6 +536,7 @@
 
 # Classic
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePoweredCartridge ]
   id: N14ComputerTerminalWallControls
   name: control terminal

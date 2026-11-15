@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Half-Life: Episode 13 (https://github.com/Marmio64/halflife-episode13)",
+  "states": [
+    {
+      "name": "Knives-inhand-left"
+    },
+    {
+      "name": "knife_switch_closed-inhand-left"
+    },
+    {
+      "name": "knife_switch_open-inhand-left"
+    },
+    {
+      "name": "knife_razor_closed-inhand-left"
+    },
+    {
+      "name": "knife_razor_open-inhand-left"
+    },
+    {
+      "name": "knife_kitchen-inhand-left"
+    },
+    {
+      "name": "knife_hunting-inhand-left"
+    },
+    {
+      "name": "knife_hunting_u-inhand-left"
+    },
+    {
+      "name": "knife_soviet-inhand-left"
+    },
+    {
+      "name": "knife_bowie-inhand-left"
+    },
+    {
+      "name": "knife_bayonet-inhand-left"
+    },
+    {
+      "name": "knife_cleaver-inhand-left"
+    },
+    {
+      "name": "knife_cleaver_rust-inhand-left"
+    },
+    {
+      "name": "knife_throwing-inhand-left"
+    },
+    {
+      "name": "Hatchets-inhand-left"
+    },
+    {
+      "name": "hatchet-inhand-left"
+    },
+    {
+      "name": "hatchet_broad-inhand-left"
+    },
+    {
+      "name": "tomahawk-inhand-left"
+    },
+    {
+      "name": "ice_pick-inhand-left"
+    },
+    {
+      "name": "tribal_knife-inhand-left"
+    },
+    {
+      "name": "Spears-inhand-left"
+    },
+    {
+      "name": "spear_knife-inhand-left"
+    },
+    {
+      "name": "spear_knife_wielded-inhand-left"
+    },
+    {
+      "name": "spear0-inhand-left"
+    },
+    {
+      "name": "spear1-inhand-left"
+    },
+    {
+      "name": "spear_throwing-inhand-left"
+    },
+    {
+      "name": "spear_throwing_wielded-inhand-left"
+    },
+    {
+      "name": "spear_thunder-inhand-left"
+    },
+    {
+      "name": "spear_thunder_wielded-inhand-left"
+    },
+    {
+      "name": "Machete_Pipe-inhand-left"
+    },
+    {
+      "name": "machete_scrap-inhand-left"
+    },
+    {
+      "name": "machete_gladius-inhand-left"
+    },
+    {
+      "name": "katana_black-inhand-left"
+    },
+    {
+      "name": "katana_red-inhand-left"
+    },
+    {
+      "name": "tire_iron-inhand-left"
+    },
+    {
+      "name": "lead_pipe_alt-inhand-left"
+    },
+    {
+      "name": "lead_pipe-inhand-left"
+    },
+    {
+      "name": "Swords_Axes_Hammers-inhand-left"
+    },
+    {
+      "name": "fire_axe-inhand-left"
+    },
+    {
+      "name": "fire_axe_wielded-inhand-left"
+    },
+    {
+      "name": "bumper_sword-inhand-left"
+    },
+    {
+      "name": "bumper_sword_wielded-inhand-left"
+    },
+    {
+      "name": "rebar_club-inhand-left"
+    },
+    {
+      "name": "rebar_club_wielded-inhand-left"
+    },
+    {
+      "name": "hammer_sledge-inhand-left"
+    },
+    {
+      "name": "hammer_sledge_wielded-inhand-left"
+    },
+    {
+      "name": "hammer_power-inhand-left"
+    },
+    {
+      "name": "hammer_power_wielded-inhand-left"
+    },
+    {
+      "name": "dry_axe-inhand-left"
+    },
+    {
+      "name": "dry_axe_wielded-inhand-left"
+    },
+    {
+      "name": "Powered-inhand-left"
+    },
+    {
+      "name": "ripper_off-inhand-left"
+    },
+    {
+      "name": "ripper_on-inhand-left"
+    },
+    {
+      "name": "ripper_legend_off-inhand-left"
+    },
+    {
+      "name": "ripper_legend_on-inhand-left"
+    },
+    {
+      "name": "auto_axe_off-inhand-left"
+    },
+    {
+      "name": "auto_axe_on-inhand-left"
+    },
+    {
+      "name": "shishkebab_off-inhand-left"
+    },
+    {
+      "name": "shishkebab_on-inhand-left"
+    },
+    {
+      "name": "thermiclance_off-inhand-left"
+    },
+    {
+      "name": "thermiclance_on-inhand-left"
+    },
+    {
+      "name": "Misc-inhand-left"
+    },
+    {
+      "name": "knuckles-inhand-left"
+    },
+    {
+      "name": "knuckles_weighted-inhand-left"
+    },
+    {
+      "name": "knuckles_spike-inhand-left"
+    },
+    {
+      "name": "powerfist-inhand-left"
+    },
+    {
+      "name": "tonfa-inhand-left"
+    },
+    {
+      "name": "brick-inhand-left"
+    },
+    {
+      "name": "Knives-inhand-right"
+    },
+    {
+      "name": "knife_switch_closed-inhand-right"
+    },
+    {
+      "name": "knife_switch_open-inhand-right"
+    },
+    {
+      "name": "knife_razor_closed-inhand-right"
+    },
+    {
+      "name": "knife_razor_open-inhand-right"
+    },
+    {
+      "name": "knife_kitchen-inhand-right"
+    },
+    {
+      "name": "knife_hunting-inhand-right"
+    },
+    {
+      "name": "knife_hunting_u-inhand-right"
+    },
+    {
+      "name": "knife_soviet-inhand-right"
+    },
+    {
+      "name": "knife_bowie-inhand-right"
+    },
+    {
+      "name": "knife_bayonet-inhand-right"
+    },
+    {
+      "name": "knife_cleaver-inhand-right"
+    },
+    {
+      "name": "knife_cleaver_rust-inhand-right"
+    },
+    {
+      "name": "knife_throwing-inhand-right"
+    },
+    {
+      "name": "Hatchets-inhand-right"
+    },
+    {
+      "name": "hatchet-inhand-right"
+    },
+    {
+      "name": "hatchet_broad-inhand-right"
+    },
+    {
+      "name": "tomahawk-inhand-right"
+    },
+    {
+      "name": "ice_pick-inhand-right"
+    },
+    {
+      "name": "tribal_knife-inhand-right"
+    },
+    {
+      "name": "Spears-inhand-right"
+    },
+    {
+      "name": "spear_knife-inhand-right"
+    },
+    {
+      "name": "spear_knife_wielded-inhand-right"
+    },
+    {
+      "name": "spear0-inhand-right"
+    },
+    {
+      "name": "spear1-inhand-right"
+    },
+    {
+      "name": "spear_throwing-inhand-right"
+    },
+    {
+      "name": "spear_throwing_wielded-inhand-right"
+    },
+    {
+      "name": "spear_thunder-inhand-right"
+    },
+    {
+      "name": "spear_thunder_wielded-inhand-right"
+    },
+    {
+      "name": "Machete_Pipe-inhand-right"
+    },
+    {
+      "name": "machete_scrap-inhand-right"
+    },
+    {
+      "name": "machete_gladius-inhand-right"
+    },
+    {
+      "name": "katana_black-inhand-right"
+    },
+    {
+      "name": "katana_red-inhand-right"
+    },
+    {
+      "name": "tire_iron-inhand-right"
+    },
+    {
+      "name": "lead_pipe_alt-inhand-right"
+    },
+    {
+      "name": "lead_pipe-inhand-right"
+    },
+    {
+      "name": "Swords_Axes_Hammers-inhand-right"
+    },
+    {
+      "name": "fire_axe-inhand-right"
+    },
+    {
+      "name": "fire_axe_wielded-inhand-right"
+    },
+    {
+      "name": "bumper_sword-inhand-right"
+    },
+    {
+      "name": "bumper_sword_wielded-inhand-right"
+    },
+    {
+      "name": "rebar_club-inhand-right"
+    },
+    {
+      "name": "rebar_club_wielded-inhand-right"
+    },
+    {
+      "name": "hammer_sledge-inhand-right"
+    },
+    {
+      "name": "hammer_sledge_wielded-inhand-right"
+    },
+    {
+      "name": "hammer_power-inhand-right"
+    },
+    {
+      "name": "hammer_power_wielded-inhand-right"
+    },
+    {
+      "name": "dry_axe-inhand-right"
+    },
+    {
+      "name": "dry_axe_wielded-inhand-right"
+    },
+    {
+      "name": "Powered-inhand-right"
+    },
+    {
+      "name": "ripper_off-inhand-right"
+    },
+    {
+      "name": "ripper_on-inhand-right"
+    },
+    {
+      "name": "ripper_legend_off-inhand-right"
+    },
+    {
+      "name": "ripper_legend_on-inhand-right"
+    },
+    {
+      "name": "auto_axe_off-inhand-right"
+    },
+    {
+      "name": "auto_axe_on-inhand-right"
+    },
+    {
+      "name": "shishkebab_off-inhand-right"
+    },
+    {
+      "name": "shishkebab_on-inhand-right"
+    },
+    {
+      "name": "thermiclance_off-inhand-right"
+    },
+    {
+      "name": "thermiclance_on-inhand-right"
+    },
+    {
+      "name": "Misc-inhand-right"
+    },
+    {
+      "name": "knuckles-inhand-right"
+    },
+    {
+      "name": "knuckles_weighted-inhand-right"
+    },
+    {
+      "name": "knuckles_spike-inhand-right"
+    },
+    {
+      "name": "powerfist-inhand-right"
+    },
+    {
+      "name": "tonfa-inhand-right"
+    },
+    {
+      "name": "brick-inhand-right"
+    }
+  ]
+}

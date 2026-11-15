@@ -1,0 +1,109 @@
+# Auto-generated ML melee weapons (halflife-episode13 assets).
+- type: entity
+  id: MLMeleeTireIron
+  parent: BaseItem
+  name: "tire iron (ML)"
+  description: "Half-Life: Episode 13 weapon."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+    state: tireiron
+  - type: Item
+    size: Normal
+    sprite: _MesaLife/Weapons/ML/Inhands/melee_inhand.rsi
+    heldPrefix: tire_iron
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 12
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+- type: entity
+  id: MLMeleeScrapMachete
+  parent: BaseItem
+  name: "scrap machete (ML)"
+  description: "Half-Life: Episode 13 weapon."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+    state: machete_scrap
+  - type: Item
+    size: Normal
+    sprite: _MesaLife/Weapons/ML/Inhands/melee_inhand.rsi
+    heldPrefix: machete_scrap
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 15
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+- type: entity
+  id: MLMeleeKnuckles
+  parent: ClothingHandsBase
+  name: "knuckles (ML)"
+  description: "Half-Life: Episode 13 weapon."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+    state: knuckles
+  - type: Clothing
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+  - type: Item
+    size: Small
+    sprite: _MesaLife/Weapons/ML/Inhands/melee_inhand.rsi
+    heldPrefix: knuckles
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 8
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    mustBeEquippedToUse: true
+- type: entity
+  id: MLMeleeSpear
+  parent: BaseItem
+  name: "spear (ML)"
+  description: "Half-Life: Episode 13 weapon."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+    state: spear0
+  - type: Item
+    size: Normal
+    sprite: _MesaLife/Weapons/ML/Inhands/melee_inhand.rsi
+    heldPrefix: spear0
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 15
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+- type: entity
+  id: MLMeleeReinforcedSpear
+  parent: BaseItem
+  name: "reinforced spear (ML)"
+  description: "Half-Life: Episode 13 weapon."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Melee/melee.rsi
+    state: spear1
+  - type: Item
+    size: Normal
+    sprite: _MesaLife/Weapons/ML/Inhands/melee_inhand.rsi
+    heldPrefix: spear1
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 18
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg

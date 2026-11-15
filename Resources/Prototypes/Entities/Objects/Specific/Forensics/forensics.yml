@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ForensicPad
   name: forensic pad
   parent: BaseItem

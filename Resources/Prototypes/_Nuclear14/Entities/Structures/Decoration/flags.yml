@@ -1,5 +1,6 @@
 # See Objects/Decoration/flags.yml for flag items. See wallmounts folder for wall flags.
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14DecorationFlagBearerEmpty
   name: flag bearer
   description: A post for hanging flags.
@@ -83,6 +84,7 @@
             max: 1
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagNCR
   name: NCR flag
@@ -92,6 +94,7 @@
     state: ncrflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagOasis
   name: Oasis flag
@@ -101,6 +104,7 @@
     state: oasisflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagBrotherhoodWashington
   name: Washington Brotherhood flag
@@ -111,6 +115,7 @@
     state: wbosflag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagBrotherhoodMidwest
   name: Midwestern Brotherhood flag
@@ -121,6 +126,7 @@
     state: mbosflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagFollowers
   name: Followers flag
@@ -131,6 +137,7 @@
     state: followersflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagEnclave
   name: Enclave flag
@@ -141,6 +148,7 @@
     state: enclaveflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagGunner
   name: Gunner flag
@@ -151,6 +159,7 @@
     state: gunnerflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagLocust
   name: Locust flag
@@ -161,6 +170,7 @@
     state: locustflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagHighvalleyhills
   name: High Valley Hills flag
@@ -171,6 +181,7 @@
     state: hvhflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagVaultTecCityCoalition
   name:  Vault-Tec City Coalition flag
@@ -181,6 +192,7 @@
     state: vtccflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagYuma
   name: Yuma flag
@@ -191,6 +203,7 @@
     state: cornflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagKhans
   name:  Great Khans flag
@@ -201,6 +214,7 @@
     state: khanflag
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagChurch
   name: The Church flag

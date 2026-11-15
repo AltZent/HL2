@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpeedLoaderLightRifle
   name: "speed loader (.30 rifle)"
   parent: BaseItem

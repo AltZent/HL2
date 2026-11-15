@@ -1,0 +1,77 @@
+# ML speech traits. The setting is Eastern Europe (City 17 and surroundings),
+# so the "foreign" accent is a Russian one.
+
+- type: trait
+  id: MLMuted
+  category: Speech
+  points: 4
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLSinger
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: Muted
+
+- type: trait
+  id: MLStutter
+  category: Speech
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLLisp
+        - MLAccent
+        - MLStoryteller
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: StutteringAccent
+          matchRandomProb: 0.1
+          fourRandomProb: 0
+          threeRandomProb: 0
+          cutRandomProb: 0
+
+- type: trait
+  id: MLLisp
+  category: Speech
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLStutter
+        - MLAccent
+        - MLStoryteller
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: FrontalLisp
+
+- type: trait
+  id: MLAccent
+  category: Speech
+  points: -1
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - MLStutter
+        - MLLisp
+        - MLStoryteller
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: RussianAccent
+
+- type: trait
+  id: MLLanguageSign
+  category: Speech
+  points: -2
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Sign
+      languagesUnderstood:
+        - Sign

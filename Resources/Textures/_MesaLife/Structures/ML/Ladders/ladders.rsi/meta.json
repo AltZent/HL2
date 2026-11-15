@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "ladder10"
+    },
+    {
+      "name": "ladder11"
+    },
+    {
+      "name": "ladder01"
+    },
+    {
+      "name": "bunker_closed"
+    },
+    {
+      "name": "bunker_open"
+    },
+    {
+      "name": "manhole_closed"
+    },
+    {
+      "name": "manhole_open"
+    },
+    {
+      "name": "rope"
+    },
+    {
+      "name": "rope_down"
+    },
+    {
+      "name": "hatch_closed"
+    },
+    {
+      "name": "hatch_open"
+    }
+  ]
+}

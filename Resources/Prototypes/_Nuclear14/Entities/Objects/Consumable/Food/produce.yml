@@ -37,6 +37,7 @@
 # Subclasses
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: wheat bushel
   description: Sigh... wheat... a-grain?
   id: N14WheatBushel
@@ -57,6 +58,7 @@
     - Wheat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: oat bushel
   description: Eat oats, do squats.
   id: N14OatBushel
@@ -79,6 +81,7 @@
         Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sugarcane
   description: Sickly sweet.
   id: N14Sugarcane
@@ -96,6 +99,7 @@
     seedId: sugarcane
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodProduceBase
   id: N14FoodLaughinPeaPod
   name: laughin' pea pod
@@ -129,6 +133,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tower-cap log
   description: It's better than bad, it's good!
   id: N14Log
@@ -146,6 +151,7 @@
   - type: Log
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: steel-cap log
   description: Steel doesn't grow on trees! It grows on mushrooms, of course.
   id: N14SteelLog
@@ -165,6 +171,7 @@
     spawnCount: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: nettle
   description: Stingy little prick.
   id: N14Nettle
@@ -196,6 +203,7 @@
     grindableSolutionName: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: death nettle
   description: This nettle's out for blood.
   id: N14DeathNettle
@@ -230,6 +238,7 @@
     grindableSolutionName: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: banana
   parent: N14FoodProduceBase
   id: N14FoodBanana
@@ -265,6 +274,7 @@
     - Banana
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mimana
   parent: N14FoodProduceBase
   id: N14FoodMimana
@@ -302,6 +312,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: carrot
   parent: N14FoodProduceBase
   id: N14FoodCarrot
@@ -338,6 +349,7 @@
         Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cabbage
   parent: N14FoodProduceBase
   id: N14FoodCabbage
@@ -364,6 +376,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: garlic
   parent: N14FoodProduceBase
   id: N14FoodGarlic
@@ -392,6 +405,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lemon
   parent: N14FoodProduceBase
   id: N14FoodLemon
@@ -424,6 +438,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lemoon
   parent: N14FoodProduceBase
   id: N14FoodLemoon
@@ -455,6 +470,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lime
   parent: N14FoodLemon
   id: N14FoodLime
@@ -478,6 +494,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: orange
   parent: N14FoodLemon
   id: N14FoodOrange
@@ -500,6 +517,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: potato
   parent: N14FoodProduceBase
   id: N14FoodPotato
@@ -533,6 +551,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tomato
   parent: [N14FoodProduceBase, ItemHeftyBase]
   id: N14FoodTomato
@@ -588,6 +607,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blue tomato
   parent: N14FoodTomato
   id: N14FoodBlueTomato
@@ -633,6 +653,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blood tomato
   parent: N14FoodTomato
   id: N14FoodBloodTomato
@@ -676,6 +697,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: eggplant
   parent: N14FoodProduceBase
   id: N14FoodEggplant
@@ -703,6 +725,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: apple
   parent: N14FoodProduceBase
   id: N14FoodApple
@@ -734,6 +757,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cocoa pod
   parent: N14FoodProduceBase
   id: N14FoodCocoaPod
@@ -767,6 +791,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ear of corn
   parent: N14FoodProduceBase
   id: N14FoodCorn
@@ -805,6 +830,7 @@
         Quantity: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: corn cob
   parent: BaseItem
   id: N14FoodCornTrash
@@ -827,6 +853,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: onion
   parent: N14FoodProduceBase
   id: N14FoodOnion
@@ -858,6 +885,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: red onion
   parent: N14FoodProduceBase
   id: N14FoodOnionRed
@@ -889,6 +917,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chanterelle cluster
   parent: N14FoodProduceBase
   id: N14FoodMushroom
@@ -928,6 +957,7 @@
     grindableSolutionName: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: onion slice
   parent: N14ProduceSliceBase
   id: N14FoodOnionSlice
@@ -951,6 +981,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: red onion slice
   parent: N14ProduceSliceBase
   id: N14FoodOnionRedSlice
@@ -974,6 +1005,7 @@
           Quantity: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chili
   parent: N14FoodProduceBase
   id: N14FoodChili
@@ -1002,6 +1034,7 @@
       - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chilly pepper
   parent: N14FoodProduceBase
   id: N14FoodChilly
@@ -1028,6 +1061,7 @@
       seedId: chilly
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: aloe
   parent: N14FoodProduceBase
   id: N14FoodAloe
@@ -1056,6 +1090,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: poppy
   parent: N14FoodProduceBase
   id: N14FoodPoppy
@@ -1088,6 +1123,7 @@
     - Flower # TODO add "RedFlower" or "Poppy" tag, when other color flowers will be
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lily
   parent: N14FoodPoppy
   id: N14FoodLily
@@ -1116,6 +1152,7 @@
     - Flower
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lingzhi
   parent: N14FoodProduceBase
   id: N14FoodLingzhi
@@ -1142,6 +1179,7 @@
     grindableSolutionName: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ambrosia vulgaris
   parent: N14FoodProduceBase
   id: N14FoodAmbrosiaVulgaris
@@ -1181,6 +1219,7 @@
     - Ambrosia
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ambrosia deus
   parent: N14FoodProduceBase
   id: N14FoodAmbrosiaDeus
@@ -1218,6 +1257,7 @@
     - Ambrosia
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: galaxythistle
   parent: N14FoodProduceBase
   id: N14FoodGalaxythistle
@@ -1245,6 +1285,7 @@
     - Fruit # Probably?
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fly amanita
   parent: N14FoodProduceBase
   id: N14FoodFlyAmanita
@@ -1271,6 +1312,7 @@
   - type: BadFood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rice bushel
   description: Can be ground into rice, perfect for pudding or sake.
   id: N14RiceBushel
@@ -1288,6 +1330,7 @@
     seedId: rice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: soybeans
   description: For those who can't stand seeing good old meat.
   id: N14FoodSoybeans
@@ -1314,6 +1357,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spaceman's trumpet
   description: A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
   id: N14FoodSpacemansTrumpet
@@ -1342,6 +1386,7 @@
     program: 56
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: koibean
   description: These beans seem a little bit fishy.
   id: N14FoodKoibean
@@ -1370,6 +1415,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: watermelon
   parent: [N14FoodProduceBase, ItemHeftyBase]
   id: N14FoodWatermelon
@@ -1432,6 +1478,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: watermelon slice
   parent: N14ProduceSliceBase
   id: N14FoodWatermelonSlice
@@ -1462,6 +1509,7 @@
         Quantity: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grapes
   parent: N14FoodProduceBase
   id: N14FoodGrape
@@ -1493,6 +1541,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: berries
   parent: N14FoodProduceBase
   id: N14FoodBerries
@@ -1524,6 +1573,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bungo fruit
   parent: N14FoodProduceBase
   id: N14FoodBungo
@@ -1553,6 +1603,7 @@
     - Fruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bungo pit
   parent: FoodInjectableBase
   id: N14FoodBungoPit
@@ -1581,6 +1632,7 @@
   - type: BadFood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodProduceBase
   id: N14FoodPeaPod
   name: pea pod
@@ -1607,6 +1659,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pumpkin
   parent: N14FoodProduceBase
   id: N14FoodPumpkin
@@ -1656,6 +1709,7 @@
     - Vegetable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cotton boll
   description: Moth people's favorite snack, and just as fluffy as them.
   id: N14CottonBol

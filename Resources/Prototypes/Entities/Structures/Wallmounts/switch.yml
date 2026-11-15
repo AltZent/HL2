@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalSwitch
   name: signal switch
   description: It's a switch for toggling power to things.
@@ -39,6 +40,7 @@
       Status: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButton
   name: signal button
   description: It's a button for activating something.
@@ -100,6 +102,7 @@
                 volume: -8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ApcNetSwitch
   name: apc net switch
   description: It's a switch for toggling lights that are connected to the same apc.
@@ -133,6 +136,7 @@
     - type: Fixtures
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TwoWayLever
   name: two way lever
   description: A two way lever.
@@ -186,6 +190,7 @@
 #directional
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalSwitchDirectional
   name: signal switch
   suffix: directional
@@ -198,6 +203,7 @@
     node: SignalSwitchDirectionalNode
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalButtonDirectional
   name: signal button
   suffix: directional
@@ -210,6 +216,7 @@
     node: SignalButtonDirectionalNode
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ApcNetSwitchDirectional
   name: apc net switch
   suffix: directional
@@ -243,6 +250,7 @@
       shader: unshaded
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonCaptain
   suffix: Captain
   parent: LockableButton
@@ -251,6 +259,7 @@
     access: [["Captain"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonHeadOfPersonnel
   suffix: HeadOfPersonnel
   parent: LockableButton
@@ -259,6 +268,7 @@
     access: [["HeadOfPersonnel"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonChiefEngineer
   suffix: ChiefEngineer
   parent: LockableButton
@@ -267,6 +277,7 @@
     access: [["ChiefEngineer"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonChiefMedicalOfficer
   suffix: ChiefMedicalOfficer
   parent: LockableButton
@@ -275,6 +286,7 @@
     access: [["ChiefMedicalOfficer"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonHeadOfSecurity
   suffix: HeadOfSecurity
   parent: LockableButton
@@ -283,6 +295,7 @@
     access: [["HeadOfSecurity"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonResearchDirector
   suffix: ResearchDirector
   parent: LockableButton
@@ -291,6 +304,7 @@
     access: [["ResearchDirector"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonCommand
   suffix: Command
   parent: LockableButton
@@ -299,6 +313,7 @@
     access: [["Command"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonCryogenics
   suffix: Cryogenics
   parent: LockableButton
@@ -307,6 +322,7 @@
     access: [["Cryogenics"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonSecurity
   suffix: Security
   parent: LockableButton
@@ -315,6 +331,7 @@
     access: [["Security"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonDetective
   suffix: Detective
   parent: LockableButton
@@ -323,6 +340,7 @@
     access: [["Detective"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonArmory
   suffix: Armory
   parent: LockableButton
@@ -339,6 +357,7 @@
 #    access: [["Brig"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonLawyer
   suffix: Lawyer
   parent: LockableButton
@@ -347,6 +366,7 @@
     access: [["Lawyer"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonEngineering
   suffix: Engineering
   parent: LockableButton
@@ -355,6 +375,7 @@
     access: [["Engineering"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonMedical
   suffix: Medical
   parent: LockableButton
@@ -363,6 +384,7 @@
     access: [["Medical"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonQuartermaster
   suffix: Quartermaster
   parent: LockableButton
@@ -371,6 +393,7 @@
     access: [["Quartermaster"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonSalvage
   suffix: Salvage
   parent: LockableButton
@@ -379,6 +402,7 @@
     access: [["Salvage"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonCargo
   suffix: Cargo
   parent: LockableButton
@@ -387,6 +411,7 @@
     access: [["Cargo"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonResearch
   suffix: Research
   parent: LockableButton
@@ -395,6 +420,7 @@
     access: [["Research"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonService
   suffix: Service
   parent: LockableButton
@@ -403,6 +429,7 @@
     access: [["Service"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonMaintenance
   suffix: Maintenance
   parent: LockableButton
@@ -411,6 +438,7 @@
     access: [["Maintenance"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonExternal
   suffix: External
   parent: LockableButton
@@ -419,6 +447,7 @@
     access: [["External"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonJanitor
   suffix: Janitor
   parent: LockableButton
@@ -427,6 +456,7 @@
     access: [["Janitor"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonTheatre
   suffix: Theatre
   parent: LockableButton
@@ -435,6 +465,7 @@
     access: [["Theatre"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonBar
   suffix: Bar
   parent: LockableButton
@@ -443,6 +474,7 @@
     access: [["Bar"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonChemistry
   suffix: Chemistry
   parent: LockableButton
@@ -451,6 +483,7 @@
     access: [["Chemistry"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonKitchen
   suffix: Kitchen
   parent: LockableButton
@@ -459,6 +492,7 @@
     access: [["Kitchen"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonChapel
   suffix: Chapel
   parent: LockableButton
@@ -467,6 +501,7 @@
     access: [["Chapel"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonHydroponics
   suffix: Hydroponics
   parent: LockableButton
@@ -475,6 +510,7 @@
     access: [["Hydroponics"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LockableButtonAtmospherics
   suffix: Atmospherics
   parent: LockableButton
@@ -507,6 +543,7 @@
   - type: Fixtures
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ButtonFrameGrey
   parent: ButtonFrame
   suffix: grey
@@ -517,6 +554,7 @@
     state: grey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ButtonFrameCaution
   parent: ButtonFrame
   suffix: caution
@@ -527,6 +565,7 @@
     state: caution
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ButtonFrameCautionSecurity
   parent: ButtonFrame
   suffix: caution
@@ -537,6 +576,7 @@
     state: caution_security
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ButtonFrameExit
   parent: ButtonFrame
   suffix: exit
@@ -547,6 +587,7 @@
     state: exit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ButtonFrameJanitor
   parent: ButtonFrame
   suffix: janitor

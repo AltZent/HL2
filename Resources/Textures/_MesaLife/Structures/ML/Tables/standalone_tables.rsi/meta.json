@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "workbench_wood",
+      "directions": 4
+    },
+    {
+      "name": "dice_clean"
+    },
+    {
+      "name": "dice_dirty"
+    },
+    {
+      "name": "table_wood_end",
+      "directions": 4
+    },
+    {
+      "name": "table_wood_stand"
+    },
+    {
+      "name": "table_wood_low"
+    },
+    {
+      "name": "table_wood_square"
+    },
+    {
+      "name": "table_wood_round"
+    },
+    {
+      "name": "table_metal_round"
+    },
+    {
+      "name": "table_metal_round-1"
+    },
+    {
+      "name": "table_metal_round-2"
+    },
+    {
+      "name": "cable_reel"
+    },
+    {
+      "name": "table_rolling"
+    },
+    {
+      "name": "Table_frames"
+    },
+    {
+      "name": "tableframe_wood"
+    },
+    {
+      "name": "tableframe_metal"
+    }
+  ]
+}

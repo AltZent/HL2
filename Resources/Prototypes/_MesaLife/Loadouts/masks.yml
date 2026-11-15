@@ -1,0 +1,211 @@
+# ML loadouts -> vanilla category Mask.
+
+- type: loadout
+  id: LoadoutMLMaskModerngasmask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskModerngasmask
+
+- type: loadout
+  id: LoadoutMLMaskMilitaryGasmask
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskMilitaryGasmask
+
+- type: loadout
+  id: LoadoutMLMaskRussiamask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskRussiamask
+
+- type: loadout
+  id: LoadoutMLMaskSwatmask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskSwatmask
+
+- type: loadout
+  id: LoadoutMLMaskCivilprotection
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskCivilprotection
+
+- type: loadout
+  id: LoadoutMLMaskCombatchef
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskCombatchef
+
+- type: loadout
+  id: LoadoutMLMaskMedicalofficer
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskMedicalofficer
+
+- type: loadout
+  id: LoadoutMLMaskOverseer
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskOverseer
+
+- type: loadout
+  id: LoadoutMLMaskDvMask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskDvMask
+
+- type: loadout
+  id: LoadoutMLMaskElitecpoMask
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskElitecpoMask
+
+- type: loadout
+  id: LoadoutMLMaskSectoralMask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskSectoralMask
+
+- type: loadout
+  id: LoadoutMLMaskOverwatch
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskOverwatch
+
+- type: loadout
+  id: LoadoutMLMaskWallhammer
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskWallhammer
+
+- type: loadout
+  id: LoadoutMLMaskOverwatchWhite
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskOverwatchWhite
+
+- type: loadout
+  id: LoadoutMLMaskOverwatchRed
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskOverwatchRed
+
+- type: loadout
+  id: LoadoutMLMaskCwuengi
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskCwuengi
+
+- type: loadout
+  id: LoadoutMLMaskGrunt
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskGrunt
+
+- type: loadout
+  id: LoadoutMLMaskCrematormask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskCrematormask
+
+- type: loadout
+  id: LoadoutMLMaskOldmask
+  category: Mask
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskOldmask
+
+- type: loadout
+  id: LoadoutMLMaskSuppressor
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskSuppressor
+
+- type: loadout
+  id: LoadoutMLMaskCauterizer
+  category: Mask
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLMaskCauterizer

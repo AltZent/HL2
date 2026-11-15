@@ -59,11 +59,13 @@
   - type: RadiationReceiver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14Pipboy
 
 #MARK: Vault
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultPDA
   suffix: Vault
@@ -72,6 +74,7 @@
     id: N14IDCardVault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultEngineerPDA
   suffix: Vault, Engineer
@@ -80,6 +83,7 @@
     id: N14IDCardVaultEngineer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultDoctorPDA
   suffix: Vault, Doctor
@@ -92,6 +96,7 @@
       path: "/Audio/Items/Medical/healthscanner.ogg"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultSecurityPDA
   suffix: Vault, Security
@@ -100,6 +105,7 @@
     id: N14IDCardVaultSecurity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultChefPDA
   description: Covered in grease and flour.
@@ -111,6 +117,7 @@
     borderColor: "#d7d7d0"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultBotanistPDA
   name: botanist PDA
@@ -124,6 +131,7 @@
     accentVColor: "#00cc35"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BasePipboy
   id: N14VaultOverseerPDA
   suffix: Vault, Overseer

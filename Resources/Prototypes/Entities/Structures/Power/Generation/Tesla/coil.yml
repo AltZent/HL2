@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TeslaCoil
   name: tesla coil
   description: A machine that converts lightning strikes into an electric current.
@@ -105,6 +106,7 @@
   #- type: GuideHelp #   To Do - add Tesla Guide
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TeslaGroundingRod
   name: grounding rod
   description: A machine that keeps lightning from striking too far away.

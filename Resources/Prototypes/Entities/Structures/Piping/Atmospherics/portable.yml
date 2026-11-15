@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: PortableScrubber
   parent: [BaseMachinePowered, SmallConstructibleMachine, StructureWheeled]
   name: portable scrubber
@@ -96,6 +97,7 @@
             acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpaceHeater
   parent: [BaseMachinePowered, ConstructibleMachine]
   name: space heater
@@ -181,6 +183,7 @@
             acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SpaceHeater
   id: SpaceHeaterAnchored
   suffix: Anchored
@@ -191,6 +194,7 @@
     bodyType: Static
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SpaceHeaterAnchored
   id: SpaceHeaterEnabled
   suffix: Anchored, Enabled

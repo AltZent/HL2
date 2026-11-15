@@ -61,6 +61,7 @@
     randomStartSecretMax: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyPyroclastic
   parent: BaseAnomaly
   suffix: Pyroclastic
@@ -114,6 +115,7 @@
       - anomaly-pyroclastic-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyGravity
   parent: BaseAnomaly
   suffix: Gravity
@@ -151,6 +153,7 @@
       - anomaly-gravity-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyElectricity
   parent: BaseAnomaly
   suffix: Electricity
@@ -179,6 +182,7 @@
       - anomaly-electricity-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyFlesh
   parent: BaseAnomaly
   suffix: Flesh
@@ -277,6 +281,7 @@
       - anomaly-flesh-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyBluespace
   parent: BaseAnomaly
   suffix: Bluespace
@@ -332,6 +337,7 @@
       - anomaly-bluespace-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyIce
   parent: BaseAnomaly
   suffix: Ice
@@ -428,6 +434,7 @@
       - anomaly-rock-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyRockUranium
   parent: AnomalyRockBase
   suffix: Rock, Uranium
@@ -478,6 +485,7 @@
       - MobSpawnCrabUranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyRockQuartz
   parent: AnomalyRockBase
   suffix: Rock, Quartz
@@ -528,6 +536,7 @@
       - MobSpawnCrabQuartz
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyRockSilver
   parent: AnomalyRockBase
   suffix: Rock, Silver
@@ -578,6 +587,7 @@
       - MobSpawnCrabSilver
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyRockIron
   parent: AnomalyRockBase
   suffix: Rock, Iron
@@ -628,6 +638,7 @@
       - MobSpawnCrabIron
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyFlora
   parent: BaseAnomaly
   suffix: Flora
@@ -692,6 +703,7 @@
       - anomaly-flora-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyFloraBulb
   name: strange glowing berry
   parent: BaseStructure
@@ -735,6 +747,7 @@
     state: bulb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyLiquid
   parent: BaseAnomaly
   suffix: Liquid
@@ -856,6 +869,7 @@
       - anomaly-liquid-feedback
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AnomalyShadow
   parent: BaseAnomaly
   suffix: Shadow

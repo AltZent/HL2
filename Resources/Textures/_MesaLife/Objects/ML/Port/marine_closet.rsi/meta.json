@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "squad_alpha_off"
+    },
+    {
+      "name": "squad_open"
+    },
+    {
+      "name": "squad_alpha_locked"
+    },
+    {
+      "name": "squad_alpha_unlocked"
+    },
+    {
+      "name": "squad_bravo_off"
+    },
+    {
+      "name": "squad_bravo_locked"
+    },
+    {
+      "name": "squad_bravo_unlocked"
+    },
+    {
+      "name": "squad_charlie_off"
+    },
+    {
+      "name": "squad_charlie_locked"
+    },
+    {
+      "name": "squad_charlie_unlocked"
+    },
+    {
+      "name": "squad_delta_off"
+    },
+    {
+      "name": "squad_delta_locked"
+    },
+    {
+      "name": "squad_delta_unlocked"
+    },
+    {
+      "name": "squad_alpha_open"
+    },
+    {
+      "name": "squad_bravo_open"
+    },
+    {
+      "name": "squad_charlie_open"
+    },
+    {
+      "name": "squad_delta_open"
+    },
+    {
+      "name": "commander_safe"
+    },
+    {
+      "name": "commander_safe_open"
+    }
+  ]
+}

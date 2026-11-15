@@ -17,6 +17,7 @@
     - PrizeTicket
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PrizeTicketBase
   id: PrizeTicket
   name: prize ticket
@@ -45,6 +46,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PrizeTicket
   id: PrizeTicket10
   name: prize ticket
@@ -57,6 +59,7 @@
     count: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PrizeTicket
   id: PrizeTicket30
   name: prize ticket
@@ -69,6 +72,7 @@
     count: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PrizeTicket
   id: PrizeTicket60
   name: prize ticket
@@ -81,6 +85,7 @@
     count: 60
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PrizeTicket
   id: PrizeTicket1
   name: prize ticket
@@ -93,6 +98,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PresentRandom
   id: PrizeBall
   name: prize ball

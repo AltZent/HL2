@@ -23,11 +23,13 @@
     access: [["Security"], ["Command"]]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShotGunCabinetOpen
   parent: [ShotGunCabinet, FireAxeCabinetOpen]
   suffix: Open
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShotGunCabinetFilled
   parent: [ShotGunCabinet,FireAxeCabinetFilled]
   suffix: Filled
@@ -41,6 +43,7 @@
         - WeaponShotgunKammerer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ShotGunCabinetFilledOpen
   parent: [ShotGunCabinetFilled,FireAxeCabinetFilledOpen]
   suffix: Filled, Open

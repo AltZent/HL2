@@ -1,4 +1,5 @@
 - type: hitscan
+  categories: [ HideSpawnMenu ]
   id: N14GaussLight
   damage:
     types:
@@ -15,6 +16,7 @@
     state: impact_omni
 
 - type: hitscan
+  categories: [ HideSpawnMenu ]
   id: N14RedLaserLight
   damage:
     types:
@@ -30,6 +32,7 @@
     state: impact_laser
 
 - type: hitscan
+  categories: [ HideSpawnMenu ]
   id: N14RedLaserMedium
   damage:
     types:
@@ -45,6 +48,7 @@
     state: impact_laser
 
 - type: hitscan
+  categories: [ HideSpawnMenu ]
   id: N14RedLaserHeavy
   damage:
     types:

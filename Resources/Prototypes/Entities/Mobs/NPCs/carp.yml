@@ -96,6 +96,7 @@
       deactivateSound: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMobCarp
   id: MobCarp
   components:
@@ -114,6 +115,7 @@
         mouth: ""
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: magicarp
   parent: BaseMobCarp
   id: MobCarpMagic
@@ -125,6 +127,7 @@
       proto: guardian
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: holocarp
   parent: BaseMobCarp
   id: MobCarpHolo
@@ -148,6 +151,7 @@
       proto: robot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobCarp
   id: MobCarpRainbow
   name: rainbow carp
@@ -160,6 +164,7 @@
     layers: [ 0 ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobCarpSalvage
   parent: MobCarp
   suffix: "Salvage Ruleset"
@@ -167,6 +172,7 @@
     - type: SalvageMobRestrictions
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: space carp
   id: MobCarpDragon
   suffix: DragonBrood
@@ -186,6 +192,7 @@
         task: DragonCarpCompound
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobCarpDungeon
   parent: MobCarp
   suffix: Dungeon
@@ -203,6 +210,7 @@
         Slash: 6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: sharkminnow
   parent: BaseMobCarp
   id: MobShark
@@ -260,6 +268,7 @@
           type: SurgeryBui
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MobSharkSalvage
   parent: MobShark
   suffix: "Salvage Ruleset"

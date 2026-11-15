@@ -68,6 +68,7 @@
     # - Xenoarchaeology
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifactItem
   id: SimpleXenoArtifactItem
   suffix: Simple
@@ -77,6 +78,7 @@
     nodesMax: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifactItem
   id: MediumXenoArtifactItem
   suffix: Medium
@@ -86,6 +88,7 @@
     nodesMax: 9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifactItem
   id: ComplexXenoArtifactItem
   suffix: Complex
@@ -96,6 +99,7 @@
 
 # this exists for crafting item artifacts so that the final result can be simple, medium, or complex.
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseXenoArtifactItem
   id: VariedXenoArtifactItem
   suffix: Varied
@@ -105,6 +109,7 @@
     nodesMax: 13
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ArtifactFragment
   parent: BaseItem
   name: artifact fragment
@@ -168,6 +173,7 @@
     # - Xenoarchaeology
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ArtifactFragment
   id: ArtifactFragment1
   suffix: Single

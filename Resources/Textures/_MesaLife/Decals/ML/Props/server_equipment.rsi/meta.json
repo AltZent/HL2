@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "rackframe"
+    },
+    {
+      "name": "rackframe_broken"
+    },
+    {
+      "name": "yutani_server_on"
+    },
+    {
+      "name": "yutani_server_broken"
+    },
+    {
+      "name": "yutani_server_off"
+    },
+    {
+      "name": "laptop_closed"
+    },
+    {
+      "name": "laptop_off"
+    },
+    {
+      "name": "laptop_on"
+    },
+    {
+      "name": "laptop-gun"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# MesaLife loyalty ("civil status") tiers, Project Synapse style.
+# The highest tier whose minPoints is satisfied is the player's current tier.
+
+- type: loyaltyTier
+  id: MLNonCitizen
+  minPoints: 0
+  color: '#B54B4B'
+
+- type: loyaltyTier
+  id: MLCitizen
+  minPoints: 50
+  color: '#A9B7C6'
+
+- type: loyaltyTier
+  id: MLPriority3
+  minPoints: 250
+  color: '#7EA0C4'
+
+- type: loyaltyTier
+  id: MLPriority2
+  minPoints: 500
+  color: '#4F7CB8'
+
+- type: loyaltyTier
+  id: MLPriority1
+  minPoints: 750
+  color: '#2E5FA3'

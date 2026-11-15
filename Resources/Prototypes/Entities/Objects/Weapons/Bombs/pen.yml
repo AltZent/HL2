@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pen
   suffix: Exploding
   parent: PenEmbeddable
@@ -22,6 +23,7 @@
       - Trigger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PenExplodingBox
   name: exploding pen box

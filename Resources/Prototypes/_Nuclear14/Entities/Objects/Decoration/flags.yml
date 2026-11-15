@@ -1,5 +1,6 @@
 # See Structures/Decoration and wallmounts for non wield flags.
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14DecorationFlagpoleNCR
   name: NCR flag pole
@@ -43,6 +44,7 @@
 
   #MBoS Flagpole
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagpoleNCR
   id: N14DecorationFlagpoleMBOS
   name: Brotherhood flag pole
@@ -55,6 +57,7 @@
 
   #WBoS Flagpole
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorationFlagpoleNCR
   id: N14DecorationFlagpoleWBOS
   name: Brotherhood flag pole

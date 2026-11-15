@@ -36,6 +36,7 @@
 
 # Plants
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildAgave
   name: wild agave plant
@@ -56,6 +57,7 @@
       PlantSampleTaker: WildAgaveClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBananaYucca
   name: wild banana yucca plant
@@ -76,6 +78,7 @@
       PlantSampleTaker: WildBananaYuccaClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBarrelCactus
   name: wild barrel cactus
@@ -96,6 +99,7 @@
       PlantSampleTaker: WildBarrelCactusClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBlackberries
   name: wild blackberry bush
@@ -117,6 +121,7 @@
       PlantSampleTaker: WildBlackberriesClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBroc
   name: wild broc plant
@@ -137,6 +142,7 @@
       PlantSampleTaker: WildBrocFlowerClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBuffaloGourd
   name: wild buffalo gourd
@@ -157,6 +163,7 @@
       PlantSampleTaker: WildBuffaloGourdClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCabbage
   name: wild cabbage plant
@@ -180,6 +187,7 @@
       PlantSampleTaker: WildCabbageClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCarrot
   name: wild carrot plant
@@ -203,6 +211,7 @@
     seedId: N14WildCarrot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCaveFungus
   name: cave fungus
@@ -222,6 +231,7 @@
       All: WildCaveFungusAll
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCaveFungusRad
   name: irradiated fungus
@@ -250,6 +260,7 @@
       All: WildCaveFungusRadAll
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCotton
   name: wild cotton plant
@@ -271,6 +282,7 @@
       PlantSampleTaker: CottonSeeds
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCoyote
   name: wild coyote plant
@@ -291,6 +303,7 @@
       PlantSampleTaker: WildCoyoteTobaccoClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildDatura
   name: wild datura plant
@@ -311,6 +324,7 @@
       PlantSampleTaker: WildDaturaClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildGlowpepper #N14 change
   name: wild glowpepper plant #N14 change
@@ -338,6 +352,7 @@
       PlantSampleTaker: WildGlowpepperClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMaize
   name: wild maize plant
@@ -359,6 +374,7 @@
       PlantSampleTaker: WildMaizeClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMesquite
   name: wild mesquite plant
@@ -379,6 +395,7 @@
       PlantSampleTaker: WildMesquiteClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMutfruit
   name: wild mutfruit plant
@@ -399,6 +416,7 @@
       PlantSampleTaker: WildMutfruitClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildNettle
   name: wild nettles
@@ -420,6 +438,7 @@
       PlantSampleTaker: WildNettleClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildOnion
   name: wild onion plant
@@ -441,6 +460,7 @@
       PlantSampleTaker: WildOnionClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildPinyon
   name: wild pinyon plant
@@ -461,6 +481,7 @@
       PlantSampleTaker: WildPinyonClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildPricklypear
   name: wild prickly pear cactus
@@ -481,6 +502,7 @@
       PlantSampleTaker: WildPricklyPearClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildRazorgrain
   name: wild razorgrain plant
@@ -502,6 +524,7 @@
       PlantSampleTaker: WildRazorgrainClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildStarlightBerries
   name: wild starlight berry plant
@@ -523,6 +546,7 @@
       PlantSampleTaker: WildStarlightBerriesClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildTarberries
   name: wild tarberry plant
@@ -546,6 +570,7 @@
       PlantSampleTaker: WildTarberriesClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildTato
   name: wild tato plant
@@ -566,6 +591,7 @@
       PlantSampleTaker: WildTatoClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildWhiteHorsenettle
   name: wild horsenettle plant
@@ -586,6 +612,7 @@
       PlantSampleTaker: WildWhiteHorsenettleClippers
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WastelandFlora
   id: N14WastelandFloraWildXander
   name: wild xander plant
@@ -607,6 +634,7 @@
 
 # Base Wild Produce
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: True
   parent: FoodProduceBase
   id: N14FloraProduce
@@ -632,6 +660,7 @@
     sprite: _Nuclear14/Objects/Consumable/Flora/wastelandflora.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: True
   parent: N14FloraProduce
   id: N14FloraProduceFood
@@ -653,6 +682,7 @@
 
 # Plant Produce
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildAgave
   name: wild agave leaves
@@ -679,6 +709,7 @@
     seedId: N14WildAgave
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBananaYucca
   name: wild banana yucca
@@ -705,6 +736,7 @@
     seedId: N14WildBananaYucca
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBarrelCactusFruit
   name: barrel cactus fruit
@@ -732,6 +764,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBlackberries
   name: wild blackberries
@@ -759,6 +792,7 @@
     seedId: N14WildBlackberry
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildBrocFlower
   name: wild broc flower
@@ -785,6 +819,7 @@
     seedId: N14WildBroc
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBuffaloGourd
   name: wild buffalo gourd
@@ -811,6 +846,7 @@
     seedId: N14WildBuffaloGourd
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCabbage
   name: wild cabbage
@@ -841,6 +877,7 @@
     seedId: N14WildCabbage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCarrot
   name: wild carrot
@@ -871,6 +908,7 @@
     seedId: N14WildCarrot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCaveFungus
   name: cave fungus
@@ -895,6 +933,7 @@
         Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCaveFungusRad
   name: irradiated fungus
@@ -919,6 +958,7 @@
         Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildCoyoteTobacco
   name: coyote tobacco leaves
@@ -945,6 +985,7 @@
     seedId: N14CoyoteTobacco
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildDaturaFlower
   name: datura flower
@@ -971,6 +1012,7 @@
     seedId: N14Datura
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildGlowpepper #N14 change. My mind is going. I may not have tagged all glowpepper changes. Daisy, daisy, give me your answer do.
   name: wild glowpepper
@@ -998,6 +1040,7 @@
     seedId: N14WildGlowpepper
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildMaize
   name: wild maize
@@ -1025,6 +1068,7 @@
     seedId: N14WildMaize
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildMesquitePods
   name: wild mesquite pods
@@ -1051,6 +1095,7 @@
     seedId: N14WildMesquite
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildMutfruit
   name: wild mutfruit
@@ -1077,6 +1122,7 @@
     seedId: N14WildMutfruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildNettle
   name: wild nettle
@@ -1104,6 +1150,7 @@
     seedId: N14WildNettle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildOnion
   name: wild onion
@@ -1136,6 +1183,7 @@
     slice: N14FoodOnionRedSlice # N14TODO: Create slice. Changed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildPinyonNuts
   name: wild pinyon nuts
@@ -1162,6 +1210,7 @@
     seedId: N14WildPinyon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildPricklyPearFruit
   name: wild prickly pear fruit
@@ -1186,6 +1235,7 @@
         Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildRazorgrain
   name: wild razorgrain
@@ -1203,6 +1253,7 @@
     seedId: N14WildRazorgrain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildStarlightBerries
   name: wild starlight berries
@@ -1230,6 +1281,7 @@
     seedId: N14Starlight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildTarberries
   name: tarberries
@@ -1257,6 +1309,7 @@
     seedId: N14Tarberry
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduceFood
   id: N14FloraProduceWildTato
   name: wild tato
@@ -1283,6 +1336,7 @@
     seedId: N14WildTato
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildWhiteHorsenettle
   name: white horsenettle flower
@@ -1309,6 +1363,7 @@
     seedId: N14WildWhiteHorsenettle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraProduce
   id: N14FloraProduceWildXander
   name: wild xander root

@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "double"
+    },
+    {
+      "name": "single"
+    },
+    {
+      "name": "almayer0"
+    },
+    {
+      "name": "almayer1"
+    },
+    {
+      "name": "almayer2"
+    },
+    {
+      "name": "almayer3"
+    },
+    {
+      "name": "almayer4"
+    },
+    {
+      "name": "almayer5"
+    },
+    {
+      "name": "almayer6"
+    },
+    {
+      "name": "ship_memorial"
+    },
+    {
+      "name": "30mm_cannon"
+    },
+    {
+      "name": "banshee"
+    },
+    {
+      "name": "paveway"
+    },
+    {
+      "name": "30mm_cannon_installed",
+      "directions": 4
+    },
+    {
+      "name": "30mm_cannon_loaded1",
+      "directions": 4
+    },
+    {
+      "name": "30mm_cannon_loaded0",
+      "directions": 4
+    },
+    {
+      "name": "rocket_pod_installed",
+      "directions": 4
+    },
+    {
+      "name": "rocket_pod_loadedb",
+      "directions": 4
+    },
+    {
+      "name": "rocket_pod_loadedk",
+      "directions": 4
+    },
+    {
+      "name": "rocket_pod_loaded",
+      "directions": 4
+    },
+    {
+      "name": "rocket_pod"
+    },
+    {
+      "name": "fuel_base"
+    },
+    {
+      "name": "cooling_system"
+    },
+    {
+      "name": "cooling_system_installed"
+    },
+    {
+      "name": "fuel_enhancer_installed"
+    },
+    {
+      "name": "fuel_enhancer"
+    },
+    {
+      "name": "minirocket_pod"
+    },
+    {
+      "name": "minirocket_pod_installed",
+      "directions": 4
+    },
+    {
+      "name": "minirocket_pod_loaded",
+      "directions": 4
+    },
+    {
+      "name": "fatty"
+    },
+    {
+      "name": "rocket_pod_loadedf",
+      "directions": 4
+    },
+    {
+      "name": "napalm"
+    },
+    {
+      "name": "rocket_pod_loadedn",
+      "directions": 4
+    },
+    {
+      "name": "laser_beam"
+    },
+    {
+      "name": "laser_beam_installed",
+      "directions": 4
+    },
+    {
+      "name": "laser_beam_loaded",
+      "directions": 4
+    },
+    {
+      "name": "cannon_tray"
+    },
+    {
+      "name": "cannon_tray_explosive"
+    },
+    {
+      "name": "cannon_tray_incendiary"
+    },
+    {
+      "name": "cannon_tray_cluster"
+    },
+    {
+      "name": "cannon_tray_1"
+    },
+    {
+      "name": "cannon_tray_2"
+    },
+    {
+      "name": "cannon_tray_3"
+    },
+    {
+      "name": "cannon_tray_4"
+    },
+    {
+      "name": "cannon_tray_5"
+    },
+    {
+      "name": "cannon_tray_6"
+    },
+    {
+      "name": "chinook1"
+    },
+    {
+      "name": "chinook2"
+    },
+    {
+      "name": "chinook3"
+    },
+    {
+      "name": "chinook4"
+    },
+    {
+      "name": "chinook5"
+    },
+    {
+      "name": "rocket_pod_loadeds",
+      "directions": 4
+    },
+    {
+      "name": "harpoon"
+    }
+  ]
+}

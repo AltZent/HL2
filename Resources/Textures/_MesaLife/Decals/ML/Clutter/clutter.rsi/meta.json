@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Should_be_a_structure_subtype_but_is_an_object_clutter"
+    },
+    {
+      "name": "flagpole"
+    },
+    {
+      "name": "flagpole_legion"
+    },
+    {
+      "name": "flagpole_usa"
+    },
+    {
+      "name": "flagpole_ncr"
+    },
+    {
+      "name": "Placeable_clutter"
+    },
+    {
+      "name": "rug"
+    },
+    {
+      "name": "rug_rubber"
+    },
+    {
+      "name": "Lighting_Clutter"
+    },
+    {
+      "name": "lamp"
+    },
+    {
+      "name": "lamp-on"
+    },
+    {
+      "name": "Unused"
+    },
+    {
+      "name": "map"
+    },
+    {
+      "name": "Bureaucracy_nonsense"
+    },
+    {
+      "name": "trifold"
+    },
+    {
+      "name": "paper"
+    },
+    {
+      "name": "paper_words"
+    },
+    {
+      "name": "paperplane_onfire_overlay",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "paper_bin0"
+    },
+    {
+      "name": "paper_bin1"
+    },
+    {
+      "name": "paperslip"
+    },
+    {
+      "name": "paperslip_words"
+    },
+    {
+      "name": "paper_stamp-ok"
+    },
+    {
+      "name": "paper_stamp-deny"
+    },
+    {
+      "name": "pen"
+    },
+    {
+      "name": "pencil"
+    },
+    {
+      "name": "pen-fountain"
+    },
+    {
+      "name": "stamp-deny"
+    },
+    {
+      "name": "stamp-ok"
+    },
+    {
+      "name": "papercutter"
+    }
+  ]
+}

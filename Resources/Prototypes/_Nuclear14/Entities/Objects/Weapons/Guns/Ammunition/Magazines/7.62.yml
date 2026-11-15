@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazine762Rifle
   name: "magazine (7.62mm)"
   parent: BaseItem
@@ -32,6 +33,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine762Rifle
   name: "magazine (7.62mm)"
   parent: BaseMagazine762Rifle
@@ -40,6 +42,7 @@
     proto: N14Cartridge762Rifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine762AmmoBelt
   name: "ammo belt (7.62mm)"
   parent: BaseMagazine762Rifle
@@ -68,6 +71,7 @@
     zeroVisible: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine762AmmoShort
   name: "short magazine (7.62mm)"
   parent: BaseMagazine762Rifle

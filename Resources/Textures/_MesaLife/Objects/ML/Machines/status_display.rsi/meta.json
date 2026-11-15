@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "frame"
+    },
+    {
+      "name": "outline"
+    },
+    {
+      "name": "default"
+    },
+    {
+      "name": "greenalert"
+    },
+    {
+      "name": "bluealert",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "redalert",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "deltaalert",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "biohazard",
+      "delays": [
+        [
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "lockdown",
+      "delays": [
+        [
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "radiation",
+      "delays": [
+        [
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "state",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "state-2"
+    },
+    {
+      "name": "state-3"
+    },
+    {
+      "name": "state-4"
+    },
+    {
+      "name": "state-5"
+    },
+    {
+      "name": "state-6"
+    },
+    {
+      "name": "state-7"
+    },
+    {
+      "name": "state-8"
+    },
+    {
+      "name": "state-9"
+    },
+    {
+      "name": "dot"
+    },
+    {
+      "name": "state-10"
+    },
+    {
+      "name": "-"
+    },
+    {
+      "name": "state-11"
+    },
+    {
+      "name": "state-12"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "1"
+    },
+    {
+      "name": "2"
+    },
+    {
+      "name": "3"
+    },
+    {
+      "name": "4"
+    },
+    {
+      "name": "5"
+    },
+    {
+      "name": "6"
+    },
+    {
+      "name": "7"
+    },
+    {
+      "name": "8"
+    },
+    {
+      "name": "9"
+    },
+    {
+      "name": "A"
+    },
+    {
+      "name": "B"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "D"
+    },
+    {
+      "name": "E"
+    },
+    {
+      "name": "F"
+    },
+    {
+      "name": "G"
+    },
+    {
+      "name": "H"
+    },
+    {
+      "name": "I"
+    },
+    {
+      "name": "J"
+    },
+    {
+      "name": "K"
+    },
+    {
+      "name": "L"
+    },
+    {
+      "name": "M"
+    },
+    {
+      "name": "N"
+    },
+    {
+      "name": "O"
+    },
+    {
+      "name": "P"
+    },
+    {
+      "name": "Q"
+    },
+    {
+      "name": "R"
+    },
+    {
+      "name": "S"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "U"
+    },
+    {
+      "name": "V"
+    },
+    {
+      "name": "W"
+    },
+    {
+      "name": "X"
+    },
+    {
+      "name": "Y"
+    },
+    {
+      "name": "Z"
+    },
+    {
+      "name": "ai_bsod"
+    },
+    {
+      "name": "ai_off"
+    },
+    {
+      "name": "ai_sal",
+      "delays": [
+        [
+          3.0,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ai_hal",
+      "delays": [
+        [
+          3.0,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "entertainment",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "entertainment_xmas",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "entertainment_blank"
+    },
+    {
+      "name": "NT_Reference"
+    }
+  ]
+}

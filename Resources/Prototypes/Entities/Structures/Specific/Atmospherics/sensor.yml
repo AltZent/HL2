@@ -30,6 +30,7 @@
         - AirSensor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: AirSensor
   name: air sensor
   description: Air sensor. It senses air.
@@ -87,6 +88,7 @@
             False: { state: gsensor0 }
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: AirSensorAssembly
   name: air sensor assembly

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ChemDispenser
   name: chemical dispenser
   suffix: Filled
@@ -42,6 +43,7 @@
     stealGroup: ChemDispenser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ChemDispenserEmpty
   name: chemical dispenser
   suffix: Empty

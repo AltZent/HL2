@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "wallmed-light-mask"
+    },
+    {
+      "name": "wallmed",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "wallmed-broken"
+    },
+    {
+      "name": "wallmed-off"
+    },
+    {
+      "name": "wallmed-deny",
+      "delays": [
+        [
+          0.1,
+          0.8,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "wallmed-panel"
+    },
+    {
+      "name": "sec"
+    },
+    {
+      "name": "sec-broken"
+    },
+    {
+      "name": "sec-off"
+    },
+    {
+      "name": "sec-deny",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "key"
+    },
+    {
+      "name": "key-broken"
+    },
+    {
+      "name": "key-off"
+    },
+    {
+      "name": "key-deny",
+      "delays": [
+        [
+          0.1,
+          0.8,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "fooddispenser"
+    },
+    {
+      "name": "fooddispenser-broken"
+    },
+    {
+      "name": "fooddispenser-off"
+    },
+    {
+      "name": "fooddispenser-deny"
+    }
+  ]
+}

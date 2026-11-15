@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [AirSensorBase, GasPipeBase]
   id: GasPipeSensor
   name: gas pipe sensor
@@ -47,6 +48,7 @@
     - Unstackable    
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeSensor 
   id: GasPipeSensorDistribution 
   suffix: Distribution
@@ -55,6 +57,7 @@
     currentLabel: gas-pipe-sensor-distribution-loop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeSensor 
   id: GasPipeSensorWaste  
   suffix: Waste
@@ -63,6 +66,7 @@
     currentLabel: gas-pipe-sensor-waste-loop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeSensor 
   id: GasPipeSensorMixedAir 
   suffix: Mixed air
@@ -71,6 +75,7 @@
     currentLabel: gas-pipe-sensor-mixed-air
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeSensor 
   id: GasPipeSensorTEGHot
   suffix: TEG hot
@@ -79,6 +84,7 @@
     currentLabel: gas-pipe-sensor-teg-hot-loop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GasPipeSensor  
   id: GasPipeSensorTEGCold
   suffix: TEG cold

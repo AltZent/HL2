@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grenade launcher
   parent: BaseWeaponLauncher
   id: N14WeaponLauncherGrenade
@@ -44,6 +45,7 @@
     price: 200
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: grenade rifle
   parent: BaseWeaponLauncher
   id: N14WeaponRifleGrenade

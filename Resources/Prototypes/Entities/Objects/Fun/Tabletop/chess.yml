@@ -1,5 +1,6 @@
 ﻿# Chessboard item (normal in game item you can hold in your hand)
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBoardEntity
   id: ChessBoard
   name: chessboard
@@ -28,6 +29,7 @@
 
 # White pieces
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteKing
   name: white king
   parent: BaseTabletopPiece
@@ -37,6 +39,7 @@
     state: w_king
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteQueen
   name: white queen
   parent: BaseTabletopPiece
@@ -46,6 +49,7 @@
       state: w_queen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteRook
   name: white rook
   parent: BaseTabletopPiece
@@ -55,6 +59,7 @@
       state: w_rook
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteBishop
   name: white bishop
   parent: BaseTabletopPiece
@@ -64,6 +69,7 @@
       state: w_bishop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhiteKnight
   name: white knight
   parent: BaseTabletopPiece
@@ -73,6 +79,7 @@
       state: w_knight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: WhitePawn
   name: white pawn
   parent: BaseTabletopPiece
@@ -83,6 +90,7 @@
 
 # Black pieces
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackKing
   name: black king
   parent: BaseTabletopPiece
@@ -92,6 +100,7 @@
       state: b_king
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackQueen
   name: black queen
   parent: BaseTabletopPiece
@@ -101,6 +110,7 @@
       state: b_queen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackRook
   name: black rook
   parent: BaseTabletopPiece
@@ -110,6 +120,7 @@
       state: b_rook
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackBishop
   name: black bishop
   parent: BaseTabletopPiece
@@ -119,6 +130,7 @@
       state: b_bishop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackKnight
   name: black knight
   parent: BaseTabletopPiece
@@ -128,6 +140,7 @@
       state: b_knight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlackPawn
   name: black pawn
   parent: BaseTabletopPiece

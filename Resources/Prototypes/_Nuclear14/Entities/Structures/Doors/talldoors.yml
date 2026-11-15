@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14DoorMetalBlueTall
   name: metal Door
@@ -96,6 +97,7 @@
           # - CPLock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalRedTall
   name: metal Door
@@ -109,6 +111,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueAltTall
   components:
@@ -119,6 +122,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueWindowTall
   name: metal Door
@@ -136,6 +140,7 @@
     enabled: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalGrateTall
   suffix: tall, grate
@@ -148,6 +153,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalBarTall
   suffix: tall, bar
@@ -160,6 +166,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceTall
   suffix: tall, fence
@@ -172,6 +179,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceBarbedTall
   suffix: tall, fence barbed
@@ -185,6 +193,7 @@
 
 # Wooden
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorWoodTall
   name: wooden door
@@ -217,6 +226,7 @@
         acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodTall
   id: N14DoorWoodBlueTall
   components:
@@ -227,6 +237,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodTall
   id: N14DoorWoodGreenTall
   components:
@@ -237,6 +248,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodTall
   id: N14DoorWoodRedTall
   components:
@@ -247,6 +259,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorWoodTall
   id: N14DoorWoodWhiteTall
   components:
@@ -258,6 +271,7 @@
 
 # Cell Doors
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorCell
   name: cell door
@@ -286,6 +300,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorCell
   id: N14DoorCellRust
   components:
@@ -296,6 +311,7 @@
       map: ["enum.DoorVisualLayers.Base"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DoorMetalBlueTall
   id: N14DoorAirlockTall
   name: airlock
@@ -369,6 +385,7 @@
     time: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14DoorVault
   name: vault Door

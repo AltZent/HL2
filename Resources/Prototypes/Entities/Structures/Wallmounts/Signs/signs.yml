@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: PaintingMonkey
   name: monkey painting
@@ -17,6 +18,7 @@
       snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalBar
   name: bar sign
@@ -26,6 +28,7 @@
     state: direction_bar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalBridge
   name: bridge sign
@@ -35,6 +38,7 @@
     state: direction_bridge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalBrig
   name: brig sign
@@ -44,6 +48,7 @@
     state: direction_brig
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalChapel
   name: chapel sign
@@ -53,6 +58,7 @@
     state: direction_chapel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalChemistry
   name: chemistry sign
@@ -62,6 +68,7 @@
     state: direction_chemistry
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalCryo
   name: cryo sign
@@ -71,6 +78,7 @@
     state: direction_cryo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalDorms
   name: dorms sign
@@ -80,6 +88,7 @@
     state: direction_dorms
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalEng
   name: engineering sign
@@ -89,6 +98,7 @@
     state: direction_eng
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalEvac
   name: evac sign
@@ -98,6 +108,7 @@
     state: direction_evac
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalExam
   name: exam sign
@@ -107,6 +118,7 @@
     state: direction_exam
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalFood
   name: food sign
@@ -116,6 +128,7 @@
     state: direction_food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalGravity
   name: gravity sign
@@ -125,6 +138,7 @@
     state: direction_gravity
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalHop
   name: hop sign
@@ -134,6 +148,7 @@
     state: direction_hop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalHydro
   name: hydro sign
@@ -143,6 +158,7 @@
     state: direction_hydro
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalIcu
   name: icu sign
@@ -152,6 +168,7 @@
     state: direction_icu
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalJanitor
   name: janitor sign
@@ -161,6 +178,7 @@
     state: direction_janitor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalLibrary
   name: library sign
@@ -170,6 +188,7 @@
     state: direction_library
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalMed
   name: medical sign
@@ -179,6 +198,7 @@
     state: direction_med
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalSalvage
   name: salvage sign
@@ -188,6 +208,7 @@
     state: direction_salvage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalSci
   name: epistemics sign # DeltaV - Epistemics Department replacing Science
@@ -198,6 +219,7 @@
     state: direction_epi # DeltaV - Epistemics Department replacing Science
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalSec
   name: sec sign
@@ -207,6 +229,7 @@
     state: direction_sec
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalSolar
   name: solars sign
@@ -216,6 +239,7 @@
     state: direction_solar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalSupply
   name: supply sign
@@ -225,6 +249,7 @@
     state: direction_supply
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSignDirectional
   id: SignDirectionalWash
   name: washroom sign
@@ -236,6 +261,7 @@
 # Regular Signs
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignAi
   name: ai sign
@@ -245,6 +271,7 @@
     state: ai
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignAiUpload
   name: ai upload sign
@@ -254,6 +281,7 @@
       state: ai_upload
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignArcade
   name: arcade sign
@@ -263,6 +291,7 @@
     state: arcade
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignArmory
   name: armory sign
@@ -272,6 +301,7 @@
     state: armory
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignToolStorage
   name: tool storage sign
@@ -281,6 +311,7 @@
     state: ass
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignAnomaly
   name: xenoarcheology lab sign
@@ -290,6 +321,7 @@
     state: xenoarch
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignAnomaly2
   name: anomaly lab sign
@@ -299,6 +331,7 @@
     state: anomaly
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignAtmos
   name: atmos sign
@@ -308,6 +341,7 @@
     state: atmos
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBar
   name: bar sign
@@ -317,6 +351,7 @@
     state: bar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBath
   name: bathroom sign
@@ -326,6 +361,7 @@
     state: bath
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignKitchen
   name: kitchen sign
@@ -335,6 +371,7 @@
     state: kitchen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignTheater
   name: theater sign
@@ -352,6 +389,7 @@
         drama3: null
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBarbershop
   name: barbershop sign
@@ -361,6 +399,7 @@
     state: barbershop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBio
   name: bio sign
@@ -370,6 +409,7 @@
     state: bio
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBiohazard
   name: biohazard sign
@@ -379,6 +419,7 @@
     state: biohazard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBridge
   name: bridge sign
@@ -388,6 +429,7 @@
     state: bridge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCanisters
   name: canisters sign
@@ -397,6 +439,7 @@
     state: canisters
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCargo
   name: logistics sign # DeltaV - Logistics Department replacing Cargo
@@ -406,6 +449,7 @@
     state: cargo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCargoDock
   name: cargo dock sign
@@ -415,6 +459,7 @@
     state: cargo_dock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignChapel
   name: chapel sign
@@ -424,6 +469,7 @@
     state: chapel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignChem
   name: chemistry sign
@@ -433,6 +479,7 @@
     state: chem
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCloning
   name: cloning sign
@@ -442,6 +489,7 @@
     state: cloning
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignConference
   name: conference room sign
@@ -451,6 +499,7 @@
     state: conference_room
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCryo
   name: cryosleep sign
@@ -461,6 +510,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignDisposalSpace
   name: disposal sign
@@ -470,6 +520,7 @@
     state: deathsposal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignDoors
   name: doors sign
@@ -479,6 +530,7 @@
     state: doors
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRestroom
   name: restroom sign
@@ -488,6 +540,7 @@
     state: restroom
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMaterials
   name: materials sign
@@ -497,6 +550,7 @@
     state: mats
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignEngine
   name: power sign
@@ -506,6 +560,7 @@
     state: engine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignEngineering
   name: engineering sign
@@ -515,6 +570,7 @@
     state: eng
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignEscapePods
   name: escape pods sign
@@ -526,6 +582,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignEVA
   name: EVA sign
@@ -535,6 +592,7 @@
     state: eva
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignElectrical
   name: electrical sign
@@ -544,6 +602,7 @@
     state: electrical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignExamroom
   name: examination room sign
@@ -553,6 +612,7 @@
     state: examroom
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignFire
   name: fire sign
@@ -562,6 +622,7 @@
     state: fire
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignGravity
   name: gravity sign
@@ -571,6 +632,7 @@
     state: gravi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignHead
   name: head sign
@@ -580,6 +642,7 @@
     state: commander
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignHydro1
   name: hydro sign
@@ -589,6 +652,7 @@
     state: hydro
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignInterrogation
   name: interrogation sign
@@ -598,6 +662,7 @@
     state: interrogation
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignJanitor
   name: janitor sign
@@ -607,6 +672,7 @@
     state: janitor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignLaundromat
   name: laundromat sign
@@ -616,6 +682,7 @@
     state: laundromat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignLawyer
   name: law sign
@@ -625,6 +692,7 @@
     state: law
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignLibrary
   name: library sign
@@ -634,6 +702,7 @@
     state: biblio
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMail
   name: mail sign
@@ -643,6 +712,7 @@
     state: mail
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMedical
   name: medbay sign
@@ -652,6 +722,7 @@
     state: medbay
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMorgue
   name: morgue sign
@@ -661,6 +732,7 @@
     state: morgue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNews
   name: news sign
@@ -670,6 +742,7 @@
     state: news
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNosmoking
   name: nosmoking sign
@@ -679,6 +752,7 @@
     state: nosmoking
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignPrison
   name: prison sign
@@ -688,6 +762,7 @@
     state: prison
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignPsychology
   name: psychology sign
@@ -697,6 +772,7 @@
     state: psychology
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignReception
   name: reception sign
@@ -706,6 +782,7 @@
     state: reception
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRND
   name: research and development sign
@@ -715,6 +792,7 @@
     state: rnd
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRobo
   name: robo sign
@@ -724,6 +802,7 @@
     state: robo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSalvage
   name: salvage sign
@@ -733,6 +812,7 @@
     state: salvage
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignScience
   name: science sign
@@ -742,6 +822,7 @@
     state: sci
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignServer
   name: server sign
@@ -751,6 +832,7 @@
     state: data
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCans
   name: canisters sign
@@ -760,6 +842,7 @@
     state: cans
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignShipDock
   name: evac sign
@@ -769,6 +852,7 @@
     state: dock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSpace
   name: space sign
@@ -780,6 +864,7 @@
     snapCardinals: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSurgery
   name: surgery sign
@@ -789,6 +874,7 @@
     state: surgery
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignTelecomms
   name: telecomms sign
@@ -798,6 +884,7 @@
     state: telecoms
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignToxins
   name: toxins sign
@@ -807,6 +894,7 @@
     state: toxins
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignVault
   name: vault sign
@@ -816,6 +904,7 @@
     state: vault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignVirology
   name: virology sign
@@ -825,6 +914,7 @@
     state: virology
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCorrosives
   name: corrosives warning sign
@@ -834,6 +924,7 @@
     state: corrosives
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCryogenics
   name: cryogenics warning sign
@@ -843,6 +934,7 @@
     state: cryogenics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignDanger
   name: danger warning sign
@@ -852,6 +944,7 @@
     state: danger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignExplosives
   name: explosives warning sign
@@ -861,6 +954,7 @@
     state: explosives
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignFlammable
   name: flammable warning sign
@@ -870,6 +964,7 @@
     state: flammable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignLaser
   name: laser warning sign
@@ -879,6 +974,7 @@
     state: laser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMagnetics
   name: magnetics warning sign
@@ -888,6 +984,7 @@
     state: magnetics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMemetic
   name: memetic warning sign
@@ -897,6 +994,7 @@
     state: memetic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecure
   name: secure sign
@@ -906,6 +1004,7 @@
     state: secure
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecurearea
   name: secure area sign
@@ -916,6 +1015,7 @@
     snapCardinals: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignShock
   name: shock sign
@@ -925,6 +1025,7 @@
     state: shock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignOptical
   name: optical warning sign
@@ -934,6 +1035,7 @@
     state: optical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignOxidants
   name: oxidants warning sign
@@ -943,6 +1045,7 @@
     state: oxidants
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRadiation
   name: radiation warning sign
@@ -952,6 +1055,7 @@
     state: radiation
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignXenobio
   name: xenobio sign
@@ -961,6 +1065,7 @@
     state: xenobio
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignZomlab
   name: zombie lab sign
@@ -970,6 +1075,7 @@
     state: zomlab
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecureMedRed
   name: red secure sign
@@ -979,6 +1085,7 @@
     state: medium_secure_red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecureSmall
   name: small secure sign
@@ -988,6 +1095,7 @@
     state: small_secure
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecureSmallRed
   name: small red secure sign
@@ -997,6 +1105,7 @@
     state: small_secure_red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBlankMed
   name: blank sign
@@ -1006,6 +1115,7 @@
     state: medium_blank
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignMagneticsMed
   name: magnetics sign
@@ -1015,6 +1125,7 @@
     state: medium_magnetics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignDangerMed
   name: danger sign
@@ -1024,6 +1135,7 @@
     state: medium_danger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: ExplosivesSignMed
   name: explosives sign
@@ -1033,6 +1145,7 @@
     state: medium_explosives
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignCryogenicsMed
   name: cryogenics sign
@@ -1042,6 +1155,7 @@
     state: medium_cryogenics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignElectricalMed
   name: electrical sign
@@ -1051,6 +1165,7 @@
     state: medium_electrical
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignBiohazardMed
   name: biohazard sign
@@ -1060,6 +1175,7 @@
     state: medium_biohazard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRadiationMed
   name: radiation sign
@@ -1069,6 +1185,7 @@
     state: medium_radiation
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignFlammableMed
   name: flammable sign #when flammable component is done, this sign needs it
@@ -1078,6 +1195,7 @@
     state: medium_flammable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignLaserMed
   name: laser sign
@@ -1087,6 +1205,7 @@
     state: medium_laser
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecureMed
   name: secure sign
@@ -1100,6 +1219,7 @@
 # Atmos Warnings
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningAir
   name: air warning sign
@@ -1109,6 +1229,7 @@
     state: atmos_air
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningCO2
   name: CO2 warning sign
@@ -1118,6 +1239,7 @@
     state: atmos_co2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningN2
   name: N2 warning sign
@@ -1127,6 +1249,7 @@
     state: atmos_n2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningN2O
   name: N2O warning sign
@@ -1136,6 +1259,7 @@
     state: atmos_n2o
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningO2
   name: O2 warning sign
@@ -1145,6 +1269,7 @@
     state: atmos_o2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningPlasma
   name: plasma waste sign
@@ -1154,6 +1279,7 @@
     state: atmos_plasma
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningTritium
   name: tritium waste sign
@@ -1163,6 +1289,7 @@
     state: atmos_tritium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: WarningWaste
   name: atmos waste sign
@@ -1172,6 +1299,7 @@
     state: atmos_waste
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSmoking
   name: no smoking sign
@@ -1181,6 +1309,7 @@
     state: nosmoking2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSomethingOld
   name: old sign
@@ -1190,6 +1319,7 @@
     state: something-old1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSomethingOld2
   name: old sign
@@ -1199,6 +1329,7 @@
     state: something-old2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSecurity
   name: security sign
@@ -1208,6 +1339,7 @@
     state: security
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignPlaque
   name: golden plaque
@@ -1217,6 +1349,7 @@
     state: goldenplaque
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignKiddiePlaque
   name: kiddie plaque
@@ -1226,6 +1359,7 @@
     state: kiddieplaque
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNanotrasen1
   name: nanotrasen sign 1
@@ -1235,6 +1369,7 @@
     state: nanotrasen_sign1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNanotrasen2
   name: nanotrasen sign 2
@@ -1244,6 +1379,7 @@
     state: nanotrasen_sign2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNanotrasen3
   name: nanotrasen sign 3
@@ -1253,6 +1389,7 @@
     state: nanotrasen_sign3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNanotrasen4
   name: nanotrasen sign 4
@@ -1262,6 +1399,7 @@
     state: nanotrasen_sign4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNanotrasen5
   name: nanotrasen sign 5
@@ -1271,6 +1409,7 @@
     state: nanotrasen_sign5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedOne
   name: one sign
@@ -1280,6 +1419,7 @@
     state: one
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedTwo
   name: two sign
@@ -1289,6 +1429,7 @@
     state: two
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedThree
   name: three sign
@@ -1298,6 +1439,7 @@
     state: three
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedFour
   name: four sign
@@ -1307,6 +1449,7 @@
     state: four
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedFive
   name: five sign
@@ -1316,6 +1459,7 @@
     state: five
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedSix
   name: six sign
@@ -1325,6 +1469,7 @@
     state: six
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedSeven
   name: seven sign
@@ -1334,6 +1479,7 @@
     state: seven
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedEight
   name: eight sign
@@ -1343,6 +1489,7 @@
     state: eight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedNine
   name: nine sign
@@ -1352,6 +1499,7 @@
     state: nine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignRedZero
   name: zero sign
@@ -1361,6 +1509,7 @@
     state: zero
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignSurvival
   name: survival sign
@@ -1370,6 +1519,7 @@
     state: survival
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: SignNTMine
   name: mine sign

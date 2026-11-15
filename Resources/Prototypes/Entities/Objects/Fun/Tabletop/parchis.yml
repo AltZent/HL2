@@ -1,5 +1,6 @@
 # Parchís board item (normal in game item you can hold in your hand)
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseBoardEntity
   id: ParchisBoard
   name: parchís board

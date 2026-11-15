@@ -1,0 +1,71 @@
+# ML loadouts -> vanilla category Hands.
+
+- type: loadout
+  id: LoadoutMLGlovesCivilprotection
+  category: Hands
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesCivilprotection
+
+- type: loadout
+  id: LoadoutMLGlovesOverwatch
+  category: Hands
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesOverwatch
+
+- type: loadout
+  id: LoadoutMLGlovesGrunt
+  category: Hands
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesGrunt
+
+- type: loadout
+  id: LoadoutMLGlovesCleanup
+  category: Hands
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesCleanup
+
+- type: loadout
+  id: LoadoutMLGlovesEngineer
+  category: Hands
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesEngineer
+
+- type: loadout
+  id: LoadoutMLGlovesForeman
+  category: Hands
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesForeman
+
+- type: loadout
+  id: LoadoutMLGlovesLeather
+  category: Hands
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLGlovesLeather

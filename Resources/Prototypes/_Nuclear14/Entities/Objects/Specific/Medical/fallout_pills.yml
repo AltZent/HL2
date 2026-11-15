@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rad-x pill
   parent: Pill
   id: N14RadXPill
@@ -28,6 +29,7 @@
     grindableSolutionName: food
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: buffout pill
   parent: N14RadXPill
   id: N14BuffoutPill
@@ -44,6 +46,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: buffjet pill
   parent: N14RadXPill
   id: N14BuffjetPill
@@ -60,6 +63,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: bufftats pill
   parent: N14RadXPill
   id: N14BufftatsPill
@@ -76,6 +80,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mentats pill
   parent: N14RadXPill
   id: N14MentatsPill
@@ -92,6 +97,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fixer pill
   parent: N14RadXPill
   id: N14FixerPill
@@ -108,6 +114,7 @@
           Quantity: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cateye pill
   parent: N14RadXPill
   id: N14CateyePill

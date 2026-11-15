@@ -1,5 +1,6 @@
 #MARK: Lead
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotLead
   name: lead bar
@@ -46,6 +47,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotLead
   id: N14IngotLead1
   name: lead bar
@@ -57,6 +59,7 @@
     count: 1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotLead
   id: N14IngotLead20
   name: lead bar
@@ -69,6 +72,7 @@
 
 #MARK: Aluminum
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotAluminum
   name: aluminum bar
@@ -104,6 +108,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotAluminum
   id: N14IngotAluminum1
   name: aluminum bar
@@ -116,6 +121,7 @@
 
 #MARK: Copper
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotCopper
   name: copper bar
@@ -151,6 +157,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotCopper
   id: N14IngotCopper1
   name: copper bar
@@ -163,6 +170,7 @@
 
 #MARK: Brass
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotBrass
   name: brass bar
@@ -200,6 +208,7 @@
           Quantity: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotBrass
   id: N14IngotBrass1
   name: brass bar
@@ -212,6 +221,7 @@
 
 #MARK: Gold
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotGold
   name: gold bar
@@ -247,6 +257,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotGold
   id: N14IngotGold1
   name: gold bar
@@ -259,6 +270,7 @@
 
 #MARK: Iron
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotIron
   name: iron bar
@@ -294,6 +306,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotIron
   id: N14IngotIron1
   name: iron bar
@@ -306,6 +319,7 @@
 
 #MARK: Silver
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: IngotBase
   id: N14IngotSilver
   name: silver bar
@@ -341,6 +355,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14IngotSilver
   id: N14IngotSilver1
   name: silver bar

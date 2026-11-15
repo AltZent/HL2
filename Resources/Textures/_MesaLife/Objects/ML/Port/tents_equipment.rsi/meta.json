@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "curtains-jungle"
+    },
+    {
+      "name": "curtains-jungle-o"
+    },
+    {
+      "name": "curtains-urban"
+    },
+    {
+      "name": "curtains-urban-o"
+    },
+    {
+      "name": "curtains-snow"
+    },
+    {
+      "name": "curtains-snow-o"
+    },
+    {
+      "name": "curtains-desert"
+    },
+    {
+      "name": "curtains-desert-o"
+    },
+    {
+      "name": "curtains-classic"
+    },
+    {
+      "name": "curtains-classic-o"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "highradio-off"
+    },
+    {
+      "name": "highradio-on"
+    },
+    {
+      "name": "highradio"
+    },
+    {
+      "name": "radio-off"
+    },
+    {
+      "name": "radio-on"
+    },
+    {
+      "name": "radio"
+    },
+    {
+      "name": "recradio"
+    },
+    {
+      "name": "recradio-on"
+    },
+    {
+      "name": "recradio-active"
+    },
+    {
+      "name": "radioking_wood-off"
+    },
+    {
+      "name": "radioking_wood-on"
+    },
+    {
+      "name": "radioking_wood"
+    },
+    {
+      "name": "radioking_black-off"
+    },
+    {
+      "name": "radioking_black-on"
+    },
+    {
+      "name": "radioking_black"
+    },
+    {
+      "name": "jukebox_on"
+    },
+    {
+      "name": "jukebox_off"
+    }
+  ]
+}

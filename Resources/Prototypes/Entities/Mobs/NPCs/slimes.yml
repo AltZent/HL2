@@ -186,6 +186,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blue slime
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
@@ -198,6 +199,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: blue slime
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
@@ -208,6 +210,7 @@
         - SimpleHostile
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: green slime
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
@@ -231,6 +234,7 @@
           Poison: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: green slime
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
@@ -243,6 +247,7 @@
 #      description: ghost-role-information-angry-slimes-description
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: yellow slime
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
@@ -266,6 +271,7 @@
           Cellular: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: yellow slime
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry

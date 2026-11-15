@@ -1,0 +1,101 @@
+# ML loadouts -> vanilla category Backpacks.
+
+- type: loadout
+  id: LoadoutMLBackSack
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackSack
+
+- type: loadout
+  id: LoadoutMLBackRadiopack
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackRadiopack
+
+- type: loadout
+  id: LoadoutMLBackPack
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackPack
+
+- type: loadout
+  id: LoadoutMLBackSatchel
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackSatchel
+
+- type: loadout
+  id: LoadoutMLBackLeatherBackpack
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackLeatherBackpack
+
+- type: loadout
+  id: LoadoutMLBackLargePack
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackLargePack
+
+- type: loadout
+  id: LoadoutMLBackCivilprotection
+  category: Backpacks
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackCivilprotection
+
+- type: loadout
+  id: LoadoutMLBackMilitary
+  category: Backpacks
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackMilitary
+
+- type: loadout
+  id: LoadoutMLBackMilitaryDuffel
+  category: Backpacks
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackMilitaryDuffel
+
+- type: loadout
+  id: LoadoutMLBackCauterizerbag
+  category: Backpacks
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLBackCauterizerbag

@@ -55,6 +55,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieThrongler
   name: throngler plushie
@@ -71,6 +72,7 @@
       sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieGhost
   name: ghost soft toy
@@ -110,6 +112,7 @@
       minSpeed: 0.25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieGhost
   id: PlushieGhostRevenant
   name: revenant soft toy
@@ -127,6 +130,7 @@
       node: plushie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieBee
   name: bee plushie
@@ -162,6 +166,7 @@
     - HEAD
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieHampter
   name: hampter plushie
@@ -191,6 +196,7 @@
       path: /Audio/Items/Toys/mousesqueek.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieBee
   id: PlushieRGBee
   name: RGBee plushie
@@ -203,6 +209,7 @@
     layers: [ 0 ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieNuke
   name: nukie plushie
@@ -212,6 +219,7 @@
     state: plushie_nuke
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieRouny
   name: rouny plushie
@@ -222,6 +230,7 @@
   - type: Rotatable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieLamp
   name: lamp plushie
@@ -235,6 +244,7 @@
     netsync: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieArachind
   name: arachnid plushie
@@ -264,6 +274,7 @@
       path: /Audio/Voice/Arachnid/arachnid_laugh.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieLizard #Weh!
   name: lizard plushie
@@ -307,6 +318,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieLizard
   id: PlushieLizardMirrored
   components:
@@ -316,6 +328,7 @@
     state: plushie_lizard_mirrored
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieSpaceLizard #ᵂᵉʰ!
   name: space lizard plushie
@@ -359,6 +372,7 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieDiona
   name: diona plushie
@@ -434,6 +448,7 @@
       enabled: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieSharkBlue
   name: blue shark soft toy
@@ -451,6 +466,7 @@
       - Payload
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieSharkBlue
   id: PlushieSharkPink
   name: pink shark soft toy
@@ -467,6 +483,7 @@
       - Payload
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieSharkBlue
   id: PlushieSharkGrey
   name: grey shark soft toy
@@ -483,6 +500,7 @@
       - Payload
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieRatvar
   name: ratvar plushie
@@ -494,6 +512,7 @@
     state: plushie_ratvar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieNar
   name: nar'sie plushie
@@ -505,6 +524,7 @@
     state: narplush
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieCarp
   name: carp plushie
@@ -542,6 +562,7 @@
     - PlushieCarp # DeltaV - fish labeler craft
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieCarp
   id: PlushieMagicarp
   name: magicarp plushie
@@ -551,6 +572,7 @@
     state: magicplush
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieCarp
   id: PlushieRainbowCarp
   name: rainbow carp plushie
@@ -565,6 +587,7 @@
     layers: [ 0 ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieCarp
   id: PlushieHolocarp
   name: holocarp plushie
@@ -574,6 +597,7 @@
     state: holoplush
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieSlime
   name: slime plushie
@@ -583,6 +607,7 @@
     state: plushie_slime
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieSnake
   name: snake plushie
@@ -606,6 +631,7 @@
       path: /Audio/Items/Toys/rattle.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: ToyMouse
   name: mouse toy
@@ -635,6 +661,7 @@
     - HEAD
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: ToyRubberDuck
   name: rubber ducky
@@ -674,6 +701,7 @@
     - ToyRubberDuck
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieVox
   name: vox plushie
@@ -700,6 +728,7 @@
       path: /Audio/Voice/Vox/shriek1.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieAtmosian
   name: atmosian plushie
@@ -709,6 +738,7 @@
     state: plushie_atmosian
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieXeno
   name: xeno plushie
@@ -740,6 +770,7 @@
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushiePenguin
   name: penguin plushie
@@ -749,6 +780,7 @@
     state: plushie_penguin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieHuman
   name: human plushie
@@ -777,6 +809,7 @@
       path: /Audio/Voice/Human/malescream_5.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieArachne
   name: Arachne plushie
@@ -805,6 +838,7 @@
       path: /Audio/Voice/Human/femalescream_5.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieMoth
   name: moth plushie
@@ -836,6 +870,7 @@
       path: /Audio/Voice/Moth/moth_chitter.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieJester #Weh!
   name: jester plushie
@@ -846,6 +881,7 @@
     state: plushie_jester
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieSlips
   name: janitor plushie
@@ -896,6 +932,7 @@
         - ItemMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieGnome
   name: gnome plushie
@@ -906,6 +943,7 @@
     state: gnome
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieLoveable
   name: loveable plushie
@@ -916,6 +954,7 @@
     state: loveable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieDeer
   name: deer plushie
@@ -926,6 +965,7 @@
     state: deer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieIpc
   name: ipc plushie
@@ -936,6 +976,7 @@
     state: ipc
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieGrey
   name: grey plushie
@@ -946,6 +987,7 @@
     state: grey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieAbductor
   name: abductor plushie
@@ -956,6 +998,7 @@
     state: abductor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieAbductorAgent
   name: abductor agent plushie
@@ -966,6 +1009,7 @@
     state: abductor_agent
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieRedFox
   name: red fox plushie
@@ -976,6 +1020,7 @@
     state: red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushiePurpleFox
   name: purple fox plushie
@@ -986,6 +1031,7 @@
     state: purple
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushiePinkFox
   name: pink fox plushie
@@ -996,6 +1042,7 @@
     state: pink
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieOrangeFox
   name: orange fox plushie
@@ -1006,6 +1053,7 @@
     state: orange
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieMarbleFox
   name: marble fox plushie
@@ -1016,6 +1064,7 @@
     state: marble
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieCrimsonFox
   name: crimson fox plushie
@@ -1026,6 +1075,7 @@
     state: crimson
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieCoffeeFox
   name: coffee fox plushie
@@ -1036,6 +1086,7 @@
     state: coffee
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieBlueFox
   name: blue fox plushie
@@ -1046,6 +1097,7 @@
     state: blue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieBlackFox
   name: black fox plushie
@@ -1056,6 +1108,7 @@
     state: black
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieVulp
   name: vulpkanin plushie
@@ -1078,6 +1131,7 @@
       path: /Audio/DeltaV/Voice/Vulpkanin/dog_bark1.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieVulp
   id: PlushieTrystan
   name: office vulp plushie
@@ -1088,6 +1142,7 @@
     state: plushie_trystan
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieVulp
   id: PlushieCorgi
   name: corgi plushie
@@ -1098,6 +1153,7 @@
     state: corgi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieVulp
   id: PlushieGirlyCorgi
   name: girly corgi plushie
@@ -1107,6 +1163,7 @@
     state: girlycorgi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PlushieVulp
   id: PlushieRobotCorgi
   name: robot corgi plushie
@@ -1135,6 +1192,7 @@
       path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow1.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatBlack
   name: black cat plushie
@@ -1144,6 +1202,7 @@
     state: black
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatGrey
   name: grey cat plushie
@@ -1153,6 +1212,7 @@
     state: grey
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatOrange
   name: orange cat plushie
@@ -1162,6 +1222,7 @@
     state: orange
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatSiames
   name: siames cat plushie
@@ -1171,6 +1232,7 @@
     state: siames
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatTabby
   name: tabby cat plushie
@@ -1180,6 +1242,7 @@
     state: tabby
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatTuxedo
   name: tuxedo cat plushie
@@ -1189,6 +1252,7 @@
     state: tuxedo
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushieCat
   id: PlushieCatWhite
   name: white cat plushie
@@ -1218,6 +1282,7 @@
     - Figurine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineCheapo
   id: ToyAi
   name: AI toy
@@ -1227,6 +1292,7 @@
     state: AI
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineCheapo
   id: ToyNuke
   name: nuke toy
@@ -1259,6 +1325,7 @@
         maxDistance: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: ToyIan
   name: ian toy
@@ -1294,6 +1361,7 @@
     size: Normal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FoamWeaponBase
   id: FoamCrossbow
   name: foam crossbow
@@ -1335,6 +1403,7 @@
   - type: Sprite
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ToyGunBase
   id: RevolverCapGun
   name: cap gun
@@ -1378,6 +1447,7 @@
       revolver-ammo: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: RevolverCapGun
   id: RevolverCapGunFake
   name: cap gun
@@ -1394,6 +1464,7 @@
     proto: CartridgeMagnumAP
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: FoamBlade
   name: foamblade
@@ -1419,6 +1490,7 @@
 # MISC
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: Basketball
   name: basketball
@@ -1438,6 +1510,7 @@
     modifier: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: Football
   name: football
@@ -1452,6 +1525,7 @@
     heldPrefix: footb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BeachBall
   name: beach ball
@@ -1471,6 +1545,7 @@
     modifier: 0.05
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BalloonSyn
   name: syndie balloon
@@ -1490,6 +1565,7 @@
     - Balloon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BalloonNT
   name: nanotrasen balloon
@@ -1509,6 +1585,7 @@
     - Balloon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BalloonCorgi
   name: corgi balloon
@@ -1528,6 +1605,7 @@
     - Balloon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: SingularityToy
   name: singuloth-brand toy
@@ -1548,6 +1626,7 @@
     heldPrefix: singularitytoy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: TeslaToy
   name: Teddy Tesla
@@ -1574,6 +1653,7 @@
         volume: -10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PonderingOrb
   name: pondering orb
@@ -1594,6 +1674,7 @@
     modifier: 0.001
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: ToySword
   name: toy sword
@@ -1664,6 +1745,7 @@
           variation: 0.125
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: ToyAmongPequeno
   name: among pequeño
@@ -1681,6 +1763,7 @@
           base: Sixteen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: FoamCutlass
   name: foam cutlass
@@ -1702,6 +1785,7 @@
     sprite: Objects/Weapons/Melee/cutlass.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: ClownRecorder
   name: clown recorder
@@ -1727,6 +1811,7 @@
     - Payload
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: ToyHammer
   name: rubber hammer
@@ -1763,6 +1848,7 @@
           Blunt: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ToyHammer
   id: BwoinkHammer
   name: bwoink hammer
@@ -1791,6 +1877,7 @@
           Blunt: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: WhoopieCushion
   name: whoopie cushion
@@ -1856,6 +1943,7 @@
         - ItemMask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: banana
   parent: FoodProduceBase
   id: PlasticBanana
@@ -1879,6 +1967,7 @@
     - Banana
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: DrinkBase
   id: CrazyGlue
   name: crazy glue
@@ -1918,6 +2007,7 @@
       - DrinkSpaceGlue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: NewtonCradle
   name: newton cradle
@@ -1947,6 +2037,7 @@
 #        maxDistance: 3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: The Throngler
   parent: ToyHammer
   id: ThronglerToy
@@ -1975,6 +2066,7 @@
       malus: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieShadowkin
   name: shadowkin plushie
@@ -1985,6 +2077,7 @@
       state: shadowkin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieMort
   name: morty plushie
@@ -1995,6 +2088,7 @@
       state: mortplush
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BasePlushie
   id: PlushieHarpy
   name: harpy plushie

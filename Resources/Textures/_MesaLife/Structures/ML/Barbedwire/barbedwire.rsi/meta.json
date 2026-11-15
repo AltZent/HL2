@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "barbedwire_x_25",
+      "directions": 4
+    },
+    {
+      "name": "barbedwire_x",
+      "directions": 4
+    },
+    {
+      "name": "barbedwire_x_100",
+      "directions": 4
+    },
+    {
+      "name": "barbedwire_x_75",
+      "directions": 4
+    },
+    {
+      "name": "barbedwire_x_50",
+      "directions": 4
+    },
+    {
+      "name": "barbedwire_assembly"
+    }
+  ]
+}

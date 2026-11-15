@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14WeaponTurretBroken
   name: ballistic turret
@@ -31,6 +32,7 @@
                   max: 4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WeaponTurretBroken
   id: N14WeaponTurretMobileBroken
   components:
@@ -128,6 +130,7 @@
       context: "human"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretBrotherhoodMidwestSecureArea
   suffix: BOS Midwest, Hostile
@@ -137,6 +140,7 @@
     - BrotherhoodMidwestSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretBrotherhoodMidwest
   suffix: BOS Midwest
@@ -146,6 +150,7 @@
     - BrotherhoodMidwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretBrotherhoodWashingtonSecureArea
   suffix: BOS Washington, Hostile
@@ -155,6 +160,7 @@
     - BrotherhoodWashingtonSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretBrotherhoodWashington
   suffix: BOS Washington
@@ -164,6 +170,7 @@
     - BrotherhoodWashington
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretVaultSecureArea
   suffix: VaultSecureArea, Hostile
@@ -173,6 +180,7 @@
     - VaultSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretVault
   suffix: Vault, Hostile
@@ -182,6 +190,7 @@
     - Vault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretNCRSecureArea
   suffix: NCRSecureArea, Hostile
@@ -191,6 +200,7 @@
     - NCRSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretNCR
   suffix: NCR, Hostile
@@ -200,6 +210,7 @@
     - NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretCaravan
   suffix: CaravanCompany, Hostile
@@ -209,6 +220,7 @@
     - CaravanCompanySecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretRaider
   suffix: Raider, Hostile
@@ -218,6 +230,7 @@
     - Raider
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurret
   id: N14WeaponTurretRobot
   suffix: Robot, Hostile
@@ -285,6 +298,7 @@
           path: /Audio/Effects/double_beep.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurretMeta
   id: N14WeaponTurretBrotherhoodMidwestSpawnpoint
   suffix: BOS Midwest, Spawnpoint
@@ -294,6 +308,7 @@
     - BrotherhoodMidwestSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurretMeta
   id: N14WeaponTurretBrotherhoodWashingtonSpawnpoint
   suffix: BOS Washington, Spawnpoint
@@ -303,6 +318,7 @@
     - BrotherhoodWashingtonSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurretMeta
   id: N14WeaponTurretVaultSpawnpoint
   suffix: Vault, Spawnpoint
@@ -312,6 +328,7 @@
     - VaultSecureArea
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseWeaponTurretMeta
   id: N14WeaponTurretNCRSpawnpoint
   suffix: NCR, Spawnpoint

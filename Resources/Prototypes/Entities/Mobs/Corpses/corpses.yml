@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomServiceCorpse
   suffix: Dead, Service
@@ -18,6 +19,7 @@
       - MartialArtistGear # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomEngineerCorpse
   suffix: Dead, Engineer
@@ -29,6 +31,7 @@
     - StationEngineerGear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomCargoCorpse
   suffix: Dead, Logistics # DeltaV - Logistics Department replacing Cargo
@@ -41,6 +44,7 @@
     - CourierGear # DeltaV - Courier, see Resources/Prototypes/DeltaV/Roles/Jobs/Cargo/courier.yml
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomMedicCorpse
   suffix: Dead, Medic
@@ -53,6 +57,7 @@
     - DoctorGear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomScienceCorpse
   suffix: Dead, Epistemics # DeltaV - Epistemics Department replacing Science
@@ -78,6 +83,7 @@
     - WardenGear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SalvageHumanCorpse
   id: MobRandomCommandCorpse
   suffix: Dead, Command

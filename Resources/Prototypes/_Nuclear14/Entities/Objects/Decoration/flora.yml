@@ -59,6 +59,7 @@
   - type: Pullable
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraLogBase
   id: N14FloraLog1
   suffix: seat
@@ -70,6 +71,7 @@
     buckleOffset: "0,-0.05"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraLogBase
   id: N14FloraLogTimber
   name: timber
@@ -117,6 +119,7 @@
     size: Huge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FloraLogBase
   id: N14FloraLog3
   suffix: stash

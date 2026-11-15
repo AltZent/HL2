@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseCartridge
   id: CartridgeAntiMateriel
   name: cartridge (.60 anti-materiel)

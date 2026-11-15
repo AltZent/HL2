@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorEmitterPort
   name: PA port containment emitter
@@ -12,6 +13,7 @@
     graph: ParticleAcceleratorEmitterPort
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorEmitterFore
   name: PA fore containment emitter
@@ -25,6 +27,7 @@
     graph: ParticleAcceleratorEmitterFore
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorEmitterStarboard
   name: PA starboard containment emitter
@@ -40,6 +43,7 @@
 # Unfinished
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorEmitterPortUnfinished
   name: PA port containment emitter
@@ -52,6 +56,7 @@
     graph: ParticleAcceleratorEmitterPort
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorEmitterForeUnfinished
   name: PA fore containment emitter
@@ -64,6 +69,7 @@
     graph: ParticleAcceleratorEmitterFore
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorEmitterStarboardUnfinished
   name: PA starboard containment emitter

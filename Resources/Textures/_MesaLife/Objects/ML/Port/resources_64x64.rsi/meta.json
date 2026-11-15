@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "NODE"
+    },
+    {
+      "name": "node_off"
+    },
+    {
+      "name": "node_on"
+    },
+    {
+      "name": "OVERLAY_IDLE"
+    },
+    {
+      "name": "node_xeno",
+      "delays": [
+        [
+          0.8,
+          0.1,
+          0.3,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "node_marine",
+      "delays": [
+        [
+          2.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "UNUSED"
+    },
+    {
+      "name": "node_xeno_static"
+    },
+    {
+      "name": "node_marine_static"
+    },
+    {
+      "name": "node_combined_xeno",
+      "delays": [
+        [
+          0.8,
+          0.2,
+          0.3,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "node_combined_marine",
+      "delays": [
+        [
+          2.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "node_combined_xeno_static"
+    },
+    {
+      "name": "node_combined_marine_static"
+    }
+  ]
+}

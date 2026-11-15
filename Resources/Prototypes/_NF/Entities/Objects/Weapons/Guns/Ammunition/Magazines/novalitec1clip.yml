@@ -1,5 +1,6 @@
 # Empty mags
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMagazineRifle
   id: MagazineNovaliteC1Empty
   name: "clip (.20 rifle any)"
@@ -33,6 +34,7 @@
   - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1
   name: "clip (.20 rifle)"
@@ -48,6 +50,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1Rubber
   name: "clip (.20 rifle rubber)"

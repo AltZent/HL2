@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14WreckCoupe
   name: wrecked coupe
@@ -144,6 +145,7 @@
           missing: ""
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WreckCoupe
   id: N14WreckMusclecar
   name: wrecked muscle car
@@ -247,6 +249,7 @@
           missing: ""
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WreckCoupe
   id: N14WreckSportscar
   name: wrecked sports car
@@ -350,6 +353,7 @@
           missing: ""
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WreckCoupe
   id: N14WreckVan
   name: wrecked van

@@ -10,6 +10,7 @@
     sprite: Structures/Wallmounts/paintings.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingEmpty
   name: empty frame
@@ -19,6 +20,7 @@
     state: painting0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingMoony
   name: Abstract No.1
@@ -28,6 +30,7 @@
     state: painting1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingPersistenceOfMemory
   name: The Persistence of Memory
@@ -37,6 +40,7 @@
     state: painting2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingTheSonOfMan
   name: The Son of Man
@@ -46,6 +50,7 @@
     state: painting3
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingTheKiss
   name: The Kiss
@@ -55,6 +60,7 @@
     state: painting4
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingTheScream
   name: The Scream
@@ -64,6 +70,7 @@
     state: painting5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingTheGreatWave
   name: The Great Wave off Kanagawa
@@ -73,6 +80,7 @@
     state: painting6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingCafeTerraceAtNight
   name: Cafe Terrace at Night
@@ -82,6 +90,7 @@
     state: painting7
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingNightHawks
   name: Nighthawks
@@ -91,6 +100,7 @@
     state: painting8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingSkeletonCigarette
   name: Skull of a Skeleton with Burning Cigarette
@@ -100,6 +110,7 @@
     state: painting9
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingSkeletonBoof
   name: Skull of MLG Skeleton with Fat Boof
@@ -109,6 +120,7 @@
     state: painting10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingPrayerHands
   name: Study of the Hands of an Apostle
@@ -118,6 +130,7 @@
     state: painting11
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingOldGuitarist
   name: The Old Guitarist
@@ -127,6 +140,7 @@
     state: painting12
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingOlympia
   name: Olympia
@@ -136,6 +150,7 @@
     state: painting13
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingSaturn
   name: Saturn Devouring His Son
@@ -145,6 +160,7 @@
     state: painting14
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingSleepingGypsy
   name: The Sleeping Gypsy
@@ -154,6 +170,7 @@
     state: painting15
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingRedBlueYellow
   name: Composition with Red Blue and Yellow
@@ -163,6 +180,7 @@
     state: painting16
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingAmogusTriptych
   name: Amogus Triptych (Untitled.)
@@ -172,6 +190,7 @@
     state: painting17
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingHelloWorld
   name: Hello World
@@ -181,6 +200,7 @@
     state: painting18
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintingBase
   id: PaintingSadClown
   name: Sad Clown

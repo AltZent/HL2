@@ -35,6 +35,7 @@
         density: 1000
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseTallObstacle
   id: N14BarricadeWoodTall
   name: wooden barricade
@@ -68,6 +69,7 @@
         density: 1000
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseTallObstacle
   id: N14CellBars
   name: cell bars
@@ -79,6 +81,7 @@
     - Rattle
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CellBars
   id: N14CellBarsSlot
   suffix: slot
@@ -107,6 +110,7 @@
         density: 1000
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CellBars
   id: N14CellBarsCorner
   suffix: corner
@@ -136,6 +140,7 @@
         
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CellBars
   id: N14CellBarsRust
   name: cell bars
@@ -144,6 +149,7 @@
     state: bars_rust
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CellBarsSlot
   id: N14CellBarsSlotRust
   suffix: slot
@@ -152,6 +158,7 @@
     state: barsslot_rust
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14CellBarsCorner
   id: N14CellBarsCornerRust
   suffix: corner

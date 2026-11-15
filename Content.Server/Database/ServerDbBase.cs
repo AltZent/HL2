@@ -252,7 +252,9 @@ namespace Content.Server.Database
                 {
                     CustomName = l.CustomName, CustomDescription = l.CustomDescription,
                     CustomColorTint = l.CustomColorTint, CustomHeirloom = l.CustomHeirloom, Selected = true,
-                }).ToHashSet()
+                }).ToHashSet(),
+                profile.DetailExaminable ?? "",
+                profile.UniqueFeatures ?? ""
             );
         }
 
@@ -269,6 +271,8 @@ namespace Content.Server.Database
 
             profile.CharacterName = humanoid.Name;
             profile.FlavorText = humanoid.FlavorText;
+            profile.DetailExaminable = humanoid.DetailExaminable;
+            profile.UniqueFeatures = humanoid.UniqueFeatures;
             profile.Species = humanoid.Species;
             profile.CustomSpecieName = humanoid.Customspeciename;
             profile.Age = humanoid.Age;

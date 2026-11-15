@@ -236,9 +236,16 @@ public sealed partial class GunSystem : SharedGunSystem
                         MuzzleFlash(gunUid, cartridge, worldAngle, user);
                         Audio.PlayPredicted(gun.SoundGunshotModified, gunUid, user);
                         Recoil(user, direction, gun.CameraRecoilScalarModified);
-                        // TODO: Can't predict entity deletions.
-                        //if (cartridge.DeleteOnSpawn)
-                        //    Del(cartridge.Owner);
+
+                        // ML: caseless cartridges are deleted server-side right after firing
+                        // and deletions can't be predicted, so the spent round would visibly
+                        // flash at the shooter for a few ticks. Hide it locally until the
+                        // server deletion arrives.
+                        if (cartridge.DeleteOnSpawn &&
+                            EntityManager.TryGetComponent(ent!.Value, out SpriteComponent? caselessSprite))
+                        {
+                            caselessSprite.Visible = false;
+                        }
                     }
                     else
                     {

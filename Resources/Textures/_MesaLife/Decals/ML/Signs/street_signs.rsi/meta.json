@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "stop",
+      "directions": 4
+    },
+    {
+      "name": "noturn",
+      "directions": 4
+    },
+    {
+      "name": "noparking"
+    },
+    {
+      "name": "street"
+    },
+    {
+      "name": "direction",
+      "directions": 4
+    },
+    {
+      "name": "busstop"
+    },
+    {
+      "name": "railcrossing"
+    },
+    {
+      "name": "onlydir",
+      "directions": 4
+    },
+    {
+      "name": "speed",
+      "directions": 4
+    },
+    {
+      "name": "warnings",
+      "directions": 4
+    },
+    {
+      "name": "turn",
+      "directions": 8
+    },
+    {
+      "name": "Unused"
+    },
+    {
+      "name": "exit",
+      "directions": 4
+    },
+    {
+      "name": "nopedestrian"
+    },
+    {
+      "name": "merge"
+    },
+    {
+      "name": "snake"
+    }
+  ]
+}

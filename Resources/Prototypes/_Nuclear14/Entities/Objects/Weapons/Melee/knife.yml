@@ -37,6 +37,7 @@
     speed: 0.6
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: kitchen knife
   parent: N14BaseKnife
   id: N14KitchenKnife
@@ -64,6 +65,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: butcher's cleaver
   parent: N14BaseKnife
   id: N14ButchersCleaver
@@ -98,6 +100,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: combat knife
   parent: N14BaseKnife
   id: N14CombatKnife
@@ -129,6 +132,7 @@
     price: 30
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tribal knife
   parent: N14BaseKnife
   id: N14TribalKnife
@@ -175,6 +179,7 @@
     price: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brass Knife
   parent: [N14BaseKnife, N14CombatKnife]
   id: N14BrassKnife

@@ -1,5 +1,6 @@
 #MARK: Holotapes
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14Holotape
   name: holotape
@@ -11,6 +12,7 @@
     scale: 0.75, 0.75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Holotape
   id: N14HolotapeBlue
   name: blue holotape
@@ -19,6 +21,7 @@
     state: holotape_blue
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Holotape
   id: N14HolotapeEnclave
   name: enclave holotape
@@ -27,6 +30,7 @@
     state: holotape_enclave
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Holotape
   id: N14HolotapeGreen
   name: green holotape
@@ -35,6 +39,7 @@
     state: holotape_green
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Holotape
   id: N14HolotapeRed
   name: red holotape
@@ -43,6 +48,7 @@
     state: holotape_red
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Holotape
   id: N14HolotapeYellow
   name: yellow holotape
@@ -52,24 +58,28 @@
 
 #MARK: Holotapes for Objectives
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HolotapeYellow
   id: N14HolotapeQuestFusionplans # BoS / Town find objective
   name: fusion plans holotape
   description: A holotape containing plans for optimising fusion reactors.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HolotapeEnclave
   id: N14HolotapeQuestEnclaveplans # Enclave secure objective / NCR, BoS Find Objective
   name: enclave plans holotape
   description: A holotape containing plans for restoring America.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HolotapeGreen
   id: N14HolotapeQuestGECK
   name: GECK location holotape # Vault secure objective / Enclave, NCR, BoS Find Objective
   description: A holotape containing details on remaining G.E.C.K's.
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14HolotapeRed
   id: N14HolotapeQuestNCRplans
   name: NCR plans holotape # NCR secure objective

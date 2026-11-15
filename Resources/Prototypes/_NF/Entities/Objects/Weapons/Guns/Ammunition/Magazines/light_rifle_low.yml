@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineLightRifleLowCapacityEmpty
   name: "low cap magazine (.30 rifle any)"
   suffix: empty
@@ -18,6 +19,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineLightRifleLowCapacity
   name: "low cap magazine (.30 rifle)"
   parent: BaseMagazineLightRifle
@@ -36,6 +38,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineLightRifleLowCapacityPractice
   name: "low cap magazine (.30 rifle practice)"
   parent: MagazineLightRifleLowCapacity
@@ -53,6 +56,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineLightRifleLowCapacityRubber
   name: "low cap magazine (.30 rifle rubber)"
   parent: MagazineLightRifleLowCapacity
@@ -70,6 +74,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MagazineLightRifleLowCapacityUranium
   name: "low cap magazine (.30 rifle uranium)"
   parent: MagazineLightRifleLowCapacity

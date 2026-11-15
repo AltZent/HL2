@@ -1,6 +1,7 @@
 using System.Numerics;
 using System.Collections.Generic;
 using Content.Shared.Body.Systems;
+using Content.Shared.Armor;
 using Content.Shared.Damage;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Effects;
@@ -12,6 +13,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Popups;
 using Content.Shared._Shitmed.Targeting;
+using Content.Shared.Inventory;
 using Content.Shared.Throwing;
 using Content.Shared.Weapons.Ranged.Systems;
 using Content.Shared.Camera;
@@ -27,6 +29,7 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Maths;
 using Robust.Shared.Player;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
@@ -37,6 +40,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     public const string ProjectileFixture = "projectile";
 
     [Dependency] private readonly INetManager _netManager = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
@@ -50,6 +54,8 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
     [Dependency] private readonly SharedGunSystem _guns = default!;
     [Dependency] private readonly SharedCameraRecoilSystem _sharedCameraRecoil = default!;
+    [Dependency] private readonly EntityLookupSystem _lookup = default!;
+    [Dependency] private readonly InventorySystem _inventory = default!;
 
     public override void Initialize()
     {
@@ -246,9 +252,19 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         var coordinates = Transform(projectile).Coordinates;
         var otherName = ToPrettyString(target);
         var direction = ourBody.LinearVelocity.Normalized();
+
+        // ML: positional hit zones - decide which body part the projectile actually struck
+        // from its height over the target, instead of always using the shooter's doll selection.
+        TargetBodyPart? hitPart = null;
+        if (_netManager.IsServer && TryComp<TargetingComponent>(target, out _))
+            hitPart = ComputeHitPart(uid, target, component);
+
+        // ML: armor penetration check - scale damage when the projectile fails to punch through armor.
+        var finalDamage = MLPenetration.ApplyPenetration(ev.Damage, uid, target, hitPart, EntityManager, _inventory, _prototypeManager);
+
         var modifiedDamage = _netManager.IsServer
-            ? _damageableSystem.TryChangeDamage(target, ev.Damage, component.IgnoreResistances, origin: component.Shooter)
-            : new DamageSpecifier(ev.Damage);
+            ? _damageableSystem.TryChangeDamage(target, finalDamage, component.IgnoreResistances, origin: component.Shooter, targetPart: hitPart)
+            : new DamageSpecifier(finalDamage);
         var deleted = Deleted(target);
 
         var filter = Filter.Pvs(coordinates, entityMan: EntityManager);
@@ -298,6 +314,43 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             else
                 RaiseLocalEvent(impactEffectEv);
         }
+    }
+
+    /// <summary>
+    ///     ML: resolves the body part struck by a projectile from geometry.
+    ///     Uses the projectile's height over the target (calibrated by the target's
+    ///     collision size), the shooter's doll selection as an aim bias that fades
+    ///     with distance, and small random scatter.
+    /// </summary>
+    private TargetBodyPart? ComputeHitPart(EntityUid projectile, EntityUid target, ProjectileComponent component)
+    {
+        var aabb = _lookup.GetWorldAABB(target);
+        if (aabb.Height <= 0f)
+            return null;
+
+        var projPos = _transform.GetWorldPosition(projectile);
+
+        // Canonical span estimate: most mob fixtures are much smaller than their sprite.
+        var span = Math.Clamp(aabb.Height * 2.6f, 0.9f, 2.6f);
+        // Base 0.62 instead of the naive 0.5: gun muzzles sit noticeably below the
+        // sprite AABB center (hands + gear), which dragged every hit into the legs
+        // band. The offset re-centers torso-height impacts in the torso band.
+        var rel = Math.Clamp(0.62f + (projPos.Y - aabb.Center.Y) / span, 0f, 1f);
+
+        var aimed = TargetBodyPart.Torso;
+        if (component.Shooter is { } shooter && TryComp<TargetingComponent>(shooter, out var targeting))
+            aimed = targeting.Target;
+
+        var aimScale = 0f;
+        var source = component.Weapon ?? component.Shooter;
+        if (source is { } src && EntityManager.EntityExists(src))
+        {
+            var dist = (_transform.GetWorldPosition(target) - _transform.GetWorldPosition(src)).Length();
+            aimScale = MLHitZones.GetAimScale(dist);
+        }
+
+        var rand = new System.Random((int) _timing.CurTick.Value);
+        return MLHitZones.ResolveHitPart(rel, aimed, aimScale, rand);
     }
 
     private void PreventCollision(EntityUid uid, ProjectileComponent component, ref PreventCollideEvent args)

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSign
   id: N14ChalkboardWall
   name: Chalkboard
@@ -37,6 +38,7 @@
     - Wooden
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall1
   suffix: gecko
@@ -45,6 +47,7 @@
     state: board_mess1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall2
   suffix: raders
@@ -53,6 +56,7 @@
     state: board_mess2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall3
   suffix: poop haha
@@ -61,6 +65,7 @@
     state: board_mess3
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall4
   suffix: bandits
@@ -69,6 +74,7 @@
     state: board_mess4
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall5
   suffix: heart
@@ -77,6 +83,7 @@
     state: board_mess5
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall6
   suffix: interstate
@@ -85,6 +92,7 @@
     state: board_mess6
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall7
   suffix: guns
@@ -93,6 +101,7 @@
     state: board_text1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall8
   suffix: booze
@@ -101,6 +110,7 @@
     state: board_text2
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall9
   suffix: grub
@@ -109,6 +119,7 @@
     state: board_text3
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall10
   suffix: food
@@ -117,6 +128,7 @@
     state: board_text4
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall11
   suffix: shop
@@ -125,6 +137,7 @@
     state: board_text5
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall12
   suffix: trade
@@ -133,6 +146,7 @@
     state: board_text6
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall13
   suffix: chems
@@ -141,6 +155,7 @@
     state: board_text7
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall14
   suffix: junk scrap
@@ -149,6 +164,7 @@
     state: board_text8
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChalkboardWall
   id: N14ChalkboardWall15
   suffix: meds

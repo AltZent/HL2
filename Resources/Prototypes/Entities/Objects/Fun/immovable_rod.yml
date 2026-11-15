@@ -34,6 +34,7 @@
     location: immovable rod
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ImmovableRodDespawn
   suffix: Despawn
   parent: ImmovableRod
@@ -42,6 +43,7 @@
     lifetime: 30.0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ImmovableRodSlow
   parent: ImmovableRodDespawn
   suffix: Slow
@@ -51,6 +53,7 @@
     maxSpeed: 5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ImmovableRodDespawn
   id: ImmovableRodKeepTiles
   suffix: Keep Tiles
@@ -61,6 +64,7 @@
 
 # For Wizard Polymorph
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ImmovableRod
   id: ImmovableRodWizard
   suffix: Wizard
@@ -87,6 +91,7 @@
   - type: NoSlip
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ImmovableRodKeepTiles
   id: ImmovableRodKeepTilesStill
   suffix: Keep Tiles, Still

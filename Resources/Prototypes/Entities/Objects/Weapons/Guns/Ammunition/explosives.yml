@@ -1,6 +1,7 @@
 # Rockets
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRocket
   name: PG-7VL grenade
   parent: BaseItem
@@ -21,6 +22,7 @@
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CartridgeRocketSlow
   name: PG-7VL grenade "Snail-Rocket"
   parent: BaseItem
@@ -43,6 +45,7 @@
 # Grenades
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseGrenade
   name: base grenade
   parent: BaseItem
@@ -56,6 +59,7 @@
   - type: Sprite
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GrenadeBaton
   name: baton grenade
   parent: BaseGrenade
@@ -73,6 +77,7 @@
     suffix: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GrenadeBlast
   name: blast grenade
   parent: BaseGrenade
@@ -90,6 +95,7 @@
     suffix: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GrenadeFlash
   name: flash grenade
   parent: BaseGrenade
@@ -107,6 +113,7 @@
     suffix: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GrenadeFrag
   name: frag grenade
   parent: BaseGrenade
@@ -124,6 +131,7 @@
     suffix: false
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: GrenadeEMP
   name: EMP grenade
   parent: BaseGrenade
@@ -143,6 +151,7 @@
 # Cannon Balls
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseCannonBall
   name: base cannon ball
   parent: BaseItem
@@ -156,6 +165,7 @@
   - type: Sprite
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CannonBall
   name: cannonball
   suffix: Pirate
@@ -169,6 +179,7 @@
     state: ball
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CannonBallGrapeshot
   name: grapeshot
   suffix: Pirate
@@ -182,6 +193,7 @@
     state: grapeshot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: CannonBallGlassshot
   name: glassshot
   suffix: Pirate

@@ -57,6 +57,7 @@
                 collection: MetalBreak
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallmountFireHydrantOpen
   parent: N14WallmountFireHydrant
   suffix: Open
@@ -69,6 +70,7 @@
     closedState: closed
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallmountFireHydrant
   id: N14WallmountFireHydrantOld
   components:
@@ -84,6 +86,7 @@
         visible: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WallmountFireHydrantOld
   id: N14WallmountFireHydrantOldOpen
   suffix: Open

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeatBase
   id: FitnessWeightsBench1
   name: weights bench
@@ -14,6 +15,7 @@
     state: fitnessweight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FitnessWeightsBench1
   id: FitnessWeightLifter
   name: weight lifter
@@ -30,6 +32,7 @@
 #TriggerOnCollide ?
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FitnessPunchingBagBopClown
   parent: BaseStructure
   name: clown bop bag
@@ -40,6 +43,7 @@
     state: bopbag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FitnessPunchingBag
   parent: BaseStructure
   name: punching bag
@@ -50,6 +54,7 @@
     state: punchingbag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FitnessPunchingBagCaptain
   parent: FitnessPunchingBag
   suffix: captain
@@ -60,6 +65,7 @@
     state: punchingbagcaptain
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FitnessPunchingBagSyndicate
   parent: FitnessPunchingBag
   suffix: syndicate
@@ -70,6 +76,7 @@
     state: punchingbagsyndie
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: FitnessPunchingBagWizard
   parent: FitnessPunchingBag
   suffix: wizard

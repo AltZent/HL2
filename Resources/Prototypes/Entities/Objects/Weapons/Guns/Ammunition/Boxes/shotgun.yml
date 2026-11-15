@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BaseAmmoProvider
   abstract: true
@@ -12,6 +13,7 @@
     sprite: Objects/Storage/boxes.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseAmmoProvider
   id: AmmoProviderShotgunShell
   abstract: true
@@ -25,6 +27,7 @@
 
 # Shotgun Shells
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun beanbag cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
@@ -38,6 +41,7 @@
         - state: shellbeanbag
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun lethal cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
@@ -51,6 +55,7 @@
         - state: shelllethal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun slug cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
@@ -64,6 +69,7 @@
         - state: shellslug
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun flare cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
@@ -77,6 +83,7 @@
         - state: shellflare
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun incendiary cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
@@ -90,6 +97,7 @@
         - state: shellincendiary
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun uranium cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
@@ -103,6 +111,7 @@
         - state: shelluranium
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shotgun practice cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
@@ -116,6 +125,7 @@
         - state: shellpractice
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: tranquilizer cartridges dispenser
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer

@@ -1,0 +1,27 @@
+
+ent-CartridgeML9mmUSP = Патрон (9мм)
+ent-CartridgeML9mmMakeshift = Патрон (9мм самодельный)
+ent-CartridgeML9mmAP = Патрон (9мм бронебойный)
+ent-CartridgeML9mmRubber = Патрон (9мм резиновый)
+ent-CartridgeML9mmTranq = Патрон (9мм транк)
+ent-CartridgeML46mm = Патрон (4.6x30мм)
+ent-CartridgeML46mmRubber = Патрон (4.6x30мм резиновый)
+ent-CartridgeML556 = Патрон (5.56мм)
+ent-CartridgeML762 = Патрон (7.62мм)
+ent-CartridgeML762RPD = Патрон (7.62мм пулемётный)
+ent-CartridgeML762HighVeloc = Патрон (7.62мм высокоскоростной)
+ent-CartridgeML357 = Патрон (.357)
+ent-CartridgeML357AP = Патрон (.357 бронебойный)
+ent-CartridgeML38 = Патрон (.38)
+ent-ShellMLBuckshot = Патрон 12-го калибра (картечь)
+ent-ShellMLBeanbag = Патрон 12-го калибра (резиновый мешочек)
+ent-ShellMLAntixen = Патрон 16-го калибра (анти-ксен)
+ent-ShellMLPulse = Патрон 12-го калибра (пульс)
+ent-ShellMLMining = Патрон 16-го калибра (шахтёрский снаряд)
+ent-CartridgeMLPulseAR2 = Пульс-снаряд OSIPR
+ent-CartridgeMLPulseSMG = Пульс-снаряд ПП
+ent-CartridgeMLPulseLMG = Пульс-снаряд пулемёта
+ent-CartridgeMLPulseSniper = Пульс-снаряд снайперской винтовки
+ent-CartridgeML20mm = Граната 20мм
+ent-CartridgeMLDarkEnergy = Шар тёмной энергии
+ent-CartridgeMLRocket = Фугасная ракета

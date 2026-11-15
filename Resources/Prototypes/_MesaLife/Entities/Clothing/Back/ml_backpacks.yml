@@ -1,0 +1,121 @@
+# Auto-generated ML backpack (halflife-episode13 assets).
+- type: entity
+  id: MLBackSack
+  parent: ClothingBackpack
+  name: "backpack (sack)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: sack
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: sack
+- type: entity
+  id: MLBackRadiopack
+  parent: ClothingBackpack
+  name: "backpack (radiopack)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: radiopack
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: radiopack
+- type: entity
+  id: MLBackPack
+  parent: ClothingBackpack
+  name: "backpack (pack)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: pack
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: pack
+- type: entity
+  id: MLBackSatchel
+  parent: ClothingBackpack
+  name: "backpack (satchel)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: satchel
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: satchel
+- type: entity
+  id: MLBackLeatherBackpack
+  parent: ClothingBackpack
+  name: "backpack (leather-backpack)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: leather_backpack
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: leather_backpack
+- type: entity
+  id: MLBackLargePack
+  parent: ClothingBackpack
+  name: "backpack (large-pack)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: large_pack
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: large_pack
+- type: entity
+  id: MLBackCivilprotection
+  parent: ClothingBackpack
+  name: "backpack (civilprotection)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: civilprotection
+- type: entity
+  id: MLBackMilitary
+  parent: ClothingBackpack
+  name: "backpack (military)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: military
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: military
+- type: entity
+  id: MLBackMilitaryDuffel
+  parent: ClothingBackpack
+  name: "backpack (military-duffel)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: military_duffel
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: military_duffel
+- type: entity
+  id: MLBackCauterizerbag
+  parent: ClothingBackpack
+  name: "backpack (cauterizerbag)"
+  description: "Half-Life: Episode 13 backpack."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/backpack.rsi
+    state: cauterizerbag
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/back.rsi
+    equippedState: cauterizerbag

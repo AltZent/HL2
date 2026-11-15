@@ -102,6 +102,7 @@
       stealGroup: Teg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TegCirculator
   name: circulator
   description: Passes gas through the thermo-electric generator to exchange heat. Has an inlet and outlet port.

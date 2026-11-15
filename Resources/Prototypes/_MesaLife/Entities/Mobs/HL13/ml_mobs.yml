@@ -1,0 +1,1385 @@
+# Auto-generated ML creature mobs (halflife-episode13 assets).
+# Template: vanilla SimpleMobBase + MobCombat. Stats from ML DM code.
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHeadcrab
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Headcrab"
+  description: "A parasitic headcrab."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.6
+    baseSprintSpeed: 4.16
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: headcrab
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: headcrab
+      Dead:
+        Base: headcrab_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      30: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 10
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHeadcrabArmored
+  components:
+  - type: MLArmor
+    rating: 0.5
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.6
+    baseSprintSpeed: 4.16
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: armoredheadcrab
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: armoredheadcrab
+      Dead:
+        Base: armoredheadcrab_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 10
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHeadcrabFast
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fast Headcrab"
+  description: "A quick, lanky headcrab. It scuttles rapidly towards prey, leaping at their heads."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.5
+    baseSprintSpeed: 8.8
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fastcrab
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fastcrab
+      Dead:
+        Base: fastcrab_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      20: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 10
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHeadcrabPoison
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Poison Headcrab"
+  description: "An extra large and dark headcrab, with pronounced fangs."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.6
+    baseSprintSpeed: 4.16
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: poisonheadcrab
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: poisonheadcrab
+      Dead:
+        Base: poisonheadcrab_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      45: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/poison/ph_poisonbite.ogg
+    damage:
+      groups:
+        Brute: 10
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHeadcrabBaby
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Baby Headcrab"
+  description: "A tiny parasitic headcrab."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.0
+    baseSprintSpeed: 8.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: babycrab
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: babycrab
+      Dead:
+        Base: babycrab_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      15: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 8
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombie
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Zombie"
+  description: "The shambling husk of something that was once human, now parasitized by a headcrab and twisted into a terrible monster."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.4
+    baseSprintSpeed: 3.84
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: zombie
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: zombie
+      Dead:
+        Base: zombie_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombine
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Zombine"
+  description: "A shambling combine soldier, taken over by a parasitic head crab. Capable of running and is heavily armored."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.6
+    baseSprintSpeed: 4.16
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: zombine
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: zombine
+      Dead:
+        Base: zombine_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      140: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombineattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombineElite
+  components:
+  - type: MLArmor
+    rating: 0.4
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.6
+    baseSprintSpeed: 4.16
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: elite
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: elite
+      Dead:
+        Base: elite_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombineattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieFast
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fast Zombie"
+  description: "A terrifying skinless creature with visible bones that is puppeted by a headcrab."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.5
+    baseSprintSpeed: 8.8
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fastzombie
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fastzombie
+      Dead:
+        Base: fastzombie_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      64: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/fastzombie/fastzombieattack.ogg
+    damage:
+      groups:
+        Brute: 8
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombiePoison
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Poison Zombie"
+  description: "A bloated, foul shell of something once human. A colony of parasitic poison headcrabs have taken control of them."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 4.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: poisonzombie
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: poisonzombie
+      Dead:
+        Base: poisonzombie_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieFungal
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fungal Zombie"
+  description: "A shambling humanoid figure hosting a colony of fungal growths upon its flesh. The rounded plating looks like it will make it hard to shoot at them, melee might be a better approach."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.4
+    baseSprintSpeed: 3.84
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fungalzombie
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fungalzombie
+      Dead:
+        Base: fungalzombie_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      140: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobProtoGonome
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fungal Proto-Gonome"
+  description: "A shambling humanoid figure hosting a colony of fungal growths upon its flesh. The rounded plating looks like it will make it hard to shoot at them, melee might be a better approach. This one has a wide maw capable of dangerous expulsions."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.4
+    baseSprintSpeed: 3.84
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: protogonome
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: protogonome
+      Dead:
+        Base: protogonome_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      140: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobGonomeWeak
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Gestating Fungal Gonome"
+  description: "A rapidly developing abomination of flesh and fungus. New pieces grow on it in real time. It must be stopped before it finishes this process."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 4.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_tall.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: weakgonome
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: weakgonome
+      Dead:
+        Base: gonome_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      350: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/gonome/attack_player.ogg
+    damage:
+      groups:
+        Brute: 30
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobGonome
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fungal Gonome"
+  description: "A massive, grotesque abomination of flesh and fungas. A horror, which should not be."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.0
+    baseSprintSpeed: 4.8
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_tall.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: gonome
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: gonome
+      Dead:
+        Base: gonome_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      425: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/gonome/attack_player.ogg
+    damage:
+      groups:
+        Brute: 32
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieGrunt
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Zombified Grunt"
+  description: "A mobile zombie which has speed rivalling that of a fast zombie, without the frailty."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.2
+    baseSprintSpeed: 5.12
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: grunt
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: grunt
+      Dead:
+        Base: grunt_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombineattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieEngineer
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Zombified Engineer"
+  description: "An espescially slow moving husk, draped in CWU Engineer garb. While it is weighed down, it looks more dangerous than it's kin, perhaps it is best outran instead?"
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.2
+    baseSprintSpeed: 3.52
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: engineer
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: engineer
+      Dead:
+        Base: engineer_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      120: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 22
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieICU
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Zombified ICU Worker"
+  description: "A former worker of the Infestation Control Union, who succumbed to a parasitic headcrab. It's apparel looks pretty fire and burn resistant."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.4
+    baseSprintSpeed: 3.84
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: infestationcontrol
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: infestationcontrol
+      Dead:
+        Base: infestationcontrol_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      120: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombieattack.ogg
+    damage:
+      groups:
+        Brute: 19
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieCremator
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Cremator Zombie"
+  description: "A shambling cremator that has been overtaken by a poison headcrab. The fuel canister it is carrying on its back looks highly volatile, be careful where and how you kill this beast..."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.2
+    baseSprintSpeed: 3.52
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_tall.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: crematorzombie
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: crematorzombie
+      Dead:
+        Base: crematorzombie_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      64: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/zombineattack.ogg
+    damage:
+      groups:
+        Brute: 21
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobZombieLurker
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Lurker Zombie"
+  description: "An extremely pale, abnormal looking human, wearing what looks like to be part of a prisoners uniform. It is controlled by a poison headcrab, and seems to physically recoil at light..."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.5
+    baseSprintSpeed: 8.8
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_tall.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: lurker
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: lurker
+      Dead:
+        Base: lurker_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      125: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/fastzombie/fastzombieattack.ogg
+    damage:
+      groups:
+        Brute: 15
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobAntlion
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Antlion"
+  description: "A large green bug filled to the brim with razer sharp armaments."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.0
+    baseSprintSpeed: 8.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: antlion
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: antlion
+      Dead:
+        Base: antlion_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/antlion/attack_single1.ogg
+    damage:
+      groups:
+        Brute: 13
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobAntlionWorker
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Antlion Worker"
+  description: "A large, fluorescent green antlion. Surrounding it is a foul stench of acid."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.5
+    baseSprintSpeed: 5.6
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: antlionworker
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: antlionworker
+      Dead:
+        Base: antlionworker_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/antlion/attack_single1.ogg
+    damage:
+      groups:
+        Brute: 10
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobAntlionGuard
+  components:
+  - type: MLArmor
+    rating: 0.5
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.0
+    baseSprintSpeed: 4.8
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: guard
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: guard
+      Dead:
+        Base: guard_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      600: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/antlion_guard/shove1.ogg
+    damage:
+      groups:
+        Brute: 37
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobAntlionGuardian
+  components:
+  - type: MLArmor
+    rating: 0.6
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.3
+    baseSprintSpeed: 5.28
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: guardian
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: guardian
+      Dead:
+        Base: guardian_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      800: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/antlion_guard/shove1.ogg
+    damage:
+      groups:
+        Brute: 42
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobBullsquid
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Bullsquid"
+  description: "A large alien creature that somewhat resembles a malformed squid with legs. It has a massive mouth filled with razor sharp teeth that have acid dripping on them."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.3
+    baseSprintSpeed: 5.28
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: bullsquid
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: bullsquid
+      Dead:
+        Base: bullsquid_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      225: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/bullsquid/attackgrowl3.ogg
+    damage:
+      groups:
+        Brute: 23
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobBullsquidBlue
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Blue Bullsquid"
+  description: "A large alien creature that somewhat resembles a malformed squid with legs. It has a massive mouth filled with razor sharp teeth that have acid dripping on them. This one has dangerous looking blue markings on it..."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.3
+    baseSprintSpeed: 5.28
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: bullsquid_blue
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: bullsquid_blue
+      Dead:
+        Base: bullsquid_blue_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      225: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/bullsquid/attackgrowl3.ogg
+    damage:
+      groups:
+        Brute: 23
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobBullsquidFanged
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Fanged Bullsquid"
+  description: "A large alien creature that somewhat resembles a malformed squid with legs. It has a massive mouth filled with razor sharp teeth that have acid dripping on them. This one has additional fangs about its mouth."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.3
+    baseSprintSpeed: 5.28
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: bullsquid_fanged
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: bullsquid_fanged
+      Dead:
+        Base: bullsquid_fanged_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      225: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/bullsquid/attackgrowl3.ogg
+    damage:
+      groups:
+        Brute: 27
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobBullsquidChicken
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Chicken Bullsquid"
+  description: "A large alien creature that somewhat resembles a malformed squid with legs. It has a massive mouth filled with razor sharp teeth that have acid dripping on them. This one has a sickly, pale look about it, with a slim but agile build."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.6
+    baseSprintSpeed: 5.76
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: bullsquid_chicken
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: bullsquid_chicken
+      Dead:
+        Base: bullsquid_chicken_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      175: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/bullsquid/attackgrowl3.ogg
+    damage:
+      groups:
+        Brute: 23
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobChumtoad
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Chumtoad"
+  description: "A little purple critter. It seems docile enough."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.0
+    baseSprintSpeed: 3.2
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: chumtoad
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: chumtoad
+      Dead:
+        Base: chumtoad_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      15: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 5
+  - type: NpcFactionMember
+    factions:
+    - SimpleNeutral
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobGrub
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Antlion Grub"
+  description: "A large maggot filled with a green, glowing mass."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.0
+    baseSprintSpeed: 3.2
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: grub
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: grub
+      Dead:
+        Base: grub_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      12: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/headcrabbite.ogg
+    damage:
+      groups:
+        Brute: 5
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobBarnacle
+  parent: [ SimpleMobBase, MobCombat ]
+  name: "Barnacle"
+  description: "A large mass of flesh on the ceiling, with a gaping mouth filled with teeth. A tongue trails down from it, ready to snatch onto passerbys."
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 0.0
+    baseSprintSpeed: 0.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/barnacle.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: barnacle_tongue_down_idle
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: barnacle_tongue_down_idle
+      Dead:
+        Base: barnacle_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      60: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/barnacle/attack.ogg
+    damage:
+      groups:
+        Brute: 32
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobGonarch
+  components:
+  - type: MLArmor
+    rating: 0.6
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 4.0
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/gonarch.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: gonarch
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: gonarch
+      Dead:
+        Base: gonarch_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      1200: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/gonarch/attack.ogg
+    damage:
+      groups:
+        Brute: 25
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobHunter
+  components:
+  - type: MLArmor
+    rating: 0.7
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4.5
+    baseSprintSpeed: 7.2
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_tall.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: hunter
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: hunter
+      Dead:
+        Base: hunter_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      325: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/hunter/hunter_skewer1.ogg
+    damage:
+      groups:
+        Brute: 22
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobAdvisor
+  components:
+  - type: MLArmor
+    rating: 0.9
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.7
+    baseSprintSpeed: 5.92
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife_large.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: advisor
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: advisor
+      Dead:
+        Base: advisor_dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/hunter/hunter_skewer1.ogg
+    damage:
+      groups:
+        Brute: 22
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+- type: entity
+  categories: [ HideSpawnMenu ]
+  id: MLMobViscerator
+  parent: [ SimpleSpaceMobBase, MobCombat ]
+  components:
+  - type: MLArmor
+    rating: 0.4
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.0
+    baseSprintSpeed: 5.0
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30
+        density: 80
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _MesaLife/Mobs/ML/halflife.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: manhack_light
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: manhack_light
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      60: Dead
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcSlash
+    soundHit:
+      path: /Audio/_MesaLife/ML/creatures/viscerator/grind_flesh1.ogg
+    damage:
+      types:
+        Slash: 16
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: PointLight
+    radius: 1.8
+    energy: 1.4
+    color: "#86c2ff"
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 60
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metal_break3.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MLScrapMetal:
+            min: 1
+            max: 2
+          MLScrapParts:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

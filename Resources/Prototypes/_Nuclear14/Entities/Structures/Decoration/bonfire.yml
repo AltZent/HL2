@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Bonfire
   id: N14Bonfire
   components:

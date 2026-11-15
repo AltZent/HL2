@@ -136,6 +136,7 @@
           collection: WoodDestroyHeavy
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallAdobeSlantedIndestructible
   name: adobe wall
@@ -149,12 +150,14 @@
     base: slantedadobe
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallAdobeSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallAdobeSlanted
   name: adobe wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallBrickSlantedIndestructible
   name: brick wall
@@ -168,12 +171,14 @@
     base: slantedbrick
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallBrickSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallBrickSlanted
   name: brick wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallBrickAltSlantedIndestructible
   name: brick wall
@@ -187,12 +192,14 @@
     base: slantedbrickalt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallBrickAltSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallBrickAltSlanted
   name: brick wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallBrickGraySlantedIndestructible
   name: brick wall
@@ -206,12 +213,14 @@
     base: slantedbrickgray
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallBrickGraySlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallBrickGraySlanted
   name: brick wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallBunkerSlantedIndestructible
   name: bunker wall
@@ -225,12 +234,14 @@
     base: slantedbunker
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallBunkerSlantedIndestructible, N14BaseWallSlantedMetalStrong ]
   id: N14WallBunkerSlanted
   name: bunker wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallCombSlantedIndestructible
   name: comb wall
@@ -244,12 +255,14 @@
     base: slantedcomb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallCombSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallCombSlanted
   name: comb wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallConcreteSlantedIndestructible
   name: concrete wall
@@ -263,12 +276,14 @@
     base: slantedconcrete
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallCombSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallConcreteSlanted
   name: concrete wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallConcreteAltSlantedIndestructible
   name: concrete wall
@@ -282,12 +297,14 @@
     base: slantedconcretealt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallConcreteAltSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallConcreteAltSlanted
   name: concrete wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallDungeonSlantedIndestructible
   name: dungeon wall
@@ -301,12 +318,14 @@
     base: slanteddungeon
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallDungeonSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallDungeonSlanted
   name: dungeon wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallDungeonAltSlantedIndestructible
   name: dungeon wall
@@ -320,12 +339,14 @@
     base: slanteddungeonalt
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallDungeonAltSlantedIndestructible, N14BaseWallSlanted ]
   id: N14WallDungeonAltSlanted
   name: dungeon wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallMetalSlantedIndestructible
   name: metal wall
@@ -339,12 +360,14 @@
     base: slantedmetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallMetalSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallMetalSlanted
   name: metal wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallPrisonSlantedIndestructible
   name: prison wall
@@ -358,12 +381,14 @@
     base: slantedprison
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallPrisonSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallPrisonSlanted
   name: prison wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallReinfMetalSlantedIndestructible
   name: reinforced metal wall
@@ -377,12 +402,14 @@
     base: slantedreinfmetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallReinfMetalSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallReinfMetalSlanted
   name: reinforced metal wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallRockSlantedIndestructible
   name: rock wall
@@ -396,6 +423,7 @@
     base: slantedrock
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallRockSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallRockSlanted
   name: rock wall
@@ -419,6 +447,7 @@
             acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallRockDroughtSlantedIndestructible
   name: drought rock wall
@@ -432,6 +461,7 @@
     base: slantedrockdrought
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallRockDroughtSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallRockDroughtSlanted
   name: rock wall
@@ -455,6 +485,7 @@
             acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallRockMammothSlantedIndestructible
   name: mammoth rock wall
@@ -468,6 +499,7 @@
     base: slantedrockmammoth
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallRockMammothSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallRockMammothSlanted
   name: rock wall
@@ -491,6 +523,7 @@
             acts: ["Destruction"]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallRoughScrapSlantedIndestructible
   name: rough scrap wall
@@ -504,6 +537,7 @@
     base: slantedroughscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallRoughScrapSlantedIndestructible, N14BaseWallSlantedMetalWeak ]
   id: N14WallRoughScrapSlanted
   name: rough scrap wall
@@ -514,6 +548,7 @@
     node: RoughScrapWall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallIndustrialRustSlantedIndestructible
   name: industrial rust wall
@@ -527,12 +562,14 @@
     base: slantedrustindustrial
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallIndustrialRustSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallIndustrialRustSlanted
   name: industrial rust wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallMetalRustSlantedIndestructible
   name: metal rust wall
@@ -546,12 +583,14 @@
     base: slantedrustmetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallMetalRustSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallMetalRustSlantedSlanted
   name: metal rust wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallReinfMetalRustSlantedIndestructible
   name: reinforced metal rust wall
@@ -565,12 +604,14 @@
     base: slantedrustreinfmetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallReinfMetalRustSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallReinfMetalRustSlanted
   name: reinforced metal rust wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallVaultRustSlantedIndestructible
   name: vault rust wall
@@ -584,12 +625,14 @@
     base: slantedrustvault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallVaultRustSlantedIndestructible, N14BaseWallSlantedMetalStrong ]
   id: N14WallVaultRustSlanted
   name: vault rust wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallVaultVentsRustSlantedIndestructible
   name: vault vents rust wall
@@ -603,12 +646,14 @@
     base: slantedrustvaultvent
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallVaultVentsRustSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallVaultVentsRustSlanted
   name: vault vents rust wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallScrapSlantedIndestructible
   name: scrap wall
@@ -622,12 +667,14 @@
     base: slantedscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallScrapSlantedIndestructible, N14BaseWallSlantedMetalWeak ]
   id: N14WallScrapSlanted
   name: scrap wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallScrapBlueSlantedIndestructible
   name: blue scrap wall
@@ -641,6 +688,7 @@
     base: slantedscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallScrapBlueSlantedIndestructible, N14BaseWallSlantedMetalWeak ]
   id: N14WallScrapBlueSlanted
   name: blue scrap wall
@@ -651,6 +699,7 @@
     node: BlueScrapWall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallScrapRedSlantedIndestructible
   name: red scrap wall
@@ -664,6 +713,7 @@
     base: slantedscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallScrapRedSlantedIndestructible, N14BaseWallSlantedMetalWeak ]
   id: N14WallScrapRedSlanted
   name: red scrap wall
@@ -674,6 +724,7 @@
     node: RedScrapWall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallScrapWhiteSlantedIndestructible
   name: white scrap wall
@@ -687,12 +738,14 @@
     base: slantedscrap
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallScrapWhiteSlantedIndestructible, N14BaseWallSlantedMetalWeak ]
   id: N14WallScrapWhiteSlanted
   name: white scrap wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallSewerSlantedIndestructible
   name: sewer wall
@@ -706,12 +759,14 @@
     base: slantedsewer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallSewerSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallSewerSlanted
   name: sewer wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallSidingSlantedIndestructible
   name: siding wall
@@ -725,12 +780,14 @@
     base: slantedsiding
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallSidingSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallSidingSlanted
   name: siding wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallSidingBlueSlantedIndestructible
   name: blue siding wall
@@ -744,12 +801,14 @@
     base: slantedsiding
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallSidingBlueSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallSidingBlueSlanted
   name: blue siding wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallSidingRedSlantedIndestructible
   name: red siding wall
@@ -763,12 +822,14 @@
     base: slantedsiding
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallSidingRedSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallSidingRedSlanted
   name: red siding wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallSidingGreenSlantedIndestructible
   name: green siding wall
@@ -782,12 +843,14 @@
     base: slantedsiding
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallSidingGreenSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallSidingGreenSlanted
   name: green siding wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallVaultSlantedIndestructible
   name: vault wall
@@ -801,12 +864,14 @@
     base: slantedvault
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallVaultSlantedIndestructible, N14BaseWallSlantedMetalStrong ]
   id: N14WallVaultSlanted
   name: vault wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallVaultVentSlantedIndestructible
   name: vault vent wall
@@ -820,12 +885,14 @@
     base: slantedvaultvent
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallVaultVentSlantedIndestructible, N14BaseWallSlantedMetal ]
   id: N14WallVaultVentSlanted
   name: vault vent wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallWoodSlantedIndestructible
   name: wood wall
@@ -839,6 +906,7 @@
     base: slantedwood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallWoodSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallWoodSlanted
   name: wood wall
@@ -849,6 +917,7 @@
     node: WoodWall
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWallIndestructible
   id: N14WallWoodAltSlantedIndestructible
   name: wood wall
@@ -862,12 +931,14 @@
     base: slantedwood
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14WallWoodAltSlantedIndestructible, N14BaseWallSlantedWood ]
   id: N14WallWoodAltSlanted
   name: wood wall
   suffix: slanted
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WallRebar
   parent: BaseStructure
   name: rebar

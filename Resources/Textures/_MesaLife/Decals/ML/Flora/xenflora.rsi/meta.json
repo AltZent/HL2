@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "t_mushroom1p"
+    },
+    {
+      "name": "t_mushroom1"
+    },
+    {
+      "name": "t_mushroom2p"
+    },
+    {
+      "name": "t_mushroom2"
+    },
+    {
+      "name": "t_mushroom3p"
+    },
+    {
+      "name": "t_mushroom3"
+    },
+    {
+      "name": "t_mushroom4p"
+    },
+    {
+      "name": "t_mushroom4"
+    },
+    {
+      "name": "mushroom_stem"
+    },
+    {
+      "name": "leafy"
+    },
+    {
+      "name": "leafy_1"
+    },
+    {
+      "name": "leafy_2"
+    },
+    {
+      "name": "tinyshrooms"
+    },
+    {
+      "name": "tinyshrooms_1"
+    },
+    {
+      "name": "tinyshrooms_2"
+    },
+    {
+      "name": "branch"
+    },
+    {
+      "name": "spore"
+    },
+    {
+      "name": "mound"
+    },
+    {
+      "name": "slime"
+    },
+    {
+      "name": "cougher"
+    }
+  ]
+}

@@ -42,6 +42,7 @@
 
 # funnypaint
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: FunnyPaint
   name: funny paint
@@ -60,6 +61,7 @@
           False: {state: "clown_cap"}
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: FunnyPaintYellow
   name: funny paint
@@ -85,6 +87,7 @@
 
 #death paint
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: DeathPaint
   components:
@@ -107,6 +110,7 @@
           False: {state: "death_cap"}
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: DeathPaintTwo
   components:
@@ -132,6 +136,7 @@
 
 #Blue
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintBlue
   suffix: Blue
@@ -155,6 +160,7 @@
 
 #Red
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintRed
   suffix: Red
@@ -178,6 +184,7 @@
 
 #Green
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintGreen
   suffix: Green
@@ -201,6 +208,7 @@
 
 #Black
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintBlack
   suffix: Black
@@ -224,6 +232,7 @@
 
 #Orange
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintOrange
   suffix: Orange
@@ -247,6 +256,7 @@
 
 #Purple
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintPurple
   suffix: Purple
@@ -270,6 +280,7 @@
 
 #White
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: PaintBase
   id: SprayPaintWhite
   suffix: White

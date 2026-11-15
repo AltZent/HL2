@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: BaseAnimalOrganUnGibbable
   parent: BaseItem
   abstract: true
@@ -6,7 +6,7 @@
   - type: Organ
   - type: Food
   - type: Sprite
-    sprite: Mobs/Species/Human/organs.rsi
+    sprite: _MesaLife/Mobs/Species/Human/organs.rsi
   - type: StaticPrice
     price: 5
   - type: SolutionContainerManager

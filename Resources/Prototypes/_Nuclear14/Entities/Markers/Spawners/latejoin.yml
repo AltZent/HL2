@@ -24,6 +24,7 @@
   - type: InteractionOutline
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: latejoin spawn point
   parent: N14LatejoinMarkerBase
   id: N14SpawnPointLatejoin
@@ -35,6 +36,7 @@
 # Brotherhood Midwest
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SpawnPointLatejoin
   id: N14SpawnPointLatejoinMidwestCommander
   suffix: BOS Midwest Commander

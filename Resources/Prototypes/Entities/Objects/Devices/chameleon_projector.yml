@@ -29,7 +29,7 @@
   components:
   # this and the name/desc get replaced, this is just placeholder incase something goes wrong
   - type: Sprite
-    sprite: /Textures/Mobs/Species/Human/parts.rsi
+    sprite: /Textures/_MesaLife/Mobs/Species/Human/parts.rsi
     state: full
   # so people can attempt to pick it up
   - type: Item

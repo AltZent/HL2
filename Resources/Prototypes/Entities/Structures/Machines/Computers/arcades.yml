@@ -52,6 +52,7 @@
         variation: 0.05
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpaceVillainArcade
   name: space villain arcade
   parent: ArcadeBase
@@ -105,6 +106,7 @@
     pack: SpaceVillainGoodbyes
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SpaceVillainArcadeFilled
   parent: SpaceVillainArcade
   suffix: Filled
@@ -114,6 +116,7 @@
     rewardMaxAmount: 8
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BlockGameArcade
   description: An arcade cabinet with a strangely familiar game.
   name: NT block game

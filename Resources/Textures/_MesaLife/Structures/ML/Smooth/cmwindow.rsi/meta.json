@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "cmwindow-0"
+    },
+    {
+      "name": "cmwindow-1"
+    },
+    {
+      "name": "cmwindow-2"
+    },
+    {
+      "name": "cmwindow-3"
+    },
+    {
+      "name": "cmwindow-4"
+    },
+    {
+      "name": "cmwindow-5"
+    },
+    {
+      "name": "cmwindow-6"
+    },
+    {
+      "name": "cmwindow-7"
+    },
+    {
+      "name": "cmwindow-8"
+    },
+    {
+      "name": "cmwindow-9"
+    },
+    {
+      "name": "cmwindow-10"
+    },
+    {
+      "name": "cmwindow-11"
+    },
+    {
+      "name": "cmwindow-12"
+    },
+    {
+      "name": "cmwindow-13"
+    },
+    {
+      "name": "cmwindow-14"
+    },
+    {
+      "name": "cmwindow-15"
+    },
+    {
+      "name": "cmwindow-21"
+    },
+    {
+      "name": "cmwindow-23"
+    },
+    {
+      "name": "cmwindow-29"
+    },
+    {
+      "name": "cmwindow-31"
+    },
+    {
+      "name": "cmwindow-38"
+    },
+    {
+      "name": "cmwindow-39"
+    },
+    {
+      "name": "cmwindow-46"
+    },
+    {
+      "name": "cmwindow-47"
+    },
+    {
+      "name": "cmwindow-55"
+    },
+    {
+      "name": "cmwindow-63"
+    },
+    {
+      "name": "cmwindow-74"
+    },
+    {
+      "name": "cmwindow-75"
+    },
+    {
+      "name": "cmwindow-78"
+    },
+    {
+      "name": "cmwindow-79"
+    },
+    {
+      "name": "cmwindow-95"
+    },
+    {
+      "name": "cmwindow-110"
+    },
+    {
+      "name": "cmwindow-111"
+    },
+    {
+      "name": "cmwindow-127"
+    },
+    {
+      "name": "cmwindow-137"
+    },
+    {
+      "name": "cmwindow-139"
+    },
+    {
+      "name": "cmwindow-141"
+    },
+    {
+      "name": "cmwindow-143"
+    },
+    {
+      "name": "cmwindow-157"
+    },
+    {
+      "name": "cmwindow-159"
+    },
+    {
+      "name": "cmwindow-175"
+    },
+    {
+      "name": "cmwindow-191"
+    },
+    {
+      "name": "cmwindow-203"
+    },
+    {
+      "name": "cmwindow-207"
+    },
+    {
+      "name": "cmwindow-223"
+    },
+    {
+      "name": "cmwindow-239"
+    },
+    {
+      "name": "cmwindow-255"
+    }
+  ]
+}

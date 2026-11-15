@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: books bag
   id: BooksBag
   parent: BaseStorageItem

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "root-grow1"
+    },
+    {
+      "name": "root-grow2"
+    },
+    {
+      "name": "root-grow3"
+    },
+    {
+      "name": "root-harvest"
+    },
+    {
+      "name": "root-dead"
+    },
+    {
+      "name": "vines-grow1"
+    },
+    {
+      "name": "vines-grow2"
+    },
+    {
+      "name": "vines-grow3"
+    },
+    {
+      "name": "vines-harvest"
+    },
+    {
+      "name": "vines-product"
+    },
+    {
+      "name": "vines-dead"
+    },
+    {
+      "name": "redshroom-grow1"
+    },
+    {
+      "name": "redshroom-harvest"
+    },
+    {
+      "name": "redshroom-dead"
+    },
+    {
+      "name": "blueshroom-grow1"
+    },
+    {
+      "name": "blueshroom-harvest"
+    },
+    {
+      "name": "blueshroom-dead"
+    },
+    {
+      "name": "yellowshroom-grow1"
+    },
+    {
+      "name": "yellowshroom-harvest"
+    },
+    {
+      "name": "yellowshroom-dead"
+    },
+    {
+      "name": "wheat-grow1"
+    },
+    {
+      "name": "wheat-grow2"
+    },
+    {
+      "name": "wheat-grow3"
+    },
+    {
+      "name": "wheat-grow4"
+    },
+    {
+      "name": "wheat-grow5"
+    },
+    {
+      "name": "wheat-grow6"
+    },
+    {
+      "name": "wheat-harvest"
+    },
+    {
+      "name": "wheat-dead"
+    }
+  ]
+}

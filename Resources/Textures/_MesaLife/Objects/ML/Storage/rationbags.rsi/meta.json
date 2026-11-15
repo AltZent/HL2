@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "wall_safe"
+    },
+    {
+      "name": "wall_safe_locked"
+    },
+    {
+      "name": "moneybag"
+    },
+    {
+      "name": "moneybagalt"
+    },
+    {
+      "name": "bag"
+    },
+    {
+      "name": "deliverycrate_note"
+    },
+    {
+      "name": "deliverycloset_note"
+    },
+    {
+      "name": "deliverybox_note"
+    },
+    {
+      "name": "deliverypackage5_note"
+    },
+    {
+      "name": "deliverypackage4_note"
+    },
+    {
+      "name": "deliverypackage3_note"
+    },
+    {
+      "name": "deliverypackage2_note"
+    },
+    {
+      "name": "deliverypackage1_note"
+    },
+    {
+      "name": "trashbag_empty"
+    },
+    {
+      "name": "trashbag_small"
+    },
+    {
+      "name": "trashbag_mid"
+    },
+    {
+      "name": "trashbag_full"
+    },
+    {
+      "name": "trashbag"
+    },
+    {
+      "name": "random_wallet"
+    },
+    {
+      "name": "wallet"
+    },
+    {
+      "name": "wallet_overlay"
+    },
+    {
+      "name": "evidence"
+    },
+    {
+      "name": "evidenceobj"
+    },
+    {
+      "name": "welderpack"
+    },
+    {
+      "name": "RPED"
+    },
+    {
+      "name": "BS_RPED",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "brassbox"
+    },
+    {
+      "name": "hlquiver0"
+    },
+    {
+      "name": "hlquiver1"
+    },
+    {
+      "name": "hlquiver2"
+    },
+    {
+      "name": "hlquiver3"
+    },
+    {
+      "name": "borgrped"
+    },
+    {
+      "name": "canholder"
+    },
+    {
+      "name": "canholder0"
+    },
+    {
+      "name": "canholder1"
+    },
+    {
+      "name": "canholder2"
+    },
+    {
+      "name": "canholder3"
+    },
+    {
+      "name": "canholder4"
+    },
+    {
+      "name": "canholder5"
+    },
+    {
+      "name": "canholder6"
+    },
+    {
+      "name": "deliverycrate_tag"
+    },
+    {
+      "name": "deliverycloset_tag"
+    },
+    {
+      "name": "deliverybox_tag"
+    },
+    {
+      "name": "deliverypackage5_tag"
+    },
+    {
+      "name": "deliverypackage4_tag"
+    },
+    {
+      "name": "deliverypackage3_tag"
+    },
+    {
+      "name": "deliverypackage2_tag"
+    },
+    {
+      "name": "deliverypackage1_tag"
+    },
+    {
+      "name": "garment_bag"
+    },
+    {
+      "name": "deliverycrate_sort"
+    },
+    {
+      "name": "deliverycloset_sort"
+    },
+    {
+      "name": "deliverybox_sort"
+    },
+    {
+      "name": "deliverypackage5_sort"
+    },
+    {
+      "name": "deliverypackage4_sort"
+    },
+    {
+      "name": "deliverypackage3_sort"
+    },
+    {
+      "name": "deliverypackage2_sort"
+    },
+    {
+      "name": "deliverypackage1_sort"
+    },
+    {
+      "name": "pouch"
+    },
+    {
+      "name": "ration"
+    },
+    {
+      "name": "ration-bettergrade"
+    },
+    {
+      "name": "ration-lowgrade"
+    },
+    {
+      "name": "ration-worstgrade"
+    },
+    {
+      "name": "ration-highgrade"
+    },
+    {
+      "name": "ration-bestgrade"
+    }
+  ]
+}

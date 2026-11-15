@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorPowerBox
   name: PA power box
@@ -19,6 +20,7 @@
     graph: ParticleAcceleratorPowerBox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorPowerBoxUnfinished
   name: PA power box

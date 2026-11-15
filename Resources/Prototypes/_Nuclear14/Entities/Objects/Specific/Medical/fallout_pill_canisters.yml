@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: rad-x canister
   id: N14RadXCanister
   parent: PillCanister
@@ -15,6 +16,7 @@
       - Pill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mentats pill box
   id: N14MentatsCanister
   parent: PillCanister
@@ -31,6 +33,7 @@
       - Pill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: buffout canister
   id: N14BuffoutCanister
   parent: PillCanister
@@ -47,6 +50,7 @@
       - Pill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cateye canister
   id: N14CateyeCanister
   parent: PillCanister
@@ -63,6 +67,7 @@
       - Pill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: fixer pill box
   id: N14FixerCanister
   parent: PillCanister

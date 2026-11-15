@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SignalTimer
   name: signal timer
   description: It's a timer for sending timed signals to things.
@@ -47,6 +48,7 @@
     node: signal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: ScreenTimer
   parent: SignalTimer
   name: screen timer
@@ -70,6 +72,7 @@
     node: screen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BrigTimer
   parent: ScreenTimer
   name: brig timer

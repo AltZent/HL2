@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesWelding
   name: welding goggles
@@ -11,6 +12,7 @@
   - type: EyeProtection
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesPilot
   name: pilot goggles
@@ -24,6 +26,7 @@
     # charismaModifier: 1 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesGoggles
   name: goggles
@@ -35,6 +38,7 @@
     sprite: _Nuclear14/Clothing/Eyes/goggles.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesGlasses
   name: glasses
@@ -47,6 +51,7 @@
   - type: VisionCorrection
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesSunGlasses
   name: sun glasses
@@ -61,6 +66,7 @@
     # charismaModifier: 1 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingEyesNCRNVGs
   name: night vision goggles
@@ -77,6 +83,7 @@
     sprintModifier: 0.975
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingEyesBase
   id: N14ClothingSnowGoggles
   name: snow goggles

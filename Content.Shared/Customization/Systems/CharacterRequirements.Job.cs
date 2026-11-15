@@ -40,7 +40,10 @@ public sealed partial class CharacterJobRequirement : CharacterRequirement
         // Get the job names and department colors
         foreach (var j in Jobs)
         {
-            var jobProto = prototypeManager.Index(j);
+            // Skip job prototypes that no longer exist (e.g. removed content).
+            if (!prototypeManager.TryIndex(j, out JobPrototype? jobProto))
+                continue;
+
             var color = Color.LightBlue;
 
             foreach (var dept in depts.ToList().OrderBy(d => Loc.GetString($"department-{d.ID}")))
@@ -90,7 +93,10 @@ public sealed partial class CharacterDepartmentRequirement : CharacterRequiremen
         // Get the department names and colors
         foreach (var d in Departments)
         {
-            var deptProto = prototypeManager.Index(d);
+            // Skip department prototypes that no longer exist (e.g. removed content).
+            if (!prototypeManager.TryIndex(d, out DepartmentPrototype? deptProto))
+                continue;
+
             var color = deptProto.Color;
 
             departments.Add($"[color={color.ToHex()}]{Loc.GetString($"department-{deptProto.ID}")}[/color]");
@@ -101,7 +107,8 @@ public sealed partial class CharacterDepartmentRequirement : CharacterRequiremen
             ("inverted", Inverted), ("departments", string.Join(", ", departments)));
 
         reason = departmentsString;
-        return Departments.Any(d => prototypeManager.Index(d).Roles.Contains(job.ID));
+        return Departments.Any(d => prototypeManager.TryIndex(d, out DepartmentPrototype? deptProto)
+            && deptProto.Roles.Contains(job.ID));
     }
 }
 
@@ -139,15 +146,21 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
             return !Inverted;
         }
 
-        var department = prototypeManager.Index(Department);
+        // Skip the requirement if the department or any of its jobs no longer exist (e.g. removed content).
+        if (!prototypeManager.TryIndex(Department, out DepartmentPrototype? department))
+        {
+            reason = null;
+            return false;
+        }
 
         // Combine all of this department's job playtimes
         var playtime = TimeSpan.Zero;
         foreach (var other in department.Roles)
         {
-            var proto = prototypeManager.Index<JobPrototype>(other).PlayTimeTracker;
+            if (!prototypeManager.TryIndex<JobPrototype>(other, out var proto))
+                continue;
 
-            playTimes.TryGetValue(proto, out var otherTime);
+            playTimes.TryGetValue(proto.PlayTimeTracker, out var otherTime);
             playtime += otherTime;
         }
 
@@ -283,7 +296,13 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
 
         // Get the JobPrototype of the Tracker
         var trackerJob = jobSystem.GetJobPrototype(Tracker);
-        var jobStr = prototypeManager.Index<JobPrototype>(trackerJob).LocalizedName;
+        if (!prototypeManager.TryIndex<JobPrototype>(trackerJob, out var trackerJobProto))
+        {
+            // The job behind this tracker no longer exists (e.g. removed content).
+            reason = null;
+            return false;
+        }
+        var jobStr = trackerJobProto.LocalizedName;
 
         // Get the primary department of the Tracker
         if (!jobSystem.TryGetPrimaryDepartment(trackerJob, out var department) &&

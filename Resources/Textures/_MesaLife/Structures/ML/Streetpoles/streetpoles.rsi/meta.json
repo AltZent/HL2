@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 96,
+    "y": 160
+  },
+  "states": [
+    {
+      "name": "trafficlightright",
+      "directions": 4
+    },
+    {
+      "name": "trafficlightleft",
+      "directions": 4
+    },
+    {
+      "name": "streetlight",
+      "directions": 4
+    },
+    {
+      "name": "streetlightcorner",
+      "directions": 4
+    },
+    {
+      "name": "streetlightduo",
+      "directions": 4
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   save: false
   parent: BaseMobSkeletonPerson
   id: MobSkeletonPerson
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: skeleton pirate
   parent: MobSkeletonPerson
   id: MobSkeletonPirate
@@ -20,6 +22,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: skeleton biker
   parent: MobSkeletonPerson
   id: MobSkeletonBiker
@@ -35,6 +38,7 @@
   - type: RandomHumanoidAppearance
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: MobSkeletonPerson
   id: MobSkeletonCloset
   name: closet skeleton

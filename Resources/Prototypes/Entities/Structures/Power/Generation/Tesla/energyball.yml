@@ -33,6 +33,7 @@
     lightningPrototype: Lightning
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TeslaEnergyBall
   parent: BaseEnergyBall
   name: ball lightning
@@ -107,6 +108,7 @@
     interactSuccessSpawn: EffectHearts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TeslaMiniEnergyBall
   parent: BaseEnergyBall
   name: mini ball lightning

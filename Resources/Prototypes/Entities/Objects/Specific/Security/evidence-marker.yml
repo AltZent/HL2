@@ -12,6 +12,7 @@
     size: Tiny
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerOne
   components:
@@ -19,6 +20,7 @@
     state: one
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerTwo
   components:
@@ -26,6 +28,7 @@
     state: two
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerThree
   components:
@@ -33,6 +36,7 @@
     state: three
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerFour
   components:
@@ -40,6 +44,7 @@
     state: four
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerFive
   components:
@@ -47,6 +52,7 @@
     state: five
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerSix
   components:
@@ -54,6 +60,7 @@
     state: six
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerSeven
   components:
@@ -61,6 +68,7 @@
     state: seven
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerEight
   components:
@@ -68,6 +76,7 @@
     state: eight
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: EvidenceMarker
   id: EvidenceMarkerNine
   components:
@@ -75,6 +84,7 @@
     state: nine
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: evidence marker box
   parent: BoxCardboard
   id: BoxEvidenceMarkers

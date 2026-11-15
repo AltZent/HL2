@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: missile launcher
   parent: BaseWeaponLauncher
   id: N14WeaponLauncherMissile

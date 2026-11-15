@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 40,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Lights"
+    },
+    {
+      "name": "flashlight_crafted"
+    },
+    {
+      "name": "flashlight_crafted-on"
+    },
+    {
+      "name": "flashlight_old"
+    },
+    {
+      "name": "flashlight_old-on"
+    },
+    {
+      "name": "flashlight_mag"
+    },
+    {
+      "name": "flashlight_mag-on"
+    },
+    {
+      "name": "flare-empty"
+    },
+    {
+      "name": "flare"
+    },
+    {
+      "name": "flare-on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "Tools"
+    },
+    {
+      "name": "torch"
+    },
+    {
+      "name": "torch-lit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "spade"
+    },
+    {
+      "name": "crowbar"
+    },
+    {
+      "name": "hammer"
+    },
+    {
+      "name": "wrench"
+    },
+    {
+      "name": "screwdriver"
+    },
+    {
+      "name": "wirecutter"
+    },
+    {
+      "name": "handsaw"
+    },
+    {
+      "name": "handdrill"
+    },
+    {
+      "name": "scissors"
+    },
+    {
+      "name": "shovel"
+    },
+    {
+      "name": "shovel_snow"
+    },
+    {
+      "name": "rake"
+    },
+    {
+      "name": "pickaxe"
+    },
+    {
+      "name": "Fishing_Rods"
+    },
+    {
+      "name": "basic"
+    },
+    {
+      "name": "telescopic"
+    },
+    {
+      "name": "telescopic-collapsed"
+    },
+    {
+      "name": "advanced",
+      "delays": [
+        [
+          0.2,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "Lockpicking"
+    },
+    {
+      "name": "bobby"
+    },
+    {
+      "name": "Misc"
+    },
+    {
+      "name": "brick"
+    },
+    {
+      "name": "handradio"
+    },
+    {
+      "name": "bucket"
+    },
+    {
+      "name": "mop"
+    },
+    {
+      "name": "handcuffs"
+    },
+    {
+      "name": "fire_extinguisher1"
+    },
+    {
+      "name": "fire_extinguisher0"
+    },
+    {
+      "name": "alyxtool"
+    }
+  ]
+}

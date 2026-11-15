@@ -1,0 +1,481 @@
+# ML loadouts -> vanilla category Outer.
+
+- type: loadout
+  id: LoadoutMLOuterBrownover
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterBrownover
+
+- type: loadout
+  id: LoadoutMLOuterOverwatch
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterOverwatch
+
+- type: loadout
+  id: LoadoutMLOuterWallhammer
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterWallhammer
+
+- type: loadout
+  id: LoadoutMLOuterOverwatchWhite
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterOverwatchWhite
+
+- type: loadout
+  id: LoadoutMLOuterOverwatchRed
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterOverwatchRed
+
+- type: loadout
+  id: LoadoutMLOuterCpTrenchcoat
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCpTrenchcoat
+
+- type: loadout
+  id: LoadoutMLOuterCpTrenchcoatoverseer
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCpTrenchcoatoverseer
+
+- type: loadout
+  id: LoadoutMLOuterDvVest
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterDvVest
+
+- type: loadout
+  id: LoadoutMLOuterSectorial
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterSectorial
+
+- type: loadout
+  id: LoadoutMLOuterMetropolice
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterMetropolice
+
+- type: loadout
+  id: LoadoutMLOuterPdTaser
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterPdTaser
+
+- type: loadout
+  id: LoadoutMLOuterCivilprotection
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCivilprotection
+
+- type: loadout
+  id: LoadoutMLOuterMetropoliceVest
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterMetropoliceVest
+
+- type: loadout
+  id: LoadoutMLOuterCombatchef
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCombatchef
+
+- type: loadout
+  id: LoadoutMLOuterMedicalofficer
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterMedicalofficer
+
+- type: loadout
+  id: LoadoutMLOuterElitecpoVest
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterElitecpoVest
+
+- type: loadout
+  id: LoadoutMLOuterBulletproof
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterBulletproof
+
+- type: loadout
+  id: LoadoutMLOuterHev
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterHev
+
+- type: loadout
+  id: LoadoutMLOuterBlackVest
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterBlackVest
+
+- type: loadout
+  id: LoadoutMLOuterLabcoatT
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterLabcoatT
+
+- type: loadout
+  id: LoadoutMLOuterLabcoat
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterLabcoat
+
+- type: loadout
+  id: LoadoutMLOuterCleanup
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCleanup
+
+- type: loadout
+  id: LoadoutMLOuterCleanupforeman
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCleanupforeman
+
+- type: loadout
+  id: LoadoutMLOuterCwuengi
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCwuengi
+
+- type: loadout
+  id: LoadoutMLOuterForeman
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterForeman
+
+- type: loadout
+  id: LoadoutMLOuterRebelarmorHeavy
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterRebelarmorHeavy
+
+- type: loadout
+  id: LoadoutMLOuterRebelarmorLight
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterRebelarmorLight
+
+- type: loadout
+  id: LoadoutMLOuterBioBoiler
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterBioBoiler
+
+- type: loadout
+  id: LoadoutMLOuterBluejacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterBluejacket
+
+- type: loadout
+  id: LoadoutMLOuterPrisonerjacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterPrisonerjacket
+
+- type: loadout
+  id: LoadoutMLOuterWhitejacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterWhitejacket
+
+- type: loadout
+  id: LoadoutMLOuterMetropoliceUk
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterMetropoliceUk
+
+- type: loadout
+  id: LoadoutMLOuterGreenjacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterGreenjacket
+
+- type: loadout
+  id: LoadoutMLOuterMilvest
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterMilvest
+
+- type: loadout
+  id: LoadoutMLOuterPlatearmor
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterPlatearmor
+
+- type: loadout
+  id: LoadoutMLOuterKevlarHeavy
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterKevlarHeavy
+
+- type: loadout
+  id: LoadoutMLOuterCrematorjacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterCrematorjacket
+
+- type: loadout
+  id: LoadoutMLOuterPolandHeavy
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterPolandHeavy
+
+- type: loadout
+  id: LoadoutMLOuterScientist
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterScientist
+
+- type: loadout
+  id: LoadoutMLOuterHeavyplatearmor
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterHeavyplatearmor
+
+- type: loadout
+  id: LoadoutMLOuterAssassin
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterAssassin
+
+- type: loadout
+  id: LoadoutMLOuterSuppressor
+  category: Outer
+  cost: 2
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterSuppressor
+
+- type: loadout
+  id: LoadoutMLOuterReinforcedwinterbrown
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterReinforcedwinterbrown
+
+- type: loadout
+  id: LoadoutMLOuterHazsuit
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterHazsuit
+
+- type: loadout
+  id: LoadoutMLOuterFiresuit
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterFiresuit
+
+- type: loadout
+  id: LoadoutMLOuterArmoredjacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterArmoredjacket
+
+- type: loadout
+  id: LoadoutMLOuterInsulatedjacket
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterInsulatedjacket
+
+- type: loadout
+  id: LoadoutMLOuterOldriotsuit
+  category: Outer
+  cost: 1
+  exclusive: true
+  customName: false
+  customDescription: false
+  items:
+  - MLOuterOldriotsuit

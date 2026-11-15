@@ -60,6 +60,7 @@
     staminaCost: 7.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperMosin
@@ -101,6 +102,7 @@
     angle: 225
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinRubber
@@ -111,6 +113,7 @@
     proto: CartridgeLightRifleRubber
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinEmpty
@@ -127,6 +130,7 @@
         requireDetailRange: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
@@ -145,6 +149,7 @@
   - type: Telescope
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: musket
   parent: BaseWeaponSniper
   id: Musket
@@ -198,6 +203,7 @@
     angle: 225
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: flintlock pistol
   parent: BaseWeaponSniper
   id: WeaponPistolFlintlock

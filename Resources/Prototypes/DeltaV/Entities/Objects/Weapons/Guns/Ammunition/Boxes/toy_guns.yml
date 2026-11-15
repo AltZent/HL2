@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BoxDonkSoftBase
   id: BoxCartridgeBB
   name: box of BBs

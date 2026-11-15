@@ -1,5 +1,6 @@
 # Compost box
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14CompostBox
   name: compost box
@@ -50,6 +51,7 @@
 
 # Seed Extractor
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14SeedExtractor
   name: seed extractor
@@ -85,6 +87,7 @@
     scaling: Exponential
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14SeedExtractorFrame
   name: seed extractor frame
   parent: BaseStructure
@@ -110,6 +113,7 @@
 
 # Soils and Planters
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Soil
   name: soil
   description: Looks good for planting things in.
@@ -174,6 +178,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14HydroponicsPlanterEmpty
   name: planter
@@ -212,6 +217,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Soil
   id: N14HydroponicsPlanter
   name: planter

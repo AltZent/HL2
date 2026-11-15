@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "boxes"
+    },
+    {
+      "name": "packs"
+    },
+    {
+      "name": "bars"
+    },
+    {
+      "name": "cans"
+    },
+    {
+      "name": "redcans"
+    },
+    {
+      "name": "yellowcans"
+    },
+    {
+      "name": "bags"
+    },
+    {
+      "name": "container"
+    },
+    {
+      "name": "container_empty"
+    },
+    {
+      "name": "container_used"
+    },
+    {
+      "name": "nutripastes"
+    },
+    {
+      "name": "purplecans"
+    },
+    {
+      "name": "blankcans"
+    },
+    {
+      "name": "waterjug"
+    },
+    {
+      "name": "blueaddold"
+    },
+    {
+      "name": "yellowaddold"
+    },
+    {
+      "name": "redaddold"
+    },
+    {
+      "name": "purpleaddold"
+    },
+    {
+      "name": "fiberblock"
+    },
+    {
+      "name": "fatblock"
+    },
+    {
+      "name": "proteinblock"
+    },
+    {
+      "name": "sourold"
+    },
+    {
+      "name": "sweetold"
+    },
+    {
+      "name": "bitterold"
+    },
+    {
+      "name": "blueadd"
+    },
+    {
+      "name": "yellowadd"
+    },
+    {
+      "name": "redadd"
+    },
+    {
+      "name": "purpleadd"
+    },
+    {
+      "name": "sour"
+    },
+    {
+      "name": "sweet"
+    },
+    {
+      "name": "bitter"
+    }
+  ]
+}

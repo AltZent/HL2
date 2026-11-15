@@ -25,6 +25,7 @@
 
 # SS13 Sprites
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseLadder
   id: LadderTop
   suffix: top
@@ -34,6 +35,7 @@
     state: ladder_top
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseLadder
   id: LadderBottom
   suffix: bottom
@@ -55,6 +57,7 @@
         
 # MS13 Sprites
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTop
   id: LadderTopBunkerOpen
   name: bunker entrance
@@ -66,6 +69,7 @@
     state: bunker_open
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTop
   id: LadderTopManholeOpen
   name: manhole
@@ -78,6 +82,7 @@
     state: manhole_open
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTop
   id: LadderSquareTop
   suffix: square
@@ -88,6 +93,7 @@
     state: ladder01
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottom
   id: LadderSquareBottom
   suffix: bottom, square
@@ -110,6 +116,7 @@
         - LowImpassable
         
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderSquareBottom
   id: LadderSquareMid
   suffix: mid, square
@@ -120,6 +127,7 @@
     state: ladder11
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseLadder
   id: LadderRopeTop1
   suffix: rope, top
@@ -131,6 +139,7 @@
     state: rope
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseLadder
   id: LadderRopeBottom1
   suffix: rope, bottom
@@ -142,6 +151,7 @@
     state: rope_down
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: LadderTopBunkerClosed
   name: bunker entrance
@@ -161,6 +171,7 @@
   - type: Fixtures
   
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopBunkerClosed
   id: LadderTopManholeClosed
   name: manhole cover
@@ -174,6 +185,7 @@
 # SS14 Sprites
 # Tops
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseLadder
   id: LadderTopMetal
   suffix: top, metal, painted
@@ -186,6 +198,7 @@
     - state: paint_1
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopMetal
   id: LadderTopMetalPaint2
   suffix: top, metal, flaking
@@ -197,6 +210,7 @@
     - state: paint_2
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopMetal
   id: LadderTopMetalPaint3
   suffix: top, metal, flaked
@@ -208,6 +222,7 @@
     - state: paint_3
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopMetal
   id: LadderTopMetalRusted
   suffix: top, metal, rusted
@@ -219,6 +234,7 @@
     - state: rust
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopMetal
   id: LadderTopMetalDamaged
   suffix: top, metal
@@ -228,6 +244,7 @@
     state: metal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderTopMetal
   id: LadderTopRope
   name: rope ladder
@@ -239,6 +256,7 @@
     
 # Bottoms
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottom
   id: LadderBottomMetal
   suffix: bottom, metal
@@ -249,6 +267,7 @@
     state: b_metal
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint1
   suffix: bottom, metal, painted
@@ -260,6 +279,7 @@
     - state: b_paint_1
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint2
   suffix: bottom, metal, flaking
@@ -271,6 +291,7 @@
     - state: b_paint_2
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint3
   suffix: bottom, metal, flaked
@@ -282,6 +303,7 @@
     - state: b_paint_3
           
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomMetalDamaged
   suffix: bottom
@@ -291,6 +313,7 @@
     state: b_metal_damaged
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomMetalRusted
   suffix: bottom, metal, rusted
@@ -302,6 +325,7 @@
     - state: b_rust
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomRope
   name: rope ladder
@@ -312,6 +336,7 @@
     state: b_rope
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: LadderBottomMetal
   id: LadderBottomRopeDamaged
   name: rope ladder

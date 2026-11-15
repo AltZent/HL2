@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: chemistry bag
   id: ChemBag
   parent: BaseStorageItem

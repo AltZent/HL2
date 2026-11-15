@@ -1,0 +1,189 @@
+# Auto-generated ML beds (halflife-episode13 assets).
+- type: entity
+  id: MLBedBase
+  parent: BaseStructure
+  name: bed
+  abstract: true
+  components:
+  - type: Transform
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.05"
+        density: 190
+        mask:
+        - TableMask
+  - type: Strap
+    position: Down
+    rotation: -90
+  - type: PlaceableSurface
+    placeCentered: true
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Anchorable
+
+- type: entity
+  id: MLBedWire
+  parent: MLBedBase
+  name: "wireframe bed"
+  description: "A bed with a wire backing."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: wire_bed
+- type: entity
+  id: MLBedMetal
+  parent: MLBedBase
+  name: "metal bed"
+  description: "A slatted metal bed."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: metal_bed
+- type: entity
+  id: MLBedCot
+  parent: MLBedBase
+  name: "cot"
+  description: "A cot. Still usable without a mattress."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: cot
+- type: entity
+  id: MLBedWood
+  parent: MLBedBase
+  name: "wood bed"
+  description: "A panel bed made from wood."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: wood_bed
+- type: entity
+  id: MLBedWoodMattress
+  parent: MLBedBase
+  name: "wooden bed with mattress"
+  description: "A wooden bed with a mattress on it."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: bedwmattess1
+- type: entity
+  id: MLBedWoodMattress2
+  parent: MLBedBase
+  name: "wooden bed with mattress"
+  description: "A wooden bed with a mattress on it."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: bedwmattress2
+- type: entity
+  id: MLMattressDirty
+  parent: MLBedBase
+  name: "mattress"
+  description: "Less of a mattress and more of a lump."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: dirty_mattress
+- type: entity
+  id: MLMattressOld
+  parent: MLBedBase
+  name: "mattress"
+  description: "Mildly stained and better than most."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: old_mattress
+- type: entity
+  id: MLMattressStained
+  parent: MLBedBase
+  name: "mattress"
+  description: "No idea what these stains are."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: stained_mattress
+- type: entity
+  id: MLMattressYellowed
+  parent: MLBedBase
+  name: "mattress"
+  description: "This was white when someone bought it."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: yellowed_mattress
+- type: entity
+  id: MLMattressFilthy
+  parent: MLBedBase
+  name: "mattress"
+  description: "Is that mold?"
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: filthy_mattress
+- type: entity
+  id: MLMattressStale
+  parent: MLBedBase
+  name: "mattress"
+  description: "Relatively clean."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: stale_mattress
+- type: entity
+  id: MLSleepingBagRed
+  parent: MLBedBase
+  name: "red sleeping bag"
+  description: "A sleeping bag. Cozy enough for the wasteland."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: sleepingbag_red
+- type: entity
+  id: MLSleepingBagGreen
+  parent: MLBedBase
+  name: "green sleeping bag"
+  description: "A sleeping bag. Cozy enough for the wasteland."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: sleepingbag_green
+- type: entity
+  id: MLBedRolling
+  parent: MLBedBase
+  name: "rolling bed"
+  description: "A wheeled hospital bed."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: rollingbed_up
+- type: entity
+  id: MLBedMedical
+  parent: MLBedBase
+  name: "medical bed"
+  description: "A hospital bed for patients to recover in."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: bed_medical
+- type: entity
+  id: MLBedSurgery
+  parent: MLBedBase
+  name: "surgery bed"
+  description: "A surgical bed for operations."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Furniture/beds.rsi
+    state: bed_surgery

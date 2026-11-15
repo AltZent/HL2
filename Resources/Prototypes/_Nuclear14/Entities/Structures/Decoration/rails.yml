@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14Rails
   name: railway
   placement:
@@ -32,6 +33,7 @@
   - type: Clickable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsJunctionRightTop
   suffix: junction right top
@@ -40,6 +42,7 @@
     state: junction-right-top
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsJunctionLeftTop
   suffix: junction left top
@@ -48,6 +51,7 @@
     state: junction-left-top
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsJunctionRightBottom
   suffix: junction right bottom
@@ -56,6 +60,7 @@
     state: junction-right-bottom
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsJunctionLeftBottom
   suffix: junction left bottom
@@ -64,6 +69,7 @@
     state: junction-left-bottom
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsTurnWS
   suffix: turn west-south
@@ -72,6 +78,7 @@
     state: turn-WS
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsTurnNW
   suffix: turn north-west
@@ -80,6 +87,7 @@
     state: turn-NW
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsTurnNE
   suffix: turn north-east
@@ -88,6 +96,7 @@
     state: turn-NE
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14Rails
   id: N14RailsTurnSE
   suffix: turn south-east

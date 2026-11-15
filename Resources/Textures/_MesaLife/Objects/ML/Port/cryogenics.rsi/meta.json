@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "cell-off"
+    },
+    {
+      "name": "cell-on",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "cell-occupied",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "cellold0"
+    },
+    {
+      "name": "cellold1",
+      "delays": [
+        [
+          0.5,
+          0.3,
+          0.3,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "cellold2",
+      "delays": [
+        [
+          0.5,
+          0.3,
+          0.3,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "pod_preview"
+    }
+  ]
+}

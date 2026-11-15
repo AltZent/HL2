@@ -3,7 +3,7 @@
   name: Syndicate Listener
   components:
     - type: Sprite
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _MesaLife/Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: SyndicateListener

@@ -1,6 +1,7 @@
 ﻿# To be implemented: see #9072
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: staff of healing
   parent: WeaponStaffBase
   id: WeaponStaffHealing
@@ -20,6 +21,7 @@
     count: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: staff of entrance
   parent: WeaponStaffBase
   id: WeaponStaffPolymorphDoor

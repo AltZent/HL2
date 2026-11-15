@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "military"
+    },
+    {
+      "name": "military_pantera"
+    },
+    {
+      "name": "cleanup"
+    },
+    {
+      "name": "cleanupforeman"
+    },
+    {
+      "name": "hardhat"
+    },
+    {
+      "name": "hardhat0_mining"
+    },
+    {
+      "name": "hardhat1_mining"
+    },
+    {
+      "name": "beanie_base",
+      "directions": 4
+    },
+    {
+      "name": "bio_boiler"
+    },
+    {
+      "name": "milhelm"
+    },
+    {
+      "name": "headcrab"
+    },
+    {
+      "name": "steel_helmet"
+    },
+    {
+      "name": "combine_helmet"
+    },
+    {
+      "name": "steel_helmet_poland"
+    },
+    {
+      "name": "milhelm_poland"
+    },
+    {
+      "name": "military_poland"
+    },
+    {
+      "name": "military_pantera_poland"
+    },
+    {
+      "name": "poland_heavy"
+    },
+    {
+      "name": "hev"
+    },
+    {
+      "name": "scientist"
+    },
+    {
+      "name": "gonomecrab"
+    },
+    {
+      "name": "scouthat"
+    },
+    {
+      "name": "firehood"
+    },
+    {
+      "name": "beret"
+    },
+    {
+      "name": "chef"
+    },
+    {
+      "name": "bdu"
+    }
+  ]
+}

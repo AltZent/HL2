@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "Barb_Wire_Fence"
+    },
+    {
+      "name": "barbfence"
+    },
+    {
+      "name": "barbfence_corner",
+      "directions": 4
+    },
+    {
+      "name": "barbfence_west"
+    },
+    {
+      "name": "barbfence_east"
+    },
+    {
+      "name": "barbfence_end_west"
+    },
+    {
+      "name": "barbfence_end_east"
+    },
+    {
+      "name": "barbfence_west_T",
+      "directions": 4
+    },
+    {
+      "name": "barbfence_east_T",
+      "directions": 4
+    },
+    {
+      "name": "Wire_Fence"
+    },
+    {
+      "name": "wirefence"
+    },
+    {
+      "name": "wirefence_corner",
+      "directions": 4
+    },
+    {
+      "name": "wirefence_west"
+    },
+    {
+      "name": "wirefence_east"
+    },
+    {
+      "name": "wirefence_end_west"
+    },
+    {
+      "name": "wirefence_end_east"
+    },
+    {
+      "name": "wirefence_west_T",
+      "directions": 4
+    },
+    {
+      "name": "wirefence_east_T",
+      "directions": 4
+    }
+  ]
+}

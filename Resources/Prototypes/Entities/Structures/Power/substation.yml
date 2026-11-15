@@ -222,6 +222,7 @@
 # Substations in use
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSubstation
   id: SubstationBasic
   suffix: Basic, 2.5MJ
@@ -231,6 +232,7 @@
     startingCharge: 2500000
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SubstationBasic
   id: SubstationBasicEmpty
   suffix: Empty
@@ -239,6 +241,7 @@
     startingCharge: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseSubstationWall
   id: SubstationWallBasic
   suffix: Basic, 2MJ

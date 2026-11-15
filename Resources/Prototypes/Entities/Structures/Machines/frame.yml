@@ -58,6 +58,7 @@
       snapCardinals: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineFrame
   name: machine frame
   suffix: Ready
@@ -126,6 +127,7 @@
             - MachineBoard
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: MachineFrameDestroyed
   parent: BaseStructureDynamic
   name: destroyed machine frame

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: GrenadeBase
   id: PipeBomb
   name: pipe bomb
@@ -32,6 +33,7 @@
     node: pipebomb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PipeBombGunpowder
   name: pipe bomb
@@ -47,6 +49,7 @@
     defaultTarget: pipebomb
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: PipeBombCable
   name: pipe bomb

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14BarricadeWindow
   parent: BaseStructure
   name: barricade
@@ -36,6 +37,7 @@
               acts: ["Destruction"]
               
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BarricadeWindow
   id: N14BarricadeDoor
   name: locked door
@@ -49,6 +51,7 @@
       state: locked
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WindowBars
   parent: BaseStructure
   name: window bars
@@ -96,6 +99,7 @@
           nodeGroupID: Apc
               
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: N14WindowBars2
   parent: N14WindowBars
   components:

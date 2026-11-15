@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "techpod_closed"
+    },
+    {
+      "name": "techpod_open"
+    },
+    {
+      "name": "techpod_closed_stripped"
+    },
+    {
+      "name": "techpod_open_stripped"
+    },
+    {
+      "name": "chute_cables_static"
+    }
+  ]
+}

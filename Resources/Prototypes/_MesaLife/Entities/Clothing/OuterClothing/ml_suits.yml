@@ -1,0 +1,977 @@
+- type: entity
+  id: MLOuterBrownover
+  parent: ClothingOuterBase
+  name: outer (brownover)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: brownover
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: brownover
+- type: entity
+  id: MLOuterOverwatch
+  parent: ClothingOuterBase
+  name: outer (overwatch)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: overwatch
+  - type: MLArmor
+    rating: 0.6
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Heat: 0.70
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterWallhammer
+  parent: ClothingOuterBase
+  name: outer (wallhammer)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: wallhammer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: wallhammer
+  - type: MLArmor
+    rating: 0.5
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.63
+        Slash: 0.63
+        Heat: 0.75
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterOverwatchWhite
+  parent: ClothingOuterBase
+  name: outer (overwatch-white)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: overwatch_white
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: overwatch_white
+  - type: MLArmor
+    rating: 0.6
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Heat: 0.70
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterOverwatchRed
+  parent: ClothingOuterBase
+  name: outer (overwatch-red)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: overwatch_red
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: overwatch_red
+  - type: MLArmor
+    rating: 0.6
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Heat: 0.70
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterCpTrenchcoat
+  parent: ClothingOuterBase
+  name: outer (cp-trenchcoat)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: cp_trenchcoat
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: cp_trenchcoat
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterCpTrenchcoatoverseer
+  parent: ClothingOuterBase
+  name: outer (cp-trenchcoatoverseer)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: cp_trenchcoatoverseer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: cp_trenchcoatoverseer
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterDvVest
+  parent: ClothingOuterBase
+  name: outer (dv-vest)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: dv_vest
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: dv_vest
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterSectorial
+  parent: ClothingOuterBase
+  name: outer (sectorial)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: sectorial
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: sectorial
+  - type: MLArmor
+    rating: 0.5
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.63
+        Slash: 0.63
+        Heat: 0.75
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterMetropolice
+  parent: ClothingOuterBase
+  name: outer (metropolice)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: metropolice
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: metropolice
+  - type: MLArmor
+    rating: 0.3
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.78
+        Slash: 0.78
+        Heat: 0.85
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterPdTaser
+  parent: ClothingOuterBase
+  name: outer (pd-taser)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: pd_taser
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: pd_taser
+  - type: MLArmor
+    rating: 0.25
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Shock: 0.5
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterCivilprotection
+  parent: ClothingOuterBase
+  name: outer (civilprotection)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: civilprotection
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterMetropoliceVest
+  parent: ClothingOuterBase
+  name: outer (metropolice-vest)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: metropolice_vest
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: metropolice_vest
+  - type: MLArmor
+    rating: 0.2
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.90
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterCombatchef
+  parent: ClothingOuterBase
+  name: outer (combatchef)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: combatchef
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: combatchef
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterMedicalofficer
+  parent: ClothingOuterBase
+  name: outer (medicalofficer)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: medicalofficer
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: medicalofficer
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterElitecpoVest
+  parent: ClothingOuterBase
+  name: outer (elitecpo-vest)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: elitecpo_vest
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: elitecpo_vest
+  - type: MLArmor
+    rating: 0.6
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Heat: 0.70
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterBulletproof
+  parent: ClothingOuterBase
+  name: outer (bulletproof)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: bulletproof
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: bulletproof
+  - type: MLArmor
+    rating: 0.6
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Heat: 0.70
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterHev
+  parent: ClothingOuterBase
+  name: outer (hev)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: hev
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: hev
+  - type: MLArmor
+    rating: 0.65
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    - LeftLeg
+    - RightLeg
+    - LeftHand
+    - RightHand
+    resists:
+      coefficients:
+        Blunt: 0.51
+        Slash: 0.51
+        Heat: 0.68
+        Shock: 0.60
+        Cold: 0.75
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterBlackVest
+  parent: ClothingOuterBase
+  name: outer (black-vest)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: black_vest
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: black_vest
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Heat: 0.80
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterLabcoatT
+  parent: ClothingOuterBase
+  name: outer (labcoat-t)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: labcoat_t
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: labcoat_t
+- type: entity
+  id: MLOuterLabcoat
+  parent: ClothingOuterBase
+  name: outer (labcoat)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: labcoat
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: labcoat
+- type: entity
+  id: MLOuterCleanup
+  parent: ClothingOuterBase
+  name: outer (cleanup)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: cleanup
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: cleanup
+  - type: Armor
+    coefficients:
+        Radiation: 0.5
+        Caustic: 0.6
+        Slash: 0.8
+- type: entity
+  id: MLOuterCleanupforeman
+  parent: ClothingOuterBase
+  name: outer (cleanupforeman)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: cleanupforeman
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: cleanupforeman
+  - type: Armor
+    coefficients:
+        Radiation: 0.5
+        Caustic: 0.6
+        Slash: 0.8
+- type: entity
+  id: MLOuterCwuengi
+  parent: ClothingOuterBase
+  name: outer (cwuengi)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: cwuengi
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: cwuengi
+  - type: Armor
+    coefficients:
+        Shock: 0.75
+        Heat: 0.75
+        Radiation: 0.4
+- type: entity
+  id: MLOuterForeman
+  parent: ClothingOuterBase
+  name: outer (foreman)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: foreman
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: foreman
+  - type: Armor
+    coefficients:
+        Shock: 0.75
+        Heat: 0.75
+        Radiation: 0.4
+- type: entity
+  id: MLOuterRebelarmorHeavy
+  parent: ClothingOuterBase
+  name: outer (rebelarmor-heavy)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: rebelarmor_heavy
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: rebelarmor_heavy
+  - type: MLArmor
+    rating: 0.55
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.59
+        Slash: 0.59
+        Heat: 0.73
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterRebelarmorLight
+  parent: ClothingOuterBase
+  name: outer (rebelarmor-light)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: rebelarmor_light
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: rebelarmor_light
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterBioBoiler
+  parent: ClothingOuterBase
+  name: outer (bio-boiler)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: bio_boiler
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: bio_boiler
+  - type: Armor
+    coefficients:
+        Caustic: 0.5
+        Radiation: 0.5
+- type: entity
+  id: MLOuterBluejacket
+  parent: ClothingOuterBase
+  name: outer (bluejacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: bluejacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: bluejacket
+- type: entity
+  id: MLOuterPrisonerjacket
+  parent: ClothingOuterBase
+  name: outer (prisonerjacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: prisonerjacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: prisonerjacket
+- type: entity
+  id: MLOuterWhitejacket
+  parent: ClothingOuterBase
+  name: outer (whitejacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: whitejacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: whitejacket
+- type: entity
+  id: MLOuterMetropoliceUk
+  parent: ClothingOuterBase
+  name: outer (metropolice-uk)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: metropolice_uk
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: metropolice_uk
+  - type: MLArmor
+    rating: 0.3
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Heat: 0.9
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterGreenjacket
+  parent: ClothingOuterBase
+  name: outer (greenjacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: greenjacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: greenjacket
+- type: entity
+  id: MLOuterMilvest
+  parent: ClothingOuterBase
+  name: outer (milvest)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: milvest
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: milvest
+  - type: MLArmor
+    rating: 0.5
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.63
+        Slash: 0.63
+        Heat: 0.75
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterPlatearmor
+  parent: ClothingOuterBase
+  name: outer (platearmor)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: platearmor
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: platearmor
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Heat: 0.8
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterKevlarHeavy
+  parent: ClothingOuterBase
+  name: outer (kevlar-heavy)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: kevlar_heavy
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: kevlar_heavy
+  - type: MLArmor
+    rating: 0.5
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.63
+        Slash: 0.63
+        Heat: 0.75
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterCrematorjacket
+  parent: ClothingOuterBase
+  name: outer (crematorjacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: crematorjacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: crematorjacket
+  - type: Armor
+    coefficients:
+        Heat: 0.5
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterPolandHeavy
+  parent: ClothingOuterBase
+  name: outer (poland-heavy)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: poland_heavy
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: poland_heavy
+  - type: MLArmor
+    rating: 0.75
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.48
+        Slash: 0.48
+        Heat: 0.6
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterScientist
+  parent: ClothingOuterBase
+  name: outer (scientist)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: scientist
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: scientist
+  - type: Armor
+    coefficients:
+        Radiation: 0.5
+        Caustic: 0.6
+        Slash: 0.8
+- type: entity
+  id: MLOuterHeavyplatearmor
+  parent: ClothingOuterBase
+  name: outer (heavyplatearmor)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: heavyplatearmor
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: heavyplatearmor
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterAssassin
+  parent: ClothingOuterBase
+  name: outer (assassin)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: assassin
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: assassin
+  - type: MLArmor
+    rating: 0.7
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.51
+        Slash: 0.51
+        Heat: 0.63
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterSuppressor
+  parent: ClothingOuterBase
+  name: outer (suppressor)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: suppressor
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: suppressor
+  - type: MLArmor
+    rating: 0.4
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Heat: 0.80
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterReinforcedwinterbrown
+  parent: ClothingOuterBase
+  name: outer (reinforcedwinterbrown)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: reinforcedwinterbrown
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: reinforcedwinterbrown
+  - type: MLArmor
+    rating: 0.35
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.74
+        Slash: 0.74
+        Heat: 0.83
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterHazsuit
+  parent: ClothingOuterBase
+  name: outer (hazsuit)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: hazsuit
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: hazsuit
+  - type: Armor
+    coefficients:
+        Caustic: 0.5
+        Radiation: 0.5
+- type: entity
+  id: MLOuterFiresuit
+  parent: ClothingOuterBase
+  name: outer (firesuit)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: firesuit
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: firesuit
+  - type: Armor
+    coefficients:
+        Heat: 0.5
+        Cold: 0.8
+        Slash: 0.9
+- type: entity
+  id: MLOuterArmoredjacket
+  parent: ClothingOuterBase
+  name: outer (armoredjacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: armoredjacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: armoredjacket
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterInsulatedjacket
+  parent: ClothingOuterBase
+  name: outer (insulatedjacket)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: insulatedjacket
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: insulatedjacket
+  - type: MLArmor
+    rating: 0.45
+    coverage:
+    - Torso
+    - Groin
+    resists:
+      coefficients:
+        Blunt: 0.66
+        Slash: 0.66
+        Heat: 0.78
+  - type: AllowSuitStorage
+- type: entity
+  id: MLOuterOldriotsuit
+  parent: ClothingOuterBase
+  name: outer (oldriotsuit)
+  description: 'Half-Life: Episode 13 outer.'
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/suits.rsi
+    state: oldriotsuit
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/suit.rsi
+    equippedState: oldriotsuit
+  - type: MLArmor
+    rating: 0.55
+    coverage:
+    - Torso
+    - Groin
+    - LeftArm
+    - RightArm
+    resists:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Heat: 0.72
+  - type: AllowSuitStorage

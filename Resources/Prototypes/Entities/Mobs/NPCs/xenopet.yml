@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Neutral Rouny
   id: MobXenoNeutralRouny
   parent: MobXenoRounyNPC
@@ -25,6 +26,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Neutral Praetorian
   id: MobXenoNeutralPraetorian
   parent: MobXenoPraetorianNPC
@@ -50,6 +52,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Neutral Drone
   id: MobXenoNeutralDrone
   parent: MobXenoDroneNPC
@@ -75,6 +78,7 @@
     - TauCetiBasic
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Neutral Ravager
   id: MobXenoNeutralRavager
   parent: MobXenoRavagerNPC
@@ -124,6 +128,7 @@
     displayName: Mask
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Friend-Shaped
   parent: MobXenoNeutralRouny
   id: MobXenoFriendShaped
@@ -168,6 +173,7 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Patriach
   parent: MobXenoNeutralPraetorian
   id: MobXenoPatriarch
@@ -216,6 +222,7 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: FXES
   parent: MobXenoNeutralDrone
   id: MobXenoFXES
@@ -250,6 +257,7 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Hell-Shaped
   parent: MobXenoNeutralRavager
   id: MobXenoHellShaped
@@ -284,6 +292,7 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: FXE Subject 7355
   parent: MobXenoNeutralRavager
   id: MobXenoSubjectTess
@@ -516,6 +525,7 @@
 #       prob: 0.01
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Friendly Xeno spawner
   id: friendlyxenoSpawner
   parent: MarkerBase

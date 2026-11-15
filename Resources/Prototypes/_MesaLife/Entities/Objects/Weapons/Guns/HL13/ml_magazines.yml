@@ -1,0 +1,500 @@
+# Auto-generated ML magazines (halflife-episode13).
+
+- type: entity
+  id: BaseMagazineML
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Magazine
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+
+- type: entity
+  id: MagazineMLUSP9mm
+  name: "pistol magazine (9mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/usp.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLUSP
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPistol9mm
+    capacity: 15
+    proto: CartridgeML9mmUSP
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLUSPRubber
+  name: "pistol magazine (9mm rubber)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/uspru.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLUSP
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPistol9mm
+    capacity: 15
+    proto: CartridgeML9mmRubber
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLUSPExtended
+  name: "extended pistol magazine (9mm armor-piercing)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/usp.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLUSP
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPistol9mm
+    capacity: 30
+    proto: CartridgeML9mmAP
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLMakeshift9mm
+  name: "makeshift pistol magazine (9mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/45.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLMakeshift
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPistol9mm
+    capacity: 10
+    proto: CartridgeML9mmMakeshift
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLTranq
+  name: "tranquilizer pistol magazine (9mm tranq)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/45.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLTranq
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPistol9mm
+    capacity: 10
+    proto: CartridgeML9mmTranq
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLMP7
+  name: "MP7 magazine (4.6x30mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/smg9mm.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLMP7
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML46mm
+    capacity: 40
+    proto: CartridgeML46mm
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLMP7Rubber
+  name: "MP7 magazine (4.6x30mm rubber)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/smg9mmru.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLMP7
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML46mm
+    capacity: 40
+    proto: CartridgeML46mmRubber
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLAR2
+  name: "OSIPR magazine (pulse)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: ar2
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLAR2
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPulse
+    capacity: 30
+    proto: CartridgeMLPulseAR2
+
+- type: entity
+  id: MagazineMLPulseSMG
+  name: "pulse smg magazine"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/pulsesmg.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLPulseSMG
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPulse
+    capacity: 30
+    proto: CartridgeMLPulseSMG
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLPulseLMG
+  name: "LMG magazine (pulse)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: ar2
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLPulseLMG
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPulse
+    capacity: 120
+    proto: CartridgeMLPulseLMG
+
+- type: entity
+  id: MagazineMLSniper
+  name: "sniper magazine (pulse)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: ar2
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLSniper
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeMLPulse
+    capacity: 10
+    proto: CartridgeMLPulseSniper
+
+- type: entity
+  id: MagazineMLM4
+  name: "m4a1 magazine (5.56mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/m308.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLM4
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML556
+    capacity: 30
+    proto: CartridgeML556
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLService
+  name: "service rifle magazine (5.56mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/m308small.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLService
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML556
+    capacity: 20
+    proto: CartridgeML556
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLAK
+  name: "ak-47 magazine (7.62mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/ar762.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLAK
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML762
+    capacity: 30
+    proto: CartridgeML762
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLRPD
+  name: "rpd magazine (7.62mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/rpd.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLRPD
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML762
+    capacity: 100
+    proto: CartridgeML762RPD
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMLSVD
+  name: "dragunov magazine (7.62mm)"
+  parent: BaseMagazineML
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/MLMags/m308small.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Tag
+    tags:
+    - Magazine
+    - MagazineMLSVD
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML762
+    capacity: 10
+    proto: CartridgeML762HighVeloc
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderMLMagnum
+  name: "speed loader (.357)"
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+    - SpeedLoaderMLMagnum
+  - type: SpeedLoader
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeML357
+    capacity: 6
+    proto: CartridgeML357
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: "357"
+      map: ["enum.GunVisualLayers.Base"]
+    - state: "357-6"
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: "357"
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
+  id: AmmoBoxML9mm
+  name: "ammo box (9mm)"
+  parent: BaseItem
+  components:
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    capacity: 45
+    proto: CartridgeML9mmUSP
+    whitelist:
+      tags:
+      - Cartridge
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: ammobox
+      map: ["enum.GunVisualLayers.Base"]
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 20
+
+- type: entity
+  id: AmmoBoxML46mm
+  name: "ammo box (4.6x30mm)"
+  parent: BaseItem
+  components:
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    capacity: 120
+    proto: CartridgeML46mm
+    whitelist:
+      tags:
+      - Cartridge
+  - type: Sprite
+    sprite: _MesaLife/Weapons/ML/Guns/ammo.rsi
+    layers:
+    - state: ammobox
+      map: ["enum.GunVisualLayers.Base"]
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 20

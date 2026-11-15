@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "30mm_crate"
+    },
+    {
+      "name": "recycler"
+    },
+    {
+      "name": "mapping_comp",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "mapping_comp_off"
+    },
+    {
+      "name": "mps"
+    },
+    {
+      "name": "mps_off"
+    },
+    {
+      "name": "sensor_comp1",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "sensor_comp1_off"
+    },
+    {
+      "name": "sensor_comp2",
+      "delays": [
+        [
+          1.0,
+          0.4,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "sensor_comp2_off"
+    },
+    {
+      "name": "sensor_comp3",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "sensor_comp3_off"
+    },
+    {
+      "name": "hacked",
+      "delays": [
+        [
+          2.0,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "hangarbox"
+    },
+    {
+      "name": "flare_launcher"
+    },
+    {
+      "name": "handheld1"
+    },
+    {
+      "name": "hangar_comp"
+    },
+    {
+      "name": "hangar_comp_open"
+    },
+    {
+      "name": "flight_recorder"
+    },
+    {
+      "name": "chaff_launcher"
+    },
+    {
+      "name": "equip_base"
+    },
+    {
+      "name": "equip_base_front"
+    },
+    {
+      "name": "advanced_camera_installed",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "advanced_camera"
+    },
+    {
+      "name": "docking_comp"
+    },
+    {
+      "name": "docking_comp_installed",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "mg_system"
+    },
+    {
+      "name": "mg_system_installed",
+      "directions": 4
+    },
+    {
+      "name": "mg_system_deployed"
+    },
+    {
+      "name": "spotlights"
+    },
+    {
+      "name": "spotlights_on"
+    },
+    {
+      "name": "sentry_system"
+    },
+    {
+      "name": "sentry_system_installed",
+      "directions": 4
+    },
+    {
+      "name": "sentry_system_deployed",
+      "directions": 4
+    },
+    {
+      "name": "sentry_system_destroyed"
+    },
+    {
+      "name": "targeting_system_installed"
+    },
+    {
+      "name": "targeting_system"
+    },
+    {
+      "name": "minirocket_pod"
+    },
+    {
+      "name": "minirocket"
+    },
+    {
+      "name": "minirocket_pod_installed",
+      "directions": 4
+    },
+    {
+      "name": "minirocket_pod_loaded",
+      "directions": 4
+    },
+    {
+      "name": "equip_base_r_wing"
+    },
+    {
+      "name": "equip_base_l_wing"
+    },
+    {
+      "name": "spotlights_off"
+    },
+    {
+      "name": "30mm_crate_hv"
+    },
+    {
+      "name": "minirocket_inc"
+    },
+    {
+      "name": "laser_battery"
+    },
+    {
+      "name": "laser_detector_installed"
+    },
+    {
+      "name": "laser_detector"
+    },
+    {
+      "name": "lz_detector_installed"
+    },
+    {
+      "name": "lz_detector"
+    },
+    {
+      "name": "medevac_system"
+    },
+    {
+      "name": "medevac_system_deployed"
+    },
+    {
+      "name": "medevac_system_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "cannon_cables"
+    },
+    {
+      "name": "cannon_cable_connector"
+    },
+    {
+      "name": "ob_warhead_1"
+    },
+    {
+      "name": "ob_warhead_2"
+    },
+    {
+      "name": "ob_warhead_3"
+    },
+    {
+      "name": "ob_fuel"
+    },
+    {
+      "name": "fulton_system"
+    },
+    {
+      "name": "fulton_system_deployed"
+    },
+    {
+      "name": "fulton_system_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "launch_bay"
+    },
+    {
+      "name": "launch_bay_deployed"
+    },
+    {
+      "name": "launchable_sentry"
+    },
+    {
+      "name": "rappel_hatch_open"
+    },
+    {
+      "name": "rappel_hatch_closed"
+    },
+    {
+      "name": "rappel_hatch_opening",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.4,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "rappel_hatch_closing",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "hatch_rope"
+    },
+    {
+      "name": "rappel_module_packaged"
+    },
+    {
+      "name": "rope_deploy",
+      "delays": [
+        [
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075,
+          0.075
+        ]
+      ]
+    },
+    {
+      "name": "rope_up",
+      "delays": [
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      ]
+    },
+    {
+      "name": "rope"
+    },
+    {
+      "name": "rope_inuse",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "minirocket_flr"
+    }
+  ]
+}

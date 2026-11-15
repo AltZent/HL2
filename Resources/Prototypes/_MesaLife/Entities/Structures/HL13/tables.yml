@@ -1,0 +1,318 @@
+# Auto-generated ML tables (halflife-episode13 assets).
+# Smoothing: CardinalFlags - /tg/ junction bits match SS14 CardinalConnectDirs.
+- type: entity
+  id: MLTableMetal
+  parent: TableBase
+  name: "metal table"
+  description: "A square piece of metal standing on four metal legs."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalAlt
+  parent: TableBase
+  name: "rounded metal table"
+  description: "A rounded piece of metal standing on a set of metal legs."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_alt.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_alt.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalGrate
+  parent: TableBase
+  name: "grated metal table"
+  description: "A grated metal table, super industrial-y."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_grate.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_grate.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalSmall
+  parent: TableBase
+  name: "low metal table"
+  description: "A small, low down metal table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_small.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_small.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalHeavy
+  parent: TableBase
+  name: "heavy-duty metal table"
+  description: "A heavy duty metal table, built to hold up to the heaviest of tools."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_heavy.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_heavy.rsi
+    state: table-0
+- type: entity
+  id: MLTableWood
+  parent: TableBase
+  name: "wood table"
+  description: "A simple wooden table. Good for propping your feet up on dramatically."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_wood.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_wood.rsi
+    state: table-0
+- type: entity
+  id: MLTableWoodBar
+  parent: TableBase
+  name: "bar table"
+  description: "A somewhat fancy table used at restaurants of the past."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_bar.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_bar.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalBuilt
+  parent: TableBase
+  name: "crude metal table"
+  description: "A crude table made of quality metal."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_built.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_built.rsi
+    state: table-0
+- type: entity
+  id: MLTableMetalBuiltLQ
+  parent: TableBase
+  name: "crude scrap metal table"
+  description: "A crude table made of scrap metal. Barely finished, but it does its job."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_built_LQ.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_metal_built_LQ.rsi
+    state: table-0
+- type: entity
+  id: MLTableWoodBuilt
+  parent: TableBase
+  name: "crude wood table"
+  description: "A crude wood table of decent quality."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_built.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_built.rsi
+    state: table-0
+- type: entity
+  id: MLTableWoodBuiltLQ
+  parent: TableBase
+  name: "crude scrap wood table"
+  description: "A crude wood table made of scrap, low quality wood."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_built_LQ.rsi
+    state: table-0
+  - type: IconSmooth
+    key: mltable
+    base: table-
+    mode: CardinalFlags
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/table_wood_built_LQ.rsi
+    state: table-0
+- type: entity
+  id: MLTableWoodEnd
+  parent: TableBase
+  name: "wood end table"
+  description: "A small wooden table that ends."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_end
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_end
+- type: entity
+  id: MLTableWoodStand
+  parent: TableBase
+  name: "wood stand"
+  description: "A standing wooden table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_stand
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_stand
+- type: entity
+  id: MLTableWoodLow
+  parent: TableBase
+  name: "low wood table"
+  description: "A low wooden table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_low
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_low
+- type: entity
+  id: MLTableWoodSquare
+  parent: TableBase
+  name: "square wood table"
+  description: "A square wooden table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_square
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_square
+- type: entity
+  id: MLTableWoodRound
+  parent: TableBase
+  name: "round wood table"
+  description: "A round wooden table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_round
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_wood_round
+- type: entity
+  id: MLTableMetalRound
+  parent: TableBase
+  name: "round metal table"
+  description: "A table, masterfully designed with high-tech to become... round."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_metal_round
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_metal_round
+- type: entity
+  id: MLTableRolling
+  parent: TableBase
+  name: "rolling table"
+  description: "A table on wheels."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_rolling
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: table_rolling
+- type: entity
+  id: MLTableWorkbenchWood
+  parent: TableBase
+  name: "wood workbench"
+  description: "A rustic wooden workbench."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: workbench_wood
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: workbench_wood
+- type: entity
+  id: MLTableFrameMetal
+  parent: TableBase
+  name: "metal table frame"
+  description: "Four metal legs with four framing rods for a table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: tableframe_metal
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: tableframe_metal
+- type: entity
+  id: MLTableFrameWood
+  parent: TableBase
+  name: "wood table frame"
+  description: "Four wooden legs with four framing wooden rods for a table."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: tableframe_wood
+  - type: IconSmooth
+    mode: NoSprite
+  - type: Icon
+    sprite: _MesaLife/Structures/ML/Tables/standalone_tables.rsi
+    state: tableframe_wood

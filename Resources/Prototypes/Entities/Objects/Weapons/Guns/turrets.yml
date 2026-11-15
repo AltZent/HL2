@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: WeaponTurretSyndicateBroken
   name: ballistic turret (broken)
@@ -120,6 +121,7 @@
       context: "human"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWeaponTurret
   id: WeaponTurretSyndicate
   suffix: Syndicate
@@ -129,6 +131,7 @@
         - Syndicate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWeaponTurret
   name: disposable ballistic turret
   id: WeaponTurretSyndicateDisposable
@@ -178,6 +181,7 @@
       canCreateVacuum: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWeaponTurret
   id: WeaponTurretNanoTrasen
   suffix: NanoTrasen
@@ -187,6 +191,7 @@
     - NanoTrasen
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseWeaponTurret
   id: WeaponTurretHostile
   suffix: Hostile
@@ -196,6 +201,7 @@
     - SimpleHostile
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: xeno turret
   description: Shoots 9mm acid projectiles
   parent: BaseWeaponTurret

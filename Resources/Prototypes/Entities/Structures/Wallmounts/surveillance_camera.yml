@@ -96,6 +96,7 @@
       - Wallmount
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
   name: camera
@@ -116,6 +117,7 @@
         - SurveillanceCameraCommand
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
   name: camera
@@ -129,6 +131,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
   name: camera
@@ -142,6 +145,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
   name: camera
@@ -155,6 +159,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
   name: camera
@@ -168,6 +173,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
   name: camera
@@ -181,6 +187,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
   name: camera
@@ -194,6 +201,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
   name: camera
@@ -207,6 +215,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
   name: camera
@@ -220,6 +229,7 @@
     networkSet: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: SurveillanceCameraAssembly
   name: camera
   description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.

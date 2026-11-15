@@ -1,0 +1,25 @@
+# Auto-generated ML neckwear (halflife-episode13 assets).
+- type: entity
+  id: MLNeckBlackCape
+  parent: ClothingNeckBase
+  name: "neckwear (black-cape)"
+  description: "Half-Life: Episode 13 neckwear."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/neck.rsi
+    state: black_cape
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/neck.rsi
+    equippedState: black_cape
+- type: entity
+  id: MLNeckBlackhalf
+  parent: ClothingNeckBase
+  name: "neckwear (blackhalf)"
+  description: "Half-Life: Episode 13 neckwear."
+  components:
+  - type: Sprite
+    sprite: _MesaLife/Clothing/ML/Held/neck.rsi
+    state: blackhalf
+  - type: Clothing
+    sprite: _MesaLife/Clothing/ML/Worn/neck.rsi
+    equippedState: blackhalf

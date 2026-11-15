@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14FuelTankHandy
   name: fuel tank
@@ -76,6 +77,7 @@
     size: Huge
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FuelTankHandy
   id: N14FuelTankHandyRusty
   name: fuel tank

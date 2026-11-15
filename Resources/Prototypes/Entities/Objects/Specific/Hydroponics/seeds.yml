@@ -13,6 +13,7 @@
       price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of wheat seeds
   id: WheatSeeds
@@ -23,6 +24,7 @@
       sprite: Objects/Specific/Hydroponics/wheat.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of meatwheat seeds
   description: "If you ever wanted to drive a vegetarian to insanity, here's how."
@@ -34,6 +36,7 @@
       sprite: Objects/Specific/Hydroponics/meatwheat.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of oat seeds
   id: OatSeeds
@@ -44,6 +47,7 @@
       sprite: Objects/Specific/Hydroponics/oat.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of banana seeds
   id: BananaSeeds
@@ -54,6 +58,7 @@
       sprite: Objects/Specific/Hydroponics/banana.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of mimana seeds
   id: MimanaSeeds
@@ -64,6 +69,7 @@
       sprite: Objects/Specific/Hydroponics/mimana.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of carrot seeds
   id: CarrotSeeds
@@ -74,6 +80,7 @@
       sprite: Objects/Specific/Hydroponics/carrot.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of cabbage seeds
   id: CabbageSeeds
@@ -84,6 +91,7 @@
       sprite: Objects/Specific/Hydroponics/cabbage.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of garlic seeds
   id: GarlicSeeds
@@ -94,6 +102,7 @@
       sprite: Objects/Specific/Hydroponics/garlic.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   id: LaughinPeaSeeds
   name: packet of laughin' pea pods
@@ -105,6 +114,7 @@
       sprite: Objects/Specific/Hydroponics/laughin_pea.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of lemon seeds
   id: LemonSeeds
@@ -115,6 +125,7 @@
       sprite: Objects/Specific/Hydroponics/lemon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of lemoon seeds
   id: LemoonSeeds
@@ -125,6 +136,7 @@
       sprite: Objects/Specific/Hydroponics/lemoon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of lime seeds
   id: LimeSeeds
@@ -135,6 +147,7 @@
       sprite: Objects/Specific/Hydroponics/lime.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of orange seeds
   id: OrangeSeeds
@@ -145,6 +158,7 @@
       sprite: Objects/Specific/Hydroponics/orange.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of extradimensional orange seeds
   description: "Polygonal seeds."
@@ -156,6 +170,7 @@
       sprite: Objects/Specific/Hydroponics/extradimensional_orange.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of pineapple seeds
   id: PineappleSeeds
@@ -166,6 +181,7 @@
       sprite: Objects/Specific/Hydroponics/pineapple.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of potato seeds
   id: PotatoSeeds
@@ -176,6 +192,7 @@
       sprite: Objects/Specific/Hydroponics/potato.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of sugarcane seeds
   id: SugarcaneSeeds
@@ -186,6 +203,7 @@
       sprite: Objects/Specific/Hydroponics/sugarcane.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of papercane seeds
   id: PapercaneSeeds
@@ -196,6 +214,7 @@
       sprite: Objects/Specific/Hydroponics/papercane.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of tower cap spores
   id: TowercapSeeds
@@ -206,6 +225,7 @@
       sprite: Objects/Specific/Hydroponics/towercap.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of steel cap spores
   id: SteelcapSeeds
@@ -216,6 +236,7 @@
       sprite: Objects/Specific/Hydroponics/steelcap.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of tomato seeds
   id: TomatoSeeds
@@ -226,6 +247,7 @@
       sprite: Objects/Specific/Hydroponics/tomato.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of blue tomato seeds
   id: BlueTomatoSeeds
@@ -236,6 +258,7 @@
       sprite: Objects/Specific/Hydroponics/blue_tomato.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of blood tomato seeds
   id: BloodTomatoSeeds
@@ -246,6 +269,7 @@
       sprite: Objects/Specific/Hydroponics/blood_tomato.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of eggplant seeds
   id: EggplantSeeds
@@ -256,6 +280,7 @@
       sprite: Objects/Specific/Hydroponics/eggplant.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of apple seeds
   id: AppleSeeds
@@ -266,6 +291,7 @@
       sprite: Objects/Specific/Hydroponics/apple.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of golden apple seeds
   id: GoldenAppleSeeds
@@ -276,6 +302,7 @@
       sprite: Objects/Specific/Hydroponics/golden_apple.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of corn seeds
   id: CornSeeds
@@ -286,6 +313,7 @@
       sprite: Objects/Specific/Hydroponics/corn.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of chanterelle spores
   id: ChanterelleSeeds
@@ -296,6 +324,7 @@
       sprite: Objects/Specific/Hydroponics/chanterelle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of egg-plant seeds
   id: EggySeeds
@@ -306,6 +335,7 @@
       sprite: Objects/Specific/Hydroponics/eggy.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of tobacco seeds
   description: "These seeds grow into tobacco plants."
@@ -317,6 +347,7 @@
       sprite: Objects/Specific/Hydroponics/tobacco.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of cannabis seeds
   description: "Taxable."
@@ -328,6 +359,7 @@
       sprite: Objects/Specific/Hydroponics/cannabis.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of rainbow cannabis seeds
   description: "These seeds grow into rainbow weed. Groovy... and also highly addictive."
@@ -339,6 +371,7 @@
       sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of nettle seeds
   description: "Handle with gloves."
@@ -350,6 +383,7 @@
       sprite: Objects/Specific/Hydroponics/nettle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of death nettle seeds
   description: "Handle with very thick gloves."
@@ -361,6 +395,7 @@
       sprite: Objects/Specific/Hydroponics/death_nettle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of chili seeds
   description: "Spicy."
@@ -372,6 +407,7 @@
       sprite: Objects/Specific/Hydroponics/chili.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of chilly seeds
   description: "Frostburn."
@@ -383,6 +419,7 @@
       sprite: Objects/Specific/Hydroponics/chilly.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of aloe seeds
   description: "Soothing."
@@ -394,6 +431,7 @@
       sprite: Objects/Specific/Hydroponics/aloe.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of poppy seeds
   description: "Do not eat within 72 hours of a drug test."
@@ -405,6 +443,7 @@
       sprite: Objects/Specific/Hydroponics/poppy.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of lily seeds
   description: "These seeds grow into lilies."
@@ -416,6 +455,7 @@
       sprite: Objects/Specific/Hydroponics/lily.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of lingzhi spores
   description: "Also known as reishi."
@@ -427,6 +467,7 @@
       sprite: Objects/Specific/Hydroponics/lingzhi.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of ambrosia vulgaris seeds
   description: "A medicinal plant for the common folk."
@@ -438,6 +479,7 @@
       sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of ambrosia deus seeds
   description: "A medicinal plant for the gods themselves."
@@ -449,6 +491,7 @@
       sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of galaxythistle seeds
   description: "Brushes of starry nights."
@@ -460,6 +503,7 @@
       sprite: Objects/Specific/Hydroponics/galaxythistle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of glasstle seeds
   description: "Scars of gloomy nights."
@@ -471,6 +515,7 @@
       sprite: Objects/Specific/Hydroponics/glasstle.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of fly amanita spores
   description: "The iconic, extremely deadly mushroom to be used for purely ornamental purposes."
@@ -482,6 +527,7 @@
       sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of gatfruit seeds
   description: "These are no peashooters."
@@ -493,6 +539,7 @@
       sprite: Objects/Specific/Hydroponics/gatfruit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of onion seeds
   description: "Not a shallot."
@@ -504,6 +551,7 @@
       sprite: Objects/Specific/Hydroponics/onion.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of rice seeds
   id: RiceSeeds
@@ -514,6 +562,7 @@
       sprite: Objects/Specific/Hydroponics/rice.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of soybean seeds
   id: SoybeanSeeds
@@ -524,6 +573,7 @@
       sprite: Objects/Specific/Hydroponics/soybeans.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of spaceman's trumpet seeds
   id: SpacemansTrumpetSeeds
@@ -534,6 +584,7 @@
       sprite: Objects/Specific/Hydroponics/spacemans_trumpet.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of koibean seeds
   id: KoibeanSeeds
@@ -544,6 +595,7 @@
       sprite: Objects/Specific/Hydroponics/koibean.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of red onion seeds
   description: "Purple despite the name."
@@ -555,6 +607,7 @@
       sprite: Objects/Specific/Hydroponics/onion_red.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of watermelon seeds
   id: WatermelonSeeds
@@ -565,6 +618,7 @@
       sprite: Objects/Specific/Hydroponics/watermelon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of holymelon seeds
   id: HolymelonSeeds
@@ -575,6 +629,7 @@
       sprite: Objects/Specific/Hydroponics/holymelon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of grape seeds
   id: GrapeSeeds
@@ -585,6 +640,7 @@
       sprite: Objects/Specific/Hydroponics/grape.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of cocoa seeds
   id: CocoaSeeds
@@ -595,6 +651,7 @@
       sprite: Objects/Specific/Hydroponics/cocoa.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of berry seeds
   id: BerrySeeds
@@ -605,6 +662,7 @@
       sprite: Objects/Specific/Hydroponics/berries.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of bungo seeds
   description: "Don't eat the pits."
@@ -616,6 +674,7 @@
       sprite: Objects/Specific/Hydroponics/bungo.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   id: PeaSeeds
   name: packet of pea pods
@@ -627,6 +686,7 @@
       sprite: Objects/Specific/Hydroponics/pea.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   id: WorldPeaSeeds
   name: packet of world pea seeds
@@ -638,6 +698,7 @@
       sprite: Objects/Specific/Hydroponics/world_pea.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of pumpkin seeds
   id: PumpkinSeeds
@@ -648,6 +709,7 @@
       sprite: Objects/Specific/Hydroponics/pumpkin.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of cotton seeds
   id: CottonSeeds
@@ -658,6 +720,7 @@
       sprite: Objects/Specific/Hydroponics/cotton.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of pyrotton seeds
   id: PyrottonSeeds
@@ -668,6 +731,7 @@
       sprite: Objects/Specific/Hydroponics/pyrotton.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   id: RealCapfruitSeeds
   name: packet of capfruit seeds
@@ -679,6 +743,7 @@
       sprite: Objects/Specific/Hydroponics/capfruit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: RealCapfruitSeeds
   id: FakeCapfruitSeeds
   suffix: Fake
@@ -687,6 +752,7 @@
       seedId: fakeCapfruit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: SeedBase
   name: packet of cherry seeds
   id: CherrySeeds

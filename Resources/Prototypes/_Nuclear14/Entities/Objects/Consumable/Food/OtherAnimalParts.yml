@@ -1,5 +1,6 @@
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14FoodFireantNectar
   name: fire ant nectar
@@ -30,6 +31,7 @@
         Blunt: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodFireantNectar
   id: N14FoodBloatflyAcidSac
   name: bloatfly acid sac
@@ -52,6 +54,7 @@
         Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14FoodFireantNectar
   id: N14FoodCazadorAcidSac
   name: cazador acid sac

@@ -43,6 +43,7 @@
 
 # Billboards
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardNukacola1
   parent: N14SignFloorBase
   name: billboard
@@ -76,6 +77,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardNukacola1worn
   parent: StreetFurnitureBillboardNukacola1
   description: A billboard advertising nuka cola.
@@ -87,6 +89,7 @@
     - state: nukacola1-worn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardMassfusion1
   parent: StreetFurnitureBillboardNukacola1
   description: A billboard advertising the Mass Fusion company.
@@ -98,6 +101,7 @@
     - state: massfusion1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardMassfusion1worn
   parent: StreetFurnitureBillboardNukacola1
   description: A billboard advertising the Mass Fusion company.
@@ -109,6 +113,7 @@
     - state: massfusion1-worn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardRedrocket1
   parent: StreetFurnitureBillboardNukacola1
   description: A billboard advertising the Red Rocket fuel company.
@@ -120,6 +125,7 @@
     - state: redrocket1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: StreetFurnitureBillboardRedrocket1worn
   parent: StreetFurnitureBillboardNukacola1
   description: A billboard advertising the Red Rocket fuel company.
@@ -131,6 +137,7 @@
     - state: redrocket1-worn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StreetFurnitureBillboardNukacola1
   id: StreetFurnitureBillboardHorizonAirlines
   description: A billboard advertising the Horizon Airlines company.
@@ -141,6 +148,7 @@
     - state: horizonairlines
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StreetFurnitureBillboardHorizonAirlines
   id: StreetFurnitureBillboardHorizonAirlinesWorn
   components:
@@ -150,6 +158,7 @@
     - state: horizonairlines-worn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StreetFurnitureBillboardNukacola1
   id: StreetFurnitureBillboardSchoelt
   description: A billboard advertising the Schoelt propane company.
@@ -161,6 +170,7 @@
 
 # Floor Signs
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignFloorBase
   id: N14SignFloorBazaar
   suffix: bazaar
@@ -171,6 +181,7 @@
     state: bazaar
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignFloorBase
   id: N14SignFloorOpen
   suffix: we are open
@@ -210,6 +221,7 @@
     noRot: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetInterstate
   name: interstate sign
@@ -220,6 +232,7 @@
     state: interstate
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetInterstateShot
   name: interstate sign
@@ -230,6 +243,7 @@
     state: interstate80_shot
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetStop
   name: stop sign
@@ -240,6 +254,7 @@
     state: stop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetNoturning
   name: no turning sign
@@ -250,6 +265,7 @@
     state: noturn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetNoparking
   name: no parking sign
@@ -259,6 +275,7 @@
     state: noparking
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetSign
   name: street sign
@@ -268,6 +285,7 @@
     state: street
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetOneway
   name: one way sign
@@ -278,6 +296,7 @@
     state: direction
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetBusstop
   name: bus stop sign
@@ -287,6 +306,7 @@
     state: busstop
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetRailcrossing
   name: rail crossing sign
@@ -296,6 +316,7 @@
     state: railcrossing
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetOnedirection
   name: ahead only sign
@@ -306,6 +327,7 @@
     state: onlydir
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetSpeedlimit
   name: speed limit sign
@@ -316,6 +338,7 @@
     state: speed
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetWarning
   name: warning sign
@@ -326,6 +349,7 @@
     state: warnings
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetTurn
   name: turn sign
@@ -336,6 +360,7 @@
     state: turn
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetExit
   name: exit sign
@@ -347,6 +372,7 @@
     state: exit
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetNopedestrians
   name: no pedestrians sign
@@ -356,6 +382,7 @@
     state: nopedestrian
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetMerge
   name: merge ahead sign
@@ -365,6 +392,7 @@
     state: merge
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignStreetBase
   id: N14SignStreetSnake
   name: snake ahead sign
@@ -375,6 +403,7 @@
 
 # Street Poles
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14SignFloorBase
   id: N14StreetPowerPoleRight
   name: power pole
@@ -386,6 +415,7 @@
     state: powerpole1
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14StreetPowerPoleRight
   id: N14StreetPowerPoleRightLeft
   suffix: left
@@ -413,6 +443,7 @@
       - Toggle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseLightStructure
   id: N14LightStreetLampPostAlwaysPoweredRight
   suffix: Always Powered, Right
@@ -431,6 +462,7 @@
     offset: "0, -0.5"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredRight
   id: N14LightStreetLampPostAlwaysPoweredLeft
   description: This light doesn't have an obvious power source.
@@ -445,6 +477,7 @@
     state: on
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14BaseLightStructure
   id: N14LightStreetLampPostPoweredEmptyRight
   suffix: Empty, Right
@@ -469,6 +502,7 @@
       path: "/Audio/Machines/light_tube_on.ogg"
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostPoweredEmptyLeft
   suffix: Empty, Left
@@ -478,6 +512,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostPoweredRight
   suffix: Powered, Right
@@ -495,6 +530,7 @@
         Heat: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyLeft
   id: N14LightStreetLampPostPoweredLeft
   suffix: Powered, Left
@@ -512,6 +548,7 @@
         Heat: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredRight
   id: N14LightStreetLampPostRaiderAlwaysPoweredRight
   suffix: Always Powered, Right
@@ -520,6 +557,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight1_raider_right.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredLeft
   id: N14LightStreetLampPostRaiderAlwaysPoweredLeft
   suffix: Always Powered, Left
@@ -528,6 +566,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight1_raider_left.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostRaiderPoweredEmptyRight
   suffix: Empty, Right
@@ -537,6 +576,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyLeft
   id: N14LightStreetLampPostRaiderPoweredEmptyLeft
   suffix: Empty, Left
@@ -546,6 +586,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14LightStreetLampPostRaiderPoweredEmptyRight, N14LightStreetLampPostPoweredRight]
   id: N14LightStreetLampPostRaiderPoweredRight
   suffix: Powered, Right
@@ -557,6 +598,7 @@
       map: [ "enum.PoweredLightLayers.Base" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ N14LightStreetLampPostRaiderPoweredEmptyLeft, N14LightStreetLampPostPoweredLeft]
   id: N14LightStreetLampPostRaiderPoweredLeft
   suffix: Powered, Left
@@ -568,6 +610,7 @@
       map: [ "enum.PoweredLightLayers.Base" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredRight
   id: N14LightStreetLampPostAlwaysPoweredRight2
   suffix: Always Powered, Right
@@ -576,6 +619,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight2_right.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredLeft
   id: N14LightStreetLampPostAlwaysPoweredLeft2
   suffix: Always Powered, Left
@@ -584,6 +628,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight2_left.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostPoweredEmptyRight2
   suffix: Empty, Right
@@ -593,6 +638,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyLeft
   id: N14LightStreetLampPostPoweredEmptyLeft2
   suffix: Empty, Left
@@ -602,6 +648,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredRight
   id: N14LightStreetLampPostPoweredRight2
   suffix: Powered, Right
@@ -614,6 +661,7 @@
       map: [ "enum.PoweredLightLayers.Base" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredLeft
   id: N14LightStreetLampPostPoweredLeft2
   suffix: Powered, Left
@@ -626,6 +674,7 @@
       map: [ "enum.PoweredLightLayers.Base" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredRight
   id: N14LightStreetLampPostRaiderAlwaysPoweredRight2
   suffix: Always Powered, Right
@@ -634,6 +683,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight2_raider_right.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostAlwaysPoweredLeft
   id: N14LightStreetLampPostRaiderAlwaysPoweredLeft2
   suffix: Always Powered, Left
@@ -642,6 +692,7 @@
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/streetlight2_raider_left.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostRaiderPoweredEmptyRight2
   suffix: Empty, Right
@@ -651,6 +702,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredEmptyLeft
   id: N14LightStreetLampPostRaiderPoweredEmptyLeft2
   suffix: Empty, Left
@@ -660,6 +712,7 @@
     state: off
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredRight
   id: N14LightStreetLampPostRaiderPoweredRight2
   suffix: Powered, Right
@@ -672,6 +725,7 @@
       map: [ "enum.PoweredLightLayers.Base" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14LightStreetLampPostPoweredLeft
   id: N14LightStreetLampPostRaiderPoweredLeft2
   suffix: Powered, Left
@@ -685,6 +739,7 @@
 
 # Other Furniture
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14DecorStreetPayphone
   name: payphone
@@ -732,6 +787,7 @@
         - LowImpassable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStreetPayphone
   id: N14DecorStreetMailbox
   name: mailbox
@@ -754,6 +810,7 @@
   - type: InteractionOutline
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStreetMailbox
   id: N14DecorStreetMailboxWide
   suffix: Wide
@@ -764,6 +821,7 @@
     state: mailbox
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStreetMailbox
   id: N14DecorStreetTrashbin
   name: trashbin
@@ -773,6 +831,7 @@
     state: trashbin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14DecorStreetTrashbin
   id: N14DecorStreetTrashbinDamaged
   suffix: damaged, random

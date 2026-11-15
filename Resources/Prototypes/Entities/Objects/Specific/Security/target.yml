@@ -50,6 +50,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: human target
   id: TargetHuman
   parent: BaseTarget
@@ -60,6 +61,7 @@
     state: target_h
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: syndicate target
   id: TargetSyndicate
   parent: BaseTarget
@@ -70,6 +72,7 @@
     state: target_s
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: clown target
   id: TargetClown
   parent: BaseTarget
@@ -81,6 +84,7 @@
 
 # put it on a salvage or something
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: strange target
   id: TargetStrange
   parent: BaseTarget

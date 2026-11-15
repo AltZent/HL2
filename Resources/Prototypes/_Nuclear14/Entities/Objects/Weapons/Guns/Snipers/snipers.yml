@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hunting rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniperHunting
@@ -35,6 +36,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lee enfield rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniperEnfield
@@ -71,6 +73,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: Anti-Materiel rifle
   parent: BaseWeaponRifle
   id: N14WeaponSniper50AntiMateriel
@@ -140,6 +143,7 @@
     price: 200
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: .50 NCR rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper50NCRRifle
@@ -179,6 +183,7 @@
     price: 175
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lever action carbine
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper44LeverCarbine
@@ -218,6 +223,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: lever action rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308LeverRifle
@@ -240,6 +246,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: brush gun
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper45-70BrushGun
@@ -266,6 +273,7 @@
     price: 100
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: pipe rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308PipeRifle
@@ -291,6 +299,7 @@
     price: 25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: varmint rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556VarmintRifle
@@ -324,6 +333,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: stockless lever action carbine
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper44LeverShortCarbine
@@ -363,6 +373,7 @@
     price: 75
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: .50 pipe rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper50Pipe
@@ -402,6 +413,7 @@
     price: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: huntstick
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Tribal
@@ -421,6 +433,7 @@
     price: 80
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: master huntstick
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308TribalUpgraded
@@ -440,6 +453,7 @@
     price: 90
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: F1 sniper rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Canadian
@@ -459,6 +473,7 @@
     price: 150
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: ross rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Ross

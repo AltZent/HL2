@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 40,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Matchbox"
+    },
+    {
+      "name": "matchbox"
+    },
+    {
+      "name": "matchbox_open"
+    },
+    {
+      "name": "matchbox_empty"
+    },
+    {
+      "name": "Matchbox_Overlay"
+    },
+    {
+      "name": "match_overlay_3"
+    },
+    {
+      "name": "match_overlay_2"
+    },
+    {
+      "name": "match_overlay_1"
+    },
+    {
+      "name": "Matches"
+    },
+    {
+      "name": "match_unlit"
+    },
+    {
+      "name": "match_lit",
+      "delays": [
+        [
+          0.15,
+          0.1,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "match_burnt"
+    },
+    {
+      "name": "Zippo"
+    },
+    {
+      "name": "zippo"
+    },
+    {
+      "name": "zippo_open"
+    },
+    {
+      "name": "zippo_flame",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "Candles"
+    },
+    {
+      "name": "candle4"
+    },
+    {
+      "name": "candle3"
+    },
+    {
+      "name": "candle3_lit",
+      "delays": [
+        [
+          0.13,
+          0.15,
+          0.13,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "candle2"
+    },
+    {
+      "name": "candle2_lit",
+      "delays": [
+        [
+          0.13,
+          0.15,
+          0.13,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "candle1"
+    },
+    {
+      "name": "candle1_lit",
+      "delays": [
+        [
+          0.13,
+          0.15,
+          0.13,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "Misc"
+    },
+    {
+      "name": "butane"
+    }
+  ]
+}

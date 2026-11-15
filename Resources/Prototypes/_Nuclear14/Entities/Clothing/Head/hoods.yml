@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodLeatherCloak
   name: leather cloak hood
@@ -16,6 +17,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodGhillieCloak
   name: ghillie cloak hood
@@ -33,6 +35,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodRangerCloak
   name: ranger cloak hood
@@ -58,6 +61,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodPonchoCloak
   name: poncho cloak hood
@@ -83,6 +87,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodScribeTabard
   name: midwest Scribe tabard hood
@@ -100,6 +105,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodBlackRobe
   name: black robe hood
@@ -118,6 +124,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingHeadHatHoodBlackRobe
   id: N14ClothingHeadHatHoodLeatherRobe
   name: Leather robe hood
@@ -129,6 +136,7 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/falloutleatherrobes.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadTribalCloakHood
   name: tribal cloak hood
@@ -143,6 +151,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadTribalCloakHoodBr
   name: tribal cloak hood
@@ -157,6 +166,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadTribalUniformHood
   name: tribal hood
@@ -171,6 +181,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadMarksmanHood
   name: coat hood
@@ -185,6 +196,7 @@
     - Hair
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingHeadBase
   id: N14ClothingHeadBearHood
   name: Bear pelt hood

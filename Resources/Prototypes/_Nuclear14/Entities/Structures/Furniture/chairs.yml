@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ChairWood
   id: N14ChairSchool
   name: school chair
@@ -12,6 +13,7 @@
     node: N14ChairSchool
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ChairWood
   id: N14ChairWood
   name: wooden chair
@@ -25,6 +27,7 @@
     node: N14ChairWood
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ChairWood
   id: N14ChairWood1
   components:
@@ -36,6 +39,7 @@
     node: N14ChairWood1
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ChairWood
   id: N14ChairWoodPadded
   suffix: padded
@@ -48,6 +52,7 @@
     node: N14ChairWoodPadded
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairWood
   id: N14ChairWoodSettler
   name: wooden chair
@@ -60,6 +65,7 @@
     node: N14ChairWoodSettler
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StoolBase
   id: N14ChairStoolBarBlack
   description: A black bar stool.
@@ -73,6 +79,7 @@
     node: N14ChairStoolBarBlack
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StoolBase
   id: N14ChairStoolBarTan
   description: A tan bar stool.
@@ -85,6 +92,7 @@
     node: N14ChairStoolBarTan
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: StoolBase
   id: N14ChairStoolBarRed
   description: A red bar stool.
@@ -97,6 +105,7 @@
     node: N14ChairStoolBarRed
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairWood
   id: N14ChairArmchair
   name: armchair
@@ -111,6 +120,7 @@
     
 # Metal Chairs
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: Chair
   id: N14ChairMetalGreen
   description: A metal chair for sitting on.
@@ -123,6 +133,7 @@
     node: N14ChairMetalGreen
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalGreenUnfinished
   suffix: unfinished
@@ -131,6 +142,7 @@
     state: metal_chair_unfinished
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalGreenBroken
   suffix: broken
@@ -140,6 +152,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalBlue
   suffix: blue
@@ -152,6 +165,7 @@
     node: N14ChairMetalBlue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalBlueUnfinished
   suffix: blue, unfinished
@@ -160,6 +174,7 @@
     state: metal_chair_blue_unfinished
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalBlueBroken
   suffix: blue, broken
@@ -169,6 +184,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalRed
   suffix: red
@@ -181,6 +197,7 @@
     node: N14ChairMetalRed
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalRedUnfinished
   suffix: red, unfinished
@@ -189,6 +206,7 @@
     state: metal_chair_red_unfinished
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalRedBroken
   suffix: red, broken
@@ -198,6 +216,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeRed
   name: office chair
@@ -211,6 +230,7 @@
     node: N14ChairOfficeRed
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeRedBroken
   suffix: red, broken
@@ -221,6 +241,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeBlue
   name: office chair
@@ -234,6 +255,7 @@
     node: N14ChairOfficeBlue
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairOfficeRed
   id: N14ChairOfficeBlueBroken
   suffix: blue, broken
@@ -244,6 +266,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeGreen
   name: office chair
@@ -257,6 +280,7 @@
     node: N14ChairOfficeGreen
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeGreenBroken
   suffix: green, broken
@@ -267,6 +291,7 @@
     
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OfficeChairBase
   id: N14ChairOfficeErgonomic
   suffix: ergo
@@ -279,6 +304,7 @@
     node: N14ChairOfficeErgonomic
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairMetalFolding
   name: folding chair
@@ -291,6 +317,7 @@
     node: N14ChairMetalFolding
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairBarRetro
   name: retro chair
@@ -300,6 +327,7 @@
     state: retro_chair
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairPlastic
   name: plastic chair
@@ -313,6 +341,7 @@
     node: N14ChairPlastic
     
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ChairMetalGreen
   id: N14ChairDinerBench
   name: diner chair

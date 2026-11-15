@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "roller_down"
+    },
+    {
+      "name": "roller_up"
+    },
+    {
+      "name": "folded"
+    },
+    {
+      "name": "beacon_active_down",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "beacon_active_up",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "winched_stretcher",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "stretcher_up"
+    },
+    {
+      "name": "stretcher_down"
+    },
+    {
+      "name": "stretcher_box"
+    },
+    {
+      "name": "stretcher_folded"
+    },
+    {
+      "name": "surgical_down"
+    },
+    {
+      "name": "surgical_up"
+    },
+    {
+      "name": "surgical_folded"
+    }
+  ]
+}

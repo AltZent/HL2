@@ -16,6 +16,7 @@
 # Cautery
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: cautery
   id: Cautery
   parent: BaseToolSurgery
@@ -47,6 +48,7 @@
 # Drill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: drill
   id: Drill
   parent: BaseToolSurgery
@@ -92,6 +94,7 @@
 # Scalpel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: scalpel
   id: Scalpel
   parent: BaseToolSurgery
@@ -142,6 +145,7 @@
   - type: Scalpel
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shiv
   id: ScalpelShiv
   parent: Scalpel
@@ -155,6 +159,7 @@
     heldPrefix: shiv
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
@@ -174,6 +179,7 @@
     speed: 1.25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: laser scalpel
   id: ScalpelLaser
   parent: Scalpel
@@ -199,6 +205,7 @@
 # Retractor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: retractor
   id: Retractor
   parent: BaseToolSurgery
@@ -243,6 +250,7 @@
 # Hemostat
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: hemostat
   id: Hemostat
   parent: BaseToolSurgery # Shitmed Change
@@ -287,6 +295,7 @@
 
 # Bone setter - Shitmed Change
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseToolSurgery
   id: Bonesetter
   name: bone setter
@@ -301,6 +310,7 @@
 
 # Bone Gel - Shitmed Change
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseToolSurgery
   id: BoneGel
   name: bottle of bone gel
@@ -314,6 +324,7 @@
 # Saws
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: metal saw
   id: Saw
   parent: BaseToolSurgery
@@ -360,6 +371,7 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: choppa
   id: SawImprov
   parent: Saw
@@ -393,6 +405,7 @@
     speed: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: circular saw
   id: SawElectric
   parent: Saw
@@ -437,6 +450,7 @@
     speed: 1.25
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: advanced circular saw
   id: SawAdvanced
   parent: SawElectric
@@ -481,6 +495,7 @@
 # Shitmed Tools
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: searing tool
   id: EnergyCautery
   parent: Cautery
@@ -512,6 +527,7 @@
     speed: 1.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: energy scalpel
   id: EnergyScalpel
   parent: Scalpel
@@ -543,6 +559,7 @@
     speed: 1.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: mechanical pinches
   id: AdvancedRetractor
   parent: Retractor
@@ -578,6 +595,7 @@
     speed: 1.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: medical multitool
   id: OmnimedTool
   parent: BaseToolSurgery
@@ -612,6 +630,7 @@
     speed: 2
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: OmnimedTool
   id: OmnimedToolSyndie
   components:

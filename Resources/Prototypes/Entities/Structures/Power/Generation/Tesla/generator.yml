@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: TeslaGenerator
   name: tesla generator
   parent: BaseStructureDynamic

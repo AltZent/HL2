@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "sPfence_v_cut"
+    },
+    {
+      "name": "pfence_v"
+    },
+    {
+      "name": "pfence_v_rust"
+    },
+    {
+      "name": "pfence_v_cut"
+    },
+    {
+      "name": "spfence_v"
+    },
+    {
+      "name": "spfence_v_melt"
+    },
+    {
+      "name": "spfence_h_melt"
+    },
+    {
+      "name": "spfence_h_cut"
+    },
+    {
+      "name": "pfence_h"
+    },
+    {
+      "name": "pfence_h_melt"
+    },
+    {
+      "name": "pfence_h_cut"
+    },
+    {
+      "name": "pfence_post"
+    },
+    {
+      "name": "spfence_h"
+    }
+  ]
+}

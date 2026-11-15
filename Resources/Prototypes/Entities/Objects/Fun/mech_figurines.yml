@@ -20,6 +20,7 @@
     
 #Ripley APLU
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyRipley
   name: ripley toy
@@ -30,6 +31,7 @@
 
 #Fire Ripley
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyFireRipley
   name: fire ripley
@@ -40,6 +42,7 @@
 
 #Death Ripley
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyDeathRipley
   name: deathripley toy
@@ -50,6 +53,7 @@
 
 #Ggygax
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyGygax
   name: gygax toy
@@ -60,6 +64,7 @@
 
 #Durand
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyDurand
   name: durand toy
@@ -70,6 +75,7 @@
 
 #H.O.N.K
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyHonk
   name: H.O.N.K. toy
@@ -80,6 +86,7 @@
 
 #Marauder
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyMarauder
   name: marauder toy
@@ -90,6 +97,7 @@
 
 #Seraph
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToySeraph
   name: seraph toy
@@ -100,6 +108,7 @@
 
 #Mauler
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyMauler
   name: mauler toy
@@ -110,6 +119,7 @@
 
 #Odysseus
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyOdysseus
   name: odysseus toy
@@ -120,6 +130,7 @@
 
 #Phazon
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyPhazon
   name: phazon toy
@@ -130,6 +141,7 @@
 
 #Reticence
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseFigurineMech
   id: ToyReticence
   name: reticence toy

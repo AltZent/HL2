@@ -38,6 +38,7 @@
       80: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: shadow cat
   parent: BaseShadowMob
   id: MobCatShadow

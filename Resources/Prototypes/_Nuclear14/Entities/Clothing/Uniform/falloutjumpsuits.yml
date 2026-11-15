@@ -15,6 +15,7 @@
 
 #Mark: uniforms
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitVault
   name: vault jumpsuit
@@ -26,6 +27,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Vault/vaultsuitempty.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitVault14
   name: vault 14 jumpsuit
@@ -37,6 +39,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Vault/vaultsuit14.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitDetectiveAlt
   name: detective's suit
@@ -48,6 +51,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/detectivealt.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBartenderAlt
   name: bartending uniform
@@ -59,6 +63,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/bartenderalt.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitRDFormal
   name: research director's formal suit
@@ -70,6 +75,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rdformal.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitRags
   name: wastelander rags
@@ -84,6 +90,7 @@
     node: rags
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitSettlerRags
   name: wasteland settler rags
@@ -95,6 +102,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/wastelandsettler.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCheckered
   name: checkered suit
@@ -106,6 +114,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/checkered.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitWastelandDoc
   name: wasteland doctor's apparel
@@ -130,6 +139,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitMerc
   name: mercenary uniform
@@ -141,6 +151,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/mercc.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitMerchant
   name: merchant apparel
@@ -152,6 +163,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/merchant.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitTrader
   name: trader apparel
@@ -163,6 +175,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/trader.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCaravan
   name: caravaneer apparel
@@ -174,6 +187,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/caravaneer.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitMechanic
   name: mechanic's jumpsuit
@@ -186,6 +200,7 @@
 
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarRelaxed
   name: pre-war relaxedwear
@@ -197,6 +212,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/relaxedwear.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarCasual
   name: pre-war casualwear
@@ -208,6 +224,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/casualwear.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitManagerSuit
   name: pre-war businessman suit
@@ -219,6 +236,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/manager.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarManager
   name: black suit
@@ -230,6 +248,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/blacksuit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBlueSuit
   name: blue suit
@@ -241,6 +260,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/bluesuit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarLumberjack
   name: lumberjack apparel
@@ -252,6 +272,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/lumberjack.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCombat
   name: combat jumpsuit
@@ -263,6 +284,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/combatjumpsuit.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitTribal
   name: tribal apparel
@@ -274,6 +296,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/tribal.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitWarriorTribal
   name: tribal warrior apparel
@@ -285,6 +308,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/tribalwarrior.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitdrylanderTribal
   name: tribal clothing
@@ -296,6 +320,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/drylander-uniform.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuittribalpantsf
   name: tribal clothing
@@ -307,6 +332,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/tribal-pants-f.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuittribalpantsm
   name: tribal clothing
@@ -318,6 +344,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/tribal-pants-m.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuittribalpantsnecklace
   name: tribal clothing
@@ -329,6 +356,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/tribal-pants-necklace.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitWesternTribe
   name: tribal clothing
@@ -347,6 +375,7 @@
       toggleable-clothing: !type:Container
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBrahminFarmer
   name: brahmin farmer apparel
@@ -358,6 +387,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/brahminfarmer.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitFollowers
   name: followers of the apocalypse uniform
@@ -369,6 +399,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/followersuni.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCowboyBrown
   name: brown cowboy apparel
@@ -380,6 +411,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/cowboybrown.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCowboyGrey
   name: grey cowboy apparel
@@ -391,6 +423,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/cowboygrey.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitFudd
   name: fudd clothes
@@ -402,6 +435,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/fudd.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitMilUniform
   name: prewar military uniform
@@ -413,6 +447,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/prewaruniform.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitwinter
   name: padded winter clothing
@@ -424,6 +459,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/PeltClothing.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitLeatherSuit
   name: drab winter clothing
@@ -438,6 +474,7 @@
 #NCR
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformNCRDesert
   name: NCR trooper uniform
@@ -449,6 +486,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRuniform2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingOfficerUniformNCRDesert
   name: field NCR officer uniform
@@ -460,6 +498,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRofficer2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingMPUniformNCRDesert
   name: NCR military police uniform
@@ -471,6 +510,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRmp2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformNCRSnow
   name: NCR trooper uniform
@@ -482,6 +522,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRuniform.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingOfficerUniformNCRSnow
   name: field NCR officer uniform
@@ -493,6 +534,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRofficer.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingMPUniformNCRSnow
   name: NCR military police uniform
@@ -504,6 +546,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRmp.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: ClothingUniformBase
   id: N14ClothingUniformNCRCFUniform
   name: NCR CF uniform
@@ -515,6 +558,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/ncrcorrectionsuniform.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingOfficerUniformNCRNavy
   name: NCR navy uniform
@@ -526,6 +570,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/NCRNavy.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerV1
   name: ranger formal apparel
@@ -537,6 +582,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerv1.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerV2
   name: ranger casual apparel
@@ -548,6 +594,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerv2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerV3
   name: republic ranger uniform
@@ -559,6 +606,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerv3.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerPatrol
   name: patrol ranger uniform
@@ -570,6 +618,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerpatrol.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerModif
   name: green ranger uniform
@@ -581,6 +630,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangermodif.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformDesertPants
   name: desert pants
@@ -592,6 +642,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/desertpants.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformDesertPantsFull
   name: desert bdu
@@ -603,6 +654,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/desertbdu.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerBlue
   name: blue ranger outfit
@@ -614,6 +666,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerblue.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerVeteran
   name: ranger flannel outfit
@@ -625,6 +678,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerveteran.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerVeteranBlack
   name: black ranger flannel outfit
@@ -636,6 +690,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/rangerveteranblack.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformRangerVeteranRed
   name: Thaxton's ranger flannel outfit
@@ -649,6 +704,7 @@
 #midwest BoS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSGreen
   name: MidWest brotherhood uniform
@@ -660,6 +716,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosgreen.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformBosRecon
   name: MidWest brotherhood paladin uniform
@@ -671,6 +728,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosrecon.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSScribe
   name: MidWest brotherhood scribe uniform
@@ -682,6 +740,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/midwestbosscribe.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSFieldScribe
   name: MidWest brotherhood scribe uniform
@@ -697,6 +756,7 @@
 #washington BoS
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSWashingtonFieldScribe
   name: washington brotherhood cleric uniform
@@ -708,6 +768,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosfieldscribe.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSRed
   name: washington brotherhood undersuit
@@ -719,6 +780,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosred.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSBlack
   name: black washington brotherhood uniform
@@ -730,6 +792,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosbasic.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSSilver
   name: washington brotherhood of steel uniform
@@ -744,6 +807,7 @@
 # RCMP
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitRCMP
   name: RCMP uniform
@@ -757,6 +821,7 @@
 # Chinese renmants
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitChinese
   name: chinese uniform
@@ -770,6 +835,7 @@
 # Vancouver preventor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitVancouver
   name: vancouver preventor uniform
@@ -783,6 +849,7 @@
 #Blue Line Caravan Co
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCaravanShirt
   name: Blue Line Caravan Co. uniform
@@ -794,6 +861,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/caravancompanyuniform.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCaravanOveralls
   name: Blue Line Caravan Co. overalls
@@ -805,6 +873,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/caravancompanyoveralls.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitCaravanSuit
   name: Blue Line Caravan Co. suit
@@ -817,6 +886,7 @@
 
 # The Town Guard's uniforms
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14ClothingUniformJumpsuitTownGuard
   name: the Guard's uniform
@@ -830,6 +900,7 @@
     price: 50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformJumpsuitTownGuard
   id: N14ClothingUniformJumpsuitTownGuardLight
   components:
@@ -839,6 +910,7 @@
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/townguarduniformlight.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14UniformShortsRed
   name: boxing shorts
@@ -850,6 +922,7 @@
     sprite: Clothing/Uniforms/Shorts/Color/red.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14UniformShortsRedWithTop
   name: boxing shorts with top
@@ -861,6 +934,7 @@
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14ClothingUniformBase
   id: N14UniformLawersTux
   name: Lawyers suit

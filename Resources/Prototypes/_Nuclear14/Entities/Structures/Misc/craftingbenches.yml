@@ -38,6 +38,7 @@
       - N14Workbench
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchWeaponbench
   description: A workbench with weapon working tools for crafting.
@@ -82,8 +83,6 @@
       - N14LongSword
       - N14Bola
       # Blueprints
-      - N14WeaponLaserRevolverBlueprint
-      - N14WeaponLaserRifleMakeshiftBlueprint
       - N14WeaponRifle556PipeBlueprint
       - N14WeaponSniper50PipeBlueprint
       # Gun Parts
@@ -102,6 +101,7 @@
       - N14JunkGunpartsTrigger
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchAmmobench
   description: A workbench with ammo working tools for crafting.
@@ -168,6 +168,7 @@
       - MagazineBox50
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchAmmobenchFrame
   description: A workbench with ammo working tools for crafting. This one is still being built!
@@ -196,6 +197,7 @@
     defaultTarget: WorkbenchAmmobench
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchArmorbench
   description: A workbench with armor working tools for crafting.
@@ -238,6 +240,7 @@
       - ClothingBeltQuiverSpear
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchTinkerbench
   description: A workbench with tinkering tools for crafting.
@@ -271,6 +274,7 @@
       - DoorElectronics
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14WorkbenchChemistryset
   description: A chemistry set for crafting drugs and compounds
@@ -326,6 +330,7 @@
     unlimited: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseStructure
   id: N14WorkbenchChemistrysetFrame
   description: A chemistry set for crafting drugs and compounds. This one is still being built!
@@ -354,6 +359,7 @@
     defaultTarget: WorkbenchChemistryset
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchMetal
   description: A workbench with metal working tools for crafting.
@@ -455,6 +461,7 @@
       - N14PortableGeneratorWeldingFuelMachineParts
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchMetalFrame
   description: A workbench with metal working tools for crafting. This one is still being built!
@@ -482,6 +489,7 @@
     defaultTarget: WorkbenchMetal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchForge
   description: A forge made from pieces of scrap. Looks hot.
@@ -532,6 +540,7 @@
       - CharcoalToCoal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchBase
   id: N14WorkbenchForgeFrame
   description: A forge made from pieces of scrap. Looks hot. This one is still being built!
@@ -589,6 +598,7 @@
     runningState: building
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterTownspeople
   description: An ID printer for printing town passports
@@ -605,6 +615,7 @@
     - PassportTownsfolkMayor
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterBrotherhoodMidwest
   description: An ID printer for printing Midwest Brotherhood holotags.
@@ -618,6 +629,7 @@
     - HolotagMidwestPaladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterBrotherhoodWashington
   description: An ID printer for printing Washington Brotherhood holotags.
@@ -631,6 +643,7 @@
     - HolotagWashingtonPaladin
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterCaravan
   description: An ID printer for printing caravan IDs.
@@ -642,6 +655,7 @@
     - PassportCaravanTrader
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterNCR
   description: An ID printer for printing NCR IDs.
@@ -653,6 +667,7 @@
     - DogtagNCRNCO
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterVault
   description: An ID printer for printing Vault IDs.

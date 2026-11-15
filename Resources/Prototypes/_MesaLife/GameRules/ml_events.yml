@@ -1,0 +1,72 @@
+# ML (Half-Life themed) station events.
+# Mob migrations through the tunnels/vents, on existing ML mobs.
+# Only these events have an active StationEvent component in this fork,
+# so the RampingStationEventScheduler picks exclusively from these.
+
+- type: entity
+  id: HeadcrabMigration
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    earliestStart: 10
+    reoccurrenceDelay: 45
+    maxOccurrences: 3
+    duration: 5
+    weight: 10
+  - type: VentCrittersRule
+    entries:
+    - id: MLMobHeadcrab
+      prob: 0.06
+    - id: MLMobHeadcrabBaby
+      prob: 0.08
+    - id: MLMobHeadcrabFast
+      prob: 0.03
+    specialEntries:
+    - id: MLMobHeadcrabPoison
+      prob: 0.05
+
+- type: entity
+  id: AntlionRaid
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    earliestStart: 20
+    reoccurrenceDelay: 60
+    maxOccurrences: 2
+    duration: 5
+    minimumPlayers: 5
+    weight: 8
+  - type: VentCrittersRule
+    entries:
+    - id: MLMobAntlion
+      prob: 0.05
+    - id: MLMobAntlionWorker
+      prob: 0.05
+    specialEntries:
+    - id: MLMobAntlionGuard
+      prob: 0.02
+
+- type: entity
+  id: CombineSweep
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    earliestStart: 15
+    reoccurrenceDelay: 45
+    maxOccurrences: 2
+    duration: 5
+    minimumPlayers: 5
+    weight: 6
+  - type: VentCrittersRule
+    entries:
+    - id: MLMobViscerator
+      prob: 0.08
+    specialEntries:
+    - id: MLMobViscerator
+      prob: 0.1

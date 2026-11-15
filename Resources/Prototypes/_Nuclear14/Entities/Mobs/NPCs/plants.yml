@@ -29,6 +29,7 @@
         - SmallMobLayer
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   name: spore plant
   parent: N14MobBaseHostilePlant
   id: N14MobSporeplant

@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: BaseMagazine556Rifle
   name: "magazine (5.56mm)"
   parent: BaseItem
@@ -33,6 +34,7 @@
   - type: Craftable
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: Magazine556Rifle
   name: "magazine (5.56mm)"
   parent: BaseMagazine556Rifle
@@ -41,6 +43,7 @@
     proto: N14Cartridge556Rifle
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LongMagazine556Rifle
   name: "carbine magazine (5.56mm)"
   parent: BaseMagazine556Rifle
@@ -56,6 +59,7 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/5.56/mag2.rsi
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   id: LMGMagazine556Rifle
   name: "LMG magazine (5.56mm)"
   parent: BaseMagazine556Rifle

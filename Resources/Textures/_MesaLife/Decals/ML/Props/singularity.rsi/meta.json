@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ca"
+    },
+    {
+      "name": "ca_on"
+    },
+    {
+      "name": "ca_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ca_deactive",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ptank"
+    },
+    {
+      "name": "on"
+    },
+    {
+      "name": "cu"
+    },
+    {
+      "name": "cu_1_on"
+    },
+    {
+      "name": "cu_2_on"
+    },
+    {
+      "name": "cu_3_on"
+    },
+    {
+      "name": "cu_4_on"
+    },
+    {
+      "name": "cu_n_error"
+    },
+    {
+      "name": "cu_on"
+    },
+    {
+      "name": "cu_sing"
+    },
+    {
+      "name": "cu_conterr"
+    },
+    {
+      "name": "TheSingGen"
+    },
+    {
+      "name": "Contain_F",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "singularity_s1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "beacon0"
+    },
+    {
+      "name": "beacon1",
+      "delays": [
+        [
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "beaconsynd0"
+    },
+    {
+      "name": "beaconsynd1",
+      "delays": [
+        [
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "emitter",
+      "directions": 4
+    },
+    {
+      "name": "emitter__a",
+      "directions": 4
+    }
+  ]
+}

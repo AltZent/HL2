@@ -1,4 +1,5 @@
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseMachinePowered
   id: FaxMachineBase
   name: long range fax machine
@@ -73,6 +74,7 @@
 
 # Special
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FaxMachineBase
   id: FaxMachineCentcom
   name: CentCom long range fax machine
@@ -88,6 +90,7 @@
     notifyAdmins: true
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FaxMachineBase
   id: FaxMachineSyndie
   name: syndicate long range fax machine
@@ -105,6 +108,7 @@
   - type: Emagged
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: FaxMachineBase
   id: FaxMachineCaptain
   name: captain long range fax machine

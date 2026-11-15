@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "license": "GPL-3.0-or-later",
+  "copyright": "Sprites from https://github.com/Marmio64/halflife-episode13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "plant_1"
+    },
+    {
+      "name": "plant_2"
+    },
+    {
+      "name": "plant_3"
+    },
+    {
+      "name": "plant_4"
+    },
+    {
+      "name": "plant_5"
+    },
+    {
+      "name": "plant_6"
+    },
+    {
+      "name": "plant_7"
+    },
+    {
+      "name": "bush_1",
+      "directions": 4
+    }
+  ]
+}

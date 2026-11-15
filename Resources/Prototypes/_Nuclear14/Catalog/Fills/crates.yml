@@ -477,28 +477,6 @@
 
 - type: entity
   parent: N14CrateBreakPlain
-  id: N14CrateBreakPlainFilledEnergyCell
-  name: Energy cell crate
-  description: Crate containing 4 energy cells.
-  components:
-  - type: StorageFill
-    contents:
-      - id: N14PowerCellSmall
-        amount: 4
-
-- type: entity
-  parent: N14CrateBreakPlain
-  id: N14CrateBreakPlainFilledMFCell
-  name: MF cell crate
-  description: Crate containing 4 MF cells.
-  components:
-  - type: StorageFill
-    contents:
-      - id: N14PowerCellHigh
-        amount: 4
-
-- type: entity
-  parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledC4
   name: C4 crate
   description: Crate containing 2 bundles of C4 .
